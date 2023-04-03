@@ -363,6 +363,7 @@ Se heftet for alle.
 1. Ser vi på oppgave 1. i læringsmålet **Finne eksplisitt uttrykk for figurtall** på Avansert nivå, ser vi at mye av arbeidet allerede er forklart.
    a. Vi kan for eksempel tegne figurene på følgende måte (prøv selv og tegne neste med egne farger, der det forrige figur kommer tydelig fram i neste).
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/rekursivtall.svg)
+   b. Fra tidligere har vi at formen på tillegget er $2n+1$ og dermed vet vi derfor at $F_n = F_{n-1} + 2n+1$
 
 
 ### Beskrive oppbygningen av figurtall (alle typer)
