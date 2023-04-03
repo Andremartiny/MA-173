@@ -1,0 +1,1 @@
+inkluderer CSS i selve htmlfila: pandoc .\quizzer\geometri\geo.md -f markdown -t html --mathjax --template=template.html --toc -s -H styling.css -o .\quizzer\geometri\geo.html 

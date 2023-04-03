@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1"
+    />
+    <title>HTML Page with Divs</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"
+      loading="lazy"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.1.0/dist/lazyload.min.js"></script>
+    <script>
+      var lazyLoadInstance = new LazyLoad({
+        elements_selector: ".lazy",
+      });
+    </script>
+  </head>
+  <body>
+    <div id="mainpage">
+      <h1 style="font-weight: 1000; font-size: 3em">MA-173</h1>
+      <h2 onclick="moveDivs('mainpage', 'tallteori')">Tallteori</h2>
+      <h2 onclick="moveDivs('mainpage', 'funk')">Funksjoner</h2>
+      <h2 onclick="moveDivs('mainpage', 'likn')">Likninger og ulikheter</h2>
+      <h2 onclick="moveDivs('mainpage', 'geo')">Måling og areal</h2>
+      <h2 onclick="moveDivs('mainpage', 'tall')">Tall</h2>
+      <h2 onclick="moveDivs('mainpage', 'sannsyn')">
+        Sannsynlighet og kombinatorikk
+      </h2>
+    </div>
+    <div id="tallteori">
+      <h1 onclick="moveDivsback('mainpage', 'tallteori')">Tilbake til tema</h1>
+      <table>
+        <tr>
+          <td  colspan="4"><h2>Tallteori</h2></td>
+        </tr>
+        <tr>
+          <td colspan="4"><h3>Faktorisering og primtall</h3></td>
+        </tr>
+        <tr>
+          <td>
+            Bruke begrepene faktor (divisor), felles faktor og største felles
+            faktor, multiplum, felles multiplum og minste felles multiplum.
+          </td>
+          <td
+            onclick="moveDivs('tallteori','tallteo1g')"
+          >
+            Grunnleggende
+          </td>
+          <td
+            onclick="moveDivs('tallteori','tallteo1m')"
+          >
+            Medium
+          </td>
+          <td
+            onclick="moveDivs('tallteori','tallteo1a')"
+          >
+            Avansert
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Bruke begrepene naturlig tall, partall og oddetall, primtall og
+            sammensatt tall.
+          </td>
+          <td
+            onclick="moveDivs('tallteori','tallteo2g')"
+          >
+            Grunnleggende
+          </td>
+          <td
+            onclick="moveDivs('tallteori','tallteo2m')"
+          >
+            Medium
+          </td>
+          <td
+            onclick="moveDivs('tallteori','tallteo2a')"
+          >
+            Avansert
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Begrunne delelighetsreglene for tall som er delelig med 2, 3, 4, 5,
+            6 og 9.
+          </td>
+          <td></td>
+          <td
+            onclick="moveDivs('tallteori','tallteo3m')"
+          >
+            Medium
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td colspan="4"><h3>Figurtall</h3></td>
+        </tr>
+        <tr>
+          <td>Finne eksplisitt uttrykk for figurtall.</td>
+          <td
+            onclick="moveDivs('tallteori','tallteo4g')"
+          >
+            Grunnleggende
+          </td>
+          <td
+            onclick="moveDivs('tallteori','tallteo4m')"
+          >
+            Medium
+          </td>
+          <td
+            onclick="moveDivs('tallteori','tallteo4a')"
+          >
+            Avansert
+          </td>
+        </tr>
+        <tr>
+          <td>Finne rekursivt uttrykk for figurtall.</td>
+          <td
+            onclick="moveDivs('tallteori','tallteo5g')"
+          >
+            Grunnleggende
+          </td>
+          <td
+            onclick="moveDivs('tallteori','tallteo5m')"
+          >
+            Medium
+          </td>
+          <td>
+          </td>
+        </tr>
+        <tr>
+          <td>Beskrive oppbygningen av figurtall (alle typer).</td>
+          <td
+            onclick="moveDivs('tallteori','tallteo6g')"
+          >
+            Grunnleggende
+          </td>
+          <td
+            onclick="moveDivs('tallteori','tallteo6m')"
+          >
+            Medium
+          </td>
+          <td
+            onclick="moveDivs('tallteori','tallteo6a')"
+          >
+            Avansert
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Vurdere arbeid med figurtall med hensyn til læreplanens
+            kjerneelementer og didaktikk knyttet til algebraisk tenkning.
+          </td>
+          <td
+          >
+          </td>
+          <td
+            onclick="moveDivs('tallteori','tallteo7m')"
+          >
+            Medium
+          </td>
+          <td
+            onclick="moveDivs('tallteori','tallteo7a')"
+          >
+            Avansert
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div id="funk">
+      <h1 onclick="moveDivsback('mainpage', 'funk')">Tilbake til tema</h1>
+      <table>
+        <tr>
+          <td colspan="4"><h2>Funksjoner</h2></td>
+        </tr>
+        <tr>
+          <td colspan="4"><h3>Lineære og andre typer funksjoner</h3></td>
+        </tr>
+        <tr>
+          <td>
+            Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon.
+          </td>
+          <td
+            onclick="moveDivs('funk','funk1g')"
+          >
+            Grunnleggende
+          </td>
+          <td
+            onclick="moveDivs('funk','funk1m')"
+          >
+          Middels
+          </td>
+          <td
+            onclick="moveDivs('funk','funk1a')"
+          >
+            Avansert
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Forklare sammenhenger mellom parameterne i funksjonsuttrykket og grafen til lineære funksjoner uten hjelp av topunktsformelen.
+
+          </td>
+          <td
+            onclick="moveDivs('funk','funk2g')"
+          >
+            Grunnleggende
+          </td>
+          <td
+            onclick="moveDivs('funk','funk1m')"
+          >
+          Middels
+          </td>
+          <td
+            
+          >
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Forklare hvordan endringer i parameterne i funksjonsuttrykket påvirker grafene til andregrads- og omvendt proporsjonale funksjoner.
+
+          </td>
+          <td
+            onclick="moveDivs('funk','funk3g')"
+          >
+            Grunnleggende
+          </td>
+          <td
+            onclick="moveDivs('funk','funk3m')"
+          >
+          Middels
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>
+            Løse likninger fra funksjonsperspektiv.
+
+          </td>
+          <td
+            onclick="moveDivs('funk','funk4g')"
+          >
+            Grunnleggende
+          </td>
+          <td
+            onclick="moveDivs('funk','funk4m')"
+          >
+          Middels
+          </td>
+          <td
+            onclick="moveDivs('funk','funk4a')"
+          >
+            Avansert
+          </td>
+          
+        </tr>
+        <tr>
+          <td colspan="4"><h3>Begreper og uttrykksformer
+          </h3></td>
+        </tr>
+        <tr>
+          <td>Bruke begrepene funksjon, variabel, uavhengig variabel (innverdi), avhengig variabel (utverdi), funksjonsverdi, definisjonsmengde og verdimengde.
+            .</td>
+          <td
+            onclick="moveDivs('funk','funk5g')"
+          >
+            Grunnleggende
+          </td>
+          <td
+            onclick="moveDivs('funk','funk5m')"
+          >
+          Middels
+          </td>
+          <td
+            
+          >
+          </td>
+        </tr>
+        <tr>
+          <td>Gjøre om mellom ulike representasjonsformer for funksjonssammenhenger.
+          </td>
+          <td
+            
+          >
+          </td>
+          <td
+            onclick="moveDivs('funk','funk6m')"
+          >
+          Middels
+          </td>
+          <td
+           
+          >
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div id="likn">
+      <h1 onclick="moveDivsback('mainpage', 'likn')">Tilbake til tema</h1>
+      <table>
+        <tr>
+            <td><h2>Likninger og ulikheter</h2></td>
+        </tr>
+        <tr>
+            <td>Løse lineære likninger ved hjelp av ulike strategier.</td>
+            <td onclick="moveDivs('likn','likn1g')">Grunnleggende</td>
+            <td onclick="moveDivs('likn','likn1m')"> Medium</td>
+            <td onclick="moveDivs('likn','likn1a')">Avansert</td>
+        </tr>
+        <tr>
+            <td>Løse lineære ulikheter ved hjelp av ulike strategier.</td>
+            <td onclick="moveDivs('likn','likn2g')">Grunnleggende</td>
+            <td onclick="moveDivs('likn','likn2m')">Medium</td>
+            <td onclick="moveDivs('likn','likn2a')">Avansert</td>
+        </tr>
+        <tr>
+            <td>Løse lineære likningssett med to ukjente på ulike måter.</td>
+            <td onclick="moveDivs('likn','likn3g')">Grunnleggende</td>
+            <td onclick="moveDivs('likn','likn3m')">Medium</td>
+            <td ></td>
+        </tr>
+        <tr>
+            <td>Løse kvadratiske likninger ved hjelp av fullstendige kvadraters metode.</td>
+            <td onclick="moveDivs('likn','likn4g')">Grunnleggende</td>
+            <td onclick="moveDivs('likn','likn4m')">Medium</td>
+            <td onclick="moveDivs('likn','likn4a')">Avansert</td>
+        </tr>
+        <tr>
+            <td>Bruke de tre kvadratsetningene.</td>
+            <td onclick="moveDivs('likn','likn5g')">Grunnleggende</td>
+            <td onclick="moveDivs('likn','likn5m')">Medium</td>
+            <td onclick="moveDivs('likn','likn5a')">Avansert</td>
+        </tr>
+    </table>
+    </div>
+    <div id="geo">
+      <h1 onclick="moveDivsback('mainpage', 'geo')">Tilbake til tema</h1>
+      <table>
+        <tr>
+            <td><h2>Måling og areal</h2></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Bruke begrepene måltall, størrelse og måleenhet til å avgjøre størrelsen i grunnleggende figurer i 1- og 2-dimensjoner.</td>
+            <td onclick="moveDivs('geo','geo1g')">Grunnleggende</td>
+            <td onclick="moveDivs('geo','geo1m')">Middels</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Bruke begrepene måltall, størrelse og måleenhet til å avgjøre størrelsen i grunnleggende figurer i 3- dimensjoner.</td>
+            <td onclick="moveDivs('geo','geo2g')">Grunnleggende</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer.</td>
+            <td  onclick="moveDivs('geo','geo3g')">Grunnleggende</td>
+            <td  onclick="moveDivs('geo','geo3m')">Middels</td>
+            <td  onclick="moveDivs('geo','geo3a')">Avansert</td>
+        </tr>
+        <tr>
+            <td>Bruke begrepene mangekant, sirkel, prisme og pyramide.</td>
+            <td onclick="moveDivs('geo','geo4g')">Grunnleggende</td>
+            <td onclick="moveDivs('geo','geo4m')">Middels</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Bruke formler for størrelser av figurer til å utforske geometriske sammenhenger.</td>
+            <td onclick="moveDivs('geo','geo5g')">Grunnleggende</td>
+            <td onclick="moveDivs('geo','geo5m')">Middels</td>
+            <td onclick="moveDivs('geo','geo5a')">Avansert</td>
+        </tr>
+        <tr>
+            <td>Bruke begrepet formlikhet av trekanter</td>
+            <td onclick="moveDivs('geo','geo6g')">Grunnleggende</td>
+            <td onclick="moveDivs('geo','geo6m')">Middels</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Argumentere visuelt for Pytagoras setning</td>
+            <td onclick="moveDivs('geo','geo7g')">Grunnleggende</td>
+            <td onclick="moveDivs('geo','geo7m')">Middels</td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>Bruke Pytagoras setning</td>
+            <td onclick="moveDivs('geo','geo8g')">Grunnleggende</td>
+            <td onclick="moveDivs('geo','geo8m')">Middels</td>
+            <td></td>
+        </tr>
+    </table>
+    </div>
+    <div id="tall">
+      <h1 onclick="moveDivsback('mainpage', 'tall')">Tilbake til tema</h1>
+      <table>
+        <tr>
+            <td><h2>Tall</h2></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Forklare hva et posisjonssystem er, og regne med tall uttrykt i posisjonssystem med ulike baser.</td>
+            <td onclick="moveDivs('tall','tall1g')">Grunnleggende</td>
+            <td onclick="moveDivs('tall','tall1m')">Middels</td>
+            <td onclick="moveDivs('tall','tall1a')">Avansert</td>
+        </tr>
+        <tr>
+            <td>Beskrive situasjoner med hensyn til additive strukturer.</td>
+            <td onclick="moveDivs('tall','tall2g')">Grunnleggende</td>
+            <td onclick="moveDivs('tall','tall2m')">Middels</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Beskrive situasjoner med hensyn til multiplikative strukturer.</td>
+            <td onclick="moveDivs('tall','tall3g')">Grunnleggende</td>
+            <td onclick="moveDivs('tall','tall3m')">Middels</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Bruke regnestrategier og egenskaper ved regneoperasjonene.</td>
+            <td onclick="moveDivs('tall','tall4g')">Grunnleggende</td>
+            <td onclick="moveDivs('tall','tall4m')">Middels</td>
+            <td onclick="moveDivs('tall','tall4a')">Avansert</td>
+        </tr>
+        <tr>
+            <td>Forklare og gi eksempler på de ulike betydningene av brøk: del av hel/enhet, del av antall, tall og forhold.</td>
+            <td onclick="moveDivs('tall','tall5g')">Grunnleggende</td>
+            <td onclick="moveDivs('tall','tall5m')">Middels</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Forklare hvordan de reelle tallene er bygd opp.</td>
+            <td onclick="moveDivs('tall','tall6g')">Grunnleggende</td>
+            <td onclick="moveDivs('tall','tall6m')">Middels</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Utvide og forkorte brøker.</td>
+            <td></td>
+            <td onclick="moveDivs('tall','tall7m')">Middels</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Utføre addisjon og subtraksjon med brøk.</td>
+            <td onclick="moveDivs('tall','tall8g')">Grunnleggende</td>
+            <td onclick="moveDivs('tall','tall8m')">Middels</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Utføre multiplikasjon med brøk.</td>
+            <td onclick="moveDivs('tall','tall9g')">Grunnleggende</td>
+            <td onclick="moveDivs('tall','tall9m')">Middels</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Utføre divisjon med brøk.</td>
+            <td onclick="moveDivs('tall','tall10g')">Grunnleggende</td>
+            <td onclick="moveDivs('tall','tall10m')">Middels</td>
+            <td onclick="moveDivs('tall','tall10a')">Avansert</td>
+        </tr>
+        <tr>
+            <td>Utføre formell omforming av brøk.</td>
+            <td></td>
+            <td></td>
+            <td onclick="moveDivs('tall','tall11a')">Avansert</td>
+        </tr>
+        <tr>
+            <td>Forklare begrepet og regne med desimaltall (desimalbrøk i Alfa).</td>
+            <td onclick="moveDivs('tall','tall12g')">Grunnleggende</td>
+            <td onclick="moveDivs('tall','tall12m')">Middels</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Gjøre om mellom brøk og desimaltall</td>
+            <td onclick="moveDivs('tall','tall13g')">Grunnleggende</td>
+            <td onclick="moveDivs('tall','tall13m')">Middels</td>
+            <td onclick="moveDivs('tall','tall13a')">Avansert</td>
+        </tr>
+        <tr>
+            <td>Begrunne hvilke brøker som svarer til endelige og hvilke som svarer til periodiske desimaltall.</td>
+            <td></td>
+            <td onclick="moveDivs('tall','tall14g')">Middels</td>
+            <td onclick="moveDivs('tall','tall14m')">Avansert</td>
+        </tr>
+        <tr>
+            <td>Utføre og begrunne prosentregning.</td>
+            <td onclick="moveDivs('tall','tall15g')">Grunnleggende</td>
+            <td onclick="moveDivs('tall','tall15m')">Middels</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Løse (ukjente) problemer knyttet til brøk, prosent (og desimaltall).</td>
+            <td></td>
+            <td></td>
+            <td onclick="moveDivs('tall','tall16a')">Avansert</td>
+        </tr>
+        <tr>
+            <td>Utføre addisjon og subtraksjon med negative tall.</td>
+            <td onclick="moveDivs('tall','tall17g')">Grunnleggende</td>
+            <td onclick="moveDivs('tall','tall17m')">Middels</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Utføre multiplikasjon og divisjon med negative tall.</td>
+            <td onclick="moveDivs('tall','tall18g')">Grunnleggende</td>
+            <td onclick="moveDivs('tall','tall18m')">Middels</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Gjengi betydningen av potensuttrykk, og regne med potenser.</td>
+            <td onclick="moveDivs('tall','tall19g')">Grunnleggende</td>
+            <td onclick="moveDivs('tall','tall19m')">Middels</td>
+            <td onclick="moveDivs('tall','tall19a')">Avansert</td>
+        </tr>
+        <tr>
+            <td>Utlede potensreglene.</td>
+            <td></td>
+            <td onclick="moveDivs('tall','tall20g')">Middels</td>
+            <td onclick="moveDivs('tall','tall20m')">Avansert</td>
+        </tr>
+    </table>
+    </div>
+    <div id="sannsyn">
+      <h1 onclick="moveDivsback('mainpage', 'sannsyn')">Tilbake til tema</h1>
+      <table>
+        <tr>
+            <td><h2>Sannsynlighet, kombinatorikk og statistikk</h2></td>
+        </tr>
+        <tr>
+            <td>Forklare og bruke begrepene utfallsrom, utfall og hendelse og sannsynlighetsmodell</td>
+            <td onclick="moveDivs('sannsyn','sannsyn1g')">Grunnleggende</td>
+            <td onclick="moveDivs('sannsyn','sannsyn1m')">Middels</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Forklare og bruke begrepet uniform sannsynlighetsmodell.</td>
+            <td onclick="moveDivs('sannsyn','sannsyn2g')">Grunnleggende</td>
+            <td onclick="moveDivs('sannsyn','sannsyn2m')">Middels</td>
+            <td onclick="moveDivs('sannsyn','sannsyn2a')">Avansert</td>
+        </tr>
+        <tr>
+            <td>Forklare og bruke store talls lov</td>
+            <td onclick="moveDivs('sannsyn','sannsyn3g')">Grunnleggende</td>
+            <td onclick="moveDivs('sannsyn','sannsyn3m')">Middels</td>
+            <td onclick="moveDivs('sannsyn','sannsyn3a')">Avansert</td>
+        </tr>
+        <tr>
+            <td>Forklare, illustrere og bruke produktregelen</td>
+            <td onclick="moveDivs('sannsyn','sannsyn4g')">Grunnleggende</td>
+            <td onclick="moveDivs('sannsyn','sannsyn4m')">Middels</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Forklare og bruke begrepene ordnet utvalg med og uten tilbakelegg.</td>
+            <td onclick="moveDivs('sannsyn','sannsyn5g')">Grunnleggende</td>
+            <td onclick="moveDivs('sannsyn','sannsyn5m')">Middels</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Forklare og bruke begrepene uordnet utvalg med og uten tilbakelegg.</td>
+            <td onclick="moveDivs('sannsyn','sannsyn6g')">Grunnleggende</td>
+            <td onclick="moveDivs('sannsyn','sannsyn6m')">Middels</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Avgjøre om utvalg er ordnet eller uordnet og om det er med eller uten tilbakelegg</td>
+            <td></td>
+            <td onclick="moveDivs('sannsyn','sannsyn7m')">Middels</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Forklare, illustrere og bruke addisjonssetningen (for sannsynlighet og kombinatorikk).</td>
+            <td onclick="moveDivs('sannsyn','sannsyn8g')">Grunnleggende</td>
+            <td onclick="moveDivs('sannsyn','sannsyn8m')">Middels</td>
+            <td onclick="moveDivs('sannsyn','sannsyn8a')">Avansert</td>
+        </tr>
+        <tr>
+            <td>Forklare, illustrere og bruke komplementsetningen.</td>
+            <td onclick="moveDivs('sannsyn','sannsyn9g')">Grunnleggende</td>
+            <td onclick="moveDivs('sannsyn','sannsyn9m')">Middels</td>
+            <td onclick="moveDivs('sannsyn','sannsyn9a')">Avansert</td>
+        </tr>
+        <tr>
+            <td>Bruke begrepene i temaet til å løse sammensatte problemer.</td>
+            <td></td>
+            <td></td>
+            <td onclick="moveDivs('sannsyn','sannsyn10a')">Avansert</td>
+        </tr>
+    </table>
+    </div>
+    <div
+      id="tallteo1g"
+    >
+      <h1
+        onclick="moveDivsback('tallteori','tallteo1g')"
+      >
+        Tilbake til tallteori
+      </h1>
+    </div>
+    <div id="tallteo1m">
+      <h1
+        onclick="moveDivsback('tallteori','tallteo1m')"
+      >
+        Tilbake til tallteori
+      </h1>
+    </div>
+    <div id="tallteo1a">
+      <h1
+        onclick="moveDivsback('tallteori','tallteo1a')"
+      >
+        Tilbake til tallteori
+      </h1>
+    </div>
+    <div
+    id="tallteo2g"
+  >
+    <h1
+      onclick="moveDivsback('tallteori','tallteo2g')"
+    >
+      Tilbake til tallteori
+    </h1>
+  </div>
+  <div id="tallteo2m">
+    <h1
+      onclick="moveDivsback('tallteori','tallteo2m')"
+    >
+      Tilbake til tallteori
+    </h1>
+  </div>
+  <div id="tallteo2a">
+    <h1
+      onclick="moveDivsback('tallteori','tallteo2a')"
+    >
+      Tilbake til tallteori
+    </h1>
+  </div>
+<div id="tallteo3m">
+  <h1
+    onclick="moveDivsback('tallteori','tallteo3m')"
+  >
+    Tilbake til tallteori
+  </h1>
+</div>
+<div
+id="tallteo4g"
+>
+<h1
+  onclick="moveDivsback('tallteori','tallteo4g')"
+>
+  Tilbake til tallteori
+</h1>
+</div>
+<div id="tallteo4m">
+<h1
+  onclick="moveDivsback('tallteori','tallteo4m')"
+>
+  Tilbake til tallteori
+</h1>
+</div>
+<div id="tallteo4a">
+<h1
+  onclick="moveDivsback('tallteori','tallteo4a')"
+>
+  Tilbake til tallteori
+</h1>
+</div>
+<div
+id="tallteo5g"
+>
+<h1
+  onclick="moveDivsback('tallteori','tallteo5g')"
+>
+  Tilbake til tallteori
+</h1>
+</div>
+<div id="tallteo5m">
+<h1
+  onclick="moveDivsback('tallteori','tallteo5m')"
+>
+  Tilbake til tallteori
+</h1>
+</div>
+<div
+id="tallteo6g"
+>
+<h1
+  onclick="moveDivsback('tallteori','tallteo6g')"
+>
+  Tilbake til tallteori
+</h1>
+</div>
+<div id="tallteo6m">
+<h1
+  onclick="moveDivsback('tallteori','tallteo6m')"
+>
+  Tilbake til tallteori
+</h1>
+</div>
+<div id="tallteo6a">
+<h1
+  onclick="moveDivsback('tallteori','tallteo6a')"
+>
+  Tilbake til tallteori
+</h1>
+</div>
+<div id="tallteo7m">
+<h1
+  onclick="moveDivsback('tallteori','tallteo7m')"
+>
+  Tilbake til tallteori
+</h1>
+</div>
+<div id="tallteo7a">
+<h1
+  onclick="moveDivsback('tallteori','tallteo7a')"
+>
+  Tilbake til tallteori
+</h1>
+</div>
+<div
+id="funk1g"
+>
+<h1
+  onclick="moveDivsback('funk','funk1g')"
+>
+  Tilbake til funksjoner
+</h1>
+</div>
+<div
+id="funk1m"
+>
+<h1
+  onclick="moveDivsback('funk','funk1m')"
+>
+  Tilbake til funksjoner
+</h1>
+</div>
+<div
+id="funk1a"
+>
+<h1
+  onclick="moveDivsback('funk','funk1a')"
+> 
+  Tilbake til funksjoner
+</h1> 
+</div>
+<div
+id="funk2g"
+>
+<h1
+  onclick="moveDivsback('funk','funk2g')"
+>
+  Tilbake til funksjoner
+</h1>
+</div>
+<div
+id="funk2m"
+>
+<h1
+  onclick="moveDivsback('funk','funk2m')"
+>
+  Tilbake til funksjoner
+</h1>
+</div>
+<div
+id="funk3g"
+>
+<h1
+  onclick="moveDivsback('funk','funk3g')"
+>
+  Tilbake til funksjoner
+</h1>
+</div>
+<div
+id="funk3m"
+>
+<h1
+  onclick="moveDivsback('funk','funk3m')"
+>
+  Tilbake til funksjoner
+</h1>
+</div>
+
+<div
+id="funk4g"
+>
+<h1
+  onclick="moveDivsback('funk','funk4g')"
+>
+  Tilbake til funksjoner
+</h1>
+</div>
+<div
+id="funk4m"
+>
+<h1
+  onclick="moveDivsback('funk','funk4m')"
+>
+  Tilbake til funksjoner
+</h1>
+</div>
+<div
+id="funk4a"
+>
+<h1
+  onclick="moveDivsback('funk','funk4a')"
+>
+  Tilbake til funksjoner
+</h1>
+</div>
+<div
+id="funk5g"
+>
+<h1
+  onclick="moveDivsback('funk','funk5g')"
+>
+  Tilbake til funksjoner
+</h1>
+</div>
+<div
+id="funk5m"
+>
+<h1
+  onclick="moveDivsback('funk','funk5m')"
+>
+  Tilbake til funksjoner
+</h1>
+</div>
+
+<div
+id="funk6m"
+>
+<h1
+  onclick="moveDivsback('funk','funk6m')"
+>
+  Tilbake til funksjoner
+</h1>
+</div>
+<div id=                          "likn1g">
+<h1 onclick="moveDivsback('likn', 'likn1g')"> Tilbake til likninger </h1> </div>
+<div id=                          "likn1m">
+<h1 onclick="moveDivsback('likn', 'likn1m')"> Tilbake til likninger </h1> </div>
+<div id=                          "likn1a">
+<h1 onclick="moveDivsback('likn', 'likn1a')"> Tilbake til likninger </h1> </div>
+<div id=                          "likn2g">
+<h1 onclick="moveDivsback('likn', 'likn2g')"> Tilbake til likninger </h1> </div>
+<div id=                          "likn2m">
+<h1 onclick="moveDivsback('likn', 'likn2m')"> Tilbake til likninger </h1> </div>
+<div id=                          "likn2a">
+<h1 onclick="moveDivsback('likn', 'likn2a')"> Tilbake til likninger </h1> </div>
+<div id=                          "likn3g">
+<h1 onclick="moveDivsback('likn', 'likn3g')"> Tilbake til likninger </h1> </div>
+<div id=                          "likn3m">
+<h1 onclick="moveDivsback('likn', 'likn3m')"> Tilbake til likninger </h1> </div>
+<div id=                          "likn4g">
+<h1 onclick="moveDivsback('likn', 'likn4g')"> Tilbake til likninger </h1> </div>
+<div id=                          "likn4m">
+<h1 onclick="moveDivsback('likn', 'likn4m')"> Tilbake til likninger </h1> </div>
+<div id=                          "likn4a">
+<h1 onclick="moveDivsback('likn', 'likn4a')"> Tilbake til likninger </h1> </div>
+<div id=                          "likn5g">
+<h1 onclick="moveDivsback('likn', 'likn5g')"> Tilbake til likninger </h1> </div>
+<div id=                          "likn5m">
+<h1 onclick="moveDivsback('likn', 'likn5m')"> Tilbake til likninger </h1> </div>
+<div id=                          "likn5a">
+<h1 onclick="moveDivsback('likn', 'likn5a')"> Tilbake til likninger </h1> </div>
+<div id=                            "geo1g">
+  <h1 onclick="moveDivsback('geo',  'geo1g')"> Tilbake til Måling og areal </h1> </div>
+<div id=                            "geo1m">
+  <h1 onclick="moveDivsback('geo',  'geo1m')"> Tilbake til Måling og areal </h1> </div>
+<div id=                            "geo2g">
+  <h1 onclick="moveDivsback('geo',  'geo2g')"> Tilbake til Måling og areal </h1> </div>
+<div id=                            "geo3g">
+  <h1 onclick="moveDivsback('geo',  'geo3g')"> Tilbake til Måling og areal </h1> </div>
+<div id=                            "geo3m">
+  <h1 onclick="moveDivsback('geo',  'geo3m')"> Tilbake til Måling og areal </h1> </div>
+<div id=                            "geo3a">
+  <h1 onclick="moveDivsback('geo',  'geo3a')"> Tilbake til Måling og areal </h1> </div>
+<div id=                            "geo4g">
+  <h1 onclick="moveDivsback('geo',  'geo4g')"> Tilbake til Måling og areal </h1> </div>
+<div id=                            "geo4m">
+  <h1 onclick="moveDivsback('geo',  'geo4m')"> Tilbake til Måling og areal </h1> </div>
+<div id=                            "geo5g">
+  <h1 onclick="moveDivsback('geo',  'geo5g')"> Tilbake til Måling og areal </h1> </div>
+<div id=                            "geo5m">
+  <h1 onclick="moveDivsback('geo',  'geo5m')"> Tilbake til Måling og areal </h1> </div>
+<div id=                            "geo5a">
+  <h1 onclick="moveDivsback('geo',  'geo5a')"> Tilbake til Måling og areal </h1> </div>
+<div id=                            "geo6g">
+  <h1 onclick="moveDivsback('geo',  'geo6g')"> Tilbake til Måling og areal </h1> </div>
+<div id=                            "geo6m">
+  <h1 onclick="moveDivsback('geo',  'geo6m')"> Tilbake til Måling og areal </h1> </div>
+<div id=                            "geo7g">
+  <h1 onclick="moveDivsback('geo',  'geo7g')"> Tilbake til Måling og areal </h1> </div>
+<div id=                            "geo7m">
+  <h1 onclick="moveDivsback('geo',  'geo7m')"> Tilbake til Måling og areal </h1> </div>
+<div id=                            "geo8g">
+  <h1 onclick="moveDivsback('geo',  'geo8g')"> Tilbake til Måling og areal </h1> </div>
+<div id=                            "geo8m">
+  <h1 onclick="moveDivsback('geo',  'geo8m')"> Tilbake til Måling og areal </h1> </div>
+  </body>
+  <div id=                                "sannsyn1g">
+    <h1 onclick="moveDivsback('sannsyn',  'sannsyn1g')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+    <div id=                                "sannsyn1m">
+      <h1 onclick="moveDivsback('sannsyn',  'sannsyn1m')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+  <div id=                                "sannsyn2g">
+    <h1 onclick="moveDivsback('sannsyn',  'sannsyn2g')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+  <div id=                                "sannsyn2n">
+    <h1 onclick="moveDivsback('sannsyn',  'sannsyn2n')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+  <div id=                                "sannsyn2a">
+    <h1 onclick="moveDivsback('sannsyn',  'sannsyn2a')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+  <div id=                                "sannsyn3g">
+    <h1 onclick="moveDivsback('sannsyn',  'sannsyn3g')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+  <div id=                                "sannsyn3m">
+    <h1 onclick="moveDivsback('sannsyn',  'sannsyn3m')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+  <div id=                                "sannsyn3a">
+    <h1 onclick="moveDivsback('sannsyn',  'sannsyn3a')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+ 
+  <div id=                                "sannsyn4g">
+    <h1 onclick="moveDivsback('sannsyn',  'sannsyn4g')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+  <div id=                                "sannsyn4m">
+    <h1 onclick="moveDivsback('sannsyn',  'sannsyn4m')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+
+  <div id=                                "sannsyn5g">
+    <h1 onclick="moveDivsback('sannsyn',  'sannsyn5g')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+  <div id=                                "sannsyn5m">
+    <h1 onclick="moveDivsback('sannsyn',  'sannsyn5m')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+
+  <div id=                                "sannsyn6g">
+    <h1 onclick="moveDivsback('sannsyn',  'sannsyn6g')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+  <div id=                                "sannsyn6m">
+    <h1 onclick="moveDivsback('sannsyn',  'sannsyn6m')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+  <div id=                                "sannsyn7g">
+    <h1 onclick="moveDivsback('sannsyn',  'sannsyn7g')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+  <div id=                                "sannsyn7m">
+    <h1 onclick="moveDivsback('sannsyn',  'sannsyn7m')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+  <div id=                                "sannsyn8g">
+    <h1 onclick="moveDivsback('sannsyn',  'sannsyn8g')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+  <div id=                                "sannsyn8m">
+    <h1 onclick="moveDivsback('sannsyn',  'sannsyn8m')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+  <div id=                                "sannsyn8a">
+    <h1 onclick="moveDivsback('sannsyn',  'sannsyn8a')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+  <div id=                                "sannsyn9g">
+    <h1 onclick="moveDivsback('sannsyn',  'sannsyn9g')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+  <div id=                                "sannsyn9m">
+    <h1 onclick="moveDivsback('sannsyn',  'sannsyn9m')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+  <div id=                                "sannsyn9a">
+    <h1 onclick="moveDivsback('sannsyn',  'sannsyn9a')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+  <div id=                                "sannsyn10a">
+    <h1 onclick="moveDivsback('sannsyn',  'sannsyn10a')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+<div id=                           "tall1g">
+<h1 onclick="moveDivsback('tall',  'tall1g')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall1m">
+<h1 onclick="moveDivsback('tall',  'tall1m')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall1a">
+<h1 onclick="moveDivsback('tall',  'tall1a')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall2g">
+<h1 onclick="moveDivsback('tall',  'tall2g')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall2m">
+<h1 onclick="moveDivsback('tall',  'tall2m')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall3g">
+<h1 onclick="moveDivsback('tall',  'tall3g')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall3m">
+<h1 onclick="moveDivsback('tall',  'tall3m')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall4g">
+<h1 onclick="moveDivsback('tall',  'tall4g')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall4m">
+<h1 onclick="moveDivsback('tall',  'tall4m')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall4a">
+<h1 onclick="moveDivsback('tall',  'tall4a')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall5g">
+<h1 onclick="moveDivsback('tall',  'tall5g')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall5m">
+<h1 onclick="moveDivsback('tall',  'tall5m')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall6g">
+<h1 onclick="moveDivsback('tall',  'tall6g')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall6m">
+<h1 onclick="moveDivsback('tall',  'tall6m')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall7g">
+<h1 onclick="moveDivsback('tall',  'tall7g')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall7m">
+<h1 onclick="moveDivsback('tall',  'tall7m')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall8g">
+<h1 onclick="moveDivsback('tall',  'tall8g')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall8m">
+<h1 onclick="moveDivsback('tall',  'tall8m')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall9g">
+<h1 onclick="moveDivsback('tall',  'tall9g')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall9m">
+<h1 onclick="moveDivsback('tall',  'tall9m')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall10g">
+<h1 onclick="moveDivsback('tall',  'tall10g')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall10m">
+<h1 onclick="moveDivsback('tall',  'tall10m')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall10a">
+<h1 onclick="moveDivsback('tall',  'tall10a')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall11m">
+<h1 onclick="moveDivsback('tall',  'tall11m')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall11a">
+<h1 onclick="moveDivsback('tall',  'tall11a')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall12g">
+<h1 onclick="moveDivsback('tall',  'tall12g')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall12m">
+<h1 onclick="moveDivsback('tall',  'tall12m')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall13g">
+<h1 onclick="moveDivsback('tall',  'tall13g')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall13m">
+<h1 onclick="moveDivsback('tall',  'tall13m')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall13a">
+<h1 onclick="moveDivsback('tall',  'tall13a')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall14m">
+<h1 onclick="moveDivsback('tall',  'tall14m')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall14a">
+<h1 onclick="moveDivsback('tall',  'tall14a')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall15g">
+<h1 onclick="moveDivsback('tall',  'tall15g')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall15m">
+<h1 onclick="moveDivsback('tall',  'tall15m')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall16a">
+<h1 onclick="moveDivsback('tall',  'tall16a')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall17g">
+<h1 onclick="moveDivsback('tall',  'tall17g')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall17m">
+<h1 onclick="moveDivsback('tall',  'tall17m')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall18g">
+<h1 onclick="moveDivsback('tall',  'tall18g')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall18m">
+<h1 onclick="moveDivsback('tall',  'tall18m')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall19g">
+<h1 onclick="moveDivsback('tall',  'tall19g')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall19m">
+<h1 onclick="moveDivsback('tall',  'tall19m')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall19a">
+<h1 onclick="moveDivsback('tall',  'tall19a')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall20g">
+<h1 onclick="moveDivsback('tall',  'tall20g')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall20m">
+<h1 onclick="moveDivsback('tall',  'tall20m')"> Tilbake til Tall </h1> </div>
+<div id=                           "tall20a">
+<h1 onclick="moveDivsback('tall',  'tall20a')"> Tilbake til Tall </h1> </div>
+    </body>
+</html>

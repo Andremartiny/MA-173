@@ -1,0 +1,223 @@
+<h4 id="avansert-øveoppgaver">Avansert: Øveoppgaver</h4>
+<ol type="1">
+<li><p>Under ser du figurtall én til fire.</p>
+<ol type="a">
+<li><p>Finn eksplisitt sammenheng ved hjelp av geometrisk
+betraktning/stirre-hardt-strategien. Dekomponer figuren på så mange
+måter du klarer.</p></li>
+<li><p>Finn eksplisitt sammenheng ved hjelp av strategien <em>sum av
+tillegg</em>.</p></li>
+<li><p>Vis at verdien av figurtall nummer <span
+class="math inline">\(n\)</span> er én mindre enn kvadrattall nummer
+<span class="math inline">\(n + 1\)</span>, og bruk dette til å
+omarrangere figurene.</p></li>
+</ol></li>
+</ol>
+<p><img src="./img/tallteo/image1.png" /></p>
+<ol type="1">
+<li><p>Under ser du figurtall én til fire.</p>
+<ol type="a">
+<li><p>Finn eksplisitt sammenheng ved hjelp av geometrisk
+betraktning/stirre-hardt-strategien. Dekomponer figuren på så mange
+måter du klarer.</p></li>
+<li><p>Finn eksplisitt sammenheng ved hjelp av strategien <em>sum av
+tillegg</em>.</p></li>
+</ol></li>
+</ol>
+<p><img src="./img/tallteo/image2.png" /></p>
+<h5 id="løsningsforslag">Løsningsforslag</h5>
+<ol type="1">
+<li><br />
+
+<ol type="a">
+<li>Vi kan legge merke til at toppen av figuren består av et
+<em>skjevt</em> kvadrat, eller en diamant, altså er dette
+kvadrattallene. Denne vet vi at kan beskrives eksplisitt <span
+class="math inline">\(n^2\)</span>.<br />
+Videre har figuren 2 bein. Benene øker lineært. Vi ar <span
+class="math inline">\(2\)</span> så <span
+class="math inline">\(4\)</span> så <span
+class="math inline">\(6\)</span> og så videre. Dermed kan siste del av
+figuren beskrives eksplisitt som <span
+class="math inline">\(2n\)</span>.<br />
+Setter vi det sammen får vi at figuren kan beskrives slik: <span
+class="math inline">\(P_n = n^2 + 2n\)</span>.<br />
+Let selv etter andre måter å bryte ned figuren!!</li>
+<li>Vi kan bruke nedbrytningen fra forrige oppgave til å beskrive
+tillegget. Det n’te kvadrattallet er alltid det forrige kvadrattallet
+pluss det n’te oddetallet. Altså <span class="math inline">\(n^2 =
+(n-1)^2+2n-1\)</span>. Videre øker en lineær sammenheng alltid med det
+samme, så tillegget her er alltid <span
+class="math inline">\(2\)</span>. Totalt kan tillegget beskrives ved
+<span class="math inline">\((2n-1)+2 = 2n+1\)</span>. Vi kan også
+undersøke selve tallrekka, som er <span class="math inline">\(3, 8, 15,
+24\)</span>. Vi ser at differansen mellom hvert ledd i rekka er <span
+class="math inline">\(5, 7, 9\)</span>. Her ser vi at tillegget øker med
+2 hver gang, noe som tilsier at tillegget vokser lineær med stigning
+<span class="math inline">\(2\)</span>. Det må bety at formen på
+tillegget er <span class="math inline">\(2n+b\)</span>, der <span
+class="math inline">\(b\)</span> fortsatt er ukjent. Vi kan derimot
+enkelt avgjøre <span class="math inline">\(b\)</span> ved å sjekke, for
+eksempel <span class="math inline">\(P_2\)</span>. Da er tillegget <span
+class="math inline">\(2\cdot 2 + b\)</span>, og <span
+class="math inline">\(P_2\)</span> er <span class="math inline">\(P_1 +
+2\cdot2+b\)</span>. Siden <span class="math inline">\(P_2 = 8\)</span>
+og <span class="math inline">\(P_1 = 3\)</span>, så må <span
+class="math inline">\(2\cdot 2 + b = 5\)</span> som betyr at <span
+class="math inline">\(b=1\)</span>. Tillegget kan altså skrives på
+formen <span class="math inline">\(2n+1\)</span>. Nå kan vi skrive
+figurtallene som summen av tilleggene: <span class="math display">\[
+\begin{aligned}
+P_1 &amp; = 1
+\\
+P_2 &amp; = 1 + 2\cdot 2+1
+\\
+P_3 &amp; = 1 + (2\cdot 2 + 1) +(2\cdot 3 + 1)
+\\
+\vdots
+\\
+P_n &amp; = 1 + (2\cdot 2 + 1) + (2\cdot 3 + 1)+ \ldots + (2\cdot n +
+1).
+\end{aligned}
+\]</span> Fra erfaring, ser vi at vi ønsker å ha et ledd <span
+class="math inline">\((2\cdot 1 + 1)\)</span> for å enkelt kunne bruke
+at <span class="math inline">\(T_n = 1+2+3+\ldots+n =
+\frac{n(n+1)}{2}\)</span>. Dette løser vi enkelt ved å legge til og
+trekke fra. Vi får derfor at <span class="math display">\[
+\begin{aligned}
+P_n &amp; = 1 + (2\cdot 2 + 1) + (2\cdot 3 + 1)+ \ldots + (2\cdot n + 1)
+\\
+P_n &amp; = 1 - (2\cdot 1 + 1) +(2\cdot 1 + 1) + (2\cdot 2 + 1) +
+(2\cdot 3 + 1)+ \ldots + (2\cdot n + 1)
+\\
+P_n &amp; = 1 - 2 - 1 + 2(1+2+3+\ldots + n) + 2\cdot n = -3 + 2T_n + 2n
+= -3 + n(n+1)+2n = -3 + n^2 + n + 2n
+\end{aligned}
+\]</span></li>
+</ol></li>
+</ol>
+<h4 id="avansert-tallteori">Avansert: Tallteori</h4>
+<p>På figuren under ser du de tre første figurene i en sammensatt figur,
+der <span class="math inline">\(F_1 = 7\)</span>, <span
+class="math inline">\(F_2 = 12\)</span> og <span
+class="math inline">\(F_3 = 18\)</span>.</p>
+<ol type="1">
+<li><p>Finn en eksplsitt formel for <span
+class="math inline">\(F_n\)</span> ved å betrakte figuren
+geometrisk.</p></li>
+<li><p>Finn en eksplisitt formel ved hjelp av sum av tillegg.</p></li>
+</ol>
+<p><img src="./img/2023-03-30-12-43-49.png" /></p>
+<h5 id="vurderingskriterier">Vurderingskriterier</h5>
+<p>Ved å betrakte figuren bør studentene se at figuren kan skrives som
+<span class="math inline">\(F_1 = 3+ 4\)</span>, <span
+class="math inline">\(F_2 = 3 + 4 + 5\)</span>, <span
+class="math inline">\(F_3 = 3+4+5+6\)</span> og generelt <span
+class="math inline">\(F_n = 3+4+5+\ldots + n+3\)</span>. Formen på
+tillegget er dermed <span class="math inline">\(n+3\)</span>. Videre må
+de nå bare bruke riktig teknikk for å komme i mål. Her kan de se i
+heftet for mer info om teknikkene.</p>
+<h4 id="avansert-17.02.23">Avansert: 17.02.23</h4>
+<p>På figuren under ser du de tre første figurene i en sammensatt figur,
+der <span class="math inline">\(F_1 = 2\)</span>, <span
+class="math inline">\(F_2 = 8\)</span> og <span
+class="math inline">\(F_3 = 16\)</span>.</p>
+<ol type="1">
+<li><p>Finn en eksplsitt formel for <span
+class="math inline">\(F_n\)</span> ved å betrakte figuren
+geometrisk.</p></li>
+<li><p>Finn en eksplisitt formel ved hjelp av sum av tillegg.</p></li>
+</ol>
+<p><img src="./img/2023-03-24-14-40-43.png" /></p>
+<h4 id="vurderingskriterier-avansert-17.02.23">Vurderingskriterier
+avansert: 17.02.23</h4>
+<p>Studenten må besvare begge oppgavene.</p>
+<ol type="i">
+<li><p>Her må de henvise til figuren (gjerne ved å ha tegnet den inn
+selv) og forklare hvordan den er brutt ned for å finne en eksplisitt
+formel. For eksempel kan det pekes på at figuren nesten er to trekanter
+som starter <em>en før</em> (altså <span
+class="math inline">\(T_{n+1}\)</span>) lagt opp på hverandre. Begge
+mangler bare toppen og deler rad 2. Dermed får vi $F_n = 2T_{n+1} - 2- 2
+= (n+2)(n+1) - 4 $</p></li>
+<li><p>Her må de igjen bruke sum av tillegg som på middels.</p></li>
+</ol>
+<h4 id="avansert-13.02.23">Avansert: 13.02.23</h4>
+<p>På figuren under ser du de tre første figurene i en sammensatt figur,
+der <span class="math inline">\(F_1 = 3\)</span>, <span
+class="math inline">\(F_2 = 13\)</span> og <span
+class="math inline">\(F_3 = 31\)</span>.</p>
+<ol type="1">
+<li><p>Finn en eksplsitt formel for <span
+class="math inline">\(F_n\)</span> ved å betrakte figuren
+geometrisk.</p></li>
+<li><p>Finn en eksplisitt formel ved hjelp av sum av tillegg.</p></li>
+</ol>
+<p><img src="./img/2023-03-24-14-37-18.png" /></p>
+<h4 id="vurderingskriterier-avansert-13.02.23">Vurderingskriterier
+avansert: 13.02.23</h4>
+<p>Studenten må besvare begge oppgavene.</p>
+<ol type="i">
+<li><p>Her må de henvise til figuren (gjerne ved å ha tegnet den inn
+selv) og forklare hvordan den er brutt ned for å finne en eksplisitt
+formel. For eksempel kan en innse at de to ytterste firkantene er <span
+class="math inline">\(n^2\)</span>, mens det skrå kvadratet kan deles
+inn i to “lag” som gir <span class="math inline">\(n^2\)</span> for det
+ene og <span class="math inline">\((n-1)^2\)</span> for det andre.
+Totalt blir dette $2n<sup>2+n</sup>2 + (n-1)^2 $.</p></li>
+<li><p>Her må de igjen bruke sum av tillegg som på middels.</p></li>
+</ol>
+<h4 id="avansert-10.02.23">Avansert: 10.02.23</h4>
+<p>På figuren under ser du de fire første figurene i en sammensatt
+figur, der <span class="math inline">\(F_1 = 12\)</span>, <span
+class="math inline">\(F_2 = 26\)</span> og <span
+class="math inline">\(F_3 = 44\)</span>.</p>
+<ol type="1">
+<li><p>Finn en eksplsitt formel for <span
+class="math inline">\(F_n\)</span> ved å betrakte figuren
+geometrisk.</p></li>
+<li><p>Finn en eksplisitt formel ved hjelp av sum av tillegg.</p></li>
+</ol>
+<p><img src="./img/2023-03-24-14-34-41.png" /></p>
+<h4 id="vurderingskriterier-avansert-10.02.23">Vurderingskriterier
+avansert: 10.02.23</h4>
+<p>Studenten må besvare begge oppgavene.</p>
+<ol type="i">
+<li><p>Her må de henvise til figuren (gjerne ved å ha tegnet den inn
+selv) og forklare hvordan den er brutt ned for å finne en eksplisitt
+formel.</p></li>
+<li><p>Her må de igjen bruke sum av tillegg som på middels.</p></li>
+</ol>
+<h4 id="avansert-03.02.23">Avansert: 03.02.23</h4>
+<p>På figuren under ser du de fire første figurene i en sammensatt
+figur, der <span class="math inline">\(F_1 = 4\)</span>, <span
+class="math inline">\(F_2 = 10\)</span> og <span
+class="math inline">\(F_3 = 19\)</span>.</p>
+<ol type="1">
+<li><p>Finn en eksplsitt formel for <span
+class="math inline">\(F_n\)</span> ved å betrakte figuren
+geometrisk.</p></li>
+<li><p>Finn en eksplisitt formel ved hjelp av sum av tillegg.</p></li>
+</ol>
+<p><img src="./img/2023-03-24-14-31-42.png" /></p>
+<h4 id="avansert-27.01.23">Avansert: 27.01.23</h4>
+<p>På figuren under ser du de tre første figurene i en sammensatt figur,
+der <span class="math inline">\(F_1 = 10\)</span>, <span
+class="math inline">\(F_2 = 22\)</span> og <span
+class="math inline">\(F_3 = 42\)</span>.</p>
+<ol type="1">
+<li><p>Finn en eksplsitt formel for <span
+class="math inline">\(F_n\)</span> ved å betrakte figuren
+geometrisk.</p></li>
+<li><p>Finn en eksplisitt formel ved hjelp av sum av tillegg.</p></li>
+</ol>
+<p><img src="./img/2023-03-24-14-06-04.png" /></p>
+<h4 id="vurderingskriterier-avansert-27.01.23">Vurderingskriterier
+avansert: 27.01.23</h4>
+<p>MERK: Her står det feil i oppgavetekst. Det skal være F_2 = 24</p>
+<ol type="i">
+<li><p>Her må de henvise til figuren (gjerne ved å ha tegnet den inn
+selv) og forklare hvordan den er brutt ned for å finne en eksplisitt
+formel</p></li>
+<li><p>Her må de igjen bruke sum av tillegg sånn som på middels</p></li>
+</ol>

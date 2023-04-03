@@ -1,0 +1,3321 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc-markdown-css-theme" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>funk</title>
+  <link rel="stylesheet" href="styling.css" />
+  <script
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"
+  type="text/javascript"></script>
+  <style type="text/css">
+
+  /* ----- Global settings ----------------------------------------------- {{{ */
+    body::-webkit-scrollbar{
+      display: none;
+    }
+    nav::-webkit-scrollbar{
+      display: none;
+    }
+    :root {
+      /* --- Colors --- */
+    
+      --background-color: #fff;
+    
+      --color-text: #1b2733;
+      --color-text-secondary: #637282;
+      --color-link: #0070e0;
+      --color-sidenote: #616970;
+    
+      --highlight-red: #ea9999;
+      --highlight-yellow: #ffe599;
+      --highlight-green: #b6d7a8;
+      --highlight-blue: #a4c2f4;
+      --highlight-purple: #b4a7d6;
+    
+      --color-inline-code: #1b2733;
+      --color-inline-code-bg: #f3f3f8;
+    
+      --color-border: #dfdfd0;
+      --color-border-heavy: #ccccd4;
+    
+      --color-table-heading: #f3f3fb;
+    
+      /* --- Text --- */
+    
+      --font-family-prose: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+      --font-family-heading: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+      --font-family-code: Menlo, monospace;
+      --side-note-number-font-family: var(--font-family-prose);
+    
+      --line-height: 26px;
+      --font-size: 17px;
+    
+      --inline-code-font-size: 15px;
+      --code-block-font-size: 14px;
+      --code-block-side-padding: 8px;
+      --line-numbers-font-size: 12px;
+    
+      --tight-code-line-height: 18px;
+      --tight-code-padding-top: 5px;
+    
+      --side-note-line-height: 20px;
+      --side-note-font-size: 13px;
+      --side-note-code-font-size: 13px;
+      --side-note-baseline-offset: 4px;
+      --side-note-sup-offset: -6px;
+      --side-note-number-hang-left: -6px;
+      --side-note-text-indent: -9px;
+    
+      --heading-font-weight: 500;
+    
+      --title-font-size: 42px;
+      --title-code-font-size: 40px;
+      --title-line-height: 48px;
+      --title-margin-top: 92px;
+    
+      --h1-font-size: 32px;
+      --h1-code-font-size: 29px;
+      --h1-line-height: 36px;
+      --h1-word-spacing: 1px;
+      --h1-margin-top: 30px;
+      --h1-margin-bottom: 12px;
+    
+      --h2-font-size: 22px;
+      --h2-code-font-size: 20px;
+      --h2-line-height: 28px;
+      --h2-word-spacing: 0.5px;
+      --h2-margin-top: 18px;
+      --h2-margin-bottom: 6px;
+
+      --h3-font-size: 20px;
+      --h3-code-font-size: 17px;
+      --h3-line-height: 25px;
+      --h3-word-spacing: 0px;
+      --h3-margin-top: 15px;
+      --h3-margin-bottom: 4px;
+    
+      --ul-indent-size: 23px;
+      --ol-indent-size: 19px;
+      --ol-li-padding-left: 4px;
+    
+      --hr-margin-top: 18px;
+      --hr-margin-bottom: calc(var(--line-height) - var(--hr-margin-top) - 1px);
+    
+      --extra-wide-scale-factor: 1.5;
+    
+      --figcaption-line-height: 21px;
+      --figcaption-font-size: 14px;
+      --figcaption-code-font-size: 13px;
+      --figcaption-gap: 6px;
+      --captioned-figure-gap: 10px;
+    
+      --table-line-height: 21px;
+      --table-font-size: 14px;
+      --table-code-font-size: 13px;
+    
+      --nav-toc-font-size: 12px;
+      --nav-toc-code-font-size: 12px;
+      --nav-toc-indent: 15px;
+      --nav-toc-baseline-offset: 2px;
+    
+      /* --- Layout --- */
+    
+      --main-width: 745px;
+      /* The name doesn't indicate it, but this variable actually specifies an
+       * effective minimum width. (It didn't previously behave this way, but the
+       * change to do so was made in a backwards-compatible way, so the variable
+       * was not renamed.)
+       **/
+      --main-width-narrow: 550px;
+      --side-note-max-width: 300px;
+    
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background-color: #202020;
+    
+        --color-text: #b6b6b6;
+        --color-text-secondary: #ececec;
+        --color-link: #69adf1de;
+        --color-sidenote: #b4b2af;
+    
+        --highlight-red: #660000;
+        --highlight-yellow: #7f6000;
+        --highlight-green: #274e13;
+        --highlight-blue: #1c4587;
+        --highlight-purple: #351c75;
+    
+        --color-inline-code: #f7f5f2;
+        --color-inline-code-bg: #242121;
+    
+        --color-border: #393635;
+        --color-border-heavy: #524f4d;
+    
+        --color-table-heading: #242121;
+      }
+    }
+    
+    *, *:after, *:before {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      -webkit-tap-highlight-color: rgba(0,0,0,0);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    
+    html {
+      /* https://github.com/edwardtufte/tufte-css/issues/81#issuecomment-261953409 */
+      -webkit-text-size-adjust: 100%;
+    }
+    
+    body {
+      font-family: var(--font-family-prose);
+      color: var(--color-text);
+      font-size: var(--font-size);
+      line-height: var(--line-height);
+      -webkit-font-variant-ligatures: no-common-ligatures;
+      font-variant-ligatures: no-common-ligatures;
+    
+      /* Safari-only right now (macOS, iOS) but looks so good. */
+      hanging-punctuation: first;
+    
+      margin: 0;
+      padding: 0;
+      padding-top: var(--title-margin-top);
+      width: 100%;
+    
+      background-color: var(--background-color);
+    }
+    
+    @media print {
+      body {
+        background-color: initial;
+      }
+    }
+    
+    /* }}} */
+    /* ----- Utility classes -----------------------------------------------  {{{ */
+    .only-light-mode {
+      display: inherit;
+    }
+    .only-dark-mode {
+      display: none;
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      .only-light-mode {
+        display: none;
+      }
+      .only-dark-mode {
+        display: inherit;
+      }
+    }
+    /* }}} */
+    /* ----- Side notes and margin notes ----------------------------------- {{{ */
+    /* --- Side note text and numbering --- {{{ */
+    
+    .sidenote,
+    .marginnote {
+      color: var(--color-sidenote);
+    
+      font-size: var(--side-note-font-size);
+      line-height: var(--side-note-line-height);
+      vertical-aligned: baseline;
+    
+      /* aligned first baseline to body. */
+      margin-top: var(--side-note-baseline-offset);
+    }
+    
+    .sidenote code,
+    .marginnote code {
+      color: var(--color-sidenote);
+    }
+    
+    main {
+      counter-reset: sidenote-counter;
+    }
+    
+    .sidenote-number {
+      counter-increment: sidenote-counter;
+    }
+    
+    .sidenote-number:after,
+    .sidenote:before {
+      content: counter(sidenote-counter);
+      position: relative;
+    }
+    
+    nav#TOC label,
+    label.margin-toggle:not(.sidenote-number),
+    .sidenote-number:after,
+    .sidenote:before,
+    .footnote-ref sup,
+    sup {
+      font-size: var(--side-note-font-size);
+      font-weight: 700;
+      font-family: var(--side-note-number-font-family);
+      -webkit-font-feature-settings: "tnum" 1;
+      font-feature-settings: "tnum" 1;
+    
+      /* Mimic 'vertical-aligned: super' (browser style for sup tag)
+       * without causing a gap in our text's implicit grid. */
+      vertical-aligned: baseline;
+      position: relative;
+      top: var(--side-note-sup-offset);
+    }
+    
+    sup {
+      font-weight: inherit;
+    }
+    
+    /* Make the superscript hang. */
+    .sidenote:before { left: var(--side-note-number-hang-left); }
+    /* Get first first column of first row to line up with other rows. */
+    .sidenote { text-indent: var(--side-note-text-indent); }
+    
+    /*}}} */
+    /* --- Side note input controls --- {{{ */
+    
+    input.margin-toggle {
+        display: none;
+    }
+    label.margin-toggle:not(.sidenote-number) {
+        display: none;
+    }
+    label.sidenote-number {
+        display: inline;
+    }
+    
+    /* Unfortunately, variables aren't in scope here.
+     * See calculations in Horizontal layouting.
+     */
+    @media screen and (max-width: calc(26px + 550px + 26px + 169px + 26px - 1px)) {
+      .margin-toggle:checked + .sidenote,
+      .margin-toggle:checked + .marginnote {
+        margin-top: var(--side-note-line-height);
+        vertical-aligned: baseline;
+      }
+    
+      label.margin-toggle {
+        color: var(--color-link);
+      }
+    
+      label.margin-toggle:not(.sidenote-number) {
+        display: inline;
+      }
+    
+      label {
+        cursor: pointer;
+      }
+    }
+    
+    /* }}} */
+    /* }}} */
+    /* ----- Headings ------------------------------------------------------ {{{ */
+    
+    h1, h2 {
+      font-family: var(--font-family-heading);
+      font-weight: var(--heading-font-weight);
+    }
+    
+    h4, h5, h6 {
+      font-weight: bold;
+    }
+    
+    h1.title {
+      margin-top: var(--line-height);
+      margin-bottom: var(--line-height);
+      font-size: var(--title-font-size);
+      line-height: var(--title-line-height);
+    }
+    
+    h1.title code {
+      font-size: var(--title-code-font-size);
+    }
+    
+    h1:not(.title) {
+      font-size: var(--h1-font-size);
+      line-height: var(--h1-line-height);
+      word-spacing: var(--h1-word-spacing);
+    
+      margin-top: var(--h1-margin-top);
+      margin-bottom: var(--h1-margin-bottom);
+    }
+    
+    h1:not(.title) code {
+      font-size: var(--h1-code-font-size);
+    }
+    
+    h2 {
+      font-size: var(--h2-font-size);
+      line-height: var(--h2-line-height);
+      word-spacing: var(--h2-word-spacing);
+    
+      margin-top: var(--h2-margin-top);
+      margin-bottom: var(--h2-margin-bottom);
+    }
+    
+    h2 code {
+      font-size: var(--h2-code-font-size);
+    }
+    
+    h3 {
+      font-size: var(--h3-font-size);
+      line-height: var(--line-height);
+      font-weight: bold;
+    }
+    
+    h1:not(.title) + *, h1:not(.title) + p { margin-top: var(--h1-margin-bottom); }
+    h2 + *, h2 + p                         { margin-top: var(--h2-margin-bottom); }
+    h3 + *, h3 + p                         { margin-top: 0; }
+    
+    /* }}} */
+    /* ----- Prose --------------------------------------------------------- {{{ */
+    
+    p, main > ul, main > ol, div.sourceCode, main > pre, img, table {
+      margin-top: var(--line-height);
+      margin-bottom: var(--line-height)
+    }
+    
+    ul:not(.task-list) {
+      margin-left: var(--ul-indent-size);
+    }
+    ol {
+      margin-left: var(--ol-indent-size);
+    }
+    
+    ul.task-list {
+      list-style: none;
+      margin-left: var(--ul-indent-size);
+    }
+    
+    ul.task-list > li {
+      position: relative;
+    }
+    
+    ul.task-list > li > input$$type="checkbox"$$ {
+      position: absolute;
+      left: calc(-1 * var(--ul-indent-size));
+      height: var(--line-height);
+    }
+    
+    ol > li {
+      padding-left: var(--ol-li-padding-left);
+    }
+    
+    ol                         { list-style-type: decimal; }
+    ol ol                      { list-style-type: lower-alpha; }
+    ol ol ol                   { list-style-type: lower-roman; }
+    ol ol ol ol                { list-style-type: decimal; }
+    ol ol ol ol ol             { list-style-type: lower-alpha; }
+    ol ol ol ol ol ol          { list-style-type: lower-roman; }
+    ol ol ol ol ol ol ol       { list-style-type: decimal; }
+    ol ol ol ol ol ol ol ol    { list-style-type: lower-alpha; }
+    ol ol ol ol ol ol ol ol ol { list-style-type: lower-roman; }
+    
+    ul                         { list-style-type: disc; }
+    ul ul                      { list-style-type: circle; }
+    ul ul ul                   { list-style-type: square; }
+    ul ul ul ul                { list-style-type: disc; }
+    ul ul ul ul ul             { list-style-type: circle; }
+    ul ul ul ul ul ul          { list-style-type: square; }
+    ul ul ul ul ul ul ul       { list-style-type: disc; }
+    ul ul ul ul ul ul ul ul    { list-style-type: circle; }
+    ul ul ul ul ul ul ul ul ul { list-style-type: square; }
+    
+    blockquote {
+      border-left: 1px solid var(--color-text-secondary);
+      padding-left: 1.5rem;
+    
+      font-style: italic;
+    }
+    
+    blockquote > p {
+      margin-top: 0;
+    }
+    
+    blockquote em, blockquote i, blockquote .sidenote-wrapper {
+      font-style: normal;
+    }
+    
+    hr {
+      margin-top: var(--hr-margin-top);
+      margin-bottom: var(--hr-margin-bottom);
+      border-style: solid;
+      color: var(--color-border-heavy);
+      border-width: 1px 0 0;
+    }
+    
+    a code, a:link code, a:visited code,
+    a, a:link, a:visited {
+      color: var(--color-link);
+      text-decoration: none;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+    }
+    
+    span.mark, mark {
+      /* Reset browser styles */
+      color: inherit;
+    
+      padding: 2px 0 1px;
+    }
+    span.mark.red,    mark.red    { background-color: var(--highlight-red);    }
+    span.mark.yellow, mark.yellow { background-color: var(--highlight-yellow); }
+    span.mark.green,  mark.green  { background-color: var(--highlight-green);  }
+    span.mark.blue,   mark.blue   { background-color: var(--highlight-blue);   }
+    span.mark.purple, mark.purple { background-color: var(--highlight-purple); }
+    
+    .subtitle {
+      margin-top: 0;
+    }
+    .author, .date {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .signoff {
+      margin-top: calc(4 * var(--line-height));
+      margin-bottom: calc(4 * var(--line-height));
+    }
+    
+    /* Pandoc utility classes */
+    span.smallcaps{ font-variant: small-caps; }
+    span.underline{ text-decoration: underline; }
+    
+    .katex-display {
+      background: var(--background-color);
+      transform: translateZ(0px);
+    }
+    
+    @media print {
+      .katex-display {
+        background-color: initial;
+      }
+    }
+    
+    /* }}} */
+    /* ----- Code ---------------------------------------------------------- {{{ */
+    
+    /* Pandoc code blocks with a language look like div.sourceCode > pre.sourceCode
+     * Otherwise, it's just a pre (without .sourceCode)
+     *
+     * The 'code' element is tricky because it's used for inline code and code in a
+     * pre.
+     */
+    
+    code {
+      font-family: var(--font-family-code);
+    
+      word-spacing: normal;
+    
+      /* Only for inline code */
+      color: var(--color-inline-code);
+      background-color: var(--color-inline-code-bg);
+      font-size: var(--inline-code-font-size);
+      margin: 0;
+      padding: 2px 0 1px;
+      border: 1px solid var(--color-border);
+      border-radius: 1px;
+    }
+    
+    .sidenote code,
+    .marginnote code {
+      font-size: var(--side-note-code-font-size);
+    }
+    
+    pre code {
+      /* Reset some changes meant to be inline-only */
+      color: inherit;
+      background-color: inherit;
+      font-size: var(--code-block-font-size);
+      line-height: var(--line-height);
+      margin: initial;
+      padding: initial;
+      border: initial;
+      border-radius: initial;
+    }
+    
+    pre > code {
+      position: relative; /* For line highlights */
+      display: inline-block;
+      min-width: 100%;
+      z-index: 1;
+    
+      white-space: pre-wrap;
+    
+      padding: 0 var(--code-block-side-padding);
+    }
+    
+    code.sourceCode::selection {
+      /* Prevent bug where far right edge of text box shows as selected. */
+      background: transparent;
+    }
+    
+    .wide > pre, .wide > div.sourceCode {
+      /* Put this in front of the table of contents */
+      transform: translateZ(0px);
+    }
+    
+    .wide pre > code {
+      white-space: pre;
+    }
+    
+    pre.numberSource code {
+      counter-reset: source-line 0;
+    }
+    
+    pre > code.sourceCode > span {
+      line-height: var(--line-height);
+    
+      display: inline-block;
+      min-width: 100%;
+    }
+    
+    div.sourceCode {
+      /* Need to make room for line numbers (even if they're not going to be used).
+       * Width doesn't matter, just needs to be big enough to hold the largest line
+       * number. */
+      --line-numbers-width: calc(4 * var(--line-numbers-font-size));
+      --line-numbers-negative-width: calc(-1 * var(--line-numbers-width));
+      margin-left: var(--line-numbers-negative-width);
+    }
+    div.sourceCode > pre {
+      margin-left: var(--line-numbers-width);
+    }
+    pre.numberSource > code.sourceCode > span {
+      counter-increment: source-line;
+      padding-left: var(--line-numbers-width);
+      text-indent: var(--line-numbers-negative-width);
+      position: relative;
+      left: var(--line-numbers-negative-width);
+    }
+    pre.numberSource > code.sourceCode > span > a:first-child::before {
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    
+      content: counter(source-line);
+      font-size: var(--line-numbers-font-size);
+      text-decoration: none;
+    
+      position: relative;
+      text-aligned: right;
+      display: inline-block;
+    
+      padding: 0 calc(2 * var(--code-block-side-padding));
+      width: var(--line-numbers-width);
+    }
+    pre > code.sourceCode > span > a:first-child::before:hover {
+      text-decoration: underline;
+    }
+    
+    /* Utility class for code blocks that contain things like box drawing characters, where it's nice for things to touch. */
+    .tight-code pre,
+    pre.tight-code {
+      padding-top: var(--tight-code-padding-top);
+    }
+    
+    pre.tight-code code,
+    .tight-code pre code,
+    .tight-code pre > code.sourceCode > span,
+    pre.tight-code > code.sourceCode > span {
+      line-height: var(--tight-code-line-height);
+    }
+    
+    /* --- Code line highlights --- {{{ */
+    /* I used some code I contributed to owickstrom's pandoc-emphasize-code$$1$$ as
+     * inspiration for these changes.
+     *
+     * The novel part is using :nth-of-type(...) selectors and CSS classes, instead
+     * of needing a pandoc filter. This means that we can stick with pandoc's
+     * default syntax highlighter, and not need to requirer JavaScript for syntax
+     * highlighting. It has the obvious limitation that it places a fixed limit on
+     * lines that can be highlighted, but these additional CSS styles are easy
+     * enough to write, so anyone who needs more lines can write their own
+     * stylesheet and include it to add more after the fact.
+     *
+     * $$1$$ https://github.com/owickstrom/pandoc-emphasize-code/pull/3
+     */
+    
+    pre > code.sourceCode > span::after {
+      position: absolute;
+      background-color: var(--color-code-highlight-bg);
+      z-index: -1;
+      left: calc(var(--line-numbers-width) - var(--code-block-side-padding));
+      right: calc(var(--line-numbers-negative-width) - var(--code-block-side-padding));
+      top: 0;
+      height: 100%;
+    }
+    
+    pre.hl-1  > code.sourceCode > span:nth-of-type(1)::after  { content: ""; }
+    pre.hl-2  > code.sourceCode > span:nth-of-type(2)::after  { content: ""; }
+    pre.hl-3  > code.sourceCode > span:nth-of-type(3)::after  { content: ""; }
+    pre.hl-4  > code.sourceCode > span:nth-of-type(4)::after  { content: ""; }
+    pre.hl-5  > code.sourceCode > span:nth-of-type(5)::after  { content: ""; }
+    pre.hl-6  > code.sourceCode > span:nth-of-type(6)::after  { content: ""; }
+    pre.hl-7  > code.sourceCode > span:nth-of-type(7)::after  { content: ""; }
+    pre.hl-8  > code.sourceCode > span:nth-of-type(8)::after  { content: ""; }
+    pre.hl-9  > code.sourceCode > span:nth-of-type(9)::after  { content: ""; }
+    pre.hl-10 > code.sourceCode > span:nth-of-type(10)::after { content: ""; }
+    pre.hl-11 > code.sourceCode > span:nth-of-type(11)::after { content: ""; }
+    pre.hl-12 > code.sourceCode > span:nth-of-type(12)::after { content: ""; }
+    pre.hl-13 > code.sourceCode > span:nth-of-type(13)::after { content: ""; }
+    pre.hl-14 > code.sourceCode > span:nth-of-type(14)::after { content: ""; }
+    pre.hl-15 > code.sourceCode > span:nth-of-type(15)::after { content: ""; }
+    pre.hl-16 > code.sourceCode > span:nth-of-type(16)::after { content: ""; }
+    pre.hl-17 > code.sourceCode > span:nth-of-type(17)::after { content: ""; }
+    pre.hl-18 > code.sourceCode > span:nth-of-type(18)::after { content: ""; }
+    pre.hl-19 > code.sourceCode > span:nth-of-type(19)::after { content: ""; }
+    pre.hl-20 > code.sourceCode > span:nth-of-type(20)::after { content: ""; }
+    pre.hl-21 > code.sourceCode > span:nth-of-type(21)::after { content: ""; }
+    pre.hl-22 > code.sourceCode > span:nth-of-type(22)::after { content: ""; }
+    pre.hl-23 > code.sourceCode > span:nth-of-type(23)::after { content: ""; }
+    pre.hl-24 > code.sourceCode > span:nth-of-type(24)::after { content: ""; }
+    pre.hl-25 > code.sourceCode > span:nth-of-type(25)::after { content: ""; }
+    pre.hl-26 > code.sourceCode > span:nth-of-type(26)::after { content: ""; }
+    pre.hl-27 > code.sourceCode > span:nth-of-type(27)::after { content: ""; }
+    pre.hl-28 > code.sourceCode > span:nth-of-type(28)::after { content: ""; }
+    pre.hl-29 > code.sourceCode > span:nth-of-type(29)::after { content: ""; }
+    pre.hl-30 > code.sourceCode > span:nth-of-type(30)::after { content: ""; }
+    pre.hl-31 > code.sourceCode > span:nth-of-type(31)::after { content: ""; }
+    pre.hl-32 > code.sourceCode > span:nth-of-type(32)::after { content: ""; }
+    pre.hl-33 > code.sourceCode > span:nth-of-type(33)::after { content: ""; }
+    pre.hl-34 > code.sourceCode > span:nth-of-type(34)::after { content: ""; }
+    pre.hl-35 > code.sourceCode > span:nth-of-type(35)::after { content: ""; }
+    pre.hl-36 > code.sourceCode > span:nth-of-type(36)::after { content: ""; }
+    pre.hl-37 > code.sourceCode > span:nth-of-type(37)::after { content: ""; }
+    pre.hl-38 > code.sourceCode > span:nth-of-type(38)::after { content: ""; }
+    pre.hl-39 > code.sourceCode > span:nth-of-type(39)::after { content: ""; }
+    pre.hl-40 > code.sourceCode > span:nth-of-type(40)::after { content: ""; }
+    
+    /* }}} */
+    
+    /* }}} */
+    /* ----- Images and figures -------------------------------------------- {{{ */
+    
+    /* There's only a figure if there's a caption. Tighten things up. */
+    figure {
+      margin-bottom: var(--captioned-figure-gap);
+    }
+    
+    figure + p {
+      margin-top: var(--captioned-figure-gap);
+    }
+    
+    figure > img, figure > pre, figure > div.sourceCode {
+      margin-bottom: var(--figcaption-gap);
+    }
+    
+    img {
+      width: 100%;
+      display: block;
+    }
+    
+    .wide img {
+      /* Put this in front of the table of contents */
+      transform: translateZ(0px);
+    }
+    
+    figcaption {
+      font-size: var(--figcaption-font-size);
+      line-height: var(--figcaption-line-height);
+      font-style: italic;
+      text-aligned: center;
+      color: var(--color-text-secondary);
+    }
+    
+    .left-aligned-caption figcaption {
+      text-aligned: left;
+    }
+    
+    figcaption code {
+      font-size: var(--figcaption-code-font-size);
+    }
+    
+    /* }}} */
+    /* ----- Tables -------------------------------------------------------- {{{ */
+    
+    table {
+      -webkit-font-feature-settings: "tnum" 1;
+      font-feature-settings: "tnum" 1;
+    
+      font-size: var(--table-font-size);
+      line-height: var(--table-line-height);
+    
+      border-spacing: 0;
+      border-collapse: collapse;
+      border: 1px solid var(--color-border-heavy);
+    
+      width: 100%;
+    
+      /* Solid background to occlude table of contents */
+      background-color: var(--background-color);
+    }
+    
+    @media print {
+      table {
+        background-color: initial;
+      }
+    }
+    
+    table code {
+      font-size: var(--table-code-font-size);
+    }
+    
+    table pre code {
+      font-size: inherit;
+    }
+    
+    .wide table {
+      /* Put this in front of the table of contents */
+      transform: translateZ(0px);
+    }
+    
+    table td, table th {
+      border: 1px solid var(--color-border-heavy);
+      padding: 5px 8px;
+      min-width: 100px;
+    }
+    table th {
+      background-color: var(--color-table-heading);
+    }
+    
+    table > caption {
+      caption-side: bottom;
+      margin-top: var(--figcaption-gap);
+      margin-bottom: calc(var(--captioned-figure-gap) - var(--line-height));
+      font-size: var(--figcaption-font-size);
+      line-height: var(--figcaption-line-height);
+      font-style: italic;
+      text-aligned: center;
+      color: var(--color-text-secondary);
+    }
+    
+    .left-aligned-caption table > caption {
+      text-aligned: left;
+    }
+    
+    table > caption code {
+      font-size: var(--figcaption-code-font-size);
+    }
+    
+    /* --- Notes are just single cell tables --- */
+    
+    .note table {
+      font-size: inherit;
+      line-height: inherit;
+    }
+    .note table, .note td {
+      border: none;
+    }
+    
+    .note.red    td { background: var(--highlight-red); }
+    .note.yellow td { background: var(--highlight-yellow); }
+    .note.green  td { background: var(--highlight-green); }
+    .note.blue   td { background: var(--highlight-blue); }
+    .note.purple td { background: var(--highlight-purple); }
+    
+    /* }}} */
+    /* ----- Table of contents --------------------------------------------- {{{ */
+    
+    .date.before-toc {
+      padding-bottom: var(--line-height);
+    }
+    
+    nav#TOC {
+      margin-bottom: var(--line-height);
+      border-left: 1px solid var(--color-text-secondary);
+      padding-left: 1.5rem;
+    }
+    
+    nav#TOC input {
+      display: none;
+    }
+    
+    nav#TOC label {
+      color: var(--color-link);
+      cursor: pointer;
+    }
+    
+    nav#TOC > ul {
+      display: none;
+    }
+    
+    nav#TOC > input:checked + ul {
+      display: block;
+    }
+    
+    @media print {
+      nav#TOC > input + ul {
+        display: block;
+      }
+    }
+    
+    /* Unfortunately, variables aren't in scope here.
+     * 745px = --main-width
+     * 52px = 2 * --line-height
+     * 206px = side note min width
+     */
+    @media screen and (min-width: calc(745px + 2 * (52px + 206px + 52px) - 1px)) {
+      header {
+        margin-bottom: var(--line-height);
+      }
+    
+      .date.before-toc {
+        padding-bottom: initial;
+      }
+    
+      nav#TOC {
+        /* Unset some styles for small screen width */
+        margin-bottom: initial;
+        border-left: initial;
+        padding-left: initial;
+    
+        position: sticky;
+        margin-top: calc(var(--nav-toc-baseline-offset));
+        float: left;
+        top: var(--line-height);
+    
+        font-size: var(--nav-toc-font-size);
+        color: var(--color-text-secondary);
+    
+        margin-left: var(--line-height);
+    
+        max-width: calc((100vw - var(--main-width)) / 2 - 2 * var(--line-height));
+        max-height: calc(100vh - 2 * var(--line-height));
+        overflow-y: auto;
+      }
+    
+      nav#TOC label {
+        display: none;
+      }
+    
+      nav#TOC ul {
+        display: block;
+        list-style: none;
+        margin-left: var(--nav-toc-indent);
+      }
+      nav#TOC > ul {
+        margin-left: 0;
+      }
+    
+      nav#TOC li {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    
+      nav#TOC code {
+        font-size: var(--nav-toc-code-font-size);
+      }
+    
+      nav#TOC code,
+      nav#TOC a,
+      nav#TOD a:link,
+      nav#TOD a:visited {
+        color: var(--color-text-secondary);
+      }
+    
+      nav#TOC a:hover,
+      nav#TOC a:hover code {
+        text-decoration: none;
+        color: var(--color-link);
+      }
+    }
+    
+    /* }}} */
+    /* ----- Horizontal layouting (main, side notes, extra-wide) ----------- {{{ */
+    
+    .sidenote,
+    .marginnote {
+      float: right;
+      clear: right;
+      position: relative;
+    
+      width: var(--computed-width);
+      max-width: var(--side-note-max-width);
+      margin-right: calc(-1 * min(var(--computed-width), var(--side-note-max-width)) - var(--margin-left));
+    }
+    
+    /* --- Side notes and table of contents always visible --- {{{ */
+    
+    /* Unfortunately, variables aren't in scope here.
+     * 745px = --main-width
+     * 52px = 2 * --line-height
+     * 206px = side note min width
+     */
+    @media screen and (min-width: calc(745px + 2 * (52px + 206px + 52px))) {
+      header,
+      main,
+      footer {
+        max-width: var(--main-width);
+      }
+    
+      header,
+      main,
+      footer {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    
+      .sidenote,
+      .marginnote {
+        --margin-left: calc(2 * var(--line-height));
+        --margin-right: var(--margin-left);
+        --computed-width: calc((100vw - 100%) / 2 - var(--margin-right) - var(--margin-left));
+      }
+    
+      .wide {
+        width: 100%;
+        overflow-x: auto;
+      }
+    
+      .wide.extra-wide {
+        margin-left: calc((1 - var(--extra-wide-scale-factor)) / 2 * 100%);
+        width: calc(var(--extra-wide-scale-factor) * 100%);
+      }
+    
+      .wide.full-width {
+        margin-left: calc(var(--line-height) - ((100vw - var(--main-width)) / 2));
+        width: calc(100vw - 2 * var(--line-height));
+      }
+    
+      .wide.extra-wide figcaption,
+      .wide.extra-wide table > caption {
+        margin-left: calc(((var(--extra-wide-scale-factor) - 1) / 2) * var(--main-width));
+        max-width: var(--main-width);
+        margin-right: calc(100% - var(--main-width) - (((var(--extra-wide-scale-factor) - 1) / 2) * var(--main-width)));
+      }
+    
+      .wide.full-width figcaption,
+      .wide.full-width table > caption {
+        margin-left: calc((100vw - var(--main-width)) / 2 - var(--line-height));
+        max-width: var(--main-width);
+        margin-right: calc(100% - var(--main-width) - ((100vw - var(--main-width)) / 2 - var(--line-height)));
+      }
+    }
+    
+    /* }}} */
+    /* --- Side notes visibile, table of contents collapsed, double-wide margins --- {{{ */
+    
+    /* Unfortunately, variables aren't in scope here.
+     * 745px = --main-width
+     * 52px = 2 * --line-height
+     * 206px = side note min width
+     */
+    @media screen and (min-width: calc(52px + 745px + 52px + 206px + 52px)) and (max-width: calc(745px + 2 * (52px + 206px + 52px) - 1px)) {
+      header,
+      nav#TOC,
+      main,
+      footer {
+        margin-left: calc(2 * var(--line-height));
+        max-width: var(--main-width);
+        margin-right: auto;
+      }
+    
+      .sidenote,
+      .marginnote {
+        --margin-left: calc(2 * var(--line-height));
+        --margin-right: var(--margin-left);
+        --computed-width: calc(100vw - var(--main-width) - calc(2 * var(--line-height)) - var(--margin-right) - var(--margin-left));
+      }
+    
+      .wide {
+        width: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+      }
+    
+      .wide.extra-wide {
+        margin-left: calc(-1 * var(--line-height));
+        width: calc(100vw - 2 * var(--line-height));
+        max-width: calc(var(--extra-wide-scale-factor) * var(--main-width));
+      }
+    
+      .wide.full-width {
+        margin-left: calc(-1 * var(--line-height));
+        width: calc(100vw - 2 * var(--line-height));
+        max-width: calc(100vw - 2 * var(--line-height));
+      }
+    
+      .wide.extra-wide .katex-display,
+      .wide.full-width .katex-display {
+        padding-left: var(--line-height);
+        padding-right: var(--line-height);
+      }
+    
+      .wide.extra-wide .katex-display,
+      .wide.extra-wide .katex-display > .katex,
+      .wide.full-width .katex-display,
+      .wide.full-width .katex-display > .katex {
+        text-aligned: left;
+      }
+    
+      .wide.extra-wide figcaption,
+      .wide.extra-wide table > caption,
+      .wide.full-width figcaption,
+      .wide.full-width table > caption {
+        text-aligned: left;
+        margin-left: var(--line-height);
+        max-width: var(--main-width);
+      }
+    }
+    
+    /* }}} */
+    /* --- Side notes visibile, table of contents collapsed --- {{{ */
+    
+    /* Unfortunately, variables aren't in scope here.
+     * 550px = --main-width-narrow
+     * 26px = --line-height
+     * 169px = side note min width narrow
+     */
+    @media screen and (min-width: calc(26px + 550px + 26px + 169px + 26px)) and (max-width: calc(52px + 745px + 52px + 206px + 52px - 1px)) {
+      header,
+      nav#TOC,
+      main,
+      footer {
+        margin-left: var(--line-height);
+        max-width: calc(max(var(--main-width-narrow), 100vw - (3 * var(--line-height)) - var(--side-note-max-width)));
+        margin-right: auto;
+      }
+    
+      .sidenote,
+      .marginnote {
+        --margin-left: var(--line-height);
+        --margin-right: var(--line-height);
+        --computed-width: calc(100vw - var(--main-width-narrow) - var(--line-height) - var(--margin-right) - var(--margin-left));
+      }
+    
+      .wide {
+        width: var(--main-width);
+        overflow-x: auto;
+        overflow-y: hidden;
+      }
+    
+      .wide .katex-display,
+      .wide .katex-display > .katex {
+        text-aligned: left;
+      }
+    
+      .wide figcaption,
+      .wide table > caption {
+        text-aligned: left;
+        max-width: var(--main-width-narrow);
+      }
+    
+      .wide.extra-wide,
+      .wide.full-width {
+        width: calc(100vw - 2 * var(--line-height));
+      }
+    }
+    
+    /* }}} */
+    /* --- Side notes and table of contents collapsed --- {{{ */
+    
+    /* Unfortunately, variables aren't in scope here.
+     * See calculations above.
+     */
+    @media screen and (max-width: calc(26px + 550px + 26px + 169px + 26px - 1px)) {
+      header,
+      nav#TOC,
+      main,
+      footer {
+        margin-left: var(--line-height);
+        margin-right: var(--line-height);
+      }
+    
+      .sidenote,
+      .marginnote {
+        display: none;
+      }
+    
+      .margin-toggle:checked + .sidenote,
+      .margin-toggle:checked + .marginnote {
+        display: block;
+        float: left;
+        clear: both;
+        width: 100%;
+        max-width: 100%;
+      }
+    
+      .wide {
+        width: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+      }
+    
+      .wide .katex-display,
+      .wide .katex-display > .katex {
+        text-aligned: left;
+      }
+    
+      .wide figcaption,
+      .wide table > caption {
+        text-aligned: left;
+        max-width: calc(100vw - 2 * var(--line-height));
+      }
+    }
+    
+    /* }}} */
+    /* --- Paged media (print styles) --- {{{ */
+    @page {
+      size: letter;
+      margin: 0.5in;
+      /* To make room for line numbers in left margin. */
+      margin-left: 0.25in;
+    }
+    
+    @media print {
+      :root {
+        --line-height: 18px;
+        --font-size: 12px;
+    
+        --inline-code-font-size: 11px;
+        --code-block-font-size: 10px;
+        --code-block-side-padding: 6px;
+        --line-numbers-font-size: 8.5px;
+    
+        --tight-code-line-height: 12.5px;
+        --tight-code-padding-top: 2px;
+    
+        --side-note-line-height: 14px;
+        --side-note-font-size: 9px;
+        --side-note-code-font-size: 9px;
+        --side-note-baseline-offset: 3px;
+        --side-note-sup-offset: -4px;
+        --side-note-number-hang-left: -4px;
+        --side-note-text-indent: -6.5px;
+    
+        --title-font-size: 30px;
+        --title-code-font-size: 29px;
+        --title-line-height: 37px;
+        --title-margin-top: 71px;
+    
+        --h1-font-size: 22px;
+        --h1-code-font-size: 20px;
+        --h1-line-height: 28px;
+        --h1-word-spacing: 0.5px;
+        --h1-margin-top: 18px;
+        --h1-margin-bottom: 6px;
+    
+        --h2-font-size: 16.5px;
+        --h2-code-font-size: 15px;
+        --h2-line-height: 22px;
+        --h2-word-spacing: 0px;
+        --h2-margin-top: 14px;
+        --h2-margin-bottom: 4.5px;
+        
+        --h3-font-size: 14.5px;
+        --h3-code-font-size: 13px;
+        --h3-line-height: 18px;
+        --h3-word-spacing: 0px;
+        --h3-margin-top: 10px;
+        --h3-margin-bottom: 3px;
+
+        --ul-indent-size: 18px;
+        --ol-indent-size: 14px;
+    
+        --hr-margin-top: 14px;
+    
+        --figcaption-line-height: 16px;
+        --figcaption-font-size: 10px;
+        --figcaption-code-font-size: 9.5px;
+        --figcaption-gap: 4.5px;
+        --captioned-figure-gap: 7.5px;
+    
+        --table-line-height: 16px;
+        --table-font-size: 10px;
+        --table-code-font-size: 9.5px;
+    
+        --nav-toc-font-size: 8.5px;
+        --nav-toc-code-font-size: 8.5px;
+      }
+    
+      body {
+        padding-top: 0;
+        /* To make room for line numbers in left margin. */
+        padding-left: 0.25in;
+      }
+    
+      header,
+      nav#TOC,
+      main,
+      footer {
+        width: 5.25in;
+        margin-right: auto;
+      }
+    
+      .sidenote,
+      .marginnote {
+        width: 2in;
+        margin-right: -2.25in;
+      }
+    
+      .wide {
+        width: 7.5in;
+        overflow-x: hidden;
+        overflow-y: hidden;
+      }
+    
+      .wide .katex-display,
+      .wide .katex-display > .katex {
+        text-aligned: left;
+      }
+    
+      .wide figcaption,
+      .wide table > caption {
+        text-aligned: left;
+        width: 5.25in;
+      }
+    
+      .wide pre > code {
+        white-space: pre-wrap;
+      }
+    }
+    
+    h1, h2, h3 {
+      page-break-after: avoid;
+    }
+    
+    table, figure, pre, img {
+      page-break-inside: avoid;
+    }
+    /* }}} */
+    /* }}} */
+    
+    /* vim:fdm=marker
+     */
+
+  </style>
+</head>
+<body>
+
+<header>
+<h1 class="title"></h1>
+<blockquote class="metadata">
+</blockquote>
+</header>
+
+<nav id="TOC" role="doc-toc">
+    <strong>Innhold</strong><label for="contents">⊕</label>
+  <input type="checkbox" id="contents">
+  <ul>
+  <li><a href="#funksjoner" id="toc-funksjoner">Funksjoner</a>
+  <ul>
+  <li><a href="#øveoppgaver" id="toc-øveoppgaver">Øveoppgaver</a>
+  <ul>
+  <li><a
+  href="#bruke-begrepene-lineær-funksjon-andregradsfunksjon-og-omvendt-proporsjonal-funksjon"
+  id="toc-bruke-begrepene-lineær-funksjon-andregradsfunksjon-og-omvendt-proporsjonal-funksjon">Bruke
+  begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal
+  funksjon</a></li>
+  <li><a
+  href="#forklare-sammenhenger-mellom-parameterne-i-funksjonsuttrykket-og-grafen-til-lineære-funksjoner"
+  id="toc-forklare-sammenhenger-mellom-parameterne-i-funksjonsuttrykket-og-grafen-til-lineære-funksjoner">Forklare
+  sammenhenger mellom parameterne i funksjonsuttrykket og grafen til
+  lineære funksjoner</a></li>
+  <li><a
+  href="#forklare-hvordan-endringer-i-parameterne-i-funksjonsuttrykket-påvirker-grafene-til-andregrads--og-omvendt-proporsjonale-funksjoner"
+  id="toc-forklare-hvordan-endringer-i-parameterne-i-funksjonsuttrykket-påvirker-grafene-til-andregrads--og-omvendt-proporsjonale-funksjoner">Forklare
+  hvordan endringer i parameterne i funksjonsuttrykket påvirker grafene
+  til andregrads- og omvendt proporsjonale funksjoner</a></li>
+  <li><a href="#løse-likninger-fra-funksjonsperspektiv"
+  id="toc-løse-likninger-fra-funksjonsperspektiv">Løse likninger fra
+  funksjonsperspektiv</a></li>
+  <li><a
+  href="#bruke-begrepene-funksjon-variabel-uavhengig-variabel-innverdi-avhengig-variabel-utverdi-funksjonsverdi-definisjonsmengde-og-verdimengde"
+  id="toc-bruke-begrepene-funksjon-variabel-uavhengig-variabel-innverdi-avhengig-variabel-utverdi-funksjonsverdi-definisjonsmengde-og-verdimengde">Bruke
+  begrepene funksjon, variabel, uavhengig variabel (innverdi), avhengig
+  variabel (utverdi), funksjonsverdi, definisjonsmengde og
+  verdimengde</a></li>
+  <li><a
+  href="#gjøre-om-mellom-ulike-representasjonsformer-for-funksjonssammenhenger"
+  id="toc-gjøre-om-mellom-ulike-representasjonsformer-for-funksjonssammenhenger">Gjøre
+  om mellom ulike representasjonsformer for
+  funksjonssammenhenger</a></li>
+  </ul></li>
+  <li><a href="#section" id="toc-section">17.02.23</a>
+  <ul>
+  <li><a
+  href="#bruke-begrepene-lineær-funksjon-andregradsfunksjon-og-omvendt-proporsjonal-funksjon-1"
+  id="toc-bruke-begrepene-lineær-funksjon-andregradsfunksjon-og-omvendt-proporsjonal-funksjon-1">Bruke
+  begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal
+  funksjon</a></li>
+  <li><a
+  href="#forklare-sammenhenger-mellom-parameterne-i-funksjonsuttrykket-og-grafen-til-lineære-funksjoner-1"
+  id="toc-forklare-sammenhenger-mellom-parameterne-i-funksjonsuttrykket-og-grafen-til-lineære-funksjoner-1">Forklare
+  sammenhenger mellom parameterne i funksjonsuttrykket og grafen til
+  lineære funksjoner</a></li>
+  <li><a
+  href="#forklare-hvordan-endringer-i-parameterne-i-funksjonsuttrykket-påvirker-grafene-til-andregrads--og-omvendt-proporsjonale-funksjoner-1"
+  id="toc-forklare-hvordan-endringer-i-parameterne-i-funksjonsuttrykket-påvirker-grafene-til-andregrads--og-omvendt-proporsjonale-funksjoner-1">Forklare
+  hvordan endringer i parameterne i funksjonsuttrykket påvirker grafene
+  til andregrads- og omvendt proporsjonale funksjoner</a></li>
+  <li><a href="#løse-likninger-fra-funksjonsperspektiv-1"
+  id="toc-løse-likninger-fra-funksjonsperspektiv-1">Løse likninger fra
+  funksjonsperspektiv</a></li>
+  <li><a
+  href="#bruke-begrepene-funksjon-variabel-uavhengig-variabel-innverdi-avhengig-variabel-utverdi-funksjonsverdi-definisjonsmengde-og-verdimengde-1"
+  id="toc-bruke-begrepene-funksjon-variabel-uavhengig-variabel-innverdi-avhengig-variabel-utverdi-funksjonsverdi-definisjonsmengde-og-verdimengde-1">Bruke
+  begrepene funksjon, variabel, uavhengig variabel (innverdi), avhengig
+  variabel (utverdi), funksjonsverdi, definisjonsmengde og
+  verdimengde</a></li>
+  <li><a
+  href="#gjøre-om-mellom-ulike-representasjonsformer-for-funksjonssammenhenger-1"
+  id="toc-gjøre-om-mellom-ulike-representasjonsformer-for-funksjonssammenhenger-1">Gjøre
+  om mellom ulike representasjonsformer for
+  funksjonssammenhenger</a></li>
+  </ul></li>
+  <li><a href="#funksjoner-13.02.23"
+  id="toc-funksjoner-13.02.23">Funksjoner 13.02.23</a>
+  <ul>
+  <li><a
+  href="#bruke-begrepene-lineær-funksjon-andregradsfunksjon-og-omvendt-proporsjonal-funksjon-2"
+  id="toc-bruke-begrepene-lineær-funksjon-andregradsfunksjon-og-omvendt-proporsjonal-funksjon-2">Bruke
+  begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal
+  funksjon</a></li>
+  <li><a
+  href="#forklare-sammenhenger-mellom-parameterne-i-funksjonsuttrykket-og-grafen-til-lineære-funksjoner-2"
+  id="toc-forklare-sammenhenger-mellom-parameterne-i-funksjonsuttrykket-og-grafen-til-lineære-funksjoner-2">Forklare
+  sammenhenger mellom parameterne i funksjonsuttrykket og grafen til
+  lineære funksjoner</a></li>
+  <li><a
+  href="#forklare-hvordan-endringer-i-parameterne-i-funksjonsuttrykket-påvirker-grafene-til-andregrads--og-omvendt-proporsjonale-funksjoner-2"
+  id="toc-forklare-hvordan-endringer-i-parameterne-i-funksjonsuttrykket-påvirker-grafene-til-andregrads--og-omvendt-proporsjonale-funksjoner-2">Forklare
+  hvordan endringer i parameterne i funksjonsuttrykket påvirker grafene
+  til andregrads- og omvendt proporsjonale funksjoner</a></li>
+  <li><a href="#løse-likninger-fra-funksjonsperspektiv-2"
+  id="toc-løse-likninger-fra-funksjonsperspektiv-2">Løse likninger fra
+  funksjonsperspektiv</a></li>
+  <li><a
+  href="#bruke-begrepene-funksjon-variabel-uavhengig-variabel-innverdi-avhengig-variabel-utverdi-funksjonsverdi-definisjonsmengde-og-verdimengde-2"
+  id="toc-bruke-begrepene-funksjon-variabel-uavhengig-variabel-innverdi-avhengig-variabel-utverdi-funksjonsverdi-definisjonsmengde-og-verdimengde-2">Bruke
+  begrepene funksjon, variabel, uavhengig variabel (innverdi), avhengig
+  variabel (utverdi), funksjonsverdi, definisjonsmengde og
+  verdimengde</a></li>
+  <li><a
+  href="#gjøre-om-mellom-ulike-representasjonsformer-for-funksjonssammenhenger-2"
+  id="toc-gjøre-om-mellom-ulike-representasjonsformer-for-funksjonssammenhenger-2">Gjøre
+  om mellom ulike representasjonsformer for
+  funksjonssammenhenger</a></li>
+  </ul></li>
+  <li><a href="#funksjoner-10.02.23"
+  id="toc-funksjoner-10.02.23">Funksjoner 10.02.23</a>
+  <ul>
+  <li><a
+  href="#bruke-begrepene-lineær-funksjon-andregradsfunksjon-og-omvendt-proporsjonal-funksjon-3"
+  id="toc-bruke-begrepene-lineær-funksjon-andregradsfunksjon-og-omvendt-proporsjonal-funksjon-3">Bruke
+  begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal
+  funksjon</a></li>
+  <li><a
+  href="#forklare-sammenhenger-mellom-parameterne-i-funksjonsuttrykket-og-grafen-til-lineære-funksjoner-3"
+  id="toc-forklare-sammenhenger-mellom-parameterne-i-funksjonsuttrykket-og-grafen-til-lineære-funksjoner-3">Forklare
+  sammenhenger mellom parameterne i funksjonsuttrykket og grafen til
+  lineære funksjoner</a></li>
+  <li><a
+  href="#forklare-hvordan-endringer-i-parameterne-i-funksjonsuttrykket-påvirker-grafene-til-andregrads--og-omvendt-proporsjonale-funksjoner-3"
+  id="toc-forklare-hvordan-endringer-i-parameterne-i-funksjonsuttrykket-påvirker-grafene-til-andregrads--og-omvendt-proporsjonale-funksjoner-3">Forklare
+  hvordan endringer i parameterne i funksjonsuttrykket påvirker grafene
+  til andregrads- og omvendt proporsjonale funksjoner</a></li>
+  <li><a
+  href="#middels-forklare-hvordan-endringer-i-parameterne-i-funksjonsuttrykket-påvirker-grafene-til-andregrads--og-omvendt-proporsjonale-funksjoner-3"
+  id="toc-middels-forklare-hvordan-endringer-i-parameterne-i-funksjonsuttrykket-påvirker-grafene-til-andregrads--og-omvendt-proporsjonale-funksjoner-3">Middels:
+  Forklare hvordan endringer i parameterne i funksjonsuttrykket påvirker
+  grafene til andregrads- og omvendt proporsjonale funksjoner</a></li>
+  <li><a href="#løse-likninger-fra-funksjonsperspektiv-3"
+  id="toc-løse-likninger-fra-funksjonsperspektiv-3">Løse likninger fra
+  funksjonsperspektiv</a></li>
+  <li><a
+  href="#bruke-begrepene-funksjon-variabel-uavhengig-variabel-innverdi-avhengig-variabel-utverdi-funksjonsverdi-definisjonsmengde-og-verdimengde-3"
+  id="toc-bruke-begrepene-funksjon-variabel-uavhengig-variabel-innverdi-avhengig-variabel-utverdi-funksjonsverdi-definisjonsmengde-og-verdimengde-3">Bruke
+  begrepene funksjon, variabel, uavhengig variabel (innverdi), avhengig
+  variabel (utverdi), funksjonsverdi, definisjonsmengde og
+  verdimengde</a></li>
+  <li><a
+  href="#gjøre-om-mellom-ulike-representasjonsformer-for-funksjonssammenhenger-3"
+  id="toc-gjøre-om-mellom-ulike-representasjonsformer-for-funksjonssammenhenger-3">Gjøre
+  om mellom ulike representasjonsformer for
+  funksjonssammenhenger</a></li>
+  </ul></li>
+  <li><a href="#funksjoner-3.02.23"
+  id="toc-funksjoner-3.02.23">Funksjoner 3.02.23</a>
+  <ul>
+  <li><a
+  href="#bruke-begrepene-lineær-funksjon-andregradsfunksjon-og-omvendt-proporsjonal-funksjon-4"
+  id="toc-bruke-begrepene-lineær-funksjon-andregradsfunksjon-og-omvendt-proporsjonal-funksjon-4">Bruke
+  begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal
+  funksjon</a></li>
+  <li><a
+  href="#forklare-sammenhenger-mellom-parameterne-i-funksjonsuttrykket-og-grafen-til-lineære-funksjoner-4"
+  id="toc-forklare-sammenhenger-mellom-parameterne-i-funksjonsuttrykket-og-grafen-til-lineære-funksjoner-4">Forklare
+  sammenhenger mellom parameterne i funksjonsuttrykket og grafen til
+  lineære funksjoner</a></li>
+  <li><a
+  href="#forklare-hvordan-endringer-i-parameterne-i-funksjonsuttrykket-påvirker-grafene-til-andregrads--og-omvendt-proporsjonale-funksjoner-4"
+  id="toc-forklare-hvordan-endringer-i-parameterne-i-funksjonsuttrykket-påvirker-grafene-til-andregrads--og-omvendt-proporsjonale-funksjoner-4">Forklare
+  hvordan endringer i parameterne i funksjonsuttrykket påvirker grafene
+  til andregrads- og omvendt proporsjonale funksjoner</a></li>
+  <li><a href="#løse-likninger-fra-funksjonsperspektiv-4"
+  id="toc-løse-likninger-fra-funksjonsperspektiv-4">Løse likninger fra
+  funksjonsperspektiv</a></li>
+  </ul></li>
+  <li><a href="#funksjoner-27.01.23"
+  id="toc-funksjoner-27.01.23">Funksjoner 27.01.23</a>
+  <ul>
+  <li><a
+  href="#bruke-begrepene-lineær-funksjon-andregradsfunksjon-og-omvendt-proporsjonal-funksjon-5"
+  id="toc-bruke-begrepene-lineær-funksjon-andregradsfunksjon-og-omvendt-proporsjonal-funksjon-5">Bruke
+  begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal
+  funksjon</a></li>
+  <li><a
+  href="#forklare-sammenhenger-mellom-parameterne-i-funksjonsuttrykket-og-grafen-til-lineære-funksjoner-5"
+  id="toc-forklare-sammenhenger-mellom-parameterne-i-funksjonsuttrykket-og-grafen-til-lineære-funksjoner-5">Forklare
+  sammenhenger mellom parameterne i funksjonsuttrykket og grafen til
+  lineære funksjoner</a></li>
+  <li><a
+  href="#forklare-hvordan-endringer-i-parameterne-i-funksjonsuttrykket-påvirker-grafene-til-andregrads--og-omvendt-proporsjonale-funksjoner-5"
+  id="toc-forklare-hvordan-endringer-i-parameterne-i-funksjonsuttrykket-påvirker-grafene-til-andregrads--og-omvendt-proporsjonale-funksjoner-5">Forklare
+  hvordan endringer i parameterne i funksjonsuttrykket påvirker grafene
+  til andregrads- og omvendt proporsjonale funksjoner</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+
+<main>
+<!-- 
+PDF:
+Kjør i terminal fra markdown mappa pandoc .\quizzer\funksjoner\funk.md -f markdown -t pdf --pdf-engine=xelatex --variable=block-headings --toc -o .\quizzer\funksjoner\funk.pdf
+HTML:
+pandoc .\quizzer\funksjoner\funk.md -f markdown -t html --mathjax --template=template.html --toc -s -H styling.css -o .\quizzer\funksjoner\funk.html
+-->
+<h1 id="funksjoner">Funksjoner</h1>
+<h2 id="øveoppgaver">Øveoppgaver</h2>
+<h3
+id="bruke-begrepene-lineær-funksjon-andregradsfunksjon-og-omvendt-proporsjonal-funksjon">Bruke
+begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal
+funksjon</h3>
+<h4
+id="grunnleggende-forklare-kjennetegn-ved-og-gi-eksempler-på-funksjonstypene">Grunnleggende:
+Forklare kjennetegn ved og gi eksempler på funksjonstypene</h4>
+<ol type="1">
+<li><p>Gi et eksempel på en lineær funksjon, og forklart kort, med
+utgangspunkt i eksemplet ditt, hva som kjennetegner en lineær
+funksjon.</p></li>
+<li><p>Gi et eksempel på en kvadratisk funksjon, og forklart kort, med
+utgangspunkt i eksemplet ditt, hva som kjennetegner en kvadratisk
+funksjon.</p></li>
+<li><p>Gi et eksempel på en omvendt proporsjonal funksjon, og forklart
+kort, med utgangspunkt i eksemplet ditt, hva som kjennetegner en omvendt
+proporsjonal funksjon.</p></li>
+</ol>
+<h4
+id="middels-bestemme-og-begrunne-funksjonstype-basert-på-beskrivelse-av-situasjon-uttrykk-graf-og-tabell">Middels:
+Bestemme og begrunne funksjonstype basert på beskrivelse av situasjon,
+uttrykk, graf og tabell</h4>
+<ol type="1">
+<li><p>Avgjør og begrunn hva slags funksjon det er snakk om i hvert
+tilfelle. Begrunnelsen må vise til både en graf og et
+funksjonsuttrykk.</p>
+<ol type="a">
+<li><p>Sammenhengen mellom sidene i et rektangel med fast
+areal.</p></li>
+<li><p>Sammenhengen radius og areal i en sirkel.</p></li>
+<li><p>Sammenhengen mellom tid og avstand hjemmefra for en person som
+holder jevn fart.</p></li>
+</ol></li>
+</ol>
+<h4
+id="avansert-gjøre-om-mellom-ulike-representasjonsformer-for-de-tre-funksjonstypene-og-begrunne-omgjøringen">Avansert:
+Gjøre om mellom ulike representasjonsformer for de tre funksjonstypene,
+og begrunne omgjøringen</h4>
+<ol type="1">
+<li><p>Lineære funksjoner.</p>
+<ol type="a">
+<li><p>Angi en situasjon som svarer til en lineær funksjon.</p></li>
+<li><p>Skisser grafen, og sett opp funksjonsuttrykk.</p></li>
+<li><p>Begrunn kort hvordan grafen og funksjonsuttrykket svarer til
+situasjonseksemplet.</p></li>
+</ol></li>
+<li><p>Kvadratiske funksjoner.</p>
+<ol type="a">
+<li><p>Angi en situasjon som svarer til en kvadratisk funksjon.</p></li>
+<li><p>Skisser grafen, og sett opp funksjonsuttrykk.</p></li>
+<li><p>Begrunn kort hvordan grafen og funksjonsuttrykket svarer til
+situasjonseksemplet.</p></li>
+</ol></li>
+<li><p>Omvendt proporsjonale funksjoner.</p>
+<ol type="a">
+<li><p>Angi en situasjon som svarer til en omvendt proporsjonal
+funksjon.</p></li>
+<li><p>Skisser grafen, og sett opp funksjonsuttrykk.</p></li>
+<li><p>Begrunn kort hvordan grafen og funksjonsuttrykket svarer til
+situasjonseksemplet.</p></li>
+</ol></li>
+</ol>
+<h3
+id="forklare-sammenhenger-mellom-parameterne-i-funksjonsuttrykket-og-grafen-til-lineære-funksjoner">Forklare
+sammenhenger mellom parameterne i funksjonsuttrykket og grafen til
+lineære funksjoner</h3>
+<h4
+id="grunnleggende-forklare-hvordan-endringer-i-stigningstall-og-konstantledd-påvirker-grafen-til-en-lineær-funksjon">Grunnleggende:
+Forklare hvordan endringer i stigningstall og konstantledd påvirker
+grafen til en lineær funksjon</h4>
+<ol type="1">
+<li><p>Alfa s. 346–347.</p>
+<ol type="a">
+<li><p>4.9</p></li>
+<li><p>4.12</p></li>
+<li><p>4.13</p></li>
+<li><p>4.14</p></li>
+<li><p>4.16 (du behøver ikke argumentere på grunnleggende
+kompleksitetsnivå)</p></li>
+</ol></li>
+<li><p>En lineær funksjon er en funksjon på formen <span
+class="math inline">\(f(x) = ax + b.\)</span> Forklar og vis i et
+koordinatsystem hva som skjer når</p>
+<ol type="a">
+<li><p>stigningstallet <span class="math inline">\(a\)</span>
+endres</p></li>
+<li><p>konstantleddet <span class="math inline">\(b\)</span>
+endres</p></li>
+</ol></li>
+</ol>
+<h4
+id="middels-forklare-hvordan-man-kan-finne-likninga-til-en-lineær-funksjon-når-to-punkter-på-grafen-er-kjent-uten-bruk-av-topunktsformelen">Middels:
+Forklare hvordan man kan finne likninga til en lineær funksjon når to
+punkter på grafen er kjent uten bruk av topunktsformelen</h4>
+<ol type="1">
+<li><p>Alfa s. 346–347.</p>
+<ol type="a">
+<li><p>4.10 (Det sentrale her er å <em>forstå</em> hvordan man finner
+likninga så godt at man kort og presist kan <em>forklare</em> både
+hvordan og hvorfor. Prioriter derfor å gjøre <em>noen oppgaver
+grundig</em> og med forklaring, ikke <em>mange oppgaver
+kjapt</em>.)</p></li>
+<li><p>4.11</p></li>
+<li><p>4.15</p></li>
+<li><p>4.16 (med argumentasjon)</p></li>
+<li><p>4.17</p></li>
+<li><p><strong>Bonus</strong> (ut over læringsmålet): 4.18 og
+4.19</p></li>
+</ol></li>
+</ol>
+<h3
+id="forklare-hvordan-endringer-i-parameterne-i-funksjonsuttrykket-påvirker-grafene-til-andregrads--og-omvendt-proporsjonale-funksjoner">Forklare
+hvordan endringer i parameterne i funksjonsuttrykket påvirker grafene
+til andregrads- og omvendt proporsjonale funksjoner</h3>
+<h4
+id="grunnleggende-gjengi-hvilke-roller-parameterne-i-funksjonsuttrykkene-til-andregrads--og-omvendt-proporsjonale-funksjoner-spiller-med-hensyn-til-grafene">Grunnleggende:
+Gjengi hvilke roller parameterne i funksjonsuttrykkene til andregrads-
+og omvendt proporsjonale funksjoner spiller med hensyn til grafene</h4>
+<ol type="1">
+<li><p>Skisser grafen <span class="math inline">\(y = x^{2}\)</span> i
+et koordinatsystem. Skisser deretter i samme koordinatsystem:</p>
+<ol type="a">
+<li><p><span class="math inline">\(y = 2x^{2}\)</span></p></li>
+<li><p><span class="math inline">\(\frac{1}{2}x^{2}\)</span></p></li>
+<li><p><span class="math inline">\(2x^{2} - 3\)</span></p></li>
+</ol></li>
+<li><p>Gjengi med ord hvilken påvirkning endringer i <span
+class="math inline">\(a\)</span> (tallet foran <span
+class="math inline">\(x^{2}\)</span>) og <span
+class="math inline">\(c\)</span> (konstantleddet) har på grafen til en
+andregradsfunksjon.</p></li>
+<li><p>Skisser grafene <span class="math inline">\(y =
+\frac{9}{x}\)</span> og <span class="math inline">\(y = -
+\frac{9}{x}\)</span> i samme koordinatsystem.</p></li>
+<li><p>I hvilke punkter skjærer <span class="math inline">\(y =
+x\)</span> og <span class="math inline">\(y =
+\frac{a}{x}\)</span>?</p></li>
+</ol>
+<h4
+id="middels-forklare-hvordan-endringer-i-parameterne-i-funksjonsuttrykket-påvirker-grafene-til-andregrads--og-omvendt-proporsjonale-funksjoner">Middels:
+Forklare hvordan endringer i parameterne i funksjonsuttrykket påvirker
+grafene til andregrads- og omvendt proporsjonale funksjoner</h4>
+<ol type="1">
+<li><p>En kvadratisk funksjon ser generelt slik ut: <span
+class="math inline">\(f(x) = ax^{2} + bx + c\)</span>. Forklar kort
+(slik at det fremstår meningsfullt for noen som ikke kan det) og vis i
+et koordinatsystem hva som skjer med grafen når</p>
+<ol type="a">
+<li><p>parameteren <span class="math inline">\(a\)</span>
+endres</p></li>
+<li><p>parameteren <span class="math inline">\(c\)</span>
+endres</p></li>
+</ol></li>
+<li><p>En omvendt proporsjonal funksjon ser generelt slik ut: <span
+class="math inline">\(f(x) = \frac{a}{x}\)</span>. Forklar kort (slik at
+det fremstår meningsfullt for noen som ikke kan det) og vis i et
+koordinatsystem hvordan grafen må se ut når</p>
+<ol type="a">
+<li><p>parameteren <span class="math inline">\(a\)</span> er større enn
+<span class="math inline">\(0\)</span></p></li>
+<li><p>parameteren <span class="math inline">\(a\)</span> er mindre enn
+<span class="math inline">\(0\)</span></p></li>
+</ol></li>
+<li><p>Forklar kort (slik at det fremstår meningsfullt for noen som ikke
+kan det) og vis i et koordinatsystem hvor grafene <span
+class="math inline">\(y = x\)</span> og <span class="math inline">\(y =
+\frac{a}{x}\)</span> skjærer hverandre.</p></li>
+</ol>
+<h3 id="løse-likninger-fra-funksjonsperspektiv">Løse likninger fra
+funksjonsperspektiv</h3>
+<h4
+id="grunnleggende-forklare-algebraisk-og-grafisk-hva-som-menes-med-løsningen-av-en-lineær-likning">Grunnleggende:
+Forklare algebraisk og grafisk hva som menes med løsningen av en lineær
+likning</h4>
+<ol type="1">
+<li><p>Gitt <span class="math inline">\(4x - 7 = - 5x + 3\)</span>.</p>
+<ol type="a">
+<li><p>Løs likningen.</p></li>
+<li><p>Forklar hva det vil si at tallet du fant er løsning av
+likningen.</p></li>
+<li><p>Tolk VS og HS som funksjonsuttrykk, og skisser grafene.</p></li>
+<li><p>Forklar sammenhengen mellom b. og c.</p></li>
+</ol></li>
+<li><p>Gitt <span class="math inline">\(3(x - 7) = - \frac{1}{2}x +
+3\)</span>.</p>
+<ol type="a">
+<li><p>Løs likningen.</p></li>
+<li><p>Forklar hva det vil si at tallet du fant er løsning av
+likningen.</p></li>
+<li><p>Tolk VS og HS som funksjonsuttrykk, og skisser grafene.</p></li>
+<li><p>Forklar sammenhengen mellom b. og c.</p></li>
+</ol></li>
+<li><p>Forklar ved hjelp av et eget eksempel, hva som menes med
+løsningen av en lineær likning. Forklar både algebraisk og grafisk, og
+pek på sammenhengen mellom dem.</p></li>
+</ol>
+<h4
+id="middels-tolke-lineære-likninger-grafisk-og-finne-skjæringspunkt-mellom-lineære-grafer-og-mellom-lineære-grafer-og-aksene">Middels:
+Tolke lineære likninger grafisk, og finne skjæringspunkt mellom lineære
+grafer og mellom lineære grafer og aksene</h4>
+<ol type="1">
+<li><p>Du løper sammen med en av de fjernstyrte bilene dine langs en
+rett strekning. Bilen holder seks meter i sekundet, mens du klarer <span
+class="math inline">\(3,5\)</span>. Fjernkontrollens rekkevidde er <span
+class="math inline">\(200\)</span> meter.</p>
+<ol type="a">
+<li><p>Hvor langt kommer du før bilen er utenfor rekkevidde?</p></li>
+<li><p>Illustrer turen grafisk.</p></li>
+<li><p>Hvis du starter med <span class="math inline">\(150\)</span>
+meters forsprang, når og hvor tar bilen deg igjen?</p></li>
+<li><p>Lag et uttrykk som viser avstanden mellom deg og bilen som
+funksjon av tiden.</p></li>
+<li><p>Du er ute på samme strekning med den andre fjernstyrte bilen din.
+Du starter med <span class="math inline">\(150\)</span> meters
+forsprang. Etter å ha løpt <span class="math inline">\(140\)</span>
+meter, tar bilen deg igjen. Hva er bilens fart?</p></li>
+</ol></li>
+<li><p>La <span class="math inline">\(f(x) = - 15x +
+\frac{1}{2}\)</span>.</p>
+<ol type="a">
+<li><p>Hvor skjærer <span class="math inline">\(f\)</span> andreaksen,
+og hvorfor? (forklar)</p></li>
+<li><p>Hvor skjærer <span class="math inline">\(f\)</span> førsteaksen,
+og hvorfor? (forklar)</p></li>
+</ol></li>
+<li><p>Lag tekstoppgaver/finn passende kontekster til likningene. Tolk
+og vis i koordinatsystem.</p>
+<ol type="a">
+<li><p><span class="math inline">\(170x + 900 = 230x +
+200\)</span></p></li>
+<li><p><span class="math inline">\(3 - \frac{1}{2}t =
+1\)</span></p></li>
+</ol></li>
+</ol>
+<h4
+id="avansert-tolke-likninger-grafisk-og-finne-skjæringspunkt-mellom-grafer-til-ulike-typer-funksjoner-og-mellom-grafer-og-aksene">Avansert:
+Tolke likninger grafisk, og finne skjæringspunkt mellom grafer til ulike
+typer funksjoner og mellom grafer og aksene</h4>
+<ol type="1">
+<li><p>La <span class="math inline">\(f(x) = \frac{12}{x}\)</span> og
+<span class="math inline">\(g(x) = 3x - \frac{1}{2}\)</span>.</p>
+<ol type="a">
+<li><p>Skisser grafene.</p></li>
+<li><p>Finn eventuelle skjæringspunkt ved regning.</p></li>
+</ol></li>
+<li><p>La <span class="math inline">\(f(x) = - 6x + b\)</span> og <span
+class="math inline">\(g(x) = x^{2} - 4x\)</span>.</p>
+<ol type="a">
+<li><p>Bestem <span class="math inline">\(b\)</span> slik at <span
+class="math inline">\(f\)</span> og <span
+class="math inline">\(g\)</span> skjærer hverandre i <span
+class="math inline">\(x = 1\)</span> og <span class="math inline">\(x =
+- 3\)</span>.</p></li>
+<li><p>Skisser grafene.</p></li>
+</ol></li>
+<li><p>En fjernstyrt bli som kjører 12 m/s bruker 3/2 sekunder på å nå
+topphastigheten. Frem til det er strekningen den tilbakelegger gitt ved
+<span class="math inline">\(s(t) = 4t^{2}\)</span>, der <span
+class="math inline">\(t\)</span> er tiden målt i sekunder. Fra og med
+3/2 sek., holder bilen 12 m/s.</p>
+<ol type="a">
+<li><p>Skisser situasjonen i et koordinatsystem.</p></li>
+<li><p>Finn funksjonsuttrykket som beskriver tilbakelagt strekning fra
+og med 3/2 sek.</p></li>
+</ol></li>
+</ol>
+<h3
+id="bruke-begrepene-funksjon-variabel-uavhengig-variabel-innverdi-avhengig-variabel-utverdi-funksjonsverdi-definisjonsmengde-og-verdimengde">Bruke
+begrepene funksjon, variabel, uavhengig variabel (innverdi), avhengig
+variabel (utverdi), funksjonsverdi, definisjonsmengde og
+verdimengde</h3>
+<h4
+id="grunnleggende-gjengi-forklare-og-gi-eksempler-på-begrepene">Grunnleggende:
+Gjengi, forklare og gi eksempler på begrepene</h4>
+<ol type="1">
+<li><p>Ta utgangspunkt i en funksjonssammenheng (velg selv), og bruk den
+til å forklare begrepene.</p></li>
+<li><p>Sammenhengen mellom sidelengden og arealet av et kvadrat er en
+funksjonssammenheng. Bruk eksemplet til å forklare begrepene.</p></li>
+<li><p>Sammenhengen mellom grader målt i Fahrenheit og grader målt i
+Celsius er en funksjonssammenheng. Bruk eksemplet til å forklare
+begrepene.</p></li>
+</ol>
+<h4
+id="middels-avgjøre-og-begrunne-ved-hjelp-av-begrepene-om-en-gitt-sammenheng-er-en-funksjonssammenheng">Middels:
+Avgjøre og begrunne (ved hjelp av begrepene) om en gitt sammenheng er en
+funksjonssammenheng</h4>
+<ol type="1">
+<li><p>Sammenhengen mellom sidelengden og arealet av et kvadrat er en
+funksjonssammenheng.</p>
+<ol type="a">
+<li><p>Bruk eksemplet til å forklare begrepene.</p></li>
+<li><p>Arealfunksjonen er her uttrykt som en situasjonsbeskrivelse.
+Uttrykk den også som tabell, funksjonsuttrykk og graf.</p></li>
+</ol></li>
+<li><p>Sammenhengen mellom grader målt i Fahrenheit og grader målt i
+Celsius er en funksjonssammenheng.</p>
+<ol type="a">
+<li><p>Bruk eksemplet til å forklare begrepene.</p></li>
+<li><p>Sammenhengen mellom temperaturskalaene er her uttrykt som en
+situasjonsbeskrivelse. Uttrykk den også som tabell, funksjonsuttrykk og
+graf.</p></li>
+</ol></li>
+</ol>
+<blockquote>
+<p>(Her må du enten google eller, hvis du er tøff (og det er du jo),
+bruke dette: Sammenhengen er lineær, og <span
+class="math inline">\((32,\ 0)\)</span> og <span
+class="math inline">\((41,\ 5)\)</span> er to punkter på grafen, der
+førstekoordinat er temperaturen i Fahrenheit, andrekoordinat tilhørende
+Celsius-verdi.)</p>
+</blockquote>
+<ol start="3" type="1">
+<li><p>Under ser du noen par av variabler. Avgjør og begrunn i hvert
+tilfelle om den ene er funksjon av den andre. Begrunnelsen må vise til
+en definisjon av funksjon og en algebraisk eller grafisk fremstilling av
+situasjonen.</p>
+<ol type="a">
+<li><p>Temperaturen der du bor og tiden gjennom ett døgn.</p></li>
+<li><p>Omkretsen av et rektangel og arealet av rektanglet.</p></li>
+<li><p>Omkretsen av en sirkel og arealet av sirkelen.</p></li>
+<li><p>En balls høyde over bakken og tiden målt fra da du slapp
+den.</p></li>
+</ol></li>
+<li><p>Oppgavene 4.1–4.5, s. 335 i Alfa er også ok oppgaver av typen «er
+y funksjon av x i <em>dette</em> tilfellet?»</p></li>
+</ol>
+<h3
+id="gjøre-om-mellom-ulike-representasjonsformer-for-funksjonssammenhenger">Gjøre
+om mellom ulike representasjonsformer for funksjonssammenhenger</h3>
+<h4
+id="middels-gjøre-om-mellom-de-fire-representasjonene-av-funksjoner-janviers-tabell-alfa-4.1-og-vurdere-elevers-arbeid-med-overganger-mellom-representasjonene">Middels:
+Gjøre om mellom de fire representasjonene av funksjoner (Janviers
+tabell, Alfa 4.1), og vurdere elevers arbeid med overganger mellom
+representasjonene</h4>
+<ol type="1">
+<li><p>Alfa s. 335–336: oppgavene 4.6–4.8</p></li>
+<li><p>Overgang mellom graf og situasjon.</p>
+<ol type="a">
+<li><p>Gi en passende situasjonsbeskrivelse til grafen under.</p></li>
+<li><p>Hvordan vil grafen til samme situasjon se ut dersom andreaksen
+heller måler tilbakelagt avstand?</p></li>
+</ol></li>
+</ol>
+<blockquote>
+<p><img src="./funk/image1.jpeg" /></p>
+</blockquote>
+<ol start="3" type="1">
+<li>Tabellen viser en forenklet trinnskattemodell. Dersom man tjener
+<span class="math inline">\(60\ 000\)</span> eller mer, betaler man
+skatt på hele beløpet, ikke bare den delen som overstiger frikortgrensa.
+Skattesatsene slår inn ved <span class="math inline">\(60\ 000\)</span>,
+<span class="math inline">\(300\ 000\)</span> og så videre. Tegn en graf
+som viser sammenhengen mellom brutto- og nettoinntekt.</li>
+</ol>
+<table style="width:99%;">
+<colgroup>
+<col style="width: 61%" />
+<col style="width: 37%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Bruttolønn</strong></th>
+<th><strong>Skattetrekk</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math display">\[000\ 000 - 60\ 0000\]</span></td>
+<td><span class="math display">\[0\ \%\]</span></td>
+</tr>
+<tr class="even">
+<td><span class="math display">\[060\ 000 - 300\ 000\]</span></td>
+<td><span class="math display">\[20\ \%\]</span></td>
+</tr>
+<tr class="odd">
+<td><span class="math display">\[300\ 000 - 450\ 000\]</span></td>
+<td><span class="math display">\[24\ \%\]</span></td>
+</tr>
+<tr class="even">
+<td><span class="math display">\[450\ 000 - 600\ 000\]</span></td>
+<td><span class="math display">\[28\ \%\]</span></td>
+</tr>
+<tr class="odd">
+<td><span class="math display">\[600\ 000 - 800\ 000\]</span></td>
+<td><span class="math display">\[&gt;30\ \%\]</span></td>
+</tr>
+</tbody>
+</table>
+<ol start="4" type="1">
+<li>Se figuren under. Skisser en graf over sammenhengen mellom krukkas
+høyde og volum, der førsteaksen angir høyden og andreaksen volumet.</li>
+</ol>
+<p><img src="./funk/image2.jpeg" /></p>
+<ol start="5" type="1">
+<li><p>Klassen din får oppgaven under. Mange av elevene velger den
+øverste grafen med begrunnelser av typen «her ser vi tydelig hvordan
+bakken blir brattere».</p>
+<ol type="a">
+<li><p>Hva er misforståelsen disse elevene har?</p></li>
+<li><p>Forklar hvorfor den nederste grafen er den som passer til
+situasjonen.</p></li>
+</ol></li>
+</ol>
+<p><img src="./funk/image3.png" /></p>
+<h2 id="section">17.02.23</h2>
+<h3
+id="bruke-begrepene-lineær-funksjon-andregradsfunksjon-og-omvendt-proporsjonal-funksjon-1">Bruke
+begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal
+funksjon</h3>
+<h4
+id="grunnleggende-forklare-kjennetegn-ved-og-gi-eksempler-på-funksjonstypene-1">Grunnleggende:
+Forklare kjennetegn ved og gi eksempler på funksjonstypene</h4>
+<p>Gi et eksempel på en lineær funksjon, og forklart kort, med
+utgangspunkt i eksemplet ditt, hva som kjennetegner en lineær
+funksjon.</p>
+<p>Gi et eksempel på en kvadratisk funksjon, og forklart kort, med
+utgangspunkt i eksemplet ditt, hva som kjennetegner en kvadratisk
+funksjon.</p>
+<p>Gi et eksempel på en omvendt proporsjonal funksjon, og forklart kort,
+med utgangspunkt i eksemplet ditt, hva som kjennetegner en omvendt
+proporsjonal funksjon.</p>
+<h4
+id="middels-bestemme-og-begrunne-funksjonstype-basert-på-beskrivelse-av-situasjon-uttrykk-graf-og-tabell-1">Middels:
+Bestemme og begrunne funksjonstype basert på beskrivelse av situasjon,
+uttrykk, graf og tabell</h4>
+<ol type="1">
+<li>Den store sirkelen har radius <span
+class="math inline">\(10\)</span>, den lille har radius <span
+class="math inline">\(r\)</span>. Hva er sammenhengen mellom den lille
+radien og arealet mellom den store og den lille sirkelen?</li>
+</ol>
+<p><img src="2023-03-24-20-27-49.png" /></p>
+<ol start="2" type="1">
+<li>“I et selskap deles det ut lodd. Fra de <span
+class="math inline">\(1000\)</span> loddene, deles tre lodd ut til hver
+gjest. Siden antallet gjenværende lodd, <span
+class="math inline">\(y\)</span>, avtar når antallet gjester, <span
+class="math inline">\(x\)</span>, øker, er sammenhengen mellom <span
+class="math inline">\(x\)</span> og <span
+class="math inline">\(y\)</span> omvendt proporsjonal.” Avgjør og
+begrunn om påstanden stemmer.</li>
+</ol>
+<h4
+id="avansert-gjøre-om-mellom-ulike-representasjonsformer-for-de-tre-funksjonstypene-og-begrunne-omgjøringen-1">Avansert:
+Gjøre om mellom ulike representasjonsformer for de tre funksjonstypene,
+og begrunne omgjøringen</h4>
+<ol type="1">
+<li>Tabellen under viser en funksjonssammenheng.</li>
+</ol>
+<ol type="a">
+<li><p>Avgjør om den er lineær, kvadratisk eller omvendt
+proporsjonal.</p></li>
+<li><p>Lag en passende situasjon som kan høre til
+funksjonssammenhengen.</p></li>
+<li><p>Finn funksjonsuttrykk, og skisser grafen.</p></li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th>x</th>
+<th>1</th>
+<th>3</th>
+<th>4</th>
+<th>-2</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>y</td>
+<td>150</td>
+<td>100</td>
+<td>75</td>
+<td>225</td>
+</tr>
+</tbody>
+</table>
+<ol start="2" type="1">
+<li>Under ser du grafen til en funksjon.</li>
+</ol>
+<ol type="a">
+<li><p>Avgjør hva slags funksjon det er snakk om.</p></li>
+<li><p>Finn funksjonsuttrykket. <img
+src="2023-03-24-20-34-15.png" /></p></li>
+</ol>
+<h4 id="170211">Vurderingskriterier: Grunnleggende</h4>
+<p>Her må de gi et eksempel og forklare kjennetegnene, slik oppgaven ber
+om.</p>
+<h4 id="170212">Vurderingskriterier: Middels</h4>
+<ol type="1">
+<li>Studenten <em>må</em> lage en sammenheng mellom arealet mellom stor
+og liten sirkel og radiusen. Det naturlige er å sette opp differansen
+mellom stor og liten sirkel <span class="math inline">\(\pi\cdot 10^2 -
+\pi\cdot r^2 = \pi(10^2-r^2)\)</span>.</li>
+<li>Studenten må få fram at dette ikke gir en omvendt proporsjonal
+sammenhenge. Dette kan de for eksempel gjøre ved å forklare at <span
+class="math inline">\(y\)</span> må være <span
+class="math inline">\(1000-3x\)</span>, der <span
+class="math inline">\(x\)</span> er anntall gjester og peke på at dette
+ikke gir sammenhengen <span class="math inline">\(y\cdot x = a\)</span>
+der <span class="math inline">\(a\)</span> er en konstant.</li>
+</ol>
+<h4 id="170213">Vurderingskriterier: Avansert</h4>
+<p>Studentene <em>må</em> peke på hvilken funksjon det er. I første
+eksempel kan de se at økningen er lineær, med <span
+class="math inline">\(25\)</span> per <span
+class="math inline">\(x\)</span>. Det gir funksjonen <span
+class="math inline">\(f(x) = 175 - 25x\)</span>. I det andre eksempelet
+ser vi at <span class="math inline">\(x = 2\)</span> er toppunkt og at
+funksjonen er en parabel. Dermed er det en andregradsfunksjon. Deretter
+må finne funksjonsuttrykket (for eksempel ved regning).</p>
+<h3
+id="forklare-sammenhenger-mellom-parameterne-i-funksjonsuttrykket-og-grafen-til-lineære-funksjoner-1">Forklare
+sammenhenger mellom parameterne i funksjonsuttrykket og grafen til
+lineære funksjoner</h3>
+<h4
+id="grunnleggende-forklare-hvordan-endringer-i-stigningstall-og-konstantledd-påvirker-grafen-til-en-lineær-funksjon-1">Grunnleggende:
+Forklare hvordan endringer i stigningstall og konstantledd påvirker
+grafen til en lineær funksjon</h4>
+<p>Gitt en lineær funksjon <span class="math inline">\(ax+b\)</span>,
+der <span class="math inline">\(a = 1\)</span> og <span
+class="math inline">\(b=0\)</span>. Illustrer i et koordinatsystem
+hvordan endringer av <span class="math inline">\(a\)</span> påvirker
+grafen og hvordan endringer av <span class="math inline">\(b\)</span>
+påvirker grafen.</p>
+<h4
+id="middels-forklare-hvordan-man-kan-finne-likninga-til-en-lineær-funksjon-når-to-punkter-på-grafen-er-kjent-uten-bruk-av-topunktsformelen-1">Middels:
+Forklare hvordan man kan finne likninga til en lineær funksjon når to
+punkter på grafen er kjent uten bruk av topunktsformelen</h4>
+<p>Grafen til en lineær funksjon går gjennom punktene <span
+class="math inline">\((-3, 0)\)</span> og <span
+class="math inline">\((6, 3)\)</span>. Forklar hvordan vi kan finne
+likninga til den lineære funksjonen.</p>
+<h4 id="170221">Vurderingskriterier: Grunnleggende</h4>
+<p>Peke på hva parameterne gjør for førstegradsfunksjoner Middels: Finne
+likninga og forklare hvordan på en slik måte at man klart forstår det
+generelle i fremgangsmåten (kunne åpenbart blitt brukt for hvilke som
+helst punkt-par).</p>
+<h3
+id="forklare-hvordan-endringer-i-parameterne-i-funksjonsuttrykket-påvirker-grafene-til-andregrads--og-omvendt-proporsjonale-funksjoner-1">Forklare
+hvordan endringer i parameterne i funksjonsuttrykket påvirker grafene
+til andregrads- og omvendt proporsjonale funksjoner</h3>
+<h4
+id="grunnleggende-gjengi-hvilke-roller-parameterne-i-funksjonsuttrykkene-til-andregrads--og-omvendt-proporsjonale-funksjoner-spiller-med-hensyn-til-grafene-1">Grunnleggende:
+Gjengi hvilke roller parameterne i funksjonsuttrykkene til andregrads-
+og omvendt proporsjonale funksjoner spiller med hensyn til grafene</h4>
+<p>En omvendt proporsjonal funksjon kan skrives på formen <span
+class="math inline">\(\frac{a}{x}\)</span>. Vis i et koordinatsystem
+hvordan grafen ser ut dersom <span class="math inline">\(a&gt;0\)</span>
+og dersom <span class="math inline">\(a&lt;0\)</span>.</p>
+<p>Skisser grafen til <span class="math inline">\(f\)</span> og <span
+class="math inline">\(g\)</span> der <span
+class="math inline">\(f(x)=x(x-5)\)</span> og <span
+class="math inline">\(g(x)=x(x-5) + 2\)</span></p>
+<h4
+id="middels-forklare-hvordan-endringer-i-parameterne-i-funksjonsuttrykket-påvirker-grafene-til-andregrads--og-omvendt-proporsjonale-funksjoner-1">Middels:
+Forklare hvordan endringer i parameterne i funksjonsuttrykket påvirker
+grafene til andregrads- og omvendt proporsjonale funksjoner</h4>
+<p>En omvendt proporsjonal funksjon ser generelt slik ut: <span
+class="math inline">\(f(x)=\frac{a}{x}\)</span>. Forklar kort (slik at
+det fremstår meningsfullt for noen som ikke kan det) og vis i et
+koordinatsystem hvordan grafen må se ut når parameteren <span
+class="math inline">\(a\)</span> er større enn 0. parameteren <span
+class="math inline">\(a\)</span> er mindre enn 0</p>
+<p>En kvadratisk funksjon ser generelt slik ut: <span
+class="math inline">\(f(x)=ax^2+bx+c\)</span>. Forklar kort (slik at det
+fremstår meningsfullt for noen som ikke kan det) og vis i et
+koordinatsystem hva som skjer med grafen når parameteren <span
+class="math inline">\(a\)</span> endres. parameteren <span
+class="math inline">\(c\)</span> endres.</p>
+<h4 id="170231">Vurderingskriterier: Grunnleggende</h4>
+<ol type="1">
+<li>Peke på hva parameterne gjør for andregradsfunksjoner</li>
+<li>Skissere de to omvendt proporsjonale grafene.</li>
+</ol>
+<h4 id="170232">Vurderingskriterier: Middels</h4>
+<ol type="1">
+<li>Omvendt proporsjonale:<br />
+Grafen må skisseres for <span class="math inline">\(a&gt;0\)</span> og
+<span class="math inline">\(a&lt;0\)</span>. Det må komme fram hvorfor
+formen på grafen er som den er. For eksempel <span
+class="math inline">\(a&gt;0\)</span> kan en gi et konkret eksempel på
+en om omvendt prop. funk. og framheve sammenhengen (skaleres <span
+class="math inline">\(x\)</span> opp med noe skaleres <span
+class="math inline">\(y\)</span> ned med det samme, derav navnet omvendt
+prop) <span class="math inline">\(\rightarrow\)</span> større og større
+<span class="math inline">\(x\)</span> gir <span
+class="math inline">\(y\)</span> som kryper mot <span
+class="math inline">\(0\)</span>, mindre og mindre <span
+class="math inline">\(x\)</span> gir større og større <span
+class="math inline">\(y\)</span>. Det bør komme fram noen symmetrier med
+grafen. Når <span class="math inline">\(a&lt;0\)</span> kan en bare peke
+på at <span class="math inline">\(a&lt; 0\)</span> gir bare samme graf
+flippet over <span class="math inline">\(x\)</span>-aksen.<br />
+Kvadratiske funksjoner:<br />
+Her må det kort komme fram at a avgjør hvor bratt funksjonen stiger
+(hvis <span class="math inline">\(a&gt;0\)</span>) eller synker (<span
+class="math inline">\(a&lt;0\)</span>), og at <span
+class="math inline">\(c\)</span> flytter grafen oppover eller nedover og
+tilsier hvor funksjonen skjærer andreaksen.</li>
+</ol>
+<h3 id="løse-likninger-fra-funksjonsperspektiv-1">Løse likninger fra
+funksjonsperspektiv</h3>
+<h4
+id="grunnleggende-forklare-algebraisk-og-grafisk-hva-som-menes-med-løsningen-av-en-lineær-likning-1">Grunnleggende:
+Forklare algebraisk og grafisk hva som menes med løsningen av en lineær
+likning</h4>
+<p>Gitt likningen <span class="math inline">\(2(3x-1) =
+3x+1\)</span>.</p>
+<p>Løs likningen Tolk venstre side og høyre side som funksjonsuttrykk,
+og skisser grafene i samme koordinatsystem. Forklar algebraisk og
+grafisk hva det vil si at tallet du fant i 1. er en løsning på
+likningen.</p>
+<h4
+id="middels-tolke-lineære-likninger-grafisk-og-finne-skjæringspunkt-mellom-lineære-grafer-og-mellom-lineære-grafer-og-aksene-1">Middels:
+Tolke lineære likninger grafisk, og finne skjæringspunkt mellom lineære
+grafer og mellom lineære grafer og aksene</h4>
+<ol type="1">
+<li>Gi en situasjon som passer til funksjonen <span
+class="math inline">\(f(x)=5-\frac{1}{2}x\)</span>. Hva svarer likninga
+<span class="math inline">\(5-\frac{1}{2}x=2\)</span> til i
+situasjonsbeskrivelsen din? Tolk og løs likningen grafisk i et
+koordinatsystem.</li>
+</ol>
+<h4
+id="avansert-tolke-likninger-grafisk-og-finne-skjæringspunkt-mellom-grafer-til-ulike-typer-funksjoner-og-mellom-grafer-og-aksene-1">Avansert:
+Tolke likninger grafisk, og finne skjæringspunkt mellom grafer til ulike
+typer funksjoner og mellom grafer og aksene</h4>
+<p>La <span class="math inline">\(f(x)=\frac{1}{2}x^2+6x-1\)</span> og
+<span class="math inline">\(g(x)=\frac{3}{2}x+4\)</span>.</p>
+<p>Bestem eventuelle skjæringspunkt (begge koordinater) mellom grafene
+til <span class="math inline">\(f\)</span> og <span
+class="math inline">\(g\)</span> ved regning.</p>
+<p>Skisser grafene i et koordinatsystem.</p>
+<h4 id="170241">Vurderingskriterier: Grunnleggende</h4>
+<p>Alle oppgaver må besvares.</p>
+<ol type="1">
+<li>Likningen må løses.</li>
+<li>Her må de tolke og skissere begge grafene i samme
+koordinatsystem.</li>
+<li>Gi en forklaring som viser sammenhengen mellom at løsning gir likhet
+av venstre og høyre side i likningen og at det tilsvarer
+skjæringspunktet mellom grafene.</li>
+</ol>
+<h4 id="170242">Vurderingskriterier: Middels</h4>
+<p>De må lage en situasjon som gir likningen. Deretter må de illustrere
+likningen grafisk og vise løsningen i koordinatsystemet.</p>
+<h4 id="170243">Vurderingskriterier: Avansert</h4>
+<p>Alle oppgavene må besvares</p>
+<ol type="1">
+<li>Studenten må regne ut skjæringspunktene.</li>
+<li>Studenten må skissere grafene i et koordinatsystem.</li>
+</ol>
+<h3
+id="bruke-begrepene-funksjon-variabel-uavhengig-variabel-innverdi-avhengig-variabel-utverdi-funksjonsverdi-definisjonsmengde-og-verdimengde-1">Bruke
+begrepene funksjon, variabel, uavhengig variabel (innverdi), avhengig
+variabel (utverdi), funksjonsverdi, definisjonsmengde og
+verdimengde</h3>
+<h4
+id="grunnleggende-gjengi-forklare-og-gi-eksempler-på-begrepene-1">Grunnleggende:
+Gjengi, forklare og gi eksempler på begrepene</h4>
+<p>Sammenhengen mellom sidelengden og arealet av et kvadrat er en
+funksjonssammenheng. Bruk eksemplet til å forklare begrepene funksjon,
+innverdi og funksjonsverdi.</p>
+<h4
+id="middels-avgjøre-og-begrunne-ved-hjelp-av-begrepene-om-en-gitt-sammenheng-er-en-funksjonssammenheng-1">Middels:
+Avgjøre og begrunne (ved hjelp av begrepene) om en gitt sammenheng er en
+funksjonssammenheng</h4>
+<p>Til hvert av punktene A) og B), er to variabler beskrevet. Avgjør i
+hvert tilfelle om én av variablene er funksjon av den andre, begge
+variabler er funksjon av hverandre, eller ingen av dem er funksjon av
+den andre. Besvarelsen må inneholde ordene innverdi og funksjonsverdi,
+definisjons- og verdimengde.</p>
+<ol type="A">
+<li><p>En pakkes vekt og prisen man betaler for å sende den.</p></li>
+<li><p>Temperatur målt utenfor stuevinduet og tidspunktene for
+målingene.</p></li>
+</ol>
+<h4 id="170251">Vurderingskriterier: Grunnleggende</h4>
+<p>Her må de peke på at arealet av en kvadrat med sidelengde <span
+class="math inline">\(r\)</span> er <span
+class="math inline">\(r^2\)</span> (altså at <span
+class="math inline">\(A(r) = r^2\)</span>). Arealet er derfor en
+funksjon av <span class="math inline">\(r\)</span> (innverdi) fordi hver
+sidelengde <span class="math inline">\(r\)</span> gir et entydig areal
+(som her er funksjonsverdien).</p>
+<h4 id="170252">Vurderingskriterier: Middels</h4>
+<p>Besvarelsene <em>må</em> inneholde ordene innverdi, funksjonsverdi,
+definisjons- og verdimengde. A. Studenten må begrunne sammenhengen vekt
+og pris. Som oftes er prisen avhengig av både størrelse og vekt. På
+denne måten kan en argumentere for at prisen ikke er entydig bestemt av
+vekten alene. Derfor er pris ikke en funksjon av vekt. Tilsvarende kan
+en ikke <em>hente tilbake</em> vekten ved å se på prisen, da disse ofte
+settes i intervaller. På den andre side kan en tolke oppgaven som at
+pakken er i en fiksert størrelse. Dermed vil vekten entydig bestemme
+prisen. I dette tilfellet vil vekten være innverdi og prisen være
+funksjonsverdien. Siden vekten kan være alle positive tall må er det
+naturlig å tenke at definisjonsmengden er alle positive verdier.
+Verdimengden i dette tilfellet blir de prisene en er nødt til å betale,
+som i dette tilfelle nok blir en diskrete verdier.<br />
+B. Studenten må begrunne sammenhengen tid og temperatur.Det vil for
+hvert tidspunkt være en målt temperatur utenfor stuevinduet. Dermed kan
+temperaturen utenfor stuevinduet ses på som en funksjon av tiden. Da det
+ved flere tidspunkt kan være samme temperatur utenfor, kan en ikke finne
+tilbake til et tidspunkt ved å se på temperaturen. Derfor vil ikke tiden
+være en funksjon av temperaturen.</p>
+<h3
+id="gjøre-om-mellom-ulike-representasjonsformer-for-funksjonssammenhenger-1">Gjøre
+om mellom ulike representasjonsformer for funksjonssammenhenger</h3>
+<h4
+id="middels-gjøre-om-mellom-de-fire-representasjonene-av-funksjoner-janviers-tabell-alfa-4.1-og-vurdere-elevers-arbeid-med-overganger-mellom-representasjonene-1">Middels:
+Gjøre om mellom de fire representasjonene av funksjoner (Janviers
+tabell, Alfa 4.1), og vurdere elevers arbeid med overganger mellom
+representasjonene</h4>
+<p>André “sykler” (el-sykkel) og Henrik sykler (skikkelig sykkel) til
+jobb. De har lik reisevei (<span class="math inline">\(8\)</span> km) og
+bruker like lang tid (<span class="math inline">\(25\)</span> min.).
+André, med “sykkelen” sin, holder jevn fart hele veien. Henriks fart
+varierer avhengig om det er strake veier eller bakker. På Henriks
+reisestrekning er det to oppoverbakker - den første lang og slak, den
+andre en del kortere og bratt. Det er også én lang nedoverbakke. Det
+resterende av strekningen er flat. Den første oppoverbakken er ved <span
+class="math inline">\(2,5\)</span> km, den andre ved <span
+class="math inline">\(4\)</span> km. Nedoverbakken er ved <span
+class="math inline">\(7,2\)</span> km.</p>
+<p>Skisser to grafer i samme koordinatsystem. Den ene skal være en
+fremstilling av Andrés reise til jobb, den andre Henriks reise til jobb.
+La det gå klart frem hvilke variabler som inngår i den grafiske
+fremstillingen din.</p>
+<h4 id="170262">Vurderingskriterier: Middels</h4>
+<p>Studentene må skissere en graf som får fram sammenhengen på en riktig
+måte, som også inneholder all informasjonen som er gitt. André sin graf
+bør være en lineær graf mens Henrik sin bør variere i tråd med
+beskrivelsen.</p>
+<h2 id="funksjoner-13.02.23">Funksjoner 13.02.23</h2>
+<h3
+id="bruke-begrepene-lineær-funksjon-andregradsfunksjon-og-omvendt-proporsjonal-funksjon-2">Bruke
+begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal
+funksjon</h3>
+<h4
+id="grunnleggende-forklare-kjennetegn-ved-og-gi-eksempler-på-funksjonstypene-2">Grunnleggende:
+Forklare kjennetegn ved og gi eksempler på funksjonstypene</h4>
+<ol type="1">
+<li>Gi et eksempel på en lineær funksjon, og forklart kort, med
+utgangspunkt i eksemplet ditt, hva som kjennetegner en lineær
+funksjon.</li>
+<li>Gi et eksempel på en kvadratisk funksjon, og forklart kort, med
+utgangspunkt i eksemplet ditt, hva som kjennetegner en kvadratisk
+funksjon.</li>
+<li>Gi et eksempel på en omvendt proporsjonal funksjon, og forklart
+kort, med utgangspunkt i eksemplet ditt, hva som kjennetegner en omvendt
+proporsjonal funksjon.</li>
+</ol>
+<h4
+id="middels-bestemme-og-begrunne-funksjonstype-basert-på-beskrivelse-av-situasjon-uttrykk-graf-og-tabell-2">Middels:
+Bestemme og begrunne funksjonstype basert på beskrivelse av situasjon,
+uttrykk, graf og tabell</h4>
+<ol type="1">
+<li><p>I hagen ligger det et barnebasseng som rommer <span
+class="math inline">\(1\)</span> m<span
+class="math inline">\(^3\)</span>. Bassenget skal fylles med vann. Du
+har en vannslage som fyller <span class="math inline">\(0,05\)</span>
+m<span class="math inline">\(^3\)</span> vann i bassenget per minutt. I
+tillegg fyller du bøtter med varmt vann innefra og klarer å fylle <span
+class="math inline">\(0,01\)</span> m<span
+class="math inline">\(^3\)</span> varmt vann per minutt. Hva er
+sammenhengen mellom tiden og mengden vann i bassenget?</p></li>
+<li><p>I koordinatsystemet under ser du to grafer. Begrunn hvilken av
+dem som er grafen til en omvendt proporsjonal funksjon. Begrunnelsen må
+vise til et funksjonsuttrykk. (Å si at grafen ser ut sånn og sånn, er
+altså ikke en begrunnelse ;))</p></li>
+</ol>
+<p><img src="2023-03-24-20-48-58.png" /></p>
+<h4
+id="avansert-gjøre-om-mellom-ulike-representasjonsformer-for-de-tre-funksjonstypene-og-begrunne-omgjøringen-2">Avansert:
+Gjøre om mellom ulike representasjonsformer for de tre funksjonstypene,
+og begrunne omgjøringen</h4>
+<ol type="1">
+<li>Tabellen under viser en funksjonssammenheng.</li>
+</ol>
+<ol type="a">
+<li><p>Avgjør om den er lineær, kvadratisk eller omvendt
+proporsjonal.</p></li>
+<li><p>Lag en passende situasjon som kan høre til
+funksjonssammenhengen.</p></li>
+<li><p>Finn funksjonsuttrykk, og skisser grafen.</p></li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th>x</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>6</th>
+<th>12</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>y</td>
+<td>150</td>
+<td>100</td>
+<td>75</td>
+<td>50</td>
+<td>25</td>
+</tr>
+</tbody>
+</table>
+<ol type="1">
+<li>Under ser du grafen til en funksjon.</li>
+</ol>
+<ol type="a">
+<li><p>Avgjør hva slags funksjon det er snakk om.</p></li>
+<li><p>Finn funksjonsuttrykket.</p></li>
+</ol>
+<p><img src="2023-03-24-20-49-07.png" /></p>
+<h4 id="130211">Vurderingskriterier: Grunnleggende</h4>
+<p>Her må de gi et eksempel og forklare kjennetegnene, slik oppgaven ber
+om.</p>
+<h4 id="130212">Vurderingskriterier: Middels</h4>
+<ol type="1">
+<li>Studenten <em>må</em> lage en sammenheng mellom mengde vann og tid.
+Det naturlige er at å koble mengde vann som fylles per minutt, som er
+<span class="math inline">\(0,\!05 + 0,\!01 = 0,\!06\)</span>. Siden vi
+skal fylle et basseng kan vi anta et det er tomt, som gir <span
+class="math inline">\(f(x) =0,\!06x\)</span>, der <span
+class="math inline">\(x\)</span> er antall minutter og <span
+class="math inline">\(f\)</span> er antall <span
+class="math inline">\(m^3\)</span> som vannet fyller i bassenget.<br />
+</li>
+<li>Studenten må peke på egenskaper ved omvendtproporsjonale funksjoner
+for å begrunne. For eksempel kan en peke på at den grønne funksjonen
+oppfyller dobling av <span class="math inline">\(x\)</span> gir
+halvering av <span class="math inline">\(y\)</span>. Altså at <span
+class="math inline">\(x= 4\)</span> gir <span
+class="math inline">\(y=16\)</span> og <span
+class="math inline">\(x=8\)</span> gir <span class="math inline">\(y =
+8\)</span>. De bør også pekes på at den blå grafen ikke oppfyller denne
+egenskapen for eksempel ved å peke på at de krysser i <span
+class="math inline">\(x= 8\)</span>, men ikke i <span
+class="math inline">\(x= 4\)</span>.</li>
+</ol>
+<h4 id="130213">Vurderingskriterier: Avansert</h4>
+<p>Studentene <em>må</em> peke på hvilken funksjon det er. I første
+eksempel kan de se at dobling av <span class="math inline">\(x\)</span>
+gir halvering av <span class="math inline">\(y\)</span>. Det gir
+funksjonen <span class="math inline">\(f(x) = \frac{300}{x}\)</span>. I
+det andre eksempelet ser vi at <span class="math inline">\(x =
+2\)</span> er bunnpunkt og at funksjonen er en parabel. Dermed er det en
+andregradsfunksjon. Deretter må finne funksjonsuttrykket (for eksempel
+ved regning).</p>
+<h3
+id="forklare-sammenhenger-mellom-parameterne-i-funksjonsuttrykket-og-grafen-til-lineære-funksjoner-2">Forklare
+sammenhenger mellom parameterne i funksjonsuttrykket og grafen til
+lineære funksjoner</h3>
+<h4
+id="grunnleggende-forklare-hvordan-endringer-i-stigningstall-og-konstantledd-påvirker-grafen-til-en-lineær-funksjon-2">Grunnleggende:
+Forklare hvordan endringer i stigningstall og konstantledd påvirker
+grafen til en lineær funksjon</h4>
+<p>Gitt en lineær funksjon <span class="math inline">\(ax+b\)</span>,
+der <span class="math inline">\(a = 1\)</span> og <span
+class="math inline">\(b=0\)</span>. Illustrer i et koordinatsystem
+hvordan endringer av <span class="math inline">\(a\)</span> påvirker
+grafen og hvordan endringer av <span class="math inline">\(b\)</span>
+påvirker grafen.</p>
+<h4
+id="middels-forklare-hvordan-man-kan-finne-likninga-til-en-lineær-funksjon-når-to-punkter-på-grafen-er-kjent-uten-bruk-av-topunktsformelen-2">Middels:
+Forklare hvordan man kan finne likninga til en lineær funksjon når to
+punkter på grafen er kjent uten bruk av topunktsformelen</h4>
+<p>Under ser du en lineær funksjon som går gjennom punktene <span
+class="math inline">\(A\)</span> og <span
+class="math inline">\(B\)</span>. Forklar hvordan vi kan finne likninga
+til den lineære funksjonen.</p>
+<p><img src="2023-03-24-20-50-16.png" /></p>
+<h4 id="130221">Vurderingskriterier: Grunnleggende</h4>
+<p>Peke på hva parameterne gjør for førstegradsfunksjoner</p>
+<h4 id="130222">Vurderingskriterier: Middels</h4>
+<p>Finne likninga og forklare hvordan på en slik måte at man klart
+forstår det generelle i fremgangsmåten (kunne åpenbart blitt brukt for
+hvilke som helst punkt-par).</p>
+<h3
+id="forklare-hvordan-endringer-i-parameterne-i-funksjonsuttrykket-påvirker-grafene-til-andregrads--og-omvendt-proporsjonale-funksjoner-2">Forklare
+hvordan endringer i parameterne i funksjonsuttrykket påvirker grafene
+til andregrads- og omvendt proporsjonale funksjoner</h3>
+<h4
+id="grunnleggende-gjengi-hvilke-roller-parameterne-i-funksjonsuttrykkene-til-andregrads--og-omvendt-proporsjonale-funksjoner-spiller-med-hensyn-til-grafene-2">Grunnleggende:
+Gjengi hvilke roller parameterne i funksjonsuttrykkene til andregrads-
+og omvendt proporsjonale funksjoner spiller med hensyn til grafene</h4>
+<p>En andregradsfunksjon kan skrives på formen <span
+class="math inline">\(ax^2 + b x + c\)</span>. Gjengi med ord hvilken
+påvirkning endringer i <span class="math inline">\(a\)</span> (tallet
+foran <span class="math inline">\(x^2\)</span>) og <span
+class="math inline">\(c\)</span> (konstantleddet) har på grafen til en
+andregradsfunksjon.</p>
+<p>Skisser grafene <span class="math inline">\(y = \frac{24}{x}\)</span>
+og <span class="math inline">\(y = \frac{-24}{x}\)</span> i samme
+koordinatsystem.</p>
+<h4
+id="middels-forklare-hvordan-endringer-i-parameterne-i-funksjonsuttrykket-påvirker-grafene-til-andregrads--og-omvendt-proporsjonale-funksjoner-2">Middels:
+Forklare hvordan endringer i parameterne i funksjonsuttrykket påvirker
+grafene til andregrads- og omvendt proporsjonale funksjoner</h4>
+<p>En omvendt proporsjonal funksjon ser generelt slik ut: <span
+class="math inline">\(f(x)=\frac{a}{x}\)</span>. Forklar kort (slik at
+det fremstår meningsfullt for noen som ikke kan det) og vis i et
+koordinatsystem hvordan grafen må se ut når parameteren <span
+class="math inline">\(a\)</span> er større enn 0. parameteren <span
+class="math inline">\(a\)</span> er mindre enn 0</p>
+<p>En kvadratisk funksjon ser generelt slik ut: <span
+class="math inline">\(f(x)=ax^2+bx+c\)</span>. Forklar kort (slik at det
+fremstår meningsfullt for noen som ikke kan det) og vis i et
+koordinatsystem hva som skjer med grafen når parameteren <span
+class="math inline">\(a\)</span> endres. parameteren <span
+class="math inline">\(c\)</span> endres.</p>
+<h4 id="130231">Vurderingskriterier: Grunnleggende</h4>
+<ol type="1">
+<li>Peke på hva parameterne gjør for andregradsfunksjoner</li>
+<li>Skissere de to omvendt proporsjonale grafene.</li>
+</ol>
+<h4 id="130232">Vurderingskriterier: Middels</h4>
+<ol type="1">
+<li>Omvendt proporsjonale:<br />
+Grafen må skisseres for <span class="math inline">\(a&gt;0\)</span> og
+<span class="math inline">\(a&lt;0\)</span>. Det må komme fram hvorfor
+formen på grafen er som den er. For eksempel <span
+class="math inline">\(a&gt;0\)</span> kan en gi et konkret eksempel på
+en om omvendt prop. funk. og framheve sammenhengen (skaleres <span
+class="math inline">\(x\)</span> opp med noe skaleres <span
+class="math inline">\(y\)</span> ned med det samme, derav navnet omvendt
+prop) <span class="math inline">\(\rightarrow\)</span> større og større
+<span class="math inline">\(x\)</span> gir <span
+class="math inline">\(y\)</span> som kryper mot <span
+class="math inline">\(0\)</span>, mindre og mindre <span
+class="math inline">\(x\)</span> gir større og større <span
+class="math inline">\(y\)</span>. Det bør komme fram noen symmetrier med
+grafen. Når <span class="math inline">\(a&lt;0\)</span> kan en bare peke
+på at <span class="math inline">\(a&lt; 0\)</span> gir bare samme graf
+flippet over <span class="math inline">\(x\)</span>-aksen.<br />
+Kvadratiske funksjoner:<br />
+Her må det kort komme fram at a avgjør hvor bratt funksjonen stiger
+(hvis <span class="math inline">\(a&gt;0\)</span>) eller synker (<span
+class="math inline">\(a&lt;0\)</span>), og at <span
+class="math inline">\(c\)</span> flytter grafen oppover eller nedover og
+tilsier hvor funksjonen skjærer andreaksen.</li>
+</ol>
+<h3 id="løse-likninger-fra-funksjonsperspektiv-2">Løse likninger fra
+funksjonsperspektiv</h3>
+<h4
+id="grunnleggende-forklare-algebraisk-og-grafisk-hva-som-menes-med-løsningen-av-en-lineær-likning-2">Grunnleggende:
+Forklare algebraisk og grafisk hva som menes med løsningen av en lineær
+likning</h4>
+<p>Gitt likningen <span class="math inline">\(12-5x =
+\frac{1}{3}(x+4)\)</span>.</p>
+<p>Løs likningen Tolk venstre side og høyre side som funksjonsuttrykk,
+og skisser grafene i samme koordinatsystem. Forklar algebraisk og
+grafisk hva det vil si at tallet du fant i 1. er en løsning på
+likningen.</p>
+<h4
+id="middels-tolke-lineære-likninger-grafisk-og-finne-skjæringspunkt-mellom-lineære-grafer-og-mellom-lineære-grafer-og-aksene-2">Middels:
+Tolke lineære likninger grafisk, og finne skjæringspunkt mellom lineære
+grafer og mellom lineære grafer og aksene</h4>
+<ol type="1">
+<li>Gi en situasjon som passer til funksjonen <span
+class="math inline">\(f(x)=5+3x\)</span>. Hva svarer likninga <span
+class="math inline">\(5+3x=0\)</span> til i situasjonsbeskrivelsen din?
+Tolk og løs likningen grafisk i et koordinatsystem.</li>
+</ol>
+<h4
+id="avansert-tolke-likninger-grafisk-og-finne-skjæringspunkt-mellom-grafer-til-ulike-typer-funksjoner-og-mellom-grafer-og-aksene-2">Avansert:
+Tolke likninger grafisk, og finne skjæringspunkt mellom grafer til ulike
+typer funksjoner og mellom grafer og aksene</h4>
+<p>To fjellklatrere, Henrik og André, skal overnatte på et fjell. De
+skal overnatte på en høyde på 2200 meter og bestemmer seg for å vedde om
+hvem som kommer seg ned til basen på 300 meter først.</p>
+<p>Henrik er gammel og rutinert og holder en jevn fart fra han begynner
+turen nedover. Turen hans kan beskrives med funksjonen <span
+class="math inline">\(p(x) = 100(22-2x)\)</span>, der <span
+class="math inline">\(p\)</span> er meter over havet, og <span
+class="math inline">\(x\)</span> er antall timer etter Henrik starter
+turen.</p>
+<p>André er innbiller seg at han er ung og sprek og velger å sove lenge
+og starter turen nedover noen timer etter Henrik. André starter i en
+voldsom fart, men blir fort sliten og må senke farten. André sin tur
+nedover kan beskrives med funksjonen <span class="math inline">\(h(x) =
+(\frac{100\cdot 36}{x})\)</span>, der <span
+class="math inline">\(h\)</span> viser meter over havet og <span
+class="math inline">\(x\)</span> er timer etter Henrik startet
+turen.</p>
+<p>Under ser du en grafisk representasjon av funksjonene <span
+class="math inline">\(p\)</span> og <span
+class="math inline">\(h\)</span>.</p>
+<ol type="1">
+<li>Forklar hva skjæringspunktene mellom grafene til <span
+class="math inline">\(p\)</span> og <span
+class="math inline">\(h\)</span> betyr.</li>
+</ol>
+<p>I figuren under er også linjen <span class="math inline">\(q =
+300\)</span> lagt inn.</p>
+<ol start="2" type="1">
+<li><p>Forklar hva skjæring mellom <span
+class="math inline">\(h\)</span> og <span
+class="math inline">\(q\)</span> betyr og skjæring mellom <span
+class="math inline">\(p\)</span> og <span
+class="math inline">\(q\)</span> betyr.</p></li>
+<li><p>Finn skjæringsunktene mellom <span
+class="math inline">\(p\)</span> og <span
+class="math inline">\(h\)</span> med regning (Merk: Både <span
+class="math inline">\(x\)</span>- og <span
+class="math inline">\(y\)</span>-verdi må oppgis for
+skjæringspunktene).</p></li>
+<li><p>Finn skjæringsunktene mellom <span
+class="math inline">\(q\)</span> og <span
+class="math inline">\(h\)</span> med regning (Merk: Både <span
+class="math inline">\(x\)</span>- og <span
+class="math inline">\(y\)</span>-verdi må oppgis for
+skjæringspunktene).</p></li>
+</ol>
+<p><img src="2023-03-24-20-57-45.png" /></p>
+<h4 id="130241">Vurderingskriterier: Grunnleggende</h4>
+<p>Alle oppgaver må besvares.</p>
+<ol type="1">
+<li>Likningen må løses.</li>
+<li>Her må de tolke og skissere begge grafene i samme
+koordinatsystem.</li>
+<li>Gi en forklaring som viser sammenhengen mellom at løsning gir likhet
+av venstre og høyre side i likningen og at det tilsvarer
+skjæringspunktet mellom grafene.</li>
+</ol>
+<h4 id="vurderingskriterier-middels">Vurderingskriterier: Middels</h4>
+<p>De må lage en situasjon som gir likningen. Deretter må de illustrere
+likningen grafisk og vise løsningen i koordinatsystemet.</p>
+<h4 id="vurderingskriterier-avansert">Vurderingskriterier Avansert</h4>
+<p>Alle oppgavene må besvares</p>
+<ol type="1">
+<li>Studenten må forklare at siden <span
+class="math inline">\(p\)</span> og <span
+class="math inline">\(h\)</span> begge forteller høyden til André og
+Henrik, så må skjæringen være tidspunktene de samtidig er like høyt
+oppe.<br />
+</li>
+<li>Tilsvarende må skjæringen mellom <span
+class="math inline">\(h\)</span> og <span
+class="math inline">\(p\)</span> med <span
+class="math inline">\(q\)</span> være når de er kommet seg ned.</li>
+<li>Her må de sette opp og løse <span class="math inline">\(p =
+h\)</span>.</li>
+<li>Her må de sette opp og løse <span class="math inline">\(q =
+h\)</span>.</li>
+</ol>
+<h3
+id="bruke-begrepene-funksjon-variabel-uavhengig-variabel-innverdi-avhengig-variabel-utverdi-funksjonsverdi-definisjonsmengde-og-verdimengde-2">Bruke
+begrepene funksjon, variabel, uavhengig variabel (innverdi), avhengig
+variabel (utverdi), funksjonsverdi, definisjonsmengde og
+verdimengde</h3>
+<h4
+id="grunnleggende-gjengi-forklare-og-gi-eksempler-på-begrepene-2">Grunnleggende:
+Gjengi, forklare og gi eksempler på begrepene</h4>
+<p>Sammenhengen mellom sidelengden og arealet av et kvadrat er en
+funksjonssammenheng. Bruk eksemplet til å forklare begrepene funksjon,
+innverdi og funksjonsverdi.</p>
+<h4
+id="middels-avgjøre-og-begrunne-ved-hjelp-av-begrepene-om-en-gitt-sammenheng-er-en-funksjonssammenheng-2">Middels:
+Avgjøre og begrunne (ved hjelp av begrepene) om en gitt sammenheng er en
+funksjonssammenheng</h4>
+<p>Én av følgende sammenhenger er en funksjonssammenheng: A)
+Sammenhengen mellom omkrets og bredden i et rektangel. B) Sammenhengen
+mellom omkrets og areal av en sirkel.</p>
+<p>Avgjør og begrunn ved hjelp av en definisjon av funksjon hvilken av
+de to sammenhengene som er en funksjonssammenheng. Bruk
+funksjonssammenhengen til å forklare begrepene uavhengig og avhengig
+variabel og definisjons- og verdimengde.</p>
+<h4 id="130251">Vurderingskriterier: Grunnleggende</h4>
+<p>Her må de peke på at arealet av en kvadrat med sidelengde <span
+class="math inline">\(r\)</span> er <span
+class="math inline">\(r^2\)</span> (altså at <span
+class="math inline">\(A(r) = r^2\)</span>). Arealet er derfor en
+funksjon av <span class="math inline">\(r\)</span> (innverdi) fordi hver
+sidelengde <span class="math inline">\(r\)</span> gir et entydig areal
+(som her er funksjonsverdien).</p>
+<h4 id="vurderingskriterier-middels-1">Vurderingskriterier: Middels</h4>
+<p>Her må studenten peke på og begrunne hvorfor det er sammenhengen
+mellom omkrets og kvadrat som gir en funksjonssammenheng. Begrunnelsen
+må referere til en riktig definisjon av en funksjon. Deretter må de
+bruke eksempelet til å forklare begrepene det bes om.</p>
+<h3
+id="gjøre-om-mellom-ulike-representasjonsformer-for-funksjonssammenhenger-2">Gjøre
+om mellom ulike representasjonsformer for funksjonssammenhenger</h3>
+<h4
+id="middels-gjøre-om-mellom-de-fire-representasjonene-av-funksjoner-janviers-tabell-alfa-4.1-og-vurdere-elevers-arbeid-med-overganger-mellom-representasjonene-2">Middels:
+Gjøre om mellom de fire representasjonene av funksjoner (Janviers
+tabell, Alfa 4.1), og vurdere elevers arbeid med overganger mellom
+representasjonene</h4>
+<p>Illustrasjonen til venstre viser en (litt forstørret) klinkekule som
+slippes ned en liten bakke. Skisser en en graf som viser sammenhengen
+mellom hastigheten til kulen og hvor mange meter kulen har bevegd seg i
+horisontal retning. Beskriv en situasjon som passer til grafen til
+høyre. (Andreaksen viser kroner målt i 1000, førsteaksen viser tid)</p>
+<p><img src="2023-03-24-20-58-35.png" /> <img
+src="2023-03-24-20-58-43.png" /></p>
+<h4 id="130262">Vurderingskriterier: Middels</h4>
+<ol type="1">
+<li>Studentene må skissere en graf som får fram sammenhengen på en
+riktig måte</li>
+<li>Studentene må her peke på en (mulig) situasjon som kan beskrive
+grafen som er gitt. (Timelønn kan være en naturlig situasjon her).</li>
+</ol>
+<h2 id="funksjoner-10.02.23">Funksjoner 10.02.23</h2>
+<h3
+id="bruke-begrepene-lineær-funksjon-andregradsfunksjon-og-omvendt-proporsjonal-funksjon-3">Bruke
+begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal
+funksjon</h3>
+<h4
+id="grunnleggende-forklare-kjennetegn-ved-og-gi-eksempler-på-funksjonstypene-3">Grunnleggende:
+Forklare kjennetegn ved og gi eksempler på funksjonstypene</h4>
+<ol type="1">
+<li>Gi et eksempel på en lineær funksjon, og forklart kort, med
+utgangspunkt i eksemplet ditt, hva som kjennetegner en lineær
+funksjon.</li>
+<li>Gi et eksempel på en kvadratisk funksjon, og forklart kort, med
+utgangspunkt i eksemplet ditt, hva som kjennetegner en kvadratisk
+funksjon.</li>
+<li>Gi et eksempel på en omvendt proporsjonal funksjon, og forklart
+kort, med utgangspunkt i eksemplet ditt, hva som kjennetegner en omvendt
+proporsjonal funksjon.</li>
+</ol>
+<h4
+id="middels-bestemme-og-begrunne-funksjonstype-basert-på-beskrivelse-av-situasjon-uttrykk-graf-og-tabell-3">Middels:
+Bestemme og begrunne funksjonstype basert på beskrivelse av situasjon,
+uttrykk, graf og tabell</h4>
+<ol type="1">
+<li><p>På hyttetaket ligger det <span class="math inline">\(70\)</span>
+m<span class="math inline">\(^3\)</span> snø som skal spas bort. Hvert
+spadetak rommer <span class="math inline">\(0,8\)</span> m<span
+class="math inline">\(^3\)</span>, og du greier <span
+class="math inline">\(8\)</span> spadetak i minuttet. Hva er
+sammenhengen mellom tiden og mengden snø igjen på taket?</p></li>
+<li><p>I koordinatsystemet under ser du to grafer. Begrunn hvilken av
+dem som er grafen til en omvendt proporsjonal funksjon. Begrunnelsen må
+vise til et funksjonsuttrykk. (Å si at grafen ser ut sånn og sånn, er
+altså ikke en begrunnelse ;))</p></li>
+</ol>
+<p><img src="2023-03-24-21-04-39.png" /></p>
+<h4
+id="avansert-gjøre-om-mellom-ulike-representasjonsformer-for-de-tre-funksjonstypene-og-begrunne-omgjøringen-3">Avansert:
+Gjøre om mellom ulike representasjonsformer for de tre funksjonstypene,
+og begrunne omgjøringen</h4>
+<ol type="1">
+<li>Tabellen under viser en funksjonssammenheng.</li>
+</ol>
+<ol type="a">
+<li><p>Avgjør om den er lineær, kvadratisk eller omvendt
+proporsjonal.</p></li>
+<li><p>Lag en passende situasjon som kan høre til
+funksjonssammenhengen.</p></li>
+<li><p>Finn funksjonsuttrykk, og skisser grafen.</p></li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th>x</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>6</th>
+<th>10</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>y</td>
+<td><span class="math inline">\(\frac{1}{2}\)</span></td>
+<td>2</td>
+<td><span class="math inline">\(\frac{9}{2}\)</span></td>
+<td>18</td>
+<td>50</td>
+</tr>
+</tbody>
+</table>
+<ol type="1">
+<li>Under ser du grafen til en funksjon.</li>
+</ol>
+<ol type="a">
+<li><p>Avgjør hva slags funksjon det er snakk om.</p></li>
+<li><p>Finn funksjonsuttrykket.</p></li>
+<li><p>Beskriv en situasjon som kan passe til funksjonen.</p></li>
+</ol>
+<p><img src="2023-03-24-21-04-54.png" /></p>
+<h4 id="100211">Vurderingskriterier: Grunnleggende</h4>
+<p>Her må de gi et eksempel og forklare kjennetegnene, slik oppgaven ber
+om.</p>
+<h4 id="100212">Vurderingskriterier: Middels</h4>
+<ol type="1">
+<li>Studenten <em>må</em> lage en sammenheng mellom mengde snø og tid.
+Det naturlige er at å koble mengde snø fjernet per minutt, som er <span
+class="math inline">\(8\cdot 0,\!8 = 6,\!4\)</span>. Siden vi begynne på
+<span class="math inline">\(70\)</span> må dette gi <span
+class="math inline">\(f(x) = 70- 6,\!4x\)</span>, det <span
+class="math inline">\(x\)</span> er antall minutter.</li>
+<li>Studenten må peke på egenskaper ved omvendtproporsjonale funksjoner
+for å begrunne. For eksempel kan en peke på at den grønne funksjonen
+oppfyller dobling av <span class="math inline">\(x\)</span> gir
+halvering av <span class="math inline">\(y\)</span>. Altså at <span
+class="math inline">\(x= 1\)</span> gir <span
+class="math inline">\(y=36\)</span> og <span
+class="math inline">\(x=2\)</span> gir <span class="math inline">\(y =
+18\)</span>. De bør også pekes på at den blå grafen ikke oppfyller denne
+egenskapen da <span class="math inline">\(x = 1\)</span> gir <span
+class="math inline">\(y\)</span> over <span
+class="math inline">\(30\)</span> og <span class="math inline">\(x=
+2\)</span> gir <span class="math inline">\(y\)</span> under <span
+class="math inline">\(15\)</span>.</li>
+</ol>
+<h4 id="10213">Vurderingskriterier: Avansert</h4>
+<p>Studentene <em>må</em> peke på hvilken funksjon det er. I første
+eksempel kan de set at vi alltid har halvparten av et kvadrattall. Det
+gir funksjonen <span class="math inline">\(f(x) = x^2/2\)</span>. I det
+andre eksempelet ser vi at <span class="math inline">\(x = 1\)</span>
+gir <span class="math inline">\(y= 25\)</span> og <span
+class="math inline">\(x= 5\)</span> gir <span class="math inline">\(y =
+5\)</span>, altså en femdobling av <span
+class="math inline">\(x\)</span> gir at <span
+class="math inline">\(y\)</span> blir en femtedel.<br />
+Deretter <em>må</em> studentene omforme funksjonene til de andre
+representasjonene det bes om.</p>
+<h3
+id="forklare-sammenhenger-mellom-parameterne-i-funksjonsuttrykket-og-grafen-til-lineære-funksjoner-3">Forklare
+sammenhenger mellom parameterne i funksjonsuttrykket og grafen til
+lineære funksjoner</h3>
+<h4
+id="grunnleggende-forklare-hvordan-endringer-i-stigningstall-og-konstantledd-påvirker-grafen-til-en-lineær-funksjon-3">Grunnleggende:
+Forklare hvordan endringer i stigningstall og konstantledd påvirker
+grafen til en lineær funksjon</h4>
+<p>Gitt en lineær funksjon <span class="math inline">\(ax+b\)</span>,
+der <span class="math inline">\(a = 1\)</span> og <span
+class="math inline">\(b=0\)</span>. Illustrer i et koordinatsystem
+hvordan endringer av <span class="math inline">\(a\)</span> påvirker
+grafen og hvordan endringer av <span class="math inline">\(b\)</span>
+påvirker grafen.</p>
+<h4
+id="middels-forklare-hvordan-man-kan-finne-likninga-til-en-lineær-funksjon-når-to-punkter-på-grafen-er-kjent-uten-bruk-av-topunktsformelen-3">Middels:
+Forklare hvordan man kan finne likninga til en lineær funksjon når to
+punkter på grafen er kjent uten bruk av topunktsformelen</h4>
+<p>Anta at en lineær funksjon <span class="math inline">\(f\)</span> går
+gjennom punktene <span class="math inline">\((-3, -3)\)</span> og <span
+class="math inline">\((6, 0)\)</span>. Forklar hvordan vi kan finne
+likninga til den lineære funksjonen.</p>
+<h4 id="100221">Vurderingskriterier: Grunnleggende</h4>
+<p>Peke på hva parameterne gjør for førstegradsfunksjoner</p>
+<h4 id="100222">Vurderingskriterier: Middels</h4>
+<p>Finne likninga og forklare hvordan på en slik måte at man klart
+forstår det generelle i fremgangsmåten (kunne åpenbart blitt brukt for
+hvilke som helst punkt-par).</p>
+<h3
+id="forklare-hvordan-endringer-i-parameterne-i-funksjonsuttrykket-påvirker-grafene-til-andregrads--og-omvendt-proporsjonale-funksjoner-3">Forklare
+hvordan endringer i parameterne i funksjonsuttrykket påvirker grafene
+til andregrads- og omvendt proporsjonale funksjoner</h3>
+<h4
+id="grunnleggende-gjengi-hvilke-roller-parameterne-i-funksjonsuttrykkene-til-andregrads--og-omvendt-proporsjonale-funksjoner-spiller-med-hensyn-til-grafene-3">Grunnleggende:
+Gjengi hvilke roller parameterne i funksjonsuttrykkene til andregrads-
+og omvendt proporsjonale funksjoner spiller med hensyn til grafene</h4>
+<p>En andregradsfunksjon kan skrives på formen <span
+class="math inline">\(ax^2 + b x + c\)</span>. Gjengi med ord hvilken
+påvirkning endringer i <span class="math inline">\(a\)</span> (tallet
+foran <span class="math inline">\(x^2\)</span>) og <span
+class="math inline">\(c\)</span> (konstantleddet) har på grafen til en
+andregradsfunksjon.</p>
+<p>Skisser grafene <span class="math inline">\(y = \frac{5}{x}\)</span>
+og <span class="math inline">\(y = \frac{-5}{x}\)</span> i samme
+koordinatsystem.</p>
+<h3
+id="middels-forklare-hvordan-endringer-i-parameterne-i-funksjonsuttrykket-påvirker-grafene-til-andregrads--og-omvendt-proporsjonale-funksjoner-3">Middels:
+Forklare hvordan endringer i parameterne i funksjonsuttrykket påvirker
+grafene til andregrads- og omvendt proporsjonale funksjoner</h3>
+<p>En omvendt proporsjonal funksjon ser generelt slik ut: <span
+class="math inline">\(f(x)=\frac{a}{x}\)</span>. Forklar kort (slik at
+det fremstår meningsfullt for noen som ikke kan det) og vis i et
+koordinatsystem hvordan grafen må se ut når parameteren <span
+class="math inline">\(a\)</span> er større enn 0. parameteren <span
+class="math inline">\(a\)</span> er mindre enn 0</p>
+<p>En kvadratisk funksjon ser generelt slik ut: <span
+class="math inline">\(f(x)=ax^2+bx+c\)</span>. Forklar kort (slik at det
+fremstår meningsfullt for noen som ikke kan det) og vis i et
+koordinatsystem hva som skjer med grafen når parameteren <span
+class="math inline">\(a\)</span> endres. parameteren <span
+class="math inline">\(c\)</span> endres.</p>
+<h4 id="100231">Vurderingskriterier: Grunnleggende</h4>
+<ol type="1">
+<li>Peke på hva parameterne gjør for andregradsfunksjoner</li>
+<li>Skissere de to omvendt proporsjonale grafene.</li>
+</ol>
+<h4 id="100232">Vurderingskriterier: Middels</h4>
+<ol type="1">
+<li>Omvendt proporsjonale: Grafen må skisseres for <span
+class="math inline">\(a&gt;0\)</span> og <span
+class="math inline">\(a&lt;0\)</span>. Det må komme fram hvorfor formen
+på grafen er som den er. For eksempel <span
+class="math inline">\(a&gt;0\)</span> kan en gi et konkret eksempel på
+en om omvendt prop. funk. og framheve sammenhengen (skaleres <span
+class="math inline">\(x\)</span> opp med noe skaleres <span
+class="math inline">\(y\)</span> ned med det samme, derav navnet omvendt
+prop) <span class="math inline">\(\rightarrow\)</span> større og større
+<span class="math inline">\(x\)</span> gir <span
+class="math inline">\(y\)</span> som kryper mot <span
+class="math inline">\(0\)</span>, mindre og mindre <span
+class="math inline">\(x\)</span> gir større og større <span
+class="math inline">\(y\)</span>. Det bør komme fram noen symmetrier med
+grafen. Når <span class="math inline">\(a&lt;0\)</span> kan en bare peke
+på at <span class="math inline">\(a&lt; 0\)</span> gir bare samme graf
+flippet over <span class="math inline">\(x\)</span>-aksen.<br />
+Kvadratiske funksjoner: Her må det kort komme fram at a avgjør hvor
+bratt funksjonen stiger (hvis <span
+class="math inline">\(a&gt;0\)</span>) eller synker (<span
+class="math inline">\(a&lt;0\)</span>), og at <span
+class="math inline">\(c\)</span> flytter grafen oppover eller nedover og
+tilsier hvor funksjonen skjærer andreaksen.</li>
+</ol>
+<h3 id="løse-likninger-fra-funksjonsperspektiv-3">Løse likninger fra
+funksjonsperspektiv</h3>
+<h4
+id="grunnleggende-forklare-algebraisk-og-grafisk-hva-som-menes-med-løsningen-av-en-lineær-likning-3">Grunnleggende:
+Forklare algebraisk og grafisk hva som menes med løsningen av en lineær
+likning</h4>
+<p>Gitt likningen <span class="math inline">\(20-5x =
+\frac{1}{2}(x+10)\)</span>.</p>
+<p>Løs likningen Tolk venstre side og høyre side som funksjonsuttrykk,
+og skisser grafene i samme koordinatsystem. Forklar algebraisk og
+grafisk hva det vil si at tallet du fant i 1. er en løsning på
+likningen.</p>
+<h4
+id="middels-tolke-lineære-likninger-grafisk-og-finne-skjæringspunkt-mellom-lineære-grafer-og-mellom-lineære-grafer-og-aksene-3">Middels:
+Tolke lineære likninger grafisk, og finne skjæringspunkt mellom lineære
+grafer og mellom lineære grafer og aksene</h4>
+<ol type="1">
+<li>Gi en situasjon som passer til funksjonen <span
+class="math inline">\(f(x)=20-\frac{1}{2}x\)</span>. Hva svarer likninga
+<span class="math inline">\(20-\frac{1}{2}x=0\)</span> til i
+situasjonsbeskrivelsen din? Tolk og løs likningen grafisk i et
+koordinatsystem.</li>
+</ol>
+<h4
+id="avansert-tolke-likninger-grafisk-og-finne-skjæringspunkt-mellom-grafer-til-ulike-typer-funksjoner-og-mellom-grafer-og-aksene-3">Avansert:
+Tolke likninger grafisk, og finne skjæringspunkt mellom grafer til ulike
+typer funksjoner og mellom grafer og aksene</h4>
+<p>La <span class="math inline">\(f(x) = \frac{4}{x}\)</span> og <span
+class="math inline">\(g(x) = 1+3x\)</span>.</p>
+<p>Skisser grafene. Finn skjæringspunktene ved regning (Merk: Både <span
+class="math inline">\(x\)</span>- og <span
+class="math inline">\(y\)</span>-verdi må oppgis for
+skjæringspunktene).</p>
+<h4 id="100241">Vurderingskriterier: Grunnleggende</h4>
+<p>Alle oppgaver må besvares</p>
+<ol type="1">
+<li>Likningen må løses.</li>
+<li>Her må de tolke og skissere begge grafene i samme
+koordinatsystem.</li>
+<li>Gi en forklaring som viser sammenhengen mellom at løsning gir likhet
+av venstre og høyre side i likningen og at det tilsvarer
+skjæringspunktet mellom grafene.</li>
+</ol>
+<h4 id="100242">Vurderingskriterier: Middels</h4>
+<p>De må lage en situasjon som gir likningen. Deretter må de illustrere
+likningen grafisk og vise løsningen i koordinatsystemet.<br />
+</p>
+<h4 id="100243">Vurderingskriterier: Avansert</h4>
+<p>Begge oppgavene må besvares</p>
+<ol type="1">
+<li>De må skissere grafene slik at på en god måte (skissa må ikke være
+utrolig nøyaktig, men bør heller ikke være voldsomt slurvete).</li>
+<li>De må sette opp likninga og finne skjæringspunktene ved
+regning.</li>
+</ol>
+<h3
+id="bruke-begrepene-funksjon-variabel-uavhengig-variabel-innverdi-avhengig-variabel-utverdi-funksjonsverdi-definisjonsmengde-og-verdimengde-3">Bruke
+begrepene funksjon, variabel, uavhengig variabel (innverdi), avhengig
+variabel (utverdi), funksjonsverdi, definisjonsmengde og
+verdimengde</h3>
+<h4
+id="grunnleggende-gjengi-forklare-og-gi-eksempler-på-begrepene-3">Grunnleggende:
+Gjengi, forklare og gi eksempler på begrepene</h4>
+<p>Sammenhengen mellom radien og arealet av en sirkel er en
+funksjonssammenheng. Bruk eksemplet til å forklare begrepene funksjon,
+innverdi og funksjonsverdi.</p>
+<h4
+id="middels-avgjøre-og-begrunne-ved-hjelp-av-begrepene-om-en-gitt-sammenheng-er-en-funksjonssammenheng-3">Middels:
+Avgjøre og begrunne (ved hjelp av begrepene) om en gitt sammenheng er en
+funksjonssammenheng</h4>
+<p>Én av følgende sammenhenger er en funksjonssammenheng: A)
+Sammenhengen mellom omkrets og areal i et rektangel. B) Sammenhengen
+mellom omkrets og areal i et kvadrat.</p>
+<p>Avgjør og begrunn ved hjelp av en definisjon av funksjon hvilken av
+de to sammenhengene som er en funksjonssammenheng. Bruk
+funksjonssammenhengen til å forklare begrepene uavhengig og avhengig
+variabel og definisjons- og verdimengde.</p>
+<h4 id="100251">Vurderingskriterier: Grunnleggende</h4>
+<p>Her må de peke på at arealet av en sirkel med radius <span
+class="math inline">\(r\)</span> er <span
+class="math inline">\(\pi\)</span> multiplisert med <span
+class="math inline">\(r^2\)</span> (altså at <span
+class="math inline">\(A(r) = \pi r^2\)</span>). Arealet er derfor en
+funksjon av <span class="math inline">\(r\)</span> (innverdi) fordi hver
+radius gir et entydig areal (som her er funksjonsverdien).<br />
+</p>
+<h4 id="100252">Vurderingskriterier: Middels</h4>
+<p>Her må studenten peke på og begrunne hvorfor det er sammenhengen
+mellom omkrets og kvadrat som gir en funksjonssammenheng. Begrunnelsen
+må referere til en riktig definisjon av en funksjon. Deretter må de
+bruke eksempelet til å forklare begrepene det bes om.</p>
+<h3
+id="gjøre-om-mellom-ulike-representasjonsformer-for-funksjonssammenhenger-3">Gjøre
+om mellom ulike representasjonsformer for funksjonssammenhenger</h3>
+<h4
+id="middels-gjøre-om-mellom-de-fire-representasjonene-av-funksjoner-janviers-tabell-alfa-4.1-og-vurdere-elevers-arbeid-med-overganger-mellom-representasjonene-3">Middels:
+Gjøre om mellom de fire representasjonene av funksjoner (Janviers
+tabell, Alfa 4.1), og vurdere elevers arbeid med overganger mellom
+representasjonene</h4>
+<p>Illustrasjonen til venstre viser havdybden målt i ei linje 100 meter
+utover fra strandkanten. Skisser en en graf som viser sammenhengen
+mellom avstanden fra land og havdybden. Beskriv en situasjon som passer
+til grafen til høyre. (Andreaksen viser meter over bakken, førsteaksen
+viser tid.)</p>
+<p><img src="2023-03-24-21-09-27.png" /> <img
+src="2023-03-24-21-09-32.png" /></p>
+<h4 id="100262">Vurderingskriterier: Middels</h4>
+<ol type="1">
+<li>Studentene må skissere en graf som får fram sammenhengen på en
+riktig måte</li>
+<li>Studentene må her peke på en (mulig) situasjon som kan beskrive
+grafen som er gitt.</li>
+</ol>
+<h2 id="funksjoner-3.02.23">Funksjoner 3.02.23</h2>
+<h3
+id="bruke-begrepene-lineær-funksjon-andregradsfunksjon-og-omvendt-proporsjonal-funksjon-4">Bruke
+begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal
+funksjon</h3>
+<h4
+id="grunnleggende-forklare-kjennetegn-ved-og-gi-eksempler-på-funksjonstypene-4">Grunnleggende:
+Forklare kjennetegn ved og gi eksempler på funksjonstypene</h4>
+<ol type="1">
+<li>Gi et eksempel på en lineær funksjon, og forklart kort, med
+utgangspunkt i eksemplet ditt, hva som kjennetegner en lineær
+funksjon.</li>
+<li>Gi et eksempel på en kvadratisk funksjon, og forklart kort, med
+utgangspunkt i eksemplet ditt, hva som kjennetegner en kvadratisk
+funksjon.</li>
+<li>Gi et eksempel på en omvendt proporsjonal funksjon, og forklart
+kort, med utgangspunkt i eksemplet ditt, hva som kjennetegner en omvendt
+proporsjonal funksjon.</li>
+</ol>
+<h4
+id="middels-bestemme-og-begrunne-funksjonstype-basert-på-beskrivelse-av-situasjon-uttrykk-graf-og-tabell-4">Middels:
+Bestemme og begrunne funksjonstype basert på beskrivelse av situasjon,
+uttrykk, graf og tabell</h4>
+<ol type="1">
+<li>Under ser du tre situasjoner. Avgjør og begrunn hva slags funksjon
+det er snakk om i hvert tilfelle. Begrunnelsen må vise til både en graf
+og et funksjonsuttrykk.</li>
+</ol>
+<ol type="a">
+<li><p>Du skal lage en rektangulær innhegning til hønene dine på <span
+class="math inline">\(121\)</span>m<span
+class="math inline">\(^2\)</span>. Hva er sammenhengen mellom bredden og
+lengden i innhegningen?</p></li>
+<li><p>Du skal lage en sirkulær figur med radius <span
+class="math inline">\(r\)</span>. Hva er sammenhengen mellom radius og
+arealet arealet på figuren?</p></li>
+<li><p>Du kjører med bil fra Skien til Kristiansand. Du bruker <span
+class="math inline">\(0.5\)</span> liter bensin per mil. Du starter i
+Skien med 50 liter bensin. Hva er sammenhengen mellom liter igjen på
+tanken og mil du har kjørt?</p></li>
+</ol>
+<h4
+id="avansert-gjøre-om-mellom-ulike-representasjonsformer-for-de-tre-funksjonstypene-og-begrunne-omgjøringen-4">Avansert:
+Gjøre om mellom ulike representasjonsformer for de tre funksjonstypene,
+og begrunne omgjøringen</h4>
+<ol type="1">
+<li>Avgjør om funksjonssammenhengen fra tabellen under er lineær,
+kvadratisk eller omvendt proporsjonal. Lag en passende situasjon som kan
+høre ti funksjonssammenhengen, og en tilhørende graf og
+funksjonsuttrykk.</li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th>x</th>
+<th>16</th>
+<th>8</th>
+<th>4</th>
+<th>2</th>
+<th>1</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>y</td>
+<td>16</td>
+<td>32</td>
+<td>64</td>
+<td>128</td>
+<td>256</td>
+</tr>
+</tbody>
+</table>
+<ol start="2" type="1">
+<li>Avgjør og begrunn hva slags funksjon følgende situasjon beskriver.
+Begrunnelse må vise til både en graf, tabell og et
+funksjonsuttrykk.</li>
+</ol>
+<p>Du skal lage en sirkulær figur med radius <span
+class="math inline">\(r\)</span>. Hva er sammenhengen mellom radius og
+arealet arealet på figuren? 3. Under ser du en graf. Beskriv deretter en
+situasjon som kan passe til grafen og gi et funksjonsuttrykk til grafen
+og lag en tabell til funksjonen.</p>
+<p><img src="2023-03-24-21-13-57.png" /></p>
+<h4 id="130s211">Vurderingskriterier: Grunnleggende</h4>
+<p>Her må de gi et eksempel og forklare kjennetegnene, slik oppgaven ber
+om.</p>
+<h4 id="130s212">Vurderingskriterier: Middels</h4>
+<p>De må avgjøre, med begrunnelse (for eksempel ved å peke på definisjon
+og funksjonsuttrykket de har gitt), hvilken type funksjon som hører til
+alle tre situasjonene. Det skal også gis et funksjonsuttrykk og en
+grafisk representasjon av situasjonen.</p>
+<h4 id="13s0213">Vurderingskriterier: Avansert</h4>
+<p>Her må de gjøre det samme som på middels bare at de nå starter med
+ulike representasjoner og må gjøre om til de andre
+representasjonsformene (representasjonsformene er: situasjon,
+funksjonsuttrykk, tabell og graf)!</p>
+<h3
+id="forklare-sammenhenger-mellom-parameterne-i-funksjonsuttrykket-og-grafen-til-lineære-funksjoner-4">Forklare
+sammenhenger mellom parameterne i funksjonsuttrykket og grafen til
+lineære funksjoner</h3>
+<h4
+id="grunnleggende-forklare-hvordan-endringer-i-stigningstall-og-konstantledd-påvirker-grafen-til-en-lineær-funksjon-4">Grunnleggende:
+Forklare hvordan endringer i stigningstall og konstantledd påvirker
+grafen til en lineær funksjon</h4>
+<p>Gitt en lineær funksjon <span class="math inline">\(ax+b\)</span>,
+der <span class="math inline">\(a = 1\)</span> og <span
+class="math inline">\(b=0\)</span>. Illustrer i et koordinatsystem
+hvordan endringer av <span class="math inline">\(a\)</span> påvirker
+grafen og hvordan endringer av <span class="math inline">\(b\)</span>
+påvirker grafen.</p>
+<h4
+id="middels-forklare-hvordan-man-kan-finne-likninga-til-en-lineær-funksjon-når-to-punkter-på-grafen-er-kjent-uten-bruk-av-topunktsformelen-4">Middels:
+Forklare hvordan man kan finne likninga til en lineær funksjon når to
+punkter på grafen er kjent uten bruk av topunktsformelen</h4>
+<p>Anta at en lineær funksjon <span class="math inline">\(f\)</span> går
+gjennom punktene <span class="math inline">\((\frac{9}{3}, 7)\)</span>
+og <span class="math inline">\((\frac{18}{3}, 10)\)</span>. Forklar
+hvordan vi kan finne likninga til den lineære funksjonen.</p>
+<h4 id="130s221">Vurderingskriterier: Grunnleggende</h4>
+<p>Peke på hva parameterne gjør for førstegradsfunksjoner</p>
+<h4 id="13022s2">Vurderingskriterier: Middels</h4>
+<p>Finne likninga og forklare hvordan på en slik måte at man klart
+forstår det generelle i fremgangsmåten (kunne åpenbart blitt brukt for
+hvilke som helst punkt-par).</p>
+<h3
+id="forklare-hvordan-endringer-i-parameterne-i-funksjonsuttrykket-påvirker-grafene-til-andregrads--og-omvendt-proporsjonale-funksjoner-4">Forklare
+hvordan endringer i parameterne i funksjonsuttrykket påvirker grafene
+til andregrads- og omvendt proporsjonale funksjoner</h3>
+<h4
+id="grunnleggende-gjengi-hvilke-roller-parameterne-i-funksjonsuttrykkene-til-andregrads--og-omvendt-proporsjonale-funksjoner-spiller-med-hensyn-til-grafene-4">Grunnleggende:
+Gjengi hvilke roller parameterne i funksjonsuttrykkene til andregrads-
+og omvendt proporsjonale funksjoner spiller med hensyn til grafene</h4>
+<p>En andregradsfunksjon kan skrives på formen <span
+class="math inline">\(ax^2 + b x + c\)</span>. Gjengi med ord hvilken
+påvirkning endringer i <span class="math inline">\(a\)</span> (tallet
+foran <span class="math inline">\(x^2\)</span>) og <span
+class="math inline">\(c\)</span> (konstantleddet) har på grafen til en
+andregradsfunksjon.</p>
+<p>Skisser grafene <span class="math inline">\(y = \frac{5}{x}\)</span>
+og <span class="math inline">\(y = \frac{-5}{x}\)</span> i samme
+koordinatsystem.</p>
+<h4
+id="middels-forklare-hvordan-endringer-i-parameterne-i-funksjonsuttrykket-påvirker-grafene-til-andregrads--og-omvendt-proporsjonale-funksjoner-4">Middels:
+Forklare hvordan endringer i parameterne i funksjonsuttrykket påvirker
+grafene til andregrads- og omvendt proporsjonale funksjoner</h4>
+<p>En omvendt proporsjonal funksjon ser generelt slik ut: <span
+class="math inline">\(f(x)=\frac{a}{x}\)</span>. Forklar kort (slik at
+det fremstår meningsfullt for noen som ikke kan det) og vis i et
+koordinatsystem hvordan grafen må se ut når parameteren <span
+class="math inline">\(a\)</span> er større enn 0. parameteren <span
+class="math inline">\(a\)</span> er mindre enn 0</p>
+<p>En kvadratisk funksjon ser generelt slik ut: <span
+class="math inline">\(f(x)=ax^2+bx+c\)</span>. Forklar kort (slik at det
+fremstår meningsfullt for noen som ikke kan det) og vis i et
+koordinatsystem hva som skjer med grafen når parameteren <span
+class="math inline">\(a\)</span> endres. parameteren <span
+class="math inline">\(c\)</span> endres.</p>
+<h4 id="1302s31">Vurderingskriterier: Grunnleggende</h4>
+<ol type="i">
+<li>Peke på hva parameterne gjør for andregradsfunksjoner</li>
+<li>Skissere de to omvendt proporsjonale grafene</li>
+</ol>
+<h4 id="13s0232">Vurderingskriterier: Middels</h4>
+<ol type="i">
+<li>Omvendt proporsjonale: Grafen må skisseres for a&gt;0 og a&lt;0. Det
+må komme fram hvorfor formen på grafen er som den er. For eksempel a&gt;
+0 kan en gi et konkret eksempel på en om omvendt prop. funk. og framheve
+sammenhengen (skaleres x opp med noe skaleres y ned med det samme, derav
+navnet omvendt prop)  større og større x gir y som kryper mot 0, mindre
+og mindre x gir større og større y. Det bør komme fram noen symmetrier
+med grafen. Når a&gt;0 er forklar kan en bare peke på at a&lt;0 gir bare
+samme graf flippet over x-aksen</li>
+<li>Kvadratiske funksjoner: Her må det kort komme fram at a avgjør hvor
+bratt funksjonen stiger (hvis a&gt;0) eller synker (a&lt;0), og at c
+flytter grafen oppover eller nedover og tilsier hvor funksjonen skjærer
+andreaksen.</li>
+</ol>
+<h3 id="løse-likninger-fra-funksjonsperspektiv-4">Løse likninger fra
+funksjonsperspektiv</h3>
+<h4
+id="grunnleggende-forklare-algebraisk-og-grafisk-hva-som-menes-med-løsningen-av-en-lineær-likning-4">Grunnleggende:
+Forklare algebraisk og grafisk hva som menes med løsningen av en lineær
+likning</h4>
+<p>Gitt likningen <span class="math inline">\(3x + 6 = -2x +
+3\)</span>.</p>
+<p>Løs likningen Tolk venstre side og høyre side som funksjonsuttrykk,
+og skisser grafene i samme koordinatsystem. Forklar algebraisk og
+grafisk hva det vil si at tallet du fant i 1. er en løsning på
+likningen.</p>
+<h4
+id="middels-tolke-lineære-likninger-grafisk-og-finne-skjæringspunkt-mellom-lineære-grafer-og-mellom-lineære-grafer-og-aksene-4">Middels:
+Tolke lineære likninger grafisk, og finne skjæringspunkt mellom lineære
+grafer og mellom lineære grafer og aksene</h4>
+<ol type="1">
+<li>Lag en realistisk situasjon som gir opphav til likningen <span
+class="math inline">\(20x + 30 =10x + 80\)</span>. Tolk likningen
+grafisk og vis løsningen i et koordinatsystem.</li>
+</ol>
+<h4
+id="avansert-tolke-likninger-grafisk-og-finne-skjæringspunkt-mellom-grafer-til-ulike-typer-funksjoner-og-mellom-grafer-og-aksene-4">Avansert:
+Tolke likninger grafisk, og finne skjæringspunkt mellom grafer til ulike
+typer funksjoner og mellom grafer og aksene</h4>
+<p>La <span class="math inline">\(f(x) = \frac{30}{x}\)</span> og <span
+class="math inline">\(g(x) = 2x+4\)</span>.</p>
+<p>Skisser grafene. Finn skjæringspunktene ved regning.</p>
+<h4 id="1302s41">Vurderingskriterier: Grunnleggende</h4>
+<p>Alle oppgaver må besvares i. Likningen må løses. ii. Her må de tolke
+og skissere begge grafene i samme koordinatsystem. iii. Gi en forklaring
+som viser sammenhengen mellom at løsning gir likhet av venstre og høyre
+side i likningen og at det tilsvarer skjæringspunktet mellom
+grafene.</p>
+<h4 id="1s30242">Vurderingskriterier: Middels</h4>
+<p>De må lage en situasjon som gir likningen. Deretter må de illustrere
+likningen grafisk og vise løsningen i koordinatsystemet.</p>
+<h4 id="asdsf1">Vurderingskriterier: Avansert</h4>
+<p>Begge oppgavene må besvares i. De må skissere grafene slik at på en
+god måte (skissa må ikke være utrolig nøyaktig, men bør heller ikke være
+voldsomt slurvete). ii. De må sette opp likninga og finne
+skjæringspunktene ved regning.</p>
+<h2 id="funksjoner-27.01.23">Funksjoner 27.01.23</h2>
+<h3
+id="bruke-begrepene-lineær-funksjon-andregradsfunksjon-og-omvendt-proporsjonal-funksjon-5">Bruke
+begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal
+funksjon</h3>
+<h4
+id="grunnleggende-forklare-kjennetegn-ved-og-gi-eksempler-på-funksjonstypene-5">Grunnleggende:
+Forklare kjennetegn ved og gi eksempler på funksjonstypene</h4>
+<ol type="1">
+<li>Gi et eksempel på en lineær funksjon, og forklart kort, med
+utgangspunkt i eksemplet ditt, hva som kjennetegner en lineær
+funksjon.</li>
+<li>Gi et eksempel på en kvadratisk funksjon, og forklart kort, med
+utgangspunkt i eksemplet ditt, hva som kjennetegner en kvadratisk
+funksjon.</li>
+<li>Gi et eksempel på en omvendt proporsjonal funksjon, og forklart
+kort, med utgangspunkt i eksemplet ditt, hva som kjennetegner en omvendt
+proporsjonal funksjon.</li>
+</ol>
+<h4
+id="middels-bestemme-og-begrunne-funksjonstype-basert-på-beskrivelse-av-situasjon-uttrykk-graf-og-tabell-5">Middels:
+Bestemme og begrunne funksjonstype basert på beskrivelse av situasjon,
+uttrykk, graf og tabell</h4>
+<ol type="1">
+<li>Under ser du tre situasjoner. Avgjør og begrunn hva slags funksjon
+det er snakk om i hvert tilfelle. Begrunnelsen må vise til både en graf
+og et funksjonsuttrykk.</li>
+</ol>
+<ol type="a">
+<li><p>Du skal kjøre <span class="math inline">\(120\)</span>km. Hva er
+sammenhengen mellom hastigheten du kjører i (du kjører i konstant
+hastighet) og tiden det tar før du kommer frem?</p></li>
+<li><p>Du skal male en rektangulær vegg der høyden er 2 meter lengre enn
+bredden. Hva er sammenhengen mellom bredden og arealet du må
+male?</p></li>
+<li><p>Du skal utføre et arbeid og får 1000 kr i grunnhonorar for å ta
+på deg oppdraget. I tillegg får du en timelønn på 250 kroner. Hva er
+sammenhengen mellom antall timer du utfører på arbeidet og inntekten du
+får for arbeidet?</p></li>
+</ol>
+<h4
+id="avansert-gjøre-om-mellom-ulike-representasjonsformer-for-de-tre-funksjonstypene-og-begrunne-omgjøringen-5">Avansert:
+Gjøre om mellom ulike representasjonsformer for de tre funksjonstypene,
+og begrunne omgjøringen</h4>
+<ol type="1">
+<li>Lineære funksjoner.</li>
+</ol>
+<ol type="a">
+<li><p>Angi en situasjon som svarer til en lineær funksjon (som er ulik
+situasjonene fra oppgaven over).</p></li>
+<li><p>Skisser grafen, og sett opp funksjonsuttrykk.</p></li>
+<li><p>Begrunn kort hvordan grafen og funksjonsuttrykket svarer til
+situasjonseksemplet.</p></li>
+</ol>
+<ol type="1">
+<li>Kvadratiske funksjoner.</li>
+</ol>
+<ol type="a">
+<li><p>Angi en situasjon som svarer til en kvadratisk funksjon (som er
+ulik situasjonene fra oppgaven over).</p></li>
+<li><p>Skisser grafen, og sett opp funksjonsuttrykk.</p></li>
+<li><p>Begrunn kort hvordan grafen og funksjonsuttrykket svarer til
+situasjonseksemplet.</p></li>
+</ol>
+<ol type="1">
+<li>Omvendt proporsjonale funksjoner.</li>
+</ol>
+<ol type="a">
+<li><p>Angi en situasjon som svarer til en omvendt proporsjonal funksjon
+(som er ulik situasjonene fra oppgaven over).</p></li>
+<li><p>Skisser grafen, og sett opp funksjonsuttrykk.</p></li>
+<li><p>Begrunn kort hvordan grafen og funksjonsuttrykket svarer til
+situasjonseksemplet.</p></li>
+</ol>
+<h4 id="13sdfs211">Vurderingskriterier: Grunnleggende</h4>
+<p>Her må de gi et eksempel og forklare kjennetegnene, slik oppgaven ber
+om.</p>
+<h4 id="130sasd212">Vurderingskriterier: Middels</h4>
+<p>De må avgjøre, med begrunnelse (for eksempel ved å peke på definisjon
+og funksjonsuttrykket de har gitt), hvilken type funksjon som hører til
+alle tre situasjonene. Det skal også gis et funksjonsuttrykk og en
+grafisk representasjon av situasjonen</p>
+<h4 id="13asds0213">Vurderingskriterier: Avansert</h4>
+<p>Her må de gjøre det samme som på middels bare at de må på egen hånd
+gi en situasjon!</p>
+<h3
+id="forklare-sammenhenger-mellom-parameterne-i-funksjonsuttrykket-og-grafen-til-lineære-funksjoner-5">Forklare
+sammenhenger mellom parameterne i funksjonsuttrykket og grafen til
+lineære funksjoner</h3>
+<h4
+id="grunnleggende-forklare-hvordan-endringer-i-stigningstall-og-konstantledd-påvirker-grafen-til-en-lineær-funksjon-5">Grunnleggende:
+Forklare hvordan endringer i stigningstall og konstantledd påvirker
+grafen til en lineær funksjon</h4>
+<p>Gitt en lineær funksjon <span class="math inline">\(ax+b\)</span>,
+der <span class="math inline">\(a = 1\)</span> og <span
+class="math inline">\(b=0\)</span>. Illustrer i et koordinatsystem
+hvordan endringer av <span class="math inline">\(a\)</span> påvirker
+grafen og hvordan endringer av <span class="math inline">\(b\)</span>
+påvirker grafen.</p>
+<h4
+id="middels-forklare-hvordan-man-kan-finne-likninga-til-en-lineær-funksjon-når-to-punkter-på-grafen-er-kjent-uten-bruk-av-topunktsformelen-5">Middels:
+Forklare hvordan man kan finne likninga til en lineær funksjon når to
+punkter på grafen er kjent uten bruk av topunktsformelen</h4>
+<p>Anta at en lineær funksjon <span class="math inline">\(f\)</span> går
+gjennom punktene <span class="math inline">\((\frac{5}{2}, 7)\)</span>
+og <span class="math inline">\((\frac{11}{2}, 4)\)</span>. Forklar
+hvordan vi kan finne likninga til den lineære funksjonen.</p>
+<h4 id="130asds221">Vurderingskriterier: Grunnleggende</h4>
+<p>Peke på hva parameterne gjør for førstegradsfunksjoner</p>
+<h4 id="13asd022s2">Vurderingskriterier: Middels</h4>
+<p>Finne likninga og forklare hvordan på en slik måte at man klart
+forstår det generelle i fremgangsmåten (kunne åpenbart blitt brukt for
+hvilke som helst punkt-par).</p>
+<h3
+id="forklare-hvordan-endringer-i-parameterne-i-funksjonsuttrykket-påvirker-grafene-til-andregrads--og-omvendt-proporsjonale-funksjoner-5">Forklare
+hvordan endringer i parameterne i funksjonsuttrykket påvirker grafene
+til andregrads- og omvendt proporsjonale funksjoner</h3>
+<h4
+id="grunnleggende-gjengi-hvilke-roller-parameterne-i-funksjonsuttrykkene-til-andregrads--og-omvendt-proporsjonale-funksjoner-spiller-med-hensyn-til-grafene-5">Grunnleggende:
+Gjengi hvilke roller parameterne i funksjonsuttrykkene til andregrads-
+og omvendt proporsjonale funksjoner spiller med hensyn til grafene</h4>
+<p>En andregradsfunksjon kan skrives på formen <span
+class="math inline">\(ax^2 + b x + c\)</span>. Gjengi med ord hvilken
+påvirkning endringer i <span class="math inline">\(a\)</span> (tallet
+foran <span class="math inline">\(x^2\)</span>) og <span
+class="math inline">\(c\)</span> (konstantleddet) har på grafen til en
+andregradsfunksjon.</p>
+<p>Skisser grafene <span class="math inline">\(y = \frac{15}{x}\)</span>
+og <span class="math inline">\(y = \frac{-15}{x}\)</span> i samme
+koordinatsystem.</p>
+<h4
+id="middels-forklare-hvordan-endringer-i-parameterne-i-funksjonsuttrykket-påvirker-grafene-til-andregrads--og-omvendt-proporsjonale-funksjoner-5">Middels:
+Forklare hvordan endringer i parameterne i funksjonsuttrykket påvirker
+grafene til andregrads- og omvendt proporsjonale funksjoner</h4>
+<p>En omvendt proporsjonal funksjon ser generelt slik ut: <span
+class="math inline">\(f(x)=\frac{a}{x}\)</span>. Forklar kort (slik at
+det fremstår meningsfullt for noen som ikke kan det) og vis i et
+koordinatsystem hvordan grafen må se ut når parameteren <span
+class="math inline">\(a\)</span> er større enn 0. parameteren <span
+class="math inline">\(a\)</span> er mindre enn 0</p>
+<p>En kvadratisk funksjon ser generelt slik ut: <span
+class="math inline">\(f(x)=ax^2+bx+c\)</span>. Forklar kort (slik at det
+fremstår meningsfullt for noen som ikke kan det) og vis i et
+koordinatsystem hva som skjer med grafen når parameteren <span
+class="math inline">\(a\)</span> endres. parameteren <span
+class="math inline">\(c\)</span> endres.</p>
+<h4 id="1asd302s31">Vurderingskriterier: Grunnleggende</h4>
+<ol type="i">
+<li>Peke på hva parameterne gjør for andregradsfunksjoner</li>
+<li>Skissere de to omvendt proporsjonale grafene</li>
+</ol>
+<h4 id="13s0sdf232">Vurderingskriterier: Middels</h4>
+<p>Gjøre begge oppdragene som står i kulepunktene på en
+tilfredsstillende måte.</p>
+</main>
+
+<script>
+;(function() {
+  // Non-essential if user has JavaScript off. Just makes checkboxes look nicer.
+  var selector = '.task-list > li > input$type="checkbox"$';
+  var checkboxes = document.querySelectorAll(selector);
+  Array.from(checkboxes).forEach((checkbox) => {
+    var wasChecked = checkbox.checked;
+    checkbox.disabled = false;
+    checkbox.addEventListener('click', (ev) => {ev.target.checked = wasChecked});
+  });
+})();
+</script>
+</body>
+</html>
