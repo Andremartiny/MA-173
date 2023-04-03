@@ -304,7 +304,7 @@ $P_n = 3T_n -2n = \frac{3n(n+1)}{2}-2n$.
    c. Hvis vi skal vise at figurtallet $P_n$ er én mindre enn kvadrattall nummer $n+1$, kan vi bare se på differansen mellom de. $(n+1)^2 - P_n = (n^2+2n+1)-(n^2+2n) = n^2 +2n + 1 - n^2 -2n = 1$. Som viser første del av oppgaven. Vi må nå bare omarrangere figuren. Det kan for eksempel gjøres som i figuren nedenfor. Der ser de grønne ringene uten rød ring ikke flyttet. De grønne med rød ring rundt er de hvite ringene flyttet og den røde ringen er den *manglende* ringen for å fullføre kvadratet. 
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/stirrehardt.svg)
-   
+
 ### Finne rekursivt uttrykk for figurtall
 
 #### Grunnleggende: Ved hjelp av form på tillegg, og differanse mellom eksplisitte uttrykk for trekant-, kvadrat- og rektangeltall
