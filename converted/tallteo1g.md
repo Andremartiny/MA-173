@@ -1,20 +1,10 @@
 #### Grunnleggende:  Øveoppgaver
 
-1. Forklar og gi eksempler på hva som menes med begrepene *faktor* og
-    *divisor.* Besvarelsen må inneholde både formelle definisjoner og
-    grunnskoletilpassete forklaringer.
+1. Forklar og gi eksempler på hva som menes med begrepene *faktor* og *divisor.* Besvarelsen må inneholde både formelle definisjoner og grunnskoletilpassete forklaringer.
+2. Forklar og gi eksempler på hva som menes med *felles faktor* og *største felles faktor* for to tall. Besvarelsen må inneholde både formelle definisjoner og grunnskoletilpassete forklaringer.
+3. Forklar og gi eksempler på hva som menes med begrepet *multiplum*. Besvarelsen må inneholde både formell definisjon og grunnskoletilpasset forklaring.
 
-2. Forklar og gi eksempler på hva som menes med *felles faktor* og
-    *største felles faktor* for to tall. Besvarelsen må inneholde både
-    formelle definisjoner og grunnskoletilpassete forklaringer.
-
-3. Forklar og gi eksempler på hva som menes med begrepet *multiplum*.
-    Besvarelsen må inneholde både formell definisjon og
-    grunnskoletilpasset forklaring.
-
-4. Forklar og gi eksempler på hva som menes med *felles multiplum* og
-    *minste felles multiplum* for to tall. Besvarelsen må inneholde både
-    formelle definisjoner og grunnskoletilpassete forklaringer.
+4. Forklar og gi eksempler på hva som menes med *felles multiplum* og *minste felles multiplum* for to tall. Besvarelsen må inneholde både formelle definisjoner og grunnskoletilpassete forklaringer.
 
 #### Grunnleggende:  Tallteori
 

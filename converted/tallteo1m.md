@@ -1,6 +1,6 @@
 #### Middels:  Øveoppgaver
 
-1. Forklar hvorfor produktet av største felles faktor og minste feles
+1. Forklar hvorfor produktet av største felles faktor og minste felles
     multiplum for to tall er det samme som produktet av de to tallene.
 
 2. Du skal lage gaveposer med to typer godteri. Den ene typen har du
@@ -18,18 +18,14 @@
 
 5. Undersøk og begrunn.
 
-    a.  Har alle summer av tre påfølgende naturlige tall en felles
-        faktor?
-
+    a.  Har alle summer av tre påfølgende naturlige tall en felles faktor?
     b.  Hva med summer av fem, syv, ni og så videre påfølgende tall?
-
-    c.  Gjelder det samme for summer av påfølgende tall der antallet
-        ledd i summen er et partall?
+    c.  Gjelder det samme for summer av påfølgende tall der antallet ledd i summen er et partall?
 
 ##### Løsningsforslag
 
-1. Den enkleste løsningen her er å bruke at $\text{sff}\cdot \text{mfm} = ab$.Vi vet altså at $12\cdot 5460 = 420 b$ Deler vi på $420$ får vi nå at $b = 156$.
-2. Hvis vi primtallsfaktoriserer kan vi skrive $210$ som $2\cdot 2\cdot 5 \cdot 11$ og $84$ kan skrives som $2\cdot 2 \cdot 3\cdot 7$. Vi kan nå se at én pose fungerer med $210$ av den ene og 84 går. Siden begge inneholder faktoren $2$ kan vi også dele de i 2 og få to poser med $110$ og $42$ i hver. Vi ser at begge kan deles i to igjen, som gir fire poser med $55$ og $21$ i hver. Vi har nå ingen felles faktorer, så det kan heller ikke fordeles på andre måter. Det gir at vi kan dele i enten én, to eller fire poser. 
+1. Den enkleste løsningen her er å bruke at $\text{sff}\cdot \text{mfm} = ab$. Vi vet altså at $12\cdot 5460 = 420 b$ Deler vi på $420$ får vi nå at $b = 156$.
+2. Hvis vi primtallsfaktoriserer kan vi skrive $210$ som $2\cdot 2\cdot 5 \cdot 11$ og $84$ kan skrives som $2\cdot 2 \cdot 3\cdot 7$. Vi kan nå se at én pose fungerer med $210$ av den ene og 84 går. Siden begge inneholder faktoren $2$ kan vi også dele de i 2 og få to poser med $110$ og $42$ i hver. Vi ser at begge kan deles i to igjen, som gir fire poser med $55$ og $21$ i hver. Vi har nå ingen felles faktorer, så det kan heller ikke fordeles på andre måter. Det gir at vi kan dele i enten én, to eller fire poser.
 
 #### Middels:  Tallteori
 

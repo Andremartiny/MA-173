@@ -14,9 +14,16 @@
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/image2.png)
 
-1. Samme ordlyd som oppgave 1.
+2. Samme ordlyd som oppgave 1.
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/image3.png)
+
+##### Løsningsforslag
+
+1. \
+   a. Dette kan gjøres på flere måter. For eksempel kan en se forrige figur i neste, og peke på hva som er lagt til for å bygge den nye figuren. Vi kan også peke på at figuren består av to deler. En trekant, som står på et rektangel. For å lage neste figur så skyv trekanten opp og legg til en bunn på størrelse $n+1$. Rektangelet skal øke én i høyde og én i bredde også. Dermed må vi legge til $n$ og $n-1$. Totalt legger vi altså til $3n$.
+   b. Under er sammenhengen markert. De grønne er forrige figur, det røde er det som legges til i trekanten, det blå er bunnen som legges til i rektangelet, og det gule er siden som legges til i rektangelet. ![Rekursiv sammenheng](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/rekursiv.svg)
+   c. Vi kan nå bruke dekomponeringen vi har brukt til å beskrive den rekursive sammenhengen. For figur $P_n$ har vi trekanttall $n+1$ minus toppen. Det gir $T_{n+1}-1 = \frac{(n+1)(n+2)}{2}-1$. Rektangelet er alltid $n(n-1)$, så vi får at den eksplisitte formelen er $\frac{(n+1)(n+2)}{2}-1+n(n-1)$.
 
 #### Grunnleggende:  Tallteori
 

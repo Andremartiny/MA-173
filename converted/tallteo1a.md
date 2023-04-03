@@ -11,13 +11,9 @@
 3. Alle produkter av tre påfølgende naturlige tall har tre felles
     faktorer forskjellig fra $1$. Hvilke er det? Begrunn.
 
-4. Velg to sifre mellom $1$ og $9$. Lag to ulike tall som begge
-    inneholder begge sifrene (for eksempel $64$ og $46$). Del summen av
-    tallene på summen av de to sifrene.
-
-    a.  Undersøk flere tilfeller -- hva ser ut til å være mønsteret?
-
-    b.  Begrunn mønsteret.
+4. Velg to sifre mellom $1$ og $9$. Lag to ulike tall som begge inneholder begge sifrene (for eksempel $64$ og $46$). Del summen av tallene på summen av de to sifrene.
+   a. Undersøk flere tilfeller -- hva ser ut til å være mønsteret?
+   b. Begrunn mønsteret.
 
 ##### Løsningsforslag
 

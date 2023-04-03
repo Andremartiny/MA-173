@@ -1,11 +1,9 @@
 #### Grunnleggende:  Øveoppgaver
 
 1. Forklar og gi eksempler på hva et *naturlig tall* er.
-
 2. Forklar og gi eksempler på hva *partall* og *oddetall* er.
     Besvarelsen må inneholde både algebraiske definisjoner,
     ordforklaringer og illustrasjoner.
-
 3. Forklar og gi eksempler på hva *primtall* og *sammensatt tall* er.
 
 #### Grunnleggende:  Tallteori

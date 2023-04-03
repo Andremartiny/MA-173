@@ -38,27 +38,34 @@
    Nå kan vi skrive figurtallene som summen av tilleggene:
    $$
    \begin{aligned}
-   P_1 & = 1
+   P_1 & = 3
    \\
-   P_2 & = 1 + 2\cdot 2+1
+   P_2 & = 3 + 2\cdot 2+1
    \\
-   P_3 & = 1 + (2\cdot 2 + 1) +(2\cdot 3 + 1)
+   P_3 & = 3 + (2\cdot 2 + 1) +(2\cdot 3 + 1)
    \\
    \vdots
    \\
-   P_n & = 1 + (2\cdot 2 + 1) + (2\cdot 3 + 1)+ \ldots + (2\cdot n + 1).
+   P_n & = (2\cdot 1 + 1) + (2\cdot 2 + 1) + (2\cdot 3 + 1)+ \ldots + (2\cdot n + 1).
    \end{aligned}
    $$
-   Fra erfaring, ser vi at vi ønsker å ha et ledd $(2\cdot 1 + 1)$ for å enkelt kunne bruke at $T_n = 1+2+3+\ldots+n = \frac{n(n+1)}{2}$. Dette løser vi enkelt ved å legge til og trekke fra. Vi får derfor at
+   Vi får derfor at
    $$
    \begin{aligned}
-   P_n & = 1 + (2\cdot 2 + 1) + (2\cdot 3 + 1)+ \ldots + (2\cdot n + 1)
+   P_n & = (2\cdot 1 + 1) + (2\cdot 2 + 1) + (2\cdot 3 + 1)+ \ldots + (2\cdot n + 1)
    \\
-   P_n & = 1 - (2\cdot 1 + 1) +(2\cdot 1 + 1) + (2\cdot 2 + 1) + (2\cdot 3 + 1)+ \ldots + (2\cdot n + 1)
+   P_n & = 2(1+2+3+\ldots + n) + 1\cdot n 
    \\
-   P_n & = 1 - 2 - 1 + 2(1+2+3+\ldots + n) + 2\cdot n = -3 + 2T_n + 2n = -3 + n(n+1)+2n = -3 + n^2 + n + 2n
+   & = 2T_n + n 
+   \\
+   & = n(n+1)+n 
+   \\
+   & =  n^2 + n + n = n^2 + 2n
    \end{aligned}
    $$
+   c. Hvis vi skal vise at figurtallet $P_n$ er én mindre enn kvadrattall nummer $n+1$, kan vi bare se på differansen mellom de. $(n+1)^2 - P_n = (n^2+2n+1)-(n^2+2n) = n^2 +2n + 1 - n^2 -2n = 1$. Som viser første del av oppgaven. Vi må nå bare omarrangere figuren. Det kan for eksempel gjøres som i figuren nedenfor. Der ser de grønne ringene uten rød ring ikke flyttet. De grønne med rød ring rundt er de hvite ringene flyttet og den røde ringen er den *manglende* ringen for å fullføre kvadratet.
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/stirrehardt.svg)
 
 #### Avansert:  Tallteori
 

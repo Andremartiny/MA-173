@@ -21,6 +21,10 @@
 
     b.  ved hjelp av strategien *differanse mellom eksplisitte uttrykk*
 
+##### Løsningsforslag
+
+Se heftet for alle.
+
 #### Grunnleggende:  17.02.23
 
 Vis i en illustrasjon hvordan hver figur inneholder den forrige, og finn rekursivt uttrykk for trekanttall $n$:

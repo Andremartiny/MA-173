@@ -2,21 +2,15 @@
 
 1. La $H_{n} = 2 \cdot T_{n + 1} - K_{n - 1}$.
 
-    a.  Illustrer $H_{1}$ til $H_{4}$ ved hjelp av trekant- og
-        kvadrattall.
+    a.  Illustrer $H_{1}$ til $H_{4}$ ved hjelp av trekant- og kvadrattall.
 
-    b.  Finn eksplisitt uttrykk for $H_{n}$ ved hjelp av
-        *stirre-hardt*-*metoden*.
+    b.  Finn eksplisitt uttrykk for $H_{n}$ ved hjelp av *stirre-hardt*-*metoden*.
 
-    c.  Bekreft uttrykket du fant i b. ved å regne ut
-        $2 \cdot T_{n + 1} - K_{n - 1}$.
+    c.  Bekreft uttrykket du fant i b. ved å regne ut $2 \cdot T_{n + 1} - K_{n - 1}$.
 
-    d.  Bruk uttrykket fra b. og c. til å lage et nytt figurmønster som
-        matcher formen på uttrykket (stirre-hardt-metoden bare baklengs,
-        altså).
+    d.  Bruk uttrykket fra b. og c. til å lage et nytt figurmønster som matcher formen på uttrykket (stirre-hardt-metoden bare baklengs, altså).
 
-2. En figurtallfølge er gitt ved den rekursive sammenhengen
-    $F_{n} = F_{n - 1} + 2n + 1$, der $F_{1} = 2$.
+2. En figurtallfølge er gitt ved den rekursive sammenhengen $F_{n} = F_{n - 1} + 2n + 1$, der $F_{1} = 2$.
 
     a.  Illustrer figur 1-4 slik at det går tydelig frem hvordan figuren
         vokser.
@@ -25,17 +19,14 @@
 
 3. Den $n$-te figuren i et figurtallmønster har eksplisitt uttrykk
     $G_{n} = 2n^{2} - (n - 2)^{2} + \frac{n(n + 1)}{2}$.
+   a. Illustrer figur 1-4 slik at strukturen i det algebraiske uttrykket kommer tydelig frem.
+   b. Finn rekursiv sammenheng.
 
-    a.  Illustrer figur 1-4 slik at strukturen i det algebraiske
-        uttrykket kommer tydelig frem.
+4. Lag figurtall og finn rekursivt uttrykk til følgende eksplisitte sammenheng: $n^{2} + 3n + 1$. Tips: Forsøk å omforme uttrykket slik at du finner uttrykk du kjenner fra før, sånn som trekanttall, kvadrattall eller kvadratsetninga. Hvor mange figurtall klarer du å lage?
 
-    b.  Finn rekursiv sammenheng.
+##### Løsningsforslag
 
-4. Lag figurtall og finn rekursivt uttrykk til følgende eksplisitte
-    sammenheng: $n^{2} + 3n + 1$. Tips: Forsøk å omforme uttrykket slik
-    at du finner uttrykk du kjenner fra før, sånn som trekanttall,
-    kvadrattall eller kvadratsetninga. Hvor mange figurtall klarer du å
-    lage?
+4. Vi utnytter at vi vet at $n^2 + 2n + 1 = (n+1)^2$. Vi kan derfor skrive om uttrykket som $n^2 + 3n + 1 = n^2 + 2n + 1 +n = (n+1)^2+n$. Nå kan vi enkelt se at tillegget fra figur til figur er $(2n+1) + 1$, der $2n+1$ er økninga av kvadratet $+1$ er økningen fra ledded $n$. Dette gir oss også en enkel oversettelse til en figur, dette overlates til leseren!
 
 #### Avansert:  Tallteori
 
@@ -58,7 +49,6 @@ være: Bryte ned figur geometrisk, sum av tillegg,
 gauss-triks algebraisk, gauss-triks ved figur. Merk at å
 bryte ned figuren på flere måter teller som forskjellige
 måter
-
 
 
 #### Avansert:  17.02.23

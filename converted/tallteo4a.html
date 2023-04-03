@@ -70,34 +70,45 @@ class="math inline">\(b=1\)</span>. Tillegget kan altså skrives på
 formen <span class="math inline">\(2n+1\)</span>. Nå kan vi skrive
 figurtallene som summen av tilleggene: <span class="math display">\[
 \begin{aligned}
-P_1 &amp; = 1
+P_1 &amp; = 3
 \\
-P_2 &amp; = 1 + 2\cdot 2+1
+P_2 &amp; = 3 + 2\cdot 2+1
 \\
-P_3 &amp; = 1 + (2\cdot 2 + 1) +(2\cdot 3 + 1)
+P_3 &amp; = 3 + (2\cdot 2 + 1) +(2\cdot 3 + 1)
 \\
 \vdots
 \\
-P_n &amp; = 1 + (2\cdot 2 + 1) + (2\cdot 3 + 1)+ \ldots + (2\cdot n +
-1).
+P_n &amp; = (2\cdot 1 + 1) + (2\cdot 2 + 1) + (2\cdot 3 + 1)+ \ldots +
+(2\cdot n + 1).
 \end{aligned}
-\]</span> Fra erfaring, ser vi at vi ønsker å ha et ledd <span
-class="math inline">\((2\cdot 1 + 1)\)</span> for å enkelt kunne bruke
-at <span class="math inline">\(T_n = 1+2+3+\ldots+n =
-\frac{n(n+1)}{2}\)</span>. Dette løser vi enkelt ved å legge til og
-trekke fra. Vi får derfor at <span class="math display">\[
+\]</span> Vi får derfor at <span class="math display">\[
 \begin{aligned}
-P_n &amp; = 1 + (2\cdot 2 + 1) + (2\cdot 3 + 1)+ \ldots + (2\cdot n + 1)
+P_n &amp; = (2\cdot 1 + 1) + (2\cdot 2 + 1) + (2\cdot 3 + 1)+ \ldots +
+(2\cdot n + 1)
 \\
-P_n &amp; = 1 - (2\cdot 1 + 1) +(2\cdot 1 + 1) + (2\cdot 2 + 1) +
-(2\cdot 3 + 1)+ \ldots + (2\cdot n + 1)
+P_n &amp; = 2(1+2+3+\ldots + n) + 1\cdot n
 \\
-P_n &amp; = 1 - 2 - 1 + 2(1+2+3+\ldots + n) + 2\cdot n = -3 + 2T_n + 2n
-= -3 + n(n+1)+2n = -3 + n^2 + n + 2n
+&amp; = 2T_n + n
+\\
+&amp; = n(n+1)+n
+\\
+&amp; =  n^2 + n + n = n^2 + 2n
 \end{aligned}
 \]</span></li>
+<li>Hvis vi skal vise at figurtallet <span
+class="math inline">\(P_n\)</span> er én mindre enn kvadrattall nummer
+<span class="math inline">\(n+1\)</span>, kan vi bare se på differansen
+mellom de. <span class="math inline">\((n+1)^2 - P_n =
+(n^2+2n+1)-(n^2+2n) = n^2 +2n + 1 - n^2 -2n = 1\)</span>. Som viser
+første del av oppgaven. Vi må nå bare omarrangere figuren. Det kan for
+eksempel gjøres som i figuren nedenfor. Der ser de grønne ringene uten
+rød ring ikke flyttet. De grønne med rød ring rundt er de hvite ringene
+flyttet og den røde ringen er den <em>manglende</em> ringen for å
+fullføre kvadratet.</li>
 </ol></li>
 </ol>
+<p><img
+src="https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/stirrehardt.svg" /></p>
 <h4 id="avansert-tallteori">Avansert: Tallteori</h4>
 <p>På figuren under ser du de tre første figurene i en sammensatt figur,
 der <span class="math inline">\(F_1 = 7\)</span>, <span

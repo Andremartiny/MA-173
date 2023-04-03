@@ -12,11 +12,41 @@ figurnummer og figurtall (presisjon er målet her også).</p></li>
 </ol>
 <p><img
 src="https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/image2.png" /></p>
-<ol type="1">
+<ol start="2" type="1">
 <li>Samme ordlyd som oppgave 1.</li>
 </ol>
 <p><img
 src="https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/image3.png" /></p>
+<h5 id="løsningsforslag">Løsningsforslag</h5>
+<ol type="1">
+<li><br />
+
+<ol type="a">
+<li>Dette kan gjøres på flere måter. For eksempel kan en se forrige
+figur i neste, og peke på hva som er lagt til for å bygge den nye
+figuren. Vi kan også peke på at figuren består av to deler. En trekant,
+som står på et rektangel. For å lage neste figur så skyv trekanten opp
+og legg til en bunn på størrelse <span
+class="math inline">\(n+1\)</span>. Rektangelet skal øke én i høyde og
+én i bredde også. Dermed må vi legge til <span
+class="math inline">\(n\)</span> og <span
+class="math inline">\(n-1\)</span>. Totalt legger vi altså til <span
+class="math inline">\(3n\)</span>.</li>
+<li>Under er sammenhengen markert. De grønne er forrige figur, det røde
+er det som legges til i trekanten, det blå er bunnen som legges til i
+rektangelet, og det gule er siden som legges til i rektangelet. <img
+src="https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/rekursiv.svg"
+alt="Rekursiv sammenheng" /></li>
+<li>Vi kan nå bruke dekomponeringen vi har brukt til å beskrive den
+rekursive sammenhengen. For figur <span
+class="math inline">\(P_n\)</span> har vi trekanttall <span
+class="math inline">\(n+1\)</span> minus toppen. Det gir <span
+class="math inline">\(T_{n+1}-1 = \frac{(n+1)(n+2)}{2}-1\)</span>.
+Rektangelet er alltid <span class="math inline">\(n(n-1)\)</span>, så vi
+får at den eksplisitte formelen er <span
+class="math inline">\(\frac{(n+1)(n+2)}{2}-1+n(n-1)\)</span>.</li>
+</ol></li>
+</ol>
 <h4 id="grunnleggende-tallteori">Grunnleggende: Tallteori</h4>
 <p>Ved å illustrere trappetallene og markere i illustrasjonen, gi en
 ordforklaring av</p>

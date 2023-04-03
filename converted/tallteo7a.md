@@ -24,4 +24,3 @@
 #### Avansert:  10.01.2023
 
 Lag en figur som vokser i et tydelig mønster. Lag en kort undervisningsaktivitet med utgangspunkt i kjerneelementer, kompetansemål, litteratur om algebraisk tenkning og figuren du har laget. Gi en begrunnelse for valgene du har gjort.
-
