@@ -305,7 +305,6 @@ $P_n = 3T_n -2n = \frac{3n(n+1)}{2}-2n$.
 
    ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/stirrehardt.svg)
    
-
 ### Finne rekursivt uttrykk for figurtall
 
 #### Grunnleggende: Ved hjelp av form på tillegg, og differanse mellom eksplisitte uttrykk for trekant-, kvadrat- og rektangeltall
