@@ -303,7 +303,7 @@ $P_n = 3T_n -2n = \frac{3n(n+1)}{2}-2n$.
    $$
    c. Hvis vi skal vise at figurtallet $P_n$ er én mindre enn kvadrattall nummer $n+1$, kan vi bare se på differansen mellom de. $(n+1)^2 - P_n = (n^2+2n+1)-(n^2+2n) = n^2 +2n + 1 - n^2 -2n = 1$. Som viser første del av oppgaven. Vi må nå bare omarrangere figuren. Det kan for eksempel gjøres som i figuren nedenfor. Der ser de grønne ringene uten rød ring ikke flyttet. De grønne med rød ring rundt er de hvite ringene flyttet og den røde ringen er den *manglende* ringen for å fullføre kvadratet. 
 
-   ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/stirrehardt.svg)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/stirrehardt.svg)
    
 ### Finne rekursivt uttrykk for figurtall
 
@@ -330,6 +330,10 @@ $P_n = 3T_n -2n = \frac{3n(n+1)}{2}-2n$.
 
     b.  ved hjelp av strategien *differanse mellom eksplisitte uttrykk*
 
+##### Løsningsforslag
+
+Se heftet for alle.
+
 #### Middels: Ved hjelp av form på tillegg, og differanse mellom eksplisitte uttrykk for andre polygontall og sammensatte figurtall
 
 1. Hva er sammenhengen mellom påfølgende figurer? Finn rekursivt
@@ -343,7 +347,7 @@ $P_n = 3T_n -2n = \frac{3n(n+1)}{2}-2n$.
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/image2.png)
 
-1. Hva er sammenhengen mellom påfølgende figurer? Finn rekursivt
+2. Hva er sammenhengen mellom påfølgende figurer? Finn rekursivt
     uttrykk.
 
     a.  Vis i figuren.
@@ -353,6 +357,13 @@ $P_n = 3T_n -2n = \frac{3n(n+1)}{2}-2n$.
     c.  Finn ved hjelp av *differanse mellom eksplisitte uttrykk.*
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/image1.png)
+
+##### Løsningsforslag
+
+1. Ser vi på oppgave 1. i læringsmålet **Finne eksplisitt uttrykk for figurtall** på Avansert nivå, ser vi at mye av arbeidet allerede er forklart.
+   a. Vi kan for eksempel tegne figurene på følgende måte (prøv selv og tegne neste med egne farger, der det forrige figur kommer tydelig fram i neste).
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/rekursivtall.svg)
+
 
 ### Beskrive oppbygningen av figurtall (alle typer)
 
