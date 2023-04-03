@@ -10,6 +10,12 @@
 
     d.  Rektangel er et trapes.
 
+##### Løsningsforslag
+
+1. \
+   a. Et kvadrat kan defineres ved at alle indre vinkler er $90^\circ$ og *alle* sider er like lange. Et rektangel kan defineres ved at alle indre vinkler er $90^\circ$. Siden definisjonen av et kvadrat krever at alle vinklene er $90^\circ$, må altså et kvadrat være et rektangel.
+   b. Et parallellogram kan defineres ved å si at motstående sider må være parallelle. Siden kravet om at alle indre vinkler i rektangler er $90^\circ$ impliserer at motstående sider må være parallelle, betyr det altså at et rektangel må også være et parallellogram.
+
 #### Middels:  31.03.23
 
 1. Forklar hvorfor, eller hvorfor ikke, en likesidet trekant er en likebeint trekant.

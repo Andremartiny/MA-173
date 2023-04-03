@@ -1,6 +1,11 @@
+
 #### Middels:  Øveoppgaver
 
 1. Hvis et trapes har areal $A$. Forklar ved hjelp av formelen til et trapes hvorfor arealet til trapeset blir $\frac{25}{4}A$ hvis vi forstørrer lengdene i trapeset med $\frac{5}{2}$.
+
+##### Løsningsforslag
+
+Vi vet at $A = \frac{(a+b)h}{2}$. Skalerer vi opp trapeset og bevarer formen får vi at trapeset har areal $\frac{(\frac{5}{2}a + \frac{5}{2}b)\frac{5}{2}h}{2} = \frac{25}{4}\frac{(a+b)h}{2}=\frac{25}{2}A$.
 
 
 #### Middels:  31.03.23

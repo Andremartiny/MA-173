@@ -12,8 +12,7 @@
 
     e.  Pyramider
 
-> Besvarelsene må inneholde en illustrasjon der en peker på relevante
-> lengder.
+Besvarelsene må inneholde en illustrasjon der en peker på relevante lengder.
 
 #### Grunnleggende:  31.03.23
 

@@ -1,6 +1,4 @@
 
-#### Avansert:  Øveoppgaver
-
 
 
 

@@ -3,8 +3,27 @@
 1. En korde-tangent-vinkel har størrelse *v*. Hvor stor er sirkelbuen
     den skjærer av? (Merk: En tangent står vinkelrett på linjen fra
     sentrum av sirkelen til tangeringspunktet).\
-    ![A picture containing diagram Description automatically
-    generated](./geo/image2.png)
+    
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/geo/image2.png)
+
+##### Løsningsforslag
+
+1. Vi merker oss først at grønn + rød vinkel er $90^\circ$. Rød vinkel kan beskrives ved hjelp av den grønne vinkelen slik: $\angle ACB = 90 - v$. Vi er på jakt etter den rosa vinkelen $\angle BAC$. Siden 2 røde vinkler + rosa utgjør indre vinkelsum av en trekant får vi
+$$
+\begin{aligned}
+180
+&  = 2\text{rød}+ \text{rosa}
+\\
+180 & = 2(90 - v) + \angle BAC
+\\
+180 &  = 180 - 2v + \angle BAC
+\\
+2v & = \angle BAC
+\\
+v & = \frac{\angle BAC}{2}.
+\end{aligned}
+$$
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-03-21-15-36.png)
 
 #### Avansert:  31.03.23
 

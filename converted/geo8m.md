@@ -1,28 +1,22 @@
 
 #### Middels:  Øveoppgaver
 
-1. Under er en rettvinklet trekant plassert i en halvsirkel $c$, der
-    halvsirkelen har diameter lik lengden på hypotenusen. På hver av
-    katetene er det også plassert halvsirkler.
+1. Under er det tegnet inn en rettvinklet trekant plassert. På katetene og hypotenusen er det også tegnet inn halvsirkler.
 
-    a.  Avgjør arealet av det hvite området.
+   a. Avgjør arealet av det hvite området.
+   b. Hva er forholdet mellom arealet av det hvite området og arealet av trekanten?
 
-    b.  Hva er forholdet mellom arealet av det hvite området og arealet
-        av trekanten?![]
-        
-        (./img/geo/image4.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/geo/image4.png)
 
-2. Under er et rektangel der det er lagt inn en rettvinklet trekant der
-    hypotenusen deles med grunnlinjen til rektangelet. Denne
-    rettvinklede trekanten deler rektangelet inn i tre rettvinklede
-    trekanter. Hvis den minste trekanten har sidelengder 25 og 60. Hva
-    er de resterende sidelengdene i figuren?\
-    
-    ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/geo/image5.png)\
+2. Under er et rektangel der det er lagt inn en rettvinklet trekant der hypotenusen deles med grunnlinjen til rektangelet. Denne rettvinklede trekanten deler rektangelet inn i tre rettvinklede trekanter. Hvis den minste trekanten har sidelengder 25 og 60. Hva er de resterende sidelengdene i figuren?\
 
-    **Bonus:** Figuren er konstruert med utgangspunkt i den Pytagoreiske
-    trippelen $5^{2} + 12^{2} = 13^{2}$. Velg en annen Pytagoreisk
-    trippel og lag en tilsvarende figur.
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/geo/image5.png)\
+
+**Bonus:** Figuren er konstruert med utgangspunkt i den Pytagoreiske trippelen $5^{2} + 12^{2} = 13^{2}$. Velg en annen Pytagoreisk trippel og lag en tilsvarende figur.
+
+##### Løsningsforslag
+
+1. La oss kalle sidene i den rettvinkla trekanten for $x$, $y$ og $z$, slik at $x^2 + y^2 = z^2$. Da vet vi at de tre halvsirklene har areal $\pi(\frac{x}{2})^2 = \pi \frac{x^2}{4}$, $\pi \frac{y^2}{4}$ and $\pi \frac{z^2}{4}$. I tillegg har trekanten areal $\frac{2x\cdot2y}{2} = 2xy$. Tar vi de to små halvsirklene i tillegg til trekanten får vi hele området. Dette har areal $\frac{\pi}{2}(x^2+y^2)+ 2ab$. Vi kan nå bruke Pytagoras setning til å si at dette arealet kan skrives som $\frac{\pi c^2}{4} + 2ab$.Nå gjenstår det bare å trekke fra den store halvsirkelen for å få arealet av det hvite området. Dette gir $\frac{\pi c^2}{4}+ 2ab - \frac{\pi c^2}{4} = 2ab$. Vi ser dermed at det hvite området har samme areal som trekanten. Dermed blir forholdet mellom det hvite området og arealet av trekanten $1$.
 
 
 

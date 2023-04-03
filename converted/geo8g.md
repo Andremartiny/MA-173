@@ -38,6 +38,15 @@
 verdier. Det vil si at hvis svaret er $\sqrt{1^{2} + 2^{2}} = \sqrt{5}$,
 så skal ikke dette rundes av til $2,236$
 
+##### Løsningsforslag
+
+1. \
+   a. Vi får at $3^2 + 4^2 = 25 = c^2$. Dermed er $c = 5$
+   b. Vi får at $6^2+8^2 = 100 = c^2$. Dermed er $c = 10$.
+   c. Vi får at $9^2 + 12^2 = 225 = c^2$. Dermed er $c = 15$.
+   d.  Vi får at $8^2 +15^2 = 64+225 = 289 = c^2$. Dermed er $c = \sqrt 289$.\
+   $\vdots$
+
 #### Grunnleggende:  31.03.23
 
 Finn lengden på hypotenusen i en rettvinklet trekant når du vet at katetene har lengde:

@@ -1,15 +1,34 @@
-
 #### Avansert:  Øveoppgaver
 
 1. Arkene i A-formatet (A1, A2, A3, A4, A5, osv) har den egenskapen at
     når du halverer de ved å brette de på langsiden, så vil de bevare
     forholdet mellom sidelengdene. Det vil si at hvis sidelengdene i A4
     er *a* og *b,* så er sidelengdene i A5 *b/2* og *a* og forholdet
-    mellom sidelengdene vil være like. Vis at dette forholdet, vil
+    mellom sidelengdene vil være like. Vis at dette forholdet, vil være $\sqrt 2$.
 
 2. Hvor stor er summen av de små omkretsene i forhold til den store?
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/geo/image3.png)
+
+##### Løsningsforslag
+
+1. Vi er ute etter å beskrive forholdet $\frac{b}{a}$. La oss kalle dette for $x$. Videre får vi vite at $\frac{b}{a}= \frac{a}{\frac{b}{2}}$. Nå kan vi regne videre at
+$$
+\begin{aligned}
+\frac{b}{a}
+& = 
+\frac{a}{\frac{b}{2}}
+\\
+x & = \frac{2a}{2\frac{b}{2}}
+\\
+& = \frac{2a}{b}
+\\
+& = \frac{2\frac{a}{a}}{\frac{b}{a}}
+\\
+& = \frac{2}{x}.
+\end{aligned}
+$$
+Vi ser altså at $x^2 = 2$ eller at $x = \sqrt 2$.
 
 #### Avansert:  31.03.23
 

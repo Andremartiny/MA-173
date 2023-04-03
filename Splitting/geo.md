@@ -91,6 +91,21 @@ man avgjør er relatert til måleenheten.
 
 ##### Løsningsforslag
 
+1. Vi merker oss først at grønn + rød vinkel er $90^\circ$. Rød vinkel kan beskrives ved hjelp av den grønne vinkelen slik: $\angle ACB = 90 - v$. Vi er på jakt etter den rosa vinkelen $\angle BAC$. Siden 2 røde vinkler + rosa utgjør indre vinkelsum av en trekant får vi
+$$
+\begin{aligned}
+180
+&  = 2\text{rød}+ \text{rosa}
+\\
+180 & = 2(90 - v) + \angle BAC
+\\
+180 &  = 180 - 2v + \angle BAC
+\\
+2v & = \angle BAC
+\\
+v & = \frac{\angle BAC}{2}.
+\end{aligned}
+$$
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-03-21-15-36.png)
 
 ### Bruke begrepene kvadrat, rektangel, parallellogram, trapes, likebeint trekant, likesidet trekant, rettvinklet trekant, mangekant, sirkel
@@ -112,7 +127,11 @@ man avgjør er relatert til måleenheten.
 
     d.  Rektangel er et trapes.
 
-#### Avansert: Utforske og løse problemer knyttet til geometriske figurer
+##### Løsningsforslag
+
+1. \
+   a. Et kvadrat kan defineres ved at alle indre vinkler er $90^\circ$ og *alle* sider er like lange. Et rektangel kan defineres ved at alle indre vinkler er $90^\circ$. Siden definisjonen av et kvadrat krever at alle vinklene er $90^\circ$, må altså et kvadrat være et rektangel.
+   b. Et parallellogram kan defineres ved å si at motstående sider må være parallelle. Siden kravet om at alle indre vinkler i rektangler er $90^\circ$ impliserer at motstående sider må være parallelle, betyr det altså at et rektangel må også være et parallellogram.
 
 ### Bruke formler for størrelser av figurer til å utforske geometriske sammenhenger
 
@@ -136,17 +155,41 @@ Besvarelsene må inneholde en illustrasjon der en peker på relevante lengder.
 
 1. Hvis et trapes har areal $A$. Forklar ved hjelp av formelen til et trapes hvorfor arealet til trapeset blir $\frac{25}{4}A$ hvis vi forstørrer lengdene i trapeset med $\frac{5}{2}$.
 
+##### Løsningsforslag
+
+Vi vet at $A = \frac{(a+b)h}{2}$. Skalerer vi opp trapeset og bevarer formen får vi at trapeset har areal $\frac{(\frac{5}{2}a + \frac{5}{2}b)\frac{5}{2}h}{2} = \frac{25}{4}\frac{(a+b)h}{2}=\frac{25}{2}A$.
+
 #### Avansert: Utforske og løse problemer knyttet til geometriske figurer
 
 1. Arkene i A-formatet (A1, A2, A3, A4, A5, osv) har den egenskapen at
     når du halverer de ved å brette de på langsiden, så vil de bevare
     forholdet mellom sidelengdene. Det vil si at hvis sidelengdene i A4
     er *a* og *b,* så er sidelengdene i A5 *b/2* og *a* og forholdet
-    mellom sidelengdene vil være like. Vis at dette forholdet, vil
+    mellom sidelengdene vil være like. Vis at dette forholdet, vil være $\sqrt 2$.
 
 2. Hvor stor er summen av de små omkretsene i forhold til den store?
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/geo/image3.png)
+
+##### Løsningsforslag
+
+1. Vi er ute etter å beskrive forholdet $\frac{b}{a}$. La oss kalle dette for $x$. Videre får vi vite at $\frac{b}{a}= \frac{a}{\frac{b}{2}}$. Nå kan vi regne videre at
+$$
+\begin{aligned}
+\frac{b}{a}
+& = 
+\frac{a}{\frac{b}{2}}
+\\
+x & = \frac{2a}{2\frac{b}{2}}
+\\
+& = \frac{2a}{b}
+\\
+& = \frac{2\frac{a}{a}}{\frac{b}{a}}
+\\
+& = \frac{2}{x}.
+\end{aligned}
+$$
+Vi ser altså at $x^2 = 2$ eller at $x = \sqrt 2$.
 
 ### Bruke begrepet formlikhet av trekanter
 
@@ -169,6 +212,10 @@ Under ser du en figur av tre formlike trekanter. Avgjør lengden på de resteren
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-30-14-23-27.png)
 
+##### Løsningsforslag
+
+1. Vi ser at $a$ samsvarer med $d$ og $g$, at $b$ samsvarer med $e$ og $h$ og at $c$ samsvarer med $f$ og $h$. For å skalere $a = 3$ til $g = 4$, må vi skalere med $\frac{4}{3}$. Dermed må $b = 6$ skaleres til $6\cdot \frac{4}{3} = 8 = h$. For å gå fra $i$ til $c$ må vi skalere ned med $\frac{3}{4}$. Det gir at $c = 1 \cdot \frac{3}{4} = \frac{3}{4}$. 
+
 ### Argumentere visuelt for Pytagoras setning
 
 #### Grunnleggende: Gjengi og forklar Pytagoras setning
@@ -176,9 +223,18 @@ Under ser du en figur av tre formlike trekanter. Avgjør lengden på de resteren
 Gjengi og forklar Pytagoras setning. Forklaringen må referere til en
 figur.
 
+##### Løsningsforslag
+
+Pytagoras setning sier at for enhver rettvinklet trekant, så gjelder at $a^2+b^2= c^2$, der $a$ og $b$ er katetene og $c$ er hypotenusen. *Merk* at dere må legge ved en figur som dere referer til også!
+
 #### Middels: Gi et visuelt argument for at Pytagoras setning gjelder
 
 Gi et grunnskoletilpasset bevis for Pytagoras setning med et visuelt argument.
+
+##### Løsningsforslag
+
+
+Se for eksempel Alfa.
 
 ### Bruke Pytagoras setning
 
@@ -222,28 +278,33 @@ Gi et grunnskoletilpasset bevis for Pytagoras setning med et visuelt argument.
 verdier. Det vil si at hvis svaret er $\sqrt{1^{2} + 2^{2}} = \sqrt{5}$,
 så skal ikke dette rundes av til $2,236$
 
+##### Løsningsforslag
+
+1. \
+   a. Vi får at $3^2 + 4^2 = 25 = c^2$. Dermed er $c = 5$
+   b. Vi får at $6^2+8^2 = 100 = c^2$. Dermed er $c = 10$.
+   c. Vi får at $9^2 + 12^2 = 225 = c^2$. Dermed er $c = 15$.
+   d.  Vi får at $8^2 +15^2 = 64+225 = 289 = c^2$. Dermed er $c = \sqrt 289$.\
+   $\vdots$
+
 #### Middels: Bruke Pytagoras setning til å løse problemer
 
-1. Under er en rettvinklet trekant plassert i en halvsirkel $c$, der
-    halvsirkelen har diameter lik lengden på hypotenusen. På hver av
-    katetene er det også plassert halvsirkler.
+1. Under er det tegnet inn en rettvinklet trekant plassert. På katetene og hypotenusen er det også tegnet inn halvsirkler.
 
-    a.  Avgjør arealet av det hvite området.
+   a. Avgjør arealet av det hvite området.
+   b. Hva er forholdet mellom arealet av det hvite området og arealet av trekanten?
 
-    b.  Hva er forholdet mellom arealet av det hvite området og arealet
-        av trekanten?![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/geo/image4.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/geo/image4.png)
 
-2. Under er et rektangel der det er lagt inn en rettvinklet trekant der
-    hypotenusen deles med grunnlinjen til rektangelet. Denne
-    rettvinklede trekanten deler rektangelet inn i tre rettvinklede
-    trekanter. Hvis den minste trekanten har sidelengder 25 og 60. Hva
-    er de resterende sidelengdene i figuren?\
-    
-    ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/geo/image5.png)\
+2. Under er et rektangel der det er lagt inn en rettvinklet trekant der hypotenusen deles med grunnlinjen til rektangelet. Denne rettvinklede trekanten deler rektangelet inn i tre rettvinklede trekanter. Hvis den minste trekanten har sidelengder 25 og 60. Hva er de resterende sidelengdene i figuren?\
 
-    **Bonus:** Figuren er konstruert med utgangspunkt i den Pytagoreiske
-    trippelen $5^{2} + 12^{2} = 13^{2}$. Velg en annen Pytagoreisk
-    trippel og lag en tilsvarende figur.
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/geo/image5.png)\
+
+**Bonus:** Figuren er konstruert med utgangspunkt i den Pytagoreiske trippelen $5^{2} + 12^{2} = 13^{2}$. Velg en annen Pytagoreisk trippel og lag en tilsvarende figur.
+
+##### Løsningsforslag
+
+1. La oss kalle sidene i den rettvinkla trekanten for $x$, $y$ og $z$, slik at $x^2 + y^2 = z^2$. Da vet vi at de tre halvsirklene har areal $\pi(\frac{x}{2})^2 = \pi \frac{x^2}{4}$, $\pi \frac{y^2}{4}$ and $\pi \frac{z^2}{4}$. I tillegg har trekanten areal $\frac{2x\cdot2y}{2} = 2xy$. Tar vi de to små halvsirklene i tillegg til trekanten får vi hele området. Dette har areal $\frac{\pi}{2}(x^2+y^2)+ 2ab$. Vi kan nå bruke Pytagoras setning til å si at dette arealet kan skrives som $\frac{\pi c^2}{4} + 2ab$.Nå gjenstår det bare å trekke fra den store halvsirkelen for å få arealet av det hvite området. Dette gir $\frac{\pi c^2}{4}+ 2ab - \frac{\pi c^2}{4} = 2ab$. Vi ser dermed at det hvite området har samme areal som trekanten. Dermed blir forholdet mellom det hvite området og arealet av trekanten $1$.
 
 ## 31.03.23
 

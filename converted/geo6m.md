@@ -12,6 +12,10 @@ Under ser du en figur av tre formlike trekanter. Avgjør lengden på de resteren
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-30-14-23-27.png)
 
+##### Løsningsforslag
+
+1. Vi ser at $a$ samsvarer med $d$ og $g$, at $b$ samsvarer med $e$ og $h$ og at $c$ samsvarer med $f$ og $h$. For å skalere $a = 3$ til $g = 4$, må vi skalere med $\frac{4}{3}$. Dermed må $b = 6$ skaleres til $6\cdot \frac{4}{3} = 8 = h$. For å gå fra $i$ til $c$ må vi skalere ned med $\frac{3}{4}$. Det gir at $c = 1 \cdot \frac{3}{4} = \frac{3}{4}$. 
+
 #### Middels:  31.03.23
 
 Under ser du to formlike trekanter. Avgjør lengden på de resterende sidene hvis du får vite at:
