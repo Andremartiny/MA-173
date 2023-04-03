@@ -56,7 +56,7 @@ Grafen til en lineær funksjon går gjennom punktene $(-3, 0)$ og $(6, 3)$. Fork
 
 Under ser du en lineær funksjon som går gjennom punktene $A$ og $B$. Forklar hvordan vi kan finne likninga til den lineære funksjonen.
 
-![](./img/2023-03-24-20-50-16.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-20-50-16.png)
 
 #### Vurderingskriterier middels:  Funksjoner 13.02.23
 

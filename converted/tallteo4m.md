@@ -138,5 +138,5 @@ På figuren under ser du de tre første figurene i en sammensatt figur, der $F_1
 
 2. Finn en eksplisitt formel ved hjelp av sum av tillegg.
 
-![](./img/2023-03-24-13-53-34.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-13-53-34.png)
 

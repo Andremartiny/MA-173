@@ -48,7 +48,7 @@ a. Avgjør hva slags funksjon det er snakk om.
 
 b. Finn funksjonsuttrykket.
 
-![](./img/2023-03-31-09-26-46.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-31-09-26-46.png)
 
 #### Vurderingskriterier avansert:  31.03.23
 
@@ -73,7 +73,7 @@ c. Finn funksjonsuttrykk, og skisser grafen.
 a. Avgjør hva slags funksjon det er snakk om.
 
 b. Finn funksjonsuttrykket.
-![](./img/2023-03-24-20-34-15.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-20-34-15.png)
 
 #### Vurderingskriterier avansert:  17.02.23
 
@@ -99,7 +99,7 @@ a. Avgjør hva slags funksjon det er snakk om.
 
 b. Finn funksjonsuttrykket.
 
-![](./img/2023-03-24-20-49-07.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-20-49-07.png)
 
 #### Vurderingskriterier avansert:  Funksjoner 13.02.23
 
@@ -127,7 +127,7 @@ b. Finn funksjonsuttrykket.
 
 c. Beskriv en situasjon som kan passe til funksjonen.
 
-![](./img/2023-03-24-21-04-54.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-21-04-54.png)
 
 #### Vurderingskriterier avansert:  Funksjoner 10.02.23
 
@@ -147,7 +147,7 @@ Deretter *må* studentene omforme funksjonene til de andre representasjonene det
 Du skal lage en sirkulær figur med radius $r$. Hva er sammenhengen mellom radius og arealet arealet på figuren?
 3. Under ser du en graf. Beskriv deretter en situasjon som kan passe til grafen og gi et funksjonsuttrykk til grafen og lag en tabell til funksjonen.
 
-![](./img/2023-03-24-21-13-57.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-21-13-57.png)
 
 #### Vurderingskriterier avansert:  Funksjoner 3.02.23
 

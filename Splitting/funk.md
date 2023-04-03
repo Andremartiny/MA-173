@@ -42,15 +42,15 @@ pandoc .\quizzer\funksjoner\funk.md -f markdown -t html --mathjax --template=tem
 1. \
    a. Hvis vi kaller sidelengene i rektangelet for $x$ og $y$ så vet vi at med et fast areal $A$ så er $xy = A$. Dermed er $y = \frac{A}{x}$. Siden omvendtproporsjonale funksjoner alltid er på formen $y = \frac{a}{x}$ eller tilsvarende $xy = a$ så ser vi at dette gir en omvendt proporsjonal funksjon, men vi merker oss at negative verdier ikke gir mening i denne situasjonen. Lar vi arealet være $1$ i dette tilfellet vil grafen se slik ut
 
-![](./img/2023-03-27-11-41-05.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-27-11-41-05.png)
 
    b. Vi vet at arealet av en sirkel er $\pi r^2$. Vi kan derfor skrive arealet som en funksjon av radiusen ved å si $A(r) = \pi r^2$. Vi ser at dette er en andregradsfunksjon og hvis vi skisserer den vil grafen se slik ut.
 
-![](./img/2023-03-27-11-42-05.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-27-11-42-05.png)
 
    c. Vi kan tenke oss at en person holder farten $a$ kilometer i timen og at personen går i en rett linje fra hjemmet sitt. Da vil personen i utgangspunktet, ved tid $0$ være $0$ km fra hjemmet sitt. Avstanden vil nå vokse lineært siden personen holder jevn fart og vi kan uttrykke sammenhengen som $f(x) = ax$ der $f$ er avstanden hjemmefra målt i kilometer og $x$ er antall timer som personen har gått i. Grafen vil, hvis $a$ er $6$ kilometer i timen se slik ut:
 
-![](./img/2023-03-27-11-46-49.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-27-11-46-49.png)
 
 #### Avansert: Gjøre om mellom ulike representasjonsformer for de tre funksjonstypene, og begrunne omgjøringen
 
@@ -258,7 +258,7 @@ Se vurderingskriteriene fra ett av vurderingssettene.
    b. Tallet $\frac{10}{9}$ vi fant sier oss at når  $x = \frac{10}{9}$ så vil venstre side være lik høyre side i likningen når vi bytter ut $x$ med tallet.
    c.  Tolker vi VS og HS som funksjoner får vi funksjonene $f(x) = 4x-7$ og $g(x) = -5x + 3$. En skisse vil se slik ut
 
-   ![](./img/2023-03-27-12-06-48.png)
+   ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-27-12-06-48.png)
 
    d. Vi ser at grafene krysser i punktet $\frac{10}{9}$. At de krysser betyr at for den samme $x$-verdi så er funksjonenverdien også lik. Siden vi tolket HS og VS som funksjoner, så betyr krysningspunktet at for $x$-verdien $\frac{10}{9}$ så vil funksjonsverdiene være like. Dette er nøyaktig det som vi sa i b.
 
@@ -340,7 +340,7 @@ Se vurderingskriteriene fra ett av vurderingssettene.
    $$
    b. Skisserer vi grafene ser det slik ut
 
-   ![](./img/2023-03-27-12-15-21.png)
+   ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-27-12-15-21.png)
 
 ### Bruke begrepene funksjon, variabel, uavhengig variabel (innverdi), avhengig variabel (utverdi), funksjonsverdi, definisjonsmengde og verdimengde
 
@@ -418,7 +418,7 @@ Se vurderingskriteriene fra ett av vurderingssettene.
 
    Skisserer vi grafen vil den se sirka slik ut:
 
-![](./img/2023-03-27-12-33-04.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-27-12-33-04.png)
 
 ### Gjøre om mellom ulike representasjonsformer for funksjonssammenhenger
 
@@ -433,7 +433,7 @@ Se vurderingskriteriene fra ett av vurderingssettene.
     b.  Hvordan vil grafen til samme situasjon se ut dersom andreaksen
         heller måler tilbakelagt avstand?
 
-![](./img/picture2.jpg)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/picture2.jpg)
 
 3. Tabellen viser en forenklet trinnskattemodell. Dersom man tjener
     $60\ 000$ eller mer, betaler man skatt på hele beløpet, ikke bare
@@ -458,7 +458,7 @@ Se vurderingskriteriene fra ett av vurderingssettene.
 4. Se figuren under. Skisser en graf over sammenhengen mellom krukkas
     høyde og volum, der førsteaksen angir høyden og andreaksen volumet.
 
-![](./img/picture1.jpg)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/picture1.jpg)
 
 1. Klassen din får oppgaven under. Mange av elevene velger den øverste
     grafen med begrunnelser av typen «her ser vi tydelig hvordan bakken
@@ -469,13 +469,13 @@ Se vurderingskriteriene fra ett av vurderingssettene.
     b.  Forklar hvorfor den nederste grafen er den som passer til
         situasjonen.
 
-![](./img/funk/image3.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/funk/image3.png)
 
 ##### Løsningsforslag
 
 4. Fyllingen kan deles inn i to *faser*. Den første er fylling før vannet har nådd krukkas tykkeste punkt. Siden krukken øker i diameter vil høyden øke saktere og saktere fram til den kommer til krukkast tykkeste. Da vil høyden begynne å øke fortere og fortere og vil nå en høyere hastighet enn da vi begynte å fylle (siden tuppen er tynnere enn bunnen). Hvis vi prøver å få alt dette med i en skisse kan det se noe slik ut:
 
-![](./img/2023-03-27-12-47-38.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-27-12-47-38.png)
 
 ## 31.03.23
 
@@ -492,7 +492,7 @@ Se vurderingskriteriene fra ett av vurderingssettene.
 
 1. Et kvadrat i grønt ligger over et rektangel i lilla og  firkantene vokser i takt, slik som vist under. Rektangelets grunnlinje er alltid tre ganger så lang som sidelengen i kvadratet, og høyden til rektangelet er to ganger så langt som kvadratets sidelengde. Hva er sammenhengen mellom sidelengden i kvadratet og det synlige lilla området?
 
-![](./img/2023-03-31-09-23-39.gif)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-31-09-23-39.gif)
 
 2. "En skole skal holde en fest og har fått en pris for lokalet. Ikke alle vil delta på festen og det er bestemt at alle som deltar skal betale like mye. Siden prisen per elev, $x$, avtar når antallet gjester, $y$, øker, er sammenhengen mellom $x$ og $y$ omvendt proporsjonal." Avgjør og begrunn om påstanden stemmer.
 
@@ -516,7 +516,7 @@ a. Avgjør hva slags funksjon det er snakk om.
 
 b. Finn funksjonsuttrykket.
 
-![](./img/2023-03-31-09-26-46.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-31-09-26-46.png)
 
 #### Vurderingskriterier: Grunnleggende {#170211}
 
@@ -651,7 +651,7 @@ Under ser du en skisse av Henriks reisevei til jobb dersom han kjører bil. Fart
 1. Lag en passende tabell som viser avstand hjemmefra som funksjon av tid på Henriks kjøretur til jobb.
 2. Skisser en graf til samme situasjon.
 
-![](./img/2023-03-31-09-44-03.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-31-09-44-03.png)
 
 #### Vurderingskriterier: Middels {#170262}
 
@@ -675,7 +675,7 @@ Gi et eksempel på en omvendt proporsjonal funksjon, og forklart kort, med utgan
 
 1. Den store sirkelen har radius $10$, den lille har radius $r$. Hva er sammenhengen mellom den lille radien og arealet mellom den store og den lille sirkelen?
 
-![](./img/2023-03-24-20-27-49.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-20-27-49.png)
 
 2. "I et selskap deles det ut lodd. Fra de $1000$ loddene, deles tre lodd ut til hver gjest. Siden antallet gjenværende lodd, $y$, avtar når antallet gjester, $x$, øker, er sammenhengen mellom $x$ og $y$ omvendt proporsjonal." Avgjør og begrunn om påstanden stemmer.
 
@@ -698,7 +698,7 @@ c. Finn funksjonsuttrykk, og skisser grafen.
 a. Avgjør hva slags funksjon det er snakk om.
 
 b. Finn funksjonsuttrykket.
-![](./img/2023-03-24-20-34-15.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-20-34-15.png)
 
 #### Vurderingskriterier: Grunnleggende {#170211}
 
@@ -852,7 +852,7 @@ Studentene må skissere en graf som får fram sammenhengen på en riktig måte, 
 
 2. I koordinatsystemet under ser du to grafer. Begrunn hvilken av dem som er grafen til en omvendt proporsjonal funksjon. Begrunnelsen må vise til et funksjonsuttrykk. (Å si at grafen ser ut sånn og sånn, er altså ikke en begrunnelse ;))
 
-![](./img/2023-03-24-20-48-58.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-20-48-58.png)
 
 #### Avansert: Gjøre om mellom ulike representasjonsformer for de tre funksjonstypene, og begrunne omgjøringen
 
@@ -874,7 +874,7 @@ a. Avgjør hva slags funksjon det er snakk om.
 
 b. Finn funksjonsuttrykket.
 
-![](./img/2023-03-24-20-49-07.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-20-49-07.png)
 
 #### Vurderingskriterier: Grunnleggende {#130211}
 
@@ -899,7 +899,7 @@ Gitt en lineær funksjon $ax+b$, der $a = 1$ og $b=0$. Illustrer i et koordinats
 
 Under ser du en lineær funksjon som går gjennom punktene $A$ og $B$. Forklar hvordan vi kan finne likninga til den lineære funksjonen.
 
-![](./img/2023-03-24-20-50-16.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-20-50-16.png)
 
 #### Vurderingskriterier: Grunnleggende {#130221}
 
@@ -973,7 +973,7 @@ I figuren under er også linjen $q = 300$ lagt inn.
 
 4. Finn skjæringsunktene mellom $q$ og $h$ med regning  (Merk: Både $x$- og $y$-verdi må oppgis for skjæringspunktene).
 
-![](./img/2023-03-24-20-57-45.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-20-57-45.png)
 
 #### Vurderingskriterier: Grunnleggende {#130241}
 
@@ -1024,8 +1024,8 @@ Her må studenten peke på og begrunne hvorfor det er sammenhengen mellom omkret
 Illustrasjonen til venstre viser en (litt forstørret) klinkekule som slippes ned en liten bakke. Skisser en en graf som viser sammenhengen mellom hastigheten til kulen og hvor mange meter kulen har bevegd seg i horisontal retning.
 Beskriv en situasjon som passer til grafen til høyre. (Andreaksen viser kroner målt i 1000, førsteaksen viser tid)
 
-![](./img/2023-03-24-20-58-35.png)
-![](./img/2023-03-24-20-58-43.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-20-58-35.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-20-58-43.png)
 
 #### Vurderingskriterier: Middels {#130262}
 
@@ -1048,7 +1048,7 @@ Beskriv en situasjon som passer til grafen til høyre. (Andreaksen viser kroner 
 
 2. I koordinatsystemet under ser du to grafer. Begrunn hvilken av dem som er grafen til en omvendt proporsjonal funksjon. Begrunnelsen må vise til et funksjonsuttrykk. (Å si at grafen ser ut sånn og sånn, er altså ikke en begrunnelse ;))
 
-![](./img/2023-03-24-21-04-39.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-21-04-39.png)
 
 #### Avansert: Gjøre om mellom ulike representasjonsformer for de tre funksjonstypene, og begrunne omgjøringen
 
@@ -1072,7 +1072,7 @@ b. Finn funksjonsuttrykket.
 
 c. Beskriv en situasjon som kan passe til funksjonen.
 
-![](./img/2023-03-24-21-04-54.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-21-04-54.png)
 
 #### Vurderingskriterier: Grunnleggende {#100211}
 
@@ -1204,8 +1204,8 @@ Her må studenten peke på og begrunne hvorfor det er sammenhengen mellom omkret
 Illustrasjonen til venstre viser havdybden målt i ei linje 100 meter utover fra strandkanten. Skisser en en graf som viser sammenhengen mellom avstanden fra land og havdybden.
 Beskriv en situasjon som passer til grafen til høyre. (Andreaksen viser meter over bakken, førsteaksen viser tid.)
 
-![](./img/2023-03-24-21-09-27.png)
-![](./img/2023-03-24-21-09-32.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-21-09-27.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-21-09-32.png)
 
 #### Vurderingskriterier: Middels {#100262}
 
@@ -1245,7 +1245,7 @@ c. Du kjører med bil fra Skien til Kristiansand. Du bruker $0.5$ liter bensin p
 Du skal lage en sirkulær figur med radius $r$. Hva er sammenhengen mellom radius og arealet arealet på figuren?
 3. Under ser du en graf. Beskriv deretter en situasjon som kan passe til grafen og gi et funksjonsuttrykk til grafen og lag en tabell til funksjonen.
 
-![](./img/2023-03-24-21-13-57.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-21-13-57.png)
 
 #### Vurderingskriterier: Grunnleggende {#130s211}
 

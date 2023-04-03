@@ -37,7 +37,7 @@
 
 1. Studenten må gi en forklaring som kan passe på grunnskolen. Dette kan innebære å lage illustrasjoner. For eksempel kan en illustrere et partall som noe som kommer i par og et oddetall som to rader der en er én høyere. Da kan en peke til figuren å si at når man legger sammen figurene på hverandre vil man fortsatt ha én som er en høyere. Dermed fortsatt ett oddetall.
 
-![](./img/2023-03-30-12-14-25.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-30-12-14-25.png)
 
 2. Studenten bør få fram at to oddetall kan skrives som $2n+1$ og $2m+1$ der $m$ og $n$ er to vilkårlige naturlige tall. Dermed blir produktet $(2n-1)(2m-1) = 2mn-2n-2m+1 = 2(mn-n-m)+1$. Dette er altså noe én over et partall og må derfor fortsatt være et oddetall.
 

@@ -8,7 +8,7 @@
 
 Legger du inn en innsirkel i en rettvinklet trekant, vil tangeringspunktene dele trekantens sidelengder inn i lengdene $x+y$ og $y+z$ og $x+z$ (se figur). Argumenter ved å bruke egenskapene fra figuren at arealet av trekanten må være $(x+y+z)\cdot x$.
 
-![](./img/2023-03-24-22-18-16.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-22-18-16.png)
 
 #### Vurderingskriterier avansert:  13.02.23
 

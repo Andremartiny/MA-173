@@ -13,7 +13,7 @@
         kvadrattall nummer $n + 1$, og bruk dette til å omarrangere
         figurene.
 
-![](./img/tallteo/image1.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/image1.png)
 
 1. Under ser du figurtall én til fire.
 
@@ -24,7 +24,7 @@
     b.  Finn eksplisitt sammenheng ved hjelp av strategien *sum av
         tillegg*.
 
-![](./img/tallteo/image2.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/image2.png)
 
 ##### Løsningsforslag
 
@@ -68,7 +68,7 @@ På figuren under ser du de tre første figurene i en sammensatt figur, der $F_1
 
 2. Finn en eksplisitt formel ved hjelp av sum av tillegg.
 
-![](./img/2023-03-30-12-43-49.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-30-12-43-49.png)
 
 ##### Vurderingskriterier
 
@@ -82,7 +82,7 @@ På figuren under ser du de tre første figurene i en sammensatt figur, der $F_1
 
 2. Finn en eksplisitt formel ved hjelp av sum av tillegg.
 
-![](./img/2023-03-24-14-40-43.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-14-40-43.png)
 
 #### Vurderingskriterier avansert:  17.02.23
 
@@ -102,7 +102,7 @@ På figuren under ser du de tre første figurene i en sammensatt figur, der $F_1
 
 2. Finn en eksplisitt formel ved hjelp av sum av tillegg.
 
-![](./img/2023-03-24-14-37-18.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-14-37-18.png)
 
 #### Vurderingskriterier avansert:  13.02.23
 
@@ -122,7 +122,7 @@ På figuren under ser du de fire første figurene i en sammensatt figur, der $F_
 
 2. Finn en eksplisitt formel ved hjelp av sum av tillegg.
 
-![](./img/2023-03-24-14-34-41.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-14-34-41.png)
 
 #### Vurderingskriterier avansert:  10.02.23
 
@@ -142,7 +142,7 @@ På figuren under ser du de fire første figurene i en sammensatt figur, der $F_
 
 2. Finn en eksplisitt formel ved hjelp av sum av tillegg.
 
-![](./img/2023-03-24-14-31-42.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-14-31-42.png)
 
 #### Avansert:  27.01.23
 
@@ -152,7 +152,7 @@ På figuren under ser du de tre første figurene i en sammensatt figur, der $F_1
 
 2. Finn en eksplisitt formel ved hjelp av sum av tillegg.
 
-![](./img/2023-03-24-14-06-04.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-14-06-04.png)
 
 #### Vurderingskriterier avansert:  27.01.23
 

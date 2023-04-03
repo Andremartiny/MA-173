@@ -68,6 +68,6 @@ Her må de peke på *alle* feilene eleven gjør. I tillegg må de gi en meningsf
 
 En elev løste ulikheten $3(4-x) \geq 5$ slik:
 
-![](./img/2023-03-24-15-06-19.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-15-06-19.png)
 
 Påpek eventuelle feil eleven har gjort og beskriv hvordan du vil hjelpe eleven til å forstå hvordan oppgaven kan løses riktig.

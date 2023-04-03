@@ -69,7 +69,7 @@ man avgjør er relatert til måleenheten.
 
 2. Hvis linje *f* og *g* er parallelle. Hva er vinkel *v*?\
 
-![](./img/geo/image1.png)   
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/geo/image1.png)   
 
 #### Avansert: Utforske og løse ukjente problemet knyttet til begrepene
 
@@ -133,7 +133,7 @@ man avgjør er relatert til måleenheten.
 
 2. Hvor stor er summen av de små omkretsene i forhold til den store?
 
-![](./img/geo/image3.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/geo/image3.png)
 
 ### Bruke begrepet formlikhet av trekanter
 
@@ -154,7 +154,7 @@ Under ser du en figur av tre formlike trekanter. Avgjør lengden på de resteren
 6. $a = \frac{1}{2}$, $b = \frac{1}{3}$, $f = \frac{3}{2}$ og $e = 3$.
 7. $a = \frac{3}{5}$, $b = 4$, $f = \frac{9}{10}$ og $e = 3$.
 
-![](./img/2023-03-30-14-23-27.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-30-14-23-27.png)
 
 ### Argumentere visuelt for Pytagoras setning
 
@@ -228,7 +228,7 @@ så skal ikke dette rundes av til $2,236$
     trekanter. Hvis den minste trekanten har sidelengder 25 og 60. Hva
     er de resterende sidelengdene i figuren?\
     
-    ![](./img/geo/image5.png)\
+    ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/geo/image5.png)\
 
     **Bonus:** Figuren er konstruert med utgangspunkt i den Pytagoreiske
     trippelen $5^{2} + 12^{2} = 13^{2}$. Velg en annen Pytagoreisk
@@ -295,7 +295,7 @@ Under står det en sann påstand. Bruk påstanden til å vise at $EF$ er paralle
 
 Påstand: La $ABC$ være en vilkårlig trekant. Hvis $I$ og $M$ er midtpunktene på $AC$ og $BC$, så vil linjen $IM$ være parallell med $AB$.
 
-![](./img/2023-03-30-14-26-10.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-30-14-26-10.png)
 
 ### Bruke begrepene kvadrat, rektangel, parallellogram, trapes, likebeint trekant, likesidet trekant, rettvinklet trekant, mangekant, sirkel
 
@@ -358,7 +358,7 @@ I figuren er det skissert en åttekant inskribert i et kvardat der fire av sidel
 
 3. Avgjør arealet til åttekanten.
 
-![](./img/2023-03-30-14-31-10.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-30-14-31-10.png)
 
 ##### Vurderingskriterier
 
@@ -414,7 +414,7 @@ Under ser du to formlike trekanter. Avgjør lengden på de resterende sidene hvi
 
 2. $c = \frac{1} {2}$, $b = 4$, $f = \frac{3}{2}$ og $d = 9$.
 
-![](./img/2023-03-30-14-43-14.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-30-14-43-14.png)
 
 ##### Vurderingskriterier
 
@@ -462,7 +462,7 @@ b. Vi har at $1^2 + 8^2 = 65$ som gir at hypotenusen er $\sqrt 65$.
 
 I figuren under ser dere et rektangel, med noen lengder ført på. Avgjør hva $x$, $y$ og $z$ må være.
 
-![](./img/2023-03-30-15-27-42.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-30-15-27-42.png)
 
 ##### Vurderingskriterier
 
@@ -538,13 +538,13 @@ Forklar og gi eksempler (med illustrasjoner) på hva som menes med begrepene pun
 
 Under ser du to parallelle linjer $f$ og $g$. Hva er vinkel $v$ når du får vite at $s = 35$ og $w = 13$?
 
-![](./img/2023-03-24-22-11-59.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-22-11-59.png)
 
 #### Avansert: Utforske og løse ukjente problemet knyttet til begrepene
 
 Under ser du en sirkel med sentrum i $A$ og tre punkter på periferien, $C$, $D$ og $E$.  Punktene $C$ og $D$ skjærer av en sirkelbue og danner vinkelen $c = \angle DEC$. Hvis vinkel $c = 30^\circ$, hva er da vinkel $e = \angle DAC$?
 
-![](./img/2023-03-24-22-12-09.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-22-12-09.png)
 
 #### Vurderingskriterier: Grunnleggende {#f173}
 
@@ -610,7 +610,7 @@ Et rektangel har sidelengder $x$ cm og $y$ cm og du øker begge lengdene med $3$
 
 Under ser du en vilkårlig trekant $ABC$. Punktene $F$, $E$ og $D$ er midtpunktene på sidene av trekanten. Trekker vi linjene fra hjørnene til motstående midtpunkt får vi et felles skjæringspunkt $G$ og trekanten deles opp i $6$ nye trekanter (markert i forskjellige farger under). Begrunn hvorfor arealet av alle de $6$ trekantene er det samme.  
 
-![](./img/2023-03-24-22-13-42.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-22-13-42.png)
 
 #### Vurderingskriterier: Grunnleggende {#f17g5}
 
@@ -686,7 +686,7 @@ Når to trekanter er formlike gjelder det at de samsvarende sidene er har samme 
 
 Forklar hvorfor $\frac{AC}{BC} = \frac{AE}{EB}$ (vink: trekanter med to like vinkler er likebeinte).
 
-![](./img/2023-03-24-22-16-49.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-22-16-49.png)
 
 #### Vurderingskriterier: Grunnleggende {#f13g3}
 
@@ -750,7 +750,7 @@ Et parallellogram har areal $A$. Vis at hvis du dobler høyden og tripler lengde
 
 Legger du inn en innsirkel i en rettvinklet trekant, vil tangeringspunktene dele trekantens sidelengder inn i lengdene $x+y$ og $y+z$ og $x+z$ (se figur). Argumenter ved å bruke egenskapene fra figuren at arealet av trekanten må være $(x+y+z)\cdot x$.
 
-![](./img/2023-03-24-22-18-16.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-22-18-16.png)
 
 #### Vurderingskriterier: Grunnleggende {#f13g5}
 
@@ -818,7 +818,7 @@ Argumenter for hvor stor vinkelsummen av de indre vinklene i en femkant er.
 
 Under ser du to parallelle linjer $f$ og $g$. Mellom linjene er det tre linjestykker som danner vinklene $a$, $b$, $c$ og $d$. Når $a = 50^\circ$ og $d = 70^\circ$, avgjør hvor stor $b+c$ er.
 
-![](./img/2023-03-24-22-21-01.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-22-21-01.png)
 
 #### Vurderingskriterier: Grunnleggende {#f103}
 
@@ -888,7 +888,7 @@ Under er et rektangel med høyde $h$ som består av en blå rettvinklet trekant,
 
 4. Begrunn at arealet av trapeset må være $\frac{(a+b)h}{2}$, ved å bruke arealene du fant i oppgave 2 og 3.
 
-![](./img/2023-03-24-22-22-14.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-22-22-14.png)
 
 #### Vurderingskriterier: Grunnleggende {#f10g5}
 

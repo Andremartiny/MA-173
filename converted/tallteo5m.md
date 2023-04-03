@@ -9,7 +9,7 @@
 
     c.  Finn ved hjelp av *differanse mellom eksplisitte uttrykk.*
 
-![](./img/tallteo/image2.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/image2.png)
 
 1. Hva er sammenhengen mellom påfølgende figurer? Finn rekursivt
     uttrykk.
@@ -20,7 +20,7 @@
 
     c.  Finn ved hjelp av *differanse mellom eksplisitte uttrykk.*
 
-![](./img/tallteo/image1.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/image1.png)
 
 #### Middels:  17.02.23
 
@@ -48,7 +48,7 @@ ii. Finne uttrykket ved hjelp av å regne $H_{n}– H_{n - 1}$.
 
 #### Middels:  13.02.23
 
-![](./img/2023-03-24-14-37-44.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-14-37-44.png)
 
 Over ser du de tre første figurene i bikubetallene. Vis i en illustrasjon hvordan hver figur inneholder den forrige, og finn rekursivt uttrykk for bikubetallene $B_n$, der $B_1 =1$, $H_2 = 7$ og $H_3 = 19$:
 ved hjelp av strategien form på tillegg.

@@ -6,7 +6,7 @@
 
 2. Fra Nasjonal deleksamen 30.11.22.
 
-![](./image/tall/image1.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tall/image1.png)
 
 ##### Løsningsforslag
 

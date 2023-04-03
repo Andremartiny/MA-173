@@ -43,7 +43,7 @@
    $$
    b. Skisserer vi grafene ser det slik ut
 
-   ![](./img/2023-03-27-12-15-21.png)
+   ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-27-12-15-21.png)
 
 #### Avansert:  31.03.23
 
@@ -95,7 +95,7 @@ I figuren under er også linjen $q = 300$ lagt inn.
 
 4. Finn skjæringsunktene mellom $q$ og $h$ med regning  (Merk: Både $x$- og $y$-verdi må oppgis for skjæringspunktene).
 
-![](./img/2023-03-24-20-57-45.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-20-57-45.png)
 
 #### Vurderingskriterier avansert:  Funksjoner 13.02.23
 

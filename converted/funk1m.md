@@ -16,22 +16,22 @@
 1. \
    a. Hvis vi kaller sidelengene i rektangelet for $x$ og $y$ så vet vi at med et fast areal $A$ så er $xy = A$. Dermed er $y = \frac{A}{x}$. Siden omvendtproporsjonale funksjoner alltid er på formen $y = \frac{a}{x}$ eller tilsvarende $xy = a$ så ser vi at dette gir en omvendt proporsjonal funksjon, men vi merker oss at negative verdier ikke gir mening i denne situasjonen. Lar vi arealet være $1$ i dette tilfellet vil grafen se slik ut
 
-![](./img/2023-03-27-11-41-05.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-27-11-41-05.png)
 
    b. Vi vet at arealet av en sirkel er $\pi r^2$. Vi kan derfor skrive arealet som en funksjon av radiusen ved å si $A(r) = \pi r^2$. Vi ser at dette er en andregradsfunksjon og hvis vi skisserer den vil grafen se slik ut.
 
-![](./img/2023-03-27-11-42-05.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-27-11-42-05.png)
 
    c. Vi kan tenke oss at en person holder farten $a$ kilometer i timen og at personen går i en rett linje fra hjemmet sitt. Da vil personen i utgangspunktet, ved tid $0$ være $0$ km fra hjemmet sitt. Avstanden vil nå vokse lineært siden personen holder jevn fart og vi kan uttrykke sammenhengen som $f(x) = ax$ der $f$ er avstanden hjemmefra målt i kilometer og $x$ er antall timer som personen har gått i. Grafen vil, hvis $a$ er $6$ kilometer i timen se slik ut:
 
-![](./img/2023-03-27-11-46-49.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-27-11-46-49.png)
 
 
 #### Middels:  31.03.23
 
 1. Et kvadrat i grønt ligger over et rektangel i lilla og  firkantene vokser i takt, slik som vist under. Rektangelets grunnlinje er alltid tre ganger så lang som sidelengen i kvadratet, og høyden til rektangelet er to ganger så langt som kvadratets sidelengde. Hva er sammenhengen mellom sidelengden i kvadratet og det synlige lilla området?
 
-![](./img/2023-03-31-09-23-39.gif)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-31-09-23-39.gif)
 
 2. "En skole skal holde en fest og har fått en pris for lokalet. Ikke alle vil delta på festen og det er bestemt at alle som deltar skal betale like mye. Siden prisen per elev, $x$, avtar når antallet gjester, $y$, øker, er sammenhengen mellom $x$ og $y$ omvendt proporsjonal." Avgjør og begrunn om påstanden stemmer.
 
@@ -45,7 +45,7 @@
 
 1. Den store sirkelen har radius $10$, den lille har radius $r$. Hva er sammenhengen mellom den lille radien og arealet mellom den store og den lille sirkelen?
 
-![](./img/2023-03-24-20-27-49.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-20-27-49.png)
 
 2. "I et selskap deles det ut lodd. Fra de $1000$ loddene, deles tre lodd ut til hver gjest. Siden antallet gjenværende lodd, $y$, avtar når antallet gjester, $x$, øker, er sammenhengen mellom $x$ og $y$ omvendt proporsjonal." Avgjør og begrunn om påstanden stemmer.
 
@@ -61,7 +61,7 @@
 
 2. I koordinatsystemet under ser du to grafer. Begrunn hvilken av dem som er grafen til en omvendt proporsjonal funksjon. Begrunnelsen må vise til et funksjonsuttrykk. (Å si at grafen ser ut sånn og sånn, er altså ikke en begrunnelse ;))
 
-![](./img/2023-03-24-20-48-58.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-20-48-58.png)
 
 #### Vurderingskriterier middels:  Funksjoner 13.02.23
 
@@ -75,7 +75,7 @@
 
 2. I koordinatsystemet under ser du to grafer. Begrunn hvilken av dem som er grafen til en omvendt proporsjonal funksjon. Begrunnelsen må vise til et funksjonsuttrykk. (Å si at grafen ser ut sånn og sånn, er altså ikke en begrunnelse ;))
 
-![](./img/2023-03-24-21-04-39.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-21-04-39.png)
 
 #### Vurderingskriterier middels:  Funksjoner 10.02.23
 

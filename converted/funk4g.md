@@ -52,7 +52,7 @@
    b. Tallet $\frac{10}{9}$ vi fant sier oss at når  $x = \frac{10}{9}$ så vil venstre side være lik høyre side i likningen når vi bytter ut $x$ med tallet.
    c.  Tolker vi VS og HS som funksjoner får vi funksjonene $f(x) = 4x-7$ og $g(x) = -5x + 3$. En skisse vil se slik ut
 
-   ![](./img/2023-03-27-12-06-48.png)
+   ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-27-12-06-48.png)
 
    d. Vi ser at grafene krysser i punktet $\frac{10}{9}$. At de krysser betyr at for den samme $x$-verdi så er funksjonenverdien også lik. Siden vi tolket HS og VS som funksjoner, så betyr krysningspunktet at for $x$-verdien $\frac{10}{9}$ så vil funksjonsverdiene være like. Dette er nøyaktig det som vi sa i b.
 

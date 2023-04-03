@@ -16,13 +16,13 @@ Under står det en sann påstand. Bruk påstanden til å vise at $EF$ er paralle
 
 Påstand: La $ABC$ være en vilkårlig trekant. Hvis $I$ og $M$ er midtpunktene på $AC$ og $BC$, så vil linjen $IM$ være parallell med $AB$.
 
-![](./img/2023-03-30-14-26-10.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-30-14-26-10.png)
 
 #### Avansert:  17.02.23
 
 Under ser du en sirkel med sentrum i $A$ og tre punkter på periferien, $C$, $D$ og $E$.  Punktene $C$ og $D$ skjærer av en sirkelbue og danner vinkelen $c = \angle DEC$. Hvis vinkel $c = 30^\circ$, hva er da vinkel $e = \angle DAC$?
 
-![](./img/2023-03-24-22-12-09.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-22-12-09.png)
 
 #### Vurderingskriterier avansert:  17.02.23
 
@@ -42,7 +42,7 @@ Når to trekanter er formlike gjelder det at de samsvarende sidene er har samme 
 
 Forklar hvorfor $\frac{AC}{BC} = \frac{AE}{EB}$ (vink: trekanter med to like vinkler er likebeinte).
 
-![](./img/2023-03-24-22-16-49.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-22-16-49.png)
 
 #### Vurderingskriterier avansert:  13.02.23
 
@@ -56,7 +56,7 @@ Studentene må gjøre alle oppgavene.
 
 Under ser du to parallelle linjer $f$ og $g$. Mellom linjene er det tre linjestykker som danner vinklene $a$, $b$, $c$ og $d$. Når $a = 50^\circ$ og $d = 70^\circ$, avgjør hvor stor $b+c$ er.
 
-![](./img/2023-03-24-22-21-01.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-22-21-01.png)
 
 #### Vurderingskriterier avansert:  10.02.23 {#f10}
 

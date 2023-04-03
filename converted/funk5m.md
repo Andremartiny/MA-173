@@ -60,7 +60,7 @@
 
    Skisserer vi grafen vil den se sirka slik ut:
 
-![](./img/2023-03-27-12-33-04.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-27-12-33-04.png)
 
 #### Middels:  31.03.23
 

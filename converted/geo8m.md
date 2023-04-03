@@ -18,7 +18,7 @@
     trekanter. Hvis den minste trekanten har sidelengder 25 og 60. Hva
     er de resterende sidelengdene i figuren?\
     
-    ![](./img/geo/image5.png)\
+    ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/geo/image5.png)\
 
     **Bonus:** Figuren er konstruert med utgangspunkt i den Pytagoreiske
     trippelen $5^{2} + 12^{2} = 13^{2}$. Velg en annen Pytagoreisk
@@ -31,7 +31,7 @@
 
 I figuren under ser dere et rektangel, med noen lengder ført på. Avgjør hva $x$, $y$ og $z$ må være.
 
-![](./img/2023-03-30-15-27-42.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-30-15-27-42.png)
 
 ##### Vurderingskriterier
 

@@ -49,7 +49,7 @@
 
    e. Lag egne regnestykker.
 
-![](img/tall/Picture1.jpg.jpeg)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tall/Picture1.jpg)
 
 2. Finn basen $b$ uten gjett og sjekk.
 

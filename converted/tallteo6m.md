@@ -5,7 +5,7 @@
     figurene, og beskriv dem algebraisk slik at det er en tydelig
     sammenheng mellom illustrasjon og uttrykk.
 
-![](./img/tallteo/image2.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/image2.png)
 
 1. Under ser du trekantramme nummer fire, samt fem forslag til
     eksplisitt uttrykk for trekantramme nummer $n$.
@@ -15,7 +15,7 @@ a.  Hvordan ser de foregående rammene ut?
 b.  Hvilke uttrykk stemmer? Argumenter ved hjelp av figuren og ved å
     omforme uttrykkene.
 
-![](./img/tallteo/image4.jpeg)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/image4.jpeg)
 
     i.  $3(n - 1) + 3$
 
@@ -30,7 +30,7 @@ v.  $3(n + 1) - 3$
 
 Under ser dere dere de fire første trappetallene.
 
-![](./img/2023-03-30-12-48-55.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-30-12-48-55.png)
 
 #### Middels:  Tallteori
 
@@ -49,7 +49,7 @@ tillegg.
 
 Under ser dere dere de fire første ambolttallene.
 
-![](./img/2023-03-24-14-41-25.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-14-41-25.png)
 
 #### Middels:  17.02.23
 
@@ -68,7 +68,7 @@ tillegg.
 
 Under ser dere dere de tre første bokstallene.
 
-![](./img/2023-03-24-14-38-06.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-14-38-06.png)
 
 #### Middels:  13.02.23
 
@@ -87,7 +87,7 @@ tillegg.
 
 Under ser dere dere de tre første sommerfugltallene.
 
-![](./img/2023-03-24-14-35-28.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-14-35-28.png)
 
 #### Middels:  10.02.23
 
@@ -108,7 +108,7 @@ tillegg.
 
 Under ser dere dere de tre første piltallene.
 
-![](./img/2023-03-24-14-32-20.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-14-32-20.png)
 
 #### Middels:  03.02.23
 
@@ -117,7 +117,7 @@ Ved å bryte piltallene ned på flere måter, utled to ulike, men likeverdige ut
 
 Under ser dere dere de tre første medaljetallene
 
-![](./img/2023-03-24-14-07-13.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-14-07-13.png)
 
 #### Middels:  27.01.23
 
@@ -131,7 +131,7 @@ en god nok forklaring på hvordan de har brutt ned figuren.
 
 Under ser dere dere de tre første båttallene $B_1$, $B_2$ og $B_3$.
 
-![](./img/2023-03-24-13-55-27.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-13-55-27.png)
 
 #### Middels:  10.01.2023
 

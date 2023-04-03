@@ -12,11 +12,11 @@
 
     d.  Vis den eksplisitte sammenhengen i figurene.
 
-![](./img/tallteo/image2.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/image2.png)
 
 1. Samme ordlyd som oppgave 1.
 
-![](./img/tallteo/image3.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/image3.png)
 
 #### Grunnleggende:  Tallteori
 

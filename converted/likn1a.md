@@ -7,7 +7,7 @@
 
 Under ser du tre elevers løsninger av likningen $3(2x+5)=(12+3x)$. Forklar hvordan elevene kan ha tenkt. Avgjør og begrunn om løsningene er riktige.
 
-![](./img/2023-03-24-15-19-12.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-15-19-12.png)
 
 #### Vurderingskriterier avansert:  17.02.23
 
@@ -24,11 +24,11 @@ Noen mellomtrinnselever fikk denne utfordringen: En bil, sjåfør og tilhenger v
 
 Under ser du tre elevers løsninger. Forklar hvordan de har tolket og løst oppgaven.
 
-![](./img/2023-03-24-15-14-41.png)   
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-15-14-41.png)   
 
-![](./img/2023-03-24-15-14-45.png)  
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-15-14-45.png)  
   
-![](./img/2023-03-24-15-14-49.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-15-14-49.png)
 
 #### Vurderingskriterier avansert:  13.02.23
 
@@ -47,7 +47,7 @@ $$-8x^2 + 4= 10x^2 - 14.$$
 
 Læreren observerer at elevene bruker ulike strategier. Avgjør for hver av de tre strategiene i)-iii) nedenfor om den er riktig eller feil. Begrunn svaret ditt ved å beskrive hva elevene i hvert steg i sin løsning gjør riktig eller feil.
 
-![](./img/2023-03-24-15-11-56.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-15-11-56.png)
 
 #### Vurderingskriterier avansert:  10.02.23
 
@@ -89,7 +89,7 @@ $$\frac{1+x}{x} + \frac{1}{x} = 3.$$
 
 Læreren observerer at elevene bruker ulike strategier. Avgjør for hver av de tre stategiene i)-iii) nedenfor om den er riktig eller feil. Begrunn svaret ditt ved å beskrive hva elevene i hvert steg i sin løsning gjør riktig eller feil.
 
-![](./img/2023-03-24-15-07-16.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-15-07-16.png)
 
 #### Vurderingskriterier avansert:  27.01.23
 
@@ -103,5 +103,5 @@ $$\frac{6}{\frac{2x-1}{3}+1} = \frac{3}{4}.$$
 
 Læreren observerer at elevene bruker ulike strategier. Avgjør for hver av de tre stategiene i)-iii) nedenfor om den er riktig eller feil. Begrunn svaret ditt ved å beskrive hva eleven i hvert tilfelle gjør riktig eller feil.
 
-![](./img/2023-03-24-15-05-43.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-15-05-43.png)
 

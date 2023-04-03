@@ -194,7 +194,7 @@ posisjonssystem med ulike baser.
 
    e. Lag egne regnestykker.
 
-![](img/tall/Picture1.jpg)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tall/Picture1.jpg)
 
 2. Finn basen $b$ uten gjett og sjekk.
 
@@ -471,7 +471,7 @@ $b^{n} - 1$ alltid par.
 
 2. Fra Nasjonal deleksamen 30.11.22.
 
-![](./img/tall/image1.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tall/image1.png)
 
 ##### Løsningsforslag
 

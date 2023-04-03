@@ -10,7 +10,7 @@ Under ser du en figur av tre formlike trekanter. Avgjør lengden på de resteren
 6. $a = \frac{1}{2}$, $b = \frac{1}{3}$, $f = \frac{3}{2}$ og $e = 3$.
 7. $a = \frac{3}{5}$, $b = 4$, $f = \frac{9}{10}$ og $e = 3$.
 
-![](./img/2023-03-30-14-23-27.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-30-14-23-27.png)
 
 #### Middels:  31.03.23
 
@@ -20,7 +20,7 @@ Under ser du to formlike trekanter. Avgjør lengden på de resterende sidene hvi
 
 2. $c = \frac{1} {2}$, $b = 4$, $f = \frac{3}{2}$ og $d = 9$.
 
-![](./img/2023-03-30-14-43-14.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-30-14-43-14.png)
 
 ##### Vurderingskriterier
 

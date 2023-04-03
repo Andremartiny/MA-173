@@ -8,7 +8,7 @@
 
 2. Hvis linje *f* og *g* er parallelle. Hva er vinkel *v*?\
 
-![](./img/geo/image1.png)   
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/geo/image1.png)   
 
 #### Middels:  31.03.23
 
@@ -22,7 +22,7 @@ Studenten må argumentere for vinkelsummen i en firkant. Dette kan for eksempel 
 
 Under ser du to parallelle linjer $f$ og $g$. Hva er vinkel $v$ når du får vite at $s = 35$ og $w = 13$?
 
-![](./img/2023-03-24-22-11-59.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-22-11-59.png)
 
 #### Vurderingskriterier middels:  17.02.23
 

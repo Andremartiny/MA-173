@@ -18,7 +18,7 @@ Blant $163$ spurte mennesker, svarte alle at de spiser enten taco, nudler eller 
 
 2. Sett opp og løs likningen situasjonen svarer til.
 
-![](./img/2023-03-24-15-18-57.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-15-18-57.png)
 
 #### Vurderingskriterier grunnleggende:  17.02.23
 
@@ -32,7 +32,7 @@ Blant $163$ spurte mennesker, svarte alle at de spiser enten taco, nudler eller 
 
 2. Sett opp og løs likningen situasjonen svarer til.
 
-![](./img/2023-03-24-15-14-26.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-15-14-26.png)
 
 #### Vurderingskriterier grunnleggende:  13.02.23
 

@@ -9,7 +9,7 @@
 
 2. Hvor stor er summen av de små omkretsene i forhold til den store?
 
-![](./img/geo/image3.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/geo/image3.png)
 
 #### Avansert:  31.03.23
 
@@ -23,7 +23,7 @@ I figuren er det skissert en åttekant inskribert i et kvardat der fire av sidel
 
 3. Avgjør arealet til åttekanten.
 
-![](./img/2023-03-30-14-31-10.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-30-14-31-10.png)
 
 ##### Vurderingskriterier
 
@@ -63,7 +63,7 @@ $$
 
 Under ser du en vilkårlig trekant $ABC$. Punktene $F$, $E$ og $D$ er midtpunktene på sidene av trekanten. Trekker vi linjene fra hjørnene til motstående midtpunkt får vi et felles skjæringspunkt $G$ og trekanten deles opp i $6$ nye trekanter (markert i forskjellige farger under). Begrunn hvorfor arealet av alle de $6$ trekantene er det samme.  
 
-![](./img/2023-03-24-22-13-42.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-22-13-42.png)
 
 #### Vurderingskriterier avansert:  17.02.23
 
@@ -84,7 +84,7 @@ Under er et rektangel med høyde $h$ som består av en blå rettvinklet trekant,
 
 4. Begrunn at arealet av trapeset må være $\frac{(a+b)h}{2}$, ved å bruke arealene du fant i oppgave 2 og 3.
 
-![](./img/2023-03-24-22-22-14.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-22-22-14.png)
 
 #### Vurderingskriterier avansert:  10.02.23 {#f10}
 

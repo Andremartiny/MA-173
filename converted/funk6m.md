@@ -10,7 +10,7 @@
     b.  Hvordan vil grafen til samme situasjon se ut dersom andreaksen
         heller måler tilbakelagt avstand?
 
-![](./img/picture2.jpg)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/picture2.jpg)
 
 3. Tabellen viser en forenklet trinnskattemodell. Dersom man tjener
     $60\ 000$ eller mer, betaler man skatt på hele beløpet, ikke bare
@@ -35,7 +35,7 @@
 4. Se figuren under. Skisser en graf over sammenhengen mellom krukkas
     høyde og volum, der førsteaksen angir høyden og andreaksen volumet.
 
-![](./img/picture1.jpg)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/picture1.jpg)
 
 1. Klassen din får oppgaven under. Mange av elevene velger den øverste
     grafen med begrunnelser av typen «her ser vi tydelig hvordan bakken
@@ -46,13 +46,13 @@
     b.  Forklar hvorfor den nederste grafen er den som passer til
         situasjonen.
 
-![](./img/funk/image3.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/funk/image3.png)
 
 ##### Løsningsforslag
 
 4. Fyllingen kan deles inn i to *faser*. Den første er fylling før vannet har nådd krukkas tykkeste punkt. Siden krukken øker i diameter vil høyden øke saktere og saktere fram til den kommer til krukkast tykkeste. Da vil høyden begynne å øke fortere og fortere og vil nå en høyere hastighet enn da vi begynte å fylle (siden tuppen er tynnere enn bunnen). Hvis vi prøver å få alt dette med i en skisse kan det se noe slik ut:
 
-![](./img/2023-03-27-12-47-38.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-27-12-47-38.png)
 
 
 
@@ -64,7 +64,7 @@ Under ser du en skisse av Henriks reisevei til jobb dersom han kjører bil. Fart
 1. Lag en passende tabell som viser avstand hjemmefra som funksjon av tid på Henriks kjøretur til jobb.
 2. Skisser en graf til samme situasjon.
 
-![](./img/2023-03-31-09-44-03.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-31-09-44-03.png)
 
 #### Vurderingskriterier middels:  31.03.23
 
@@ -91,8 +91,8 @@ Studentene må skissere en graf som får fram sammenhengen på en riktig måte, 
 Illustrasjonen til venstre viser en (litt forstørret) klinkekule som slippes ned en liten bakke. Skisser en en graf som viser sammenhengen mellom hastigheten til kulen og hvor mange meter kulen har bevegd seg i horisontal retning.
 Beskriv en situasjon som passer til grafen til høyre. (Andreaksen viser kroner målt i 1000, førsteaksen viser tid)
 
-![](./img/2023-03-24-20-58-35.png)
-![](./img/2023-03-24-20-58-43.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-20-58-35.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-20-58-43.png)
 
 #### Vurderingskriterier middels:  Funksjoner 13.02.23
 
@@ -106,8 +106,8 @@ Beskriv en situasjon som passer til grafen til høyre. (Andreaksen viser kroner 
 Illustrasjonen til venstre viser havdybden målt i ei linje 100 meter utover fra strandkanten. Skisser en en graf som viser sammenhengen mellom avstanden fra land og havdybden.
 Beskriv en situasjon som passer til grafen til høyre. (Andreaksen viser meter over bakken, førsteaksen viser tid.)
 
-![](./img/2023-03-24-21-09-27.png)
-![](./img/2023-03-24-21-09-32.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-21-09-27.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-21-09-32.png)
 
 #### Vurderingskriterier middels:  Funksjoner 10.02.23
 

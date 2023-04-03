@@ -12,25 +12,15 @@ pandoc .\quizzer\tallteori\tallteori.md -f markdown -t html --mathjax --template
 
 #### Grunnleggende: Gjengi og forklare, gi eksempler og illustrasjoner til begrepene
 
-1. Forklar og gi eksempler på hva som menes med begrepene *faktor* og
-    *divisor.* Besvarelsen må inneholde både formelle definisjoner og
-    grunnskoletilpassete forklaringer.
+1. Forklar og gi eksempler på hva som menes med begrepene *faktor* og *divisor.* Besvarelsen må inneholde både formelle definisjoner og grunnskoletilpassete forklaringer.
+2. Forklar og gi eksempler på hva som menes med *felles faktor* og *største felles faktor* for to tall. Besvarelsen må inneholde både formelle definisjoner og grunnskoletilpassete forklaringer.
+3. Forklar og gi eksempler på hva som menes med begrepet *multiplum*. Besvarelsen må inneholde både formell definisjon og grunnskoletilpasset forklaring.
 
-2. Forklar og gi eksempler på hva som menes med *felles faktor* og
-    *største felles faktor* for to tall. Besvarelsen må inneholde både
-    formelle definisjoner og grunnskoletilpassete forklaringer.
-
-3. Forklar og gi eksempler på hva som menes med begrepet *multiplum*.
-    Besvarelsen må inneholde både formell definisjon og
-    grunnskoletilpasset forklaring.
-
-4. Forklar og gi eksempler på hva som menes med *felles multiplum* og
-    *minste felles multiplum* for to tall. Besvarelsen må inneholde både
-    formelle definisjoner og grunnskoletilpassete forklaringer.
+4. Forklar og gi eksempler på hva som menes med *felles multiplum* og *minste felles multiplum* for to tall. Besvarelsen må inneholde både formelle definisjoner og grunnskoletilpassete forklaringer.
 
 #### Middels: Argumentere for enkle sammenhenger knyttet til begrepene
 
-1. Forklar hvorfor produktet av største felles faktor og minste feles
+1. Forklar hvorfor produktet av største felles faktor og minste felles
     multiplum for to tall er det samme som produktet av de to tallene.
 
 2. Du skal lage gaveposer med to typer godteri. Den ene typen har du
@@ -48,18 +38,14 @@ pandoc .\quizzer\tallteori\tallteori.md -f markdown -t html --mathjax --template
 
 5. Undersøk og begrunn.
 
-    a.  Har alle summer av tre påfølgende naturlige tall en felles
-        faktor?
-
+    a.  Har alle summer av tre påfølgende naturlige tall en felles faktor?
     b.  Hva med summer av fem, syv, ni og så videre påfølgende tall?
-
-    c.  Gjelder det samme for summer av påfølgende tall der antallet
-        ledd i summen er et partall?
+    c.  Gjelder det samme for summer av påfølgende tall der antallet ledd i summen er et partall?
 
 ##### Løsningsforslag
 
-1. Den enkleste løsningen her er å bruke at $\text{sff}\cdot \text{mfm} = ab$.Vi vet altså at $12\cdot 5460 = 420 b$ Deler vi på $420$ får vi nå at $b = 156$.
-2. Hvis vi primtallsfaktoriserer kan vi skrive $210$ som $2\cdot 2\cdot 5 \cdot 11$ og $84$ kan skrives som $2\cdot 2 \cdot 3\cdot 7$. Vi kan nå se at én pose fungerer med $210$ av den ene og 84 går. Siden begge inneholder faktoren $2$ kan vi også dele de i 2 og få to poser med $110$ og $42$ i hver. Vi ser at begge kan deles i to igjen, som gir fire poser med $55$ og $21$ i hver. Vi har nå ingen felles faktorer, så det kan heller ikke fordeles på andre måter. Det gir at vi kan dele i enten én, to eller fire poser. 
+1. Den enkleste løsningen her er å bruke at $\text{sff}\cdot \text{mfm} = ab$. Vi vet altså at $12\cdot 5460 = 420 b$ Deler vi på $420$ får vi nå at $b = 156$.
+2. Hvis vi primtallsfaktoriserer kan vi skrive $210$ som $2\cdot 2\cdot 5 \cdot 11$ og $84$ kan skrives som $2\cdot 2 \cdot 3\cdot 7$. Vi kan nå se at én pose fungerer med $210$ av den ene og 84 går. Siden begge inneholder faktoren $2$ kan vi også dele de i 2 og få to poser med $110$ og $42$ i hver. Vi ser at begge kan deles i to igjen, som gir fire poser med $55$ og $21$ i hver. Vi har nå ingen felles faktorer, så det kan heller ikke fordeles på andre måter. Det gir at vi kan dele i enten én, to eller fire poser.
 
 #### Avansert: Løse (også ukjente) problemer knyttet til begrepene
 
@@ -74,13 +60,9 @@ pandoc .\quizzer\tallteori\tallteori.md -f markdown -t html --mathjax --template
 3. Alle produkter av tre påfølgende naturlige tall har tre felles
     faktorer forskjellig fra $1$. Hvilke er det? Begrunn.
 
-4. Velg to sifre mellom $1$ og $9$. Lag to ulike tall som begge
-    inneholder begge sifrene (for eksempel $64$ og $46$). Del summen av
-    tallene på summen av de to sifrene.
-
-    a.  Undersøk flere tilfeller -- hva ser ut til å være mønsteret?
-
-    b.  Begrunn mønsteret.
+4. Velg to sifre mellom $1$ og $9$. Lag to ulike tall som begge inneholder begge sifrene (for eksempel $64$ og $46$). Del summen av tallene på summen av de to sifrene.
+   a. Undersøk flere tilfeller -- hva ser ut til å være mønsteret?
+   b. Begrunn mønsteret.
 
 ##### Løsningsforslag
 
@@ -91,11 +73,9 @@ pandoc .\quizzer\tallteori\tallteori.md -f markdown -t html --mathjax --template
 #### Grunnleggende: Gjengi og forklare, gi eksempler og illustrasjoner til begrepene
 
 1. Forklar og gi eksempler på hva et *naturlig tall* er.
-
 2. Forklar og gi eksempler på hva *partall* og *oddetall* er.
     Besvarelsen må inneholde både algebraiske definisjoner,
     ordforklaringer og illustrasjoner.
-
 3. Forklar og gi eksempler på hva *primtall* og *sammensatt tall* er.
 
 #### Middels: Argumentere for enkle sammenhenger knyttet til begrepene
@@ -125,7 +105,8 @@ pandoc .\quizzer\tallteori\tallteori.md -f markdown -t html --mathjax --template
 2. \
    a. \
    Formelt: At et tall er et partall betyr at det kan deles på $2$ eller sagt med andre ord at det inneholder faktoren $2$. Det betyr derfor at vi kan skrive to vilkårlige partall som $2m$ og $2n$. Produktet av disse vil derfor være $2n\cdot 2m = 2(2nm)$. Dette er et tall som kan deles på to og er derfor også et partall. Dermed har vi vist at produktet av to partall alltid er et partall. \
-   Grunnskoletilpasset: 
+   Grunnskoletilpasset: La oss begynne med å avklare en måte å tenke på partall. Siden partall betyr at noe kan deles på to, kan vi også si at partall kan stables eller visualiseres som tårn som kommer i par. For eksempel kan vi ta utgangspunkt i to partall $6$ og $10$. Stabler vi disse slik som forklart vil de se ut som på bildet under
+   ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main//img/tallteo/pargpar.svg)
 
 #### Avansert: Løse (også ukjente) problemer knyttet til begrepene
 
@@ -265,7 +246,7 @@ $P_n = 3T_n -2n = \frac{3n(n+1)}{2}-2n$.
         kvadrattall nummer $n + 1$, og bruk dette til å omarrangere
         figurene.
 
-![](./img/tallteo/image1.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/image1.png)
 
 1. Under ser du figurtall én til fire.
 
@@ -276,7 +257,7 @@ $P_n = 3T_n -2n = \frac{3n(n+1)}{2}-2n$.
     b.  Finn eksplisitt sammenheng ved hjelp av strategien *sum av
         tillegg*.
 
-![](./img/tallteo/image2.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/image2.png)
 
 ##### Løsningsforslag
 
@@ -348,7 +329,7 @@ $P_n = 3T_n -2n = \frac{3n(n+1)}{2}-2n$.
 
     c.  Finn ved hjelp av *differanse mellom eksplisitte uttrykk.*
 
-![](./img/tallteo/image2.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/image2.png)
 
 1. Hva er sammenhengen mellom påfølgende figurer? Finn rekursivt
     uttrykk.
@@ -359,7 +340,7 @@ $P_n = 3T_n -2n = \frac{3n(n+1)}{2}-2n$.
 
     c.  Finn ved hjelp av *differanse mellom eksplisitte uttrykk.*
 
-![](./img/tallteo/image1.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/image1.png)
 
 ### Beskrive oppbygningen av figurtall (alle typer)
 
@@ -377,11 +358,11 @@ $P_n = 3T_n -2n = \frac{3n(n+1)}{2}-2n$.
 
     d.  Vis den eksplisitte sammenhengen i figurene.
 
-![](./img/tallteo/image2.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/image2.png)
 
 1. Samme ordlyd som oppgave 1.
 
-![](./img/tallteo/image3.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/image3.png)
 
 #### Middels: Finne flere algebraiske uttrykk til samme figur
 
@@ -389,7 +370,7 @@ $P_n = 3T_n -2n = \frac{3n(n+1)}{2}-2n$.
     figurene, og beskriv dem algebraisk slik at det er en tydelig
     sammenheng mellom illustrasjon og uttrykk.
 
-![](./img/tallteo/image2.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/image2.png)
 
 1. Under ser du trekantramme nummer fire, samt fem forslag til
     eksplisitt uttrykk for trekantramme nummer $n$.
@@ -399,37 +380,27 @@ a.  Hvordan ser de foregående rammene ut?
 b.  Hvilke uttrykk stemmer? Argumenter ved hjelp av figuren og ved å
     omforme uttrykkene.
 
-![](./img/tallteo/image4.jpeg)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/image4.jpeg)
 
-    i.  $3(n - 1) + 3$
-
-    ii. $(n - 1) + n + (n + 1)$
-
-    iii. $3n$
-
-    iv. $\frac{(n + 1)(n + 2)}{2} - \frac{(n - 2)(n - 1)}{2}$
-
-v.  $3(n + 1) - 3$
+   i. $3(n - 1) + 3$
+   ii. $(n - 1) + n + (n + 1)$
+   iii. $3n$
+   iv. $\frac{(n + 1)(n + 2)}{2} - \frac{(n - 2)(n - 1)}{2}$
+   v. $3(n + 1) - 3$
 
 #### Avansert: Lage figurer basert på algebraiske uttrykk
 
 1. La $H_{n} = 2 \cdot T_{n + 1} - K_{n - 1}$.
 
-    a.  Illustrer $H_{1}$ til $H_{4}$ ved hjelp av trekant- og
-        kvadrattall.
+    a.  Illustrer $H_{1}$ til $H_{4}$ ved hjelp av trekant- og kvadrattall.
 
-    b.  Finn eksplisitt uttrykk for $H_{n}$ ved hjelp av
-        *stirre-hardt*-*metoden*.
+    b.  Finn eksplisitt uttrykk for $H_{n}$ ved hjelp av *stirre-hardt*-*metoden*.
 
-    c.  Bekreft uttrykket du fant i b. ved å regne ut
-        $2 \cdot T_{n + 1} - K_{n - 1}$.
+    c.  Bekreft uttrykket du fant i b. ved å regne ut $2 \cdot T_{n + 1} - K_{n - 1}$.
 
-    d.  Bruk uttrykket fra b. og c. til å lage et nytt figurmønster som
-        matcher formen på uttrykket (stirre-hardt-metoden bare baklengs,
-        altså).
+    d.  Bruk uttrykket fra b. og c. til å lage et nytt figurmønster som matcher formen på uttrykket (stirre-hardt-metoden bare baklengs, altså).
 
-2. En figurtallfølge er gitt ved den rekursive sammenhengen
-    $F_{n} = F_{n - 1} + 2n + 1$, der $F_{1} = 2$.
+2. En figurtallfølge er gitt ved den rekursive sammenhengen $F_{n} = F_{n - 1} + 2n + 1$, der $F_{1} = 2$.
 
     a.  Illustrer figur 1-4 slik at det går tydelig frem hvordan figuren
         vokser.
@@ -438,17 +409,9 @@ v.  $3(n + 1) - 3$
 
 3. Den $n$-te figuren i et figurtallmønster har eksplisitt uttrykk
     $G_{n} = 2n^{2} - (n - 2)^{2} + \frac{n(n + 1)}{2}$.
+   a. Illustrer figur 1-4 slik at strukturen i det algebraiske uttrykket kommer tydelig frem.b. Finn rekursiv sammenheng.
 
-    a.  Illustrer figur 1-4 slik at strukturen i det algebraiske
-        uttrykket kommer tydelig frem.
-
-    b.  Finn rekursiv sammenheng.
-
-4. Lag figurtall og finn rekursivt uttrykk til følgende eksplisitte
-    sammenheng: $n^{2} + 3n + 1$. Tips: Forsøk å omforme uttrykket slik
-    at du finner uttrykk du kjenner fra før, sånn som trekanttall,
-    kvadrattall eller kvadratsetninga. Hvor mange figurtall klarer du å
-    lage?
+4. Lag figurtall og finn rekursivt uttrykk til følgende eksplisitte sammenheng: $n^{2} + 3n + 1$. Tips: Forsøk å omforme uttrykket slik at du finner uttrykk du kjenner fra før, sånn som trekanttall, kvadrattall eller kvadratsetninga. Hvor mange figurtall klarer du å lage?
 
 ### Vurdere arbeid med figurtall med hensyn til læreplanens kjerneelementer og didaktikk knyttet til algebraisk tenkning
 
@@ -529,7 +492,7 @@ Besvarelsen må inneholde både algebraiske definisjoner, ordforklaringer og ill
 
 1. Studenten må gi en forklaring som kan passe på grunnskolen. Dette kan innebære å lage illustrasjoner. For eksempel kan en illustrere et partall som noe som kommer i par og et oddetall som to rader der en er én høyere. Da kan en peke til figuren å si at når man legger sammen figurene på hverandre vil man fortsatt ha én som er en høyere. Dermed fortsatt ett oddetall.
 
-![](./img/2023-03-30-12-14-25.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-30-12-14-25.png)
 
 2. Studenten bør få fram at to oddetall kan skrives som $2n+1$ og $2m+1$ der $m$ og $n$ er to vilkårlige naturlige tall. Dermed blir produktet $(2n-1)(2m-1) = 2mn-2n-2m+1 = 2(mn-n-m)+1$. Dette er altså noe én over et partall og må derfor fortsatt være et oddetall.
 
@@ -590,7 +553,7 @@ På figuren under ser du de tre første figurene i en sammensatt figur, der $F_1
 
 2. Finn en eksplisitt formel ved hjelp av sum av tillegg.
 
-![](./img/2023-03-30-12-43-49.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-30-12-43-49.png)
 
 ##### Vurderingskriterier
 
@@ -642,7 +605,7 @@ ii. Finne uttrykket ved hjelp av å regne $H_{n}– H_{n - 1}$.
 
 Under ser dere dere de fire første trappetallene.
 
-![](./img/2023-03-30-12-48-55.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-30-12-48-55.png)
 
 #### Grunnleggende: Beskrive eksplisitt og rekursiv sammenheng verbalt og ved hjelp av illustrasjon
 
@@ -700,7 +663,6 @@ være: Bryte ned figur geometrisk, sum av tillegg,
 gauss-triks algebraisk, gauss-triks ved figur. Merk at å
 bryte ned figuren på flere måter teller som forskjellige
 måter
-
 
 ## 17.02.23
 
@@ -820,7 +782,7 @@ På figuren under ser du de tre første figurene i en sammensatt figur, der $F_1
 
 2. Finn en eksplisitt formel ved hjelp av sum av tillegg.
 
-![](./img/2023-03-24-14-40-43.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-14-40-43.png)
 
 #### Vurderingskriterier: Grunnleggende {#f17g4}
 
@@ -897,7 +859,7 @@ ii. Finne uttrykket ved hjelp av å regne $H_{n}– H_{n - 1}$.
 
 Under ser dere dere de fire første ambolttallene.
 
-![](./img/2023-03-24-14-41-25.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-14-41-25.png)
 
 #### Grunnleggende: Beskrive eksplisitt og rekursiv sammenheng verbalt og ved hjelp av illustrasjon
 
@@ -1113,7 +1075,7 @@ På figuren under ser du de tre første figurene i en sammensatt figur, der $F_1
 
 2. Finn en eksplisitt formel ved hjelp av sum av tillegg.
 
-![](./img/2023-03-24-14-37-18.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-14-37-18.png)
 
 #### Vurderingskriterier: Grunnleggende {#f13g4}
 
@@ -1151,7 +1113,7 @@ ved hjelp av strategien differanse mellom eksplisitte uttrykk. Merk eksplisitt u
 
 #### Middels: Ved hjelp av form på tillegg, og differanse mellom eksplisitte uttrykk for andre polygontall og sammensatte figurtall {#wdaxc}
 
-![](./img/2023-03-24-14-37-44.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-14-37-44.png)
 
 Over ser du de tre første figurene i bikubetallene. Vis i en illustrasjon hvordan hver figur inneholder den forrige, og finn rekursivt uttrykk for bikubetallene $B_n$, der $B_1 =1$, $H_2 = 7$ og $H_3 = 19$:
 ved hjelp av strategien form på tillegg.
@@ -1192,7 +1154,7 @@ ii. Finne uttrykket ved hjelp av å regne $B_{n}–\ B_{n - 1}\ $
 
 Under ser dere dere de tre første bokstallene.
 
-![](./img/2023-03-24-14-38-06.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-14-38-06.png)
 
 #### Grunnleggende: Beskrive eksplisitt og rekursiv sammenheng verbalt og ved hjelp av illustrasjon {#wdac}
 
@@ -1416,7 +1378,7 @@ På figuren under ser du de fire første figurene i en sammensatt figur, der $F_
 
 2. Finn en eksplisitt formel ved hjelp av sum av tillegg.
 
-![](./img/2023-03-24-14-34-41.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-14-34-41.png)
 
 #### Vurderingskriterier: Grunnleggende {#g4}
 
@@ -1493,7 +1455,7 @@ ii. Finne uttrykket ved hjelp av å regne $H_{n}–\ H_{n - 1}\ $
 
 Under ser dere dere de tre første sommerfugltallene.
 
-![](./img/2023-03-24-14-35-28.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-14-35-28.png)
 
 #### Grunnleggende: Beskrive eksplisitt og rekursiv sammenheng verbalt og ved hjelp av illustrasjon
 
@@ -1644,7 +1606,7 @@ På figuren under ser du de fire første figurene i en sammensatt figur, der $F_
 
 2. Finn en eksplisitt formel ved hjelp av sum av tillegg.
 
-![](./img/2023-03-24-14-31-42.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-14-31-42.png)
 
 ### Finne rekursivt uttrykk for figurtall
 
@@ -1664,7 +1626,7 @@ ved hjelp av strategien differanse mellom eksplisitte uttrykk. Merk: Det eksplis
 
 Under ser dere dere de tre første piltallene.
 
-![](./img/2023-03-24-14-32-20.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-14-32-20.png)
 
 #### Grunnleggende: Beskrive eksplisitt og rekursiv sammenheng verbalt og ved hjelp av illustrasjon
 
@@ -1801,7 +1763,7 @@ På figuren under ser du de tre første figurene i en sammensatt figur, der $F_1
 
 2. Finn en eksplisitt formel ved hjelp av sum av tillegg.
 
-![](./img/2023-03-24-14-06-04.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-14-06-04.png)
 
 #### Vurderingskriterier: Grunnleggende {#f1d3sg4}
 
@@ -1867,7 +1829,7 @@ ii. Finne uttrykket ved hjelp av å regne $H_n-H_{n-1}$
 
 Under ser dere dere de tre første medaljetallene
 
-![](./img/2023-03-24-14-07-13.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-14-07-13.png)
 
 #### Grunnleggende: Beskrive eksplisitt og rekursiv sammenheng verbalt og ved hjelp av illustrasjon
 
@@ -1982,7 +1944,7 @@ På figuren under ser du de tre første figurene i en sammensatt figur, der $F_1
 
 2. Finn en eksplisitt formel ved hjelp av sum av tillegg.
 
-![](./img/2023-03-24-13-53-34.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-13-53-34.png)
 
 ### Finne rekursivt uttrykk for figurtall
 
@@ -2002,7 +1964,7 @@ ved hjelp av strategien differanse mellom eksplisitte uttrykk. Merk: Det eksplis
 
 Under ser dere dere de tre første båttallene $B_1$, $B_2$ og $B_3$.
 
-![](./img/2023-03-24-13-55-27.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-13-55-27.png)
 
 #### Grunnleggende: Beskrive eksplisitt og rekursiv sammenheng verbalt og ved hjelp av illustrasjon 20.01
 
@@ -2031,4 +1993,3 @@ Gi en forklaring hvordan arbeidet med figurtall innebærer algebraisk tenkning o
 #### Avansert: Lag en undervisningsaktivitet med utgangspunkt i kjerneelementer, kompetansemål og litteratur om algebraisk tenkning. Forklar hvordan undervisnignsaktiviteten samsvarer med kjerneelementer, kompetansemål og litteratur om algebraisk tenkning
 
 Lag en figur som vokser i et tydelig mønster. Lag en kort undervisningsaktivitet med utgangspunkt i kjerneelementer, kompetansemål, litteratur om algebraisk tenkning og figuren du har laget. Gi en begrunnelse for valgene du har gjort.
-
