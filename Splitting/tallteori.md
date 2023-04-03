@@ -301,7 +301,7 @@ $P_n = 3T_n -2n = \frac{3n(n+1)}{2}-2n$.
    & =  n^2 + n + n = n^2 + 2n
    \end{aligned}
    $$
-   c. Hvis vi skal vise at figurtallet $P_n$ er én mindre enn kvadrattall nummer $n+1$, kan vi bare se på differansen mellom de. $(n+1)^2 - P_n = (n^2+2n+1)-(n^2+2n) = n^2 +2n + 1 - n^2 -2n = 1$. Som viser første del av oppgaven. Vi må nå bare omarrangere figuren. Det kan for eksempel gjøres som i figuren nedenfor. Der ser de grønne ringene uten rød ring ikke flyttet. De grønne med rød ring rundt er de hvite ringene flyttet og den røde ringen er den *manglende* ringen for å fullføre kvadratet. 
+   c. Hvis vi skal vise at figurtallet $P_n$ er én mindre enn kvadrattall nummer $n+1$, kan vi bare se på differansen mellom de. $(n+1)^2 - P_n = (n^2+2n+1)-(n^2+2n) = n^2 +2n + 1 - n^2 -2n = 1$. Som viser første del av oppgaven. Vi må nå bare omarrangere figuren. Det kan for eksempel gjøres som i figuren nedenfor. Der ser de grønne ringene uten rød ring ikke flyttet. De grønne med rød ring rundt er de hvite ringene flyttet og den røde ringen er den *manglende* ringen for å fullføre kvadratet.
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/stirrehardt.svg)
 
@@ -361,10 +361,16 @@ Se heftet for alle.
 ##### Løsningsforslag
 
 1. Ser vi på oppgave 1. i læringsmålet **Finne eksplisitt uttrykk for figurtall** på Avansert nivå, ser vi at mye av arbeidet allerede er forklart.
+
    a. Vi kan for eksempel tegne figurene på følgende måte (prøv selv og tegne neste med egne farger, der det forrige figur kommer tydelig fram i neste).
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/rekursivtall.svg)
    b. Fra tidligere har vi at formen på tillegget er $2n+1$ og dermed vet vi derfor at $F_n = F_{n-1} + 2n+1$
-
+   c. Vi har også fra tidligere at det eksplisitte uttrykket er $P_n = n^2 + 2n$. Vi må derfor finne tillegget ved å se på $P_n - P_{n-1}$. Ved å regne får vi
+   $$
+   \begin{align*}
+   
+   \end{align*}
+   $$
 
 ### Beskrive oppbygningen av figurtall (alle typer)
 
