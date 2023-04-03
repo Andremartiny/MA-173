@@ -434,6 +434,17 @@ b.  Hvilke uttrykk stemmer? Argumenter ved hjelp av figuren og ved å
    iv. $\frac{(n + 1)(n + 2)}{2} - \frac{(n - 2)(n - 1)}{2}$
    v. $3(n + 1) - 3$
 
+##### Løsningsforslag
+
+2. \
+   a. Vi kan se for oss at dette er slik trekantrammene utvikler seg 
+   ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-03-20-23-57.png)
+   b. Vi ser at med tolkningen i a. så øker figurene med $3$ hver gang. Dermed passer hvertfall iii.\
+   Vi ser også at $3(n-1)+3 = 3n - 3 + 3 = 3n$, så dette må også stemme. I figuren kan vi tolke $3(n-1)$ som sideflatene uten hjørnene og $+3$ som hjørnene lagt til (tegn inn selv og let etter egen måte å se dette i figuren). \
+   Vi kan tenke på $(n+1) + n + (n-1)$ som hele bunnen av figuren $n+1$ legg til hele venstre side uten nederste hjørne $n$ og legg til hele høyre side uten begge hjørnene $n-1$. Vi ser også algebraisk at dette tilsvarer $3n$ (tegn inn selv!). \
+   Vi kan se for oss den siste som å telle alle sidene, inkludert hjørnene ($n+1$ per side). Da overteller vi hvert hjørne ($-3$). Dermed stemmer dette uttrykket også.\
+   *Merk*: Det er viktig å tegne selv og forsikre seg om at man forstår sammenhengen mellom uttrykket og figuren. Tegn derfor selv! 
+
 #### Avansert: Lage figurer basert på algebraiske uttrykk
 
 1. La $H_{n} = 2 \cdot T_{n + 1} - K_{n - 1}$.
@@ -455,9 +466,14 @@ b.  Hvilke uttrykk stemmer? Argumenter ved hjelp av figuren og ved å
 
 3. Den $n$-te figuren i et figurtallmønster har eksplisitt uttrykk
     $G_{n} = 2n^{2} - (n - 2)^{2} + \frac{n(n + 1)}{2}$.
-   a. Illustrer figur 1-4 slik at strukturen i det algebraiske uttrykket kommer tydelig frem.b. Finn rekursiv sammenheng.
+   a. Illustrer figur 1-4 slik at strukturen i det algebraiske uttrykket kommer tydelig frem.
+   b. Finn rekursiv sammenheng.
 
 4. Lag figurtall og finn rekursivt uttrykk til følgende eksplisitte sammenheng: $n^{2} + 3n + 1$. Tips: Forsøk å omforme uttrykket slik at du finner uttrykk du kjenner fra før, sånn som trekanttall, kvadrattall eller kvadratsetninga. Hvor mange figurtall klarer du å lage?
+
+##### Løsningsforslag
+
+4. Vi utnytter at vi vet at $n^2 + 2n + 1 = (n+1)^2$. Vi kan derfor skrive om uttrykket som $n^2 + 3n + 1 = n^2 + 2n + 1 +n = (n+1)^2+n$. Nå kan vi enkelt se at tillegget fra figur til figur er $(2n+1) + 1$, der $2n+1$ er økninga av kvadratet $+1$ er økningen fra ledded $n$. Dette gir oss også en enkel oversettelse til en figur, dette overlates til leseren!
 
 ### Vurdere arbeid med figurtall med hensyn til læreplanens kjerneelementer og didaktikk knyttet til algebraisk tenkning
 
