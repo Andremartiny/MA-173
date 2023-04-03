@@ -69,15 +69,29 @@ man avgjør er relatert til måleenheten.
 
 2. Hvis linje *f* og *g* er parallelle. Hva er vinkel *v*?\
 
-![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/geo/image1.png)   
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/geo/image1.png)
+
+##### Løsningsforslag
+
+1. \
+   a. Ta utgangspunkt i animasjonen under og kall, blå, rød og grønn vinkel for $x$, $y$ og $z$. Vi ser at spaserturen viser at vi har dreid $360^\circ$ (summen av de ytre vinklene, de gule). Ser vi på indre vinkel pluss ytre vinkel ser vi at denne også alltid er $180^\circ$. Noe som tilsier at summen av indre og yre vinkler er $3\cdot 180^\circ$. Trekker vi fra summen av de ytre vinklene får vi $3\cdot 180^\circ-360^\circ = 180^\circ$. 
+   b. Forsøk selv, ved å bruke samme argument.
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/geo/Visvinkler.mp4)
+
+2. Trekk en linje parallell med $f$ og $g$ gjennom vinkel $v$. Vi får da, ved å bruke parallellitetsegenskaper, at $v$ kan deles inn i to vinkler, en del som er $13^\circ$ og en del som er $35^\circ$. Vinkel $v$ er dermed $48^\circ$. *Merk*: Besvarelsen mangler en tegning. Gjør dette selv og forsøk å gjøre din egen besvarelse. 
 
 #### Avansert: Utforske og løse ukjente problemet knyttet til begrepene
 
 1. En korde-tangent-vinkel har størrelse *v*. Hvor stor er sirkelbuen
     den skjærer av? (Merk: En tangent står vinkelrett på linjen fra
     sentrum av sirkelen til tangeringspunktet).\
-    ![A picture containing diagram Description automatically
-    generated](./geo/image2.png)
+    
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/geo/image2.png)
+
+##### Løsningsforslag
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-03-21-15-36.png)
 
 ### Bruke begrepene kvadrat, rektangel, parallellogram, trapes, likebeint trekant, likesidet trekant, rettvinklet trekant, mangekant, sirkel
 
@@ -116,8 +130,7 @@ man avgjør er relatert til måleenheten.
 
     e.  Pyramider
 
-> Besvarelsene må inneholde en illustrasjon der en peker på relevante
-> lengder.
+Besvarelsene må inneholde en illustrasjon der en peker på relevante lengder.
 
 #### Middels: Argumentere for enkle sammenhenger knyttet til begrepene
 
@@ -218,9 +231,7 @@ så skal ikke dette rundes av til $2,236$
     a.  Avgjør arealet av det hvite området.
 
     b.  Hva er forholdet mellom arealet av det hvite området og arealet
-        av trekanten?![]
-        
-        (./img/geo/image4.png)
+        av trekanten?![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/geo/image4.png)
 
 2. Under er et rektangel der det er lagt inn en rettvinklet trekant der
     hypotenusen deles med grunnlinjen til rektangelet. Denne
