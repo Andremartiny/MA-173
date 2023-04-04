@@ -1,13 +1,20 @@
 #### Avansert:  Øveppgaver
 
-- Du er på hytta og kaster fire femmere på første kast. Med to kast
+1. Du er på hytta og kaster fire femmere på første kast. Med to kast
     igjen bestemmer du deg for å gå for yatzy. Sett opp et utfallsrom
     som gir en uniform sannsynlighetsmodell og finn sannsynligheten for
     at du får yatzy ved hjelp av modellen.
 
+2. André har kjøpt inn 6 lyspærer som han legger i en ekse slik at han slipper å måtte kjøpe nye hver gang en pære går. Uten å tenke seg om byttet André tre lyspærer, men puttet de gamle defekte lyspærene sammen med de nye. Neste gang skal han bytte to pærer og tar han bare to tilfeldige pærer ut fra esken. Sett opp et utfallsrom som gir en uniform sannsynlighetsmodell og avgjør, ved hjelp av modellen, hva sannsynligheten er for at André tar med seg en defekt pære.
+
 ##### Løsningsforslag
 
-Vi kan tenke oss at vi uansett kaster to kast, selv om vi får en femmer på første kast. Dette betyr bare at vi har fått yatzy og at det siste kastet ikke har noe å si. Vi kan skrive opp de ulike mulighetne slik:
+1. Anta at pærene er nummerert 1 til 6 og la 1 og 2 være defekte. Da er
+mulig utfall parene, (1,2), (1,3), (1,4), (1,5), (1,6), (2,3), (2,4),
+(2,5), (2,6), (3,4), (3,5), (3,6), (4,5), (4,6) og (5,6). Det er
+rimelig å anta at alle parene er like sannsynlige siden vi trekker tilfeldig. Alle parene som inneholder enten $1$ eller $2$ eller begge betyr at André tar med seg en defekt pære. Teller vi opp får vi at sannsynligheten er $\frac{9}{15}$.
+
+2. Vi kan tenke oss at vi uansett kaster to kast, selv om vi får en femmer på første kast. Dette betyr bare at vi har fått yatzy og at det siste kastet ikke har noe å si. Vi kan skrive opp de ulike mulighetene slik:
 $$\left\{ \begin{array}{r}
 11,12,13,14,15,16, \\
 21,22,23,24,25,26, \\
@@ -18,22 +25,6 @@ $$\left\{ \begin{array}{r}
 \end{array} \right\}$$
 
 Vi ser her at det er $11$ av de $36$ mulighetene som inneholder en femmer. Dermed er sannsynligheten $\frac{11}{36}$.
-
-- André har kjøpt inn 6 lyspærer som han legger i en ekse slik at han
-    slipper å måtte kjøpe nye hver gang en pære går. Uten å tenke seg om
-    byttet André tre lyspærer, men puttet de gamle defekte lyspærene
-    sammen med de nye. Neste gang skal han bytte to pærer og tar han
-    bare to tilfeldige pærer ut fra esken. Sett opp et utfallsrom som
-    gir en uniform sannsynlighetsmodell og avgjør, ved hjelp av
-    modellen, hva sannsynligheten er for at André tar med seg en defekt
-    pære.
-
-##### Løsningsforslag
-
-Anta at pærene er nummerert 1 til 6 og la 1 og 2 være defekte. Da er
-mulig utfall parene, (1,2), (1,3), (1,4), (1,5), (1,6), (2,3), (2,4),
-(2,5), (2,6), (3,4), (3,5), (3,6), (4,5), (4,6) og (5,6). Det er
-rimelig å anta at alle parene er like sannsynlige siden vi trekker tilfeldig. Alle parene som inneholder enten $1$ eller $2$ eller begge betyr at André tar med seg en defekt pære. Teller vi opp får vi at sannsynligheten er $\frac{9}{15}$.
 
 #### Avansert:  31.03.23
 

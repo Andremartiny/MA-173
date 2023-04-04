@@ -20,7 +20,6 @@
 
 
 
-
 #### Middels:  31.03.23
 
 I figuren under ser dere et rektangel, med noen lengder ført på. Avgjør hva $x$, $y$ og $z$ må være.

@@ -308,7 +308,6 @@ så skal ikke dette rundes av til $2,236$
 
 ## 31.03.23
 
-
 ### Bruke begrepene måltall, størrelse og måleenhet til å avgjøre størrelsen av grunnleggende figurer i 1 og 2 dimensjoner
 
 #### Grunnleggende: Gjengi, forklare og gi eksempler på begrepene størrelse, måltall og måleenheter i 1- og 2-dimensjonale figurer

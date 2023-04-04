@@ -37,13 +37,14 @@ uniform sannsynlighetsmodell.
 
 #### Middels: Avgjøre og begrunne om situasjoner er en uniform sannsynlighetsmodell
 
-- Alfa 7.14
-- 7.15. Besvarelsen skal begrunnes ved å peke på definisjonen av en
+1. Alfa 7.14
+2. 7.15. Besvarelsen skal begrunnes ved å peke på definisjonen av en
     uniform sannsynlighetsmodell.
-- Et forsøk skal utføres ved å kaste en mynt tre ganger og registrere om det blir kron eller mynt. Henrik setter opp utfallsrommet {tre kron,to kron og en mynt,en kron og to mynt,tre mynt}. Avgjør om dette gir opphav til en uniform sannsynlighetsmodell.
+3. Et forsøk skal utføres ved å kaste en mynt tre ganger og registrere om det blir kron eller mynt. Henrik setter opp utfallsrommet {tre kron,to kron og en mynt,en kron og to mynt,tre mynt}. Avgjør om dette gir opphav til en uniform sannsynlighetsmodell.
 
 ##### Løsningsforslag
 
+3. \
 Ved tre kast kan vi registrere hvert kast i rekkefølge. Det gir
 mulighetene
 
@@ -68,14 +69,21 @@ og mynt er dette utfallsrommet uniformt. Vi ser her at det er kun ett av de ått
 
 #### Avansert: Sette opp uniforme sannsynlighetsmodeller fra en gitt situasjon
 
-- Du er på hytta og kaster fire femmere på første kast. Med to kast
+1. Du er på hytta og kaster fire femmere på første kast. Med to kast
     igjen bestemmer du deg for å gå for yatzy. Sett opp et utfallsrom
     som gir en uniform sannsynlighetsmodell og finn sannsynligheten for
     at du får yatzy ved hjelp av modellen.
 
+2. André har kjøpt inn 6 lyspærer som han legger i en ekse slik at han slipper å måtte kjøpe nye hver gang en pære går. Uten å tenke seg om byttet André tre lyspærer, men puttet de gamle defekte lyspærene sammen med de nye. Neste gang skal han bytte to pærer og tar han bare to tilfeldige pærer ut fra esken. Sett opp et utfallsrom som gir en uniform sannsynlighetsmodell og avgjør, ved hjelp av modellen, hva sannsynligheten er for at André tar med seg en defekt pære.
+
 ##### Løsningsforslag
 
-Vi kan tenke oss at vi uansett kaster to kast, selv om vi får en femmer på første kast. Dette betyr bare at vi har fått yatzy og at det siste kastet ikke har noe å si. Vi kan skrive opp de ulike mulighetne slik:
+1. Anta at pærene er nummerert 1 til 6 og la 1 og 2 være defekte. Da er
+mulig utfall parene, (1,2), (1,3), (1,4), (1,5), (1,6), (2,3), (2,4),
+(2,5), (2,6), (3,4), (3,5), (3,6), (4,5), (4,6) og (5,6). Det er
+rimelig å anta at alle parene er like sannsynlige siden vi trekker tilfeldig. Alle parene som inneholder enten $1$ eller $2$ eller begge betyr at André tar med seg en defekt pære. Teller vi opp får vi at sannsynligheten er $\frac{9}{15}$.
+
+2. Vi kan tenke oss at vi uansett kaster to kast, selv om vi får en femmer på første kast. Dette betyr bare at vi har fått yatzy og at det siste kastet ikke har noe å si. Vi kan skrive opp de ulike mulighetene slik:
 $$\left\{ \begin{array}{r}
 11,12,13,14,15,16, \\
 21,22,23,24,25,26, \\
@@ -86,22 +94,6 @@ $$\left\{ \begin{array}{r}
 \end{array} \right\}$$
 
 Vi ser her at det er $11$ av de $36$ mulighetene som inneholder en femmer. Dermed er sannsynligheten $\frac{11}{36}$.
-
-- André har kjøpt inn 6 lyspærer som han legger i en ekse slik at han
-    slipper å måtte kjøpe nye hver gang en pære går. Uten å tenke seg om
-    byttet André tre lyspærer, men puttet de gamle defekte lyspærene
-    sammen med de nye. Neste gang skal han bytte to pærer og tar han
-    bare to tilfeldige pærer ut fra esken. Sett opp et utfallsrom som
-    gir en uniform sannsynlighetsmodell og avgjør, ved hjelp av
-    modellen, hva sannsynligheten er for at André tar med seg en defekt
-    pære.
-
-##### Løsningsforslag
-
-Anta at pærene er nummerert 1 til 6 og la 1 og 2 være defekte. Da er
-mulig utfall parene, (1,2), (1,3), (1,4), (1,5), (1,6), (2,3), (2,4),
-(2,5), (2,6), (3,4), (3,5), (3,6), (4,5), (4,6) og (5,6). Det er
-rimelig å anta at alle parene er like sannsynlige siden vi trekker tilfeldig. Alle parene som inneholder enten $1$ eller $2$ eller begge betyr at André tar med seg en defekt pære. Teller vi opp får vi at sannsynligheten er $\frac{9}{15}$.
 
 ### Forklare og bruke store talls lov (Alfa 7.3)
 
@@ -159,17 +151,20 @@ Forklar og gi eksempler til begrepene
 
 #### Middels: Begrunne at et utvalg er ordnet med og uten tilbakelegg, og finne antall muligheter i utvalget
 
-- Begrunn at følgende situasjoner kan tenkes på som ordnede utvalg med
-    tilbakelegg og finn antall muligheter i utvalgene
-  - Du skal velge en firesifret kode der du kan ha sifrene 0-9 på
-        hver posisjon.
-  - Du skal kaste en terning tre ganger og skriver opp antall øyne
-        på terningen for hvert kast i kronologisk rekkefølge.
-- Begrunn at følgende situasjoner kan tenkes på som ordnede utvalg
-    uten tilbakelegg og finn antall muligheter i utvalgene
-  - Du skal stokke om bokstavene i navnet André.
-  - I et skirenn deltar det 7 personer. Du ønsker å skrive opp
-        mulige 1.- 2.- og 3.plasser som kan oppstå.
+1. Begrunn at følgende situasjoner kan tenkes på som ordnede utvalg med tilbakelegg og finn antall muligheter i utvalgene
+  a. Du skal velge en firesifret kode der du kan ha sifrene 0-9 på hver posisjon.
+  b. Du skal kaste en terning tre ganger og skriver opp antall øyne på terningen for hvert kast i kronologisk rekkefølge.
+2. Begrunn at følgende situasjoner kan tenkes på som ordnede utvalg uten tilbakelegg og finn antall muligheter i utvalgene
+   a. Du skal stokke om bokstavene i navnet André.
+   b. I et skirenn deltar det 7 personer. Du ønsker å skrive opp mulige 1.- 2.- og 3.plasser som kan oppstå.
+
+##### Løsningsforslag
+
+1. Begrunn at følgende situasjoner kan tenkes på som ordnede utvalg med tilbakelegg og finn antall muligheter i utvalgene
+   a. Siden vi skal velge fire posisjoner og vi kan velge hvilket siffer vi vil på hver posisjon har vi alltid 10 sifre og velge mellom. En kan derfor tenke at en mulig kode kan finnes ved å trekke et siffer fire ganger. Skal du låse opp en kode, må vi så klart ta hensyn til rekkefølgen. Derfor får vi et ordnet (fordi rekkefølgen betyr noe) utvalg med tilbakelegg (fordi vi kan velge samme siffer flere ganger). Vi har derfor $10 \cdot 10 \cdot 10 \cdot 10 = 10000$ mulige kombinasjoner vi kan velge.
+   b. Vi skal skrive opp antall øyne for hvert kast. Et eksempel kan være (1,3, 6) som betyr 1 på første, 3 på andre og 6 på tredje. Vi ser at rekkefølgen betyr noe, siden (3, 1, 6) betyr 3 på første og 1 på andre. Siden vi hver gang kan slå et tall fra 1 til 6 blir dette også et ordnet utvalg med tilbakelegg, som gir $6 \cdot 6 \cdot 6 = 216$ mulige utfall.
+2. Begrunn at følgende utvalg er ordnede utvalg uten tilbakelegg og finn antall muligheter i utvalgene
+   a. Siden vi har fem bokstaver (A, n, d, r, e) som jeg skal stokke om, så kan jeg ikke bruke de flere ganger (uten tilbakelegg). Likevel så bryr jeg meg om rekkefølgen, så det er et ordnet utvalg. Det gir derfor først fem valg, så 4 valg (siden jeg har brukt opp en bokstav), så 3 valg og så videre, altså $5 \cdot 4 \cdot 3 \cdot 2 \cdot 1 = 120$.
 
 ### Forklare og bruke begrepene uordnet utvalg med og uten tilbakelegg
 
@@ -179,19 +174,41 @@ Forklar og gi eksempler til begrepene
 
 #### Middels: Begrunne at et utvalg er uordnet m/u tilbakelegg, og finne antall muligheter i utvalget
 
-- Begrunn at følgende situasjoner kan tenkes på som uordnede utvalg
-    uten tilbakelegg og finn antall muligheter i utvalgene
-  - Du har en twistpose med 7 forskjellige twist igjen. Du tar
-        hånden ned i poser og får med deg tre twist.
-  - Det skal trekkes tre heldige ansatte blant 15 ansatte som får et
-        gavekort på 1000 kr hver.
-- Begrunn at følgende situasjoner kan tenkes på som uordnede utvalg
-    med tilbakelegg og finn antall muligheter i utvalgene
-  - Du skal bestille 3 pizza fra Dolly dimples til deg og
-        vennegjengen på en fredag. Dolly dimples har 5 mulige typer dere
-        kan velge mellom.
-  - Du bestemmer deg for å spise fem frukter hver dag. Du har alltid
-        5 bananer, 5 pærer, 5 epler og 5 appelsiner liggende.
+1. Begrunn at følgende situasjoner kan tenkes på som uordnede utvalg uten tilbakelegg og finn antall muligheter i utvalgene
+   a. Du har en twistpose med 7 forskjellige twist igjen. Du tar hånden ned i poser og får med deg tre twist.
+   b. Det skal trekkes tre heldige ansatte blant 15 ansatte som får et gavekort på 1000 kr hver.
+2. Begrunn at følgende situasjoner kan tenkes på som uordnede utvalg med tilbakelegg og finn antall muligheter i utvalgene
+   a.Du skal bestille 3 pizza fra Dolly dimples til deg og vennegjengen på en fredag. Dolly dimples har 5 mulige typer dere kan velge mellom.
+   b. Du bestemmer deg for å spise fem frukter hver dag. Du har alltid 5 bananer, 5 pærer, 5 epler og 5 appelsiner liggende.
+
+##### Løsningsforslag
+
+1. Begrunn at følgende situasjoner kan tenkes på som uordnede utvalg uten tilbakelegg og finn antall muligheter i utvalgene
+   a. Siden twistene er forskjellige og vi kan trekke en av hver type er dette et utvalg uten tilbakelegg. I tillegg ønsker er det ikke viktig hvilken rekkefølge vi plukker twistene opp i. Det er altså et uordna utvalg. Det gir derfor $7 \cdot 6 \cdot 5$ muligheter for å sette opp et ordna utvalg, men nå overteller vi alle omstokkingene av tre twist. Vi har altså telt alle utvalg $3 \cdot 2 \cdot 1 = 6$ ganger for mye. Totalt gir dette $\frac{7 \cdot 6 \cdot 5}{3 \cdot 2 \cdot 1} = 35$ muligheter.
+2. Begrunn at følgende situasjoner kan tenkes på som uordnede utvalg med tilbakelegg og finn antall muligheter i utvalgene
+   a.Vi kan velge samme pizza flere ganger, så det er med
+   tilbakelegg. I tillegg er rekkefølgen ikke nøye, så det
+   er uordnet. Siden det er uordnet kan vi tenke oss at vi
+   alltid skriver utvalgene i «stigende» rekkefølge. Dermed
+   vi systematisere slik:\
+   (1,1,1), (1,1,2), (1,1,3), (1,1,4), (1,1,5),\
+   (1,2,2), (1,2,3), (1,2,4), (1,2,5)\
+   (1,3,3), (1,3,4), (1,3,5),\
+   (1,4,4), (1,4,5),\
+   (1,5,5),\
+   (2,2,2), (2,2,3), (2,2,4), (2,2,5)\
+   (2,3,3), (2,3,4), (2,3,5),\
+   (2,4,4), (2,4,5),\
+   (2,5,5),\
+   (3,3,3), (3,3,4), (3,3,5),\
+   (3,4,4), (3,4,5),\
+   (3,5,5),\
+   (4,4,4), (4,4,5),\
+   (4,5,5),\
+   (5,5,5).\
+   Vi ser altså at det er
+   $1 + (1 + 2) + (1 + 2 + 3) + (1 + 2 + 3 + 4) + (1 + 2 + 3 + 4 + 5) = 35$
+   muligheter.
 
 ### Avgjøre om utvalg er ordnet eller uordnet og om det er med eller uten tilbakelegg
 
@@ -202,50 +219,46 @@ tilbakelegg
 
 1. Du skal velge ut en komité fra en 20 lærerstudenter. Komitéen skal
     bestå av 4 studenter.
-2. En klasse med 25 elever skal velge tillitsvalgt. De skal ta ut
-    første, andre tillitsperson. Første elev skal være
-    hovedtillitsvalgt, neste skal være stedfortreder.
-3. Hver uke i tre uker har 6 lærere et ukentlig bruslotteri der de
-    vinner en sekspakning Cola hvis de vinner. Det trekkes en vinner
-    blant de 6 lærerne hver uke.
-4. Til et lag i $4 \times 100$m stafett er det tatt ut fire sprintere,
-    A, B, C og D. Hvor mange rekkefølger kan de stille opp stafettlaget
-    på?
-5. Du har et bord med seks plasser og du skal dekke på til fire. Hvor
-    mange mulige kombinasjoner kan lage?
-6. Du skal kjøpe en firepakning med donuts fra Donutsjappa ved
-    Aquarama. De har tre typer donuts du kan velge mellom. Hvor
-    forskjellige firepakninger kan du lage?
-7. Du skal trekke ut fire gutter fra en klasse på 16 gutter og 17
-    jenter. Hvor mange måter kan du gjøre det på?
-8. Syv studenter bor i et kollektiv sammen. Den første uke trakker de
-    lodd om hvem som skal lage mat, gjøre rent fellesarealet og vaske
-    badet. Ingen får mer enn én jobb. Hvor mange mulige utfall kan
-    trekningen ha?
+2. En klasse med 25 elever skal velge tillitsvalgt. De skal velge to tillitsvalgte. Første elev skal være hovedtillitsvalgt, neste skal være stedfortreder.
+3. Hver uke i tre uker har 6 lærere et ukentlig bruslotteri der de vinner en sekspakning Cola hvis de vinner. Det trekkes en vinner blant de 6 lærerne hver uke.
+4. Til et lag i $4 \times 100$m stafett er det tatt ut fire sprintere, A, B, C og D. Hvor mange rekkefølger kan de stille opp stafettlaget på?
+5. Du har et bord med seks plasser og du skal dekke på til fire. Hvor mange mulige kombinasjoner kan lage?
+6. Du skal kjøpe en firepakning med donuts fra Donutsjappa ved Aquarama. De har tre typer donuts du kan velge mellom. Hvor forskjellige firepakninger kan du lage?
+7. Du skal trekke ut fire gutter fra en klasse på 16 gutter og 17 jenter. Hvor mange måter kan du gjøre det på?
+8. Syv studenter bor i et kollektiv sammen. Den første uke trakker de lodd om hvem som skal lage mat, gjøre rent fellesarealet og vaske badet. Ingen får mer enn én jobb. Hvor mange mulige utfall kan trekningen ha?
+
+##### Løsningsforslag
+
+1. Siden vi ikke kan trekke en student flere ganger, er dette utvalget uten tilbakelegg. I tillegg er det ingen opplysning som impliserer at de skal være distinkte roller i komitéen. Dermed må dette være uordnet (rekkefølge betyr ikke noe)
+2. Her ser vi at rollen på personene som trekkes ut har noe å si, og det er dermed et ordnet utvalg. Det er også tydelig at vi ikke kan velge samme elev, og dermed er det et ordnet utvalg uten tilbakelegg.
+4. Vi skal velge tre lærere. Det står at det alltids trekkes blant de 6 lærerne, og det er derfor et utvalg med tilbakelegg. Siden det er snakk om en uke mellom utvalgene, så er det naturlig å tolke dette som at rekkefølgen betyr noe. Dermed er dette et ordnet utvalg med tilbakelegg.
+5. Vi kan nummerere setene fra $1$ til $6$, og vi ønsker å velge ut fire av de seks sifrene. Vi kan ikke velge samme siffer to ganger, da dette betyr at vi skal dekke på samme plass to ganger. Dermed er det et utvalg uten tilbakeleg. Siden det å dekke på ikke har noen betydning i forhold til rekkefølgen vi gjør det i, så vil dette være et uordnet utvalg uten tilbakelegg.
+6. $\vdots$
 
 ### Forklare, illustrere og bruke addisjonssetningen (for sannsynlighet *og* kombinatorikk)
 
 #### Grunnleggende: Forklare hva union og snitt er
 
-Forklare og illustrere et sammensatt valg/et forsøk sammensatt av flere
-trinn.
+Forklare og illustrere hva union og snitt er.
 
 #### Middels: Forklare og illustrere addisjonssetningen for to mengder (Setning 7.53)
 
-Forklare og illustrere produktregelen. Pek tydelig på hvorfor det kommer
+Forklare og illustrere addisjonssetningen. Pek tydelig på hvorfor det kommer
 frem at produktregelen må gjelde (Setning 7.53).
 
 #### Avansert: Bruke addisjonssetningen for å undersøke problemer
 
-1. Henrik har en tresifret kombinasjon på sykkellåsen sin. Du får vite
-    at koden inneholder en toer (minst), men er ikke et partall. Avgjør
-    hvor mange gjenværende muligheter det er
-2. André har en tresifret kombinasjon på sykkellåsen sin. Du får vite
-    at koden inneholder minst én ener og minst én toer. Du regner deg
-    fram til at det er 271 koder som inneholder minst én ener, og 271
-    koder som inneholder minst én toer. I tillegg er det 512 av de
-    totalt 1000 mulighetene som hverken inneholder enere eller toere.
-    Hvor mange forskjellige koder kan André ha på sin lås?
+1. Henrik har en tresifret kombinasjon på sykkellåsen sin. Du får vite at koden inneholder en toer (minst), men er ikke et partall. Avgjør hvor mange gjenværende muligheter det er
+2. André har en tresifret kombinasjon på sykkellåsen sin. Du får vite at koden inneholder minst én ener og minst én toer. Du regner deg fram til at det er 271 koder som inneholder minst én ener, og 271 koder som inneholder minst én toer. I tillegg er det 512 av de totalt 1000 mulighetene som hverken inneholder enere eller toere. Hvor mange forskjellige koder kan André ha på sin lås?
+
+
+##### Løsninsgforslag
+
+1. Siden tallet ikke kan være et partall, så kan toer(ne) kun være på første og andre posisjon og på tredje posisjon kan vi velge fritt mellom oddetallene (5 muligheter). Vi begynner med å splitte i tre disjunkte tilfeller:
+   1. Enten er det en toer på første posisjon, men ikke på andre. Vi kan altså ha kombinasjonene $2x$, der $x$ er et siffer som ikke er $2$ (altså 9 muligheter). For hver av de $9$ sifrene kan vi kombintere det med et av fem oddetall. Altså totalt $9\cdot 5 = 45$ muligheter i dette tilfellet.
+   2. Eller så er det ikke en toer på første posisjon, men på andre $x2$, der $x$ er et siffer som ikke er $2$ (altså 9 muligheter). Tilsvarende som over får vi $45$ muligheter. 
+   3. Eller $22$. Her er det kun siste siffer som kan endre på seg, og vi har derfor 5 muligheter.
+   Siden vi nå har delt mulighetene våre i tre tilfeller som dekker alle mulighetene, og i tillegg ikke overteller noe (er disjunkt), så sier addisjonsprinsippet at antallet er $45+45+5 = 95$.
 
 ### Forklare, illustrere og bruke komplementsetningen
 

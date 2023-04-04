@@ -1,6 +1,6 @@
 #### Avansert:  Øveoppgaver
 
-1. *Se oppgaver fra tidligere nasjonal deleksamen fra seminar.*
+1. *Se oppgaver fra tidligere nasjonal deleksamen fra seminar og i modulen nasjonal deleksamen.*
 
 
 #### Avansert:  17.02.23

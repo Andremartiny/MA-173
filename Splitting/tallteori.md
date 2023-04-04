@@ -110,7 +110,7 @@ pandoc .\quizzer\tallteori\tallteori.md -f markdown -t html --mathjax --template
    Ved å tenke på multiplikasjon som gjentatt addisjon kan vi derfor gjenta partårnet som representerer $6$ fire ganger. Multiplikasjonen kan vi altså se for oss slik som figuren under:
    ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main//img/tallteo/pargpardel2.svg)
    Siden vi nå har flere tårn (helt konkret fire tårn), som alle er to i bredden. Kan vi stable de fint oppå hverandre, noe som gir et nytt partårn. 
-   ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main//img/tallteo/pargpardel2.svg)
+   ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main//img/tallteo/pargpardel3.svg)
    Siden sluttresultatet endte med et partårn var sluttresultatet også et partall, i dette tilfellet var $6\cdot 4 = 24$. Vi kan deretter peke på at det ikke var noe spesielt med hverken $4$ eller $6$. Det eneste spesielle var vi la sammen flere partårn (vi la sammen fire), det kunne vært hva som helst. Vi kunne for eksempel byttet ut $6$ med et hvilket som helst partall. Vi kunne også byttet ut $4$ med et hvilket som helst partall også. Hadde vi for eksempel tatt $6$ og $24$ ville strukturen i beviset fortsatt fungert, noe som må bety at partall multiplisert med partall må resultere i et partall. 
 
 #### Avansert: Løse (også ukjente) problemer knyttet til begrepene

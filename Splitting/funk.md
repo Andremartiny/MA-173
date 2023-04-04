@@ -433,7 +433,7 @@ Se vurderingskriteriene fra ett av vurderingssettene.
     b.  Hvordan vil grafen til samme situasjon se ut dersom andreaksen
         heller måler tilbakelagt avstand?
 
-![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/picture2.jpg)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/Picture2.jpg)
 
 3. Tabellen viser en forenklet trinnskattemodell. Dersom man tjener
     $60\ 000$ eller mer, betaler man skatt på hele beløpet, ikke bare
@@ -458,7 +458,7 @@ Se vurderingskriteriene fra ett av vurderingssettene.
 4. Se figuren under. Skisser en graf over sammenhengen mellom krukkas
     høyde og volum, der førsteaksen angir høyden og andreaksen volumet.
 
-![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/picture1.jpg)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/Picture1.jpg)
 
 1. Klassen din får oppgaven under. Mange av elevene velger den øverste
     grafen med begrunnelser av typen «her ser vi tydelig hvordan bakken
@@ -506,9 +506,9 @@ b. Lag en passende situasjon som kan høre til funksjonssammenhengen.
 
 c. Finn funksjonsuttrykk, og skisser grafen.
 
-| x  | -2    | -1    | 1   |  2   |
-|----- |----- |----- |---- |----- |
-| y  | -4  | -8  | 8  | 4  |
+| x   | -2  | -1  | 1  |  2  |
+|-----|-----|-----|----|-----|
+| y   | -4  | -8  | 8  | 4   |
 
 1. Under ser du grafen til en funksjon.
 
@@ -690,7 +690,7 @@ b. Lag en passende situasjon som kan høre til funksjonssammenhengen.
 c. Finn funksjonsuttrykk, og skisser grafen.
 
 | x  | 1    | 3    | 4   | -2   |
-|----- |----- |----- |---- |----- |
+|:---|:-----|:-----|:----|:-----|
 | y  | 150  | 100  | 75  | 225  |
 
 2. Under ser du grafen til en funksjon.

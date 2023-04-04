@@ -1,5 +1,4 @@
 #### Grunnleggende:  Øveppgaver
 
-Forklare og illustrere et sammensatt valg/et forsøk sammensatt av flere
-trinn.
+Forklare og illustrere hva union og snitt er.
 

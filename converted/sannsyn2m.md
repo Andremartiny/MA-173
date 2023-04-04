@@ -1,13 +1,14 @@
 
 #### Middels:  Øveppgaver
 
-- Alfa 7.14
-- 7.15. Besvarelsen skal begrunnes ved å peke på definisjonen av en
+1. Alfa 7.14
+2. 7.15. Besvarelsen skal begrunnes ved å peke på definisjonen av en
     uniform sannsynlighetsmodell.
-- Et forsøk skal utføres ved å kaste en mynt tre ganger og registrere om det blir kron eller mynt. Henrik setter opp utfallsrommet {tre kron,to kron og en mynt,en kron og to mynt,tre mynt}. Avgjør om dette gir opphav til en uniform sannsynlighetsmodell.
+3. Et forsøk skal utføres ved å kaste en mynt tre ganger og registrere om det blir kron eller mynt. Henrik setter opp utfallsrommet {tre kron,to kron og en mynt,en kron og to mynt,tre mynt}. Avgjør om dette gir opphav til en uniform sannsynlighetsmodell.
 
 ##### Løsningsforslag
 
+3. \
 Ved tre kast kan vi registrere hvert kast i rekkefølge. Det gir
 mulighetene
 

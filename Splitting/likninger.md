@@ -16,30 +16,72 @@ pandoc .\quizzer\likninger\likninger.md -f markdown -t html --mathjax --template
 
     a.  3.40 Løs likningene på flere måter der det virker naturlig.
 
-    b.  3.46 Løs likningene på flere måter der det virker naturlig, ikke
-        bare slik boka spør etter.
+    b.  3.46 Løs likningene på flere måter der det virker naturlig, ikke bare slik boka spør etter.
 
-    c.  3.47 Løs likningene på flere måter der det virker naturlig, ikke
-        bare slik boka spør etter.
+    c.  3.47 Løs likningene på flere måter der det virker naturlig, ikke bare slik boka spør etter.
 
 #### Middels: Forklare og begrunne løsningsstrategier, formelt og grunnskoletilpasset
 
 1. Alfa s. 279
 
-    a.  3.40 Løs likningene på flere måter der det virker naturlig.
-        Forklar og begrunn stegene i strategiene du bruker.
+    a.  3.40 Løs likningene på flere måter der det virker naturlig. Forklar og begrunn stegene i strategiene du bruker.
 
-    b.  3.46 Løs likningene på flere måter der det virker naturlig, ikke
-        bare slik boka spør etter. Forklar og begrunn stegene i
-        strategiene du bruker.
+    b.  3.46 Løs likningene på flere måter der det virker naturlig, ikke bare slik boka spør etter. Forklar og begrunn stegene i strategiene du bruker.
 
-    c.  3.47 Løs likningene på flere måter der det virker naturlig, ikke
-        bare slik boka spør etter. Forklar og begrunn stegene i
-        strategiene du bruker.
+    c.  3.47 Løs likningene på flere måter der det virker naturlig, ikke bare slik boka spør etter. Forklar og begrunn stegene i strategiene du bruker.
+
+##### Løsningsforslag
+
+1. Alfa s. 279
+   a. 3.40 \
+   c) Løsning 1: Utvider til 2-deler, sammenlikner tellerne. Hvis *noe* pluss 10 er null, er *noe* -10.
+   $$
+   \begin{aligned}
+   \frac{3x}{2}+5 
+   & = \frac{x}{2}
+   \\
+   \frac{ 3x + 10 }{2}
+   & = \frac{x}{2}
+   \\
+   2x + 10 
+   & = 0
+   \\
+   x 
+   & = 
+   -5.
+   \end{aligned}
+   $$
+   Løsning 2: Sorterer uttrykk med ukjent på VS, tall på HS (trekker fra $\frac{x}{2}$ og $5$ på begge sider av likhetstegnet). To halve er én hel.
+   $$
+   \begin{aligned}
+   \frac{3x}{2} + 5 
+   & = 
+   \frac{x}{2}
+   \\
+   \frac{3x}{2}- \frac{x}{2}
+   & = -5
+   \\
+   x = -5.
+   \end{aligned}
+   $$
+   \
+   b. Starter i hvert tilfelle med $x$, og leser likninga fra venstre. Deretter rygger vi steg for steg: Starter med *svaret*, og leser (det vil si regner) baklengs med motsatte regneoperasjoner til vi er tilbake på $x$. 
+   a) 20. Gange med to (40), trekke fra ti (30), dele på tre (10). 
+   b) 15. Trekke fra seks (9), gange med fire (24). 
+   c) 10. Gange med tre (30), legge til femten (45), dele på fem (7). \
+   \
+   c. Holde over: \
+   \
+   a) TELLER delt på to er tjue; TELLER er 40. NOE pluss ti er førti; NOE er 30. Det tredobbelt av tallet er tretti; tallet er 10. 
+   b) Noe + 6 = 15, noe = 9. En firedel av noe er 9, noe er 36. 
+   c) Teller er 30; 5x er 45; x er 7. 
+   d) Noe + 5 = 37; noe = 32. Det dobbelte av noe er 32; noe er 16. Tallet i andre er 16; tallet er 4. 
+   e) To ganger noe er 20; noe er 10. $\pi$ ganger tallet er 10; tallet $\frac{10}{\pi}$. . 
+
 
 #### Avansert: Analysere elevers løsningsstrategier
 
-1. *Se oppgaver fra tidligere nasjonal deleksamen fra seminar.*
+1. *Se oppgaver fra tidligere nasjonal deleksamen fra seminar og i modulen nasjonal deleksamen.*
 
 ### Løse lineære ulikheter ved hjelp av ulike strategier
 

@@ -10,3 +10,30 @@ inneholder minst én toer. I tillegg er det 512 av de totalt 1000
 mulighetene som hverken inneholder enere eller toere. Hvor mange
 forskjellige koder kan André ha på sin lås?</li>
 </ol>
+<h5 id="løsninsgforslag">Løsninsgforslag</h5>
+<ol type="1">
+<li>Siden tallet ikke kan være et partall, så kan toer(ne) kun være på
+første og andre posisjon og på tredje posisjon kan vi velge fritt mellom
+oddetallene (5 muligheter). Vi begynner med å splitte i tre disjunkte
+tilfeller:
+<ol type="1">
+<li>Enten er det en toer på første posisjon, men ikke på andre. Vi kan
+altså ha kombinasjonene <span class="math inline">\(2x\)</span>, der
+<span class="math inline">\(x\)</span> er et siffer som ikke er <span
+class="math inline">\(2\)</span> (altså 9 muligheter). For hver av de
+<span class="math inline">\(9\)</span> sifrene kan vi kombintere det med
+et av fem oddetall. Altså totalt <span class="math inline">\(9\cdot 5 =
+45\)</span> muligheter i dette tilfellet.</li>
+<li>Eller så er det ikke en toer på første posisjon, men på andre <span
+class="math inline">\(x2\)</span>, der <span
+class="math inline">\(x\)</span> er et siffer som ikke er <span
+class="math inline">\(2\)</span> (altså 9 muligheter). Tilsvarende som
+over får vi <span class="math inline">\(45\)</span> muligheter.</li>
+<li>Eller <span class="math inline">\(22\)</span>. Her er det kun siste
+siffer som kan endre på seg, og vi har derfor 5 muligheter. Siden vi nå
+har delt mulighetene våre i tre tilfeller som dekker alle mulighetene,
+og i tillegg ikke overteller noe (er disjunkt), så sier
+addisjonsprinsippet at antallet er <span class="math inline">\(45+45+5 =
+95\)</span>.</li>
+</ol></li>
+</ol>

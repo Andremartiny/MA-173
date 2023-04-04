@@ -4,11 +4,9 @@
 
     a.  3.40 Løs likningene på flere måter der det virker naturlig.
 
-    b.  3.46 Løs likningene på flere måter der det virker naturlig, ikke
-        bare slik boka spør etter.
+    b.  3.46 Løs likningene på flere måter der det virker naturlig, ikke bare slik boka spør etter.
 
-    c.  3.47 Løs likningene på flere måter der det virker naturlig, ikke
-        bare slik boka spør etter.
+    c.  3.47 Løs likningene på flere måter der det virker naturlig, ikke bare slik boka spør etter.
 
 #### Grunnleggende:  17.02.23
 

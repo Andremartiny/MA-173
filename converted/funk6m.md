@@ -10,7 +10,7 @@
     b.  Hvordan vil grafen til samme situasjon se ut dersom andreaksen
         heller måler tilbakelagt avstand?
 
-![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/picture2.jpg)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/Picture2.jpg)
 
 3. Tabellen viser en forenklet trinnskattemodell. Dersom man tjener
     $60\ 000$ eller mer, betaler man skatt på hele beløpet, ikke bare
@@ -35,7 +35,7 @@
 4. Se figuren under. Skisser en graf over sammenhengen mellom krukkas
     høyde og volum, der førsteaksen angir høyden og andreaksen volumet.
 
-![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/picture1.jpg)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/Picture1.jpg)
 
 1. Klassen din får oppgaven under. Mange av elevene velger den øverste
     grafen med begrunnelser av typen «her ser vi tydelig hvordan bakken

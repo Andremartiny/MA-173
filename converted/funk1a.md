@@ -38,9 +38,9 @@ b. Lag en passende situasjon som kan høre til funksjonssammenhengen.
 
 c. Finn funksjonsuttrykk, og skisser grafen.
 
-| x  | -2    | -1    | 1   |  2   |
-|----- |----- |----- |---- |----- |
-| y  | -4  | -8  | 8  | 4  |
+| x   | -2  | -1  | 1  |  2  |
+|-----|-----|-----|----|-----|
+| y   | -4  | -8  | 8  | 4   |
 
 1. Under ser du grafen til en funksjon.
 
@@ -65,7 +65,7 @@ b. Lag en passende situasjon som kan høre til funksjonssammenhengen.
 c. Finn funksjonsuttrykk, og skisser grafen.
 
 | x  | 1    | 3    | 4   | -2   |
-|----- |----- |----- |---- |----- |
+|:---|:-----|:-----|:----|:-----|
 | y  | 150  | 100  | 75  | 225  |
 
 2. Under ser du grafen til en funksjon.
