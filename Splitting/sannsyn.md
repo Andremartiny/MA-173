@@ -97,6 +97,8 @@ Vi ser her at det er $11$ av de $36$ mulighetene som inneholder en femmer. Derme
 
 ### Forklare og bruke store talls lov (Alfa 7.3)
 
+#### Grunnleggende: Forklare store talls lov
+
 Dette læringsmålet gjøres og godkjennes som en gruppeoppgave (på maks
 tre personer).
 
@@ -104,11 +106,16 @@ Læringsmålet tar utgangspunkt i aktiviteten fra timen tirsdag 28.03.
 
 *Aktivitet*: Henrik og André gamblet i pauserommet i J-bygget med en mynt de hadde liggende. Henrik hadde valgt kron og André mynt. De bestemte seg at det var førstemann som fikk 5 poeng som vant. Da de kom til stillingen 2-4 ble de «busta» av Ingvald som tok mynten og sa at de må avslutte. Problemet er at det ble lagt inn 3000 kroner i potten. Hvordan skal de fordele pengene?
 
-#### Grunnleggende: Forklare store talls lov
-
 1. Forklar store talls lov ved hjelp av et eksempel.
 
 #### Middels: Undersøke og estimere sannsynligheter ved å bruke store talls lov
+
+Dette læringsmålet gjøres og godkjennes som en gruppeoppgave (på maks
+tre personer).
+
+Læringsmålet tar utgangspunkt i aktiviteten fra timen tirsdag 28.03.
+
+*Aktivitet*: Henrik og André gamblet i pauserommet i J-bygget med en mynt de hadde liggende. Henrik hadde valgt kron og André mynt. De bestemte seg at det var førstemann som fikk 5 poeng som vant. Da de kom til stillingen 2-4 ble de «busta» av Ingvald som tok mynten og sa at de må avslutte. Problemet er at det ble lagt inn 3000 kroner i potten. Hvordan skal de fordele pengene?
 
 1. Forklar store talls lov ved hjelp av et eksempel
 2. Ta utgangspunkt i aktiviteten beskrevet over.
@@ -119,6 +126,13 @@ Læringsmålet tar utgangspunkt i aktiviteten fra timen tirsdag 28.03.
        - Besvarelsen må ikke bare gjøre et godt estimat av sannsynlighetene. Besvarelsen også må være skrevet og strukturert på en slik måte at leseren kan gjenta simuleringen og få tilsvarende resultater.
 
 #### Avansert: Undersøke, estimere og bruke store talls lov i undervisning
+
+Dette læringsmålet gjøres og godkjennes som en gruppeoppgave (på maks
+tre personer).
+
+Læringsmålet tar utgangspunkt i aktiviteten fra timen tirsdag 28.03.
+
+*Aktivitet*: Henrik og André gamblet i pauserommet i J-bygget med en mynt de hadde liggende. Henrik hadde valgt kron og André mynt. De bestemte seg at det var førstemann som fikk 5 poeng som vant. Da de kom til stillingen 2-4 ble de «busta» av Ingvald som tok mynten og sa at de må avslutte. Problemet er at det ble lagt inn 3000 kroner i potten. Hvordan skal de fordele pengene?
 
 1. Forklar store talls lov ved hjelp av et eksempel
 2. Ta utgangspunkt i aktiviteten beskrevet over.
@@ -151,19 +165,19 @@ Forklar og gi eksempler til begrepene
 
 #### Middels: Begrunne at et utvalg er ordnet med og uten tilbakelegg, og finne antall muligheter i utvalget
 
-1. Begrunn at følgende situasjoner kan tenkes på som ordnede utvalg med tilbakelegg og finn antall muligheter i utvalgene
-  a. Du skal velge en firesifret kode der du kan ha sifrene 0-9 på hver posisjon.
-  b. Du skal kaste en terning tre ganger og skriver opp antall øyne på terningen for hvert kast i kronologisk rekkefølge.
-2. Begrunn at følgende situasjoner kan tenkes på som ordnede utvalg uten tilbakelegg og finn antall muligheter i utvalgene
+1. Begrunn at følgende situasjoner kan tenkes på som ordnede utvalg med tilbakelegg og finn antall muligheter i utvalgene\
+   a. Du skal velge en firesifret kode der du kan ha sifrene 0-9 på hver posisjon.
+   b. Du skal kaste en terning tre ganger og skriver opp antall øyne på terningen for hvert kast i kronologisk rekkefølge.
+2. Begrunn at følgende situasjoner kan tenkes på som ordnede utvalg uten tilbakelegg og finn antall muligheter i utvalgene\
    a. Du skal stokke om bokstavene i navnet André.
    b. I et skirenn deltar det 7 personer. Du ønsker å skrive opp mulige 1.- 2.- og 3.plasser som kan oppstå.
 
 ##### Løsningsforslag
 
-1. Begrunn at følgende situasjoner kan tenkes på som ordnede utvalg med tilbakelegg og finn antall muligheter i utvalgene
+1. Begrunn at følgende situasjoner kan tenkes på som ordnede utvalg med tilbakelegg og finn antall muligheter i utvalgene\
    a. Siden vi skal velge fire posisjoner og vi kan velge hvilket siffer vi vil på hver posisjon har vi alltid 10 sifre og velge mellom. En kan derfor tenke at en mulig kode kan finnes ved å trekke et siffer fire ganger. Skal du låse opp en kode, må vi så klart ta hensyn til rekkefølgen. Derfor får vi et ordnet (fordi rekkefølgen betyr noe) utvalg med tilbakelegg (fordi vi kan velge samme siffer flere ganger). Vi har derfor $10 \cdot 10 \cdot 10 \cdot 10 = 10000$ mulige kombinasjoner vi kan velge.
    b. Vi skal skrive opp antall øyne for hvert kast. Et eksempel kan være (1,3, 6) som betyr 1 på første, 3 på andre og 6 på tredje. Vi ser at rekkefølgen betyr noe, siden (3, 1, 6) betyr 3 på første og 1 på andre. Siden vi hver gang kan slå et tall fra 1 til 6 blir dette også et ordnet utvalg med tilbakelegg, som gir $6 \cdot 6 \cdot 6 = 216$ mulige utfall.
-2. Begrunn at følgende utvalg er ordnede utvalg uten tilbakelegg og finn antall muligheter i utvalgene
+2. Begrunn at følgende utvalg er ordnede utvalg uten tilbakelegg og finn antall muligheter i utvalgene\
    a. Siden vi har fem bokstaver (A, n, d, r, e) som jeg skal stokke om, så kan jeg ikke bruke de flere ganger (uten tilbakelegg). Likevel så bryr jeg meg om rekkefølgen, så det er et ordnet utvalg. Det gir derfor først fem valg, så 4 valg (siden jeg har brukt opp en bokstav), så 3 valg og så videre, altså $5 \cdot 4 \cdot 3 \cdot 2 \cdot 1 = 120$.
 
 ### Forklare og bruke begrepene uordnet utvalg med og uten tilbakelegg
@@ -174,10 +188,10 @@ Forklar og gi eksempler til begrepene
 
 #### Middels: Begrunne at et utvalg er uordnet m/u tilbakelegg, og finne antall muligheter i utvalget
 
-1. Begrunn at følgende situasjoner kan tenkes på som uordnede utvalg uten tilbakelegg og finn antall muligheter i utvalgene
+1. Begrunn at følgende situasjoner kan tenkes på som uordnede utvalg uten tilbakelegg og finn antall muligheter i utvalgene\
    a. Du har en twistpose med 7 forskjellige twist igjen. Du tar hånden ned i poser og får med deg tre twist.
    b. Det skal trekkes tre heldige ansatte blant 15 ansatte som får et gavekort på 1000 kr hver.
-2. Begrunn at følgende situasjoner kan tenkes på som uordnede utvalg med tilbakelegg og finn antall muligheter i utvalgene
+2. Begrunn at følgende situasjoner kan tenkes på som uordnede utvalg med tilbakelegg og finn antall muligheter i utvalgene\
    a.Du skal bestille 3 pizza fra Dolly dimples til deg og vennegjengen på en fredag. Dolly dimples har 5 mulige typer dere kan velge mellom.
    b. Du bestemmer deg for å spise fem frukter hver dag. Du har alltid 5 bananer, 5 pærer, 5 epler og 5 appelsiner liggende.
 
