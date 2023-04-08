@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example</title>
+	<style>
+		td {
+			width: 50px;
+			height: 50px;
+			text-align: center;
+			border: 1px solid black;
+		}
+	</style>
+</head>
+<body>
+    
+	<table>
+		<tr>
+			<td></td>
+			<td id="526681"></td>
+			<td id="526682"></td>
+			<td id="526683"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td id="526711"></td>
+			<td id="526712"></td>
+			<td id="526713"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td id="526701"></td>
+			<td id="526702"></td>
+			<td id="526703"></td>
+		</tr>
+	</table>
+
+	<script>
+		// Define a list of assignment IDs to retrieve data for
+		const assignmentIds = [52668, 52670, 52671];
+
+		// Loop through each assignment ID and retrieve data
+		assignmentIds.forEach(assignmentId => {
+		  // Construct the URL for the API request
+		  const url = `https://uia.instructure.com//api/v1/courses/9847/assignments/${assignmentId}?include[]=submission&include[]=submission_history&per_page=10000`;
+
+		  // Make the API request and handle the response
+		  fetch(url)
+		    .then(response => response.json())
+		    .then(data => {
+		      // Extract the highest entered score for this assignment
+		      const maxScore = Math.max(...data.submissions.map(submission => submission.entered_score || 0));
+
+		      // Target all table cells with an ID that starts with the assignment ID
+		      const cells = document.querySelectorAll(`[id^="${assignmentId}"]`);
+
+		      // Style the cells based on the max score
+		      cells.forEach(cell => {
+		        const lastDigit = Number(cell.id.slice(-1));
+		        if (lastDigit <= maxScore) {
+		          cell.style.backgroundColor = "green";
+		        }
+		      });
+		    })
+		    .catch(error => console.log(error));
+		});
+	</script>
+</body>
+</html>
