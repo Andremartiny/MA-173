@@ -7,9 +7,7 @@
       content="width=device-width, initial-scale=1.0, minimum-scale=1"
     />
     <title>HTML Page with Divs</title>
-    <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css">
-    <script src="script.js"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"
       loading="lazy"
@@ -20,6 +18,87 @@
         elements_selector: ".lazy",
       });
     </script>
+     <style>
+      @import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
+html * {
+  font-family: 'Fira Code', monospace;
+  font-weight: 400;
+}
+
+
+code { font-family: 'Fira Code', monospace; }
+
+@supports (font-variation-settings: normal) {
+  code { font-family: 'Fira Code VF', monospace; }
+}
+
+body, div {
+  background-color: #fafafa;
+  overflow-x: hidden;
+}
+img{
+  max-width:60vw;
+}
+#mainpage, div {
+  position: absolute;
+  width: 97vw - 120px;
+  height: 100vh; 
+  overflow: hidden;
+  background-color: #fafafa;
+  transition: transform 1s ease;
+  margin-bottom: 30px;
+  margin-left: 0px;
+  padding: 60px;
+}
+div:not(#mainpage){
+  transform: translateX(200vw);
+}
+h2:hover,
+td:hover {
+  cursor: pointer;
+}
+h2 {
+  font-size: clamp(2em, 2vw, 4em);
+  font-weight: 400;
+}
+
+h3, h4, h5 {
+  font-weight: 1000;
+}
+
+h5 {
+  font-family: 'Fira Code', monospace;
+  font-size: 1em;
+}
+
+table {
+ background-color: #fafafa;
+ border: 1px solid #dde7ea;
+ border-radius: 5px;
+ border-collapse: collapse;
+ max-width: 80vw;
+}
+
+p, li {
+  width: 60vw
+}
+td {
+  border: 1px solid #dde7ea;
+  padding-right: 30px;
+  padding-left: 30px;
+  max-width: 25vw;
+  min-width: 17vw;
+}
+tr {
+  border: 1px solid #dde7ea;
+}
+tr:nth-child(even){
+  background-color: #edf2f4;
+}
+#tallteori {
+  margin-right: 300px;
+}
+    </style>
   </head>
   <body>
     <div id="mainpage">
@@ -107,7 +186,7 @@
       <td onclick="moveDivs('funk','funk1a')"> Avansert </td>
       </tr>
       <tr>
-      <td> Forklare sammenhenger mellom parameterne i funksjonsuttrykket og grafen til lineære funksjoner uten hjelp av topunktsformelen. </td>
+      <td> Forklare sammenhenger mellom parameterne i funksjonsuttrykket og grafen til lineære funksjoner. </td>
       <td onclick="moveDivs('funk','funk2g')"> Grunnleggende</td>
       <td onclick="moveDivs('funk','funk1m')"> Middels</td>
       <td>
@@ -206,7 +285,7 @@
             <td  onclick="moveDivs('geo','geo3a')">Avansert</td>
         </tr>
         <tr>
-            <td>Bruke begrepene mangekant, sirkel, prisme og pyramide.</td>
+            <td>Bruke begrepene kvadrat, rektangel, parallellogram, trapes, likebeint trekant, likesidet trekant, rettvinklet trekant, mangekant, sirkel.</td>
             <td onclick="moveDivs('geo','geo4g')">Grunnleggende</td>
             <td onclick="moveDivs('geo','geo4m')">Middels</td>
             <td></td>
@@ -746,7 +825,6 @@ id="funk6m"
   <h1 onclick="moveDivsback('geo',  'geo8g')"> Tilbake til Måling og areal </h1> </div>
 <div id=                            "geo8m">
   <h1 onclick="moveDivsback('geo',  'geo8m')"> Tilbake til Måling og areal </h1> </div>
-  </body>
   <div id=                                "sannsyn1g">
     <h1 onclick="moveDivsback('sannsyn',  'sannsyn1g')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
     <div id=                                "sannsyn1m">
@@ -886,5 +964,20 @@ id="funk6m"
 <h1 onclick="moveDivsback('tall',  'tall20m')"> Tilbake til Tall </h1> </div>
 <div id=                           "tall20a">
 <h1 onclick="moveDivsback('tall',  'tall20a')"> Tilbake til Tall </h1> </div>
+<script>
+  function moveDivs(from, to, wheretoplacefromdiv = "-200vw", wheretoplacetodiv = "0vw") {
+  const fromdiv = document.getElementById(from);
+  const todiv = document.getElementById(to);
+  fromdiv.style.transform = `translateX(${wheretoplacefromdiv})`;
+  fromdiv.style.overflow = "hidden";
+  fromdiv.style.height = "0px";
+  todiv.style.transform = `translateX(${wheretoplacetodiv})`;
+  todiv.style.height = "auto";
+  todiv.style.overflow = "visible";
+}
+function moveDivsback(from, to, x = "0vw", y = "200vw") {
+  moveDivs(to, from, y, x)
+}
+</script>
     </body>
 </html>

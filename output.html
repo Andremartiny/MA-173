@@ -5,9 +5,7 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0, minimum-scale=1" name="viewport"/>
 <title>HTML Page with Divs</title>
-<link href="styles.css" rel="stylesheet"/>
 <link href="https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css" rel="stylesheet"/>
-<script src="script.js"></script>
 <script loading="lazy" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.1.0/dist/lazyload.min.js"></script>
 <script>
@@ -15,6 +13,87 @@
         elements_selector: ".lazy",
       });
     </script>
+<style>
+      @import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
+html * {
+  font-family: 'Fira Code', monospace;
+  font-weight: 400;
+}
+
+
+code { font-family: 'Fira Code', monospace; }
+
+@supports (font-variation-settings: normal) {
+  code { font-family: 'Fira Code VF', monospace; }
+}
+
+body, div {
+  background-color: #fafafa;
+  overflow-x: hidden;
+}
+img{
+  max-width:60vw;
+}
+#mainpage, div {
+  position: absolute;
+  width: 97vw - 120px;
+  height: 100vh; 
+  overflow: hidden;
+  background-color: #fafafa;
+  transition: transform 1s ease;
+  margin-bottom: 30px;
+  margin-left: 0px;
+  padding: 60px;
+}
+div:not(#mainpage){
+  transform: translateX(200vw);
+}
+h2:hover,
+td:hover {
+  cursor: pointer;
+}
+h2 {
+  font-size: clamp(2em, 2vw, 4em);
+  font-weight: 400;
+}
+
+h3, h4, h5 {
+  font-weight: 1000;
+}
+
+h5 {
+  font-family: 'Fira Code', monospace;
+  font-size: 1em;
+}
+
+table {
+ background-color: #fafafa;
+ border: 1px solid #dde7ea;
+ border-radius: 5px;
+ border-collapse: collapse;
+ max-width: 80vw;
+}
+
+p, li {
+  width: 60vw
+}
+td {
+  border: 1px solid #dde7ea;
+  padding-right: 30px;
+  padding-left: 30px;
+  max-width: 25vw;
+  min-width: 17vw;
+}
+tr {
+  border: 1px solid #dde7ea;
+}
+tr:nth-child(even){
+  background-color: #edf2f4;
+}
+#tallteori {
+  margin-right: 300px;
+}
+    </style>
 </head>
 <body>
 <div id="mainpage">
@@ -41,9 +120,7 @@
 <td> Bruke begrepene faktor (divisor), felles faktor og største felles faktor, multiplum, felles multiplum og minste felles multiplum.</td>
 <td onclick="moveDivs('tallteori','tallteo1g')"> Grunnleggende</td>
 <td onclick="moveDivs('tallteori','tallteo1m')"> Middels </td>
-<td onclick="moveDivs('tallteori','tallteo1a')">
-            Avansert
-          </td>
+<td onclick="moveDivs('tallteori','tallteo1a')"> Avansert </td>
 </tr>
 <tr>
 <td> Bruke begrepene naturlig tall, partall og oddetall, primtall og sammensatt tall. </td>
@@ -104,7 +181,7 @@
 <td onclick="moveDivs('funk','funk1a')"> Avansert </td>
 </tr>
 <tr>
-<td> Forklare sammenhenger mellom parameterne i funksjonsuttrykket og grafen til lineære funksjoner uten hjelp av topunktsformelen. </td>
+<td> Forklare sammenhenger mellom parameterne i funksjonsuttrykket og grafen til lineære funksjoner. </td>
 <td onclick="moveDivs('funk','funk2g')"> Grunnleggende</td>
 <td onclick="moveDivs('funk','funk1m')"> Middels</td>
 <td>
@@ -203,7 +280,7 @@
 <td onclick="moveDivs('geo','geo3a')">Avansert</td>
 </tr>
 <tr>
-<td>Bruke begrepene mangekant, sirkel, prisme og pyramide.</td>
+<td>Bruke begrepene kvadrat, rektangel, parallellogram, trapes, likebeint trekant, likesidet trekant, rettvinklet trekant, mangekant, sirkel.</td>
 <td onclick="moveDivs('geo','geo4g')">Grunnleggende</td>
 <td onclick="moveDivs('geo','geo4m')">Middels</td>
 <td></td>
@@ -4754,7 +4831,6 @@ z^2 = y^2 + 20y
 y^2 = z^2 - 10 z.
 \end{aligned}
 \]</span> Ved å bruke innsetning kan vi nå se at <span class="math inline">\(z^2 = z^2 - 10 z + 20y\)</span> eller at <span class="math inline">\(10z = 20 y\)</span> eller at <span class="math inline">\(z = 2y\)</span>. Det gir videre at <span class="math inline">\(y^2 = (2y)^2 - 20y\)</span>. Som nå gir at <span class="math inline">\(3y^2 = 20y\)</span> eller at <span class="math inline">\(y = \frac{20}{3}\)</span>, som betyr at <span class="math inline">\(z = \frac{40}{3}\)</span>.</p></div>
-</body>
 <div id="sannsyn1g">
 <h1 onclick="moveDivsback('sannsyn',  'sannsyn1g')"> Tilbake til Sannsynlighet og kombinatorikk </h1> <h4 id="grunnleggende-øveppgaver">Grunnleggende: Øveppgaver</h4><p>Forklar hva en sannsynlighetsmodell er ved hjelp av begrepene utfall,
 utfallsrom og hendelse. Gi et eksempel på en sannsynlighetsmodell.</p><h4 id="grunnleggende-31.03.23">Grunnleggende: 31.03.23</h4><ol type="1">
@@ -4850,11 +4926,25 @@ plass, Henrik havner på andre plass, Henrik havner på tredje plass,…,
 Henrik havner på femtende plass}. Det er kun to av plassene som får han
 med i elevrådet, dermed <span class="math inline">\(\frac{2}{15}\)</span> sannsynlighet for dette.</p></div>
 <div id="sannsyn3g">
-<h1 onclick="moveDivsback('sannsyn',  'sannsyn3g')"> Tilbake til Sannsynlighet og kombinatorikk </h1> <h4 id="grunnleggende-øveppgaver">Grunnleggende: Øveppgaver</h4><ol type="1">
+<h1 onclick="moveDivsback('sannsyn',  'sannsyn3g')"> Tilbake til Sannsynlighet og kombinatorikk </h1> <h4 id="grunnleggende-øveppgaver">Grunnleggende: Øveppgaver</h4><p>Dette læringsmålet gjøres og godkjennes som en gruppeoppgave (på maks
+tre personer).</p><p>Læringsmålet tar utgangspunkt i aktiviteten fra timen tirsdag
+28.03.</p><p><em>Aktivitet</em>: Henrik og André gamblet i pauserommet i J-bygget
+med en mynt de hadde liggende. Henrik hadde valgt kron og André mynt. De
+bestemte seg at det var førstemann som fikk 5 poeng som vant. Da de kom
+til stillingen 2-4 ble de «busta» av Ingvald som tok mynten og sa at de
+må avslutte. Problemet er at det ble lagt inn 3000 kroner i potten.
+Hvordan skal de fordele pengene?</p><ol type="1">
 <li>Forklar store talls lov ved hjelp av et eksempel.</li>
 </ol></div>
 <div id="sannsyn3m">
-<h1 onclick="moveDivsback('sannsyn',  'sannsyn3m')"> Tilbake til Sannsynlighet og kombinatorikk </h1> <h4 id="middels-øveppgaver">Middels: Øveppgaver</h4><ol type="1">
+<h1 onclick="moveDivsback('sannsyn',  'sannsyn3m')"> Tilbake til Sannsynlighet og kombinatorikk </h1> <h4 id="middels-øveppgaver">Middels: Øveppgaver</h4><p>Dette læringsmålet gjøres og godkjennes som en gruppeoppgave (på maks
+tre personer).</p><p>Læringsmålet tar utgangspunkt i aktiviteten fra timen tirsdag
+28.03.</p><p><em>Aktivitet</em>: Henrik og André gamblet i pauserommet i J-bygget
+med en mynt de hadde liggende. Henrik hadde valgt kron og André mynt. De
+bestemte seg at det var førstemann som fikk 5 poeng som vant. Da de kom
+til stillingen 2-4 ble de «busta» av Ingvald som tok mynten og sa at de
+må avslutte. Problemet er at det ble lagt inn 3000 kroner i potten.
+Hvordan skal de fordele pengene?</p><ol type="1">
 <li>Forklar store talls lov ved hjelp av et eksempel</li>
 <li>Ta utgangspunkt i aktiviteten beskrevet over.
 <ol type="a">
@@ -4882,14 +4972,14 @@ leseren kan gjenta simuleringen og få tilsvarende resultater.</li>
 </ol></li>
 </ol></div>
 <div id="sannsyn3a">
-<h1 onclick="moveDivsback('sannsyn',  'sannsyn3a')"> Tilbake til Sannsynlighet og kombinatorikk </h1> <p>Dette læringsmålet gjøres og godkjennes som en gruppeoppgave (på maks
+<h1 onclick="moveDivsback('sannsyn',  'sannsyn3a')"> Tilbake til Sannsynlighet og kombinatorikk </h1> <h4 id="avansert-øveppgaver">Avansert: Øveppgaver</h4><p>Dette læringsmålet gjøres og godkjennes som en gruppeoppgave (på maks
 tre personer).</p><p>Læringsmålet tar utgangspunkt i aktiviteten fra timen tirsdag
 28.03.</p><p><em>Aktivitet</em>: Henrik og André gamblet i pauserommet i J-bygget
 med en mynt de hadde liggende. Henrik hadde valgt kron og André mynt. De
 bestemte seg at det var førstemann som fikk 5 poeng som vant. Da de kom
 til stillingen 2-4 ble de «busta» av Ingvald som tok mynten og sa at de
 må avslutte. Problemet er at det ble lagt inn 3000 kroner i potten.
-Hvordan skal de fordele pengene?</p><h4 id="avansert-øveppgaver">Avansert: Øveppgaver</h4><ol type="1">
+Hvordan skal de fordele pengene?</p><ol type="1">
 <li>Forklar store talls lov ved hjelp av et eksempel</li>
 <li>Ta utgangspunkt i aktiviteten beskrevet over.
 <ol type="a">
@@ -4933,15 +5023,15 @@ kommer frem at produktregelen må gjelde (Setning 7.53).</p></div>
 <div id="sannsyn5m">
 <h1 onclick="moveDivsback('sannsyn',  'sannsyn5m')"> Tilbake til Sannsynlighet og kombinatorikk </h1> <h4 id="middels-øveppgaver">Middels: Øveppgaver</h4><ol type="1">
 <li>Begrunn at følgende situasjoner kan tenkes på som ordnede utvalg med
-tilbakelegg og finn antall muligheter i utvalgene</li>
-</ol><ol type="a">
+tilbakelegg og finn antall muligheter i utvalgene<br/>
+<ol type="a">
 <li>Du skal velge en firesifret kode der du kan ha sifrene 0-9 på hver
 posisjon.</li>
 <li>Du skal kaste en terning tre ganger og skriver opp antall øyne på
 terningen for hvert kast i kronologisk rekkefølge.</li>
-</ol><ol start="2" type="1">
+</ol></li>
 <li>Begrunn at følgende situasjoner kan tenkes på som ordnede utvalg
-uten tilbakelegg og finn antall muligheter i utvalgene
+uten tilbakelegg og finn antall muligheter i utvalgene<br/>
 <ol type="a">
 <li>Du skal stokke om bokstavene i navnet André.</li>
 <li>I et skirenn deltar det 7 personer. Du ønsker å skrive opp mulige
@@ -4949,7 +5039,7 @@ uten tilbakelegg og finn antall muligheter i utvalgene
 </ol></li>
 </ol><h5 id="løsningsforslag">Løsningsforslag</h5><ol type="1">
 <li>Begrunn at følgende situasjoner kan tenkes på som ordnede utvalg med
-tilbakelegg og finn antall muligheter i utvalgene
+tilbakelegg og finn antall muligheter i utvalgene<br/>
 <ol type="a">
 <li>Siden vi skal velge fire posisjoner og vi kan velge hvilket siffer
 vi vil på hver posisjon har vi alltid 10 sifre og velge mellom. En kan
@@ -4967,7 +5057,7 @@ utvalg med tilbakelegg, som gir <span class="math inline">\(6 \cdot 6
 \cdot 6 = 216\)</span> mulige utfall.</li>
 </ol></li>
 <li>Begrunn at følgende utvalg er ordnede utvalg uten tilbakelegg og
-finn antall muligheter i utvalgene
+finn antall muligheter i utvalgene<br/>
 <ol type="a">
 <li>Siden vi har fem bokstaver (A, n, d, r, e) som jeg skal stokke om,
 så kan jeg ikke bruke de flere ganger (uten tilbakelegg). Likevel så
@@ -4982,7 +5072,7 @@ valg og så videre, altså <span class="math inline">\(5 \cdot 4 \cdot 3
 <div id="sannsyn6m">
 <h1 onclick="moveDivsback('sannsyn',  'sannsyn6m')"> Tilbake til Sannsynlighet og kombinatorikk </h1> <h4 id="middels-øveppgaver">Middels: Øveppgaver</h4><ol type="1">
 <li>Begrunn at følgende situasjoner kan tenkes på som uordnede utvalg
-uten tilbakelegg og finn antall muligheter i utvalgene
+uten tilbakelegg og finn antall muligheter i utvalgene<br/>
 <ol type="a">
 <li>Du har en twistpose med 7 forskjellige twist igjen. Du tar hånden
 ned i poser og får med deg tre twist.</li>
@@ -4990,9 +5080,9 @@ ned i poser og får med deg tre twist.</li>
 gavekort på 1000 kr hver.</li>
 </ol></li>
 <li>Begrunn at følgende situasjoner kan tenkes på som uordnede utvalg
-med tilbakelegg og finn antall muligheter i utvalgene a.Du skal bestille
-3 pizza fra Dolly dimples til deg og vennegjengen på en fredag. Dolly
-dimples har 5 mulige typer dere kan velge mellom.
+med tilbakelegg og finn antall muligheter i utvalgene<br/>
+a.Du skal bestille 3 pizza fra Dolly dimples til deg og vennegjengen på
+en fredag. Dolly dimples har 5 mulige typer dere kan velge mellom.
 <ol start="2" type="a">
 <li>Du bestemmer deg for å spise fem frukter hver dag. Du har alltid 5
 bananer, 5 pærer, 5 epler og 5 appelsiner liggende.</li>
@@ -6588,5 +6678,20 @@ n}\)</span></td>
 </tr>
 </tbody>
 </table></div>
-
+<script>
+  function moveDivs(from, to, wheretoplacefromdiv = "-200vw", wheretoplacetodiv = "0vw") {
+  const fromdiv = document.getElementById(from);
+  const todiv = document.getElementById(to);
+  fromdiv.style.transform = `translateX(${wheretoplacefromdiv})`;
+  fromdiv.style.overflow = "hidden";
+  fromdiv.style.height = "0px";
+  todiv.style.transform = `translateX(${wheretoplacetodiv})`;
+  todiv.style.height = "auto";
+  todiv.style.overflow = "visible";
+}
+function moveDivsback(from, to, x = "0vw", y = "200vw") {
+  moveDivs(to, from, y, x)
+}
+</script>
+</body>
 </html>
