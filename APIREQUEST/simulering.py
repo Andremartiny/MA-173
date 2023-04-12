@@ -13,7 +13,7 @@ headers = {
 
 # Replace with your desired course ID
 course_id = 9847
-
+# course_id = 12547 # MA-173-ID: 12547
 
 
 
@@ -32,35 +32,6 @@ def get_quizzes():
     
     return {quizzes["title"]: quizzes["id"] for quizzes in response.json()}
 
-def delete_assignment(assignment_id):
-    response = requests.delete(
-        f"https://{CANVAS_DOMAIN}/api/v1/courses/{course_id}/quizzes/{assignment_id}",
-        headers=headers,
-    )
-    return response.status_code == 200
-# Replace with the list of assignment names you want to delete
-# assignments_to_delete = assignment_names
-
-# Fetch all assignments for the course
-# assignments = get_assignments()
-
-# print(assignments)
-# Iterate through the list of assignment names and delete each one
-# for assignment_ID in assignments:
-#     assignment_name = assignments[assignment_ID]
-#     if assignment_ID:
-#         success = delete_assignment(assignment_ID)
-#         if success:
-#             print(f"Deleted assignment '{assignment_name}'")
-#         else:
-#             print(f"Failed to delete assignment '{assignment_name}'")
-#     else:
-#         print(f"Assignment '{assignment_name}' not found")
-
-###########################################################################################
-
-
-# ################################### LAGE OPPGAVER ##########################################
 
 def create_assignment(name, group_id=None):
     assignment_data = {

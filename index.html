@@ -53,15 +53,22 @@ img{
 div:not(#mainpage){
   transform: translateX(200vw);
 }
+
 h2:hover,
-td:hover {
+td:hover,
+button:hover {
   cursor: pointer;
 }
-h2 {
+h2, button {
   font-size: clamp(2em, 2vw, 4em);
   font-weight: 400;
 }
-
+button{
+  background-color: #edf2f4;
+  border: 1px solid #dde7ea;
+  border-bottom: none;
+ border-radius: 3px;
+}
 h3, h4, h5 {
   font-weight: 1000;
 }
@@ -113,7 +120,7 @@ tr:nth-child(even){
       </h2>
     </div>
     <div id="tallteori">
-      <h1 onclick="moveDivsback('mainpage', 'tallteori')">Tilbake til tema</h1>
+      <button onclick="moveDivsback('mainpage', 'tallteori')">Tilbake til tema</button>
       <table>
       <tr>
       <td colspan="4"><h2>Tallteori</h2></td>
@@ -171,7 +178,7 @@ tr:nth-child(even){
       </table>
       </div>
       <div id="funk">
-      <h1 onclick="moveDivsback('mainpage', 'funk')">Tilbake til tema</h1>
+      <button onclick="moveDivsback('mainpage', 'funk')">Tilbake til tema</button>
       <table>
       <tr>
       <td colspan="4"><h2>Funksjoner</h2></td>
@@ -220,7 +227,7 @@ tr:nth-child(even){
       </table>
       </div>
     <div id="likn">
-      <h1 onclick="moveDivsback('mainpage', 'likn')">Tilbake til tema</h1>
+      <button onclick="moveDivsback('mainpage', 'likn')">Tilbake til tema</button>
       <table>
         <tr>
             <td><h2>Likninger og ulikheter</h2></td>
@@ -258,7 +265,7 @@ tr:nth-child(even){
     </table>
     </div>
     <div id="geo">
-      <h1 onclick="moveDivsback('mainpage', 'geo')">Tilbake til tema</h1>
+      <button onclick="moveDivsback('mainpage', 'geo')">Tilbake til tema</button>
       <table>
         <tr>
             <td><h2>Måling og areal</h2></td>
@@ -317,7 +324,7 @@ tr:nth-child(even){
     </table>
     </div>
     <div id="tall">
-      <h1 onclick="moveDivsback('mainpage', 'tall')">Tilbake til tema</h1>
+      <button onclick="moveDivsback('mainpage', 'tall')">Tilbake til tema</button>
       <table>
         <tr>
             <td><h2>Tall</h2></td>
@@ -448,7 +455,7 @@ tr:nth-child(even){
     </table>
     </div>
     <div id="sannsyn">
-      <h1 onclick="moveDivsback('mainpage', 'sannsyn')">Tilbake til tema</h1>
+      <button onclick="moveDivsback('mainpage', 'sannsyn')">Tilbake til tema</button>
       <table>
         <tr>
             <td><h2>Sannsynlighet, kombinatorikk og statistikk</h2></td>
@@ -515,457 +522,452 @@ tr:nth-child(even){
         </tr>
     </table>
     </div>
-    <div
-      id="tallteo1g"
-    >
-      <h1
-        onclick="moveDivsback('tallteori','tallteo1g')"
-      >
-        Tilbake til tallteori
-      </h1>
+    <div id="tallteo1g" >
+      <button onclick="moveDivsback('tallteori','tallteo1g')"> Tilbake til tallteori </button>
     </div>
     <div id="tallteo1m">
-      <h1
+      <button
         onclick="moveDivsback('tallteori','tallteo1m')"
       >
         Tilbake til tallteori
-      </h1>
+      </button>
     </div>
     <div id="tallteo1a">
-      <h1
+      <button
         onclick="moveDivsback('tallteori','tallteo1a')"
       >
         Tilbake til tallteori
-      </h1>
+      </button>
     </div>
     <div
     id="tallteo2g"
   >
-    <h1
+    <button
       onclick="moveDivsback('tallteori','tallteo2g')"
     >
       Tilbake til tallteori
-    </h1>
+    </button>
   </div>
   <div id="tallteo2m">
-    <h1
+    <button
       onclick="moveDivsback('tallteori','tallteo2m')"
     >
       Tilbake til tallteori
-    </h1>
+    </button>
   </div>
   <div id="tallteo2a">
-    <h1
+    <button
       onclick="moveDivsback('tallteori','tallteo2a')"
     >
       Tilbake til tallteori
-    </h1>
+    </button>
   </div>
 <div id="tallteo3m">
-  <h1
+  <button
     onclick="moveDivsback('tallteori','tallteo3m')"
   >
     Tilbake til tallteori
-  </h1>
+  </button>
 </div>
 <div
 id="tallteo4g"
 >
-<h1
+<button
   onclick="moveDivsback('tallteori','tallteo4g')"
 >
   Tilbake til tallteori
-</h1>
+</button>
 </div>
 <div id="tallteo4m">
-<h1
+<button
   onclick="moveDivsback('tallteori','tallteo4m')"
 >
   Tilbake til tallteori
-</h1>
+</button>
 </div>
 <div id="tallteo4a">
-<h1
+<button
   onclick="moveDivsback('tallteori','tallteo4a')"
 >
   Tilbake til tallteori
-</h1>
+</button>
 </div>
 <div
 id="tallteo5g"
 >
-<h1
+<button
   onclick="moveDivsback('tallteori','tallteo5g')"
 >
   Tilbake til tallteori
-</h1>
+</button>
 </div>
 <div id="tallteo5m">
-<h1
+<button
   onclick="moveDivsback('tallteori','tallteo5m')"
 >
   Tilbake til tallteori
-</h1>
+</button>
 </div>
 <div
 id="tallteo6g"
 >
-<h1
+<button
   onclick="moveDivsback('tallteori','tallteo6g')"
 >
   Tilbake til tallteori
-</h1>
+</button>
 </div>
 <div id="tallteo6m">
-<h1
+<button
   onclick="moveDivsback('tallteori','tallteo6m')"
 >
   Tilbake til tallteori
-</h1>
+</button>
 </div>
 <div id="tallteo6a">
-<h1
+<button
   onclick="moveDivsback('tallteori','tallteo6a')"
 >
   Tilbake til tallteori
-</h1>
+</button>
 </div>
 <div id="tallteo7m">
-<h1
+<button
   onclick="moveDivsback('tallteori','tallteo7m')"
 >
   Tilbake til tallteori
-</h1>
+</button>
 </div>
 <div id="tallteo7a">
-<h1
+<button
   onclick="moveDivsback('tallteori','tallteo7a')"
 >
   Tilbake til tallteori
-</h1>
+</button>
 </div>
 <div
 id="funk1g"
 >
-<h1
+<button
   onclick="moveDivsback('funk','funk1g')"
 >
   Tilbake til funksjoner
-</h1>
+</button>
 </div>
 <div
 id="funk1m"
 >
-<h1
+<button
   onclick="moveDivsback('funk','funk1m')"
 >
   Tilbake til funksjoner
-</h1>
+</button>
 </div>
 <div
 id="funk1a"
 >
-<h1
+<button
   onclick="moveDivsback('funk','funk1a')"
 > 
   Tilbake til funksjoner
-</h1> 
+</button> 
 </div>
 <div
 id="funk2g"
 >
-<h1
+<button
   onclick="moveDivsback('funk','funk2g')"
 >
   Tilbake til funksjoner
-</h1>
+</button>
 </div>
 <div
 id="funk2m"
 >
-<h1
+<button
   onclick="moveDivsback('funk','funk2m')"
 >
   Tilbake til funksjoner
-</h1>
+</button>
 </div>
 <div
 id="funk3g"
 >
-<h1
+<button
   onclick="moveDivsback('funk','funk3g')"
 >
   Tilbake til funksjoner
-</h1>
+</button>
 </div>
 <div
 id="funk3m"
 >
-<h1
+<button
   onclick="moveDivsback('funk','funk3m')"
 >
   Tilbake til funksjoner
-</h1>
+</button>
 </div>
 
 <div
 id="funk4g"
 >
-<h1
+<button
   onclick="moveDivsback('funk','funk4g')"
 >
   Tilbake til funksjoner
-</h1>
+</button>
 </div>
 <div
 id="funk4m"
 >
-<h1
+<button
   onclick="moveDivsback('funk','funk4m')"
 >
   Tilbake til funksjoner
-</h1>
+</button>
 </div>
 <div
 id="funk4a"
 >
-<h1
+<button
   onclick="moveDivsback('funk','funk4a')"
 >
   Tilbake til funksjoner
-</h1>
+</button>
 </div>
 <div
 id="funk5g"
 >
-<h1
+<button
   onclick="moveDivsback('funk','funk5g')"
 >
   Tilbake til funksjoner
-</h1>
+</button>
 </div>
 <div
 id="funk5m"
 >
-<h1
+<button
   onclick="moveDivsback('funk','funk5m')"
 >
   Tilbake til funksjoner
-</h1>
+</button>
 </div>
 
 <div
 id="funk6m"
 >
-<h1
+<button
   onclick="moveDivsback('funk','funk6m')"
 >
   Tilbake til funksjoner
-</h1>
+</button>
 </div>
 <div id=                          "likn1g">
-<h1 onclick="moveDivsback('likn', 'likn1g')"> Tilbake til likninger </h1> </div>
+<button onclick="moveDivsback('likn', 'likn1g')"> Tilbake til likninger </button> </div>
 <div id=                          "likn1m">
-<h1 onclick="moveDivsback('likn', 'likn1m')"> Tilbake til likninger </h1> </div>
+<button onclick="moveDivsback('likn', 'likn1m')"> Tilbake til likninger </button> </div>
 <div id=                          "likn1a">
-<h1 onclick="moveDivsback('likn', 'likn1a')"> Tilbake til likninger </h1> </div>
+<button onclick="moveDivsback('likn', 'likn1a')"> Tilbake til likninger </button> </div>
 <div id=                          "likn2g">
-<h1 onclick="moveDivsback('likn', 'likn2g')"> Tilbake til likninger </h1> </div>
+<button onclick="moveDivsback('likn', 'likn2g')"> Tilbake til likninger </button> </div>
 <div id=                          "likn2m">
-<h1 onclick="moveDivsback('likn', 'likn2m')"> Tilbake til likninger </h1> </div>
+<button onclick="moveDivsback('likn', 'likn2m')"> Tilbake til likninger </button> </div>
 <div id=                          "likn2a">
-<h1 onclick="moveDivsback('likn', 'likn2a')"> Tilbake til likninger </h1> </div>
+<button onclick="moveDivsback('likn', 'likn2a')"> Tilbake til likninger </button> </div>
 <div id=                          "likn3g">
-<h1 onclick="moveDivsback('likn', 'likn3g')"> Tilbake til likninger </h1> </div>
+<button onclick="moveDivsback('likn', 'likn3g')"> Tilbake til likninger </button> </div>
 <div id=                          "likn3m">
-<h1 onclick="moveDivsback('likn', 'likn3m')"> Tilbake til likninger </h1> </div>
+<button onclick="moveDivsback('likn', 'likn3m')"> Tilbake til likninger </button> </div>
 <div id=                          "likn4g">
-<h1 onclick="moveDivsback('likn', 'likn4g')"> Tilbake til likninger </h1> </div>
+<button onclick="moveDivsback('likn', 'likn4g')"> Tilbake til likninger </button> </div>
 <div id=                          "likn4m">
-<h1 onclick="moveDivsback('likn', 'likn4m')"> Tilbake til likninger </h1> </div>
+<button onclick="moveDivsback('likn', 'likn4m')"> Tilbake til likninger </button> </div>
 <div id=                          "likn4a">
-<h1 onclick="moveDivsback('likn', 'likn4a')"> Tilbake til likninger </h1> </div>
+<button onclick="moveDivsback('likn', 'likn4a')"> Tilbake til likninger </button> </div>
 <div id=                          "likn5g">
-<h1 onclick="moveDivsback('likn', 'likn5g')"> Tilbake til likninger </h1> </div>
+<button onclick="moveDivsback('likn', 'likn5g')"> Tilbake til likninger </button> </div>
 <div id=                          "likn5m">
-<h1 onclick="moveDivsback('likn', 'likn5m')"> Tilbake til likninger </h1> </div>
+<button onclick="moveDivsback('likn', 'likn5m')"> Tilbake til likninger </button> </div>
 <div id=                          "likn5a">
-<h1 onclick="moveDivsback('likn', 'likn5a')"> Tilbake til likninger </h1> </div>
+<button onclick="moveDivsback('likn', 'likn5a')"> Tilbake til likninger </button> </div>
 <div id=                            "geo1g">
-  <h1 onclick="moveDivsback('geo',  'geo1g')"> Tilbake til Måling og areal </h1> </div>
+  <button onclick="moveDivsback('geo',  'geo1g')"> Tilbake til Måling og areal </button> </div>
 <div id=                            "geo1m">
-  <h1 onclick="moveDivsback('geo',  'geo1m')"> Tilbake til Måling og areal </h1> </div>
+  <button onclick="moveDivsback('geo',  'geo1m')"> Tilbake til Måling og areal </button> </div>
 <div id=                            "geo2g">
-  <h1 onclick="moveDivsback('geo',  'geo2g')"> Tilbake til Måling og areal </h1> </div>
+  <button onclick="moveDivsback('geo',  'geo2g')"> Tilbake til Måling og areal </button> </div>
 <div id=                            "geo3g">
-  <h1 onclick="moveDivsback('geo',  'geo3g')"> Tilbake til Måling og areal </h1> </div>
+  <button onclick="moveDivsback('geo',  'geo3g')"> Tilbake til Måling og areal </button> </div>
 <div id=                            "geo3m">
-  <h1 onclick="moveDivsback('geo',  'geo3m')"> Tilbake til Måling og areal </h1> </div>
+  <button onclick="moveDivsback('geo',  'geo3m')"> Tilbake til Måling og areal </button> </div>
 <div id=                            "geo3a">
-  <h1 onclick="moveDivsback('geo',  'geo3a')"> Tilbake til Måling og areal </h1> </div>
+  <button onclick="moveDivsback('geo',  'geo3a')"> Tilbake til Måling og areal </button> </div>
 <div id=                            "geo4g">
-  <h1 onclick="moveDivsback('geo',  'geo4g')"> Tilbake til Måling og areal </h1> </div>
+  <button onclick="moveDivsback('geo',  'geo4g')"> Tilbake til Måling og areal </button> </div>
 <div id=                            "geo4m">
-  <h1 onclick="moveDivsback('geo',  'geo4m')"> Tilbake til Måling og areal </h1> </div>
+  <button onclick="moveDivsback('geo',  'geo4m')"> Tilbake til Måling og areal </button> </div>
 <div id=                            "geo5g">
-  <h1 onclick="moveDivsback('geo',  'geo5g')"> Tilbake til Måling og areal </h1> </div>
+  <button onclick="moveDivsback('geo',  'geo5g')"> Tilbake til Måling og areal </button> </div>
 <div id=                            "geo5m">
-  <h1 onclick="moveDivsback('geo',  'geo5m')"> Tilbake til Måling og areal </h1> </div>
+  <button onclick="moveDivsback('geo',  'geo5m')"> Tilbake til Måling og areal </button> </div>
 <div id=                            "geo5a">
-  <h1 onclick="moveDivsback('geo',  'geo5a')"> Tilbake til Måling og areal </h1> </div>
+  <button onclick="moveDivsback('geo',  'geo5a')"> Tilbake til Måling og areal </button> </div>
 <div id=                            "geo6g">
-  <h1 onclick="moveDivsback('geo',  'geo6g')"> Tilbake til Måling og areal </h1> </div>
+  <button onclick="moveDivsback('geo',  'geo6g')"> Tilbake til Måling og areal </button> </div>
 <div id=                            "geo6m">
-  <h1 onclick="moveDivsback('geo',  'geo6m')"> Tilbake til Måling og areal </h1> </div>
+  <button onclick="moveDivsback('geo',  'geo6m')"> Tilbake til Måling og areal </button> </div>
 <div id=                            "geo7g">
-  <h1 onclick="moveDivsback('geo',  'geo7g')"> Tilbake til Måling og areal </h1> </div>
+  <button onclick="moveDivsback('geo',  'geo7g')"> Tilbake til Måling og areal </button> </div>
 <div id=                            "geo7m">
-  <h1 onclick="moveDivsback('geo',  'geo7m')"> Tilbake til Måling og areal </h1> </div>
+  <button onclick="moveDivsback('geo',  'geo7m')"> Tilbake til Måling og areal </button> </div>
 <div id=                            "geo8g">
-  <h1 onclick="moveDivsback('geo',  'geo8g')"> Tilbake til Måling og areal </h1> </div>
+  <button onclick="moveDivsback('geo',  'geo8g')"> Tilbake til Måling og areal </button> </div>
 <div id=                            "geo8m">
-  <h1 onclick="moveDivsback('geo',  'geo8m')"> Tilbake til Måling og areal </h1> </div>
+  <button onclick="moveDivsback('geo',  'geo8m')"> Tilbake til Måling og areal </button> </div>
   <div id=                                "sannsyn1g">
-    <h1 onclick="moveDivsback('sannsyn',  'sannsyn1g')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+    <button onclick="moveDivsback('sannsyn',  'sannsyn1g')"> Tilbake til Sannsynlighet og kombinatorikk </button> </div>
     <div id=                                "sannsyn1m">
-      <h1 onclick="moveDivsback('sannsyn',  'sannsyn1m')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+      <button onclick="moveDivsback('sannsyn',  'sannsyn1m')"> Tilbake til Sannsynlighet og kombinatorikk </button> </div>
   <div id=                                "sannsyn2g">
-    <h1 onclick="moveDivsback('sannsyn',  'sannsyn2g')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+    <button onclick="moveDivsback('sannsyn',  'sannsyn2g')"> Tilbake til Sannsynlighet og kombinatorikk </button> </div>
   <div id=                                "sannsyn2n">
-    <h1 onclick="moveDivsback('sannsyn',  'sannsyn2n')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+    <button onclick="moveDivsback('sannsyn',  'sannsyn2n')"> Tilbake til Sannsynlighet og kombinatorikk </button> </div>
   <div id=                                "sannsyn2a">
-    <h1 onclick="moveDivsback('sannsyn',  'sannsyn2a')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+    <button onclick="moveDivsback('sannsyn',  'sannsyn2a')"> Tilbake til Sannsynlighet og kombinatorikk </button> </div>
   <div id=                                "sannsyn3g">
-    <h1 onclick="moveDivsback('sannsyn',  'sannsyn3g')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+    <button onclick="moveDivsback('sannsyn',  'sannsyn3g')"> Tilbake til Sannsynlighet og kombinatorikk </button> </div>
   <div id=                                "sannsyn3m">
-    <h1 onclick="moveDivsback('sannsyn',  'sannsyn3m')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+    <button onclick="moveDivsback('sannsyn',  'sannsyn3m')"> Tilbake til Sannsynlighet og kombinatorikk </button> </div>
   <div id=                                "sannsyn3a">
-    <h1 onclick="moveDivsback('sannsyn',  'sannsyn3a')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+    <button onclick="moveDivsback('sannsyn',  'sannsyn3a')"> Tilbake til Sannsynlighet og kombinatorikk </button> </div>
  
   <div id=                                "sannsyn4g">
-    <h1 onclick="moveDivsback('sannsyn',  'sannsyn4g')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+    <button onclick="moveDivsback('sannsyn',  'sannsyn4g')"> Tilbake til Sannsynlighet og kombinatorikk </button> </div>
   <div id=                                "sannsyn4m">
-    <h1 onclick="moveDivsback('sannsyn',  'sannsyn4m')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+    <button onclick="moveDivsback('sannsyn',  'sannsyn4m')"> Tilbake til Sannsynlighet og kombinatorikk </button> </div>
 
   <div id=                                "sannsyn5g">
-    <h1 onclick="moveDivsback('sannsyn',  'sannsyn5g')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+    <button onclick="moveDivsback('sannsyn',  'sannsyn5g')"> Tilbake til Sannsynlighet og kombinatorikk </button> </div>
   <div id=                                "sannsyn5m">
-    <h1 onclick="moveDivsback('sannsyn',  'sannsyn5m')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+    <button onclick="moveDivsback('sannsyn',  'sannsyn5m')"> Tilbake til Sannsynlighet og kombinatorikk </button> </div>
 
   <div id=                                "sannsyn6g">
-    <h1 onclick="moveDivsback('sannsyn',  'sannsyn6g')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+    <button onclick="moveDivsback('sannsyn',  'sannsyn6g')"> Tilbake til Sannsynlighet og kombinatorikk </button> </div>
   <div id=                                "sannsyn6m">
-    <h1 onclick="moveDivsback('sannsyn',  'sannsyn6m')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+    <button onclick="moveDivsback('sannsyn',  'sannsyn6m')"> Tilbake til Sannsynlighet og kombinatorikk </button> </div>
   <div id=                                "sannsyn7g">
-    <h1 onclick="moveDivsback('sannsyn',  'sannsyn7g')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+    <button onclick="moveDivsback('sannsyn',  'sannsyn7g')"> Tilbake til Sannsynlighet og kombinatorikk </button> </div>
   <div id=                                "sannsyn7m">
-    <h1 onclick="moveDivsback('sannsyn',  'sannsyn7m')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+    <button onclick="moveDivsback('sannsyn',  'sannsyn7m')"> Tilbake til Sannsynlighet og kombinatorikk </button> </div>
   <div id=                                "sannsyn8g">
-    <h1 onclick="moveDivsback('sannsyn',  'sannsyn8g')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+    <button onclick="moveDivsback('sannsyn',  'sannsyn8g')"> Tilbake til Sannsynlighet og kombinatorikk </button> </div>
   <div id=                                "sannsyn8m">
-    <h1 onclick="moveDivsback('sannsyn',  'sannsyn8m')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+    <button onclick="moveDivsback('sannsyn',  'sannsyn8m')"> Tilbake til Sannsynlighet og kombinatorikk </button> </div>
   <div id=                                "sannsyn8a">
-    <h1 onclick="moveDivsback('sannsyn',  'sannsyn8a')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+    <button onclick="moveDivsback('sannsyn',  'sannsyn8a')"> Tilbake til Sannsynlighet og kombinatorikk </button> </div>
   <div id=                                "sannsyn9g">
-    <h1 onclick="moveDivsback('sannsyn',  'sannsyn9g')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+    <button onclick="moveDivsback('sannsyn',  'sannsyn9g')"> Tilbake til Sannsynlighet og kombinatorikk </button> </div>
   <div id=                                "sannsyn9m">
-    <h1 onclick="moveDivsback('sannsyn',  'sannsyn9m')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+    <button onclick="moveDivsback('sannsyn',  'sannsyn9m')"> Tilbake til Sannsynlighet og kombinatorikk </button> </div>
   <div id=                                "sannsyn9a">
-    <h1 onclick="moveDivsback('sannsyn',  'sannsyn9a')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+    <button onclick="moveDivsback('sannsyn',  'sannsyn9a')"> Tilbake til Sannsynlighet og kombinatorikk </button> </div>
   <div id=                                "sannsyn10a">
-    <h1 onclick="moveDivsback('sannsyn',  'sannsyn10a')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+    <button onclick="moveDivsback('sannsyn',  'sannsyn10a')"> Tilbake til Sannsynlighet og kombinatorikk </button> </div>
 <div id=                           "tall1g">
-<h1 onclick="moveDivsback('tall',  'tall1g')"> Tilbake til Tall </h1> </div>
-<div id=                           "tall1m">
-<h1 onclick="moveDivsback('tall',  'tall1m')"> Tilbake til Tall </h1> </div>
+  <button onclick="moveDivsback('tall',  'tall1g')"> Tilbake til Tall </button> </div>
+  <div id=                           "tall1m">
+<button onclick="moveDivsback('tall',  'tall1m')"> Tilbake til Tall </button> </div>
 <div id=                           "tall1a">
-<h1 onclick="moveDivsback('tall',  'tall1a')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall1a')"> Tilbake til Tall </button> </div>
 <div id=                           "tall2g">
-<h1 onclick="moveDivsback('tall',  'tall2g')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall2g')"> Tilbake til Tall </button> </div>
 <div id=                           "tall2m">
-<h1 onclick="moveDivsback('tall',  'tall2m')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall2m')"> Tilbake til Tall </button> </div>
 <div id=                           "tall3g">
-<h1 onclick="moveDivsback('tall',  'tall3g')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall3g')"> Tilbake til Tall </button> </div>
 <div id=                           "tall3m">
-<h1 onclick="moveDivsback('tall',  'tall3m')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall3m')"> Tilbake til Tall </button> </div>
 <div id=                           "tall4g">
-<h1 onclick="moveDivsback('tall',  'tall4g')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall4g')"> Tilbake til Tall </button> </div>
 <div id=                           "tall4m">
-<h1 onclick="moveDivsback('tall',  'tall4m')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall4m')"> Tilbake til Tall </button> </div>
 <div id=                           "tall4a">
-<h1 onclick="moveDivsback('tall',  'tall4a')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall4a')"> Tilbake til Tall </button> </div>
 <div id=                           "tall5g">
-<h1 onclick="moveDivsback('tall',  'tall5g')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall5g')"> Tilbake til Tall </button> </div>
 <div id=                           "tall5m">
-<h1 onclick="moveDivsback('tall',  'tall5m')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall5m')"> Tilbake til Tall </button> </div>
 <div id=                           "tall6g">
-<h1 onclick="moveDivsback('tall',  'tall6g')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall6g')"> Tilbake til Tall </button> </div>
 <div id=                           "tall6m">
-<h1 onclick="moveDivsback('tall',  'tall6m')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall6m')"> Tilbake til Tall </button> </div>
 <div id=                           "tall7g">
-<h1 onclick="moveDivsback('tall',  'tall7g')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall7g')"> Tilbake til Tall </button> </div>
 <div id=                           "tall7m">
-<h1 onclick="moveDivsback('tall',  'tall7m')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall7m')"> Tilbake til Tall </button> </div>
 <div id=                           "tall8g">
-<h1 onclick="moveDivsback('tall',  'tall8g')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall8g')"> Tilbake til Tall </button> </div>
 <div id=                           "tall8m">
-<h1 onclick="moveDivsback('tall',  'tall8m')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall8m')"> Tilbake til Tall </button> </div>
 <div id=                           "tall9g">
-<h1 onclick="moveDivsback('tall',  'tall9g')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall9g')"> Tilbake til Tall </button> </div>
 <div id=                           "tall9m">
-<h1 onclick="moveDivsback('tall',  'tall9m')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall9m')"> Tilbake til Tall </button> </div>
 <div id=                           "tall10g">
-<h1 onclick="moveDivsback('tall',  'tall10g')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall10g')"> Tilbake til Tall </button> </div>
 <div id=                           "tall10m">
-<h1 onclick="moveDivsback('tall',  'tall10m')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall10m')"> Tilbake til Tall </button> </div>
 <div id=                           "tall10a">
-<h1 onclick="moveDivsback('tall',  'tall10a')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall10a')"> Tilbake til Tall </button> </div>
 <div id=                           "tall11m">
-<h1 onclick="moveDivsback('tall',  'tall11m')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall11m')"> Tilbake til Tall </button> </div>
 <div id=                           "tall11a">
-<h1 onclick="moveDivsback('tall',  'tall11a')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall11a')"> Tilbake til Tall </button> </div>
 <div id=                           "tall12g">
-<h1 onclick="moveDivsback('tall',  'tall12g')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall12g')"> Tilbake til Tall </button> </div>
 <div id=                           "tall12m">
-<h1 onclick="moveDivsback('tall',  'tall12m')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall12m')"> Tilbake til Tall </button> </div>
 <div id=                           "tall13g">
-<h1 onclick="moveDivsback('tall',  'tall13g')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall13g')"> Tilbake til Tall </button> </div>
 <div id=                           "tall13m">
-<h1 onclick="moveDivsback('tall',  'tall13m')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall13m')"> Tilbake til Tall </button> </div>
 <div id=                           "tall13a">
-<h1 onclick="moveDivsback('tall',  'tall13a')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall13a')"> Tilbake til Tall </button> </div>
 <div id=                           "tall14m">
-<h1 onclick="moveDivsback('tall',  'tall14m')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall14m')"> Tilbake til Tall </button> </div>
 <div id=                           "tall14a">
-<h1 onclick="moveDivsback('tall',  'tall14a')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall14a')"> Tilbake til Tall </button> </div>
 <div id=                           "tall15g">
-<h1 onclick="moveDivsback('tall',  'tall15g')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall15g')"> Tilbake til Tall </button> </div>
 <div id=                           "tall15m">
-<h1 onclick="moveDivsback('tall',  'tall15m')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall15m')"> Tilbake til Tall </button> </div>
 <div id=                           "tall16a">
-<h1 onclick="moveDivsback('tall',  'tall16a')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall16a')"> Tilbake til Tall </button> </div>
 <div id=                           "tall17g">
-<h1 onclick="moveDivsback('tall',  'tall17g')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall17g')"> Tilbake til Tall </button> </div>
 <div id=                           "tall17m">
-<h1 onclick="moveDivsback('tall',  'tall17m')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall17m')"> Tilbake til Tall </button> </div>
 <div id=                           "tall18g">
-<h1 onclick="moveDivsback('tall',  'tall18g')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall18g')"> Tilbake til Tall </button> </div>
 <div id=                           "tall18m">
-<h1 onclick="moveDivsback('tall',  'tall18m')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall18m')"> Tilbake til Tall </button> </div>
 <div id=                           "tall19g">
-<h1 onclick="moveDivsback('tall',  'tall19g')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall19g')"> Tilbake til Tall </button> </div>
 <div id=                           "tall19m">
-<h1 onclick="moveDivsback('tall',  'tall19m')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall19m')"> Tilbake til Tall </button> </div>
 <div id=                           "tall19a">
-<h1 onclick="moveDivsback('tall',  'tall19a')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall19a')"> Tilbake til Tall </button> </div>
 <div id=                           "tall20g">
-<h1 onclick="moveDivsback('tall',  'tall20g')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall20g')"> Tilbake til Tall </button> </div>
 <div id=                           "tall20m">
-<h1 onclick="moveDivsback('tall',  'tall20m')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall20m')"> Tilbake til Tall </button> </div>
 <div id=                           "tall20a">
-<h1 onclick="moveDivsback('tall',  'tall20a')"> Tilbake til Tall </h1> </div>
+<button onclick="moveDivsback('tall',  'tall20a')"> Tilbake til Tall </button> </div>
 <script>
-  function moveDivs(from, to, wheretoplacefromdiv = "-200vw", wheretoplacetodiv = "0vw") {
+  function moveDivs(from, to, wheretoplacefromdiv = "-200vw", wheretoplacetodiv = "0vw") 
+  {
   const fromdiv = document.getElementById(from);
   const todiv = document.getElementById(to);
   fromdiv.style.transform = `translateX(${wheretoplacefromdiv})`;

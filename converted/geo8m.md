@@ -48,7 +48,8 @@ og
 $$
 \begin{aligned}
 5^2 + y^2 & = (z+3-8)^2 = z^2 - 10z + 5^2
-y^2 = z^2 - 10 z.
+\\
+y^2 & = z^2 - 10 z.
 \end{aligned}
 $$
 Ved å bruke innsetning kan vi nå se at $z^2 = z^2 - 10 z + 20y$ eller at $10z = 20 y$ eller at $z = 2y$. Det gir videre at $y^2 = (2y)^2 - 20y$. Som nå gir at $3y^2 = 20y$ eller at $y = \frac{20}{3}$, som betyr at $z = \frac{40}{3}$.

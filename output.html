@@ -48,11 +48,13 @@ img{
 div:not(#mainpage){
   transform: translateX(200vw);
 }
+
 h2:hover,
-td:hover {
+td:hover,
+button:hover {
   cursor: pointer;
 }
-h2 {
+h2, button {
   font-size: clamp(2em, 2vw, 4em);
   font-weight: 400;
 }
@@ -108,7 +110,7 @@ tr:nth-child(even){
       </h2>
 </div>
 <div id="tallteori">
-<h1 onclick="moveDivsback('mainpage', 'tallteori')">Tilbake til tema</h1>
+<button onclick="moveDivsback('mainpage', 'tallteori')">Tilbake til tema</button>
 <table>
 <tr>
 <td colspan="4"><h2>Tallteori</h2></td>
@@ -166,7 +168,7 @@ tr:nth-child(even){
 </table>
 </div>
 <div id="funk">
-<h1 onclick="moveDivsback('mainpage', 'funk')">Tilbake til tema</h1>
+<button onclick="moveDivsback('mainpage', 'funk')">Tilbake til tema</button>
 <table>
 <tr>
 <td colspan="4"><h2>Funksjoner</h2></td>
@@ -215,7 +217,7 @@ tr:nth-child(even){
 </table>
 </div>
 <div id="likn">
-<h1 onclick="moveDivsback('mainpage', 'likn')">Tilbake til tema</h1>
+<button onclick="moveDivsback('mainpage', 'likn')">Tilbake til tema</button>
 <table>
 <tr>
 <td><h2>Likninger og ulikheter</h2></td>
@@ -253,7 +255,7 @@ tr:nth-child(even){
 </table>
 </div>
 <div id="geo">
-<h1 onclick="moveDivsback('mainpage', 'geo')">Tilbake til tema</h1>
+<button onclick="moveDivsback('mainpage', 'geo')">Tilbake til tema</button>
 <table>
 <tr>
 <td><h2>Måling og areal</h2></td>
@@ -312,7 +314,7 @@ tr:nth-child(even){
 </table>
 </div>
 <div id="tall">
-<h1 onclick="moveDivsback('mainpage', 'tall')">Tilbake til tema</h1>
+<button onclick="moveDivsback('mainpage', 'tall')">Tilbake til tema</button>
 <table>
 <tr>
 <td><h2>Tall</h2></td>
@@ -443,7 +445,7 @@ tr:nth-child(even){
 </table>
 </div>
 <div id="sannsyn">
-<h1 onclick="moveDivsback('mainpage', 'sannsyn')">Tilbake til tema</h1>
+<button onclick="moveDivsback('mainpage', 'sannsyn')">Tilbake til tema</button>
 <table>
 <tr>
 <td><h2>Sannsynlighet, kombinatorikk og statistikk</h2></td>
@@ -511,9 +513,7 @@ tr:nth-child(even){
 </table>
 </div>
 <div id="tallteo1g">
-<h1 onclick="moveDivsback('tallteori','tallteo1g')">
-        Tilbake til tallteori
-      </h1>
+<button onclick="moveDivsback('tallteori','tallteo1g')"> Tilbake til tallteori </button>
 <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
 <li><p>Forklar og gi eksempler på hva som menes med begrepene
 <em>faktor</em> og <em>divisor.</em> Besvarelsen må inneholde både
@@ -595,9 +595,9 @@ hva som menes med felles multiplum og minste felles multiplum for to
 tall. Besvarelsen må inneholde både formelle definisjoner og
 grunnskoletilpassete forklaringer.</p></div>
 <div id="tallteo1m">
-<h1 onclick="moveDivsback('tallteori','tallteo1m')">
+<button onclick="moveDivsback('tallteori','tallteo1m')">
         Tilbake til tallteori
-      </h1>
+      </button>
 <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
 <li><p>Forklar hvorfor produktet av største felles faktor og minste
 felles multiplum for to tall er det samme som produktet av de to
@@ -688,9 +688,9 @@ som gjør at sff*mfm = a*b</p><h4 id="middels-10.01.2023">Middels: 10.01.2023</h
 felles faktor <span class="math inline">\(10\)</span> og minste felles
 multiplum <span class="math inline">\(105\)</span>. Hvis <span class="math inline">\(a = 30\)</span> hva er da <span class="math inline">\(b\)</span>? Begrunn.</p></div>
 <div id="tallteo1a">
-<h1 onclick="moveDivsback('tallteori','tallteo1a')">
+<button onclick="moveDivsback('tallteori','tallteo1a')">
         Tilbake til tallteori
-      </h1>
+      </button>
 <h4 id="avansert-øveoppgaver">Avansert: Øveoppgaver</h4><ol type="1">
 <li><p>Hvis vi studerer summer av påfølgende tall, vil vi oppdage at
 summene i noen tilfeller er delelig med antallet ledd i summen. Vis
@@ -762,9 +762,9 @@ algebra.</p><h4 id="avansert-10.01.2023">Avansert: 10.01.2023</h4><p>Under ser d
 må begrunne både uformelt og formelt.</p><p>Hvis et tall er faktor i to tall, så er det også faktor i differansen
 mellom de to tallene.</p></div>
 <div id="tallteo2g">
-<h1 onclick="moveDivsback('tallteori','tallteo2g')">
+<button onclick="moveDivsback('tallteori','tallteo2g')">
       Tilbake til tallteori
-    </h1>
+    </button>
 <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
 <li>Forklar og gi eksempler på hva et <em>naturlig tall</em> er.</li>
 <li>Forklar og gi eksempler på hva <em>partall</em> og <em>oddetall</em>
@@ -804,9 +804,9 @@ eksempler på hva partall og oddetall er. Besvarelsen må inneholde både
 algebraiske definisjoner, ordforklaringer og illustrasjoner. Forklar og
 gi eksempler på hva primtall og sammensatt tall er.</p></div>
 <div id="tallteo2m">
-<h1 onclick="moveDivsback('tallteori','tallteo2m')">
+<button onclick="moveDivsback('tallteori','tallteo2m')">
       Tilbake til tallteori
-    </h1>
+    </button>
 <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
 <li><p>Vis grunnskoletilpasset (ved hjelp av ordforklaringer og
 illustrasjoner) og formelt (med algebraiske symboler) at summen av …</p>
@@ -935,9 +935,9 @@ oddetall og partall er oddetall.</p></li>
 multiplisert med partall gir partall.</p></li>
 </ol></div>
 <div id="tallteo2a">
-<h1 onclick="moveDivsback('tallteori','tallteo2a')">
+<button onclick="moveDivsback('tallteori','tallteo2a')">
       Tilbake til tallteori
-    </h1>
+    </button>
 <h4 id="avansert-øveoppgaver">Avansert: Øveoppgaver</h4><ol type="1">
 <li><p>Se for deg at du stiller opp tallene fra én til ti på en rekke.
 Kan du plassere <span class="math inline">\(+\)</span> og <span class="math inline">\(–\)</span> mellom dem slik at summen blir null?
@@ -1035,9 +1035,9 @@ Med andre ord ender tallet på 6.</p><h4 id="avansert-10.01.2023">Avansert: 10.0
 tallet aldri er delelig på <span class="math inline">\(a\)</span> eller
 <span class="math inline">\(b\)</span>.</p></div>
 <div id="tallteo3m">
-<h1 onclick="moveDivsback('tallteori','tallteo3m')">
+<button onclick="moveDivsback('tallteori','tallteo3m')">
     Tilbake til tallteori
-  </h1>
+  </button>
 <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
 <li><p>Begrunn delelighetsregelen for tall som er delelig med 2. Du må
 gi både en formell og en grunnskoletilpasset begrunnelse.</p></li>
@@ -1116,9 +1116,9 @@ både en formell og en grunnskoletilpasset begrunnelse. Begrunn
 delelighetsregelen for tall som er delelig med 9. Du må gi både en
 formell og en grunnskoletilpasset begrunnelse.</p></div>
 <div id="tallteo4g">
-<h1 onclick="moveDivsback('tallteori','tallteo4g')">
+<button onclick="moveDivsback('tallteori','tallteo4g')">
   Tilbake til tallteori
-</h1>
+</button>
 <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
 <li><p>Utled det eksplisitte uttrykket for summen av de <span class="math inline">\(n\)</span> første naturlige tallene, det vil si
 trekanttall nummer <span class="math inline">\(n\)</span>, ved hjelp av
@@ -1178,9 +1178,9 @@ heftet).</p><h4 id="grunnleggende-10.01.2023">Grunnleggende: 10.01.2023</h4><p>U
 trekanttall nummer <span class="math inline">\(n\)</span>, ved hjelp av
 Gauss-trikset (doble summen): geometrisk algebraisk</p></div>
 <div id="tallteo4m">
-<h1 onclick="moveDivsback('tallteori','tallteo4m')">
+<button onclick="moveDivsback('tallteori','tallteo4m')">
   Tilbake til tallteori
-</h1>
+</button>
 <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
 <li><p>Illustrer femkanttallene opp til <span class="math inline">\(P_{4}\)</span>, og utled eksplisitt uttrykk for
 <span class="math inline">\(P_{n}\)</span> ved hjelp av strategien
@@ -1287,9 +1287,9 @@ geometrisk.</p></li>
 <li><p>Finn en eksplisitt formel ved hjelp av sum av tillegg.</p></li>
 </ol><p><img src="https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-13-53-34.png"/></p></div>
 <div id="tallteo4a">
-<h1 onclick="moveDivsback('tallteori','tallteo4a')">
+<button onclick="moveDivsback('tallteori','tallteo4a')">
   Tilbake til tallteori
-</h1>
+</button>
 <h4 id="avansert-øveoppgaver">Avansert: Øveoppgaver</h4><ol type="1">
 <li><p>Under ser du figurtall én til fire.</p>
 <ol type="a">
@@ -1440,9 +1440,9 @@ formel</p></li>
 <li><p>Her må de igjen bruke sum av tillegg sånn som på middels</p></li>
 </ol></div>
 <div id="tallteo5g">
-<h1 onclick="moveDivsback('tallteori','tallteo5g')">
+<button onclick="moveDivsback('tallteori','tallteo5g')">
   Tilbake til tallteori
-</h1>
+</button>
 <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
 <li><p>Vis i en illustrasjon hvordan hver figur inneholder den forrige,
 og finn rekursivt uttrykk for trekanttall <span class="math inline">\(n\)</span></p>
@@ -1514,9 +1514,9 @@ finn rekursivt uttrykk for trekanttall <span class="math inline">\(n\)</span>: v
 tillegg. ved hjelp av strategien differanse mellom eksplisitte
 uttrykk.</p></div>
 <div id="tallteo5m">
-<h1 onclick="moveDivsback('tallteori','tallteo5m')">
+<button onclick="moveDivsback('tallteori','tallteo5m')">
   Tilbake til tallteori
-</h1>
+</button>
 <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
 <li><p>Hva er sammenhengen mellom påfølgende figurer? Finn rekursivt
 uttrykk.</p>
@@ -1634,9 +1634,9 @@ finn rekursivt uttrykk for sekskanttallene <span class="math inline">\(H_n\)</sp
 tillegg. ved hjelp av strategien differanse mellom eksplisitte uttrykk.
 Merk: Det eksplisitte uttrykket for sekskanttallene er <span class="math inline">\(H_n = 2n^2-n\)</span>.</p></div>
 <div id="tallteo6g">
-<h1 onclick="moveDivsback('tallteori','tallteo6g')">
+<button onclick="moveDivsback('tallteori','tallteo6g')">
   Tilbake til tallteori
-</h1>
+</button>
 <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
 <li><p>Se figurtallene under.</p>
 <ol type="a">
@@ -1768,9 +1768,9 @@ ordforklaring av</p><ol type="1">
 båttall.</p></li>
 </ol></div>
 <div id="tallteo6m">
-<h1 onclick="moveDivsback('tallteori','tallteo6m')">
+<button onclick="moveDivsback('tallteori','tallteo6m')">
   Tilbake til tallteori
-</h1>
+</button>
 <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
 <li>Dekomponer figuren på minst tre måter. Illustrer dekomponeringene i
 figurene, og beskriv dem algebraisk slik at det er en tydelig sammenheng
@@ -1849,9 +1849,9 @@ middels: 27.01.23</h4><p>De må finne minst to eksplisitte uttrykk og det må gi
 forklaring på hvordan de har brutt ned figuren.</p><p>Under ser dere dere de tre første båttallene <span class="math inline">\(B_1\)</span>, <span class="math inline">\(B_2\)</span> og <span class="math inline">\(B_3\)</span>.</p><p><img src="https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-13-55-27.png"/></p><h4 id="middels-10.01.2023">Middels: 10.01.2023</h4><p>Ved å bryte båttallene ned på flere måter, utled to ulike, men
 likeverdige uttrykk for båttallene.</p></div>
 <div id="tallteo6a">
-<h1 onclick="moveDivsback('tallteori','tallteo6a')">
+<button onclick="moveDivsback('tallteori','tallteo6a')">
   Tilbake til tallteori
-</h1>
+</button>
 <h4 id="avansert-øveoppgaver">Avansert: Øveoppgaver</h4><ol type="1">
 <li><p>La <span class="math inline">\(H_{n} = 2 \cdot T_{n + 1} - K_{n -
 1}\)</span>.</p>
@@ -1970,9 +1970,9 @@ som forskjellige måter</p></li>
 = 24\)</span> og <span class="math inline">\(F_5 = 35\)</span>.</p><p>Lag en figur som følger mønsteret til <span class="math inline">\(F_n\)</span>. Begrunn sammenhengen mellom figuren
 og tallfølgen.</p></div>
 <div id="tallteo7m">
-<h1 onclick="moveDivsback('tallteori','tallteo7m')">
+<button onclick="moveDivsback('tallteori','tallteo7m')">
   Tilbake til tallteori
-</h1>
+</button>
 <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
 <li><p>Ta utgangspunkt i Alfas beskrivelse av <em>algebraisk
 tenkning</em> i delkapittel 3.1. Gi flere argumenter for at arbeid med
@@ -1987,9 +1987,9 @@ arbeider med figurtall i skolen. Begrunn.</p></li>
 tenkning og pek på hvilke kjerneelementer som er relevante i arbeid med
 figurtall.</p></div>
 <div id="tallteo7a">
-<h1 onclick="moveDivsback('tallteori','tallteo7a')">
+<button onclick="moveDivsback('tallteori','tallteo7a')">
   Tilbake til tallteori
-</h1>
+</button>
 <h4 id="avansert-øveoppgaver">Avansert: Øveoppgaver</h4><ol type="1">
 <li><p>Ta utgangspunkt i aktuell litteratur om algebraisk tenkning, samt
 læreplanens kompetansemål og kjerneelementer.</p>
@@ -2012,9 +2012,9 @@ undervisningsaktivitet med utgangspunkt i kjerneelementer,
 kompetansemål, litteratur om algebraisk tenkning og figuren du har
 laget. Gi en begrunnelse for valgene du har gjort.</p></div>
 <div id="funk1g">
-<h1 onclick="moveDivsback('funk','funk1g')">
+<button onclick="moveDivsback('funk','funk1g')">
   Tilbake til funksjoner
-</h1>
+</button>
 <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
 <li><p>Gi et eksempel på en lineær funksjon, og forklart kort, med
 utgangspunkt i eksemplet ditt, hva som kjennetegner en lineær
@@ -2099,9 +2099,9 @@ proporsjonal funksjon.</li>
 grunnleggende: Funksjoner 27.01.23</h4><p>Her må de gi et eksempel og forklare kjennetegnene, slik oppgaven ber
 om.</p></div>
 <div id="funk1m">
-<h1 onclick="moveDivsback('funk','funk1m')">
+<button onclick="moveDivsback('funk','funk1m')">
   Tilbake til funksjoner
-</h1>
+</button>
 <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
 <li><p>Avgjør og begrunn hva slags funksjon det er snakk om i hvert
 tilfelle. Begrunnelsen må vise til både en graf og et
@@ -2264,9 +2264,9 @@ og funksjonsuttrykket de har gitt), hvilken type funksjon som hører til
 alle tre situasjonene. Det skal også gis et funksjonsuttrykk og en
 grafisk representasjon av situasjonen</p></div>
 <div id="funk1a">
-<h1 onclick="moveDivsback('funk','funk1a')"> 
+<button onclick="moveDivsback('funk','funk1a')"> 
   Tilbake til funksjoner
-</h1>
+</button>
 <h4 id="avansert-øveoppgaver">Avansert: Øveoppgaver</h4><ol type="1">
 <li><p>Lineære funksjoner.</p>
 <ol type="a">
@@ -2518,9 +2518,9 @@ situasjonseksemplet.</p></li>
 avansert: Funksjoner 27.01.23</h4><p>Her må de gjøre det samme som på middels bare at de må på egen hånd
 gi en situasjon!</p></div>
 <div id="funk2g">
-<h1 onclick="moveDivsback('funk','funk2g')">
+<button onclick="moveDivsback('funk','funk2g')">
   Tilbake til funksjoner
-</h1>
+</button>
 <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
 <li><p>Alfa s. 346–347.</p>
 <ol type="a">
@@ -2581,9 +2581,9 @@ grafen og hvordan endringer av <span class="math inline">\(b\)</span>
 påvirker grafen.</p><h4 id="vurderingskriterier-grunnleggende-funksjoner-27.01.23">Vurderingskriterier
 grunnleggende: Funksjoner 27.01.23</h4><p>Peke på hva parameterne gjør for førstegradsfunksjoner</p></div>
 <div id="funk2m">
-<h1 onclick="moveDivsback('funk','funk2m')">
+<button onclick="moveDivsback('funk','funk2m')">
   Tilbake til funksjoner
-</h1>
+</button>
 <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
 <li><p>Alfa s. 346–347.</p>
 <ol type="a">
@@ -2666,9 +2666,9 @@ middels: Funksjoner 27.01.23</h4><p>Finne likninga og forklare hvordan på en sl
 forstår det generelle i fremgangsmåten (kunne åpenbart blitt brukt for
 hvilke som helst punkt-par).</p></div>
 <div id="funk3g">
-<h1 onclick="moveDivsback('funk','funk3g')">
+<button onclick="moveDivsback('funk','funk3g')">
   Tilbake til funksjoner
-</h1>
+</button>
 <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
 <li><p>Skisser grafen <span class="math inline">\(y = x^{2}\)</span> i
 et koordinatsystem. Skisser deretter i samme koordinatsystem:</p>
@@ -2735,9 +2735,9 @@ grunnleggende: Funksjoner 27.01.23</h4><ol type="i">
 <li>Skissere de to omvendt proporsjonale grafene</li>
 </ol></div>
 <div id="funk3m">
-<h1 onclick="moveDivsback('funk','funk3m')">
+<button onclick="moveDivsback('funk','funk3m')">
   Tilbake til funksjoner
-</h1>
+</button>
 <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
 <li><p>En kvadratisk funksjon ser generelt slik ut: <span class="math inline">\(f(x) = ax^{2} + bx + c\)</span>. Forklar kort
 (slik at det fremstår meningsfullt for noen som ikke kan det) og vis i
@@ -2846,9 +2846,9 @@ koordinatsystem hva som skjer med grafen når parameteren <span class="math inli
 middels: Funksjoner 27.01.23</h4><p>Gjøre begge oppdragene som står i kulepunktene på en
 tilfredsstillende måte.</p></div>
 <div id="funk4g">
-<h1 onclick="moveDivsback('funk','funk4g')">
+<button onclick="moveDivsback('funk','funk4g')">
   Tilbake til funksjoner
-</h1>
+</button>
 <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
 <li><p>Gitt <span class="math inline">\(4x - 7 = - 5x + 3\)</span>.</p>
 <ol type="a">
@@ -2968,9 +2968,9 @@ som viser sammenhengen mellom at løsning gir likhet av venstre og høyre
 side i likningen og at det tilsvarer skjæringspunktet mellom
 grafene.</p></div>
 <div id="funk4m">
-<h1 onclick="moveDivsback('funk','funk4m')">
+<button onclick="moveDivsback('funk','funk4m')">
   Tilbake til funksjoner
-</h1>
+</button>
 <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
 <li><p>Du løper sammen med en av de fjernstyrte bilene dine langs en
 rett strekning. Bilen holder seks meter i sekundet, mens du klarer <span class="math inline">\(3,5\)</span>. Fjernkontrollens rekkevidde er <span class="math inline">\(200\)</span> meter.</p>
@@ -3034,9 +3034,9 @@ grafisk og vis løsningen i et koordinatsystem.</li>
 middels: Funksjoner 3.02.23</h4><p>De må lage en situasjon som gir likningen. Deretter må de illustrere
 likningen grafisk og vise løsningen i koordinatsystemet.</p></div>
 <div id="funk4a">
-<h1 onclick="moveDivsback('funk','funk4a')">
+<button onclick="moveDivsback('funk','funk4a')">
   Tilbake til funksjoner
-</h1>
+</button>
 <h4 id="avansert-øveoppgaver">Avansert: Øveoppgaver</h4><ol type="1">
 <li><p>La <span class="math inline">\(f(x) = \frac{12}{x}\)</span> og
 <span class="math inline">\(g(x) = 3x - \frac{1}{2}\)</span>.</p>
@@ -3134,9 +3134,9 @@ god måte (skissa må ikke være utrolig nøyaktig, men bør heller ikke være
 voldsomt slurvete). ii. De må sette opp likninga og finne
 skjæringspunktene ved regning.</p></div>
 <div id="funk5g">
-<h1 onclick="moveDivsback('funk','funk5g')">
+<button onclick="moveDivsback('funk','funk5g')">
   Tilbake til funksjoner
-</h1>
+</button>
 <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
 <li><p>Ta utgangspunkt i en funksjonssammenheng (velg selv), og bruk den
 til å forklare begrepene.</p></li>
@@ -3173,9 +3173,9 @@ funksjon av <span class="math inline">\(r\)</span> (innverdi) fordi hver
 radius gir et entydig areal (som her er funksjonsverdien).<br/>
 </p></div>
 <div id="funk5m">
-<h1 onclick="moveDivsback('funk','funk5m')">
+<button onclick="moveDivsback('funk','funk5m')">
   Tilbake til funksjoner
-</h1>
+</button>
 <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
 <li><p>Sammenhengen mellom sidelengden og arealet av et kvadrat er en
 funksjonssammenheng.</p>
@@ -3331,9 +3331,9 @@ mellom omkrets og kvadrat som gir en funksjonssammenheng. Begrunnelsen
 må referere til en riktig definisjon av en funksjon. Deretter må de
 bruke eksempelet til å forklare begrepene det bes om.</p></div>
 <div id="funk6m">
-<h1 onclick="moveDivsback('funk','funk6m')">
+<button onclick="moveDivsback('funk','funk6m')">
   Tilbake til funksjoner
-</h1>
+</button>
 <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
 <li><p>Alfa s. 335–336: oppgavene 4.6–4.8</p></li>
 <li><p>Overgang mellom graf og situasjon.</p>
@@ -3456,7 +3456,7 @@ riktig måte</li>
 grafen som er gitt.</li>
 </ol></div>
 <div id="likn1g">
-<h1 onclick="moveDivsback('likn', 'likn1g')"> Tilbake til likninger </h1> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('likn', 'likn1g')"> Tilbake til likninger </button> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
 <li><p>Alfa s. 279</p>
 <ol type="a">
 <li><p>3.40 Løs likningene på flere måter der det virker
@@ -3496,7 +3496,7 @@ grunnleggende: 27.01.23</h4><p>Her må de bare løse likningen. Strategien de ve
 men de må vise utregning/forklare.</p><h4 id="grunnleggende-20.01.23">Grunnleggende: 20.01.23</h4><p>Løs likningen <span class="math inline">\(\frac{3x-5}{2} =
 14+2\)</span>.</p></div>
 <div id="likn1m">
-<h1 onclick="moveDivsback('likn', 'likn1m')"> Tilbake til likninger </h1> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('likn', 'likn1m')"> Tilbake til likninger </button> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
 <li><p>Alfa s. 279</p>
 <ol type="a">
 <li><p>3.40 Løs likningene på flere måter der det virker naturlig.
@@ -3654,7 +3654,7 @@ bruk av tallinje, gjett og sjekk, bruk av konkreter. Formelt må gjøres
 med algebra.</p><h4 id="middels-20.01.23">Middels: 20.01.23</h4><p>Løs likningen <span class="math inline">\(6x + 3 = 15\)</span> på to
 uformelle måter. Løs likningen deretter formelt.</p></div>
 <div id="likn1a">
-<h1 onclick="moveDivsback('likn', 'likn1a')"> Tilbake til likninger </h1> <h4 id="avansert-øveoppgaver">Avansert: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('likn', 'likn1a')"> Tilbake til likninger </button> <h4 id="avansert-øveoppgaver">Avansert: Øveoppgaver</h4><ol type="1">
 <li><em>Se oppgaver fra tidligere nasjonal deleksamen fra seminar og i
 modulen nasjonal deleksamen.</em></li>
 </ol><h4 id="avansert-17.02.23">Avansert: 17.02.23</h4><p>Under ser du tre elevers løsninger av likningen <span class="math inline">\(3(2x+5)=(12+3x)\)</span>. Forklar hvordan elevene
@@ -3714,7 +3714,7 @@ hver av de tre stategiene i)-iii) nedenfor om den er riktig eller feil.
 Begrunn svaret ditt ved å beskrive hva eleven i hvert tilfelle gjør
 riktig eller feil.</p><p><img src="https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-15-05-43.png"/></p></div>
 <div id="likn2g">
-<h1 onclick="moveDivsback('likn', 'likn2g')"> Tilbake til likninger </h1> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('likn', 'likn2g')"> Tilbake til likninger </button> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
 <li><p>Alfa s. 282</p>
 <ol type="a">
 <li><p>3.68</p></li>
@@ -3731,7 +3731,7 @@ grunnleggende: 03.02.23</h4><p>Her må de bare løse ulikheten rett, med utregni
 grunnleggende: 27.01.23</h4><p>Her må de bare løse ulikheten rett, med utregning.</p><h4 id="grunnleggende-20.01.23">Grunnleggende: 20.01.23</h4><p>Løs ulikheten <span class="math inline">\({-3} \geq
 -6x+2\)</span>.</p></div>
 <div id="likn2m">
-<h1 onclick="moveDivsback('likn', 'likn2m')"> Tilbake til likninger </h1> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('likn', 'likn2m')"> Tilbake til likninger </button> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
 <li><p>Alfa s. 282</p>
 <ol type="a">
 <li><p>3.68 Undersøk og begrunn, gjerne på flere måter hvis
@@ -3758,7 +3758,7 @@ middels: 27.01.23</h4><p>Her må de presisere alt som gjøres i utregningene med
 begrunnelse.</p><h4 id="middels-20.01.23">Middels: 20.01.23</h4><p>Løs ulikheten <span class="math inline">\(3 &lt;7(2- x)\)</span> og
 forklar hvorfor alle stegene du gjør er riktige</p></div>
 <div id="likn2a">
-<h1 onclick="moveDivsback('likn', 'likn2a')"> Tilbake til likninger </h1> <h4 id="avansert-øveoppgaver">Avansert: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('likn', 'likn2a')"> Tilbake til likninger </button> <h4 id="avansert-øveoppgaver">Avansert: Øveoppgaver</h4><ol type="1">
 <li><em>Se oppgaver fra tidligere nasjonal deleksamen fra
 seminar.</em></li>
 </ol><h4 id="avansert-17.02.23">Avansert: 17.02.23</h4><p>En elev løste ulikheten <span class="math inline">\(\frac{-x+ 1}{2}
@@ -3797,7 +3797,7 @@ det står «5» en plass og «7» en annen, er bare slurv fra vår side.</p><h4 
 5\)</span> slik:</p><p><img src="https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-15-06-19.png"/></p><p>Påpek eventuelle feil eleven har gjort og beskriv hvordan du vil
 hjelpe eleven til å forstå hvordan oppgaven kan løses riktig.</p></div>
 <div id="likn3g">
-<h1 onclick="moveDivsback('likn', 'likn3g')"> Tilbake til likninger </h1> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('likn', 'likn3g')"> Tilbake til likninger </button> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
 <li><p>Alfa s. 281</p>
 <ol type="a">
 <li>3.60 Løs på så mange måter du greier.</li>
@@ -3820,7 +3820,7 @@ grunnleggende: 03.02.23</h4><p>Begge oppgavene skal gjøres med metodene som er 
 addisjonsmetoden.</p><p>Løs likningsettet grafisk.</p><h4 id="vurderingskriterier-grunnleggende-27.01.23">Vurderingskriterier
 grunnleggende: 27.01.23</h4><p>Begge oppgavene skal gjøres med metodene som er oppgitt.</p></div>
 <div id="likn3m">
-<h1 onclick="moveDivsback('likn', 'likn3m')"> Tilbake til likninger </h1> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('likn', 'likn3m')"> Tilbake til likninger </button> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
 <li><p>Alfa s. 281</p>
 <ol type="a">
 <li><p>3.63 Løs på så mange måter du greier.</p></li>
@@ -3935,7 +3935,7 @@ være Beate sin alder. Da gir opplysningene: x + y = 15 2(x-1+2) =
 y+2.</li>
 </ol></div>
 <div id="likn4g">
-<h1 onclick="moveDivsback('likn', 'likn4g')"> Tilbake til likninger </h1> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('likn', 'likn4g')"> Tilbake til likninger </button> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
 <li><p>Løs likningene:</p>
 <ol type="a">
 <li><p><span class="math inline">\(x^{2} + 2x = 15\)</span></p></li>
@@ -3976,7 +3976,7 @@ med fullstendige kvadraters metode.</p></li>
 </ol><h4 id="vurderingskriterier-grunnleggende-03.02.23">Vurderingskriterier
 grunnleggende: 03.02.23</h4></div>
 <div id="likn4m">
-<h1 onclick="moveDivsback('likn', 'likn4m')"> Tilbake til likninger </h1> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('likn', 'likn4m')"> Tilbake til likninger </button> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
 <li><p>Løs likningene:</p>
 <ol type="a">
 <li><p><span class="math inline">\(\frac{10}{3} - x =
@@ -4018,7 +4018,7 @@ metode.</p></li>
 </ol><h4 id="vurderingskriterier-middels-03.02.23">Vurderingskriterier
 middels: 03.02.23</h4></div>
 <div id="likn4a">
-<h1 onclick="moveDivsback('likn', 'likn4a')"> Tilbake til likninger </h1> <h4 id="avansert-øveoppgaver">Avansert: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('likn', 'likn4a')"> Tilbake til likninger </button> <h4 id="avansert-øveoppgaver">Avansert: Øveoppgaver</h4><ol type="1">
 <li><p>Løs likningene:</p>
 <ol type="a">
 <li><p><span class="math inline">\(x^{2} - 6x = 5\)</span></p></li>
@@ -4062,12 +4062,12 @@ med fullstendige kvadraters metode.</p></li>
 </ol><h4 id="vurderingskriterier-avansert-03.02.23">Vurderingskriterier
 avansert: 03.02.23</h4><p>Begge likningene må løses med korrekt teknikk.</p></div>
 <div id="likn5g">
-<h1 onclick="moveDivsback('likn', 'likn5g')"> Tilbake til likninger </h1> <h4 id="grunnleggende-17.02.23">Grunnleggende: 17.02.23</h4><p>Gjengi og vis de tre kvadratsetningene algebraisk</p><h4 id="vurderingskriterier-grunnleggende-17.02.23">Vurderingskriterier
+<button onclick="moveDivsback('likn', 'likn5g')"> Tilbake til likninger </button> <h4 id="grunnleggende-17.02.23">Grunnleggende: 17.02.23</h4><p>Gjengi og vis de tre kvadratsetningene algebraisk</p><h4 id="vurderingskriterier-grunnleggende-17.02.23">Vurderingskriterier
 grunnleggende: 17.02.23</h4><p>Her <em>må</em> første og tredje kvadratsetning gjengis.</p><h4 id="grunnleggende-13.02.23">Grunnleggende: 13.02.23</h4><p>Gjengi og vis første og tredje kvadratsetningene algebraisk</p><h4 id="vurderingskriterier-grunnleggende-13.02.23">Vurderingskriterier
 grunnleggende: 13.02.23</h4><p>Her <em>må</em> første og tredje kvadratsetning gjengis.</p><h4 id="grunnleggende-10.02.23">Grunnleggende: 10.02.23</h4><p>Gjengi og vis de første og tredje kvadratsetningene algebraisk</p><h4 id="vurderingskriterier-grunnleggende-10.02.23">Vurderingskriterier
 grunnleggende: 10.02.23</h4><p>Her <em>må</em> første og tredje kvadratsetning gjengis.</p><h4 id="grunnleggende-03.02.23">Grunnleggende: 03.02.23</h4><p>Gjengi og vis de tre kvadratsetningene algebraisk</p></div>
 <div id="likn5m">
-<h1 onclick="moveDivsback('likn', 'likn5m')"> Tilbake til likninger </h1> <h4 id="middels-17.02.23">Middels: 17.02.23</h4><p>Illustrer andre og tredje kvadratsetning geometrisk. Bruk
+<button onclick="moveDivsback('likn', 'likn5m')"> Tilbake til likninger </button> <h4 id="middels-17.02.23">Middels: 17.02.23</h4><p>Illustrer andre og tredje kvadratsetning geometrisk. Bruk
 illustrasjonene til å gi en forklaring av identitetene.</p><h4 id="vurderingskriterier-middels-17.02.23">Vurderingskriterier
 middels: 17.02.23</h4><p>Her <em>må</em> andre og tredje kvadratsetning illustrerer geometrisk
 og brukes til å forklare identitetene.</p><h4 id="middels-13.02.23">Middels: 13.02.23</h4><p>Illustrer andre og tredje kvadratsetningene geometrisk. Bruk
@@ -4079,7 +4079,7 @@ middels: 10.02.23</h4><p>Her <em>må</em> andre og tredje kvadratsetning illustr
 og brukes til å forklare identitetene.</p><h4 id="middels-03.02.23">Middels: 03.02.23</h4><p>Illustrer de tre kvadratsetningene geometrisk. Bruk illustrasjonene
 til å gi en forklaring av identitetene.</p></div>
 <div id="likn5a">
-<h1 onclick="moveDivsback('likn', 'likn5a')"> Tilbake til likninger </h1> <h4 id="avansert-17.02.23">Avansert: 17.02.23</h4><p>Under ser du to uttrykk.</p><p><span class="math inline">\(9x^2 - 4b^2\)</span>, <span class="math inline">\(9x^2y^2 +1 - 6xy\)</span>.</p><ol type="1">
+<button onclick="moveDivsback('likn', 'likn5a')"> Tilbake til likninger </button> <h4 id="avansert-17.02.23">Avansert: 17.02.23</h4><p>Under ser du to uttrykk.</p><p><span class="math inline">\(9x^2 - 4b^2\)</span>, <span class="math inline">\(9x^2y^2 +1 - 6xy\)</span>.</p><ol type="1">
 <li><p>Faktoriser uttrykkene over. Besvarelsene må inneholde en
 referanse til hvilken kvadratsetning som brukes.</p></li>
 <li><p>Velg ett av uttrykkene du har faktorisert. Illustrer
@@ -4112,7 +4112,7 @@ har faktorisert illustreres geometrisk der.</p><h4 id="avansert-03.02.23">Avanse
 </ol><p>Besvarelsene må inneholde en referanse til hvilken kvadratsetning som
 brukes.</p></div>
 <div id="geo1g">
-<h1 onclick="moveDivsback('geo',  'geo1g')"> Tilbake til Måling og areal </h1> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('geo',  'geo1g')"> Tilbake til Måling og areal </button> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
 <li>Forklar og gi eksempler på hva som menes med begrepene
 <em>størrelse, måltall</em> og <em>måleenhet.</em> Besvarelsen må
 inneholde 1-, 2-dimensjonale eksempler.</li>
@@ -4137,7 +4137,7 @@ eksempler.</li>
 </ol><h4 id="f10">Vurderingskriterier grunnleggende: 10.02.23</h4><p>Besvarelsen må gi eksempler i både en og to dimensjoner der måltall,
 måleenhet og størrelsen blir forklart forståelig.</p></div>
 <div id="geo1m">
-<h1 onclick="moveDivsback('geo',  'geo1m')"> Tilbake til Måling og areal </h1> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('geo',  'geo1m')"> Tilbake til Måling og areal </button> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
 <li><p>Vis grunnskoletilpasset (ved hjelp av ordforklaringer og
 illustrasjoner) hvordan man kan avgjøre</p>
 <ol type="a">
@@ -4225,7 +4225,7 @@ omforming til et rektangel, et halvt rektangel eller liknende).
 Begrunnelsene trekke ut ideen fra forklaringen og gi en generell formel
 for de tre størrelsene.</p></div>
 <div id="geo2g">
-<h1 onclick="moveDivsback('geo',  'geo2g')"> Tilbake til Måling og areal </h1> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('geo',  'geo2g')"> Tilbake til Måling og areal </button> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
 <li>Forklar og gi eksempler på hva som menes med begrepene
 <em>størrelse, måltall</em> og <em>måleenhet.</em> Besvarelsen må
 inneholde 3 dimensjonale eksempler.</li>
@@ -4250,7 +4250,7 @@ eksempler.</li>
 </ol><h4 id="f10">Vurderingskriterier grunnleggende: 10.02.23</h4><p>Besvarelsen må gi eksempler i både tre dimensjoner der måltall,
 måleenhet og størrelsen blir forklart forståelig.</p></div>
 <div id="geo3g">
-<h1 onclick="moveDivsback('geo',  'geo3g')"> Tilbake til Måling og areal </h1> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('geo',  'geo3g')"> Tilbake til Måling og areal </button> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
 <li>Forklar og gi eksempler (med illustrasjoner) på hva som menes med
 begrepene <em>punkt, linje, plan, linjestykke,</em> <em>vinkel og
 parallelle linjer.</em></li>
@@ -4270,7 +4270,7 @@ begrepene punkt, linje, plan, linjestykke, vinkel og parallelle
 linjer.</li>
 </ol><h4 id="f10">Vurderingskriterier grunnleggende: 10.02.23</h4><p>De må gi en forklaring med en illustrasjon på de gitte begrepene.</p></div>
 <div id="geo3m">
-<h1 onclick="moveDivsback('geo',  'geo3m')"> Tilbake til Måling og areal </h1> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('geo',  'geo3m')"> Tilbake til Måling og areal </button> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
 <li><p>Argumentere for vinkelsum av de indre vinklene i en</p>
 <ol type="a">
 <li><p>trekant</p></li>
@@ -4316,7 +4316,7 @@ vinklene i en trekant er.</p><h4 id="f10">Middels: 10.02.23</h4><p>Argumenter fo
 femkant er.</p><h4 id="f10">Vurderingskriterier middels: 10.02.23</h4><p>Studentene må argumentere for hvor stor vinkelsummen av de indre
 vinklene i en femkant er.</p></div>
 <div id="geo3a">
-<h1 onclick="moveDivsback('geo',  'geo3a')"> Tilbake til Måling og areal </h1> <h4 id="avansert-øveoppgaver">Avansert: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('geo',  'geo3a')"> Tilbake til Måling og areal </button> <h4 id="avansert-øveoppgaver">Avansert: Øveoppgaver</h4><ol type="1">
 <li>En korde-tangent-vinkel har størrelse <em>v</em>. Hvor stor er
 sirkelbuen den skjærer av? (Merk: En tangent står vinkelrett på linjen
 fra sentrum av sirkelen til tangeringspunktet).<br/>
@@ -4378,7 +4378,7 @@ og <span class="math inline">\(d\)</span>. Når <span class="math inline">\(a = 
 videre til å vise at <span class="math inline">\(b = 50 + y\)</span> og
 at <span class="math inline">\(c = 70 - y\)</span>, der <span class="math inline">\(y\)</span> er ned <em>nedre</em> vinkelen i <span class="math inline">\(b\)</span>.</p></div>
 <div id="geo4g">
-<h1 onclick="moveDivsback('geo',  'geo4g')"> Tilbake til Måling og areal </h1> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('geo',  'geo4g')"> Tilbake til Måling og areal </button> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
 <li>Forklar og gi eksempler (med illustrasjoner) på hva som menes med
 begrepene <em>mangekant, sirkel.</em></li>
 </ol><h4 id="grunnleggende-31.03.23">Grunnleggende: 31.03.23</h4><p>Forklar og gi eksempler (med illustrasjoner) på hva som menes med
@@ -4402,7 +4402,7 @@ kommer fram hvilke lengder som brukes.</p><h4 id="f10">Grunnleggende: 10.02.23</
 begrepene kvadrat, trapes, likesidet trekant og sirkel.</p><h4 id="f10">Vurderingskriterier grunnleggende: 10.02.23</h4><p>Studentene må gi en forklaring med en illustrasjon på de gitte
 begrepene.</p></div>
 <div id="geo4m">
-<h1 onclick="moveDivsback('geo',  'geo4m')"> Tilbake til Måling og areal </h1> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('geo',  'geo4m')"> Tilbake til Måling og areal </button> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
 <li><p>Forklar ved å bruke definisjoner at</p>
 <ol type="a">
 <li><p>Kvadrat er rektangel,</p></li>
@@ -4483,7 +4483,7 @@ vinkelrett på hverandre som ikke skjærer hverandre på midten. Dette vil
 gi en drake, som ikke er et kvadrat.</p></li>
 </ol></div>
 <div id="geo5g">
-<h1 onclick="moveDivsback('geo',  'geo5g')"> Tilbake til Måling og areal </h1> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('geo',  'geo5g')"> Tilbake til Måling og areal </button> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
 <li><p>Gjengi formelen for</p>
 <ol type="a">
 <li><p>Trekanter</p></li>
@@ -4520,7 +4520,7 @@ kommer fram hvilke lengder som brukes.</p><h4 id="f10">Grunnleggende: 10.02.23</
 lengder.</p><h4 id="f10">Vurderingskriterier grunnleggende: 10.02.23</h4><p>Studentene må gjengi formlene korrekt med en illustrasjon der det
 kommer fram hvilke lengder som brukes.</p></div>
 <div id="geo5m">
-<h1 onclick="moveDivsback('geo',  'geo5m')"> Tilbake til Måling og areal </h1> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('geo',  'geo5m')"> Tilbake til Måling og areal </button> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
 <li>Hvis et trapes har areal <span class="math inline">\(A\)</span>.
 Forklar ved hjelp av formelen til et trapes hvorfor arealet til trapeset
 blir <span class="math inline">\(\frac{25}{4}A\)</span> hvis vi
@@ -4544,7 +4544,7 @@ middels: 17.02.23</h4><p>Dette må gjøres algebraisk. Her må det komme fram at
 Hvis radius økes med <span class="math inline">\(x\)</span>. Vis
 algebraisk hvor mye lengre omkretsen til den nye sirkelen har blitt.</p><h4 id="f10">Vurderingskriterier middels: 10.02.23</h4><p>Dette må gjøres algebraisk.</p></div>
 <div id="geo5a">
-<h1 onclick="moveDivsback('geo',  'geo5a')"> Tilbake til Måling og areal </h1> <h4 id="avansert-øveoppgaver">Avansert: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('geo',  'geo5a')"> Tilbake til Måling og areal </button> <h4 id="avansert-øveoppgaver">Avansert: Øveoppgaver</h4><ol type="1">
 <li><p>Arkene i A-formatet (A1, A2, A3, A4, A5, osv) har den egenskapen
 at når du halverer de ved å brette de på langsiden, så vil de bevare
 forholdet mellom sidelengdene. Det vil si at hvis sidelengdene i A4 er
@@ -4663,14 +4663,14 @@ A-B-C &amp; = (a+x-b)h-\frac{(a+x-b)h}{2} - \frac{xh}{2}
 </ol><p><em>Merk</em> at det bevisst er utelatt litt detaljer i regningen som
 bør være med.</p></div>
 <div id="geo6g">
-<h1 onclick="moveDivsback('geo',  'geo6g')"> Tilbake til Måling og areal </h1> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><p>Gjengi og forklar, gjennom et eksempel, hva som menes med formlike
+<button onclick="moveDivsback('geo',  'geo6g')"> Tilbake til Måling og areal </button> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><p>Gjengi og forklar, gjennom et eksempel, hva som menes med formlike
 trekanter.</p><h4 id="grunnleggende-31.03.23">Grunnleggende: 31.03.23</h4><p>Gjengi og forklar, gjennom et eksempel, hva som menes med
 formlike</p><p>trekanter.</p><h5 id="vurderingskriterier">Vurderingskriterier</h5><p>Studenten må forklare gjennom et eksempel hva som menes med formlike
 trekanter. Forklaringen må inneholde en definisjon som enten peker til
 sammenhengen mellom vinklene i trekantene eller forholdet mellom
 samsvarende sider.</p></div>
 <div id="geo6m">
-<h1 onclick="moveDivsback('geo',  'geo6m')"> Tilbake til Måling og areal </h1> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><p>Under ser du en figur av tre formlike trekanter. Avgjør lengden på de
+<button onclick="moveDivsback('geo',  'geo6m')"> Tilbake til Måling og areal </button> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><p>Under ser du en figur av tre formlike trekanter. Avgjør lengden på de
 resterende sidene hvis du får vite at:</p><ol type="1">
 <li><span class="math inline">\(a = 3\)</span>, <span class="math inline">\(b = 6\)</span>, <span class="math inline">\(i =
 1\)</span> og <span class="math inline">\(g = 4\)</span>.</li>
@@ -4710,19 +4710,19 @@ samme. Det gir på samme måte som i 1. at <span class="math inline">\(a =
 3\)</span> og <span class="math inline">\(e = \frac{4}{3}\)</span>.</li>
 </ol></div>
 <div id="geo7g">
-<h1 onclick="moveDivsback('geo',  'geo7g')"> Tilbake til Måling og areal </h1> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><p>Gjengi og forklar Pytagoras setning. Forklaringen må referere til en
+<button onclick="moveDivsback('geo',  'geo7g')"> Tilbake til Måling og areal </button> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><p>Gjengi og forklar Pytagoras setning. Forklaringen må referere til en
 figur.</p><h5 id="løsningsforslag">Løsningsforslag</h5><p>Pytagoras setning sier at for enhver rettvinklet trekant, så gjelder
 at <span class="math inline">\(a^2+b^2= c^2\)</span>, der <span class="math inline">\(a\)</span> og <span class="math inline">\(b\)</span> er katetene og <span class="math inline">\(c\)</span> er hypotenusen. <em>Merk</em> at dere
 må legge ved en figur som dere referer til også!</p><h4 id="grunnleggende-31.03.23">Grunnleggende: 31.03.23</h4><p>Gjengi og forklar Pytagoras setning. Forklaringen må referere til en
 figur.</p><h5 id="vurderingskriterier">Vurderingskriterier</h5><p>Studenten må gi en forklaring av Pytagoras setning ved å referere til
 en figur.</p></div>
 <div id="geo7m">
-<h1 onclick="moveDivsback('geo',  'geo7m')"> Tilbake til Måling og areal </h1> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><p>Gi et grunnskoletilpasset bevis for Pytagoras setning med et visuelt
+<button onclick="moveDivsback('geo',  'geo7m')"> Tilbake til Måling og areal </button> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><p>Gi et grunnskoletilpasset bevis for Pytagoras setning med et visuelt
 argument.</p><h5 id="løsningsforslag">Løsningsforslag</h5><p>Se for eksempel Alfa.</p><h4 id="middels-31.03.23">Middels: 31.03.23</h4><p>Gi et grunnskoletilpasset argument for Pytagoras setning.</p><h5 id="vurderingskriterier">Vurderingskriterier</h5><p>Studenten må gi et grunnskoletilpasset argument for at Pytagoras
 setning gjelder. Dette innebærer å tegne en eller flere figurer og bruke
 de til å argumentere for Pytagoras setning.</p></div>
 <div id="geo8g">
-<h1 onclick="moveDivsback('geo',  'geo8g')"> Tilbake til Måling og areal </h1> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('geo',  'geo8g')"> Tilbake til Måling og areal </button> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
 <li><p>Finn lengden på hypotenusen i en rettvinklet trekant når du vet
 at katetene har lengde:</p>
 <ol type="a">
@@ -4772,7 +4772,7 @@ Det vil si at hvis svaret er <span class="math inline">\(\sqrt{1^{2} +
 <span class="math inline">\(\sqrt 25\)</span>. b. Vi har at <span class="math inline">\(1^2 + 8^2 = 65\)</span> som gir at hypotenusen er
 <span class="math inline">\(\sqrt 65\)</span>.</p></div>
 <div id="geo8m">
-<h1 onclick="moveDivsback('geo',  'geo8m')"> Tilbake til Måling og areal </h1> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('geo',  'geo8m')"> Tilbake til Måling og areal </button> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
 <li><p>Under er det tegnet inn en rettvinklet trekant plassert. På
 katetene og hypotenusen er det også tegnet inn halvsirkler.</p>
 <ol type="a">
@@ -4828,11 +4828,12 @@ z^2 = y^2 + 20y
 \]</span> og <span class="math display">\[
 \begin{aligned}
 5^2 + y^2 &amp; = (z+3-8)^2 = z^2 - 10z + 5^2
-y^2 = z^2 - 10 z.
+\\
+y^2 &amp; = z^2 - 10 z.
 \end{aligned}
 \]</span> Ved å bruke innsetning kan vi nå se at <span class="math inline">\(z^2 = z^2 - 10 z + 20y\)</span> eller at <span class="math inline">\(10z = 20 y\)</span> eller at <span class="math inline">\(z = 2y\)</span>. Det gir videre at <span class="math inline">\(y^2 = (2y)^2 - 20y\)</span>. Som nå gir at <span class="math inline">\(3y^2 = 20y\)</span> eller at <span class="math inline">\(y = \frac{20}{3}\)</span>, som betyr at <span class="math inline">\(z = \frac{40}{3}\)</span>.</p></div>
 <div id="sannsyn1g">
-<h1 onclick="moveDivsback('sannsyn',  'sannsyn1g')"> Tilbake til Sannsynlighet og kombinatorikk </h1> <h4 id="grunnleggende-øveppgaver">Grunnleggende: Øveppgaver</h4><p>Forklar hva en sannsynlighetsmodell er ved hjelp av begrepene utfall,
+<button onclick="moveDivsback('sannsyn',  'sannsyn1g')"> Tilbake til Sannsynlighet og kombinatorikk </button> <h4 id="grunnleggende-øveppgaver">Grunnleggende: Øveppgaver</h4><p>Forklar hva en sannsynlighetsmodell er ved hjelp av begrepene utfall,
 utfallsrom og hendelse. Gi et eksempel på en sannsynlighetsmodell.</p><h4 id="grunnleggende-31.03.23">Grunnleggende: 31.03.23</h4><ol type="1">
 <li>Forklar hva en sannsynlighetsmodell er ved hjelp av begrepene
 utfall, utfallsrom og hendelse. Gi et eksempel på en
@@ -4840,7 +4841,7 @@ sannsynlighetsmodell.</li>
 </ol><h5 id="vurderingskriterier">Vurderingskriterier</h5><p>Studenten må forklare hva en sannsynlighetsmodell er ved hjelp av
 begrepene. Besvarelsen må også gi et eksempel.</p></div>
 <div id="sannsyn1m">
-<h1 onclick="moveDivsback('sannsyn',  'sannsyn1m')"> Tilbake til Sannsynlighet og kombinatorikk </h1> <h4 id="middels-øveppgaver">Middels: Øveppgaver</h4><ol type="1">
+<button onclick="moveDivsback('sannsyn',  'sannsyn1m')"> Tilbake til Sannsynlighet og kombinatorikk </button> <h4 id="middels-øveppgaver">Middels: Øveppgaver</h4><ol type="1">
 <li>Alfa 7.10</li>
 <li>Alfa 7.11</li>
 </ol><h5 id="løsningsforslag">Løsningsforslag</h5><p>Siden <span class="math inline">\(P\left( u_{1} \right) =
@@ -4868,13 +4869,13 @@ deretter bruke at <span class="math inline">\(P(\{u_1,u_3\}) =
 P(u_1)+P(u_3) = 0.7\)</span>.</li>
 </ol></div>
 <div id="sannsyn2g">
-<h1 onclick="moveDivsback('sannsyn',  'sannsyn2g')"> Tilbake til Sannsynlighet og kombinatorikk </h1> <h4 id="grunnleggende-øveppgaver">Grunnleggende: Øveppgaver</h4><p>Forklar hva en uniform sannsynlighetsmodell er og gi et eksempel på
+<button onclick="moveDivsback('sannsyn',  'sannsyn2g')"> Tilbake til Sannsynlighet og kombinatorikk </button> <h4 id="grunnleggende-øveppgaver">Grunnleggende: Øveppgaver</h4><p>Forklar hva en uniform sannsynlighetsmodell er og gi et eksempel på
 en uniform sannsynlighetsmodell.</p><h4 id="grunnleggende-31.03.23">Grunnleggende: 31.03.23</h4><p>Forklar hva en uniform sannsynlighetsmodell er og gi et eksempel på
 en uniform sannsynlighetsmodell.</p><h5 id="vurderingskriterier">Vurderingskriterier</h5><p>Studenten må forklare begrepene og gi et eksempel.</p></div>
 <div id="sannsyn2n">
-<h1 onclick="moveDivsback('sannsyn',  'sannsyn2n')"> Tilbake til Sannsynlighet og kombinatorikk </h1> </div>
+<button onclick="moveDivsback('sannsyn',  'sannsyn2n')"> Tilbake til Sannsynlighet og kombinatorikk </button> </div>
 <div id="sannsyn2a">
-<h1 onclick="moveDivsback('sannsyn',  'sannsyn2a')"> Tilbake til Sannsynlighet og kombinatorikk </h1> <h4 id="avansert-øveppgaver">Avansert: Øveppgaver</h4><ol type="1">
+<button onclick="moveDivsback('sannsyn',  'sannsyn2a')"> Tilbake til Sannsynlighet og kombinatorikk </button> <h4 id="avansert-øveppgaver">Avansert: Øveppgaver</h4><ol type="1">
 <li><p>Du er på hytta og kaster fire femmere på første kast. Med to kast
 igjen bestemmer du deg for å gå for yatzy. Sett opp et utfallsrom som
 gir en uniform sannsynlighetsmodell og finn sannsynligheten for at du
@@ -4926,7 +4927,7 @@ plass, Henrik havner på andre plass, Henrik havner på tredje plass,…,
 Henrik havner på femtende plass}. Det er kun to av plassene som får han
 med i elevrådet, dermed <span class="math inline">\(\frac{2}{15}\)</span> sannsynlighet for dette.</p></div>
 <div id="sannsyn3g">
-<h1 onclick="moveDivsback('sannsyn',  'sannsyn3g')"> Tilbake til Sannsynlighet og kombinatorikk </h1> <h4 id="grunnleggende-øveppgaver">Grunnleggende: Øveppgaver</h4><p>Dette læringsmålet gjøres og godkjennes som en gruppeoppgave (på maks
+<button onclick="moveDivsback('sannsyn',  'sannsyn3g')"> Tilbake til Sannsynlighet og kombinatorikk </button> <h4 id="grunnleggende-øveppgaver">Grunnleggende: Øveppgaver</h4><p>Dette læringsmålet gjøres og godkjennes som en gruppeoppgave (på maks
 tre personer).</p><p>Læringsmålet tar utgangspunkt i aktiviteten fra timen tirsdag
 28.03.</p><p><em>Aktivitet</em>: Henrik og André gamblet i pauserommet i J-bygget
 med en mynt de hadde liggende. Henrik hadde valgt kron og André mynt. De
@@ -4937,7 +4938,7 @@ Hvordan skal de fordele pengene?</p><ol type="1">
 <li>Forklar store talls lov ved hjelp av et eksempel.</li>
 </ol></div>
 <div id="sannsyn3m">
-<h1 onclick="moveDivsback('sannsyn',  'sannsyn3m')"> Tilbake til Sannsynlighet og kombinatorikk </h1> <h4 id="middels-øveppgaver">Middels: Øveppgaver</h4><p>Dette læringsmålet gjøres og godkjennes som en gruppeoppgave (på maks
+<button onclick="moveDivsback('sannsyn',  'sannsyn3m')"> Tilbake til Sannsynlighet og kombinatorikk </button> <h4 id="middels-øveppgaver">Middels: Øveppgaver</h4><p>Dette læringsmålet gjøres og godkjennes som en gruppeoppgave (på maks
 tre personer).</p><p>Læringsmålet tar utgangspunkt i aktiviteten fra timen tirsdag
 28.03.</p><p><em>Aktivitet</em>: Henrik og André gamblet i pauserommet i J-bygget
 med en mynt de hadde liggende. Henrik hadde valgt kron og André mynt. De
@@ -4972,7 +4973,7 @@ leseren kan gjenta simuleringen og få tilsvarende resultater.</li>
 </ol></li>
 </ol></div>
 <div id="sannsyn3a">
-<h1 onclick="moveDivsback('sannsyn',  'sannsyn3a')"> Tilbake til Sannsynlighet og kombinatorikk </h1> <h4 id="avansert-øveppgaver">Avansert: Øveppgaver</h4><p>Dette læringsmålet gjøres og godkjennes som en gruppeoppgave (på maks
+<button onclick="moveDivsback('sannsyn',  'sannsyn3a')"> Tilbake til Sannsynlighet og kombinatorikk </button> <h4 id="avansert-øveppgaver">Avansert: Øveppgaver</h4><p>Dette læringsmålet gjøres og godkjennes som en gruppeoppgave (på maks
 tre personer).</p><p>Læringsmålet tar utgangspunkt i aktiviteten fra timen tirsdag
 28.03.</p><p><em>Aktivitet</em>: Henrik og André gamblet i pauserommet i J-bygget
 med en mynt de hadde liggende. Henrik hadde valgt kron og André mynt. De
@@ -5013,15 +5014,15 @@ kompetansemål for niende trinn.</li>
 </ol></li>
 </ol></div>
 <div id="sannsyn4g">
-<h1 onclick="moveDivsback('sannsyn',  'sannsyn4g')"> Tilbake til Sannsynlighet og kombinatorikk </h1> <h4 id="grunnleggende-øveppgaver">Grunnleggende: Øveppgaver</h4><p>Forklare og illustrere et sammensatt valg/et forsøk sammensatt av
+<button onclick="moveDivsback('sannsyn',  'sannsyn4g')"> Tilbake til Sannsynlighet og kombinatorikk </button> <h4 id="grunnleggende-øveppgaver">Grunnleggende: Øveppgaver</h4><p>Forklare og illustrere et sammensatt valg/et forsøk sammensatt av
 flere trinn.</p></div>
 <div id="sannsyn4m">
-<h1 onclick="moveDivsback('sannsyn',  'sannsyn4m')"> Tilbake til Sannsynlighet og kombinatorikk </h1> <h4 id="middels-øveppgaver">Middels: Øveppgaver</h4><p>Forklare og illustrere produktregelen. Pek tydelig på hvorfor det
+<button onclick="moveDivsback('sannsyn',  'sannsyn4m')"> Tilbake til Sannsynlighet og kombinatorikk </button> <h4 id="middels-øveppgaver">Middels: Øveppgaver</h4><p>Forklare og illustrere produktregelen. Pek tydelig på hvorfor det
 kommer frem at produktregelen må gjelde (Setning 7.53).</p></div>
 <div id="sannsyn5g">
-<h1 onclick="moveDivsback('sannsyn',  'sannsyn5g')"> Tilbake til Sannsynlighet og kombinatorikk </h1> <h4 id="grunnleggende-øveppgaver">Grunnleggende: Øveppgaver</h4><p>Forklar og gi eksempler til begrepene</p></div>
+<button onclick="moveDivsback('sannsyn',  'sannsyn5g')"> Tilbake til Sannsynlighet og kombinatorikk </button> <h4 id="grunnleggende-øveppgaver">Grunnleggende: Øveppgaver</h4><p>Forklar og gi eksempler til begrepene</p></div>
 <div id="sannsyn5m">
-<h1 onclick="moveDivsback('sannsyn',  'sannsyn5m')"> Tilbake til Sannsynlighet og kombinatorikk </h1> <h4 id="middels-øveppgaver">Middels: Øveppgaver</h4><ol type="1">
+<button onclick="moveDivsback('sannsyn',  'sannsyn5m')"> Tilbake til Sannsynlighet og kombinatorikk </button> <h4 id="middels-øveppgaver">Middels: Øveppgaver</h4><ol type="1">
 <li>Begrunn at følgende situasjoner kan tenkes på som ordnede utvalg med
 tilbakelegg og finn antall muligheter i utvalgene<br/>
 <ol type="a">
@@ -5068,9 +5069,9 @@ valg og så videre, altså <span class="math inline">\(5 \cdot 4 \cdot 3
 </ol></li>
 </ol></div>
 <div id="sannsyn6g">
-<h1 onclick="moveDivsback('sannsyn',  'sannsyn6g')"> Tilbake til Sannsynlighet og kombinatorikk </h1> <h4 id="grunnleggende-øveppgaver">Grunnleggende: Øveppgaver</h4><p>Forklar og gi eksempler til begrepene</p></div>
+<button onclick="moveDivsback('sannsyn',  'sannsyn6g')"> Tilbake til Sannsynlighet og kombinatorikk </button> <h4 id="grunnleggende-øveppgaver">Grunnleggende: Øveppgaver</h4><p>Forklar og gi eksempler til begrepene</p></div>
 <div id="sannsyn6m">
-<h1 onclick="moveDivsback('sannsyn',  'sannsyn6m')"> Tilbake til Sannsynlighet og kombinatorikk </h1> <h4 id="middels-øveppgaver">Middels: Øveppgaver</h4><ol type="1">
+<button onclick="moveDivsback('sannsyn',  'sannsyn6m')"> Tilbake til Sannsynlighet og kombinatorikk </button> <h4 id="middels-øveppgaver">Middels: Øveppgaver</h4><ol type="1">
 <li>Begrunn at følgende situasjoner kan tenkes på som uordnede utvalg
 uten tilbakelegg og finn antall muligheter i utvalgene<br/>
 <ol type="a">
@@ -5126,10 +5127,10 @@ Vi ser altså at det er <span class="math inline">\(1 + (1 + 2) + (1 + 2
 muligheter.</li>
 </ol></div>
 <div id="sannsyn7g">
-<h1 onclick="moveDivsback('sannsyn',  'sannsyn7g')"> Tilbake til Sannsynlighet og kombinatorikk </h1> 
+<button onclick="moveDivsback('sannsyn',  'sannsyn7g')"> Tilbake til Sannsynlighet og kombinatorikk </button> 
 </div>
 <div id="sannsyn7m">
-<h1 onclick="moveDivsback('sannsyn',  'sannsyn7m')"> Tilbake til Sannsynlighet og kombinatorikk </h1> <h4 id="middels-øveppgaver">Middels: Øveppgaver</h4><p>Avgjør om situasjonene under kan tenkes som (u)ordnede utvalg m/u
+<button onclick="moveDivsback('sannsyn',  'sannsyn7m')"> Tilbake til Sannsynlighet og kombinatorikk </button> <h4 id="middels-øveppgaver">Middels: Øveppgaver</h4><p>Avgjør om situasjonene under kan tenkes som (u)ordnede utvalg m/u
 tilbakelegg</p><ol type="1">
 <li>Du skal velge ut en komité fra en 20 lærerstudenter. Komitéen skal
 bestå av 4 studenter.</li>
@@ -5176,12 +5177,12 @@ tilbakelegg.</li>
 <li><span class="math inline">\(\vdots\)</span></li>
 </ol></div>
 <div id="sannsyn8g">
-<h1 onclick="moveDivsback('sannsyn',  'sannsyn8g')"> Tilbake til Sannsynlighet og kombinatorikk </h1> <h4 id="grunnleggende-øveppgaver">Grunnleggende: Øveppgaver</h4><p>Forklare og illustrere hva union og snitt er.</p></div>
+<button onclick="moveDivsback('sannsyn',  'sannsyn8g')"> Tilbake til Sannsynlighet og kombinatorikk </button> <h4 id="grunnleggende-øveppgaver">Grunnleggende: Øveppgaver</h4><p>Forklare og illustrere hva union og snitt er.</p></div>
 <div id="sannsyn8m">
-<h1 onclick="moveDivsback('sannsyn',  'sannsyn8m')"> Tilbake til Sannsynlighet og kombinatorikk </h1> <h4 id="middels-øveppgaver">Middels: Øveppgaver</h4><p>Forklare og illustrere addisjonssetningen. Pek tydelig på hvorfor det
+<button onclick="moveDivsback('sannsyn',  'sannsyn8m')"> Tilbake til Sannsynlighet og kombinatorikk </button> <h4 id="middels-øveppgaver">Middels: Øveppgaver</h4><p>Forklare og illustrere addisjonssetningen. Pek tydelig på hvorfor det
 kommer frem at produktregelen må gjelde (Setning 7.53).</p></div>
 <div id="sannsyn8a">
-<h1 onclick="moveDivsback('sannsyn',  'sannsyn8a')"> Tilbake til Sannsynlighet og kombinatorikk </h1> <h4 id="avansert-øveppgaver">Avansert: Øveppgaver</h4><ol type="1">
+<button onclick="moveDivsback('sannsyn',  'sannsyn8a')"> Tilbake til Sannsynlighet og kombinatorikk </button> <h4 id="avansert-øveppgaver">Avansert: Øveppgaver</h4><ol type="1">
 <li>Henrik har en tresifret kombinasjon på sykkellåsen sin. Du får vite
 at koden inneholder en toer (minst), men er ikke et partall. Avgjør hvor
 mange gjenværende muligheter det er</li>
@@ -5214,19 +5215,19 @@ addisjonsprinsippet at antallet er <span class="math inline">\(45+45+5 =
 </ol></li>
 </ol></div>
 <div id="sannsyn9g">
-<h1 onclick="moveDivsback('sannsyn',  'sannsyn9g')"> Tilbake til Sannsynlighet og kombinatorikk </h1> <h4 id="grunnleggende-øveppgaver">Grunnleggende: Øveppgaver</h4><p>Forklare begrepet komplement gjennom et eksempel</p></div>
+<button onclick="moveDivsback('sannsyn',  'sannsyn9g')"> Tilbake til Sannsynlighet og kombinatorikk </button> <h4 id="grunnleggende-øveppgaver">Grunnleggende: Øveppgaver</h4><p>Forklare begrepet komplement gjennom et eksempel</p></div>
 <div id="sannsyn9m">
-<h1 onclick="moveDivsback('sannsyn',  'sannsyn9m')"> Tilbake til Sannsynlighet og kombinatorikk </h1> <h4 id="middels-øveppgaver">Middels: Øveppgaver</h4><ul>
+<button onclick="moveDivsback('sannsyn',  'sannsyn9m')"> Tilbake til Sannsynlighet og kombinatorikk </button> <h4 id="middels-øveppgaver">Middels: Øveppgaver</h4><ul>
 <li>Forklare begrepet komplementsetningen ved å illustrere et eksempel
 (setning 7.59)</li>
 <li>Alfa 7.70</li>
 </ul></div>
 <div id="sannsyn9a">
-<h1 onclick="moveDivsback('sannsyn',  'sannsyn9a')"> Tilbake til Sannsynlighet og kombinatorikk </h1> <h4 id="avansert-øveppgaver">Avansert: Øveppgaver</h4><ul>
+<button onclick="moveDivsback('sannsyn',  'sannsyn9a')"> Tilbake til Sannsynlighet og kombinatorikk </button> <h4 id="avansert-øveppgaver">Avansert: Øveppgaver</h4><ul>
 <li>Alfa 7.72, 7.74.</li>
 </ul></div>
 <div id="sannsyn10a">
-<h1 onclick="moveDivsback('sannsyn',  'sannsyn10a')"> Tilbake til Sannsynlighet og kombinatorikk </h1> <h4 id="avansert-øveppgaver">Avansert: Øveppgaver</h4><ol type="1">
+<button onclick="moveDivsback('sannsyn',  'sannsyn10a')"> Tilbake til Sannsynlighet og kombinatorikk </button> <h4 id="avansert-øveppgaver">Avansert: Øveppgaver</h4><ol type="1">
 <li>Anta at sannsynligheten for å få en gutt alltid er 1/2. I en familie
 som har to barn er det tre muligheter, to gutter, to jenter eller ett av
 hvert kjønn. Eleven per sier at hvis en velger en tilfeldig
@@ -5271,7 +5272,7 @@ skal være røde?</li>
 </ol></li>
 </ol></div>
 <div id="tall1g">
-<h1 onclick="moveDivsback('tall',  'tall1g')"> Tilbake til Tall </h1> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><p>Forklare hva et posisjonssystem er, og regne med tall uttrykt i
+<button onclick="moveDivsback('tall',  'tall1g')"> Tilbake til Tall </button> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><p>Forklare hva et posisjonssystem er, og regne med tall uttrykt i
 posisjonssystem med ulike baser.</p><ol type="1">
 <li><p>Forklar hvordan et posisjonssystem er bygd opp. Gi eksempler med
 ulike baser.</p></li>
@@ -5507,7 +5508,7 @@ symboler for ti og elleve. Enkleste løsning er A og B. Vi har da 0, 1,
 </ol></li>
 </ol></div>
 <div id="tall1m">
-<h1 onclick="moveDivsback('tall',  'tall1m')"> Tilbake til Tall </h1> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('tall',  'tall1m')"> Tilbake til Tall </button> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
 <li><p>Gjør om til base ti.</p>
 <ol type="a">
 <li><p><span class="math inline">\(4321_{fem}\)</span></p></li>
@@ -5569,12 +5570,11 @@ aktuelle posisjon er 81. Det går <strong><u>to</u></strong> 81-ere på
 </ol></li>
 <li><p>Gjør om til base to.</p>
 <ol type="a">
-<li><span class="math inline">\(17_{ti} = 16 + 1,\ så\
-10001_{to}\)</span></li>
-<li><span class="math inline">\(17_{tolv} = 12 + 5,\ så\
-15_{tolv}\)</span></li>
-<li><span class="math inline">\(72_{åtte} = 64 + 8,\ så\
-110_{åtte}\)</span></li>
+<li><span class="math inline">\(17_{ti} = 16 + 1\)</span>, så <span class="math inline">\(10001_{to}\)</span></li>
+<li><span class="math inline">\(17_{tolv} = 12 + 7 = 16 +
+2+1\)</span>, så <span class="math inline">\(10011_{to}\)</span></li>
+<li><span class="math inline">\(72_{åtte} = 56 + 2 = 32+24+2 =
+32+16+8+2\)</span>, så <span class="math inline">\(111010_{to}\)</span></li>
 </ol></li>
 <li><p>Gjør om …</p>
 <ol type="a">
@@ -5589,7 +5589,7 @@ aktuelle posisjon er 81. Det går <strong><u>to</u></strong> 81-ere på
 </ol></li>
 </ol></div>
 <div id="tall1a">
-<h1 onclick="moveDivsback('tall',  'tall1a')"> Tilbake til Tall </h1> <h4 id="avansert-øveoppgaver">Avansert: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('tall',  'tall1a')"> Tilbake til Tall </button> <h4 id="avansert-øveoppgaver">Avansert: Øveoppgaver</h4><ol type="1">
 <li><p>Gjør beregningene i den aktuelle basen (uten å oversette til base
 ti, altså).</p>
 <ol type="a">
@@ -5698,7 +5698,7 @@ oddetall, er også <span class="math inline">\(b^{n}\)</span> et
 oddetall. Da er <span class="math inline">\(b^{n} - 1\)</span> alltid
 par.</p></div>
 <div id="tall2g">
-<h1 onclick="moveDivsback('tall',  'tall2g')"> Tilbake til Tall </h1> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('tall',  'tall2g')"> Tilbake til Tall </button> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
 <li><p>Gi et eksempel på hver av strukturene med <em>addisjon</em> som
 modell: <em>økning, forening, additiv sammenlikning, komplettering</em>
 og <em>oppheving av minskning</em>.</p></li>
@@ -5717,7 +5717,7 @@ og <em>oppheving av økning</em>. Alfa.</p></li>
 situasjonene over. Omformuler den slik at det er rimelig å si at den har
 samme struktur, men med subtraksjon som modell.</p><h5 id="vurderingskriterier">Vurderingskriterier</h5><p>Additive strukturer s. 52 i Alfa.</p></div>
 <div id="tall2m">
-<h1 onclick="moveDivsback('tall',  'tall2m')"> Tilbake til Tall </h1> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('tall',  'tall2m')"> Tilbake til Tall </button> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
 <li><p>Avgjør hvilken additiv struktur situasjonene svarer til.
 Spesifiser også hva som er ukjent der det er relevant. Merk at én og
 samme situasjon kan tolkes både som addisjon og subtraksjon.</p>
@@ -5781,7 +5781,7 @@ kort.</p><ol type="1">
 <li>er forening/oppdeling, totalen kjent: <span class="math inline">\(354+\_=497 eller 497-354=\_\)</span>.</li>
 </ol></div>
 <div id="tall3g">
-<h1 onclick="moveDivsback('tall',  'tall3g')"> Tilbake til Tall </h1> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('tall',  'tall3g')"> Tilbake til Tall </button> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
 <li>Gi et eksempel på hver av strukturene med <em>multiplikasjon</em>
 som modell: <em>like grupper, multiplikativ sammenlikning, rate,
 kombinatorisk situasjon</em> og <em>rektangulært arrangement</em>.</li>
@@ -5794,7 +5794,7 @@ strukturene multiplikativ sammenlikning og kombinatorisk situasjon.
 Forklar kort med et eksempel til hver av de to typene divisjon
 delingsdivisjon og målingsdivisjon.</p><h5 id="vurderingskriterier">Vurderingskriterier</h5><p>Multiplikative strukturer s. 58 i Alfa.</p></div>
 <div id="tall3m">
-<h1 onclick="moveDivsback('tall',  'tall3m')"> Tilbake til Tall </h1> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('tall',  'tall3m')"> Tilbake til Tall </button> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
 <li><p>Avgjør hvilken multiplikativ struktur situasjonene svarer til.
 Spesifiser også hva som er ukjent der det er relevant. Merk at én og
 samme situasjon kan tolkes både som multiplikasjon og divisjon.</p>
@@ -5861,12 +5861,12 @@ jevnt ut av en flaske i tre minutter. Hvor mye lekker flaska per
 minutt?</li>
 </ol></div>
 <div id="tall4g">
-<h1 onclick="moveDivsback('tall',  'tall4g')"> Tilbake til Tall </h1> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('tall',  'tall4g')"> Tilbake til Tall </button> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
 <li>Forklart kort med eksempler de tre egenskapene.</li>
 </ol><h4 id="grunnleggende-31.03.23">Grunnleggende: 31.03.23</h4><p>Gjengi kommutativ, assosiativ og distributiv egenskap for addisjon og
 multiplikasjon.</p><h5 id="vurderingskriterier">Vurderingskriterier</h5><p>Gjengi egenskapene.</p></div>
 <div id="tall4m">
-<h1 onclick="moveDivsback('tall',  'tall4m')"> Tilbake til Tall </h1> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('tall',  'tall4m')"> Tilbake til Tall </button> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
 <li><p>Gjør beregningene ved hjelp av strategier (som ikke er oppstilt
 regning).</p>
 <ol type="a">
@@ -5935,7 +5935,7 @@ tenkt.</p><ol type="1">
 <li>Eks. finne firedel av 16, gange med 3, gange med 10.</li>
 </ol></div>
 <div id="tall4a">
-<h1 onclick="moveDivsback('tall',  'tall4a')"> Tilbake til Tall </h1> <h4 id="avansert-øveoppgaver">Avansert: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('tall',  'tall4a')"> Tilbake til Tall </button> <h4 id="avansert-øveoppgaver">Avansert: Øveoppgaver</h4><ol type="1">
 <li><p>Gjør oppgavene fra middels. Begrunn, og dersom hensiktsmessig,
 illustrer strategien slik at det går tydelig frem at den alltid
 funker.</p></li>
@@ -5974,7 +5974,7 @@ av talleksempel)</li>
 nødvendigvis noe algebra)</li>
 </ol></div>
 <div id="tall5g">
-<h1 onclick="moveDivsback('tall',  'tall5g')"> Tilbake til Tall </h1> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('tall',  'tall5g')"> Tilbake til Tall </button> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
 <li><p>Forklar og gi eksempler på hva som menes med brøk som</p>
 <ol type="a">
 <li><p>del av en hel eller del av en enhet</p></li>
@@ -5984,7 +5984,7 @@ nødvendigvis noe algebra)</li>
 </ol></li>
 </ol></div>
 <div id="tall5m">
-<h1 onclick="moveDivsback('tall',  'tall5m')"> Tilbake til Tall </h1> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('tall',  'tall5m')"> Tilbake til Tall </button> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
 <li><p>Lag oppgaver der brøk opptrer i betydningen</p>
 <ol type="a">
 <li><p>del av en hel eller del av en enhet</p></li>
@@ -6009,41 +6009,41 @@ lenge kan man klippe gress på en halv liter?</p></li>
 </ol></li>
 </ol></div>
 <div id="tall6g">
-<h1 onclick="moveDivsback('tall',  'tall6g')"> Tilbake til Tall </h1> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('tall',  'tall6g')"> Tilbake til Tall </button> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
 <li>Forklar hva hele, rasjonale og irrasjonale tall er. (Husk at målet
 med forklaringsoppgaver er 1) at <em>du</em> skal forstå, og 2) at du
 skal forstå slik at du kan <em>hjelpe andre å forstå</em>.)</li>
 </ol></div>
 <div id="tall6m">
-<h1 onclick="moveDivsback('tall',  'tall6m')"> Tilbake til Tall </h1> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('tall',  'tall6m')"> Tilbake til Tall </button> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
 <li>Forklar hva naturlige, hele, rasjonale og irrasjonale tall er.
 Forklar og illustrer deretter hvordan disse til sammen utgjør de reelle
 tallene.</li>
 </ol></div>
 <div id="tall7g">
-<h1 onclick="moveDivsback('tall',  'tall7g')"> Tilbake til Tall </h1> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('tall',  'tall7g')"> Tilbake til Tall </button> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
 <li>Alfa s. 105</li>
 </ol></div>
 <div id="tall7m">
-<h1 onclick="moveDivsback('tall',  'tall7m')"> Tilbake til Tall </h1> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('tall',  'tall7m')"> Tilbake til Tall </button> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
 <li><p>Alfa s. 105</p></li>
 <li><p>Vis ved hjelp av illustrasjon og ordforklaring hvorfor utviding
 og forkorting gir likeverdige brøker.</p></li>
 </ol></div>
 <div id="tall8g">
-<h1 onclick="moveDivsback('tall',  'tall8g')"> Tilbake til Tall </h1> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('tall',  'tall8g')"> Tilbake til Tall </button> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
 <li>Alfa s. 108. Bare beregningene, ikke lage regnefortellinger og
 konkretiseringer.</li>
 </ol></div>
 <div id="tall8m">
-<h1 onclick="moveDivsback('tall',  'tall8m')"> Tilbake til Tall </h1> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('tall',  'tall8m')"> Tilbake til Tall </button> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
 <li><p>Alfa s. 108.</p></li>
 <li><p>Velg en addisjon og en subtraksjon av brøker med ulike nevnere.
 Forklar og illustrer løsningen. Pass på at forklaring og illustrasjon
 viser <em>hvorfor,</em> ikke bare <em>hva</em> du gjør.</p></li>
 </ol></div>
 <div id="tall9g">
-<h1 onclick="moveDivsback('tall',  'tall9g')"> Tilbake til Tall </h1> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('tall',  'tall9g')"> Tilbake til Tall </button> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
 <li><p>Alfa s. 119. Kun beregningene på grunnleggende.</p>
 <ol type="a">
 <li><p>1.41 a, b, c og d</p></li>
@@ -6052,7 +6052,7 @@ viser <em>hvorfor,</em> ikke bare <em>hva</em> du gjør.</p></li>
 </ol></li>
 </ol></div>
 <div id="tall9m">
-<h1 onclick="moveDivsback('tall',  'tall9m')"> Tilbake til Tall </h1> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('tall',  'tall9m')"> Tilbake til Tall </button> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
 <li><p>Alfa s. 119</p>
 <ol type="a">
 <li><p>1.41 a, b, c og d</p></li>
@@ -6071,7 +6071,7 @@ som vi gjør. Forsøk å knytte forklaringene til kontekstene.</p></li>
 brøkmultiplikasjon er kommutativ.</p></li>
 </ol></div>
 <div id="tall10g">
-<h1 onclick="moveDivsback('tall',  'tall10g')"> Tilbake til Tall </h1> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('tall',  'tall10g')"> Tilbake til Tall </button> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
 <li><p>Alfa s. 119. Kun beregningene på grunnleggende.</p>
 <ol type="a">
 <li><p>1.41 e, f og g</p></li>
@@ -6079,12 +6079,12 @@ brøkmultiplikasjon er kommutativ.</p></li>
 </ol></li>
 </ol></div>
 <div id="tall10m">
-<h1 onclick="moveDivsback('tall',  'tall10m')"> Tilbake til Tall </h1> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('tall',  'tall10m')"> Tilbake til Tall </button> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
 <li>Forklar ved hjelp av et generisk eksempel hvorfor divisjon med en
 brøk svarer til å gange med den omvendte brøken.</li>
 </ol></div>
 <div id="tall10a">
-<h1 onclick="moveDivsback('tall',  'tall10a')"> Tilbake til Tall </h1> <h4 id="avansert-øveoppgaver">Avansert: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('tall',  'tall10a')"> Tilbake til Tall </button> <h4 id="avansert-øveoppgaver">Avansert: Øveoppgaver</h4><ol type="1">
 <li><p>Velg en divisjon med brøk.</p>
 <ol type="a">
 <li><p>Lag en passende kontekst som gir <em>målingsdivisjon</em>. Bruk
@@ -6096,10 +6096,10 @@ den er.</p></li>
 </ol></li>
 </ol></div>
 <div id="tall11m">
-<h1 onclick="moveDivsback('tall',  'tall11m')"> Tilbake til Tall </h1> 
+<button onclick="moveDivsback('tall',  'tall11m')"> Tilbake til Tall </button> 
 </div>
 <div id="tall11a">
-<h1 onclick="moveDivsback('tall',  'tall11a')"> Tilbake til Tall </h1> <h4 id="avansert-øveoppgaver">Avansert: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('tall',  'tall11a')"> Tilbake til Tall </button> <h4 id="avansert-øveoppgaver">Avansert: Øveoppgaver</h4><ol type="1">
 <li><p>Regn ut.</p>
 <ol type="a">
 <li><p><span class="math inline">\(\frac{3}{2}\left( 7 + \frac{3\  + \
@@ -6115,7 +6115,7 @@ den er.</p></li>
 </ol></li>
 </ol></div>
 <div id="tall12g">
-<h1 onclick="moveDivsback('tall',  'tall12g')"> Tilbake til Tall </h1> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('tall',  'tall12g')"> Tilbake til Tall </button> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
 <li><p>Utdyp og forklar: <em>desimaltall er en skrivemåte for brøker der
 nevneren er en potens av ti.</em></p></li>
 <li><p>Forklar hva <span class="math inline">\(257,1208\)</span> betyr
@@ -6129,7 +6129,7 @@ på utvidet form.</p></li>
 </ol></li>
 </ol></div>
 <div id="tall12m">
-<h1 onclick="moveDivsback('tall',  'tall12m')"> Tilbake til Tall </h1> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('tall',  'tall12m')"> Tilbake til Tall </button> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
 <li><p>Alfa s. 140</p>
 <ol type="a">
 <li><p>1.68</p></li>
@@ -6138,14 +6138,14 @@ på utvidet form.</p></li>
 </ol></li>
 </ol></div>
 <div id="tall13g">
-<h1 onclick="moveDivsback('tall',  'tall13g')"> Tilbake til Tall </h1> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('tall',  'tall13g')"> Tilbake til Tall </button> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
 <li><p>Forklar og gi eksempler på endelig, periodisk og uendelig
 ikke-periodisk desimaltall.</p></li>
 <li><p>Hvilke brøker svarer til endelige og hvilke svarer til periodiske
 desimaltall?</p></li>
 </ol></div>
 <div id="tall13m">
-<h1 onclick="moveDivsback('tall',  'tall13m')"> Tilbake til Tall </h1> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('tall',  'tall13m')"> Tilbake til Tall </button> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
 <li>Gjør om til desimaltall. Fremgangsmåte, strategi eller begrunnelse
 for omgjøringen må komme tydelig frem.</li>
 </ol><table style="width:99%;">
@@ -6177,7 +6177,7 @@ strategi eller begrunnelse for omgjøringen må komme tydelig frem.</p>
 </ol></li>
 </ol></div>
 <div id="tall13a">
-<h1 onclick="moveDivsback('tall',  'tall13a')"> Tilbake til Tall </h1> <h4 id="avansert-øveoppgaver">Avansert: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('tall',  'tall13a')"> Tilbake til Tall </button> <h4 id="avansert-øveoppgaver">Avansert: Øveoppgaver</h4><ol type="1">
 <li><p>Alfa s. 140.</p>
 <ol type="a">
 <li><p>1.73</p></li>
@@ -6200,7 +6200,7 @@ strategi eller begrunnelse for omgjøringen må komme tydelig frem.</p>
 </ol></li>
 </ol></div>
 <div id="tall14m">
-<h1 onclick="moveDivsback('tall',  'tall14m')"> Tilbake til Tall </h1> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('tall',  'tall14m')"> Tilbake til Tall </button> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
 <li><p>Alfa s. 140:</p>
 <ol type="a">
 <li><p>1.71</p></li>
@@ -6230,7 +6230,7 @@ ikke lar seg gjøre.</p></li>
 </tbody>
 </table></div>
 <div id="tall14a">
-<h1 onclick="moveDivsback('tall',  'tall14a')"> Tilbake til Tall </h1> <h4 id="avansert-øveoppgaver">Avansert: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('tall',  'tall14a')"> Tilbake til Tall </button> <h4 id="avansert-øveoppgaver">Avansert: Øveoppgaver</h4><ol type="1">
 <li><p>Alle brøkene som svarer til endelige desimaltall, har en felles
 egenskap. Forklar hvilken det er, og gi en begrunnelse for at det er
 slik.</p></li>
@@ -6238,7 +6238,7 @@ slik.</p></li>
 desimaltall. Begrunn hvorfor det er slik.</p></li>
 </ol></div>
 <div id="tall15g">
-<h1 onclick="moveDivsback('tall',  'tall15g')"> Tilbake til Tall </h1> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('tall',  'tall15g')"> Tilbake til Tall </button> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
 <li><p>Alfa s. 143</p>
 <ol type="a">
 <li><p>1.77</p></li>
@@ -6260,7 +6260,7 @@ desimaltall. Begrunn hvorfor det er slik.</p></li>
 </ol></li>
 </ol></div>
 <div id="tall15m">
-<h1 onclick="moveDivsback('tall',  'tall15m')"> Tilbake til Tall </h1> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('tall',  'tall15m')"> Tilbake til Tall </button> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
 <li><p>Alfa s. 143–144:</p>
 <ol type="a">
 <li><p>1.77</p></li>
@@ -6276,7 +6276,7 @@ utgjør <span class="math inline">\(x\)</span> av <span class="math inline">\(y\
 </ol></li>
 </ol></div>
 <div id="tall16a">
-<h1 onclick="moveDivsback('tall',  'tall16a')"> Tilbake til Tall </h1> <h4 id="avansert-øveoppgaver">Avansert: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('tall',  'tall16a')"> Tilbake til Tall </button> <h4 id="avansert-øveoppgaver">Avansert: Øveoppgaver</h4><ol type="1">
 <li><p>Alfa s. 143: 1.86</p></li>
 <li><p>To butikker selger i utgangspunktet en vare til samme pris. Den
 ene butikken setter opp varen med 10 % for siden å sette den ned med 10
@@ -6301,7 +6301,7 @@ og nevneren summen av de to brøkenes nevnere. Eksempel: Brøken <span class="ma
 funker. (Hint: Det kan lønne seg å bruke at dersom <span class="math inline">\(\frac{2}{3} &lt; \frac{4}{5}\)</span>, så er <span class="math inline">\(2 \cdot 5 &lt; 3 \cdot 4\)</span>.)</p></li>
 </ol></div>
 <div id="tall17g">
-<h1 onclick="moveDivsback('tall',  'tall17g')"> Tilbake til Tall </h1> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('tall',  'tall17g')"> Tilbake til Tall </button> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
 <li><p>Regn ut.</p>
 <ol type="a">
 <li><p><span class="math inline">\(12 - ( - 3)\)</span></p></li>
@@ -6319,7 +6319,7 @@ funker. (Hint: Det kan lønne seg å bruke at dersom <span class="math inline">\
 </ol></li>
 </ol></div>
 <div id="tall17m">
-<h1 onclick="moveDivsback('tall',  'tall17m')"> Tilbake til Tall </h1> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('tall',  'tall17m')"> Tilbake til Tall </button> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
 <li><p>Lag regnetabeller som med utgangspunkt i de naturlige tallene,
 viser hvordan addisjon og subtraksjon må oppføre seg for å gi en
 meningsfull utvidelse til negative tall.</p></li>
@@ -6329,7 +6329,7 @@ som <em>motsatte av de positive (hele) tallene</em>.</p></li>
 <li><p>Illustrer forklaringa fra forrige oppgave på tallinjer.</p></li>
 </ol></div>
 <div id="tall18g">
-<h1 onclick="moveDivsback('tall',  'tall18g')"> Tilbake til Tall </h1> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('tall',  'tall18g')"> Tilbake til Tall </button> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
 <li><p>Regn ut.</p>
 <ol type="a">
 <li><p><span class="math inline">\(- 3 \cdot 5\)</span></p></li>
@@ -6345,7 +6345,7 @@ som <em>motsatte av de positive (hele) tallene</em>.</p></li>
 </ol></li>
 </ol></div>
 <div id="tall18m">
-<h1 onclick="moveDivsback('tall',  'tall18m')"> Tilbake til Tall </h1> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('tall',  'tall18m')"> Tilbake til Tall </button> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
 <li><p>Lag en multiplikasjonstabell for <span class="math inline">\(0\)</span>–<span class="math inline">\(10\)</span>. Utvid tabellen til <span class="math inline">\(- 10\)</span> i begge retninger, og forklar kort
 hvordan mønsteret må fortsette for å gi en meningsfull
 utvidelse.</p></li>
@@ -6370,7 +6370,7 @@ generiske talleksempler.</p></li>
 </ol></li>
 </ol></div>
 <div id="tall19g">
-<h1 onclick="moveDivsback('tall',  'tall19g')"> Tilbake til Tall </h1> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('tall',  'tall19g')"> Tilbake til Tall </button> <h4 id="grunnleggende-øveoppgaver">Grunnleggende: Øveoppgaver</h4><ol type="1">
 <li>Hva betyr potensuttrykkene? Der det er nødvendig, angi også hvilke
 tall <span class="math inline">\(a\)</span>, <span class="math inline">\(n\)</span> og <span class="math inline">\(m\)</span> betydningen gjelder for.</li>
 </ol><table style="width:99%;">
@@ -6398,7 +6398,7 @@ tall <span class="math inline">\(a\)</span>, <span class="math inline">\(n\)</sp
 </ol></li>
 </ol></div>
 <div id="tall19m">
-<h1 onclick="moveDivsback('tall',  'tall19m')"> Tilbake til Tall </h1> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('tall',  'tall19m')"> Tilbake til Tall </button> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
 <li><p>Alfa s. 239–241 (Det er ikke meningen å gjøre alt! Øv på det du
 trenger å øve på.)</p>
 <ol type="a">
@@ -6537,7 +6537,7 @@ oppgavene under. (Ikke for vår, men for din egen lærings skyld.)</p>
 </tbody>
 </table></div>
 <div id="tall19a">
-<h1 onclick="moveDivsback('tall',  'tall19a')"> Tilbake til Tall </h1> <h4 id="avansert-øveoppgaver">Avansert: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('tall',  'tall19a')"> Tilbake til Tall </button> <h4 id="avansert-øveoppgaver">Avansert: Øveoppgaver</h4><ol type="1">
 <li><p>Alfa s. 239–341</p>
 <ol type="a">
 <li><p>3.28</p></li>
@@ -6575,10 +6575,10 @@ b^{\frac{2}{3}}}{(ab)^{\frac{n}{3}}}\)</span></p><ol start="5" type="1">
 </ol></li>
 </ol></div>
 <div id="tall20g">
-<h1 onclick="moveDivsback('tall',  'tall20g')"> Tilbake til Tall </h1> 
+<button onclick="moveDivsback('tall',  'tall20g')"> Tilbake til Tall </button> 
 </div>
 <div id="tall20m">
-<h1 onclick="moveDivsback('tall',  'tall20m')"> Tilbake til Tall </h1> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('tall',  'tall20m')"> Tilbake til Tall </button> <h4 id="middels-øveoppgaver">Middels: Øveoppgaver</h4><ol type="1">
 <li>Utled potenssammenhengene under med utgangspunkt i at <span class="math inline">\(a^{n} = a \cdot a \cdot \ldots \cdot a\)</span>
 for <span class="math inline">\(n\)</span> <span class="math inline">\(a\)</span>-er. Det er ok å gjøre utledningene ved
 hjelp av talleksempler, så lenge disse fungerer som <em>generiske</em>
@@ -6621,7 +6621,7 @@ m}\)</span></td>
 </tbody>
 </table></div>
 <div id="tall20a">
-<h1 onclick="moveDivsback('tall',  'tall20a')"> Tilbake til Tall </h1> <h4 id="avansert-øveoppgaver">Avansert: Øveoppgaver</h4><ol type="1">
+<button onclick="moveDivsback('tall',  'tall20a')"> Tilbake til Tall </button> <h4 id="avansert-øveoppgaver">Avansert: Øveoppgaver</h4><ol type="1">
 <li>Utled potenssammenhengene under med utgangspunkt i at <span class="math inline">\(a^{n} = a \cdot a \cdot \ldots \cdot a\)</span>
 for <span class="math inline">\(n\)</span> <span class="math inline">\(a\)</span>-er. Det er ok å gjøre utledningene ved
 hjelp av talleksempler, så lenge disse fungerer som <em>generiske</em>
@@ -6679,7 +6679,8 @@ n}\)</span></td>
 </tbody>
 </table></div>
 <script>
-  function moveDivs(from, to, wheretoplacefromdiv = "-200vw", wheretoplacetodiv = "0vw") {
+  function moveDivs(from, to, wheretoplacefromdiv = "-200vw", wheretoplacetodiv = "0vw") 
+  {
   const fromdiv = document.getElementById(from);
   const todiv = document.getElementById(to);
   fromdiv.style.transform = `translateX(${wheretoplacefromdiv})`;
@@ -6688,9 +6689,17 @@ n}\)</span></td>
   todiv.style.transform = `translateX(${wheretoplacetodiv})`;
   todiv.style.height = "auto";
   todiv.style.overflow = "visible";
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
 }
 function moveDivsback(from, to, x = "0vw", y = "200vw") {
   moveDivs(to, from, y, x)
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
 }
 </script>
 </body>

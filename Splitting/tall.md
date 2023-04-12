@@ -135,9 +135,9 @@ posisjonssystem med ulike baser.
    c. $777_{ti}$ til base syv $2160_{syv}$
 
 3. Gjør om til base to.
-   a. $17_{ti} = 16 + 1,\ så\ 10001_{to}$
-   b. $17_{tolv} = 12 + 5,\ så\ 15_{tolv}$
-   c. $72_{åtte} = 64 + 8,\ så\ 110_{åtte}$
+   a. $17_{ti} = 16 + 1$,\ så\ $10001_{to}$
+   b. $17_{tolv} = 12 + 7 = 16 + 2+1$,\ så\ $10011_{to}$
+   c. $72_{åtte} = 56 + 2 = 32+24+2 = 32+16+8+2$,\ så\ $111010_{to}$
 4. Gjør om ...
    a. $224_{fem}$ til base tre: $224_{fem} = 2 \cdot 25 + 2 \cdot 5 + 4 = 2 \cdot 27 + 1 \cdot 9 + 0 \cdot 3 + 1 = 2101_{tre}$
    b. $10010_{to}$ til base fire: $10010_{to} = 1 \cdot 16 + 1 \cdot 4 = 110_{fire}$

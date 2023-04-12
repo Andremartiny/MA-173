@@ -358,8 +358,6 @@ Studenten må argumentere for vinkelsummen i en firkant. Dette kan for eksempel 
 
 #### Avansert: Utforske og løse ukjente problemet knyttet til begrepene
 
-##### Vurderingskriterier
-
 Under ser du en firkant der midtpunktene $E$, $F$, $G$ og $H$ er markert.
 
 Under står det en sann påstand. Bruk påstanden til å vise at $EF$ er parallell med $HG$, og at linjen $EH$ er parallell med linjen $FG$.
@@ -367,6 +365,10 @@ Under står det en sann påstand. Bruk påstanden til å vise at $EF$ er paralle
 Påstand: La $ABC$ være en vilkårlig trekant. Hvis $I$ og $M$ er midtpunktene på $AC$ og $BC$, så vil linjen $IM$ være parallell med $AB$.
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-30-14-26-10.png)
+
+##### Vurderingskriterier
+
+Studenten må gi en forståelig forklaring. Siden påstanden de skal bruke peker på trekanter er det naturlig at studenten trekker diagonalen i firkanten. Dermed kan de nå bruke at $E$, $F$, $G$, og $H$ alle er midtpunkter til å peke på at for eksempel $EF$ og $HG$ er parallell med samme diagonal, noe som betyr at de også må være parallelle. Tilsvarende kan de argumentere for $EH$ og $FG$. 
 
 ### Bruke begrepene kvadrat, rektangel, parallellogram, trapes, likebeint trekant, likesidet trekant, rettvinklet trekant, mangekant, sirkel
 
@@ -386,7 +388,7 @@ Studenten må gi eksempler med illustrasjoner på begrepene som det best om.
 
 ##### Vurderingskriterier
 
-1. Studenten må forklare hvrofor en likesidet trekant må være likebeint også. Dette må gjøres ved å peke på hva det vil si å være likesidet og hva det vil si å være likebeint.
+1. Studenten må forklare hvorfor en likesidet trekant må være likebeint også. Dette må gjøres ved å peke på hva det vil si å være likesidet og hva det vil si å være likebeint.
 2. Studenten må gi et moteksempel på argumentet for å vise at påstanden ikke stemmer.
 
 ### Bruke formler for størrelser av figurer til å utforske geometriske sammenhenger
@@ -557,7 +559,8 @@ og
 $$
 \begin{aligned}
 5^2 + y^2 & = (z+3-8)^2 = z^2 - 10z + 5^2
-y^2 = z^2 - 10 z.
+\\
+y^2 & = z^2 - 10 z.
 \end{aligned}
 $$
 Ved å bruke innsetning kan vi nå se at $z^2 = z^2 - 10 z + 20y$ eller at $10z = 20 y$ eller at $z = 2y$. Det gir videre at $y^2 = (2y)^2 - 20y$. Som nå gir at $3y^2 = 20y$ eller at $y = \frac{20}{3}$, som betyr at $z = \frac{40}{3}$.
