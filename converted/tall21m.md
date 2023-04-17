@@ -1,4 +1,4 @@
-#### Middels:  31.03.23
+#### Middels: Forklare hva et posisjonssystem er, og regne med tall uttrykt i posisjonssystem med ulike baser,  31.03.23
 
 1. Forklar kort hva et posisjonssystem er.
 

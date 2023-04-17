@@ -224,7 +224,7 @@ måter
 
 Forklar og gi eksempler på hva som menes med begrepene størrelse, måltall og måleenhet. Besvarelsen må inneholde 1- og 2-dimensjonale eksempler.
 
-#### Vurderingskriterier: Grunnleggende {#f17g1}
+##### Vurderingskriterier: Grunnleggende {#f17g1}
 
 Besvarelsen må gi eksempler i både en og to dimensjoner der måltall, måleenhet og størrelsen blir forklart forståelig.
 
@@ -238,7 +238,7 @@ b. arealet av en trapes, når man vet lengdene av to parallelle sider i trapeset
 
 Bruk forklaringene og illustrasjonene til å vise hva de generelle formlene må være.
 
-#### Vurderingskriterier: Middels {#f17m1}
+##### Vurderingskriterier: Middels {#f17m1}
 
 Besvarelsen må gi en forståelig forklaring (og illustrasjon) for hvordan man avgjør størrelsene. For omkrets må en få fram måleenheten en bruker (typisk et linjestykke. Ofte cm, meter og lignende). For areal må det komme tydelig fram hvordan arealet henger sammen med måleenheten kvadrat (noe som i de aller fleste tilfeller betyr at en må vise en omforming til et rektangel, et halvt rektangel eller liknende). Begrunnelsene trekke ut ideen fra forklaringen og gi en generell formel for de tre størrelsene.  
 
@@ -248,7 +248,7 @@ Besvarelsen må gi en forståelig forklaring (og illustrasjon) for hvordan man a
 
 Forklar og gi eksempler på hva som menes med begrepene størrelse, måltall og måleenhet. Besvarelsen må inneholde 3-dimensjonale eksempler.
 
-#### Vurderingskriterier: Grunnleggende {#f17g2}
+##### Vurderingskriterier: Grunnleggende {#f17g2}
 
 Besvarelsen må gi eksempler i både tre dimensjoner der måltall, måleenhet og størrelsen blir forklart forståelig.
 
@@ -512,16 +512,16 @@ b. Finn funksjonsuttrykket.
 
 ![](2023-03-31-09-26-46.png)
 
-#### Vurderingskriterier: Grunnleggende {#170211}
+##### Vurderingskriterier: Grunnleggende {#170211}
 
 Her må de gi et eksempel og forklare kjennetegnene, slik oppgaven ber om.  
 
-#### Vurderingskriterier: Middels {#170212}
+##### Vurderingskriterier: Middels {#170212}
 
 1. Studenten *må* lage en sammenheng mellom arealet mellom området og sidelengden. Her bør de bruke at hvis sidelengden er $s$ så er lengdene i rektangelet $2s$ og $3s$. Dermed er arealet av det synlige lilla området $2s\cdot 3s - s^2 = 5s^2$. Studenten kan dermed peke på at sammenhengen må være $A(s) = 5s^2$, der $A$ er arealet av det synlige lilla området og $s$ er sidelengden i det grønne kvadratet.
 2. Studenten må få fram at siden prisen, som vi kan kalle $P$ alltid skal deles likt på antall elever som vi kaller $x$, så må elevene betale $\frac{P}{x}$. Det betyr at summen elevene må betale er $f(x) = \frac{P}{x}$, altså omvendtproporsjonale.
 
-#### Vurderingskriterier: Avansert {#170213}
+##### Vurderingskriterier: Avansert {#170213}
 
 Studentene *må* peke på hvilken funksjon det er. I første eksempel bør studenten få fram at det må være en omvendt proporsjonal funksjon og begrunne dette. Det gir funksjonen $f(x)  = \frac{8}{x}$. I det andre eksempelet ser vi at $x = 2$ er toppunkt og at funksjonen er en parabel. Dermed er det en andregradsfunksjon. Deretter må finne funksjonsuttrykket (for eksempel ved regning). Dette kan de gjøre ved å først innse at koeffisienten $a$ i $ax^2+bx+c$ må være $-1$. Deretter kan de se at når $x = 2$ så er $f(2) = 6$ og $x=1$ så er $f(1) = 5$. Ved hjelp av dette kan de sette opp et likningssett og løse det.
 
@@ -535,7 +535,7 @@ Gitt en lineær funksjon $ax+b$, der $a = 1$ og $b=0$. Illustrer i et koordinats
 
 Grafen til en lineær funksjon går gjennom punktene $(-3, 0)$ og $(6, 3)$. Forklar hvordan vi kan finne likninga til den lineære funksjonen.
 
-#### Vurderingskriterier: Grunnleggende {#170221}
+##### Vurderingskriterier: Grunnleggende {#170221}
 
 Peke på hva parameterne gjør for førstegradsfunksjoner
 Middels:
@@ -559,12 +559,12 @@ En kvadratisk funksjon ser generelt slik ut: $f(x)=ax^2+bx+c$. Forklar kort (sli
 parameteren $a$ endres.
 parameteren $c$ endres.
 
-#### Vurderingskriterier: Grunnleggende {#170231}
+##### Vurderingskriterier: Grunnleggende {#170231}
 
 1. Peke på hva parameterne gjør for andregradsfunksjoner
 2. Skissere de to omvendt proporsjonale grafene.  
 
-#### Vurderingskriterier: Middels {#170232}
+##### Vurderingskriterier: Middels {#170232}
 
 1. Omvendt proporsjonale:  
 Grafen må skisseres for $a>0$ og $a<0$. Det må komme fram hvorfor formen på grafen er som den er. For eksempel $a>0$ kan en gi et konkret eksempel på en om omvendt prop. funk. og framheve sammenhengen (skaleres $x$ opp med noe skaleres $y$ ned med det samme, derav navnet omvendt prop) $\rightarrow$  større og større $x$ gir $y$ som kryper mot $0$, mindre og mindre $x$ gir større og større $y$. Det bør komme fram noen symmetrier med grafen. Når $a<0$ kan en bare peke på at $a< 0$ gir bare samme graf flippet over $x$-aksen.  
@@ -593,7 +593,7 @@ Bestem eventuelle skjæringspunkt (begge koordinater) mellom grafene til $f$ og 
 
 Skisser grafene i et koordinatsystem.
 
-#### Vurderingskriterier: Grunnleggende {#170241}
+##### Vurderingskriterier: Grunnleggende {#170241}
 
 Alle oppgaver må besvares.  
 
@@ -601,11 +601,11 @@ Alle oppgaver må besvares.
 2. Her må de tolke og skissere begge grafene i samme koordinatsystem.
 3. Gi en forklaring som viser sammenhengen mellom at løsning gir likhet av venstre og høyre side i likningen og at det tilsvarer skjæringspunktet mellom grafene.  
 
-#### Vurderingskriterier: Middels {#170242}
+##### Vurderingskriterier: Middels {#170242}
 
 De må lage en situasjon som gir likningen. Deretter må de illustrere likningen grafisk og vise løsningen i koordinatsystemet.
 
-#### Vurderingskriterier: Avansert {#170243}
+##### Vurderingskriterier: Avansert {#170243}
 
 Alle oppgavene må besvares
 
@@ -626,11 +626,11 @@ A) En persons personnummer og personens høyde.
 
 B) En persons navn og personens utdanning.
 
-#### Vurderingskriterier: Grunnleggende {#170251}
+##### Vurderingskriterier: Grunnleggende {#170251}
 
 Her må de peke på at arealet av en kvadrat med sidelengde $r$ er $r^2$ (altså at $A(r) = r^2$). Arealet er derfor en funksjon av $r$ (innverdi) fordi hver sidelengde $r$ gir et entydig areal (som her er funksjonsverdien).
 
-#### Vurderingskriterier: Middels {#170252}
+##### Vurderingskriterier: Middels {#170252}
 
 Besvarelsene *må* inneholde ordene innverdi, funksjonsverdi, definisjons- og verdimengde.
 A. Studenten må begrunne sammenhengen personens personnummer og høyde. Siden personnummer er unikt for personer og alle personer kun har en høyde, vil det for hvert personnummer (innverdi) finnes nøyaktig én høyde (funksjonsverdi) som hører til det personnummeret. Dette betyr at høyden er en funksjon av personnummeret. Studenten må også gi en meningsfull forklaring på hva definisjons- og verdimengden er til denne funksjonen.
@@ -647,7 +647,7 @@ Under ser du en skisse av Henriks reisevei til jobb dersom han kjører bil. Fart
 
 ![](2023-03-31-09-44-03.png)
 
-#### Vurderingskriterier: Middels {#170262}
+##### Vurderingskriterier: Middels {#170262}
 
 1. Studentene må lage en passende tabell som viser avstand hjemmefra som funksjon av tid. Funksjonen bør (men må ikke) bruke overgangene mellom fartsgrensene, slik at skisseringen i neste oppgave tydelig henger sammen med tabellen.
 2. Studentene må skissere en graf som får fram sammenhengen på en riktig måte, den må også samsvare med tabellen som er beskrevet i 1.. \

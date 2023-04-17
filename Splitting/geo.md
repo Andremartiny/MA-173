@@ -77,7 +77,7 @@ man avgjør er relatert til måleenheten.
    a. Ta utgangspunkt i animasjonen under og kall, blå, rød og grønn vinkel for $x$, $y$ og $z$. Vi ser at spaserturen viser at vi har dreid $360^\circ$ (summen av de ytre vinklene, de gule). Ser vi på indre vinkel pluss ytre vinkel ser vi at denne også alltid er $180^\circ$. Noe som tilsier at summen av indre og yre vinkler er $3\cdot 180^\circ$. Trekker vi fra summen av de ytre vinklene får vi $3\cdot 180^\circ-360^\circ = 180^\circ$. 
    b. Forsøk selv, ved å bruke samme argument.
 
-![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/geo/Visvinkler.mp4)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/geo/Visvinkler.mp4){width=75%}
 
 2. Trekk en linje parallell med $f$ og $g$ gjennom vinkel $v$. Vi får da, ved å bruke parallellitetsegenskaper, at $v$ kan deles inn i to vinkler, en del som er $13^\circ$ og en del som er $35^\circ$. Vinkel $v$ er dermed $48^\circ$. *Merk*: Besvarelsen mangler en tegning. Gjør dette selv og forsøk å gjøre din egen besvarelse. 
 
@@ -306,6 +306,7 @@ så skal ikke dette rundes av til $2,236$
 
 1. La oss kalle sidene i den rettvinkla trekanten for $x$, $y$ og $z$, slik at $x^2 + y^2 = z^2$. Da vet vi at de tre halvsirklene har areal $\pi(\frac{x}{2})^2 = \pi \frac{x^2}{4}$, $\pi \frac{y^2}{4}$ and $\pi \frac{z^2}{4}$. I tillegg har trekanten areal $\frac{2x\cdot2y}{2} = 2xy$. Tar vi de to små halvsirklene i tillegg til trekanten får vi hele området. Dette har areal $\frac{\pi}{2}(x^2+y^2)+ 2ab$. Vi kan nå bruke Pytagoras setning til å si at dette arealet kan skrives som $\frac{\pi c^2}{4} + 2ab$.Nå gjenstår det bare å trekke fra den store halvsirkelen for å få arealet av det hvite området. Dette gir $\frac{\pi c^2}{4}+ 2ab - \frac{\pi c^2}{4} = 2ab$. Vi ser dermed at det hvite området har samme areal som trekanten. Dermed blir forholdet mellom det hvite området og arealet av trekanten $1$.
 
+
 ## 31.03.23
 
 ### Bruke begrepene måltall, størrelse og måleenhet til å avgjøre størrelsen av grunnleggende figurer i 1 og 2 dimensjoner
@@ -314,7 +315,7 @@ så skal ikke dette rundes av til $2,236$
 
 Forklar og gi eksempler på hva som menes med begrepene størrelse, måltall og måleenhet. Besvarelsen må inneholde 1- og 2-dimensjonale eksempler.
 
-#### Vurderingskriterier: Grunnleggende {#f17g1}
+##### Vurderingskriterier: Grunnleggende {#f17g1}
 
 Besvarelsen må gi eksempler i både en og to dimensjoner der måltall, måleenhet og størrelsen blir forklart forståelig.
 
@@ -328,7 +329,7 @@ b. arealet av en trapes, når man vet lengdene av to parallelle sider i trapeset
 
 Bruk forklaringene og illustrasjonene til å vise hva de generelle formlene må være.
 
-#### Vurderingskriterier: Middels {#f17m1}
+##### Vurderingskriterier: Middels {#f17m1}
 
 Besvarelsen må gi en forståelig forklaring (og illustrasjon) for hvordan man avgjør størrelsene. For omkrets må en få fram måleenheten en bruker (typisk et linjestykke. Ofte cm, meter og lignende). For areal må det komme tydelig fram hvordan arealet henger sammen med måleenheten kvadrat (noe som i de aller fleste tilfeller betyr at en må vise en omforming til et rektangel, et halvt rektangel eller liknende). Begrunnelsene trekke ut ideen fra forklaringen og gi en generell formel for de tre størrelsene.  
 
@@ -338,7 +339,7 @@ Besvarelsen må gi en forståelig forklaring (og illustrasjon) for hvordan man a
 
 Forklar og gi eksempler på hva som menes med begrepene størrelse, måltall og måleenhet. Besvarelsen må inneholde 3-dimensjonale eksempler.
 
-#### Vurderingskriterier: Grunnleggende {#f17g2}
+##### Vurderingskriterier: Grunnleggende {#f17g2}
 
 Besvarelsen må gi eksempler i både tre dimensjoner der måltall, måleenhet og størrelsen blir forklart forståelig.
 
@@ -456,14 +457,14 @@ Dermed følger det nå at sidelengden er $3 + \sqrt 2$.
 3. Studenten må avgjøre arealet. Det kan for eksempel avgjøres ved å ta arealet av kvadratet og trekke fra trekantene i hjørnet. Det gir
 $$
 \begin{aligned}
-(3+2\sqrt 2)^2 - 4(\sqrt 2)^2
+(3+2\sqrt 2)^2 - 4\frac{(\sqrt 2)^2}{2}
 & =
-3^2 + 2\cdot 6 \cdot \sqrt 2 + 4\cdot 2 - 4 \cdot 2
+3^2 + 2\cdot 6 \cdot \sqrt 2 + 4\cdot 2 - 2 \cdot 2
 \\
 & =
-9 + 12\sqrt 2 + 8 - 8
+9 + 12\sqrt 2 + 8 - 4
 \\
-& = 9 + 12 \sqrt 2
+& = 13 + 12 \sqrt 2
 \end{aligned}
 $$
 
@@ -552,7 +553,9 @@ z^2 + 10^2
 & =
 10^2 + 20y + y^2
 \\
-z^2 = y^2 + 20y
+z^2 
+& =
+y^2 + 20y
 \end{aligned}
 $$
 og
@@ -584,11 +587,11 @@ b. arealet av en sirkel, når man vet radius.
 
 Bruk forklaringene og illustrasjonene til å vise hva de generelle formlene må være.
 
-#### Vurderingskriterier: Grunnleggende {#f17g1}
+##### Vurderingskriterier: Grunnleggende {#f17g1}
 
 Besvarelsen må gi eksempler i både en og to dimensjoner der måltall, måleenhet og størrelsen blir forklart forståelig.
 
-#### Vurderingskriterier: Middels {#f17m1}
+##### Vurderingskriterier: Middels {#f17m1}
 
 Besvarelsen må gi en forståelig forklaring (og illustrasjon) for hvordan man avgjør størrelsene. For omkrets må en få fram måleenheten en bruker (typisk et linjestykke. Ofte cm, meter og lignende). For areal må det komme tydelig fram hvordan arealet henger sammen med måleenheten kvadrat (noe som i de aller fleste tilfeller betyr at en må vise en omforming til et rektangel, et halvt rektangel eller liknende). Begrunnelsene trekke ut ideen fra forklaringen og gi en generell formel for de tre størrelsene.  
 
@@ -598,7 +601,7 @@ Besvarelsen må gi en forståelig forklaring (og illustrasjon) for hvordan man a
 
 Forklar og gi eksempler på hva som menes med begrepene størrelse, måltall og måleenhet. Besvarelsen må inneholde 3-dimensjonale eksempler.
 
-#### Vurderingskriterier: Grunnleggende {#f17g2}
+##### Vurderingskriterier: Grunnleggende {#f17g2}
 
 Besvarelsen må gi eksempler i både tre dimensjoner der måltall, måleenhet og størrelsen blir forklart forståelig.
 
@@ -620,17 +623,17 @@ Under ser du en sirkel med sentrum i $A$ og tre punkter på periferien, $C$, $D$
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-22-12-09.png)
 
-#### Vurderingskriterier: Grunnleggende {#f173}
+##### Vurderingskriterier: Grunnleggende {#f173}
 
 De må gi en forklaring med en illustrasjon på de gitte begrepene.
 
-#### Vurderingskriterier: Middels {#f17m3}
+##### Vurderingskriterier: Middels {#f17m3}
 
 Studentene må argumentere for hvor stor vinkelen $v$ er.
 
 Dette gjøres gjerne ved å slå en parallell linje gjennom $v$. På denne måten kan en argumentere for at $v$ er summen av $s$ og $w$.
 
-#### Vurderingskriterier: Avansert {#f17a3}
+##### Vurderingskriterier: Avansert {#f17a3}
 
 Studentene må på en forståelig måte få fram hvor stor $e$ er.
 
@@ -648,11 +651,11 @@ Forklar og gi eksempler (med illustrasjoner) på hva som menes med begrepene ret
 
 2. Avgjør og begrunn om følgende påstand om en trekant stemmer: En rettvinklet trekant har en indre vinkel som er $45^\circ$. Da må trekanten også være likebeint.
 
-#### Vurderingskriterier: Grunnleggende {#f17g4}
+##### Vurderingskriterier: Grunnleggende {#f17g4}
 
 Studentene må gi en forklaring med en illustrasjon på de gitte begrepene.
 
-#### Vurderingskriterier: Middels {#f17m4}
+##### Vurderingskriterier: Middels {#f17m4}
 
 Studentene må besvare begge oppgavene.
 
@@ -686,15 +689,15 @@ Under ser du en vilkårlig trekant $ABC$. Punktene $F$, $E$ og $D$ er midtpunkte
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-22-13-42.png)
 
-#### Vurderingskriterier: Grunnleggende {#f17g5}
+##### Vurderingskriterier: Grunnleggende {#f17g5}
 
 Studentene må gjengi formlene korrekt med en illustrasjon der det kommer fram hvilke lengder som brukes.
 
-#### Vurderingskriterier: Middels {#f17m5}
+##### Vurderingskriterier: Middels {#f17m5}
 
 Dette må gjøres algebraisk. Her må det komme fram at $(x+3)\cdot (y+3) \neq xy + 9$.
 
-#### Vurderingskriterier: Avansert {#f17a5}
+##### Vurderingskriterier: Avansert {#f17a5}
 
 Studenten må argumentere på en strukturert og forståelig måte.
 
@@ -720,11 +723,11 @@ c. arealet av en sirkel, når man vet radius.
 
 Bruk forklaringene og illustrasjonene til å vise hva de generelle formlene må være.
 
-#### Vurderingskriterier: Grunnleggende {#f13g1}
+##### Vurderingskriterier: Grunnleggende {#f13g1}
 
 Besvarelsen må gi eksempler i både en og to dimensjoner der måltall, måleenhet og størrelsen blir forklart forståelig.
 
-#### Vurderingskriterier: Middels {#f13m1}
+##### Vurderingskriterier: Middels {#f13m1}
 
 Besvarelsen må gi en forståelig forklaring (og illustrasjon) for hvordan man avgjør størrelsene. For omkrets må en få fram måleenheten en bruker (typisk et linjestykke. Ofte cm, meter og lignende). For areal må det komme tydelig fram hvordan arealet henger sammen med måleenheten kvadrat (noe som i de aller fleste tilfeller betyr at en må vise en omforming til et rektangel, et halvt rektangel eller liknende). Begrunnelsene trekke ut ideen fra forklaringen og gi en generell formel for de tre størrelsene.  
 
@@ -734,7 +737,7 @@ Besvarelsen må gi en forståelig forklaring (og illustrasjon) for hvordan man a
 
 1. Forklar og gi eksempler på hva som menes med begrepene størrelse, måltall og måleenhet. Besvarelsen må inneholde 3-dimensjonale eksempler.
 
-#### Vurderingskriterier: Grunnleggende {#f13g2}
+##### Vurderingskriterier: Grunnleggende {#f13g2}
 
 Besvarelsen må gi eksempler i både tre dimensjoner der måltall, måleenhet og størrelsen blir forklart forståelig.
 
@@ -762,15 +765,15 @@ Forklar hvorfor $\frac{AC}{BC} = \frac{AE}{EB}$ (vink: trekanter med to like vin
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-22-16-49.png)
 
-#### Vurderingskriterier: Grunnleggende {#f13g3}
+##### Vurderingskriterier: Grunnleggende {#f13g3}
 
 De må gi en forklaring med en illustrasjon på de gitte begrepene.
 
-#### Vurderingskriterier: Middels {#f13m3}
+##### Vurderingskriterier: Middels {#f13m3}
 
 Studentene må argumentere for hvor stor vinkelsummen av de indre vinklene i en trekant er.
 
-#### Vurderingskriterier: Avansert {#f13a3}
+##### Vurderingskriterier: Avansert {#f13a3}
 
 Studentene må gjøre alle oppgavene.
 
@@ -790,11 +793,11 @@ Forklar og gi eksempler (med illustrasjoner) på hva som menes med begrepene kva
 
 2. Avgjør og begrunn om følgende påstand om en firkant stemmer: Diagonalene i firkanten er like lange, og diagonalene står vinkelrett på hverandre. Derfor må firkanten være et kvadrat.
 
-#### Vurderingskriterier: Grunnleggende {#f13g4}
+##### Vurderingskriterier: Grunnleggende {#f13g4}
 
 Studentene må gi en forklaring med en illustrasjon på de gitte begrepene.
 
-#### Vurderingskriterier: Middels {#f13m4}
+##### Vurderingskriterier: Middels {#f13m4}
 
 Studentene må besvare begge oppgavene.
 
@@ -826,21 +829,21 @@ Legger du inn en innsirkel i en rettvinklet trekant, vil tangeringspunktene dele
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-22-18-16.png)
 
-#### Vurderingskriterier: Grunnleggende {#f13g5}
+##### Vurderingskriterier: Grunnleggende {#f13g5}
 
 Studentene må gjengi formlene korrekt med en illustrasjon der det kommer fram hvilke lengder som brukes.
 
-#### Vurderingskriterier: Middels {#f13m5}
+##### Vurderingskriterier: Middels {#f13m5}
 
 Dette må gjøres algebraisk. For eksempel ved å peke på at $A = ah$ er arealet av et parallellogram med høyde $h$ og grunnlinje $a$. Tripler jeg grunnlinja får jeg $3a$ og dobler jeg høyden får jeg $2h$. Arealet av det nye parallellogrammet blir nå $3a\cdot 2h = 6 ah = 6A$. Som altså er $6$ ganger så stort som det originale arealet.
 
-#### Vurderingskriterier: Avansert {#f13a5}
+##### Vurderingskriterier: Avansert {#f13a5}
 
 Studenten må gjøre argumentere på en strukturert og forståelig måte.
 
 Studenten må få fram at radius til innsirkelen er $x$. Deretter følger resultatet ved å bryte trekanten inn i seks mindre trekanter og legge arealet av dem sammen.
 
-## 10.02.23 {#f10}
+## 10.02.23
 
 ### Bruke begrepene måltall, størrelse og måleenhet til å avgjøre størrelsen av grunnleggende figurer i 1 og 2 dimensjoner
 
@@ -860,11 +863,11 @@ c. arealet av en sirkel, når man vet radius.
 
 Bruk forklaringene og illustrasjonene til å vise hva de generelle formlene må være.
 
-#### Vurderingskriterier: Grunnleggende {#f10g1}
+##### Vurderingskriterier: Grunnleggende {#f10g1}
 
 Besvarelsen må gi eksempler i både en og to dimensjoner der måltall, måleenhet og størrelsen blir forklart forståelig.
 
-#### Vurderingskriterier: Middels {#f10m1}
+##### Vurderingskriterier: Middels {#f10m1}
 
 Besvarelsen må gi en forståelig forklaring (og illustrasjon) for hvordan man avgjør størrelsene. For omkrets må en få fram måleenheten en bruker (typisk et linjestykke. Ofte cm, meter og lignende). For areal må det komme tydelig fram hvordan arealet henger sammen med måleenheten kvadrat (noe som i de aller fleste tilfeller betyr at en må vise en omforming til et rektangel, et halvt rektangel eller liknende). Begrunnelsene trekke ut ideen fra forklaringen og gi en generell formel for de tre størrelsene.  
 
@@ -874,7 +877,7 @@ Besvarelsen må gi en forståelig forklaring (og illustrasjon) for hvordan man a
 
 1. Forklar og gi eksempler på hva som menes med begrepene størrelse, måltall og måleenhet. Besvarelsen må inneholde 3-dimensjonale eksempler.
 
-#### Vurderingskriterier: Grunnleggende {#f10g2}
+##### Vurderingskriterier: Grunnleggende {#f10g2}
 
 Besvarelsen må gi eksempler i både tre dimensjoner der måltall, måleenhet og størrelsen blir forklart forståelig.
 
@@ -894,15 +897,15 @@ Under ser du to parallelle linjer $f$ og $g$. Mellom linjene er det tre linjesty
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-22-21-01.png)
 
-#### Vurderingskriterier: Grunnleggende {#f103}
+##### Vurderingskriterier: Grunnleggende {#f103}
 
 De må gi en forklaring med en illustrasjon på de gitte begrepene.  
 
-#### Vurderingskriterier: Middels {#f10m3}
+##### Vurderingskriterier: Middels {#f10m3}
 
 Studentene må argumentere for hvor stor vinkelsummen av de indre vinklene i en femkant er.
 
-#### Vurderingskriterier: Avansert {#f10a3}
+##### Vurderingskriterier: Avansert {#f10a3}
 
 Studentene må på en forståelig måte få fram hor stor summen av $b+c$ er.
 
@@ -920,11 +923,11 @@ Forklar og gi eksempler (med illustrasjoner) på hva som menes med begrepene kva
 
 2. Avgjør og begrunn om følgende påstand om en firkant stemmer: Diagonalene i firkanten er like lange, og diagonalene står vinkelrett på hverandre. Derfor må firkanten være et kvadrat.
 
-#### Vurderingskriterier: Grunnleggende {#f10g4}
+##### Vurderingskriterier: Grunnleggende {#f10g4}
 
 Studentene må gi en forklaring med en illustrasjon på de gitte begrepene.
 
-#### Vurderingskriterier: Middels {#f10m4}
+##### Vurderingskriterier: Middels {#f10m4}
 
 Studentene må besvare begge oppgavene.
 
@@ -964,15 +967,15 @@ Under er et rektangel med høyde $h$ som består av en blå rettvinklet trekant,
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-22-22-14.png)
 
-#### Vurderingskriterier: Grunnleggende {#f10g5}
+##### Vurderingskriterier: Grunnleggende {#f10g5}
 
 Studentene må gjengi formlene korrekt med en illustrasjon der det kommer fram hvilke lengder som brukes.
 
-#### Vurderingskriterier: Middels {#f10m5}
+##### Vurderingskriterier: Middels {#f10m5}
 
 Dette må gjøres algebraisk.
 
-#### Vurderingskriterier: Avansert {#f10a5}
+##### Vurderingskriterier: Avansert {#f10a5}
 
 Studenten må gjøre alle oppgavene for å få godkjent.
 

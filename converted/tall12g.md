@@ -1,4 +1,4 @@
-#### Grunnleggende:  Øveoppgaver
+#### Grunnleggende: Forklare begrepet og regne med desimaltall (desimal*brøk* i Alfa),  Øveoppgaver
 
 1. Utdyp og forklar: _desimaltall er en skrivemåte for brøker der
    nevneren er en potens av ti._

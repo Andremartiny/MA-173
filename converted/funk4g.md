@@ -1,4 +1,4 @@
-#### Grunnleggende:  Øveoppgaver
+#### Grunnleggende: Løse likninger fra funksjonsperspektiv,  Øveoppgaver
 
 1. Gitt $4x - 7 = - 5x + 3$.
 
@@ -56,7 +56,7 @@
 
    d. Vi ser at grafene krysser i punktet $\frac{10}{9}$. At de krysser betyr at for den samme $x$-verdi så er funksjonenverdien også lik. Siden vi tolket HS og VS som funksjoner, så betyr krysningspunktet at for $x$-verdien $\frac{10}{9}$ så vil funksjonsverdiene være like. Dette er nøyaktig det som vi sa i b.
 
-#### Grunnleggende:  31.03.23
+#### Grunnleggende: Løse likninger fra funksjonsperspektiv,  31.03.23
 
 Gitt likningen $6(4x-2) = 12$.
 
@@ -72,7 +72,7 @@ Alle oppgaver må besvares.
 2. Her må de tolke og skissere begge grafene i samme koordinatsystem.
 3. Gi en forklaring som viser sammenhengen mellom at løsning gir likhet av venstre og høyre side i likningen og at det tilsvarer skjæringspunktet mellom grafene.  
 
-#### Grunnleggende:  17.02.23
+#### Grunnleggende: Løse likninger fra funksjonsperspektiv,  17.02.23
 
 Gitt likningen $2(3x-1) = 3x+1$.
 
@@ -88,7 +88,7 @@ Alle oppgaver må besvares.
 2. Her må de tolke og skissere begge grafene i samme koordinatsystem.
 3. Gi en forklaring som viser sammenhengen mellom at løsning gir likhet av venstre og høyre side i likningen og at det tilsvarer skjæringspunktet mellom grafene.  
 
-#### Grunnleggende:  Funksjoner 13.02.23
+#### Grunnleggende: Løse likninger fra funksjonsperspektiv,  Funksjoner 13.02.23
 
 Gitt likningen $12-5x = \frac{1}{3}(x+4)$.
 
@@ -104,7 +104,7 @@ Alle oppgaver må besvares.
 2. Her må de tolke og skissere begge grafene i samme koordinatsystem.
 3. Gi en forklaring som viser sammenhengen mellom at løsning gir likhet av venstre og høyre side i likningen og at det tilsvarer skjæringspunktet mellom grafene.  
 
-#### Grunnleggende:  Funksjoner 10.02.23
+#### Grunnleggende: Løse likninger fra funksjonsperspektiv,  Funksjoner 10.02.23
 
 Gitt likningen $20-5x = \frac{1}{2}(x+10)$.
 
@@ -120,7 +120,7 @@ Alle oppgaver må besvares
 2. Her må de tolke og skissere begge grafene i samme koordinatsystem.
 3. Gi en forklaring som viser sammenhengen mellom at løsning gir likhet av venstre og høyre side i likningen og at det tilsvarer skjæringspunktet mellom grafene.  
 
-#### Grunnleggende:  Funksjoner 3.02.23
+#### Grunnleggende: Løse likninger fra funksjonsperspektiv,  Funksjoner 3.02.23
 
 Gitt likningen $3x + 6 = -2x + 3$.
 

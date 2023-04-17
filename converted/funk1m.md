@@ -1,4 +1,4 @@
-#### Middels:  Øveoppgaver
+#### Middels: Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon,  Øveoppgaver
 
 1. Avgjør og begrunn hva slags funksjon det er snakk om i hvert
     tilfelle. Begrunnelsen må vise til både en graf og et
@@ -27,7 +27,7 @@
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-27-11-46-49.png)
 
 
-#### Middels:  31.03.23
+#### Middels: Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon,  31.03.23
 
 1. Et kvadrat i grønt ligger over et rektangel i lilla og  firkantene vokser i takt, slik som vist under. Rektangelets grunnlinje er alltid tre ganger så lang som sidelengen i kvadratet, og høyden til rektangelet er to ganger så langt som kvadratets sidelengde. Hva er sammenhengen mellom sidelengden i kvadratet og det synlige lilla området?
 
@@ -41,7 +41,7 @@
 2. Studenten må få fram at siden prisen, som vi kan kalle $P$ alltid skal deles likt på antall elever som vi kaller $x$, så må elevene betale $\frac{P}{x}$. Det betyr at summen elevene må betale er $f(x) = \frac{P}{x}$, altså omvendtproporsjonale.
 
 
-#### Middels:  17.02.23
+#### Middels: Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon,  17.02.23
 
 1. Den store sirkelen har radius $10$, den lille har radius $r$. Hva er sammenhengen mellom den lille radien og arealet mellom den store og den lille sirkelen?
 
@@ -55,7 +55,7 @@
 2. Studenten må få fram at dette ikke gir en omvendt proporsjonal sammenhenge. Dette kan de for eksempel gjøre ved å forklare at $y$ må være $1000-3x$, der $x$ er anntall gjester og peke på at dette ikke gir sammenhengen $y\cdot x = a$ der $a$ er en konstant.  
 
 
-#### Middels:  Funksjoner 13.02.23
+#### Middels: Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon,  Funksjoner 13.02.23
 
 1. I hagen ligger det et barnebasseng som rommer $1$ m$^3$. Bassenget skal fylles med vann. Du har en vannslage som fyller $0,05$ m$^3$ vann i bassenget per minutt. I tillegg fyller du bøtter med varmt vann innefra og klarer å fylle $0,01$ m$^3$ varmt vann per minutt.  Hva er sammenhengen mellom tiden og mengden vann i bassenget?
 
@@ -69,7 +69,7 @@
 2. Studenten må peke på egenskaper ved omvendtproporsjonale funksjoner for å begrunne. For eksempel kan en peke på at den grønne funksjonen oppfyller dobling av $x$ gir halvering av $y$. Altså at $x= 4$ gir $y=16$ og $x=8$ gir $y = 8$. De bør også pekes på at den blå grafen ikke oppfyller denne egenskapen for eksempel ved å peke på at de krysser i $x= 8$, men ikke i $x= 4$.  
 
 
-#### Middels:  Funksjoner 10.02.23
+#### Middels: Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon,  Funksjoner 10.02.23
 
 1. På hyttetaket ligger det $70$ m$^3$ snø som skal spas bort. Hvert spadetak rommer $0,8$ m$^3$, og du greier $8$ spadetak i minuttet. Hva er sammenhengen mellom tiden og mengden snø igjen på taket?
 
@@ -83,7 +83,7 @@
 2. Studenten må peke på egenskaper ved omvendtproporsjonale funksjoner for å begrunne. For eksempel kan en peke på at den grønne funksjonen oppfyller dobling av $x$ gir halvering av $y$. Altså at $x= 1$ gir $y=36$ og $x=2$ gir $y = 18$. De bør også pekes på at den blå grafen ikke oppfyller denne egenskapen da $x = 1$ gir $y$ over $30$ og $x= 2$ gir $y$ under $15$.
 
 
-#### Middels:  Funksjoner 3.02.23
+#### Middels: Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon,  Funksjoner 3.02.23
 
 1. Under ser du tre situasjoner. Avgjør og begrunn hva slags funksjon det er snakk om i hvert tilfelle. Begrunnelsen må vise til både en graf og et funksjonsuttrykk.
 
@@ -97,7 +97,7 @@ c. Du kjører med bil fra Skien til Kristiansand. Du bruker $0.5$ liter bensin p
 
 De må avgjøre, med begrunnelse (for eksempel ved å peke på definisjon og funksjonsuttrykket de har gitt), hvilken type funksjon som hører til alle tre situasjonene. Det skal også gis et funksjonsuttrykk og en grafisk representasjon av situasjonen.
 
-#### Middels:  Funksjoner 27.01.23
+#### Middels: Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon,  Funksjoner 27.01.23
 
 1. Under ser du tre situasjoner. Avgjør og begrunn hva slags funksjon det er snakk om i hvert tilfelle. Begrunnelsen må vise til både en graf og et funksjonsuttrykk.
 

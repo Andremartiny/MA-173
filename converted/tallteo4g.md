@@ -1,4 +1,4 @@
-#### Grunnleggende:  Øveoppgaver
+#### Grunnleggende: Finne eksplisitt uttrykk for figurtall,  Øveoppgaver
 
 1. Utled det eksplisitte uttrykket for summen av de $n$ første
     naturlige tallene, det vil si trekanttall nummer $n$, ved hjelp av
@@ -36,7 +36,7 @@
 9. Alle gjestene i et selskap skal håndhilse med hverandre. Hvordan
     avhenger antall håndtrykk av antall gjester?
 
-#### Grunnleggende:  Tallteori
+#### Grunnleggende: Finne eksplisitt uttrykk for figurtall,  31.03.23
 
 Utled det eksplisitte uttrykket for summen av de $n$ første naturlige tallene, det vil si trekanttall nummer  $n$, ved hjelp av Gauss-trikset (doble summen) geometrisk.
 Utled det eksplisitte uttrykket for kvadrattallene ved hjelp av sum av tillegg.
@@ -45,7 +45,7 @@ Utled det eksplisitte uttrykket for kvadrattallene ved hjelp av sum av tillegg.
 
 Studentene må besvare begge spørsmålene med riktig teknikk (se heftet).
 
-#### Grunnleggende:  17.02.23
+#### Grunnleggende: Finne eksplisitt uttrykk for figurtall,  17.02.23
 
 Utled det eksplisitte uttrykket for summen av de $n$ første naturlige tallene, det vil si trekanttall nummer $n$, ved hjelp av Gauss-trikset (doble summen) geometrisk.
 Utled det eksplisitte uttrykket for kvadrattallene ved hjelp av sum av tillegg.
@@ -54,7 +54,7 @@ Utled det eksplisitte uttrykket for kvadrattallene ved hjelp av sum av tillegg.
 
 Studentene må besvare begge spørsmålene med riktig teknikk (se heftet).
 
-#### Grunnleggende:  13.02.23
+#### Grunnleggende: Finne eksplisitt uttrykk for figurtall,  13.02.23
 
 Utled det eksplisitte uttrykket for summen av de $n$ første naturlige tallene, det vil si trekanttall nummer $n$, ved hjelp av Gauss-trikset (doble summen) geometrisk.
 Utled det eksplisitte uttrykket for kvadrattallene ved hjelp av sum av tillegg.
@@ -63,7 +63,7 @@ Utled det eksplisitte uttrykket for kvadrattallene ved hjelp av sum av tillegg.
 
 Studentene må besvare begge spørsmålene med riktig teknikk (se heftet).
 
-#### Grunnleggende:  10.02.23
+#### Grunnleggende: Finne eksplisitt uttrykk for figurtall,  10.02.23
 
 Utled det eksplisitte uttrykket for summen av de $n$ første naturlige tallene, det vil si trekanttall nummer $n$, ved hjelp av Gauss-trikset (doble summen) geometrisk.
 Utled det eksplisitte uttrykket for kvadrattallene ved hjelp av sum av tillegg.
@@ -72,27 +72,23 @@ Utled det eksplisitte uttrykket for kvadrattallene ved hjelp av sum av tillegg.
 
 Studentene må besvare begge spørsmålene med riktig teknikk (se heftet).
 
-#### Grunnleggende:  03.02.23
+#### Grunnleggende: Finne eksplisitt uttrykk for figurtall,  03.02.23
 
 Utled det eksplisitte uttrykket for summen av de $n$ første naturlige tallene, det vil si trekanttall nummer $n$, ved hjelp av Gauss-trikset (doble summen):
 geometrisk
 algebraisk
 
-#### Grunnleggende:  27.01.23
+#### Grunnleggende: Finne eksplisitt uttrykk for figurtall,  27.01.23
 
 Utled det eksplisitte uttrykket for summen av de $n$ første naturlige tallene, det vil si trekanttall nummer $n$, ved hjelp av Gauss-trikset (doble summen):
 geometrisk
 algebraisk
-
-##### Middels: Ved hjelp av sum av tillegg for andre polygontall
-
-Illustrer femkanttallene opp til $P_3$, og utled eksplisitt uttrykk for $P_n$ ved hjelp av strategien sum av tillegg. Merk at tallrekken som tilhører femkanttallene er $1, 5, 12, 22, \ldots$.
 
 #### Vurderingskriterier grunnleggende:  27.01.23
 
 Studentene må besvare begge spørsmålene med riktig teknikk (se heftet).
 
-#### Grunnleggende:  10.01.2023
+#### Grunnleggende: Finne eksplisitt uttrykk for figurtall,  10.01.2023
 
 Utled det eksplisitte uttrykket for summen av de $n$ første naturlige tallene, det vil si trekanttall nummer $n$, ved hjelp av Gauss-trikset (doble summen):
 geometrisk

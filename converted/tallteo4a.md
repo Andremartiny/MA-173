@@ -1,4 +1,4 @@
-#### Avansert:  Øveoppgaver
+#### Avansert: Finne eksplisitt uttrykk for figurtall,  Øveoppgaver
 
 1. Under ser du figurtall én til fire.
 
@@ -54,11 +54,11 @@
    \begin{aligned}
    P_n & = (2\cdot 1 + 1) + (2\cdot 2 + 1) + (2\cdot 3 + 1)+ \ldots + (2\cdot n + 1)
    \\
-   P_n & = 2(1+2+3+\ldots + n) + 1\cdot n 
+   P_n & = 2(1+2+3+\ldots + n) + 1\cdot n
    \\
-   & = 2T_n + n 
+   & = 2T_n + n
    \\
-   & = n(n+1)+n 
+   & = n(n+1)+n
    \\
    & =  n^2 + n + n = n^2 + 2n
    \end{aligned}
@@ -67,7 +67,7 @@
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/stirrehardt.svg)
 
-#### Avansert:  Tallteori
+#### Avansert: Finne eksplisitt uttrykk for figurtall,  31.03.23
 
 På figuren under ser du de tre første figurene i en sammensatt figur, der $F_1 = 7$, $F_2 = 12$ og $F_3 = 18$.
 
@@ -81,7 +81,7 @@ På figuren under ser du de tre første figurene i en sammensatt figur, der $F_1
 
 Ved å betrakte figuren bør studentene se at figuren kan skrives som $F_1 = 3+ 4$, $F_2 = 3 + 4 + 5$, $F_3 = 3+4+5+6$ og generelt $F_n = 3+4+5+\ldots + n+3$. Formen på tillegget er dermed $n+3$. Videre må de nå bare bruke riktig teknikk for å komme i mål. Her kan de se i heftet for mer info om teknikkene.
 
-#### Avansert:  17.02.23
+#### Avansert: Finne eksplisitt uttrykk for figurtall,  17.02.23
 
 På figuren under ser du de tre første figurene i en sammensatt figur, der $F_1 = 2$, $F_2 = 8$ og $F_3 = 16$.
 
@@ -101,7 +101,7 @@ en eksplisitt formel. For eksempel kan det pekes på at figuren nesten er to tre
 
 ii. Her må de igjen bruke sum av tillegg som på middels.
 
-#### Avansert:  13.02.23
+#### Avansert: Finne eksplisitt uttrykk for figurtall,  13.02.23
 
 På figuren under ser du de tre første figurene i en sammensatt figur, der $F_1 = 3$, $F_2 = 13$ og $F_3 = 31$.
 
@@ -121,7 +121,7 @@ en eksplisitt formel. For eksempel kan en innse at de to ytterste firkantene er 
 
 ii. Her må de igjen bruke sum av tillegg som på middels.
 
-#### Avansert:  10.02.23
+#### Avansert: Finne eksplisitt uttrykk for figurtall,  10.02.23
 
 På figuren under ser du de fire første figurene i en sammensatt figur, der $F_1 = 12$, $F_2 = 26$ og $F_3 = 44$.
 
@@ -141,7 +141,7 @@ en eksplisitt formel.
 
 ii. Her må de igjen bruke sum av tillegg som på middels.
 
-#### Avansert:  03.02.23
+#### Avansert: Finne eksplisitt uttrykk for figurtall,  03.02.23
 
 På figuren under ser du de fire første figurene i en sammensatt figur, der $F_1 = 4$, $F_2 = 10$ og $F_3 = 19$.
 
@@ -151,7 +151,7 @@ På figuren under ser du de fire første figurene i en sammensatt figur, der $F_
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-14-31-42.png)
 
-#### Avansert:  27.01.23
+#### Avansert: Finne eksplisitt uttrykk for figurtall,  27.01.23
 
 På figuren under ser du de tre første figurene i en sammensatt figur, der $F_1 = 10$, $F_2 = 22$ og $F_3 = 42$.
 

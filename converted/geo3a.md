@@ -1,4 +1,4 @@
-#### Avansert:  Øveoppgaver
+#### Avansert: Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer,  Øveoppgaver
 
 1. En korde-tangent-vinkel har størrelse *v*. Hvor stor er sirkelbuen
     den skjærer av? (Merk: En tangent står vinkelrett på linjen fra
@@ -25,9 +25,7 @@ v & = \frac{\angle BAC}{2}.
 $$
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-03-21-15-36.png)
 
-#### Avansert:  31.03.23
-
-##### Vurderingskriterier
+#### Avansert: Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer,  31.03.23
 
 Under ser du en firkant der midtpunktene $E$, $F$, $G$ og $H$ er markert.
 
@@ -37,7 +35,11 @@ Påstand: La $ABC$ være en vilkårlig trekant. Hvis $I$ og $M$ er midtpunktene 
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-30-14-26-10.png)
 
-#### Avansert:  17.02.23
+##### Vurderingskriterier
+
+Studenten må gi en forståelig forklaring. Siden påstanden de skal bruke peker på trekanter er det naturlig at studenten trekker diagonalen i firkanten. Dermed kan de nå bruke at $E$, $F$, $G$, og $H$ alle er midtpunkter til å peke på at for eksempel $EF$ og $HG$ er parallell med samme diagonal, noe som betyr at de også må være parallelle. Tilsvarende kan de argumentere for $EH$ og $FG$. 
+
+#### Avansert: Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer,  17.02.23
 
 Under ser du en sirkel med sentrum i $A$ og tre punkter på periferien, $C$, $D$ og $E$.  Punktene $C$ og $D$ skjærer av en sirkelbue og danner vinkelen $c = \angle DEC$. Hvis vinkel $c = 30^\circ$, hva er da vinkel $e = \angle DAC$?
 
@@ -49,7 +51,7 @@ Studentene må på en forståelig måte få fram hvor stor $e$ er.
 
 En naturlig framgangsmåte er benytte seg av diameteren på bildet og dele vinkel $c$ inn i $x$ og $y$, der $x = \angle AEC$ og $y = \angle DEA$. Deretter kan en bruke at $\triangle ADE$ og $\triangle ACE$ er likebeint for å argumentere for at $e = 60^\circ$.
 
-#### Avansert:  13.02.23
+#### Avansert: Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer,  13.02.23
 
 Under ser du en trekant $ABC$, der $\angle ACB$ er halvert og går gjennom punktet $E$ (det vil si at $a = c$. Linjen som går gjennom $BD$ er parallell med linjen gjennom $AC$.
 
@@ -71,7 +73,7 @@ Studentene må gjøre alle oppgavene.
 2. Her må studenten bare bruke informasjonen fra 1. sammen med at vinkelsummen i trekanter er $180$ grader.
 3. Siden $a = b$ må $CB = BD$ (fordi det er en likebeint trekant fra 1.). Nå følger resultatet bare ved direkte bruk av formlikhet.
 
-#### Avansert:  10.02.23 {#f10}
+#### Avansert: Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer,  10.02.23 {#f10}
 
 Under ser du to parallelle linjer $f$ og $g$. Mellom linjene er det tre linjestykker som danner vinklene $a$, $b$, $c$ og $d$. Når $a = 50^\circ$ og $d = 70^\circ$, avgjør hvor stor $b+c$ er.
 

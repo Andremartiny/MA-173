@@ -1,4 +1,4 @@
-#### Middels:  Øveoppgaver
+#### Middels: Løse lineære ulikheter ved hjelp av ulike strategier,  Øveoppgaver
 
 1. Alfa s. 282
 
@@ -10,7 +10,7 @@
         gjerne på flere måter -- hva som foregår de gangene du må «snu
         ulikhetstegnet».
 
-#### Middels:  17.02.23
+#### Middels: Løse lineære ulikheter ved hjelp av ulike strategier,  17.02.23
 
 Vis ved hjelp av ei tallinje at dersom $-\frac{1}{2}x>3$, så må $x<-6$.
 
@@ -18,7 +18,7 @@ Vis ved hjelp av ei tallinje at dersom $-\frac{1}{2}x>3$, så må $x<-6$.
 
 Her må de presisere alt som gjøres i utregningen med en begrunnelse
 
-#### Middels:  13.02.23
+#### Middels: Løse lineære ulikheter ved hjelp av ulike strategier,  13.02.23
 
 Vis ved hjelp av ei tallinje at dersom $-\frac{1}{2}x>3$, så må $x<-6$.
 
@@ -26,7 +26,7 @@ Vis ved hjelp av ei tallinje at dersom $-\frac{1}{2}x>3$, så må $x<-6$.
 
 Her må de presisere alt som gjøres i utregningen med en begrunnelse
 
-#### Middels:  10.02.23
+#### Middels: Løse lineære ulikheter ved hjelp av ulike strategier,  10.02.23
 
 Løs ulikheten $3+2 \leq -3(2 + x)$ og forklar hvorfor alle stegene du gjør er riktige
 
@@ -34,7 +34,7 @@ Løs ulikheten $3+2 \leq -3(2 + x)$ og forklar hvorfor alle stegene du gjør er 
 
 Her må de presisere alt som gjøres i utregningen med en begrunnelse
 
-#### Middels:  03.02.23
+#### Middels: Løse lineære ulikheter ved hjelp av ulike strategier,  03.02.23
 
 Løs ulikheten $3+6 \geq 2(2 - x)$ og forklar hvorfor alle stegene du gjør er riktige
 
@@ -42,7 +42,7 @@ Løs ulikheten $3+6 \geq 2(2 - x)$ og forklar hvorfor alle stegene du gjør er r
 
 Her må de presisere alt som gjøres i utregningene med en begrunnelse.
 
-#### Middels:  27.01.23
+#### Middels: Løse lineære ulikheter ved hjelp av ulike strategier,  27.01.23
 
 Løs ulikheten $2 \leq -7(2 + x)$ og forklar hvorfor alle stegene du gjør er riktige
 
@@ -50,7 +50,7 @@ Løs ulikheten $2 \leq -7(2 + x)$ og forklar hvorfor alle stegene du gjør er ri
 
 Her må de presisere alt som gjøres i utregningene med en begrunnelse.
 
-#### Middels:  20.01.23
+#### Middels: Løse lineære ulikheter ved hjelp av ulike strategier,  20.01.23
 
 Løs ulikheten $3 <7(2- x)$ og forklar hvorfor alle stegene du gjør er riktige
 

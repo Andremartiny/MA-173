@@ -1,10 +1,10 @@
-#### Grunnleggende:  Øveoppgaver
+#### Grunnleggende: Løse lineære likningssett med to ukjente på ulike måter,  Øveoppgaver
 
 1. Alfa s. 281
 
     a.  3.60 Løs på så mange måter du greier.
 
-#### Grunnleggende:  17.02.23
+#### Grunnleggende: Løse lineære likningssett med to ukjente på ulike måter,  17.02.23
 
 Under ser du to likninger med to ukjente.
 
@@ -22,7 +22,7 @@ Løs likningssettet ved hjelp av
 
 Begge oppgavene skal gjøres med metodene som er oppgitt.
 
-#### Grunnleggende:  13.02.23
+#### Grunnleggende: Løse lineære likningssett med to ukjente på ulike måter,  13.02.23
 
 Under ser du to likninger med to ukjente.
 
@@ -40,7 +40,7 @@ Løs likningssettet ved hjelp av
 
 Begge oppgavene skal gjøres med metodene som er oppgitt.
 
-#### Grunnleggende:  10.02.23
+#### Grunnleggende: Løse lineære likningssett med to ukjente på ulike måter,  10.02.23
 
 Under ser du to likninger med to ukjente.
 
@@ -54,7 +54,7 @@ Løs likningssettet ved hjelp av
 
 2. addisjonsmetoden.
 
-#### Grunnleggende:  03.02.23
+#### Grunnleggende: Løse lineære likningssett med to ukjente på ulike måter,  03.02.23
 
 Under ser du to likninger med to ukjente.
 
@@ -70,7 +70,7 @@ Løs likningsettet grafisk.
 
 Begge oppgavene skal gjøres med metodene som er oppgitt.
 
-#### Grunnleggende:  27.01.23
+#### Grunnleggende: Løse lineære likningssett med to ukjente på ulike måter,  27.01.23
 
 Under ser du to likninger med to ukjente.
 

@@ -1,5 +1,5 @@
 
-#### Middels:  Øveppgaver
+#### Middels: Avgjøre om utvalg er ordnet eller uordnet og om det er med eller uten tilbakelegg,  Øveppgaver
 
 Avgjør om situasjonene under kan tenkes som (u)ordnede utvalg m/u
 tilbakelegg
@@ -18,7 +18,7 @@ tilbakelegg
 
 1. Siden vi ikke kan trekke en student flere ganger, er dette utvalget uten tilbakelegg. I tillegg er det ingen opplysning som impliserer at de skal være distinkte roller i komitéen. Dermed må dette være uordnet (rekkefølge betyr ikke noe)
 2. Her ser vi at rollen på personene som trekkes ut har noe å si, og det er dermed et ordnet utvalg. Det er også tydelig at vi ikke kan velge samme elev, og dermed er det et ordnet utvalg uten tilbakelegg.
-4. Vi skal velge tre lærere. Det står at det alltids trekkes blant de 6 lærerne, og det er derfor et utvalg med tilbakelegg. Siden det er snakk om en uke mellom utvalgene, så er det naturlig å tolke dette som at rekkefølgen betyr noe. Dermed er dette et ordnet utvalg med tilbakelegg.
-5. Vi kan nummerere setene fra $1$ til $6$, og vi ønsker å velge ut fire av de seks sifrene. Vi kan ikke velge samme siffer to ganger, da dette betyr at vi skal dekke på samme plass to ganger. Dermed er det et utvalg uten tilbakeleg. Siden det å dekke på ikke har noen betydning i forhold til rekkefølgen vi gjør det i, så vil dette være et uordnet utvalg uten tilbakelegg.
+4. Vi skal velge tre lærere. Det står at det alltids trekkes blant de 6 lærerne, og det er derfor et utvalg med tilbakelegg. Siden det er snakk om en uke mellom utvalgene, så er det naturlig å tolke dette som at rekkefølgen betyr noe. Dermed er dette et ordnet utvalg med tilbakelegg. *Alternativt kan en også argumentere for at rekkefølgen ikke har noe å si siden premien er den samme og vinnerne ikke bryr seg om når de får premien*.
+5. Vi kan nummerere setene fra $1$ til $6$, og vi ønsker å velge ut fire av de seks sifrene. Vi kan ikke velge samme siffer to ganger, da dette betyr at vi skal dekke på samme plass to ganger. Dermed er det et utvalg uten tilbakelegg. Siden det å dekke på ikke har noen betydning i forhold til rekkefølgen vi gjør det i, så vil dette være et uordnet utvalg uten tilbakelegg.
 6. $\vdots$
 

@@ -518,16 +518,16 @@ b. Finn funksjonsuttrykket.
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-31-09-26-46.png)
 
-#### Vurderingskriterier: Grunnleggende {#170211}
+##### Vurderingskriterier: Grunnleggende {#170211}
 
 Her må de gi et eksempel og forklare kjennetegnene, slik oppgaven ber om.  
 
-#### Vurderingskriterier: Middels {#170212}
+##### Vurderingskriterier: Middels {#170212}
 
 1. Studenten *må* lage en sammenheng mellom arealet mellom området og sidelengden. Her bør de bruke at hvis sidelengden er $s$ så er lengdene i rektangelet $2s$ og $3s$. Dermed er arealet av det synlige lilla området $2s\cdot 3s - s^2 = 5s^2$. Studenten kan dermed peke på at sammenhengen må være $A(s) = 5s^2$, der $A$ er arealet av det synlige lilla området og $s$ er sidelengden i det grønne kvadratet.
 2. Studenten må få fram at siden prisen, som vi kan kalle $P$ alltid skal deles likt på antall elever som vi kaller $x$, så må elevene betale $\frac{P}{x}$. Det betyr at summen elevene må betale er $f(x) = \frac{P}{x}$, altså omvendtproporsjonale.
 
-#### Vurderingskriterier: Avansert {#170213}
+##### Vurderingskriterier: Avansert {#170213}
 
 Studentene *må* peke på hvilken funksjon det er. I første eksempel bør studenten få fram at det må være en omvendt proporsjonal funksjon og begrunne dette. Det gir funksjonen $f(x)  = \frac{8}{x}$. I det andre eksempelet ser vi at $x = 2$ er toppunkt og at funksjonen er en parabel. Dermed er det en andregradsfunksjon. Deretter må finne funksjonsuttrykket (for eksempel ved regning). Dette kan de gjøre ved å først innse at koeffisienten $a$ i $ax^2+bx+c$ må være $-1$. Deretter kan de se at når $x = 2$ så er $f(2) = 6$ og $x=1$ så er $f(1) = 5$. Ved hjelp av dette kan de sette opp et likningssett og løse det.
 
@@ -537,14 +537,16 @@ Studentene *må* peke på hvilken funksjon det er. I første eksempel bør stude
 
 Gitt en lineær funksjon $ax+b$, der $a = 1$ og $b=0$. Illustrer i et koordinatsystem hvordan endringer av $a$ påvirker grafen og hvordan endringer av $b$ påvirker grafen.
 
+##### Vurderingskriterier: Grunnleggende {#170221}
+
+Peke på hva parameterne gjør for førstegradsfunksjoner.
+
 #### Middels: Forklare hvordan man kan finne likninga til en lineær funksjon når to punkter på grafen er kjent uten bruk av topunktsformelen
 
 Grafen til en lineær funksjon går gjennom punktene $(-3, 0)$ og $(6, 3)$. Forklar hvordan vi kan finne likninga til den lineære funksjonen.
 
-#### Vurderingskriterier: Grunnleggende {#170221}
+##### Vurderingskriterier: Middels:
 
-Peke på hva parameterne gjør for førstegradsfunksjoner
-Middels:
 Finne likninga og forklare hvordan på en slik måte at man klart forstår det generelle i fremgangsmåten (kunne åpenbart blitt brukt for hvilke som helst punkt-par).
 
 ### Forklare hvordan endringer i parameterne i funksjonsuttrykket påvirker grafene til andregrads- og omvendt proporsjonale funksjoner
@@ -554,6 +556,11 @@ Finne likninga og forklare hvordan på en slik måte at man klart forstår det g
 En omvendt proporsjonal funksjon kan skrives på formen $\frac{a}{x}$. Vis i et koordinatsystem hvordan grafen ser ut dersom $a>0$ og dersom $a<0$.
 
 Skisser grafen til $f$ og $g$ der $f(x)=x(x-5)$ og  $g(x)=x(x-5) + 2$
+
+##### Vurderingskriterier: Grunnleggende {#170231}
+
+1. Peke på hva parameterne gjør for andregradsfunksjoner
+2. Skissere de to omvendt proporsjonale grafene.  
 
 #### Middels: Forklare hvordan endringer i parameterne i funksjonsuttrykket påvirker grafene til andregrads- og omvendt proporsjonale funksjoner
 
@@ -565,12 +572,7 @@ En kvadratisk funksjon ser generelt slik ut: $f(x)=ax^2+bx+c$. Forklar kort (sli
 parameteren $a$ endres.
 parameteren $c$ endres.
 
-#### Vurderingskriterier: Grunnleggende {#170231}
-
-1. Peke på hva parameterne gjør for andregradsfunksjoner
-2. Skissere de to omvendt proporsjonale grafene.  
-
-#### Vurderingskriterier: Middels {#170232}
+##### Vurderingskriterier: Middels {#170232}
 
 1. Omvendt proporsjonale:  
 Grafen må skisseres for $a>0$ og $a<0$. Det må komme fram hvorfor formen på grafen er som den er. For eksempel $a>0$ kan en gi et konkret eksempel på en om omvendt prop. funk. og framheve sammenhengen (skaleres $x$ opp med noe skaleres $y$ ned med det samme, derav navnet omvendt prop) $\rightarrow$  større og større $x$ gir $y$ som kryper mot $0$, mindre og mindre $x$ gir større og større $y$. Det bør komme fram noen symmetrier med grafen. Når $a<0$ kan en bare peke på at $a< 0$ gir bare samme graf flippet over $x$-aksen.  
@@ -587,9 +589,21 @@ Løs likningen
 Tolk venstre side og høyre side som funksjonsuttrykk, og skisser grafene i samme koordinatsystem.
 Forklar algebraisk og grafisk hva det vil si at tallet du fant i 1. er en løsning på likningen.
 
+##### Vurderingskriterier: Grunnleggende {#170241}
+
+Alle oppgaver må besvares.  
+
+1. Likningen må løses.
+2. Her må de tolke og skissere begge grafene i samme koordinatsystem.
+3. Gi en forklaring som viser sammenhengen mellom at løsning gir likhet av venstre og høyre side i likningen og at det tilsvarer skjæringspunktet mellom grafene.  
+
 #### Middels: Tolke lineære likninger grafisk, og finne skjæringspunkt mellom lineære grafer og mellom lineære grafer og aksene
 
 1. Gi en situasjon som passer til funksjonen $f(x)=50 - 5x$. Hva svarer likninga $50 - 5x=10$ til i situasjonsbeskrivelsen din? Tolk og løs likningen grafisk i et koordinatsystem.
+
+##### Vurderingskriterier: Middels {#170242}
+
+De må lage en situasjon som gir likningen. Deretter må de illustrere likningen grafisk og vise løsningen i koordinatsystemet.
 
 #### Avansert: Tolke likninger grafisk, og finne skjæringspunkt mellom grafer til ulike typer funksjoner og mellom grafer og aksene
 
@@ -599,19 +613,7 @@ Bestem eventuelle skjæringspunkt (begge koordinater) mellom grafene til $f$ og 
 
 Skisser grafene i et koordinatsystem.
 
-#### Vurderingskriterier: Grunnleggende {#170241}
-
-Alle oppgaver må besvares.  
-
-1. Likningen må løses.
-2. Her må de tolke og skissere begge grafene i samme koordinatsystem.
-3. Gi en forklaring som viser sammenhengen mellom at løsning gir likhet av venstre og høyre side i likningen og at det tilsvarer skjæringspunktet mellom grafene.  
-
-#### Vurderingskriterier: Middels {#170242}
-
-De må lage en situasjon som gir likningen. Deretter må de illustrere likningen grafisk og vise løsningen i koordinatsystemet.
-
-#### Vurderingskriterier: Avansert {#170243}
+##### Vurderingskriterier: Avansert {#170243}
 
 Alle oppgavene må besvares
 
@@ -624,6 +626,10 @@ Alle oppgavene må besvares
 
 Sammenhengen mellom sidelengden og arealet av et kvadrat er en funksjonssammenheng. Bruk eksemplet til å forklare begrepene funksjon, innverdi og funksjonsverdi.
 
+##### Vurderingskriterier: Grunnleggende {#170251}
+
+Her må de peke på at arealet av en kvadrat med sidelengde $r$ er $r^2$ (altså at $A(r) = r^2$). Arealet er derfor en funksjon av $r$ (innverdi) fordi hver sidelengde $r$ gir et entydig areal (som her er funksjonsverdien).
+
 #### Middels: Avgjøre og begrunne (ved hjelp av begrepene) om en gitt sammenheng er en funksjonssammenheng
 
 Til hvert av punktene A) og B), er to variabler beskrevet. Avgjør i hvert tilfelle om én av variablene er funksjon av den andre, begge variabler er funksjon av hverandre, eller ingen av dem er funksjon av den andre. Besvarelsen må inneholde ordene innverdi og funksjonsverdi, definisjons- og verdimengde.
@@ -632,11 +638,7 @@ A) En persons personnummer og personens høyde.
 
 B) En persons navn og personens utdanning.
 
-#### Vurderingskriterier: Grunnleggende {#170251}
-
-Her må de peke på at arealet av en kvadrat med sidelengde $r$ er $r^2$ (altså at $A(r) = r^2$). Arealet er derfor en funksjon av $r$ (innverdi) fordi hver sidelengde $r$ gir et entydig areal (som her er funksjonsverdien).
-
-#### Vurderingskriterier: Middels {#170252}
+##### Vurderingskriterier: Middels {#170252}
 
 Besvarelsene *må* inneholde ordene innverdi, funksjonsverdi, definisjons- og verdimengde.
 A. Studenten må begrunne sammenhengen personens personnummer og høyde. Siden personnummer er unikt for personer og alle personer kun har en høyde, vil det for hvert personnummer (innverdi) finnes nøyaktig én høyde (funksjonsverdi) som hører til det personnummeret. Dette betyr at høyden er en funksjon av personnummeret. Studenten må også gi en meningsfull forklaring på hva definisjons- og verdimengden er til denne funksjonen.
@@ -653,7 +655,7 @@ Under ser du en skisse av Henriks reisevei til jobb dersom han kjører bil. Fart
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-31-09-44-03.png)
 
-#### Vurderingskriterier: Middels {#170262}
+##### Vurderingskriterier: Middels {#170262}
 
 1. Studentene må lage en passende tabell som viser avstand hjemmefra som funksjon av tid. Funksjonen bør (men må ikke) bruke overgangene mellom fartsgrensene, slik at skisseringen i neste oppgave tydelig henger sammen med tabellen.
 2. Studentene må skissere en graf som får fram sammenhengen på en riktig måte, den må også samsvare med tabellen som er beskrevet i 1.. \
@@ -671,6 +673,10 @@ Gi et eksempel på en kvadratisk funksjon, og forklart kort, med utgangspunkt i 
 
 Gi et eksempel på en omvendt proporsjonal funksjon, og forklart kort, med utgangspunkt i eksemplet ditt, hva som kjennetegner en omvendt proporsjonal funksjon.
 
+##### Vurderingskriterier: Grunnleggende {#170211}
+
+Her må de gi et eksempel og forklare kjennetegnene, slik oppgaven ber om.  
+
 #### Middels: Bestemme og begrunne funksjonstype basert på beskrivelse av situasjon, uttrykk, graf og tabell
 
 1. Den store sirkelen har radius $10$, den lille har radius $r$. Hva er sammenhengen mellom den lille radien og arealet mellom den store og den lille sirkelen?
@@ -678,6 +684,11 @@ Gi et eksempel på en omvendt proporsjonal funksjon, og forklart kort, med utgan
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-20-27-49.png)
 
 2. "I et selskap deles det ut lodd. Fra de $1000$ loddene, deles tre lodd ut til hver gjest. Siden antallet gjenværende lodd, $y$, avtar når antallet gjester, $x$, øker, er sammenhengen mellom $x$ og $y$ omvendt proporsjonal." Avgjør og begrunn om påstanden stemmer.
+
+##### Vurderingskriterier: Middels {#170212}
+
+1. Studenten *må* lage en sammenheng mellom arealet mellom stor og liten sirkel og radiusen. Det naturlige er å sette opp differansen mellom stor og liten sirkel $\pi\cdot 10^2 - \pi\cdot r^2 = \pi(10^2-r^2)$.
+2. Studenten må få fram at dette ikke gir en omvendt proporsjonal sammenhenge. Dette kan de for eksempel gjøre ved å forklare at $y$ må være $1000-3x$, der $x$ er anntall gjester og peke på at dette ikke gir sammenhengen $y\cdot x = a$ der $a$ er en konstant.  
 
 #### Avansert: Gjøre om mellom ulike representasjonsformer for de tre funksjonstypene, og begrunne omgjøringen
 
@@ -700,16 +711,7 @@ a. Avgjør hva slags funksjon det er snakk om.
 b. Finn funksjonsuttrykket.
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-20-34-15.png)
 
-#### Vurderingskriterier: Grunnleggende {#170211}
-
-Her må de gi et eksempel og forklare kjennetegnene, slik oppgaven ber om.  
-
-#### Vurderingskriterier: Middels {#170212}
-
-1. Studenten *må* lage en sammenheng mellom arealet mellom stor og liten sirkel og radiusen. Det naturlige er å sette opp differansen mellom stor og liten sirkel $\pi\cdot 10^2 - \pi\cdot r^2 = \pi(10^2-r^2)$.
-2. Studenten må få fram at dette ikke gir en omvendt proporsjonal sammenhenge. Dette kan de for eksempel gjøre ved å forklare at $y$ må være $1000-3x$, der $x$ er anntall gjester og peke på at dette ikke gir sammenhengen $y\cdot x = a$ der $a$ er en konstant.  
-
-#### Vurderingskriterier: Avansert {#170213}
+##### Vurderingskriterier: Avansert {#170213}
 
 Studentene *må* peke på hvilken funksjon det er. I første eksempel kan de se at økningen er lineær, med $25$ per $x$.  Det gir funksjonen $f(x)  = 175 - 25x$. I det andre eksempelet ser vi at $x = 2$ er toppunkt og at funksjonen er en parabel. Dermed er det en andregradsfunksjon. Deretter må finne funksjonsuttrykket (for eksempel ved regning).
 
@@ -719,15 +721,15 @@ Studentene *må* peke på hvilken funksjon det er. I første eksempel kan de se 
 
 Gitt en lineær funksjon $ax+b$, der $a = 1$ og $b=0$. Illustrer i et koordinatsystem hvordan endringer av $a$ påvirker grafen og hvordan endringer av $b$ påvirker grafen.
 
-#### Middels: Forklare hvordan man kan finne likninga til en lineær funksjon når to punkter på grafen er kjent uten bruk av topunktsformelen
-
-Grafen til en lineær funksjon går gjennom punktene $(-3, 0)$ og $(6, 3)$. Forklar hvordan vi kan finne likninga til den lineære funksjonen.
-
-#### Vurderingskriterier: Grunnleggende {#170221}
+##### Vurderingskriterier: Grunnleggende {#170221}
 
 Peke på hva parameterne gjør for førstegradsfunksjoner
 Middels:
 Finne likninga og forklare hvordan på en slik måte at man klart forstår det generelle i fremgangsmåten (kunne åpenbart blitt brukt for hvilke som helst punkt-par).
+
+#### Middels: Forklare hvordan man kan finne likninga til en lineær funksjon når to punkter på grafen er kjent uten bruk av topunktsformelen
+
+Grafen til en lineær funksjon går gjennom punktene $(-3, 0)$ og $(6, 3)$. Forklar hvordan vi kan finne likninga til den lineære funksjonen.
 
 ### Forklare hvordan endringer i parameterne i funksjonsuttrykket påvirker grafene til andregrads- og omvendt proporsjonale funksjoner
 
@@ -737,6 +739,11 @@ En omvendt proporsjonal funksjon kan skrives på formen $\frac{a}{x}$. Vis i et 
 
 Skisser grafen til $f$ og $g$ der $f(x)=x(x-5)$ og  $g(x)=x(x-5) + 2$
 
+
+##### Vurderingskriterier: Grunnleggende {#170231}
+
+1. Peke på hva parameterne gjør for andregradsfunksjoner
+2. Skissere de to omvendt proporsjonale grafene.  
 #### Middels: Forklare hvordan endringer i parameterne i funksjonsuttrykket påvirker grafene til andregrads- og omvendt proporsjonale funksjoner
 
 En omvendt proporsjonal funksjon ser generelt slik ut: $f(x)=\frac{a}{x}$. Forklar kort (slik at det fremstår meningsfullt for noen som ikke kan det) og vis i et koordinatsystem hvordan grafen må se ut når
@@ -747,12 +754,7 @@ En kvadratisk funksjon ser generelt slik ut: $f(x)=ax^2+bx+c$. Forklar kort (sli
 parameteren $a$ endres.
 parameteren $c$ endres.
 
-#### Vurderingskriterier: Grunnleggende {#170231}
-
-1. Peke på hva parameterne gjør for andregradsfunksjoner
-2. Skissere de to omvendt proporsjonale grafene.  
-
-#### Vurderingskriterier: Middels {#170232}
+##### Vurderingskriterier: Middels {#170232}
 
 1. Omvendt proporsjonale:  
 Grafen må skisseres for $a>0$ og $a<0$. Det må komme fram hvorfor formen på grafen er som den er. For eksempel $a>0$ kan en gi et konkret eksempel på en om omvendt prop. funk. og framheve sammenhengen (skaleres $x$ opp med noe skaleres $y$ ned med det samme, derav navnet omvendt prop) $\rightarrow$  større og større $x$ gir $y$ som kryper mot $0$, mindre og mindre $x$ gir større og større $y$. Det bør komme fram noen symmetrier med grafen. Når $a<0$ kan en bare peke på at $a< 0$ gir bare samme graf flippet over $x$-aksen.  
@@ -769,9 +771,21 @@ Løs likningen
 Tolk venstre side og høyre side som funksjonsuttrykk, og skisser grafene i samme koordinatsystem.
 Forklar algebraisk og grafisk hva det vil si at tallet du fant i 1. er en løsning på likningen.
 
+##### Vurderingskriterier: Grunnleggende {#170241}
+
+Alle oppgaver må besvares.  
+
+1. Likningen må løses.
+2. Her må de tolke og skissere begge grafene i samme koordinatsystem.
+3. Gi en forklaring som viser sammenhengen mellom at løsning gir likhet av venstre og høyre side i likningen og at det tilsvarer skjæringspunktet mellom grafene.  
+
 #### Middels: Tolke lineære likninger grafisk, og finne skjæringspunkt mellom lineære grafer og mellom lineære grafer og aksene
 
 1. Gi en situasjon som passer til funksjonen $f(x)=5-\frac{1}{2}x$. Hva svarer likninga $5-\frac{1}{2}x=2$ til i situasjonsbeskrivelsen din? Tolk og løs likningen grafisk i et koordinatsystem.
+
+##### Vurderingskriterier: Middels {#170242}
+
+De må lage en situasjon som gir likningen. Deretter må de illustrere likningen grafisk og vise løsningen i koordinatsystemet.
 
 #### Avansert: Tolke likninger grafisk, og finne skjæringspunkt mellom grafer til ulike typer funksjoner og mellom grafer og aksene
 
@@ -781,19 +795,7 @@ Bestem eventuelle skjæringspunkt (begge koordinater) mellom grafene til $f$ og 
 
 Skisser grafene i et koordinatsystem.
 
-#### Vurderingskriterier: Grunnleggende {#170241}
-
-Alle oppgaver må besvares.  
-
-1. Likningen må løses.
-2. Her må de tolke og skissere begge grafene i samme koordinatsystem.
-3. Gi en forklaring som viser sammenhengen mellom at løsning gir likhet av venstre og høyre side i likningen og at det tilsvarer skjæringspunktet mellom grafene.  
-
-#### Vurderingskriterier: Middels {#170242}
-
-De må lage en situasjon som gir likningen. Deretter må de illustrere likningen grafisk og vise løsningen i koordinatsystemet.
-
-#### Vurderingskriterier: Avansert {#170243}
+##### Vurderingskriterier: Avansert {#170243}
 
 Alle oppgavene må besvares
 
@@ -806,6 +808,10 @@ Alle oppgavene må besvares
 
 Sammenhengen mellom sidelengden og arealet av et kvadrat er en funksjonssammenheng. Bruk eksemplet til å forklare begrepene funksjon, innverdi og funksjonsverdi.
 
+##### Vurderingskriterier: Grunnleggende {#170251}
+
+Her må de peke på at arealet av en kvadrat med sidelengde $r$ er $r^2$ (altså at $A(r) = r^2$). Arealet er derfor en funksjon av $r$ (innverdi) fordi hver sidelengde $r$ gir et entydig areal (som her er funksjonsverdien).
+
 #### Middels: Avgjøre og begrunne (ved hjelp av begrepene) om en gitt sammenheng er en funksjonssammenheng
 
 Til hvert av punktene A) og B), er to variabler beskrevet. Avgjør i hvert tilfelle om én av variablene er funksjon av den andre, begge variabler er funksjon av hverandre, eller ingen av dem er funksjon av den andre. Besvarelsen må inneholde ordene innverdi og funksjonsverdi, definisjons- og verdimengde.
@@ -814,11 +820,7 @@ A) En pakkes vekt og prisen man betaler for å sende den.
 
 B) Temperatur målt utenfor stuevinduet og tidspunktene for målingene.
 
-#### Vurderingskriterier: Grunnleggende {#170251}
-
-Her må de peke på at arealet av en kvadrat med sidelengde $r$ er $r^2$ (altså at $A(r) = r^2$). Arealet er derfor en funksjon av $r$ (innverdi) fordi hver sidelengde $r$ gir et entydig areal (som her er funksjonsverdien).
-
-#### Vurderingskriterier: Middels {#170252}
+##### Vurderingskriterier: Middels {#170252}
 
 Besvarelsene *må* inneholde ordene innverdi, funksjonsverdi, definisjons- og verdimengde.
 A. Studenten må begrunne sammenhengen vekt og pris. Som oftes er prisen avhengig av både størrelse og vekt. På denne måten kan en argumentere for at prisen ikke er entydig bestemt av vekten alene. Derfor er pris ikke en funksjon av vekt. Tilsvarende kan en ikke *hente tilbake* vekten ved å se på prisen, da disse ofte settes i intervaller. På den andre side kan en tolke oppgaven som at pakken er i en fiksert størrelse. Dermed vil vekten entydig bestemme prisen. I dette tilfellet vil vekten være innverdi og prisen være funksjonsverdien. Siden vekten kan være alle positive tall må er det naturlig å tenke at definisjonsmengden er alle positive verdier. Verdimengden i dette tilfellet blir de prisene en er nødt til å betale, som i dette tilfelle nok blir en diskrete verdier.  
@@ -832,11 +834,11 @@ André "sykler" (el-sykkel) og Henrik sykler (skikkelig sykkel) til jobb. De har
 
 Skisser to grafer i samme koordinatsystem. Den ene skal være en fremstilling av Andrés reise til jobb, den andre Henriks reise til jobb. La det gå klart frem hvilke variabler som inngår i den grafiske fremstillingen din.
 
-#### Vurderingskriterier: Middels {#170262}
+##### Vurderingskriterier: Middels {#170262}
 
 Studentene må skissere en graf som får fram sammenhengen på en riktig måte, som også inneholder all informasjonen som er gitt. André sin graf bør være en lineær graf mens Henrik sin bør variere i tråd med beskrivelsen.
 
-## Funksjoner 13.02.23
+## 13.02.23
 
 ### Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon
 
@@ -846,6 +848,10 @@ Studentene må skissere en graf som får fram sammenhengen på en riktig måte, 
 2. Gi et eksempel på en kvadratisk funksjon, og forklart kort, med utgangspunkt i eksemplet ditt, hva som kjennetegner en kvadratisk funksjon.
 3. Gi et eksempel på en omvendt proporsjonal funksjon, og forklart kort, med utgangspunkt i eksemplet ditt, hva som kjennetegner en omvendt proporsjonal funksjon.
 
+##### Vurderingskriterier: Grunnleggende {#130211}
+
+Her må de gi et eksempel og forklare kjennetegnene, slik oppgaven ber om.  
+
 #### Middels: Bestemme og begrunne funksjonstype basert på beskrivelse av situasjon, uttrykk, graf og tabell
 
 1. I hagen ligger det et barnebasseng som rommer $1$ m$^3$. Bassenget skal fylles med vann. Du har en vannslage som fyller $0,05$ m$^3$ vann i bassenget per minutt. I tillegg fyller du bøtter med varmt vann innefra og klarer å fylle $0,01$ m$^3$ varmt vann per minutt.  Hva er sammenhengen mellom tiden og mengden vann i bassenget?
@@ -853,6 +859,11 @@ Studentene må skissere en graf som får fram sammenhengen på en riktig måte, 
 2. I koordinatsystemet under ser du to grafer. Begrunn hvilken av dem som er grafen til en omvendt proporsjonal funksjon. Begrunnelsen må vise til et funksjonsuttrykk. (Å si at grafen ser ut sånn og sånn, er altså ikke en begrunnelse ;))
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-20-48-58.png)
+
+##### Vurderingskriterier: Middels {#130212}
+
+1. Studenten *må* lage en sammenheng mellom mengde vann og tid. Det naturlige er at å koble mengde vann som fylles per minutt, som er $0,\!05 + 0,\!01 = 0,\!06$. Siden vi skal fylle et basseng kan vi anta et det er tomt, som gir $f(x) =0,\!06x$, der $x$ er antall minutter og $f$ er antall $m^3$ som vannet fyller i bassenget.  
+2. Studenten må peke på egenskaper ved omvendtproporsjonale funksjoner for å begrunne. For eksempel kan en peke på at den grønne funksjonen oppfyller dobling av $x$ gir halvering av $y$. Altså at $x= 4$ gir $y=16$ og $x=8$ gir $y = 8$. De bør også pekes på at den blå grafen ikke oppfyller denne egenskapen for eksempel ved å peke på at de krysser i $x= 8$, men ikke i $x= 4$.  
 
 #### Avansert: Gjøre om mellom ulike representasjonsformer for de tre funksjonstypene, og begrunne omgjøringen
 
@@ -876,16 +887,7 @@ b. Finn funksjonsuttrykket.
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-20-49-07.png)
 
-#### Vurderingskriterier: Grunnleggende {#130211}
-
-Her må de gi et eksempel og forklare kjennetegnene, slik oppgaven ber om.  
-
-#### Vurderingskriterier: Middels {#130212}
-
-1. Studenten *må* lage en sammenheng mellom mengde vann og tid. Det naturlige er at å koble mengde vann som fylles per minutt, som er $0,\!05 + 0,\!01 = 0,\!06$. Siden vi skal fylle et basseng kan vi anta et det er tomt, som gir $f(x) =0,\!06x$, der $x$ er antall minutter og $f$ er antall $m^3$ som vannet fyller i bassenget.  
-2. Studenten må peke på egenskaper ved omvendtproporsjonale funksjoner for å begrunne. For eksempel kan en peke på at den grønne funksjonen oppfyller dobling av $x$ gir halvering av $y$. Altså at $x= 4$ gir $y=16$ og $x=8$ gir $y = 8$. De bør også pekes på at den blå grafen ikke oppfyller denne egenskapen for eksempel ved å peke på at de krysser i $x= 8$, men ikke i $x= 4$.  
-
-#### Vurderingskriterier: Avansert {#130213}
+##### Vurderingskriterier: Avansert {#130213}
 
 Studentene *må* peke på hvilken funksjon det er. I første eksempel kan de se at dobling av $x$ gir halvering av $y$. Det gir funksjonen $f(x)  = \frac{300}{x}$. I det andre eksempelet ser vi at $x = 2$ er bunnpunkt og at funksjonen er en parabel. Dermed er det en andregradsfunksjon. Deretter må finne funksjonsuttrykket (for eksempel ved regning).
 
@@ -895,17 +897,17 @@ Studentene *må* peke på hvilken funksjon det er. I første eksempel kan de se 
 
 Gitt en lineær funksjon $ax+b$, der $a = 1$ og $b=0$. Illustrer i et koordinatsystem hvordan endringer av $a$ påvirker grafen og hvordan endringer av $b$ påvirker grafen.
 
+##### Vurderingskriterier: Grunnleggende {#130221}
+
+Peke på hva parameterne gjør for førstegradsfunksjoner
+
 #### Middels: Forklare hvordan man kan finne likninga til en lineær funksjon når to punkter på grafen er kjent uten bruk av topunktsformelen
 
 Under ser du en lineær funksjon som går gjennom punktene $A$ og $B$. Forklar hvordan vi kan finne likninga til den lineære funksjonen.
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-20-50-16.png)
 
-#### Vurderingskriterier: Grunnleggende {#130221}
-
-Peke på hva parameterne gjør for førstegradsfunksjoner
-
-#### Vurderingskriterier: Middels {#130222}
+##### Vurderingskriterier: Middels {#130222}
 
 Finne likninga og forklare hvordan på en slik måte at man klart forstår det generelle i fremgangsmåten (kunne åpenbart blitt brukt for hvilke som helst punkt-par).
 
@@ -917,6 +919,10 @@ En andregradsfunksjon kan skrives på formen $ax^2 + b x + c$. Gjengi med ord hv
 
 Skisser grafene $y = \frac{24}{x}$ og $y = \frac{-24}{x}$ i samme koordinatsystem.
 
+##### Vurderingskriterier: Grunnleggende {#130231}
+
+1. Peke på hva parameterne gjør for andregradsfunksjoner
+2. Skissere
 #### Middels: Forklare hvordan endringer i parameterne i funksjonsuttrykket påvirker grafene til andregrads- og omvendt proporsjonale funksjoner
 
 En omvendt proporsjonal funksjon ser generelt slik ut: $f(x)=\frac{a}{x}$. Forklar kort (slik at det fremstår meningsfullt for noen som ikke kan det) og vis i et koordinatsystem hvordan grafen må se ut når
@@ -926,13 +932,9 @@ parameteren $a$ er mindre enn 0
 En kvadratisk funksjon ser generelt slik ut: $f(x)=ax^2+bx+c$. Forklar kort (slik at det fremstår meningsfullt for noen som ikke kan det) og vis i et koordinatsystem hva som skjer med grafen når
 parameteren $a$ endres.
 parameteren $c$ endres.
+ de to omvendt proporsjonale grafene.  
 
-#### Vurderingskriterier: Grunnleggende {#130231}
-
-1. Peke på hva parameterne gjør for andregradsfunksjoner
-2. Skissere de to omvendt proporsjonale grafene.  
-
-#### Vurderingskriterier: Middels {#130232}
+##### Vurderingskriterier: Middels {#130232}
 
 1. Omvendt proporsjonale:  
 Grafen må skisseres for $a>0$ og $a<0$. Det må komme fram hvorfor formen på grafen er som den er. For eksempel $a>0$ kan en gi et konkret eksempel på en om omvendt prop. funk. og framheve sammenhengen (skaleres $x$ opp med noe skaleres $y$ ned med det samme, derav navnet omvendt prop) $\rightarrow$  større og større $x$ gir $y$ som kryper mot $0$, mindre og mindre $x$ gir større og større $y$. Det bør komme fram noen symmetrier med grafen. Når $a<0$ kan en bare peke på at $a< 0$ gir bare samme graf flippet over $x$-aksen.  
@@ -949,9 +951,21 @@ Løs likningen
 Tolk venstre side og høyre side som funksjonsuttrykk, og skisser grafene i samme koordinatsystem.
 Forklar algebraisk og grafisk hva det vil si at tallet du fant i 1. er en løsning på likningen.
 
+##### Vurderingskriterier: Grunnleggende {#130241}
+
+Alle oppgaver må besvares.  
+
+1. Likningen må løses.
+2. Her må de tolke og skissere begge grafene i samme koordinatsystem.
+3. Gi en forklaring som viser sammenhengen mellom at løsning gir likhet av venstre og høyre side i likningen og at det tilsvarer skjæringspunktet mellom grafene.  
+
 #### Middels: Tolke lineære likninger grafisk, og finne skjæringspunkt mellom lineære grafer og mellom lineære grafer og aksene
 
 1. Gi en situasjon som passer til funksjonen $f(x)=5+3x$. Hva svarer likninga $5+3x=0$ til i situasjonsbeskrivelsen din? Tolk og løs likningen grafisk i et koordinatsystem.
+
+##### Vurderingskriterier: Middels
+
+De må lage en situasjon som gir likningen. Deretter må de illustrere likningen grafisk og vise løsningen i koordinatsystemet.
 
 #### Avansert: Tolke likninger grafisk, og finne skjæringspunkt mellom grafer til ulike typer funksjoner og mellom grafer og aksene
 
@@ -975,19 +989,7 @@ I figuren under er også linjen $q = 300$ lagt inn.
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-20-57-45.png)
 
-#### Vurderingskriterier: Grunnleggende {#130241}
-
-Alle oppgaver må besvares.  
-
-1. Likningen må løses.
-2. Her må de tolke og skissere begge grafene i samme koordinatsystem.
-3. Gi en forklaring som viser sammenhengen mellom at løsning gir likhet av venstre og høyre side i likningen og at det tilsvarer skjæringspunktet mellom grafene.  
-
-#### Vurderingskriterier: Middels
-
-De må lage en situasjon som gir likningen. Deretter må de illustrere likningen grafisk og vise løsningen i koordinatsystemet.
-
-#### Vurderingskriterier Avansert
+##### Vurderingskriterier Avansert
 
 Alle oppgavene må besvares
 
@@ -1002,6 +1004,10 @@ Alle oppgavene må besvares
 
 Sammenhengen mellom sidelengden og arealet av et kvadrat er en funksjonssammenheng. Bruk eksemplet til å forklare begrepene funksjon, innverdi og funksjonsverdi.
 
+##### Vurderingskriterier: Grunnleggende {#130251}
+
+Her må de peke på at arealet av en kvadrat med sidelengde $r$ er $r^2$ (altså at $A(r) = r^2$). Arealet er derfor en funksjon av $r$ (innverdi) fordi hver sidelengde $r$ gir et entydig areal (som her er funksjonsverdien).
+
 #### Middels: Avgjøre og begrunne (ved hjelp av begrepene) om en gitt sammenheng er en funksjonssammenheng
 
 Én av følgende sammenhenger er en funksjonssammenheng: A) Sammenhengen mellom omkrets og bredden i et rektangel. B) Sammenhengen mellom omkrets og areal av en sirkel.  
@@ -1009,11 +1015,7 @@ Sammenhengen mellom sidelengden og arealet av et kvadrat er en funksjonssammenhe
 Avgjør og begrunn ved hjelp av en definisjon av funksjon hvilken av de to sammenhengene som er en funksjonssammenheng.
 Bruk funksjonssammenhengen til å forklare begrepene uavhengig og avhengig variabel og definisjons- og verdimengde.
 
-#### Vurderingskriterier: Grunnleggende {#130251}
-
-Her må de peke på at arealet av en kvadrat med sidelengde $r$ er $r^2$ (altså at $A(r) = r^2$). Arealet er derfor en funksjon av $r$ (innverdi) fordi hver sidelengde $r$ gir et entydig areal (som her er funksjonsverdien).
-
-#### Vurderingskriterier: Middels
+##### Vurderingskriterier: Middels
 
 Her må studenten peke på og begrunne hvorfor det er sammenhengen mellom omkrets og kvadrat som gir en funksjonssammenheng. Begrunnelsen må referere til en riktig definisjon av en funksjon. Deretter må de bruke eksempelet til å forklare begrepene det bes om.
 
@@ -1027,12 +1029,12 @@ Beskriv en situasjon som passer til grafen til høyre. (Andreaksen viser kroner 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-20-58-35.png)
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-20-58-43.png)
 
-#### Vurderingskriterier: Middels {#130262}
+##### Vurderingskriterier: Middels {#130262}
 
 1. Studentene må skissere en graf som får fram sammenhengen på en riktig måte
 2. Studentene må her peke på en (mulig) situasjon som kan beskrive grafen som er gitt. (Timelønn kan være en naturlig situasjon her).
 
-## Funksjoner 10.02.23
+## 10.02.23
 
 ### Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon
 
@@ -1042,6 +1044,10 @@ Beskriv en situasjon som passer til grafen til høyre. (Andreaksen viser kroner 
 2. Gi et eksempel på en kvadratisk funksjon, og forklart kort, med utgangspunkt i eksemplet ditt, hva som kjennetegner en kvadratisk funksjon.
 3. Gi et eksempel på en omvendt proporsjonal funksjon, og forklart kort, med utgangspunkt i eksemplet ditt, hva som kjennetegner en omvendt proporsjonal funksjon.
 
+##### Vurderingskriterier: Grunnleggende {#100211}
+
+Her må de gi et eksempel og forklare kjennetegnene, slik oppgaven ber om.  
+
 #### Middels: Bestemme og begrunne funksjonstype basert på beskrivelse av situasjon, uttrykk, graf og tabell
 
 1. På hyttetaket ligger det $70$ m$^3$ snø som skal spas bort. Hvert spadetak rommer $0,8$ m$^3$, og du greier $8$ spadetak i minuttet. Hva er sammenhengen mellom tiden og mengden snø igjen på taket?
@@ -1049,6 +1055,11 @@ Beskriv en situasjon som passer til grafen til høyre. (Andreaksen viser kroner 
 2. I koordinatsystemet under ser du to grafer. Begrunn hvilken av dem som er grafen til en omvendt proporsjonal funksjon. Begrunnelsen må vise til et funksjonsuttrykk. (Å si at grafen ser ut sånn og sånn, er altså ikke en begrunnelse ;))
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-21-04-39.png)
+
+##### Vurderingskriterier: Middels {#100212}
+
+1. Studenten *må* lage en sammenheng mellom mengde snø og tid. Det naturlige er at å koble mengde snø fjernet per minutt, som er $8\cdot 0,\!8 = 6,\!4$. Siden vi begynne på $70$ må dette gi $f(x) = 70- 6,\!4x$, det $x$ er antall minutter.
+2. Studenten må peke på egenskaper ved omvendtproporsjonale funksjoner for å begrunne. For eksempel kan en peke på at den grønne funksjonen oppfyller dobling av $x$ gir halvering av $y$. Altså at $x= 1$ gir $y=36$ og $x=2$ gir $y = 18$. De bør også pekes på at den blå grafen ikke oppfyller denne egenskapen da $x = 1$ gir $y$ over $30$ og $x= 2$ gir $y$ under $15$.
 
 #### Avansert: Gjøre om mellom ulike representasjonsformer for de tre funksjonstypene, og begrunne omgjøringen
 
@@ -1074,16 +1085,7 @@ c. Beskriv en situasjon som kan passe til funksjonen.
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-21-04-54.png)
 
-#### Vurderingskriterier: Grunnleggende {#100211}
-
-Her må de gi et eksempel og forklare kjennetegnene, slik oppgaven ber om.  
-
-#### Vurderingskriterier: Middels {#100212}
-
-1. Studenten *må* lage en sammenheng mellom mengde snø og tid. Det naturlige er at å koble mengde snø fjernet per minutt, som er $8\cdot 0,\!8 = 6,\!4$. Siden vi begynne på $70$ må dette gi $f(x) = 70- 6,\!4x$, det $x$ er antall minutter.
-2. Studenten må peke på egenskaper ved omvendtproporsjonale funksjoner for å begrunne. For eksempel kan en peke på at den grønne funksjonen oppfyller dobling av $x$ gir halvering av $y$. Altså at $x= 1$ gir $y=36$ og $x=2$ gir $y = 18$. De bør også pekes på at den blå grafen ikke oppfyller denne egenskapen da $x = 1$ gir $y$ over $30$ og $x= 2$ gir $y$ under $15$.
-
-#### Vurderingskriterier: Avansert {#10213}
+##### Vurderingskriterier: Avansert {#10213}
 
 Studentene *må* peke på hvilken funksjon det er. I første eksempel kan de set at vi alltid har halvparten av et kvadrattall. Det gir funksjonen $f(x)  = x^2/2$. I det andre eksempelet ser vi at $x = 1$ gir $y= 25$ og $x= 5$ gir $y = 5$, altså en femdobling av $x$ gir at $y$ blir en femtedel.  
 Deretter *må* studentene omforme funksjonene til de andre representasjonene det bes om.
@@ -1094,15 +1096,15 @@ Deretter *må* studentene omforme funksjonene til de andre representasjonene det
 
 Gitt en lineær funksjon $ax+b$, der $a = 1$ og $b=0$. Illustrer i et koordinatsystem hvordan endringer av $a$ påvirker grafen og hvordan endringer av $b$ påvirker grafen.
 
+##### Vurderingskriterier: Grunnleggende {#100221}
+
+Peke på hva parameterne gjør for førstegradsfunksjoner
+
 #### Middels: Forklare hvordan man kan finne likninga til en lineær funksjon når to punkter på grafen er kjent uten bruk av topunktsformelen
 
 Anta at en lineær funksjon $f$ går gjennom punktene $(-3, -3)$ og $(6, 0)$. Forklar hvordan vi kan finne likninga til den lineære funksjonen.
 
-#### Vurderingskriterier: Grunnleggende {#100221}
-
-Peke på hva parameterne gjør for førstegradsfunksjoner
-
-#### Vurderingskriterier: Middels {#100222}
+##### Vurderingskriterier: Middels {#100222}
 
 Finne likninga og forklare hvordan på en slik måte at man klart forstår det generelle i fremgangsmåten (kunne åpenbart blitt brukt for hvilke som helst punkt-par).
 
@@ -1114,6 +1116,11 @@ En andregradsfunksjon kan skrives på formen $ax^2 + b x + c$. Gjengi med ord hv
 
 Skisser grafene $y = \frac{5}{x}$ og $y = \frac{-5}{x}$ i samme koordinatsystem.
 
+##### Vurderingskriterier: Grunnleggende {#100231}
+
+1. Peke på hva parameterne gjør for andregradsfunksjoner
+2. Skissere de to omvendt proporsjonale grafene.  
+
 ### Middels: Forklare hvordan endringer i parameterne i funksjonsuttrykket påvirker grafene til andregrads- og omvendt proporsjonale funksjoner
 
 En omvendt proporsjonal funksjon ser generelt slik ut: $f(x)=\frac{a}{x}$. Forklar kort (slik at det fremstår meningsfullt for noen som ikke kan det) og vis i et koordinatsystem hvordan grafen må se ut når
@@ -1124,12 +1131,7 @@ En kvadratisk funksjon ser generelt slik ut: $f(x)=ax^2+bx+c$. Forklar kort (sli
 parameteren $a$ endres.
 parameteren $c$ endres.
 
-#### Vurderingskriterier: Grunnleggende {#100231}
-
-1. Peke på hva parameterne gjør for andregradsfunksjoner
-2. Skissere de to omvendt proporsjonale grafene.  
-
-#### Vurderingskriterier: Middels {#100232}
+##### Vurderingskriterier: Middels {#100232}
 
 1. Omvendt proporsjonale:
 Grafen må skisseres for $a>0$ og $a<0$. Det må komme fram hvorfor formen på grafen er som den er. For eksempel $a>0$ kan en gi et konkret eksempel på en om omvendt prop. funk. og framheve sammenhengen (skaleres $x$ opp med noe skaleres $y$ ned med det samme, derav navnet omvendt prop) $\rightarrow$  større og større $x$ gir $y$ som kryper mot $0$, mindre og mindre $x$ gir større og større $y$. Det bør komme fram noen symmetrier med grafen. Når $a<0$ kan en bare peke på at $a< 0$ gir bare samme graf flippet over $x$-aksen.  
@@ -1146,9 +1148,21 @@ Løs likningen
 Tolk venstre side og høyre side som funksjonsuttrykk, og skisser grafene i samme koordinatsystem.
 Forklar algebraisk og grafisk hva det vil si at tallet du fant i 1. er en løsning på likningen.
 
+##### Vurderingskriterier: Grunnleggende {#100241}
+
+Alle oppgaver må besvares
+
+1. Likningen må løses.
+2. Her må de tolke og skissere begge grafene i samme koordinatsystem.
+3. Gi en forklaring som viser sammenhengen mellom at løsning gir likhet av venstre og høyre side i likningen og at det tilsvarer skjæringspunktet mellom grafene.  
+
 #### Middels: Tolke lineære likninger grafisk, og finne skjæringspunkt mellom lineære grafer og mellom lineære grafer og aksene
 
 1. Gi en situasjon som passer til funksjonen $f(x)=20-\frac{1}{2}x$. Hva svarer likninga $20-\frac{1}{2}x=0$ til i situasjonsbeskrivelsen din? Tolk og løs likningen grafisk i et koordinatsystem.
+
+##### Vurderingskriterier: Middels {#100242}
+
+De må lage en situasjon som gir likningen. Deretter må de illustrere likningen grafisk og vise løsningen i koordinatsystemet.\
 
 #### Avansert: Tolke likninger grafisk, og finne skjæringspunkt mellom grafer til ulike typer funksjoner og mellom grafer og aksene
 
@@ -1157,19 +1171,7 @@ La $f(x) = \frac{4}{x}$ og $g(x) = 1+3x$.
 Skisser grafene.
 Finn skjæringspunktene ved regning (Merk: Både $x$- og $y$-verdi må oppgis for skjæringspunktene).
 
-#### Vurderingskriterier: Grunnleggende {#100241}
-
-Alle oppgaver må besvares
-
-1. Likningen må løses.
-2. Her må de tolke og skissere begge grafene i samme koordinatsystem.
-3. Gi en forklaring som viser sammenhengen mellom at løsning gir likhet av venstre og høyre side i likningen og at det tilsvarer skjæringspunktet mellom grafene.  
-
-#### Vurderingskriterier: Middels {#100242}
-
-De må lage en situasjon som gir likningen. Deretter må de illustrere likningen grafisk og vise løsningen i koordinatsystemet.\
-
-#### Vurderingskriterier: Avansert {#100243}
+##### Vurderingskriterier: Avansert {#100243}
 
 Begge oppgavene må besvares
 
@@ -1182,6 +1184,10 @@ Begge oppgavene må besvares
 
 Sammenhengen mellom radien og arealet av en sirkel er en funksjonssammenheng. Bruk eksemplet til å forklare begrepene funksjon, innverdi og funksjonsverdi.
 
+##### Vurderingskriterier: Grunnleggende {#100251}
+
+Her må de peke på at arealet av en sirkel med radius $r$ er $\pi$ multiplisert med $r^2$ (altså at $A(r) = \pi r^2$). Arealet er derfor en funksjon av $r$ (innverdi) fordi hver radius gir et entydig areal (som her er funksjonsverdien).\
+
 #### Middels: Avgjøre og begrunne (ved hjelp av begrepene) om en gitt sammenheng er en funksjonssammenheng
 
 Én av følgende sammenhenger er en funksjonssammenheng: A) Sammenhengen mellom omkrets og areal i et rektangel. B) Sammenhengen mellom omkrets og areal i et kvadrat.  
@@ -1189,11 +1195,7 @@ Sammenhengen mellom radien og arealet av en sirkel er en funksjonssammenheng. Br
 Avgjør og begrunn ved hjelp av en definisjon av funksjon hvilken av de to sammenhengene som er en funksjonssammenheng.
 Bruk funksjonssammenhengen til å forklare begrepene uavhengig og avhengig variabel og definisjons- og verdimengde.
 
-#### Vurderingskriterier: Grunnleggende {#100251}
-
-Her må de peke på at arealet av en sirkel med radius $r$ er $\pi$ multiplisert med $r^2$ (altså at $A(r) = \pi r^2$). Arealet er derfor en funksjon av $r$ (innverdi) fordi hver radius gir et entydig areal (som her er funksjonsverdien).\
-
-#### Vurderingskriterier: Middels {#100252}
+##### Vurderingskriterier: Middels {#100252}
 
 Her må studenten peke på og begrunne hvorfor det er sammenhengen mellom omkrets og kvadrat som gir en funksjonssammenheng. Begrunnelsen må referere til en riktig definisjon av en funksjon. Deretter må de bruke eksempelet til å forklare begrepene det bes om.
 
@@ -1207,12 +1209,12 @@ Beskriv en situasjon som passer til grafen til høyre. (Andreaksen viser meter o
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-21-09-27.png)
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-21-09-32.png)
 
-#### Vurderingskriterier: Middels {#100262}
+##### Vurderingskriterier: Middels {#100262}
 
 1. Studentene må skissere en graf som får fram sammenhengen på en riktig måte
 2. Studentene må her peke på en (mulig) situasjon som kan beskrive grafen som er gitt.
 
-## Funksjoner 3.02.23
+## 3.02.23
 
 ### Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon
 
@@ -1221,6 +1223,10 @@ Beskriv en situasjon som passer til grafen til høyre. (Andreaksen viser meter o
 1. Gi et eksempel på en lineær funksjon, og forklart kort, med utgangspunkt i eksemplet ditt, hva som kjennetegner en lineær funksjon.
 2. Gi et eksempel på en kvadratisk funksjon, og forklart kort, med utgangspunkt i eksemplet ditt, hva som kjennetegner en kvadratisk funksjon.
 3. Gi et eksempel på en omvendt proporsjonal funksjon, og forklart kort, med utgangspunkt i eksemplet ditt, hva som kjennetegner en omvendt proporsjonal funksjon.
+
+##### Vurderingskriterier: Grunnleggende {#130s211}
+
+Her må de gi et eksempel og forklare kjennetegnene, slik oppgaven ber om.
 
 #### Middels: Bestemme og begrunne funksjonstype basert på beskrivelse av situasjon, uttrykk, graf og tabell
 
@@ -1231,6 +1237,10 @@ a. Du skal lage en rektangulær innhegning til hønene dine på $121$m$^2$. Hva 
 b. Du skal lage en sirkulær figur med radius $r$. Hva er sammenhengen mellom radius og arealet arealet på figuren?
 
 c. Du kjører med bil fra Skien til Kristiansand. Du bruker $0.5$ liter bensin per mil. Du starter i Skien med 50 liter bensin. Hva er sammenhengen mellom liter igjen på tanken og mil du har kjørt?
+
+##### Vurderingskriterier: Middels {#130s212}
+
+De må avgjøre, med begrunnelse (for eksempel ved å peke på definisjon og funksjonsuttrykket de har gitt), hvilken type funksjon som hører til alle tre situasjonene. Det skal også gis et funksjonsuttrykk og en grafisk representasjon av situasjonen.
 
 #### Avansert: Gjøre om mellom ulike representasjonsformer for de tre funksjonstypene, og begrunne omgjøringen
 
@@ -1247,15 +1257,7 @@ Du skal lage en sirkulær figur med radius $r$. Hva er sammenhengen mellom radiu
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-21-13-57.png)
 
-#### Vurderingskriterier: Grunnleggende {#130s211}
-
-Her må de gi et eksempel og forklare kjennetegnene, slik oppgaven ber om.
-
-#### Vurderingskriterier: Middels {#130s212}
-
-De må avgjøre, med begrunnelse (for eksempel ved å peke på definisjon og funksjonsuttrykket de har gitt), hvilken type funksjon som hører til alle tre situasjonene. Det skal også gis et funksjonsuttrykk og en grafisk representasjon av situasjonen.
-
-#### Vurderingskriterier: Avansert {#13s0213}
+##### Vurderingskriterier: Avansert {#13s0213}
 
 Her må de gjøre det samme som på middels bare at de nå starter med ulike representasjoner og må gjøre om til de andre representasjonsformene (representasjonsformene er: situasjon, funksjonsuttrykk, tabell og graf)!
 
@@ -1265,15 +1267,16 @@ Her må de gjøre det samme som på middels bare at de nå starter med ulike rep
 
 Gitt en lineær funksjon $ax+b$, der $a = 1$ og $b=0$. Illustrer i et koordinatsystem hvordan endringer av $a$ påvirker grafen og hvordan endringer av $b$ påvirker grafen.
 
+##### Vurderingskriterier: Grunnleggende {#130s221}
+
+Peke på hva parameterne gjør for førstegradsfunksjoner
+
 #### Middels: Forklare hvordan man kan finne likninga til en lineær funksjon når to punkter på grafen er kjent uten bruk av topunktsformelen
 
 Anta at en lineær funksjon $f$ går gjennom punktene $(\frac{9}{3}, 7)$ og $(\frac{18}{3}, 10)$. Forklar hvordan vi kan finne likninga til den lineære funksjonen.
 
-#### Vurderingskriterier: Grunnleggende {#130s221}
 
-Peke på hva parameterne gjør for førstegradsfunksjoner
-
-#### Vurderingskriterier: Middels {#13022s2}
+##### Vurderingskriterier: Middels {#13022s2}
 
 Finne likninga og forklare hvordan på en slik måte at man klart forstår det generelle i fremgangsmåten (kunne åpenbart blitt brukt for hvilke som helst punkt-par).
 
@@ -1285,6 +1288,11 @@ En andregradsfunksjon kan skrives på formen $ax^2 + b x + c$. Gjengi med ord hv
 
 Skisser grafene $y = \frac{5}{x}$ og $y = \frac{-5}{x}$ i samme koordinatsystem.
 
+##### Vurderingskriterier: Grunnleggende {#1302s31}
+
+i. Peke på hva parameterne gjør for andregradsfunksjoner
+ii. Skissere de to omvendt proporsjonale grafene
+
 #### Middels: Forklare hvordan endringer i parameterne i funksjonsuttrykket påvirker grafene til andregrads- og omvendt proporsjonale funksjoner
 
 En omvendt proporsjonal funksjon ser generelt slik ut: $f(x)=\frac{a}{x}$. Forklar kort (slik at det fremstår meningsfullt for noen som ikke kan det) og vis i et koordinatsystem hvordan grafen må se ut når
@@ -1295,12 +1303,7 @@ En kvadratisk funksjon ser generelt slik ut: $f(x)=ax^2+bx+c$. Forklar kort (sli
 parameteren $a$ endres.
 parameteren $c$ endres.
 
-#### Vurderingskriterier: Grunnleggende {#1302s31}
-
-i. Peke på hva parameterne gjør for andregradsfunksjoner
-ii. Skissere de to omvendt proporsjonale grafene
-
-#### Vurderingskriterier: Middels {#13s0232}
+##### Vurderingskriterier: Middels {#13s0232}
 
 i. Omvendt proporsjonale: Grafen må skisseres for a>0 og a<0. Det må komme fram hvorfor formen på grafen er som den er. For eksempel a> 0 kan en gi et konkret eksempel på en om omvendt prop. funk. og framheve sammenhengen (skaleres x opp med noe skaleres y ned med det samme, derav navnet omvendt prop)  større og større x gir y som kryper mot 0, mindre og mindre x gir større og større y. Det bør komme fram noen symmetrier med grafen. Når a>0 er forklar kan en bare peke på at a<0 gir bare samme graf flippet over x-aksen
 ii. Kvadratiske funksjoner: Her må det kort komme fram at a avgjør hvor bratt funksjonen stiger (hvis a>0) eller synker (a<0), og at c flytter grafen oppover eller nedover og tilsier hvor funksjonen skjærer andreaksen.
@@ -1315,9 +1318,20 @@ Løs likningen
 Tolk venstre side og høyre side som funksjonsuttrykk, og skisser grafene i samme koordinatsystem.
 Forklar algebraisk og grafisk hva det vil si at tallet du fant i 1. er en løsning på likningen.
 
+##### Vurderingskriterier: Grunnleggende {#1302s41}
+
+Alle oppgaver må besvares
+i. Likningen må løses.
+ii. Her må de tolke og skissere begge grafene i samme koordinatsystem.
+iii. Gi en forklaring som viser sammenhengen mellom at løsning gir likhet av venstre og høyre side i likningen og at det tilsvarer skjæringspunktet mellom grafene.
+
 #### Middels: Tolke lineære likninger grafisk, og finne skjæringspunkt mellom lineære grafer og mellom lineære grafer og aksene
 
 1. Lag en realistisk situasjon som gir opphav til likningen $20x + 30 =10x + 80$. Tolk likningen grafisk og vis løsningen i et koordinatsystem.
+
+##### Vurderingskriterier: Middels {#1s30242}
+
+De må lage en situasjon som gir likningen. Deretter må de illustrere likningen grafisk og vise løsningen i koordinatsystemet.
 
 #### Avansert: Tolke likninger grafisk, og finne skjæringspunkt mellom grafer til ulike typer funksjoner og mellom grafer og aksene
 
@@ -1326,24 +1340,13 @@ La $f(x) = \frac{30}{x}$ og $g(x) = 2x+4$.
 Skisser grafene.
 Finn skjæringspunktene ved regning.
 
-#### Vurderingskriterier: Grunnleggende {#1302s41}
-
-Alle oppgaver må besvares
-i. Likningen må løses.
-ii. Her må de tolke og skissere begge grafene i samme koordinatsystem.
-iii. Gi en forklaring som viser sammenhengen mellom at løsning gir likhet av venstre og høyre side i likningen og at det tilsvarer skjæringspunktet mellom grafene.
-
-#### Vurderingskriterier: Middels {#1s30242}
-
-De må lage en situasjon som gir likningen. Deretter må de illustrere likningen grafisk og vise løsningen i koordinatsystemet.
-
-#### Vurderingskriterier: Avansert {#asdsf1}
+##### Vurderingskriterier: Avansert {#asdsf1}
 
 Begge oppgavene må besvares
 i. De må skissere grafene slik at på en god måte (skissa må ikke være utrolig nøyaktig, men bør heller ikke være voldsomt slurvete).
 ii. De må sette opp likninga og finne skjæringspunktene ved regning.
 
-## Funksjoner 27.01.23
+## 27.01.23
 
 ### Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon
 
@@ -1352,6 +1355,10 @@ ii. De må sette opp likninga og finne skjæringspunktene ved regning.
 1. Gi et eksempel på en lineær funksjon, og forklart kort, med utgangspunkt i eksemplet ditt, hva som kjennetegner en lineær funksjon.
 2. Gi et eksempel på en kvadratisk funksjon, og forklart kort, med utgangspunkt i eksemplet ditt, hva som kjennetegner en kvadratisk funksjon.
 3. Gi et eksempel på en omvendt proporsjonal funksjon, og forklart kort, med utgangspunkt i eksemplet ditt, hva som kjennetegner en omvendt proporsjonal funksjon.
+
+##### Vurderingskriterier: Grunnleggende {#13sdfs211}
+
+Her må de gi et eksempel og forklare kjennetegnene, slik oppgaven ber om.
 
 #### Middels: Bestemme og begrunne funksjonstype basert på beskrivelse av situasjon, uttrykk, graf og tabell
 
@@ -1362,6 +1369,10 @@ a. Du skal kjøre $120$km. Hva er sammenhengen mellom hastigheten du kjører i (
 b. Du skal male en rektangulær vegg der høyden er 2 meter lengre enn bredden. Hva er sammenhengen mellom bredden og arealet du må male?
 
 c. Du skal utføre et arbeid og får 1000 kr i grunnhonorar for å ta på deg oppdraget. I tillegg får du en timelønn på 250 kroner. Hva er sammenhengen mellom antall timer du utfører på arbeidet og inntekten du får for arbeidet?
+
+##### Vurderingskriterier: Middels {#130sasd212}
+
+De må avgjøre, med begrunnelse (for eksempel ved å peke på definisjon og funksjonsuttrykket de har gitt), hvilken type funksjon som hører til alle tre situasjonene. Det skal også gis et funksjonsuttrykk og en grafisk representasjon av situasjonen
 
 #### Avansert: Gjøre om mellom ulike representasjonsformer for de tre funksjonstypene, og begrunne omgjøringen
 
@@ -1389,15 +1400,7 @@ b. Skisser grafen, og sett opp funksjonsuttrykk.
 
 c. Begrunn kort hvordan grafen og funksjonsuttrykket svarer til situasjonseksemplet.
 
-#### Vurderingskriterier: Grunnleggende {#13sdfs211}
-
-Her må de gi et eksempel og forklare kjennetegnene, slik oppgaven ber om.
-
-#### Vurderingskriterier: Middels {#130sasd212}
-
-De må avgjøre, med begrunnelse (for eksempel ved å peke på definisjon og funksjonsuttrykket de har gitt), hvilken type funksjon som hører til alle tre situasjonene. Det skal også gis et funksjonsuttrykk og en grafisk representasjon av situasjonen
-
-#### Vurderingskriterier: Avansert {#13asds0213}
+##### Vurderingskriterier: Avansert {#13asds0213}
 
 Her må de gjøre det samme som på middels bare at de må på egen hånd gi en situasjon!
 
@@ -1407,15 +1410,15 @@ Her må de gjøre det samme som på middels bare at de må på egen hånd gi en 
 
 Gitt en lineær funksjon $ax+b$, der $a = 1$ og $b=0$. Illustrer i et koordinatsystem hvordan endringer av $a$ påvirker grafen og hvordan endringer av $b$ påvirker grafen.
 
+##### Vurderingskriterier: Grunnleggende {#130asds221}
+
+Peke på hva parameterne gjør for førstegradsfunksjoner
+
 #### Middels: Forklare hvordan man kan finne likninga til en lineær funksjon når to punkter på grafen er kjent uten bruk av topunktsformelen
 
 Anta at en lineær funksjon $f$ går gjennom punktene $(\frac{5}{2}, 7)$ og $(\frac{11}{2}, 4)$. Forklar hvordan vi kan finne likninga til den lineære funksjonen.
 
-#### Vurderingskriterier: Grunnleggende {#130asds221}
-
-Peke på hva parameterne gjør for førstegradsfunksjoner
-
-#### Vurderingskriterier: Middels {#13asd022s2}
+##### Vurderingskriterier: Middels {#13asd022s2}
 
 Finne likninga og forklare hvordan på en slik måte at man klart forstår det generelle i fremgangsmåten (kunne åpenbart blitt brukt for hvilke som helst punkt-par).
 
@@ -1426,6 +1429,10 @@ Finne likninga og forklare hvordan på en slik måte at man klart forstår det g
 En andregradsfunksjon kan skrives på formen $ax^2 + b x + c$. Gjengi med ord hvilken påvirkning endringer i $a$ (tallet foran $x^2$) og $c$ (konstantleddet) har på grafen til en andregradsfunksjon.
 
 Skisser grafene $y = \frac{15}{x}$ og $y = \frac{-15}{x}$ i samme koordinatsystem.
+##### Vurderingskriterier: Grunnleggende {#1asd302s31}
+
+i. Peke på hva parameterne gjør for andregradsfunksjoner
+ii. Skissere de to omvendt proporsjonale grafene
 
 #### Middels: Forklare hvordan endringer i parameterne i funksjonsuttrykket påvirker grafene til andregrads- og omvendt proporsjonale funksjoner
 
@@ -1437,11 +1444,7 @@ En kvadratisk funksjon ser generelt slik ut: $f(x)=ax^2+bx+c$. Forklar kort (sli
 parameteren $a$ endres.
 parameteren $c$ endres.
 
-#### Vurderingskriterier: Grunnleggende {#1asd302s31}
 
-i. Peke på hva parameterne gjør for andregradsfunksjoner
-ii. Skissere de to omvendt proporsjonale grafene
-
-#### Vurderingskriterier: Middels {#13s0sdf232}
+##### Vurderingskriterier: Middels {#13s0sdf232}
 
 Gjøre begge oppdragene som står i kulepunktene på en tilfredsstillende måte.

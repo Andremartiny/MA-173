@@ -8,31 +8,31 @@ bibliography: [references.bib]
 
 ### Oppgave 1 {#f10o1}
 
-#### Vurderingskriterier: Grunnleggende {#f10g1}
+##### Vurderingskriterier: Grunnleggende {#f10g1}
 
 Besvarelsen må gi eksempler i både en og to dimensjoner der måltall, måleenhet og størrelsen blir forklart forståelig.
 
-#### Vurderingskriterier: Middels {#f10m1}
+##### Vurderingskriterier: Middels {#f10m1}
 
 Besvarelsen må gi en forståelig forklaring (og illustrasjon) for hvordan man avgjør størrelsene. For omkrets må en få fram måleenheten en bruker (typisk et linjestykke. Ofte cm, meter og lignende). For areal må det komme tydelig fram hvordan arealet henger sammen med måleenheten kvadrat (noe som i de aller fleste tilfeller betyr at en må vise en omforming til et rektangel, et halvt rektangel eller liknende). Begrunnelsene trekke ut ideen fra forklaringen og gi en generell formel for de tre størrelsene.  
 
 ### Oppgave 2 {#f10o2}
 
-#### Vurderingskriterier: Grunnleggende {#f10g2}
+##### Vurderingskriterier: Grunnleggende {#f10g2}
 
 Besvarelsen må gi eksempler i både tre dimensjoner der måltall, måleenhet og størrelsen blir forklart forståelig.
 
 ### Oppgave 3 {#f10o3}
 
-#### Vurderingskriterier: Grunnleggende {#f103}
+##### Vurderingskriterier: Grunnleggende {#f103}
 
 De må gi en forklaring med en illustrasjon på de gitte begrepene.  
 
-#### Vurderingskriterier: Middels {#f10m3}
+##### Vurderingskriterier: Middels {#f10m3}
 
 Studentene må argumentere for hvor stor vinkelsummen av de indre vinklene i en femkant er.
 
-#### Vurderingskriterier: Avansert {#f10a3}
+##### Vurderingskriterier: Avansert {#f10a3}
 
 Studentene må på en forståelig måte få fram hor stor summen av $b+c$ er.
 
@@ -40,11 +40,11 @@ En naturlig framgangsmåte er å trekke en linje parallell til $f$ og $g$ gjenno
 
 ### Oppgave 4 {#f10o4}
 
-#### Vurderingskriterier: Grunnleggende {#f10g4}
+##### Vurderingskriterier: Grunnleggende {#f10g4}
 
 Studentene må gi en forklaring med en illustrasjon på de gitte begrepene.
 
-#### Vurderingskriterier: Middels {#f10m4}
+##### Vurderingskriterier: Middels {#f10m4}
 
 Studentene må besvare begge oppgavene.
 
@@ -54,15 +54,15 @@ ii. Studenten kan lage to diagonaler som er like lange og som står vinkelrett p
 
 ### Oppgave 5 {#f10o5}
 
-#### Vurderingskriterier: Grunnleggende {#f10g5}
+##### Vurderingskriterier: Grunnleggende {#f10g5}
 
 Studentene må gjengi formlene korrekt med en illustrasjon der det kommer fram hvilke lengder som brukes.
 
-#### Vurderingskriterier: Middels {#f10m5}
+##### Vurderingskriterier: Middels {#f10m5}
 
 Dette må gjøres algebraisk.
 
-#### Vurderingskriterier: Avansert {#f10a5}
+##### Vurderingskriterier: Avansert {#f10a5}
 
 Studenten må gjøre alle oppgavene for å få godkjent.
 
@@ -84,31 +84,31 @@ $$
 
 ### Oppgave 1 {#f13o1}
 
-#### Vurderingskriterier: Grunnleggende {#f13g1}
+##### Vurderingskriterier: Grunnleggende {#f13g1}
 
 Besvarelsen må gi eksempler i både en og to dimensjoner der måltall, måleenhet og størrelsen blir forklart forståelig.
 
-#### Vurderingskriterier: Middels {#f13m1}
+##### Vurderingskriterier: Middels {#f13m1}
 
 Besvarelsen må gi en forståelig forklaring (og illustrasjon) for hvordan man avgjør størrelsene. For omkrets må en få fram måleenheten en bruker (typisk et linjestykke. Ofte cm, meter og lignende). For areal må det komme tydelig fram hvordan arealet henger sammen med måleenheten kvadrat (noe som i de aller fleste tilfeller betyr at en må vise en omforming til et rektangel, et halvt rektangel eller liknende). Begrunnelsene trekke ut ideen fra forklaringen og gi en generell formel for de tre størrelsene.  
 
 ### Oppgave 2 {#f13o2}
 
-#### Vurderingskriterier: Grunnleggende {#f13g2}
+##### Vurderingskriterier: Grunnleggende {#f13g2}
 
 Besvarelsen må gi eksempler i både tre dimensjoner der måltall, måleenhet og størrelsen blir forklart forståelig.
 
 ### Oppgave 3 {#f13o3}
 
-#### Vurderingskriterier: Grunnleggende {#f13g3}
+##### Vurderingskriterier: Grunnleggende {#f13g3}
 
 De må gi en forklaring med en illustrasjon på de gitte begrepene.
 
-#### Vurderingskriterier: Middels {#f13m3}
+##### Vurderingskriterier: Middels {#f13m3}
 
 Studentene må argumentere for hvor stor vinkelsummen av de indre vinklene i en trekant er.
 
-#### Vurderingskriterier: Avansert {#f13a3}
+##### Vurderingskriterier: Avansert {#f13a3}
 
 Studentene må gjøre alle oppgavene.
 
@@ -118,11 +118,11 @@ Studentene må gjøre alle oppgavene.
 
 ### Oppgave 4 {#f13o4}
 
-#### Vurderingskriterier: Grunnleggende {#f13g4}
+##### Vurderingskriterier: Grunnleggende {#f13g4}
 
 Studentene må gi en forklaring med en illustrasjon på de gitte begrepene.
 
-#### Vurderingskriterier: Middels {#f13m4}
+##### Vurderingskriterier: Middels {#f13m4}
 
 Studentene må besvare begge oppgavene.
 
@@ -132,15 +132,15 @@ ii. Studenten kan lage to diagonaler som er like lange og som står vinkelrett p
 
 ### Oppgave 5 {#f13o5}
 
-#### Vurderingskriterier: Grunnleggende {#f13g5}
+##### Vurderingskriterier: Grunnleggende {#f13g5}
 
 Studentene må gjengi formlene korrekt med en illustrasjon der det kommer fram hvilke lengder som brukes.
 
-#### Vurderingskriterier: Middels {#f13m5}
+##### Vurderingskriterier: Middels {#f13m5}
 
 Dette må gjøres algebraisk. For eksempel ved å peke på at $A = ah$ er arealet av et parallellogram med høyde $h$ og grunnlinje $a$. Tripler jeg grunnlinja får jeg $3a$ og dobler jeg høyden får jeg $2h$. Arealet av det nye parallellogrammet blir nå $3a\cdot 2h = 6 ah = 6A$. Som altså er $6$ ganger så stort som det originale arealet.
 
-#### Vurderingskriterier: Avansert {#f13a5}
+##### Vurderingskriterier: Avansert {#f13a5}
 
 Studenten må gjøre argumentere på en strukturert og forståelig måte.
 
@@ -150,33 +150,33 @@ Studenten må få fram at radius til innsirkelen er $x$. Deretter følger result
 
 ### Oppgave 1 {#f17o1}
 
-#### Vurderingskriterier: Grunnleggende {#f17g1}
+##### Vurderingskriterier: Grunnleggende {#f17g1}
 
 Besvarelsen må gi eksempler i både en og to dimensjoner der måltall, måleenhet og størrelsen blir forklart forståelig.
 
-#### Vurderingskriterier: Middels {#f17m1}
+##### Vurderingskriterier: Middels {#f17m1}
 
 Besvarelsen må gi en forståelig forklaring (og illustrasjon) for hvordan man avgjør størrelsene. For omkrets må en få fram måleenheten en bruker (typisk et linjestykke. Ofte cm, meter og lignende). For areal må det komme tydelig fram hvordan arealet henger sammen med måleenheten kvadrat (noe som i de aller fleste tilfeller betyr at en må vise en omforming til et rektangel, et halvt rektangel eller liknende). Begrunnelsene trekke ut ideen fra forklaringen og gi en generell formel for de tre størrelsene.  
 
 ### Oppgave 2 {#f17o2}
 
-#### Vurderingskriterier: Grunnleggende {#f17g2}
+##### Vurderingskriterier: Grunnleggende {#f17g2}
 
 Besvarelsen må gi eksempler i både tre dimensjoner der måltall, måleenhet og størrelsen blir forklart forståelig.
 
 ### Oppgave 3 {#f17o3}
 
-#### Vurderingskriterier: Grunnleggende {#f173}
+##### Vurderingskriterier: Grunnleggende {#f173}
 
 De må gi en forklaring med en illustrasjon på de gitte begrepene.
 
-#### Vurderingskriterier: Middels {#f17m3}
+##### Vurderingskriterier: Middels {#f17m3}
 
 Studentene må argumentere for hvor stor vinkelen $v$ er.
 
 Dette gjøres gjerne ved å slå en parallell linje gjennom $v$. På denne måten kan en argumentere for at $v$ er summen av $s$ og $w$.
 
-#### Vurderingskriterier: Avansert {#f17a3}
+##### Vurderingskriterier: Avansert {#f17a3}
 
 Studentene må på en forståelig måte få fram hvor stor $e$ er.
 
@@ -184,11 +184,11 @@ En naturlig framgangsmåte er benytte seg av diameteren på bildet og dele vinke
 
 ### Oppgave 4 {#f17o4}
 
-#### Vurderingskriterier: Grunnleggende {#f17g4}
+##### Vurderingskriterier: Grunnleggende {#f17g4}
 
 Studentene må gi en forklaring med en illustrasjon på de gitte begrepene.
 
-#### Vurderingskriterier: Middels {#f17m4}
+##### Vurderingskriterier: Middels {#f17m4}
 
 Studentene må besvare begge oppgavene.
 
@@ -198,15 +198,15 @@ ii. Studenten må bruke at vinkelsummen i er $180^\circ$ til å argumentere for 
 
 ### Oppgave 5 {#f17o5}
 
-#### Vurderingskriterier: Grunnleggende {#f17g5}
+##### Vurderingskriterier: Grunnleggende {#f17g5}
 
 Studentene må gjengi formlene korrekt med en illustrasjon der det kommer fram hvilke lengder som brukes.
 
-#### Vurderingskriterier: Middels {#f17m5}
+##### Vurderingskriterier: Middels {#f17m5}
 
 Dette må gjøres algebraisk. Her må det komme fram at $(x+3)\cdot (y+3) \neq xy + 9$.
 
-#### Vurderingskriterier: Avansert {#f17a5}
+##### Vurderingskriterier: Avansert {#f17a5}
 
 Studenten må argumentere på en strukturert og forståelig måte.
 

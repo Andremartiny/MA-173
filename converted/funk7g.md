@@ -7,8 +7,3 @@ En kvadratisk funksjon ser generelt slik ut: $f(x)=ax^2+bx+c$. Forklar kort (sli
 parameteren $a$ endres.
 parameteren $c$ endres.
 
-#### Vurderingskriterier grunnleggende:  Funksjoner 10.02.23
-
-1. Peke på hva parameterne gjør for andregradsfunksjoner
-2. Skissere de to omvendt proporsjonale grafene.  
-

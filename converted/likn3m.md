@@ -1,4 +1,4 @@
-#### Middels:  Øveoppgaver
+#### Middels: Løse lineære likningssett med to ukjente på ulike måter,  Øveoppgaver
 
 1. Alfa s. 281
 
@@ -6,7 +6,7 @@
 
     b.  3.64 Løs på så mange måter du greier.
 
-#### Middels:  17.02.23
+#### Middels: Løse lineære likningssett med to ukjente på ulike måter,  17.02.23
 
 To tall har følgende to egenskaper: Egenskap 1: Divisjon av det en tallet (dividend) med det andre (divisor) gir $12$ og $3$ i rest. Egenskap 2: Summen av de to tallene er én mer enn halvparten av dividenden. Avgjør hvilke tall det er snakk om på to formelle måter.
 
@@ -39,7 +39,7 @@ x+y & = 16,
 $$
 løses (uten at det skal settes opp som likning), der $x$ er antall firesidede terninger og $y$ er antall sekssidede terninger. For eksempel kan en tenke seg at $16$ terninger som kun er seksidet gir $16\cdot 6 = 96$ sider, altså $20$ for mye. Dette kan da brukes videre for å løse problemet uten bruk av likninger.
 
-#### Middels:  13.02.23
+#### Middels: Løse lineære likningssett med to ukjente på ulike måter,  13.02.23
 
 André og Philip perler ofte i helgene. André perler alltid stjerner som inneholder $60$ perler og Philip perler alltid hjerter som bruker $45$ perler. Totalt perlet André og Philip $23$ figurer den helgen og brukte totalt $1230$ perler.
 
@@ -65,7 +65,7 @@ x+y & = 23
 $$
 der $x$ er antall hjerter og $y$ er antall stjerner.
 
-#### Middels:  10.02.23
+#### Middels: Løse lineære likningssett med to ukjente på ulike måter,  10.02.23
 
 André og Philip perler ofte i helgene. André perler alltid stjerner som inneholder 70 perler og Philip perler alltid hjerter som bruker 50 perler. Totalt perlet André og Philip 21 figurer den helgen og brukte totalt $1250$ perler.
 
@@ -93,7 +93,7 @@ x+y & = 21
 $$
 der $x$ er antall hjerter og $y$ er antall stjerner.
 
-#### Middels:  03.02.23
+#### Middels: Løse lineære likningssett med to ukjente på ulike måter,  03.02.23
 
 Bonden Olav har en gård og har nettop kjøpt seg 100 dyr. Olav liker å gi gåter til sine barnebarn og gir dem følgende gåte. Jeg har kjøpt 100 dyr, noen høner og noen sauer. Til sammen har dyrene jeg har kjøpt 344 bein. Hvor mange høner har jeg kjøpt?
 
@@ -107,7 +107,7 @@ Begge oppgavene må gjøres.
 i. Her må de gjøre noe annet enn å bruke likninger og gjett og sjekk. Et logisk resonnement er nok det mest naturlige.
 ii. Her må de omgjøre til to likninger med to ukjente og deretter løse med de gitte metodene
 
-#### Middels:  27.01.23
+#### Middels: Løse lineære likningssett med to ukjente på ulike måter,  27.01.23
 
 Søstrene Anja og Beate er $15$ år til sammen. Dersom Anja var født ett år senere, ville Beate vært dobbelt så gammel som Anja om to år.
 

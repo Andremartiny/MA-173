@@ -1,4 +1,4 @@
-#### Grunnleggende:  Øveoppgaver
+#### Grunnleggende: Forklare og gi eksempler på de ulike betydningene av brøk: del av hel/enhet, del av antall, tall og forhold,  Øveoppgaver
 
 1. Forklar og gi eksempler på hva som menes med brøk som
 

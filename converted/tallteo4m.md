@@ -1,5 +1,5 @@
 
-#### Middels:  Øveoppgaver
+#### Middels: Finne eksplisitt uttrykk for figurtall,  Øveoppgaver
 
 1. Illustrer femkanttallene opp til $P_{4}$, og utled eksplisitt
     uttrykk for $P_{n}$ ved hjelp av strategien *sum av tillegg.*
@@ -47,7 +47,7 @@ Siden vi vet at $T_n = 1+2+\ldots+n = \frac{n(n+1)}{2}$, kan vi erstatte dette i
 $P_n = 3T_n -2n = \frac{3n(n+1)}{2}-2n$.
 
 
-#### Middels:  Tallteori
+#### Middels: Finne eksplisitt uttrykk for figurtall,  31.03.23
 
 Illustrer femkanttallene opp til $P_3$, og utled eksplisitt uttrykk for $P_n$ ved hjelp av strategien sum av tillegg. Merk at tallrekken som tilhører sekskanttallene er $1, 6, 15, 28,  \ldots$.
 
@@ -64,7 +64,7 @@ bruke formelen for trekanttall (se heftet for teknikken om sum
 av tillegg).
 
 
-#### Middels:  17.02.23
+#### Middels: Finne eksplisitt uttrykk for figurtall,  17.02.23
 
 Illustrer femkanttallene opp til $P_3$, og utled eksplisitt uttrykk for $P_n$ ved hjelp av strategien sum av tillegg. Merk at tallrekken som tilhører sekskanttallene er $1, 6, 15, 28,  \ldots$.
 
@@ -81,7 +81,7 @@ bruke formelen for trekanttall (se heftet for teknikken om sum
 av tillegg).
 
 
-#### Middels:  13.02.23
+#### Middels: Finne eksplisitt uttrykk for figurtall,  13.02.23
 
 Illustrer femkanttallene opp til $P_3$, og utled eksplisitt uttrykk for $P_n$ ved hjelp av strategien sum av tillegg. Merk at tallrekken som tilhører sekskanttallene er $1, 6, 15, 28,  \ldots$.
 
@@ -98,7 +98,7 @@ bruke formelen for trekanttall (se heftet for teknikken om sum
 av tillegg).
 
 
-#### Middels:  10.02.23
+#### Middels: Finne eksplisitt uttrykk for figurtall,  10.02.23
 
 Illustrer femkanttallene opp til $P_3$, og utled eksplisitt uttrykk for $P_n$ ved hjelp av strategien sum av tillegg. Merk at tallrekken som tilhører femkanttallene er $1, 5, 12, 22, \ldots$.
 
@@ -115,10 +115,14 @@ bruke formelen for trekanttall (se heftet for teknikken om sum
 av tillegg).
 
 
-#### Middels:  03.02.23
+#### Middels: Finne eksplisitt uttrykk for figurtall,  03.02.23
 
 Illustrer syvkanttallene opp til $H_3$, og utled eksplisitt uttrykk for $H_n$ ved hjelp av strategien sum av tillegg. Merk at tallrekken som tilhører femkanttallene er $1, 7, 18, 34, \ldots$.
 
+
+#### Middels: Finne eksplisitt uttrykk for figurtall,  27.01.23
+
+Illustrer femkanttallene opp til $P_3$, og utled eksplisitt uttrykk for $P_n$ ved hjelp av strategien sum av tillegg. Merk at tallrekken som tilhører femkanttallene er $1, 5, 12, 22, \ldots$.
 
 #### Vurderingskriterier middels:  27.01.23
 
@@ -128,7 +132,7 @@ si jobbe seg fra $1+4+7+\ldots + 3n-2$ til $n^2+\frac{n(n-1)}{2}$ ved hjelp av
 algebra og (mest sannsynlig) formelen for trekanttall.
 
 
-#### Middels:  10.01.2023
+#### Middels: Finne eksplisitt uttrykk for figurtall,  10.01.2023
 
 Illustrer sekskanttallene opp til $H_4$, og utled eksplisitt uttrykk for $H_n$ ved hjelp av strategien sum av tillegg.
 Avansert: Ved hjelp av geometrisk betraktning/stirre hardt og sum av tillegg for sammensatte figurtall.

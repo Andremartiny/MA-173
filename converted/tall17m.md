@@ -1,4 +1,4 @@
-#### Middels:  Øveoppgaver
+#### Middels: Utføre addisjon og subtraksjon med negative tall,  Øveoppgaver
 
 1. Lag regnetabeller som med utgangspunkt i de naturlige tallene, viser
    hvordan addisjon og subtraksjon må oppføre seg for å gi en

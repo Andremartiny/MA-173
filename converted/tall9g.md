@@ -1,4 +1,4 @@
-#### Grunnleggende:  Øveoppgaver
+#### Grunnleggende: Utføre multiplikasjon med brøk,  Øveoppgaver
 
 1. Alfa s. 119. Kun beregningene på grunnleggende.
 

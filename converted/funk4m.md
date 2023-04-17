@@ -1,5 +1,5 @@
 
-#### Middels:  Øveoppgaver
+#### Middels: Løse likninger fra funksjonsperspektiv,  Øveoppgaver
 
 1. Du løper sammen med en av de fjernstyrte bilene dine langs en rett
     strekning. Bilen holder seks meter i sekundet, mens du klarer $3,5$.
@@ -33,7 +33,7 @@
     b.  $3 - \frac{1}{2}t = 1$
 
 
-#### Middels:  31.03.23
+#### Middels: Løse likninger fra funksjonsperspektiv,  31.03.23
 
 1. Gi en situasjon som passer til funksjonen $f(x)=50 - 5x$. Hva svarer likninga $50 - 5x=10$ til i situasjonsbeskrivelsen din? Tolk og løs likningen grafisk i et koordinatsystem.
 
@@ -42,7 +42,7 @@
 De må lage en situasjon som gir likningen. Deretter må de illustrere likningen grafisk og vise løsningen i koordinatsystemet.
 
 
-#### Middels:  17.02.23
+#### Middels: Løse likninger fra funksjonsperspektiv,  17.02.23
 
 1. Gi en situasjon som passer til funksjonen $f(x)=5-\frac{1}{2}x$. Hva svarer likninga $5-\frac{1}{2}x=2$ til i situasjonsbeskrivelsen din? Tolk og løs likningen grafisk i et koordinatsystem.
 
@@ -51,7 +51,7 @@ De må lage en situasjon som gir likningen. Deretter må de illustrere likningen
 De må lage en situasjon som gir likningen. Deretter må de illustrere likningen grafisk og vise løsningen i koordinatsystemet.
 
 
-#### Middels:  Funksjoner 13.02.23
+#### Middels: Løse likninger fra funksjonsperspektiv,  Funksjoner 13.02.23
 
 1. Gi en situasjon som passer til funksjonen $f(x)=5+3x$. Hva svarer likninga $5+3x=0$ til i situasjonsbeskrivelsen din? Tolk og løs likningen grafisk i et koordinatsystem.
 
@@ -60,7 +60,7 @@ De må lage en situasjon som gir likningen. Deretter må de illustrere likningen
 De må lage en situasjon som gir likningen. Deretter må de illustrere likningen grafisk og vise løsningen i koordinatsystemet.
 
 
-#### Middels:  Funksjoner 10.02.23
+#### Middels: Løse likninger fra funksjonsperspektiv,  Funksjoner 10.02.23
 
 1. Gi en situasjon som passer til funksjonen $f(x)=20-\frac{1}{2}x$. Hva svarer likninga $20-\frac{1}{2}x=0$ til i situasjonsbeskrivelsen din? Tolk og løs likningen grafisk i et koordinatsystem.
 
@@ -69,7 +69,7 @@ De må lage en situasjon som gir likningen. Deretter må de illustrere likningen
 De må lage en situasjon som gir likningen. Deretter må de illustrere likningen grafisk og vise løsningen i koordinatsystemet.\
 
 
-#### Middels:  Funksjoner 3.02.23
+#### Middels: Løse likninger fra funksjonsperspektiv,  Funksjoner 3.02.23
 
 1. Lag en realistisk situasjon som gir opphav til likningen $20x + 30 =10x + 80$. Tolk likningen grafisk og vis løsningen i et koordinatsystem.
 

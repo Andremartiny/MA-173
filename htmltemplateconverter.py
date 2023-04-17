@@ -45,14 +45,18 @@ def restructure(pathin, pathout):
         if line.startswith('### '):
             current_subsubheader = re.sub(r'\s*{#.*?}\s*$', '', line).rstrip()
             continue
-        if line.startswith('#### '):
+        if line.startswith('#### ') or line.startswith('##### '):
+            added = False
             for niv in nivå:
                 if re.search(niv, line, re.IGNORECASE):
+                    added = True
                     current_nivå = niv
                     if re.search("vurderingskriterier", line, re.IGNORECASE):
                         dictionary[current_subsubheader][niv].append("#### Vurderingskriterier " + niv + ": " + current_subheader)    
                     else:
-                        dictionary[current_subsubheader][niv].append("#### " + niv.capitalize() + ": " + current_subheader)
+                        dictionary[current_subsubheader][niv].append("#### " + niv.capitalize() + ": " + re.sub(r"^###\s*", "",current_subsubheader) + ", " + current_subheader)
+            if added == False:
+                dictionary[current_subsubheader][current_nivå].append(line)
             continue
         if current_subsubheader == '' or current_nivå == '':
             continue

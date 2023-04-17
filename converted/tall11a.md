@@ -1,5 +1,5 @@
 
-#### Avansert:  Øveoppgaver
+#### Avansert: Utføre formell omforming av brøk,  Øveoppgaver
 
 1. Regn ut.
 

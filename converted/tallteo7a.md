@@ -1,5 +1,5 @@
 
-#### Avansert:  Øveoppgaver
+#### Avansert: Vurdere arbeid med figurtall med hensyn til læreplanens kjerneelementer og didaktikk knyttet til algebraisk tenkning,  Øveoppgaver
 
 1. Ta utgangspunkt i aktuell litteratur om algebraisk tenkning, samt
     læreplanens kompetansemål og kjerneelementer.
@@ -20,7 +20,6 @@
 
 
 
-
-#### Avansert:  10.01.2023
+#### Avansert: Vurdere arbeid med figurtall med hensyn til læreplanens kjerneelementer og didaktikk knyttet til algebraisk tenkning,  10.01.2023
 
 Lag en figur som vokser i et tydelig mønster. Lag en kort undervisningsaktivitet med utgangspunkt i kjerneelementer, kompetansemål, litteratur om algebraisk tenkning og figuren du har laget. Gi en begrunnelse for valgene du har gjort.

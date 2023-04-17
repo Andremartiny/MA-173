@@ -1,4 +1,4 @@
-#### Avansert:  Øveoppgaver
+#### Avansert: Løse (ukjente) problemer knyttet til brøk, prosent (og desimaltall),  Øveoppgaver
 
 1. Alfa s. 143: 1.86
 

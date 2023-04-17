@@ -1,5 +1,5 @@
 
-#### Middels:  Øveoppgaver
+#### Middels: Gjengi betydningen av potensuttrykk, og regne med potenser,  Øveoppgaver
 
 1. Alfa s. 239--241 (Det er ikke meningen å gjøre alt! Øv på det du
    trenger å øve på.)

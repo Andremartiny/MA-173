@@ -1,5 +1,5 @@
 
-#### Middels:  Øveppgaver
+#### Middels: Forklare og bruke begrepene ordnet utvalg med og uten tilbakelegg,  Øveppgaver
 
 1. Begrunn at følgende situasjoner kan tenkes på som ordnede utvalg med tilbakelegg og finn antall muligheter i utvalgene\
    a. Du skal velge en firesifret kode der du kan ha sifrene 0-9 på hver posisjon.

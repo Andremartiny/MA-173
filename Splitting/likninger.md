@@ -218,15 +218,15 @@ Under ser du tre elevers løsninger av likningen $3(2x+5)=(12+3x)$. Forklar hvor
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-15-19-12.png)
 
-#### Vurderingskriterier: Grunnleggende {#311}
+##### Vurderingskriterier: Grunnleggende {#311}
 
 Her *må* de fullføre illustrasjonen for å løse likningen. Deretter *må* de sette opp og løse likingen selv.
 
-#### Vurderingskriterier: Middels {#312}
+##### Vurderingskriterier: Middels {#312}
 
 Her må de løse situasjonen ved å sette opp en illustrasjon *og* sette opp en likning. For eksempel kan de både i en illustrasjon og algebraisk ta utgangspunkt i antall personer på fotball og kalle antallet for $x$. Da får de at det er $5+2x$ som spiller håndball og $\frac{3}{2}x-5$ som spiller *kun* basket. Totalt gir dette at $x+5+2x+\frac{3}{2} x - 5 = 45$. Det er da denne likningen som må løses.
 
-#### Vurderingskriterier: Avansert {#313}
+##### Vurderingskriterier: Avansert {#313}
 
 Her må studentene peke på elevenes tolkning.
 Det viktigste som må fram er at:
@@ -251,15 +251,15 @@ $$\begin{aligned} \frac{-x+ 1}{2}& \leq 5  \\ {-x+ 1}  & \geq 10 \\  -x & \geq 9
 
 Begrunn kort med ordforklaring og/eller illustrasjon hvorfor hvert hvert steg i løsningen er rett eller galt.
 
-#### Vurderingskriterier: Grunnleggende {#321}
+##### Vurderingskriterier: Grunnleggende {#321}
 
 Her må de bare løse ulikheten.
 
-#### Vurderingskriterier: Middels {#322}
+##### Vurderingskriterier: Middels {#322}
 
 Her må de presisere alt som gjøres i utregningen med en begrunnelse
 
-#### Vurderingskriterier: Avansert {#323}
+##### Vurderingskriterier: Avansert {#323}
 
 Her må de peke på alle feilene eleven gjør. I tillegg må de gi en meningsfull forklaring av hvordan en skal løse oppgaven.
 
@@ -285,11 +285,11 @@ To tall har følgende to egenskaper: Egenskap 1: Divisjon av det en tallet (divi
 
 André samler på terninger. Han har har $16$ terninger, noen med fire sider og noen med seks. Til sammen har terningene $76$ sider. Uten bruk av likninger eller gjett og sjekk, avgjør hvor mange terninger André har av hver type. Løsningen din må inneholde en passende illustrasjon.
 
-#### Vurderingskriterier: Grunnleggende {#331}
+##### Vurderingskriterier: Grunnleggende {#331}
 
 Begge oppgavene skal gjøres med metodene som er oppgitt.
 
-#### Vurderingskriterier: Middels {#332}
+##### Vurderingskriterier: Middels {#332}
 
 Begge oppgavene må gjøres
 
@@ -336,7 +336,7 @@ løses (uten at det skal settes opp som likning), der $x$ er antall firesidede t
 
 2. Løs likningen $2x^2  +\frac{3}{4}= 3x$ med fullstendige kvadraters metode.
 
-#### Vurderingskriterier: Grunnleggende, middels og avansert {#34123}
+##### Vurderingskriterier: Grunnleggende, middels og avansert {#34123}
 
 Begge likningene må løses med korrekt teknikk.
 
@@ -361,15 +361,15 @@ $9x^2y^2 +1 - 6xy$.
 
 2. Velg ett av uttrykkene du har faktorisert. Illustrer kvadratsetningen du brukte med tallene og variablene fra uttrykket.
 
-#### Vurderingskriterier: Grunnleggende {#351}
+##### Vurderingskriterier: Grunnleggende {#351}
 
 Her *må* første og tredje kvadratsetning gjengis.
 
-#### Vurderingskriterier: Middels {#352}
+##### Vurderingskriterier: Middels {#352}
 
 Her *må* andre og tredje kvadratsetning illustrerer geometrisk og brukes til å forklare identitetene.
 
-#### Vurderingskriterier: Avansert {#353}
+##### Vurderingskriterier: Avansert {#353}
 
 Her *må* begge uttrykkene faktoriseres, med en referanse til  kvadratsetningen som brukes.Deretter *m* ett av uttrykkene du har faktorisert illustreres geometrisk der.
 
@@ -409,11 +409,11 @@ Under ser du tre elevers løsninger. Forklar hvordan de har tolket og løst oppg
   
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-15-14-49.png)
 
-#### Vurderingskriterier: Grunnleggende {#211}
+##### Vurderingskriterier: Grunnleggende {#211}
 
 Her *må* de fullføre illustrasjonen for å løse likningen. Deretter *må* de sette opp og løse likingen selv.
 
-#### Vurderingskriterier: Middels {#212}
+##### Vurderingskriterier: Middels {#212}
 
 1. Her må det komme fram to uformelle metoder. Eksempler er, hold over, bruk av tallinje, gjett og sjekk, bruk av konkreter. Formelt må gjøres med algebra. Et eksempel kan være: Ved å holde over nevner på venstre side av
 $$
@@ -422,7 +422,7 @@ $$
 ser vi at $\frac{2x-4}{2} -2$ må være $3$. Igjen ser ser nå at $\frac{2x-4}{2}  = 5$. Videre må vi derfor ha at $2x-4 = 10$ for å få $5$. Til slutt må $2x = 14$ som gir at $x = 7$.
 2. Deretter må de løse situasjonen ved å sette opp en illustrasjon *og* sette opp en likning. For eksempel kan de både i en illustrasjon og algebraisk ta utgangspunkt i antall personer på fotball og kalle antallet for $x$. Da får de at det er $5+2x$ som spiller håndball og $\frac{3}{2}x-5$ som spiller *kun* basket. Totalt gir dette at $x+5+2x+\frac{3}{2} x - 5 = 45$. Det er da denne likningen som må løses.
 
-#### Vurderingskriterier: Avansert {#213}
+##### Vurderingskriterier: Avansert {#213}
 
 Her må studentene peke på elevenes tolkning.
 Det viktigste som må fram er at:
@@ -447,15 +447,15 @@ $$\begin{aligned} \frac{-x+ 1}{2}& \leq 5  \\ {-x+ 1}  & \geq 10 \\  -x & \geq 9
 
 Begrunn kort med ordforklaring og/eller illustrasjon hvorfor hvert hvert steg i løsningen er rett eller galt.
 
-#### Vurderingskriterier: Grunnleggende {#221}
+##### Vurderingskriterier: Grunnleggende {#221}
 
 Her må de bare løse ulikheten.
 
-#### Vurderingskriterier: Middels {#222}
+##### Vurderingskriterier: Middels {#222}
 
 Her må de presisere alt som gjøres i utregningen med en begrunnelse
 
-#### Vurderingskriterier: Avansert {#223}
+##### Vurderingskriterier: Avansert {#223}
 
 Her må de peke på alle feilene eleven gjør. I tillegg må de gi en meningsfull forklaring av hvordan en skal løse oppgaven.
 
@@ -485,11 +485,11 @@ Avgjør hvor mange figurer André perlet ved å sette opp et likningssett og der
 innsettingsmetoden
 addisjonsmetoden.
 
-#### Vurderingskriterier: Grunnleggende {#231}
+##### Vurderingskriterier: Grunnleggende {#231}
 
 Begge oppgavene skal gjøres med metodene som er oppgitt.
 
-#### Vurderingskriterier: Middels {#232}
+##### Vurderingskriterier: Middels {#232}
 
 Begge oppgavene må gjøres
 
@@ -525,7 +525,7 @@ der $x$ er antall hjerter og $y$ er antall stjerner.
 
 2. Løs likningen $2x^2  +\frac{3}{4}= 3x$ med fullstendige kvadraters metode.
 
-#### Vurderingskriterier: Grunnleggende, middels og avansert {#24123}
+##### Vurderingskriterier: Grunnleggende, middels og avansert {#24123}
 
 Begge likningene må løses med korrekt teknikk.
 
@@ -550,15 +550,15 @@ $9x^2y^2 +1 - 6xy$.
 
 2. Velg ett av uttrykkene du har faktorisert. Illustrer kvadratsetningen du brukte med tallene og variablene fra uttrykket.
 
-#### Vurderingskriterier: Grunnleggende {#251}
+##### Vurderingskriterier: Grunnleggende {#251}
 
 Her *må* første og tredje kvadratsetning gjengis.
 
-#### Vurderingskriterier: Middels {#252}
+##### Vurderingskriterier: Middels {#252}
 
 Her *må* andre og tredje kvadratsetning illustrerer geometrisk og brukes til å forklare identitetene.
 
-#### Vurderingskriterier: Avansert {#253}
+##### Vurderingskriterier: Avansert {#253}
 
 Her *må* begge uttrykkene faktoriseres, med en referanse til kvadratsetningen som brukes.Deretter *m* ett av uttrykkene du har faktorisert illustreres geometrisk der.
 
@@ -584,11 +584,11 @@ Læreren observerer at elevene bruker ulike strategier. Avgjør for hver av de t
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-15-11-56.png)
 
-#### Vurderingskriterier: Grunnleggende {#111}
+##### Vurderingskriterier: Grunnleggende {#111}
 
 Her må de bare løse likningen. Strategien de velger er ikke viktig, men de må vise utregning/forklare.
 
-#### Vurderingskriterier: Middels {#112}
+##### Vurderingskriterier: Middels {#112}
 
 er må det komme fram to uformelle metoder. Eksempler er, hold over, bruk av tallinje, gjett og sjekk, bruk av konkreter. Formelt må gjøres med algebra. Et eksempel kan være: Ved å holde over nevner på venstre side av
 $$
@@ -596,7 +596,7 @@ $$
 $$
 ser vi at $\frac{2x-4}{2} -2$ må være $3$. Igjen ser ser nå at $\frac{2x-4}{2}  = 5$. Videre må vi derfor ha at $2x-4 = 10$ for å få $5$. Til slutt må $2x = 14$ som gir at $x = 7$.
 
-#### Vurderingskriterier: Avansert {#113}
+##### Vurderingskriterier: Avansert {#113}
 
 Her må studentene peke på alle operasjonene som gjøres av elevene. Det innebærer å peke både når de gjør noe rett og når de gjør noe galt.
 
@@ -617,15 +617,15 @@ $$\begin{aligned} \frac{-x+ 1}{2}& \leq 5  \\ {-x+ 1}  & \leq 10 \\  -x & \leq 1
 
 Påpek eventuelle feil eleven har gjort og beskriv hvordan du vil hjelpe eleven til å forstå hvordan oppgaven kan løses riktig.
 
-#### Vurderingskriterier: Grunnleggende {#121}
+##### Vurderingskriterier: Grunnleggende {#121}
 
 Her må de bare løse ulikheten.
 
-#### Vurderingskriterier: Middels {#122}
+##### Vurderingskriterier: Middels {#122}
 
 Her må de presisere alt som gjøres i utregningen med en begrunnelse
 
-#### Vurderingskriterier: Avansert {#123}
+##### Vurderingskriterier: Avansert {#123}
 
 Her må de peke på alle feilene eleven gjør. I tillegg må de gi en meningsfull forklaring av hvordan en skal løse oppgaven.
 
@@ -657,7 +657,7 @@ addisjonsmetoden.
 
 Begge oppgavene skal gjøres med metodene som er oppgitt.
 
-#### Vurderingskriterier: Middels {#132}
+##### Vurderingskriterier: Middels {#132}
 
 Begge oppgavene må gjøres
 
@@ -693,7 +693,7 @@ der $x$ er antall hjerter og $y$ er antall stjerner.
 
 2. Løs likningen $x^2  -\frac{11}{4}= x$ med fullstendige kvadraters metode.
 
-#### Vurderingskriterier: Grunnleggende, middels og avansert {#14123}
+##### Vurderingskriterier: Grunnleggende, middels og avansert {#14123}
 
 Begge likningene må løses med korrekt teknikk.
 
@@ -718,15 +718,15 @@ $16b^2 + 4a^2 - 16ab$.
 
 2. Velg ett av uttrykkene du har faktorisert. Illustrer kvadratsetningen du brukte med tallene og variablene fra uttrykket.
 
-#### Vurderingskriterier: Grunnleggende {#151}
+##### Vurderingskriterier: Grunnleggende {#151}
 
 Her *må* første og tredje kvadratsetning gjengis.
 
-#### Vurderingskriterier: Middels {#152}
+##### Vurderingskriterier: Middels {#152}
 
 Her *må* andre og tredje kvadratsetning illustrerer geometrisk og brukes til å forklare identitetene.
 
-#### Vurderingskriterier: Avansert {#153}
+##### Vurderingskriterier: Avansert {#153}
 
 Her *må* begge uttrykkene faktoriseres, med en referanse til kvadratsetningen som brukes.Deretter *m¨* ett av uttrykkene du har faktorisert illustreres geometrisk der.
 
@@ -764,15 +764,15 @@ $$\begin{aligned}  \frac{x-1+2x}{x+1} = \frac{6-4}{2} = 1 \end{aligned}$$
 
 Ser at $x-1+2x$ må være lik $x+1$ for at dette skal bli $1$. Det betyr altså at $-1 +2x = 1$. Derfor må $x = 1$.
 
-#### Vurderingskriterier: Grunnleggende {#3121}
+##### Vurderingskriterier: Grunnleggende {#3121}
 
 Her må de bare løse likningen. Strategien de velger er ikke viktig, men de må vise utregning/forklare.
 
-#### Vurderingskriterier: Middels {#3122}
+##### Vurderingskriterier: Middels {#3122}
 
 Her må det komme fram to uformelle metoder. Eksempler er, hold over, bruk av tallinje, gjett og sjekk, bruk av konkreter. Formelt må gjøres med algebra.
 
-#### Vurderingskriterier: Avansert {#3213}
+##### Vurderingskriterier: Avansert {#3213}
 
 Her må studentene peke på alle operasjonene som gjøres av elevene. Det innebærer å peke både når de gjør noe rett og når de gjør noe galt.
 
@@ -793,15 +793,15 @@ $$\begin{aligned} -4x+ 1 & \leq x -(2+x) \\ -4x+1 & \leq  x - 2+x \\ -6x & \leq 
 
 Påpek eventuelle feil eleven har gjort og beskriv hvordan du vil hjelpe eleven til å forstå hvordan oppgaven kan løses riktig.
 
-#### Vurderingskriterier: Grunnleggende {#32s1}
+##### Vurderingskriterier: Grunnleggende {#32s1}
 
 Her må de bare løse ulikheten rett, med utregning.
 
-#### Vurderingskriterier: Middels {#3s22}
+##### Vurderingskriterier: Middels {#3s22}
 
 Her må de presisere alt som gjøres i utregningene med en begrunnelse.
 
-#### Vurderingskriterier: Avansert {#32s3}
+##### Vurderingskriterier: Avansert {#32s3}
 
 Her må de peke på *alle* feilene eleven gjør. I tillegg må de gi en meningsfull forklaring av hvordan en skal løse oppgaven.
 
@@ -827,11 +827,11 @@ Løs Olavs gåte uten å bruke likninger eller gjett og sjekk.
 
 Løs Olavs gåte ved å lage et likningsettet og deretter ved å både bruke innsettingsmetoden og addisjonsmetoden.
 
-#### Vurderingskriterier: Grunnleggende {#3331}
+##### Vurderingskriterier: Grunnleggende {#3331}
 
 Begge oppgavene skal gjøres med metodene som er oppgitt.
 
-#### Vurderingskriterier: Middels {#3332}
+##### Vurderingskriterier: Middels {#3332}
 
 Begge oppgavene må gjøres.
 i. Her må de gjøre noe annet enn å bruke likninger og gjett og sjekk. Et logisk resonnement er nok det mest naturlige.
@@ -857,7 +857,7 @@ ii. Her må de omgjøre til to likninger med to ukjente og deretter løse med de
 
 2. Løs likningen $x^2  = \frac{2 x}{3} + \frac{17}{9}$ med fullstendige kvadraters metode.
 
-#### Vurderingskriterier: Grunnleggende, middels og avansert {#341233}
+##### Vurderingskriterier: Grunnleggende, middels og avansert {#341233}
 
 Begge likningene må løses med korrekt teknikk.
 
@@ -903,15 +903,15 @@ Læreren observerer at elevene bruker ulike strategier. Avgjør for hver av de t
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-15-07-16.png)
 
-#### Vurderingskriterier: Grunnleggende {#312s1}
+##### Vurderingskriterier: Grunnleggende {#312s1}
 
 Her må de bare løse likningen. Strategien de velger er ikke viktig, men de må vise utregning/forklare.
 
-#### Vurderingskriterier: Middels {#3s122}
+##### Vurderingskriterier: Middels {#3s122}
 
 Her må det komme fram to uformelle metoder. Eksempler er, hold over, bruk av tallinje, gjett og sjekk, bruk av konkreter. Formelt må gjøres med algebra.
 
-#### Vurderingskriterier: Avansert {#32s13}
+##### Vurderingskriterier: Avansert {#32s13}
 
 Her må studentene peke på alle operasjonene som gjøres av elevene. Det innebærer å peke både når de gjør noe rett og når de gjør noe galt.
 
@@ -932,15 +932,15 @@ $$\begin{aligned} -7+1 & \geq x - (2+3x) \\ -6 & \geq x - 2 + 3x \\ -4 & \geq 4x
 
 Påpek eventuelle feil eleven har gjort og beskriv hvordan du vil hjelpe eleven til å forstå hvordan oppgaven kan løses riktig.
 
-#### Vurderingskriterier: Grunnleggende {#3s2s1}
+##### Vurderingskriterier: Grunnleggende {#3s2s1}
 
 Her må de bare løse ulikheten rett, med utregning.
 
-#### Vurderingskriterier: Middels {#3s2s2}
+##### Vurderingskriterier: Middels {#3s2s2}
 
 Her må de presisere alt som gjøres i utregningene med en begrunnelse.
 
-#### Vurderingskriterier: Avansert {#32ss3}
+##### Vurderingskriterier: Avansert {#32ss3}
 
 Her må de peke på *alle* feilene eleven gjør. I tillegg må de gi en meningsfull forklaring av hvordan en skal løse oppgaven. Merk: At det står «5» en plass og «7» en annen, er bare slurv fra vår side.
 
@@ -964,11 +964,11 @@ Finn aldrene på Anja og Beate på to måter uten å bruke likninger eller gjett
 
 Løs likningsettet ved å bruke innsettingsmetoden og addisjonsmetoden.
 
-#### Vurderingskriterier: Grunnleggende {#3331s}
+##### Vurderingskriterier: Grunnleggende {#3331s}
 
 Begge oppgavene skal gjøres med metodene som er oppgitt.
 
-#### Vurderingskriterier: Middels {#33s32}
+##### Vurderingskriterier: Middels {#33s32}
 
 b. Middels: Begge oppgavene må gjøres. Merk feil i oppgavetekst: Kun én uformell løsning kreves, ettersom man ikke fikk bruke gjett/sjekk.
 i. Her må de gjøre noe annet enn å bruke likninger og gjett og sjekk. For eksempel kan de svare slik: Dersom Anja var ett år yngre ville de vært 14 år til sammen. Om to år ville de da vært 18 år til sammen. Siden 6+12 = 18 og 6*2 = 12, må Beate derfor være 10 år nå. Det betyr at Anja må være 5, siden de er 15 år til sammen.

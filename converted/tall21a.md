@@ -1,5 +1,5 @@
 
-#### Avansert:  31.03.23
+#### Avansert: Forklare hva et posisjonssystem er, og regne med tall uttrykt i posisjonssystem med ulike baser,  31.03.23
 
 1. Gjør om $112_{fire}$ til base fem.
 

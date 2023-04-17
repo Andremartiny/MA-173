@@ -1,4 +1,4 @@
-#### Grunnleggende:  Øveoppgaver
+#### Grunnleggende: Beskrive oppbygningen av figurtall (alle typer),  Øveoppgaver
 
 1. Se figurtallene under.
 
@@ -25,7 +25,7 @@
    b. Under er sammenhengen markert. De grønne er forrige figur, det røde er det som legges til i trekanten, det blå er bunnen som legges til i rektangelet, og det gule er siden som legges til i rektangelet. ![Rekursiv sammenheng](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/rekursiv.svg)
    c. Vi kan nå bruke dekomponeringen vi har brukt til å beskrive den rekursive sammenhengen. For figur $P_n$ har vi trekanttall $n+1$ minus toppen. Det gir $T_{n+1}-1 = \frac{(n+1)(n+2)}{2}-1$. Rektangelet er alltid $n(n-1)$, så vi får at den eksplisitte formelen er $\frac{(n+1)(n+2)}{2}-1+n(n-1)$.
 
-#### Grunnleggende:  Tallteori
+#### Grunnleggende: Beskrive oppbygningen av figurtall (alle typer),  31.03.23
 
 Ved å illustrere trappetallene og markere i illustrasjonen, gi en ordforklaring av
 
@@ -46,7 +46,7 @@ figuren utvikler seg rekursivt.\
 
 For eksempel kan det fremheves at det er to forskjøvede trekanter som ligger på hverandre. Trekantene deler også sitt andre ledd (det er første figur). Vi har altså to trekanttall, som mangler topp og deler en side som alltid har lengde $2$. Trekanttallet starter også "en før" som betyr at vi har $2T_{n+1}-2-2 = (n+2)(n+1)-4$. Denne måten å bryte ned problemet på gjør at studenten også kan innse at figuren øker med $2(n+1)$ hver gang. Dermed må den rekursive formelen være $F_n = F_{n-1}+2(n+1)$ der $F_1 = 2$.
 
-#### Grunnleggende:  17.02.23
+#### Grunnleggende: Beskrive oppbygningen av figurtall (alle typer),  17.02.23
 
 Ved å illustrere ambolttallene og markere i illustrasjonen, gi en ordforklaring av
 
@@ -67,7 +67,7 @@ figuren utvikler seg rekursivt.\
 Igjen kan de ta utgangspunkt i eksempelet gitt på (i) for å
 peke på hvordan utviklingen skjer.
 
-#### Grunnleggende:  13.02.23
+#### Grunnleggende: Beskrive oppbygningen av figurtall (alle typer),  13.02.23
 
 Ved å illustrere bokstallene og markere i illustrasjonen, gi en ordforklaring av
 
@@ -90,7 +90,7 @@ figuren utvikler seg rekursivt.\
 Igjen kan de ta utgangspunkt i eksempelet gitt på (i) for å
 peke på hvordan utviklingen skjer.
 
-#### Grunnleggende:  10.02.23
+#### Grunnleggende: Beskrive oppbygningen av figurtall (alle typer),  10.02.23
 
 Ved å illustrere sommerfugltallene og markere i illustrasjonen, gi en ordforklaring av
 
@@ -116,7 +116,7 @@ figuren utvikler seg rekursivt.\
 Igjen kan de ta utgangspunkt i eksempelet gitt på (i) for å
 peke på hvordan utviklingen skjer.
 
-#### Grunnleggende:  03.02.23
+#### Grunnleggende: Beskrive oppbygningen av figurtall (alle typer),  03.02.23
 
 Ved å illustrere piltallene og markere i illustrasjonen, gi en ordforklaring av
 
@@ -124,7 +124,7 @@ Ved å illustrere piltallene og markere i illustrasjonen, gi en ordforklaring av
 
 2. en rekursiv sammenheng mellom to påfølgende piltall.
 
-#### Grunnleggende:  27.01.23
+#### Grunnleggende: Beskrive oppbygningen av figurtall (alle typer),  27.01.23
 
 Ved å illustrere medaljetallene og markere i illustrasjonen, gi en ordforklaring av
 
@@ -143,7 +143,7 @@ ii. Her er ordlyden blitt litt dum. Her må de henvise til
 illustrasjonen for å få fram hvordan figuren utvikler seg
 rekursivt.
 
-#### Grunnleggende:  10.01.2023
+#### Grunnleggende: Beskrive oppbygningen av figurtall (alle typer),  10.01.2023
 
 Ved å illustrere båttallene og markere i illustrasjonen, gi en ordforklaring av
 

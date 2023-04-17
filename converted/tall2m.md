@@ -1,4 +1,4 @@
-#### Middels:  Øveoppgaver
+#### Middels: Beskrive situasjoner med hensyn til additive strukturer,  Øveoppgaver
 
 1. Avgjør hvilken additiv struktur situasjonene svarer til. Spesifiser
    også hva som er ukjent der det er relevant. Merk at én og samme
@@ -43,7 +43,7 @@
 
    f. Etter en tids hardt innsamlingsarbeid, kjøper Arne og Anne omsider en pantemaskin. De sitter da igjen med 421 kroner. Hvor mye penger hadde før de kjøpte maskinen? Oppheving av minskning.
 
-#### Middels:  31.03.23
+#### Middels: Beskrive situasjoner med hensyn til additive strukturer,  31.03.23
 
 Avgjør og begrunn hvilken additiv struktur situasjonene har. Tolk både med addisjon og subtraksjon som modell.
 

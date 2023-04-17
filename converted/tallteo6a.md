@@ -1,4 +1,4 @@
-#### Avansert:  Øveoppgaver
+#### Avansert: Beskrive oppbygningen av figurtall (alle typer),  Øveoppgaver
 
 1. La $H_{n} = 2 \cdot T_{n + 1} - K_{n - 1}$.
 
@@ -28,7 +28,7 @@
 
 4. Vi utnytter at vi vet at $n^2 + 2n + 1 = (n+1)^2$. Vi kan derfor skrive om uttrykket som $n^2 + 3n + 1 = n^2 + 2n + 1 +n = (n+1)^2+n$. Nå kan vi enkelt se at tillegget fra figur til figur er $(2n+1) + 1$, der $2n+1$ er økninga av kvadratet $+1$ er økningen fra ledded $n$. Dette gir oss også en enkel oversettelse til en figur, dette overlates til leseren!
 
-#### Avansert:  Tallteori
+#### Avansert: Beskrive oppbygningen av figurtall (alle typer),  31.03.23
 
 Du får vite at et figurtall $F_n$ øker på følgende måte. $F_1 = 2$, $F_2 = 6$, $F_3 = 11$, $F_4 = 17$.
 
@@ -51,7 +51,7 @@ bryte ned figuren på flere måter teller som forskjellige
 måter
 
 
-#### Avansert:  17.02.23
+#### Avansert: Beskrive oppbygningen av figurtall (alle typer),  17.02.23
 
 Du får vite at et figurtall $F_n$ øker på følgende måte. $F_1 = 2$, $F_2 = 6$, $F_3 = 11$, $F_4 = 17$.
 
@@ -74,7 +74,7 @@ bryte ned figuren på flere måter teller som forskjellige
 måter
 
 
-#### Avansert:  13.02.23
+#### Avansert: Beskrive oppbygningen av figurtall (alle typer),  13.02.23
 
 Du får vite at et figurtall $F_n$ øker på følgende måte. $F_1 = 1$, $F_2 = 6$, $F_3 = 14$, $F_4 = 25$.
 
@@ -97,7 +97,7 @@ bryte ned figuren på flere måter teller som forskjellige
 måter
 
 
-#### Avansert:  10.02.23
+#### Avansert: Beskrive oppbygningen av figurtall (alle typer),  10.02.23
 
 Du får vite at et figurtall $F_n$ øker på følgende måte. $F_1 = 2$, $F_2 = 8$, $F_3 = 16$, $F_4 = 26$.
 
@@ -120,7 +120,7 @@ bryte ned figuren på flere måter teller som forskjellige
 måter
 
 
-#### Avansert:  03.02.23
+#### Avansert: Beskrive oppbygningen av figurtall (alle typer),  03.02.23
 
 Du får vite at et figurtall $F_n$ øker på følgende måte. $F_1 = 6$, $F_2 = 12$, $F_3 = 20$, $F_4 = 30$ og $F_5 = 42$.
 
@@ -129,7 +129,7 @@ Vis og forklar sammenhengen mellom tallrekken og figurene rekursivt.
 Finn en eksplisitt formel på to forskjellige måter.
 
 
-#### Avansert:  27.01.23
+#### Avansert: Beskrive oppbygningen av figurtall (alle typer),  27.01.23
 
 Du får vite at et figurtall $F_n$ øker på følgende måte. $F_1 = 1$, $F_2 = 9$, $F_3 = 20$, $F_4 = 34$ og $F_5 = 51$.
 
@@ -151,7 +151,7 @@ bryte ned figuren på flere måter teller som forskjellige
 måter
 
 
-#### Avansert:  10.01.2023
+#### Avansert: Beskrive oppbygningen av figurtall (alle typer),  10.01.2023
 
 Du får vite at et figurtall $F_n$ øker på følgende måte. $F_1 = 3$, $F_2 = 8$, $F_3 = 15$, $F_4 = 24$ og $F_5 = 35$.
 

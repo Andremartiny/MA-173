@@ -1,4 +1,4 @@
-#### Avansert:  Øveoppgaver
+#### Avansert: Bruke regnestrategier og egenskaper ved regneoperasjonene,  Øveoppgaver
 
 1. Gjør oppgavene fra middels. Begrunn, og dersom hensiktsmessig,
    illustrer strategien slik at det går tydelig frem at den alltid
@@ -28,7 +28,7 @@ b) er et spesialtilfelle av tredje kvadratsetning. Algebraisk:
 $(10a + b)(10a - b) = (10a)^{2} - b^{2}$ ved tredje kvadratsetning.
 Eventuelt kan man vise mellomregning.
 
-#### Avansert:  31.03.23
+#### Avansert: Bruke regnestrategier og egenskaper ved regneoperasjonene,  31.03.23
 
 Velg en multiplikasjon som passer til å illustrere distributiv egenskap sammen med en kort ordforklaring.  
 Gjør beregningene under ved hjelp av regnestrategier som ikke innebærer oppstilt regning. Vis tydelig hvordan du tenker.

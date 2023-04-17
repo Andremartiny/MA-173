@@ -1,9 +1,9 @@
-#### Grunnleggende:  Øveppgaver
+#### Grunnleggende: Forklare og bruke begrepene utfallsrom, utfall og hendelse og sannsynlighetsmodell,  Øveppgaver
 
 Forklar hva en sannsynlighetsmodell er ved hjelp av begrepene utfall,
 utfallsrom og hendelse. Gi et eksempel på en sannsynlighetsmodell.
 
-#### Grunnleggende:  31.03.23
+#### Grunnleggende: Forklare og bruke begrepene utfallsrom, utfall og hendelse og sannsynlighetsmodell,  31.03.23
 
 1. Forklar hva en sannsynlighetsmodell er ved hjelp av begrepene utfall, utfallsrom og hendelse. Gi et eksempel på en sannsynlighetsmodell.
 

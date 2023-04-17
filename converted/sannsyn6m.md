@@ -1,5 +1,5 @@
 
-#### Middels:  Øveppgaver
+#### Middels: Forklare og bruke begrepene uordnet utvalg med og uten tilbakelegg,  Øveppgaver
 
 1. Begrunn at følgende situasjoner kan tenkes på som uordnede utvalg uten tilbakelegg og finn antall muligheter i utvalgene\
    a. Du har en twistpose med 7 forskjellige twist igjen. Du tar hånden ned i poser og får med deg tre twist.

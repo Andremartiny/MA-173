@@ -1,5 +1,5 @@
 
-#### Avansert:  17.02.23
+#### Avansert: Bruke de tre kvadratsetningene,  17.02.23
 
 Under ser du to uttrykk.
 
@@ -16,7 +16,7 @@ Her *må* begge uttrykkene faktoriseres, med en referanse til  kvadratsetningen 
 
 
 
-#### Avansert:  13.02.23
+#### Avansert: Bruke de tre kvadratsetningene,  13.02.23
 
 Under ser du to uttrykk.
 
@@ -33,7 +33,7 @@ Her *må* begge uttrykkene faktoriseres, med en referanse til kvadratsetningen s
 
 
 
-#### Avansert:  10.02.23
+#### Avansert: Bruke de tre kvadratsetningene,  10.02.23
 
 Under ser du to uttrykk.
 
@@ -50,7 +50,7 @@ Her *må* begge uttrykkene faktoriseres, med en referanse til kvadratsetningen s
 
 
 
-#### Avansert:  03.02.23
+#### Avansert: Bruke de tre kvadratsetningene,  03.02.23
 
 Faktoriser uttrykkene under:
 

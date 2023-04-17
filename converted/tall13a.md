@@ -1,4 +1,4 @@
-#### Avansert:  Øveoppgaver
+#### Avansert: Gjøre om mellom brøk og desimaltall,  Øveoppgaver
 
 1. Alfa s. 140.
 

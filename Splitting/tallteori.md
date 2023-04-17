@@ -109,9 +109,9 @@ pandoc .\quizzer\tallteori\tallteori.md -f markdown -t html --mathjax --template
    ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main//img/tallteo/pargpardel1.svg)
    Ved å tenke på multiplikasjon som gjentatt addisjon kan vi derfor gjenta partårnet som representerer $6$ fire ganger. Multiplikasjonen kan vi altså se for oss slik som figuren under:
    ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main//img/tallteo/pargpardel2.svg)
-   Siden vi nå har flere tårn (helt konkret fire tårn), som alle er to i bredden. Kan vi stable de fint oppå hverandre, noe som gir et nytt partårn. 
+   Siden vi nå har flere tårn (helt konkret fire tårn), som alle er to i bredden. Kan vi stable de fint oppå hverandre, noe som gir et nytt partårn.
    ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main//img/tallteo/pargpardel3.svg)
-   Siden sluttresultatet endte med et partårn var sluttresultatet også et partall, i dette tilfellet var $6\cdot 4 = 24$. Vi kan deretter peke på at det ikke var noe spesielt med hverken $4$ eller $6$. Det eneste spesielle var vi la sammen flere partårn (vi la sammen fire), det kunne vært hva som helst. Vi kunne for eksempel byttet ut $6$ med et hvilket som helst partall. Vi kunne også byttet ut $4$ med et hvilket som helst partall også. Hadde vi for eksempel tatt $6$ og $24$ ville strukturen i beviset fortsatt fungert, noe som må bety at partall multiplisert med partall må resultere i et partall. 
+   Siden sluttresultatet endte med et partårn var sluttresultatet også et partall, i dette tilfellet var $6\cdot 4 = 24$. Vi kan deretter peke på at det ikke var noe spesielt med hverken $4$ eller $6$. Det eneste spesielle var vi la sammen flere partårn (vi la sammen fire), det kunne vært hva som helst. Vi kunne for eksempel byttet ut $6$ med et hvilket som helst partall. Vi kunne også byttet ut $4$ med et hvilket som helst partall også. Hadde vi for eksempel tatt $6$ og $24$ ville strukturen i beviset fortsatt fungert, noe som må bety at partall multiplisert med partall må resultere i et partall.
 
 #### Avansert: Løse (også ukjente) problemer knyttet til begrepene
 
@@ -292,11 +292,11 @@ $P_n = 3T_n -2n = \frac{3n(n+1)}{2}-2n$.
    \begin{aligned}
    P_n & = (2\cdot 1 + 1) + (2\cdot 2 + 1) + (2\cdot 3 + 1)+ \ldots + (2\cdot n + 1)
    \\
-   P_n & = 2(1+2+3+\ldots + n) + 1\cdot n 
+   P_n & = 2(1+2+3+\ldots + n) + 1\cdot n
    \\
-   & = 2T_n + n 
+   & = 2T_n + n
    \\
-   & = n(n+1)+n 
+   & = n(n+1)+n
    \\
    & =  n^2 + n + n = n^2 + 2n
    \end{aligned}
@@ -367,18 +367,18 @@ Se heftet for alle.
    b. Fra tidligere har vi at formen på tillegget er $2n+1$ og dermed vet vi derfor at $F_n = F_{n-1} + 2n+1$
    c. Vi har også fra tidligere at det eksplisitte uttrykket er $P_n = n^2 + 2n$. Vi må derfor finne tillegget ved å se på $P_n - P_{n-1}$. Ved å regne får vi
    $$
-   \begin{align*}
-   P_n - P_{n-1} 
+   \begin{aligned}
+   P_n - P_{n-1}
    & = n^2 + 2n - ((n-1)^2+2(n-1))
    \\
    & = n^2 + 2n - (n^2-2n+1+2n-2)
    \\
-   & = 
+   & =
    n^2 + 2n - (n^2 -1)
    \\
-   & = 
+   & =
    n^2 + 2n - n^2 +1 = 2n + 1.
-   \end{align*}
+   \end{aligned}
    $$
 
 ### Beskrive oppbygningen av figurtall (alle typer)
@@ -437,13 +437,13 @@ b.  Hvilke uttrykk stemmer? Argumenter ved hjelp av figuren og ved å
 ##### Løsningsforslag
 
 2. \
-   a. Vi kan se for oss at dette er slik trekantrammene utvikler seg 
+   a. Vi kan se for oss at dette er slik trekantrammene utvikler seg
    ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-03-20-23-57.png)
    b. Vi ser at med tolkningen i a. så øker figurene med $3$ hver gang. Dermed passer hvertfall iii.\
    Vi ser også at $3(n-1)+3 = 3n - 3 + 3 = 3n$, så dette må også stemme. I figuren kan vi tolke $3(n-1)$ som sideflatene uten hjørnene og $+3$ som hjørnene lagt til (tegn inn selv og let etter egen måte å se dette i figuren). \
    Vi kan tenke på $(n+1) + n + (n-1)$ som hele bunnen av figuren $n+1$ legg til hele venstre side uten nederste hjørne $n$ og legg til hele høyre side uten begge hjørnene $n-1$. Vi ser også algebraisk at dette tilsvarer $3n$ (tegn inn selv!). \
    Vi kan se for oss den siste som å telle alle sidene, inkludert hjørnene ($n+1$ per side). Da overteller vi hvert hjørne ($-3$). Dermed stemmer dette uttrykket også.\
-   *Merk*: Det er viktig å tegne selv og forsikre seg om at man forstår sammenhengen mellom uttrykket og figuren. Tegn derfor selv! 
+   *Merk*: Det er viktig å tegne selv og forsikre seg om at man forstår sammenhengen mellom uttrykket og figuren. Tegn derfor selv!
 
 #### Avansert: Lage figurer basert på algebraiske uttrykk
 
@@ -510,8 +510,6 @@ b.  Hvilke uttrykk stemmer? Argumenter ved hjelp av figuren og ved å
         tenkning og kompetansemålene og kjerneelementene du valgte.
 
 ## 31.03.23
-
-## Tallteori
 
 ### Bruke begrepene faktor (divisor), felles faktor og største felles faktor, multiplum, felles multiplum og minste felles multiplum
 
@@ -743,7 +741,7 @@ To tannhjul dreier med ulik hastighet. Det ene bruker 15 sekunder på én omdrei
 
 1. Hvis vi ønsker å undersøke manuelt om et tall $n$ er prim eller sammensatt, er det ikke nødvendig å lete etter faktorer i $n$ som er høyere enn $\sqrt n$. Forklar hvorfor.
 
-#### Vurderingskriterier: Grunnleggende {#f17g1}
+##### Vurderingskriterier: Grunnleggende {#f17g1}
 
 Studenten må besvare alle spørsmålene.  
 
@@ -751,11 +749,11 @@ Det skal gis *både* formell og uformell forklaring.
 Formelt: Algebraisk.
 Grunnskoletilpasset: med ord og/eller illustrasjoner
 
-#### Vurderingskriterier: Middels {#f17m1}
+##### Vurderingskriterier: Middels {#f17m1}
 
 Studenten må besvare oppgaven på en forståelig og riktig måte.
 
-#### Vurderingskriterier: Avansert {#f17a1}
+##### Vurderingskriterier: Avansert {#f17a1}
 
 Studenten må gi en strukturert og logisk forklaring på hvorfor $\sqrt n$ er det høyeste tallet en trenger å sjekke.  
 
@@ -779,14 +777,14 @@ Besvarelsen må inneholde både algebraiske definisjoner, ordforklaringer og ill
 
 Hvis vi finner alle faktorene i kvadrattallene ser vi at det er et odde antall faktorer. Forklar alle tall, bortsett fra kvadrtattallene, har et partall antall faktorer.
 
-#### Vurderingskriterier: Grunnleggende {#f17g2}
+##### Vurderingskriterier: Grunnleggende {#f17g2}
 
 Studenten må besvare alle spørsmålene.  
 
 Besvarelsene må inneholde, forklaringer, eksempler, definisjoner og
 illustrasjoner der dette påpekes i oppgaveteksten.
 
-#### Vurderingskriterier: Middels {#f17m2}
+##### Vurderingskriterier: Middels {#f17m2}
 
 Studenten må besvare alle oppgavene.
 
@@ -799,7 +797,7 @@ visuelt/ved hjelp av en figur; også da er det viktig at
 illustrasjonen viser strukturer/egenskaper som får frem hvorfor
 sammenhengen gjelder generelt (se heftet for eksempler).
 
-#### Vurderingskriterier: Avansert {#f17a2}
+##### Vurderingskriterier: Avansert {#f17a2}
 
 Studenten må i besvarelsen få fram tydelig hvorfor dette alltid
 gjelder.  
@@ -813,7 +811,7 @@ En naturlig besvarelse vil være å peke på at faktorene i et tall alltid komme
 Gi en formell begrunnelse for delelighetsregelen for tall som er delelig med 5.
 Gi en grunnskoletilpasset begrunnelse for delelighetsregelen for tall som er delelig med 3.
 
-#### Vurderingskriterier: Middels
+##### Vurderingskriterier: Middels
 
 Studenten må besvare begge oppgavene.
 
@@ -846,11 +844,11 @@ På figuren under ser du de tre første figurene i en sammensatt figur, der $F_1
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-14-40-43.png)
 
-#### Vurderingskriterier: Grunnleggende {#f17g4}
+##### Vurderingskriterier: Grunnleggende {#f17g4}
 
 Studentene må besvare begge spørsmålene med riktig teknikk (se heftet).
 
-#### Vurderingskriterier: Middels {#f17m4}
+##### Vurderingskriterier: Middels {#f17m4}
 
 Studenten må illustrere figurene og finne eksplisitt uttrykk med riktig teknikk.
 
@@ -862,7 +860,7 @@ Deretter må de jobbe med summen av tilleggene og bruke den eksplisitte formelen
 bruke formelen for trekanttall (se heftet for teknikken om sum
 av tillegg).
 
-#### Vurderingskriterier: Avansert {#f17a4}
+##### Vurderingskriterier: Avansert {#f17a4}
 
 Studenten må besvare begge oppgavene.
 
@@ -889,7 +887,7 @@ ved hjelp av strategien differanse mellom eksplisitte uttrykk. Merk: Det eksplis
 I begge oppgavene bes det om to teknikker. Se heftet for *differanse
 mellom eksplisitte uttrykk* og *form på tillegg*.
 
-#### Vurderingskriterier: Grunnleggende {#f17G5}
+##### Vurderingskriterier: Grunnleggende {#f17G5}
 
 Studenten må besvare alle spørsmålene med riktig
 teknikk.
@@ -902,7 +900,7 @@ utvikler seg.
 ii. Her *må* de ta differanse mellom $T_{n}$ og $T_{n - 1}$ og
 gjøre regne seg fram til formen på tillegget
 
-#### Vurderingskriterier: Middels {#f17m5}
+##### Vurderingskriterier: Middels {#f17m5}
 
 Studenten må besvare alle spørsmålene med riktig
 teknikk. Her *må* det være med en illustrasjon.
@@ -943,7 +941,7 @@ Lag en figur som følger mønsteret til $F_n$. Det er nok å illustrere $F_1$, $
 Vis og forklar sammenhengen mellom tallrekken og figurene rekursivt.
 Finn en eksplisitt formel på to forskjellige måter.
 
-#### Vurderingskriterier: Grunnleggende {#f17g6}
+##### Vurderingskriterier: Grunnleggende {#f17g6}
 
 Her må alle spørsmålene besvares, og de må
 illustrere figurer.  
@@ -956,7 +954,7 @@ figuren utvikler seg rekursivt.\
 Igjen kan de ta utgangspunkt i eksempelet gitt på (i) for å
 peke på hvordan utviklingen skjer.
 
-#### Vurderingskriterier: Middels {#f17m6}
+##### Vurderingskriterier: Middels {#f17m6}
 
 De må finne minst to eksplisitte uttrykk og det må gis
 en god nok forklaring på hvordan de har brutt ned figuren. For
@@ -966,7 +964,7 @@ geometrisk nedbrytning. Eventuelt kan de bruke andre teknikker
 tallfølgen og finne eksplisitt uttrykk ved hjelp av sum av
 tillegg.
 
-#### Vurderingskriterier: Avansert {#f173a6}
+##### Vurderingskriterier: Avansert {#f173a6}
 
 Her må illustrere figuren (nok med de tre første), men
 strukturen må komme fram i hvordan figuren utvikler seg!
@@ -999,7 +997,7 @@ Du får vite at største felles faktor for to tall $A$ og $B$ er $210$ og at tal
 
 1. Hva er minste mulige verdi for $B$, hvis $B$ ikke er $210$?
 
-#### Vurderingskriterier: Grunnleggende {#f13g1}
+##### Vurderingskriterier: Grunnleggende {#f13g1}
 
 Studenten må besvare alle spørsmålene.  
 
@@ -1007,7 +1005,7 @@ Det skal gis *både* formell og uformell forklaring.
 Formelt: Algebraisk.
 Grunnskoletilpasset: med ord og/eller illustrasjoner
 
-#### Vurderingskriterier: Middels {#f13m1}
+##### Vurderingskriterier: Middels {#f13m1}
 
 Studenten må gjøre følgende for å få godkjent.
 
@@ -1024,7 +1022,7 @@ Vi ser altså at dette alltid ligger to over noe i firegangen, uansett hvilket
 naturlig tall vi starter på. Dermed kan ingen summer av fire
 påfølgende naturlige tall ha faktor 4.
 
-#### Vurderingskriterier: Avansert {#f13a1}
+##### Vurderingskriterier: Avansert {#f13a1}
 
 Studenten må gi en strukturert og logisk forklaring på hva
 minste $B$ må være.  
@@ -1053,14 +1051,14 @@ Besvarelsen må inneholde både algebraiske definisjoner, ordforklaringer og ill
 
 Alle naturlige tall kan beskrives relativ til et tall i tre-gangen. Noen tall er i tre-gangen ($3, 6, 9, \ldots, 3n, \ldots$), noen er én mer enn et tall i tre-gangen ($1, 4, 7, \ldots, 3n +1, \ldots$), resten er to mer enn tall i tre-gangen ($2, 5, 8, \ldots, 3n+2, \ldots $). Forklar hvorfor alle kvadrattall enten er i tre-gangen eller én mer enn et tall i tre-gangen. (Merk: Kvadrattallene er alle tallene på formen $n^2$)
 
-#### Vurderingskriterier: Grunnleggende {#f13g2}
+##### Vurderingskriterier: Grunnleggende {#f13g2}
 
 Studenten må besvare alle spørsmålene.  
 
 Besvarelsene må inneholde, forklaringer, eksempler, definisjoner og
 illustrasjoner der dette påpekes i oppgaveteksten.
 
-#### Vurderingskriterier: Middels {#f13m2}
+##### Vurderingskriterier: Middels {#f13m2}
 
 Studenten må besvare alle oppgavene.
 
@@ -1073,7 +1071,7 @@ visuelt/ved hjelp av en figur; også da er det viktig at
 illustrasjonen viser strukturer/egenskaper som får frem hvorfor
 sammenhengen gjelder generelt (se heftet for eksempler).
 
-#### Vurderingskriterier: Avansert {#f13a2}
+##### Vurderingskriterier: Avansert {#f13a2}
 
 Studenten må i besvarelsen få fram tydelig hvorfor dette alltid
 gjelder.  
@@ -1106,7 +1104,7 @@ enten er i tregangen eller er én over noe i tregangen.
 Gi en formell begrunnelse for delelighetsregelen for tall som er delelig med 4.
 Gi en grunnskoletilpasset begrunnelse for delelighetsregelen for tall som er delelig med 3.
 
-#### Vurderingskriterier: Middels
+##### Vurderingskriterier: Middels
 
 Studenten må besvare begge oppgavene.
 
@@ -1139,11 +1137,11 @@ På figuren under ser du de tre første figurene i en sammensatt figur, der $F_1
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-14-37-18.png)
 
-#### Vurderingskriterier: Grunnleggende {#f13g4}
+##### Vurderingskriterier: Grunnleggende {#f13g4}
 
 Studentene må besvare begge spørsmålene med riktig teknikk (se heftet).
 
-#### Vurderingskriterier: Middels {#f13m4}
+##### Vurderingskriterier: Middels {#f13m4}
 
 Studenten må illustrere figurene og finne eksplisitt uttrykk med riktig teknikk.
 
@@ -1155,7 +1153,7 @@ Deretter må de jobbe med summen av tilleggene og bruke den eksplisitte formelen
 bruke formelen for trekanttall (se heftet for teknikken om sum
 av tillegg).
 
-#### Vurderingskriterier: Avansert {#f13a4}
+##### Vurderingskriterier: Avansert {#f13a4}
 
 Studenten må besvare begge oppgavene.
 
@@ -1184,7 +1182,7 @@ ved hjelp av strategien differanse mellom eksplisitte uttrykk. Merk: Det eksplis
 I begge oppgavene bes det om to teknikker. Se heftet for *differanse
 mellom eksplisitte uttrykk* og *form på tillegg*.
 
-#### Vurderingskriterier: Grunnleggende {#f13G5}
+##### Vurderingskriterier: Grunnleggende {#f13G5}
 
 Studenten må besvare alle spørsmålene med riktig
 teknikk.
@@ -1197,7 +1195,7 @@ utvikler seg.
 ii. Her *må* de ta differanse mellom $T_{n}$ og $T_{n - 1}\ $og
 gjøre regne seg fram til formen på tillegget
 
-#### Vurderingskriterier: Middels {#f13m5}
+##### Vurderingskriterier: Middels {#f13m5}
 
 Studenten må besvare alle spørsmålene med riktig
 teknikk. Her *må* det være med en illustrasjon.
@@ -1238,7 +1236,7 @@ Lag en figur som følger mønsteret til $F_n$. Det er nok å illustrere $F_1$, $
 Vis og forklar sammenhengen mellom tallrekken og figurene rekursivt.
 Finn en eksplisitt formel på to forskjellige måter.
 
-#### Vurderingskriterier: Grunnleggende {#f13g6}
+##### Vurderingskriterier: Grunnleggende {#f13g6}
 
 Her må alle spørsmålene besvares, og de må
 illustrere figurer.  
@@ -1253,7 +1251,7 @@ figuren utvikler seg rekursivt.\
 Igjen kan de ta utgangspunkt i eksempelet gitt på (i) for å
 peke på hvordan utviklingen skjer.
 
-#### Vurderingskriterier: Middels {#f13m6}
+##### Vurderingskriterier: Middels {#f13m6}
 
 De må finne minst to eksplisitte uttrykk og det må gis
 en god nok forklaring på hvordan de har brutt ned figuren. For
@@ -1263,7 +1261,7 @@ geometrisk nedbrytning. Eventuelt kan de bruke andre teknikker
 tallfølgen og finne eksplisitt uttrykk ved hjelp av sum av
 tillegg.
 
-#### Vurderingskriterier: Avansert {#f13a6}
+##### Vurderingskriterier: Avansert {#f13a6}
 
 Her må illustrere figuren (nok med de tre første), men
 strukturen må komme fram i hvordan figuren utvikler seg!
@@ -1296,7 +1294,7 @@ Du får vite at største felles faktor for to tall $A$ og $B$ er $210$ og at tal
 
 Hva er minste mulige verdi for $B$, hvis $B$ ikke er $210$?
 
-#### Vurderingskriterier: Grunnleggende
+##### Vurderingskriterier: Grunnleggende
 
 Studenten må besvare alle spørsmålene.  
 
@@ -1304,7 +1302,7 @@ Det skal gis *både* formell og uformell forklaring.
 Formelt: Algebraisk.
 Grunnskoletilpasset: med ord og/eller illustrasjoner
 
-#### Vurderingskriterier: Middels
+##### Vurderingskriterier: Middels
 
 Studenten må gjøre følgende for å få godkjent.
 
@@ -1321,7 +1319,7 @@ Vi ser altså at dette alltid vil fungere, uansett hvilket
 naturlig tall vi starter på. Dermed må alle summer av fem
 påfølgende naturlige tall ha felles faktor 5.
 
-#### Vurderingskriterier: Avansert
+##### Vurderingskriterier: Avansert
 
 Studenten må gi en strukturert og logisk forklaring på hva
 minste $B$ må være.  
@@ -1350,14 +1348,14 @@ Besvarelsen må inneholde både algebraiske definisjoner, ordforklaringer og ill
 
 Alle naturlige tall kan beskrives relativ til et tall i fire-gangen. Noen tall er i fire-gangen ($4, 8, 12, \ldots, 4n, \ldots$), noen er én mer enn et tall i fire-gangen ($1, 5, 9, \ldots, 4n +1, \ldots$), noen er to mer enn tall i fire-gangen, og noen er tre mer enn tall i firegangen. Forklar hvorfor alle kvadrattall enten er i firegangen eller én mer enn et tall i fire-gangen. (Merk: Kvadrattallene er alle tallene på formen $n^2$)
 
-#### Vurderingskriterier: Grunnleggende {#g2}
+##### Vurderingskriterier: Grunnleggende {#g2}
 
 Studenten må besvare alle spørsmålene.  
 
 Besvarelsene må inneholde, forklaringer, eksempler, definisjoner og
 illustrasjoner der dette påpekes i oppgaveteksten.
 
-#### Vurderingskriterier: Middels {#m2}
+##### Vurderingskriterier: Middels {#m2}
 
 Studenten må besvare alle oppgavene.
 
@@ -1370,7 +1368,7 @@ visuelt/ved hjelp av en figur; også da er det viktig at
 illustrasjonen viser strukturer/egenskaper som får frem hvorfor
 sammenhengen gjelder generelt (se heftet for eksempler).
 
-#### Vurderingskriterier: Avansert {#a2}
+##### Vurderingskriterier: Avansert {#a2}
 
 Studenten må i besvarelsen få fram tydelig hvorfor dette alltid
 gjelder.  
@@ -1409,7 +1407,7 @@ enten er i firegangen eller er én over noe i firegangen.
 Begrunn delelighetsregelen for tall som er delelig med 4. Du må gi en formell  begrunnelse.
 Begrunn delelighetsregelen for tall som er delelig med 9. Du må gi en grunnskoletilpasset begrunnelse.
 
-#### Vurderingskriterier: Middels
+##### Vurderingskriterier: Middels
 
 Studenten må besvare begge oppgavene.
 
@@ -1442,11 +1440,11 @@ På figuren under ser du de fire første figurene i en sammensatt figur, der $F_
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-14-34-41.png)
 
-#### Vurderingskriterier: Grunnleggende {#g4}
+##### Vurderingskriterier: Grunnleggende {#g4}
 
 Studentene må besvare begge spørsmålene med riktig teknikk (se heftet).
 
-#### Vurderingskriterier: Middels {#m4}
+##### Vurderingskriterier: Middels {#m4}
 
 Studenten må illustrere figurene og finne eksplisitt uttrykk med riktig teknikk.
 
@@ -1458,7 +1456,7 @@ Deretter må de jobbe med summen av tilleggene og bruke den eksplisitte formelen
 bruke formelen for trekanttall (se heftet for teknikken om sum
 av tillegg).
 
-#### Vurderingskriterier: Avansert {#a4}
+##### Vurderingskriterier: Avansert {#a4}
 
 Studenten må besvare begge oppgavene.
 
@@ -1485,7 +1483,7 @@ ved hjelp av strategien differanse mellom eksplisitte uttrykk. Merk: Det eksplis
 I begge oppgavene bes det om to teknikker. Se heftet for *differanse
 mellom eksplisitte uttrykk* og *form på tillegg*.
 
-#### Vurderingskriterier: Grunnleggende {#G5}
+##### Vurderingskriterier: Grunnleggende {#G5}
 
 Studenten må besvare alle spørsmålene med riktig
 teknikk.
@@ -1498,7 +1496,7 @@ utvikler seg.
 ii. Her *må* de ta differanse mellom $T_{n}$ og $T_{n - 1}\ $og
 gjøre regne seg fram til formen på tillegget
 
-#### Vurderingskriterier: Middels {#m5}
+##### Vurderingskriterier: Middels {#m5}
 
 Studenten må besvare alle spørsmålene med riktig
 teknikk. Her *må* det være med en illustrasjon.
@@ -1539,7 +1537,7 @@ Lag en figur som følger mønsteret til $F_n$. Det er nok å illustrere $F_1$, $
 Vis og forklar sammenhengen mellom tallrekken og figurene rekursivt.
 Finn en eksplisitt formel på to forskjellige måter.
 
-#### Vurderingskriterier: Grunnleggende {#g6}
+##### Vurderingskriterier: Grunnleggende {#g6}
 
 Her må alle spørsmålene besvares, og de må
 illustrere figurer. *Merk* at figuren ikke øker på en naturlig måte da *stammen* ikke passer inn i et godt mønster.  
@@ -1557,7 +1555,7 @@ figuren utvikler seg rekursivt.\
 Igjen kan de ta utgangspunkt i eksempelet gitt på (i) for å
 peke på hvordan utviklingen skjer.
 
-#### Vurderingskriterier: Middels {#m6}
+##### Vurderingskriterier: Middels {#m6}
 
 *Merk* at figuren ikke øker på en naturlig måte da *stammen* ikke passer inn i et godt mønster. \
 \
@@ -1569,7 +1567,7 @@ geometrisk nedbrytning. Eventuelt kan de bruke andre teknikker
 tallfølgen og finne eksplisitt uttrykk ved hjelp av sum av
 tillegg.
 
-#### Vurderingskriterier: Avansert {#a6}
+##### Vurderingskriterier: Avansert {#a6}
 
 Her må illustrere figuren (nok med de tre første), men
 strukturen må komme fram i hvordan figuren utvikler seg!
@@ -1604,20 +1602,20 @@ Undersøk og begrunn følgende påstand.
 
 Når vi deler et tall på et annet, får vi en rest som er mellom 0 og tallet vi deler på. Enhver felles faktor for de to tallene i divisjonen er også en faktor i resten.
 
-#### Vurderingskriterier: Grunnleggende {#f123g1}
+##### Vurderingskriterier: Grunnleggende {#f123g1}
 
 Her må alle spørsmålene besvares. Det skal gis
 *både* formell og uformell forklaring. Formelt: Algebraisk.
 Grunnskoletilpasset: med ord og/eller illustrasjoner
 
-#### Vurderingskriterier: Middels {#f123m1}
+##### Vurderingskriterier: Middels {#f123m1}
 
 Her må strukturen komme fram. Dette kan gjøres
 algebraisk eller med et konkret talleksempel, men det er viktig
 at de peker på den generelle strukturen som gjør at påstanden
 stemmer.
 
-#### Vurderingskriterier: Avansert {#f13as1}
+##### Vurderingskriterier: Avansert {#f13as1}
 
 Enten gjøre algebra ved å skrive tallene som *ca* og *cb* og
 forklare påstanden derifra. Eller med et talleksempel som får
@@ -1729,19 +1727,19 @@ Forklar og gi eksempler på hva som menes med felles multiplum og minste felles 
 
 Hvis vi skal gange et tosifret tall med $11$, kan vi gjøre det på denne måten, dersom tverrsummen er mindre enn ti: Sett første siffer på hundrerplassen, tverrsummen på tierplassen og andre siffer på enerplassen. Eksempelvis er da $35\cdot 11=385$. Vis at dette er sant for alle tosifra tall med tverrsum lavere enn ti.
 
-#### Vurderingskriterier: Grunnleggende {#f123gs1}
+##### Vurderingskriterier: Grunnleggende {#f123gs1}
 
 Grunnleggende: Her må alle spørsmålene besvares. Det skal gis
 *både* formell og uformell forklaring. Formelt: Algebraisk.
 Grunnskoletilpasset: med ord og/eller illustrasjoner.
 
-#### Vurderingskriterier: Middels {#f1s23m1}
+##### Vurderingskriterier: Middels {#f1s23m1}
 
 Her må strukturen komme fram. Dette gjøres gjerne ved
 et konkret talleksempel, men det er viktig at de peker på den
 generelle strukturen som gjør at sff\*mfm = a\*b
 
-#### Vurderingskriterier: Avansert {#f1s3as1}
+##### Vurderingskriterier: Avansert {#f1s3as1}
 
 Her må de skrive tosifra tall som a\*10 + b og deretter gjøre
 noe algebra.
@@ -1764,13 +1762,13 @@ Forklar og gi eksempler på hva primtall og sammensatt tall er.
 
 Tar du $6\cdot 6 = 36$, slutter verdien på $6$. Tar du $36\cdot 6 = 216$, slutter verdien på $6$. Forklar hvorfor, hvis en fortsetter å gange med $6$, at produktene man får alltid ender på $6$. Forklaringen skal være mulig for en elev å forstå.
 
-#### Vurderingskriterier: Grunnleggende {#f1s3sg2}
+##### Vurderingskriterier: Grunnleggende {#f1s3sg2}
 
 Her må alle spørsmålene besvares. Besvarelsene må
 inneholde, forklaringer, eksempler, definisjoner og
 illustrasjoner der dette påpekes i oppgaveteksten.
 
-#### Vurderingskriterier: Middels {#f13ssm2}
+##### Vurderingskriterier: Middels {#f13ssm2}
 
 Alle oppgavene må besvares: Formelt: Algebra,
 Grunnskoletilpasset: Kan gjøres ved hjelp av et talleksempel der
@@ -1780,7 +1778,7 @@ visuelt/ved hjelp av en figur; også da er det viktig at
 illustrasjonen viser strukturer/egenskaper som får frem hvorfor
 sammenhengen gjelder generelt.
 
-#### Vurderingskriterier: Avansert {#f1ss3a2}
+##### Vurderingskriterier: Avansert {#f1ss3a2}
 
 Her må man får frem struktur på en forståelig måte. For eksempel
 dele opp tallene slik:
@@ -1796,7 +1794,7 @@ på 6.
 Begrunn delelighetsregelen for tall som er delelig med 5. Du må gi både en formell og en grunnskoletilpasset begrunnelse.
 Begrunn delelighetsregelen for tall som er delelig med 3. Du må gi både en formell og en grunnskoletilpasset begrunnelse.
 
-#### Vurdereingskriterier: Middels
+##### Vurdereingskriterier: Middels
 
 Formelt: Ta utgangspunkt i tre eller firesifra tall
 ($1000a + 100b + 10c + d$) og gjøre argumentene. Deretter *må* de
@@ -1827,18 +1825,18 @@ På figuren under ser du de tre første figurene i en sammensatt figur, der $F_1
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-14-06-04.png)
 
-#### Vurderingskriterier: Grunnleggende {#f1d3sg4}
+##### Vurderingskriterier: Grunnleggende {#f1d3sg4}
 
 Studentene må besvare begge spørsmålene med riktig teknikk (se heftet).
 
-#### Vurderingskriterier: Middels {#f1s3sm4}
+##### Vurderingskriterier: Middels {#f1s3sm4}
 
 Her må det være med en illustrasjon. I tillegg *må* den
 eksplisitte formelen utledes ved å bruke sum av tillegg: Det vil
 si jobbe seg fra $1+4+7+\ldots + 3n-2$ til $n^2+\frac{n(n-1)}{2}$ ved hjelp av
 algebra og (mest sannsynlig) formelen for trekanttall.
 
-#### Vurderingskriterier: Avansert {#f1s3sa4}
+##### Vurderingskriterier: Avansert {#f1s3sa4}
 
 MERK: Her står det feil i oppgavetekst. Det skal være F_2 = 24
 
@@ -1865,7 +1863,7 @@ ved hjelp av strategien differanse mellom eksplisitte uttrykk. Merk: Det eksplis
 I begge oppgavene bes det om to teknikker. Se heftet for *differanse
 mellom eksplisitte uttrykk* og *form på tillegg*.
 
-#### Vurderingskriterier: Grunnleggende {#f1ss3G5}
+##### Vurderingskriterier: Grunnleggende {#f1ss3G5}
 
 Her må alle spørsmålene besvares med riktig
 teknikk.
@@ -1878,7 +1876,7 @@ utvikler seg
 ii. Her *må* de ta $R_n - R_{n-1}$ og gjøre algebra for å komme
 fram til formen på tillegget.
 
-#### Vurderingskriterier: Middels {#f13ssm5}
+##### Vurderingskriterier: Middels {#f13ssm5}
 
 Studenten må besvare alle spørsmålene med riktig
 teknikk. Her *må* det være med en illustrasjon.
@@ -1913,7 +1911,7 @@ Lag en figur som følger mønsteret til $F_n$.
 Vis og forklar sammenhengen mellom tallrekken og figurene rekursivt.
 Finn en eksplisitt formel på to forskjellige måter.
 
-#### Vurderingskriterier: Grunnleggende {#f1ss3g6}
+##### Vurderingskriterier: Grunnleggende {#f1ss3g6}
 
 Her må alle spørsmålene besvares, og de må
 illustrere figurer
@@ -1924,12 +1922,12 @@ ii. Her er ordlyden blitt litt dum. Her må de henvise til
 illustrasjonen for å få fram hvordan figuren utvikler seg
 rekursivt.
 
-#### Vurderingskriterier: Middels {#f1s3sm6}
+##### Vurderingskriterier: Middels {#f1s3sm6}
 
 De må finne minst to eksplisitte uttrykk og det må gis
 en god nok forklaring på hvordan de har brutt ned figuren.
 
-#### Vurderingskriterier: Avansert {#fs1d3a6}
+##### Vurderingskriterier: Avansert {#fs1d3a6}
 
 Her må illustrere figuren (nok med de tre første), men
 strukturen må komme fram i hvordan figuren utvikler seg!
@@ -1942,7 +1940,7 @@ gauss-triks algebraisk, gauss-triks ved figur. Merk at å
 bryte ned figuren på flere måter teller som forskjellige
 måter
 
-## 10.01.2023
+## 10.01.23
 
 ### Bruke begrepene faktor (divisor), felles faktor og største felles faktor, multiplum, felles multiplum og minste felles multiplum
 

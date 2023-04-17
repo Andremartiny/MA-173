@@ -1,5 +1,5 @@
 
-#### Middels:  Øveoppgaver
+#### Middels: Beskrive situasjoner med hensyn til multiplikative strukturer,  Øveoppgaver
 
 1. Avgjør hvilken multiplikativ struktur situasjonene svarer til.
    Spesifiser også hva som er ukjent der det er relevant. Merk at én og
@@ -54,7 +54,7 @@
    g. Like grupper: målingsdivisjon.
 
 
-#### Middels:  31.03.23
+#### Middels: Beskrive situasjoner med hensyn til multiplikative strukturer,  31.03.23
 
 1. Avgjør og begrunn hvilken multiplikativ struktur situasjonene svarer til.
 

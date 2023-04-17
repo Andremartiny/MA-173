@@ -1,5 +1,5 @@
 
-#### Middels:  Øveoppgaver
+#### Middels: Bruke regnestrategier og egenskaper ved regneoperasjonene,  Øveoppgaver
 
 1. Gjør beregningene ved hjelp av strategier (som ikke er oppstilt
    regning).
@@ -60,7 +60,7 @@
    f. $\frac{5}{4} \cdot 120$ $= 5 \cdot (\frac{1}{4} \cdot 120)$
 
 
-#### Middels:  31.03.23
+#### Middels: Bruke regnestrategier og egenskaper ved regneoperasjonene,  31.03.23
 
 Bruk minst én av egenskapene over (kommutativ, assosiativ, distributiv) til å regne $12 \cdot 17$. Vis tydelig hvordan du tenker.
 Gjør beregningene under ved hjelp av regnestrategier som ikke innebærer oppstilt regning. Vis tydelig hvordan du tenker.

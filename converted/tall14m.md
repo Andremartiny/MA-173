@@ -1,4 +1,4 @@
-#### Middels:  Øveoppgaver
+#### Middels: Begrunne hvilke brøker som svarer til endelige og hvilke som svarer til periodiske desimaltall,  Øveoppgaver
 
 1. Alfa s. 140:
 

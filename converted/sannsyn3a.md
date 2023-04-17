@@ -1,5 +1,5 @@
 
-#### Avansert:  Øveppgaver
+#### Avansert: Forklare og bruke store talls lov (Alfa 7.3),  Øveppgaver
 
 Dette læringsmålet gjøres og godkjennes som en gruppeoppgave (på maks
 tre personer).

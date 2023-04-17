@@ -1,4 +1,4 @@
-#### Grunnleggende:  Øveoppgaver
+#### Grunnleggende: Gjøre om mellom brøk og desimaltall,  Øveoppgaver
 
 1. Forklar og gi eksempler på endelig, periodisk og uendelig
    ikke-periodisk desimaltall.

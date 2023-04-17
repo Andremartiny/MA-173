@@ -1,4 +1,4 @@
-#### Grunnleggende:  Øveoppgaver
+#### Grunnleggende: Gjengi betydningen av potensuttrykk, og regne med potenser,  Øveoppgaver
 
 1. Hva betyr potensuttrykkene? Der det er nødvendig, angi også hvilke
    tall $a$, $n$ og $m$ betydningen gjelder for.

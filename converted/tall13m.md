@@ -1,5 +1,5 @@
 
-#### Middels:  Øveoppgaver
+#### Middels: Gjøre om mellom brøk og desimaltall,  Øveoppgaver
 
 1. Gjør om til desimaltall. Fremgangsmåte, strategi eller begrunnelse
    for omgjøringen må komme tydelig frem.

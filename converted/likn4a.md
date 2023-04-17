@@ -1,4 +1,4 @@
-#### Avansert:  Øveoppgaver
+#### Avansert: Løse kvadratiske likninger ved hjelp av fullstendige kvadraters metode,  Øveoppgaver
 
 1. Løs likningene:
 
@@ -22,7 +22,7 @@
 
 
 
-#### Avansert:  17.02.23
+#### Avansert: Løse kvadratiske likninger ved hjelp av fullstendige kvadraters metode,  17.02.23
 
 1. Løs likningen $x^2 - x = 1$ med fullstendige kvadraters metode.
 
@@ -32,7 +32,7 @@
 
 Begge likningene må løses med korrekt teknikk.
 
-#### Avansert:  13.02.23
+#### Avansert: Løse kvadratiske likninger ved hjelp av fullstendige kvadraters metode,  13.02.23
 
 1. Løs likningen $x^2 - x = 1$ med fullstendige kvadraters metode.
 
@@ -42,7 +42,7 @@ Begge likningene må løses med korrekt teknikk.
 
 Begge likningene må løses med korrekt teknikk.
 
-#### Avansert:  10.02.23
+#### Avansert: Løse kvadratiske likninger ved hjelp av fullstendige kvadraters metode,  10.02.23
 
 1. Løs likningen $3x^2 - 6 = -6x$ med fullstendige kvadraters metode.
 
@@ -52,7 +52,7 @@ Begge likningene må løses med korrekt teknikk.
 
 Begge likningene må løses med korrekt teknikk.
 
-#### Avansert:  03.02.23
+#### Avansert: Løse kvadratiske likninger ved hjelp av fullstendige kvadraters metode,  03.02.23
 
 1. Løs likningen $2x^2 + 4x = 4$ med fullstendige kvadraters metode.
 

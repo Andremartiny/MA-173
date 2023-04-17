@@ -1,4 +1,4 @@
-#### Middels:  Øveoppgaver
+#### Middels: Forklare sammenhenger mellom parameterne i funksjonsuttrykket og grafen til lineære funksjoner,  Øveoppgaver
 
 1. Alfa s. 346--347.
 
@@ -44,15 +44,19 @@
    $$
    Likningen som går gjennom punktene er derfor $y = \frac{4}{3}x + \frac{8}{3}$.
 
-#### Middels:  31.03.23
+#### Middels: Forklare sammenhenger mellom parameterne i funksjonsuttrykket og grafen til lineære funksjoner,  31.03.23
 
 Grafen til en lineær funksjon går gjennom punktene $(-3, 0)$ og $(6, 3)$. Forklar hvordan vi kan finne likninga til den lineære funksjonen.
 
-#### Middels:  17.02.23
+#### Vurderingskriterier middels:  31.03.23
+
+Finne likninga og forklare hvordan på en slik måte at man klart forstår det generelle i fremgangsmåten (kunne åpenbart blitt brukt for hvilke som helst punkt-par).
+
+#### Middels: Forklare sammenhenger mellom parameterne i funksjonsuttrykket og grafen til lineære funksjoner,  17.02.23
 
 Grafen til en lineær funksjon går gjennom punktene $(-3, 0)$ og $(6, 3)$. Forklar hvordan vi kan finne likninga til den lineære funksjonen.
 
-#### Middels:  Funksjoner 13.02.23
+#### Middels: Forklare sammenhenger mellom parameterne i funksjonsuttrykket og grafen til lineære funksjoner,  Funksjoner 13.02.23
 
 Under ser du en lineær funksjon som går gjennom punktene $A$ og $B$. Forklar hvordan vi kan finne likninga til den lineære funksjonen.
 
@@ -62,7 +66,7 @@ Under ser du en lineær funksjon som går gjennom punktene $A$ og $B$. Forklar h
 
 Finne likninga og forklare hvordan på en slik måte at man klart forstår det generelle i fremgangsmåten (kunne åpenbart blitt brukt for hvilke som helst punkt-par).
 
-#### Middels:  Funksjoner 10.02.23
+#### Middels: Forklare sammenhenger mellom parameterne i funksjonsuttrykket og grafen til lineære funksjoner,  Funksjoner 10.02.23
 
 Anta at en lineær funksjon $f$ går gjennom punktene $(-3, -3)$ og $(6, 0)$. Forklar hvordan vi kan finne likninga til den lineære funksjonen.
 
@@ -70,15 +74,16 @@ Anta at en lineær funksjon $f$ går gjennom punktene $(-3, -3)$ og $(6, 0)$. Fo
 
 Finne likninga og forklare hvordan på en slik måte at man klart forstår det generelle i fremgangsmåten (kunne åpenbart blitt brukt for hvilke som helst punkt-par).
 
-#### Middels:  Funksjoner 3.02.23
+#### Middels: Forklare sammenhenger mellom parameterne i funksjonsuttrykket og grafen til lineære funksjoner,  Funksjoner 3.02.23
 
 Anta at en lineær funksjon $f$ går gjennom punktene $(\frac{9}{3}, 7)$ og $(\frac{18}{3}, 10)$. Forklar hvordan vi kan finne likninga til den lineære funksjonen.
+
 
 #### Vurderingskriterier middels:  Funksjoner 3.02.23
 
 Finne likninga og forklare hvordan på en slik måte at man klart forstår det generelle i fremgangsmåten (kunne åpenbart blitt brukt for hvilke som helst punkt-par).
 
-#### Middels:  Funksjoner 27.01.23
+#### Middels: Forklare sammenhenger mellom parameterne i funksjonsuttrykket og grafen til lineære funksjoner,  Funksjoner 27.01.23
 
 Anta at en lineær funksjon $f$ går gjennom punktene $(\frac{5}{2}, 7)$ og $(\frac{11}{2}, 4)$. Forklar hvordan vi kan finne likninga til den lineære funksjonen.
 

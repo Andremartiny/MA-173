@@ -1,4 +1,4 @@
-#### Avansert:  Øveoppgaver
+#### Avansert: Forklare hva et posisjonssystem er,  Øveoppgaver
 
 1. Gjør beregningene i den aktuelle basen (uten å oversette til base
    ti, altså).

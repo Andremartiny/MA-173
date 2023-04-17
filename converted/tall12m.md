@@ -1,4 +1,4 @@
-#### Middels:  Øveoppgaver
+#### Middels: Forklare begrepet og regne med desimaltall (desimal*brøk* i Alfa),  Øveoppgaver
 
 1. Alfa s. 140
 

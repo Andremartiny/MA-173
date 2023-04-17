@@ -1,4 +1,4 @@
-#### Middels:  Tallteori
+#### Middels: Finne rekursiv uttrykk for figurtall,  31.03.23
 
 Vis i en illustrasjon hvordan hver figur inneholder den forrige, og finn rekursivt uttrykk for sekskanttallene  $H_n$, der $H_1 =1$, $H_2 = 6$ og $H_3 = 15$:
 ved hjelp av strategien form på tillegg.

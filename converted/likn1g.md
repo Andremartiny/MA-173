@@ -1,4 +1,4 @@
-#### Grunnleggende:  Øveoppgaver
+#### Grunnleggende: Løse lineære likninger ved hjelp av ulike strategier,  Øveoppgaver
 
 1. Alfa s. 279
 
@@ -8,7 +8,7 @@
 
     c.  3.47 Løs likningene på flere måter der det virker naturlig, ikke bare slik boka spør etter.
 
-#### Grunnleggende:  17.02.23
+#### Grunnleggende: Løse lineære likninger ved hjelp av ulike strategier,  17.02.23
 
 Blant $163$ spurte mennesker, svarte alle at de spiser enten taco, nudler eller foie gras på fredager. Det er $35$ flere som spiser taco enn fiskepinner, og antallet som spiser foie gras er det tredobbelte av én mer enn antallet som spiser fiskepinner.
 
@@ -22,7 +22,7 @@ Blant $163$ spurte mennesker, svarte alle at de spiser enten taco, nudler eller 
 
 Her *må* de fullføre illustrasjonen for å løse likningen. Deretter *må* de sette opp og løse likingen selv.
 
-#### Grunnleggende:  13.02.23
+#### Grunnleggende: Løse lineære likninger ved hjelp av ulike strategier,  13.02.23
 
 Blant $163$ spurte mennesker, svarte alle at de spiser enten taco, nudler eller foie gras på fredager. Det er $35$ flere som spiser taco enn fiskepinner, og antallet som spiser foie gras er det tredobbelte av én mer enn antallet som spiser fiskepinner.
 
@@ -36,7 +36,7 @@ Blant $163$ spurte mennesker, svarte alle at de spiser enten taco, nudler eller 
 
 Her *må* de fullføre illustrasjonen for å løse likningen. Deretter *må* de sette opp og løse likingen selv.
 
-#### Grunnleggende:  10.02.23
+#### Grunnleggende: Løse lineære likninger ved hjelp av ulike strategier,  10.02.23
 
 Løs likningen ${3x+1} = 2+14$.
 
@@ -44,7 +44,7 @@ Løs likningen ${3x+1} = 2+14$.
 
 Her må de bare løse likningen. Strategien de velger er ikke viktig, men de må vise utregning/forklare.
 
-#### Grunnleggende:  03.02.23
+#### Grunnleggende: Løse lineære likninger ved hjelp av ulike strategier,  03.02.23
 
 Løs likningen ${4x+2} = 3+6$.
 
@@ -52,7 +52,7 @@ Løs likningen ${4x+2} = 3+6$.
 
 Her må de bare løse likningen. Strategien de velger er ikke viktig, men de må vise utregning/forklare.
 
-#### Grunnleggende:  27.01.23
+#### Grunnleggende: Løse lineære likninger ved hjelp av ulike strategier,  27.01.23
 
 Løs likningen ${2x-3} = \frac{14+2}{2}$.
 
@@ -60,7 +60,7 @@ Løs likningen ${2x-3} = \frac{14+2}{2}$.
 
 Her må de bare løse likningen. Strategien de velger er ikke viktig, men de må vise utregning/forklare.
 
-#### Grunnleggende:  20.01.23
+#### Grunnleggende: Løse lineære likninger ved hjelp av ulike strategier,  20.01.23
 
 Løs likningen $\frac{3x-5}{2} = 14+2$.
 

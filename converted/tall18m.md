@@ -1,5 +1,5 @@
 
-#### Middels:  Øveoppgaver
+#### Middels: Utføre multiplikasjon og divisjon med negative tall,  Øveoppgaver
 
 1. Lag en multiplikasjonstabell for $0$--$10$. Utvid tabellen til
    $- 10$ i begge retninger, og forklar kort hvordan mønsteret må

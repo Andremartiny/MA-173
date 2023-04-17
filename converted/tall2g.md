@@ -1,4 +1,4 @@
-#### Grunnleggende:  Øveoppgaver
+#### Grunnleggende: Beskrive situasjoner med hensyn til additive strukturer,  Øveoppgaver
 
 1. Gi et eksempel på hver av strukturene med _addisjon_ som modell:
    _økning, forening, additiv sammenlikning, komplettering_ og
@@ -18,7 +18,7 @@
    _minskning, oppdeling, additiv sammenlikning, mangel_ og _oppheving
    av økning_. Alfa.
 
-#### Grunnleggende:  31.03.23
+#### Grunnleggende: Beskrive situasjoner med hensyn til additive strukturer,  31.03.23
 
 Beskriv tre situasjoner som har addisjon som modell med henholdsvis økning, forening og additiv sammenlikning som struktur.
 Velg én av situasjonene over. Omformuler den slik at det er rimelig å si at den har samme struktur, men med subtraksjon som modell.

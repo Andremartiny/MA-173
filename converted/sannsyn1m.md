@@ -1,4 +1,4 @@
-#### Middels:  Øveppgaver
+#### Middels: Forklare og bruke begrepene utfallsrom, utfall og hendelse og sannsynlighetsmodell,  Øveppgaver
 
 1. Alfa 7.10
 2. Alfa 7.11
@@ -10,7 +10,7 @@ i tillegg
 $P(\left\{ u_{1},u_{2},u_{3}\} \right) = 1 = P\left( u_{1} \right) + P\left( u_{2} \right) + P\left( u_{3} \right) = P(u_{3})+0.5$
 får vi at $P\left( u_{3} \right) = 0.5$.\
 
-#### Middels:  31.03.23
+#### Middels: Forklare og bruke begrepene utfallsrom, utfall og hendelse og sannsynlighetsmodell,  31.03.23
 
 1. La et forsøk ha utfallsrommet $U = \{ u_1, u_2, u_3\}$. La $P(u_1) = 0.2$, $P(u_2) = 0.2$ og $P(u_3) = 0.5$. Gjør rede for om dette kan være en sannsynlighetsmodell.
 

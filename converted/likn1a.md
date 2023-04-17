@@ -1,9 +1,9 @@
-#### Avansert:  Øveoppgaver
+#### Avansert: Løse lineære likninger ved hjelp av ulike strategier,  Øveoppgaver
 
 1. *Se oppgaver fra tidligere nasjonal deleksamen fra seminar og i modulen nasjonal deleksamen.*
 
 
-#### Avansert:  17.02.23
+#### Avansert: Løse lineære likninger ved hjelp av ulike strategier,  17.02.23
 
 Under ser du tre elevers løsninger av likningen $3(2x+5)=(12+3x)$. Forklar hvordan elevene kan ha tenkt. Avgjør og begrunn om løsningene er riktige.
 
@@ -18,7 +18,7 @@ I besvarelse B må det pekes på at det gjøres en forkorting, men at dette ikke
 I besvarelse C må det pekes på må det også pekes på at det sammenlignes på begge sider (studentene må her også peke på hvordan sammenligningen skjer).
 
 
-#### Avansert:  13.02.23
+#### Avansert: Løse lineære likninger ved hjelp av ulike strategier,  13.02.23
 
 Noen mellomtrinnselever fikk denne utfordringen: En bil, sjåfør og tilhenger veier totalt $2900 kg$. Bilen veier to ganger vekten av tilhengeren pluss vekten av sjåføren. Tilhengeren veier $900 kg$. Hvor mye veier sjåføren?
 
@@ -39,7 +39,7 @@ I B har de tolket setningen som at vekten til sjåfør *og* tilhenger må dobles
 I C har de tolket setningen som at vekt av sjåfør addert med to ganger vekt av tilhenger gir vekt til bil.
 
 
-#### Avansert:  10.02.23
+#### Avansert: Løse lineære likninger ved hjelp av ulike strategier,  10.02.23
 
 En lærer ber elevene løse likningen
 
@@ -54,7 +54,7 @@ Læreren observerer at elevene bruker ulike strategier. Avgjør for hver av de t
 Her må studentene peke på alle operasjonene som gjøres av elevene. Det innebærer å peke både når de gjør noe rett og når de gjør noe galt.
 
 
-#### Avansert:  03.02.23
+#### Avansert: Løse lineære likninger ved hjelp av ulike strategier,  03.02.23
 
 En lærer ber elevene løse likningen
 
@@ -81,7 +81,7 @@ Ser at $x-1+2x$ må være lik $x+1$ for at dette skal bli $1$. Det betyr altså 
 Her må studentene peke på alle operasjonene som gjøres av elevene. Det innebærer å peke både når de gjør noe rett og når de gjør noe galt.
 
 
-#### Avansert:  27.01.23
+#### Avansert: Løse lineære likninger ved hjelp av ulike strategier,  27.01.23
 
 En lærer ber elevene løse likningen
 
@@ -95,7 +95,7 @@ Læreren observerer at elevene bruker ulike strategier. Avgjør for hver av de t
 
 Her må studentene peke på alle operasjonene som gjøres av elevene. Det innebærer å peke både når de gjør noe rett og når de gjør noe galt.
 
-#### Avansert:  20.01.23
+#### Avansert: Løse lineære likninger ved hjelp av ulike strategier,  20.01.23
 
 En lærer ber elevene løse likningen
 

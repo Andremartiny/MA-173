@@ -1,4 +1,4 @@
-#### Avansert:  Øveppgaver
+#### Avansert: Forklare og bruke begrepet uniform sannsynlighetsmodell,  Øveppgaver
 
 1. Du er på hytta og kaster fire femmere på første kast. Med to kast
     igjen bestemmer du deg for å gå for yatzy. Sett opp et utfallsrom
@@ -9,10 +9,10 @@
 
 ##### Løsningsforslag
 
-1. Anta at pærene er nummerert 1 til 6 og la 1 og 2 være defekte. Da er
+1. Anta at pærene er nummerert 1 til 6 og la 1, 2 og 3 være defekte. Da er
 mulig utfall parene, (1,2), (1,3), (1,4), (1,5), (1,6), (2,3), (2,4),
 (2,5), (2,6), (3,4), (3,5), (3,6), (4,5), (4,6) og (5,6). Det er
-rimelig å anta at alle parene er like sannsynlige siden vi trekker tilfeldig. Alle parene som inneholder enten $1$ eller $2$ eller begge betyr at André tar med seg en defekt pære. Teller vi opp får vi at sannsynligheten er $\frac{9}{15}$.
+rimelig å anta at alle parene er like sannsynlige siden vi trekker tilfeldig. Alle parene som inneholder enten $1$, $2$ eller $3$ eller to defekte betyr at André tar med seg en defekt pære. Teller vi opp får vi at sannsynligheten er $\frac{12}{15}$.
 
 2. Vi kan tenke oss at vi uansett kaster to kast, selv om vi får en femmer på første kast. Dette betyr bare at vi har fått yatzy og at det siste kastet ikke har noe å si. Vi kan skrive opp de ulike mulighetene slik:
 $$\left\{ \begin{array}{r}
@@ -26,7 +26,7 @@ $$\left\{ \begin{array}{r}
 
 Vi ser her at det er $11$ av de $36$ mulighetene som inneholder en femmer. Dermed er sannsynligheten $\frac{11}{36}$.
 
-#### Avansert:  31.03.23
+#### Avansert: Forklare og bruke begrepet uniform sannsynlighetsmodell,  31.03.23
 
 Det er 15 personer i en klasse. Det skal velges ut to elever som skal være i elevrådet og begge to skal trekkes tilfeldig. Henrik vil veldig gjerne være med i elevrådet. Sett opp en uniform sannsynlighetsmodell som får fram at det er $\frac{2}{15}$ sannsynlighet for at Henrik får være med i elevrådet.
 

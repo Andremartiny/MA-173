@@ -1,9 +1,9 @@
-#### Grunnleggende:  Øveoppgaver
+#### Grunnleggende: Bruke begrepet formlikhet av trekanter,  Øveoppgaver
 
 Gjengi og forklar, gjennom et eksempel, hva som menes med formlike
 trekanter.
 
-#### Grunnleggende:  31.03.23
+#### Grunnleggende: Bruke begrepet formlikhet av trekanter,  31.03.23
 
 Gjengi og forklar, gjennom et eksempel, hva som menes med formlike
 

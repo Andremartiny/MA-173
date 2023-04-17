@@ -1,4 +1,4 @@
-#### Grunnleggende:  Øveoppgaver
+#### Grunnleggende: Utføre multiplikasjon og divisjon med negative tall,  Øveoppgaver
 
 1. Regn ut.
 

@@ -1,5 +1,5 @@
 
-#### Middels:  Øveppgaver
+#### Middels: Forklare og bruke begrepet uniform sannsynlighetsmodell,  Øveppgaver
 
 1. Alfa 7.14
 2. 7.15. Besvarelsen skal begrunnes ved å peke på definisjonen av en
@@ -32,7 +32,7 @@ Totalt 8 mulige utfall. Siden hvert kast gir lik sannsynlighet for kron
 og mynt er dette utfallsrommet uniformt. Vi ser her at det er kun ett av de åtte tilfellene som gir kun tre kron, mens det er flere som gir nøyaktig to kron. Dermed kan ikke det opprinnelige utfallsrommet gitt i teksten gi opphav til en uniform
 
 
-#### Middels:  31.03.23
+#### Middels: Forklare og bruke begrepet uniform sannsynlighetsmodell,  31.03.23
 
 André skal kaste en firesidet terning, nummerert 1 til 4. Han skal kaste terningen tre ganger og ønsker å få flest enere. og setter opp utfallsrommet {tre enere, to enere , en ener, ingen enere}. Avgjør om dette gir opphav til en uniform sannsynlighetsmodell.
 

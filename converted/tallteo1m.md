@@ -1,4 +1,4 @@
-#### Middels:  Øveoppgaver
+#### Middels: Bruke begrepene faktor (divisor), felles faktor og største felles faktor, multiplum, felles multiplum og minste felles multiplum,  Øveoppgaver
 
 1. Forklar hvorfor produktet av største felles faktor og minste felles
     multiplum for to tall er det samme som produktet av de to tallene.
@@ -27,7 +27,7 @@
 1. Den enkleste løsningen her er å bruke at $\text{sff}\cdot \text{mfm} = ab$. Vi vet altså at $12\cdot 5460 = 420 b$ Deler vi på $420$ får vi nå at $b = 156$.
 2. Hvis vi primtallsfaktoriserer kan vi skrive $210$ som $2\cdot 2\cdot 5 \cdot 11$ og $84$ kan skrives som $2\cdot 2 \cdot 3\cdot 7$. Vi kan nå se at én pose fungerer med $210$ av den ene og 84 går. Siden begge inneholder faktoren $2$ kan vi også dele de i 2 og få to poser med $110$ og $42$ i hver. Vi ser at begge kan deles i to igjen, som gir fire poser med $55$ og $21$ i hver. Vi har nå ingen felles faktorer, så det kan heller ikke fordeles på andre måter. Det gir at vi kan dele i enten én, to eller fire poser.
 
-#### Middels:  Tallteori
+#### Middels: Bruke begrepene faktor (divisor), felles faktor og største felles faktor, multiplum, felles multiplum og minste felles multiplum,  31.03.23
 
 To tannhjul dreier med ulik hastighet. Det ene bruker 21 sekunder på én omdreining. Du ønsker at det andre skal holde en dreiehastighet slik at dersom de settes i gang på likt, vil de begge kun stå samtidig i utgangsposisjonen hvert 147. sekund. Hva må hastigheten til det andre tannhjulet være, dersom det ikke bruker 147 sekunder per omdreining?
 
@@ -35,7 +35,7 @@ To tannhjul dreier med ulik hastighet. Det ene bruker 21 sekunder på én omdrei
 
 Studentene må bevare oppgaven på en forståelig og riktig måte. Det kan være å innse at $21 = 3\cdot 7$ og at $147 = 7\cdot 7 \cdot 7$. Siden tannhjulene ikke kan stå i samme posisjon før det har gått $147$ sekunder må det andre tannhjulet dreie med en faktor av $147$ eller $21$. Dermed må faktoren være $7\cdot 7$.
 
-#### Middels:  17.02.23
+#### Middels: Bruke begrepene faktor (divisor), felles faktor og største felles faktor, multiplum, felles multiplum og minste felles multiplum,  17.02.23
 
 To tannhjul dreier med ulik hastighet. Det ene bruker 15 sekunder på én omdreining. Du ønsker at det andre skal holde en dreiehastighet slik at dersom de settes i gang på likt, vil de begge stå i utgangsposisjonen hvert 105. sekund. Hva må hastigheten til det andre tannhjulet være?
 
@@ -43,7 +43,7 @@ To tannhjul dreier med ulik hastighet. Det ene bruker 15 sekunder på én omdrei
 
 Studenten må besvare oppgaven på en forståelig og riktig måte.
 
-#### Middels:  13.02.23
+#### Middels: Bruke begrepene faktor (divisor), felles faktor og største felles faktor, multiplum, felles multiplum og minste felles multiplum,  13.02.23
 
 1. Forklar hvorfor ingen summer av fire påfølgende naturlige tall har felles faktor  $4$.
 
@@ -64,7 +64,7 @@ Vi ser altså at dette alltid ligger to over noe i firegangen, uansett hvilket
 naturlig tall vi starter på. Dermed kan ingen summer av fire
 påfølgende naturlige tall ha faktor 4.
 
-#### Middels:  10.02.23
+#### Middels: Bruke begrepene faktor (divisor), felles faktor og største felles faktor, multiplum, felles multiplum og minste felles multiplum,  10.02.23
 
 1. Forklar hvorfor alle summer av fem påfølgende naturlige tall har felles faktor  $5$.
 
@@ -85,7 +85,7 @@ Vi ser altså at dette alltid vil fungere, uansett hvilket
 naturlig tall vi starter på. Dermed må alle summer av fem
 påfølgende naturlige tall ha felles faktor 5.
 
-#### Middels:  03.02.23
+#### Middels: Bruke begrepene faktor (divisor), felles faktor og største felles faktor, multiplum, felles multiplum og minste felles multiplum,  03.02.23
 
 1. Forklar hvorfor summen av tre påfølgende naturlige tall har en felles faktor.
 
@@ -96,7 +96,7 @@ algebraisk eller med et konkret talleksempel, men det er viktig
 at de peker på den generelle strukturen som gjør at påstanden
 stemmer.
 
-#### Middels:  27.01.23
+#### Middels: Bruke begrepene faktor (divisor), felles faktor og største felles faktor, multiplum, felles multiplum og minste felles multiplum,  27.01.23
 
 1. Forklar hvorfor produktet av største felles faktor og minste feles multiplum for to tall er det samme som produktet av de to tallene.
 
@@ -106,7 +106,7 @@ Her må strukturen komme fram. Dette gjøres gjerne ved
 et konkret talleksempel, men det er viktig at de peker på den
 generelle strukturen som gjør at sff\*mfm = a\*b
 
-#### Middels:  10.01.2023
+#### Middels: Bruke begrepene faktor (divisor), felles faktor og største felles faktor, multiplum, felles multiplum og minste felles multiplum,  10.01.2023
 
 La $a$ og $b$ være to naturlige tall med største felles faktor $10$ og minste felles multiplum $105$. Hvis $a = 30$ hva er da $b$? Begrunn.
 

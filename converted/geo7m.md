@@ -1,5 +1,5 @@
 
-#### Middels:  Øveoppgaver
+#### Middels: Argumentere visuelt for Pytagoras setning,  Øveoppgaver
 
 Gi et grunnskoletilpasset bevis for Pytagoras setning med et visuelt argument.
 
@@ -9,7 +9,7 @@ Gi et grunnskoletilpasset bevis for Pytagoras setning med et visuelt argument.
 Se for eksempel Alfa.
 
 
-#### Middels:  31.03.23
+#### Middels: Argumentere visuelt for Pytagoras setning,  31.03.23
 
 Gi et grunnskoletilpasset argument for Pytagoras setning.
 

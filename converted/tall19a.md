@@ -1,4 +1,4 @@
-#### Avansert:  Øveoppgaver
+#### Avansert: Gjengi betydningen av potensuttrykk, og regne med potenser,  Øveoppgaver
 
 1. Alfa s. 239--341
 

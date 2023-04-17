@@ -1,4 +1,4 @@
-#### Grunnleggende:  Øveoppgaver
+#### Grunnleggende: Finne rekursivt uttrykk for figurtall,  Øveoppgaver
 
 1. Vis i en illustrasjon hvordan hver figur inneholder den forrige, og
     finn rekursivt uttrykk for trekanttall $n$
@@ -25,7 +25,7 @@
 
 Se heftet for alle.
 
-#### Grunnleggende:  17.02.23
+#### Grunnleggende: Finne rekursivt uttrykk for figurtall,  17.02.23
 
 Vis i en illustrasjon hvordan hver figur inneholder den forrige, og finn rekursivt uttrykk for trekanttall $n$:
 ved hjelp av strategien form på tillegg.
@@ -44,7 +44,7 @@ utvikler seg.
 ii. Her *må* de ta differanse mellom $T_{n}$ og $T_{n - 1}$ og
 gjøre regne seg fram til formen på tillegget
 
-#### Grunnleggende:  13.02.23
+#### Grunnleggende: Finne rekursivt uttrykk for figurtall,  13.02.23
 
 Vis i en illustrasjon hvordan hver figur inneholder den forrige, og finn rekursivt uttrykk for trekanttall $n$:
 ved hjelp av strategien form på tillegg.
@@ -63,7 +63,7 @@ utvikler seg.
 ii. Her *må* de ta differanse mellom $T_{n}$ og $T_{n - 1}\ $og
 gjøre regne seg fram til formen på tillegget
 
-#### Grunnleggende:  10.02.23
+#### Grunnleggende: Finne rekursivt uttrykk for figurtall,  10.02.23
 
 Vis i en illustrasjon hvordan hver figur inneholder den forrige, og finn rekursivt uttrykk for trekanttall $n$:
 ved hjelp av strategien form på tillegg.
@@ -82,13 +82,13 @@ utvikler seg.
 ii. Her *må* de ta differanse mellom $T_{n}$ og $T_{n - 1}\ $og
 gjøre regne seg fram til formen på tillegget
 
-#### Grunnleggende:  03.02.23
+#### Grunnleggende: Finne rekursivt uttrykk for figurtall,  03.02.23
 
 Vis i en illustrasjon hvordan hver figur inneholder den forrige, og finn rekursivt uttrykk for trekanttall $n$:
 ved hjelp av strategien form på tillegg.
 ved hjelp av strategien differanse mellom eksplisitte uttrykk. Merk eksplisitt uttrykk for trekanttall er $\frac{n\cdot(n+1)}{2}$.
 
-#### Grunnleggende:  27.01.23
+#### Grunnleggende: Finne rekursivt uttrykk for figurtall,  27.01.23
 
 Vis i en illustrasjon hvordan hver figur inneholder den forrige, og finn rekursivt uttrykk for rektangeltall $n$:
 ved hjelp av strategien form på tillegg.
@@ -107,7 +107,7 @@ utvikler seg
 ii. Her *må* de ta $R_n - R_{n-1}$ og gjøre algebra for å komme
 fram til formen på tillegget.
 
-#### Grunnleggende:  10.01.2023
+#### Grunnleggende: Finne rekursivt uttrykk for figurtall,  10.01.2023
 
 Vis i en illustrasjon hvordan hver figur inneholder den forrige, og finn rekursivt uttrykk for trekanttall $n$:
 ved hjelp av strategien form på tillegg.

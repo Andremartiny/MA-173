@@ -1,4 +1,4 @@
-#### Avansert:  Øveoppgaver
+#### Avansert: Bruke formler for størrelser av figurer til å utforske geometriske sammenhenger,  Øveoppgaver
 
 1. Arkene i A-formatet (A1, A2, A3, A4, A5, osv) har den egenskapen at
     når du halverer de ved å brette de på langsiden, så vil de bevare
@@ -30,7 +30,7 @@ x & = \frac{2a}{2\frac{b}{2}}
 $$
 Vi ser altså at $x^2 = 2$ eller at $x = \sqrt 2$.
 
-#### Avansert:  31.03.23
+#### Avansert: Bruke formler for størrelser av figurer til å utforske geometriske sammenhenger,  31.03.23
 
 Pytagoras setning sier at for rettvinklede trekanter så gjelder $a^2+b^2 = c^2$ der $a$ og $b$ er katetene i trekanten og $c$ er hypotenusen. Man kan derfor finne høyden i likebeinte trekanter hvis man vet sidelengdene, ved å halvere grunnlinjen og bruke Pytagoras setning.
 
@@ -67,18 +67,18 @@ Dermed følger det nå at sidelengden er $3 + \sqrt 2$.
 3. Studenten må avgjøre arealet. Det kan for eksempel avgjøres ved å ta arealet av kvadratet og trekke fra trekantene i hjørnet. Det gir
 $$
 \begin{aligned}
-(3+2\sqrt 2)^2 - 4(\sqrt 2)^2
+(3+2\sqrt 2)^2 - 4\frac{(\sqrt 2)^2}{2}
 & =
-3^2 + 2\cdot 6 \cdot \sqrt 2 + 4\cdot 2 - 4 \cdot 2
+3^2 + 2\cdot 6 \cdot \sqrt 2 + 4\cdot 2 - 2 \cdot 2
 \\
 & =
-9 + 12\sqrt 2 + 8 - 8
+9 + 12\sqrt 2 + 8 - 4
 \\
-& = 9 + 12 \sqrt 2
+& = 13 + 12 \sqrt 2
 \end{aligned}
 $$
 
-#### Avansert:  17.02.23
+#### Avansert: Bruke formler for størrelser av figurer til å utforske geometriske sammenhenger,  17.02.23
 
 Under ser du en vilkårlig trekant $ABC$. Punktene $F$, $E$ og $D$ er midtpunktene på sidene av trekanten. Trekker vi linjene fra hjørnene til motstående midtpunkt får vi et felles skjæringspunkt $G$ og trekanten deles opp i $6$ nye trekanter (markert i forskjellige farger under). Begrunn hvorfor arealet av alle de $6$ trekantene er det samme.  
 
@@ -91,7 +91,7 @@ Studenten må argumentere på en strukturert og forståelig måte.
 En naturlig fremgangsmåte vil være å peke på at $\triangle DBA$ og $\triangle DCA$ har samme areal da de har lik grunnlinje og høyde (halve lengden av $BC$), og tilsvarende har $\triangle BDG$ og $\triangle DCG$ likt areal. Dermed kan det nå argumenteres for at trekantene $\triangle BGF$, $\triangle FGA$, $\triangle GEA$ og $\triangle GEC$ har samme areal. Gjentas dette argumentet nå kan studentene få fram at alle seks trekantene har samme areal.
 
 
-#### Avansert:  10.02.23 {#f10}
+#### Avansert: Bruke formler for størrelser av figurer til å utforske geometriske sammenhenger,  10.02.23 {#f10}
 
 Under er et rektangel med høyde $h$ som består av en blå rettvinklet trekant, en grønn rettvinklet trekant der lengden på grunnlinjen er $x$, og et trapes der de parallelle sidene har lengde $a$ og $b$ som markert på figuren.
 

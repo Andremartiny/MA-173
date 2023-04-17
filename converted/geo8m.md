@@ -1,5 +1,5 @@
 
-#### Middels:  Øveoppgaver
+#### Middels: Bruke Pytagoras setning,  Øveoppgaver
 
 1. Under er det tegnet inn en rettvinklet trekant plassert. På katetene og hypotenusen er det også tegnet inn halvsirkler.
 
@@ -20,7 +20,8 @@
 
 
 
-#### Middels:  31.03.23
+
+#### Middels: Bruke Pytagoras setning,  31.03.23
 
 I figuren under ser dere et rektangel, med noen lengder ført på. Avgjør hva $x$, $y$ og $z$ må være.
 
@@ -41,7 +42,9 @@ z^2 + 10^2
 & =
 10^2 + 20y + y^2
 \\
-z^2 = y^2 + 20y
+z^2 
+& =
+y^2 + 20y
 \end{aligned}
 $$
 og

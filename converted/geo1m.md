@@ -1,4 +1,4 @@
-#### Middels:  Øveoppgaver
+#### Middels: Bruke begrepene måltall, størrelse og måleenhet til å avgjøre størrelsen av grunnleggende figurer i 1 og 2 dimensjoner,  Øveoppgaver
 
 1. Vis grunnskoletilpasset (ved hjelp av ordforklaringer og
     illustrasjoner) hvordan man kan avgjøre
@@ -26,7 +26,7 @@ Forklaringene må få fram måleenheten som brukes og hvordan størrelsen
 man avgjør er relatert til måleenheten.
 
 
-#### Middels:  31.03.23
+#### Middels: Bruke begrepene måltall, størrelse og måleenhet til å avgjøre størrelsen av grunnleggende figurer i 1 og 2 dimensjoner,  31.03.23
 
 Velg passende måleenheter. Vis med ordforklaringer og illustrasjoner, uten å begrunne ved hjelp av de kjente formlene, hvordan man kan avgjøre
 
@@ -41,7 +41,7 @@ Bruk forklaringene og illustrasjonene til å vise hva de generelle formlene må 
 Besvarelsen må gi en forståelig forklaring (og illustrasjon) for hvordan man avgjør størrelsene. For omkrets må en få fram måleenheten en bruker (typisk et linjestykke. Ofte cm, meter og lignende). For areal må det komme tydelig fram hvordan arealet henger sammen med måleenheten kvadrat (noe som i de aller fleste tilfeller betyr at en må vise en omforming til et rektangel, et halvt rektangel eller liknende). Begrunnelsene trekke ut ideen fra forklaringen og gi en generell formel for de tre størrelsene.  
 
 
-#### Middels:  17.02.23
+#### Middels: Bruke begrepene måltall, størrelse og måleenhet til å avgjøre størrelsen av grunnleggende figurer i 1 og 2 dimensjoner,  17.02.23
 
 Velg passende måleenheter. Vis med ordforklaringer og illustrasjoner, uten å begrunne ved hjelp av de kjente formlene, hvordan man kan avgjøre
 
@@ -55,7 +55,7 @@ Bruk forklaringene og illustrasjonene til å vise hva de generelle formlene må 
 
 Besvarelsen må gi en forståelig forklaring (og illustrasjon) for hvordan man avgjør størrelsene. For omkrets må en få fram måleenheten en bruker (typisk et linjestykke. Ofte cm, meter og lignende). For areal må det komme tydelig fram hvordan arealet henger sammen med måleenheten kvadrat (noe som i de aller fleste tilfeller betyr at en må vise en omforming til et rektangel, et halvt rektangel eller liknende). Begrunnelsene trekke ut ideen fra forklaringen og gi en generell formel for de tre størrelsene.  
 
-#### Middels:  13.02.23
+#### Middels: Bruke begrepene måltall, størrelse og måleenhet til å avgjøre størrelsen av grunnleggende figurer i 1 og 2 dimensjoner,  13.02.23
 
 1. Velg passende måleenheter. Vis med ordforklaringer og illustrasjoner, uten å begrunne ved hjelp av de kjente formlene, hvordan man kan avgjøre
 
@@ -71,7 +71,7 @@ Bruk forklaringene og illustrasjonene til å vise hva de generelle formlene må 
 
 Besvarelsen må gi en forståelig forklaring (og illustrasjon) for hvordan man avgjør størrelsene. For omkrets må en få fram måleenheten en bruker (typisk et linjestykke. Ofte cm, meter og lignende). For areal må det komme tydelig fram hvordan arealet henger sammen med måleenheten kvadrat (noe som i de aller fleste tilfeller betyr at en må vise en omforming til et rektangel, et halvt rektangel eller liknende). Begrunnelsene trekke ut ideen fra forklaringen og gi en generell formel for de tre størrelsene.  
 
-#### Middels:  10.02.23 {#f10}
+#### Middels: Bruke begrepene måltall, størrelse og måleenhet til å avgjøre størrelsen av grunnleggende figurer i 1 og 2 dimensjoner,  10.02.23 {#f10}
 
 1. Velg passende måleenheter. Vis med ordforklaringer og illustrasjoner, uten å begrunne ved hjelp av de kjente formlene, hvordan man kan avgjøre
 

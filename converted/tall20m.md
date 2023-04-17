@@ -1,4 +1,4 @@
-#### Middels:  Øveoppgaver
+#### Middels: Utlede potensreglene,  Øveoppgaver
 
 1. Utled potenssammenhengene under med utgangspunkt i at
    $a^{n} = a \cdot a \cdot \ldots \cdot a$ for $n$ $a$-er. Det er ok å

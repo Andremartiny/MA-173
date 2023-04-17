@@ -1,5 +1,5 @@
 
-#### Middels:  Øveoppgaver
+#### Middels: Løse kvadratiske likninger ved hjelp av fullstendige kvadraters metode,  Øveoppgaver
 
 1. Løs likningene:
 
@@ -15,7 +15,7 @@
     lages slik at du selv hvordan de kan løses og hva løsningene er.
 
 
-#### Middels:  17.02.23
+#### Middels: Løse kvadratiske likninger ved hjelp av fullstendige kvadraters metode,  17.02.23
 
 1. Løs likningen $3x^2 + 4x = {20}$ med fullstendige kvadraters metode.
 
@@ -23,7 +23,7 @@
 
 #### Vurderingskriterier middels:  17.02.23
 
-#### Middels:  13.02.23
+#### Middels: Løse kvadratiske likninger ved hjelp av fullstendige kvadraters metode,  13.02.23
 
 1. Løs likningen $3x^2 + 4x = {20}$ med fullstendige kvadraters metode.
 
@@ -31,7 +31,7 @@
 
 #### Vurderingskriterier middels:  13.02.23
 
-#### Middels:  10.02.23
+#### Middels: Løse kvadratiske likninger ved hjelp av fullstendige kvadraters metode,  10.02.23
 
 1. Løs likningen $4x^2 + 4x = {15}$ med fullstendige kvadraters metode.
 
@@ -39,7 +39,7 @@
 
 #### Vurderingskriterier middels:  10.02.23
 
-#### Middels:  03.02.23
+#### Middels: Løse kvadratiske likninger ved hjelp av fullstendige kvadraters metode,  03.02.23
 
 1. Løs likningen $2x^2 + 2x = \frac{15}{2}$ med fullstendige kvadraters metode.
 

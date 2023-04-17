@@ -1,4 +1,4 @@
-#### Middels:  Øveoppgaver
+#### Middels: Bruke begrepene naturlig tall, partall og oddetall, primtall og sammensatt tall,  Øveoppgaver
 
 1. Vis grunnskoletilpasset (ved hjelp av ordforklaringer og
     illustrasjoner) og formelt (med algebraiske symboler) at summen av
@@ -29,11 +29,11 @@
    ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main//img/tallteo/pargpardel1.svg)
    Ved å tenke på multiplikasjon som gjentatt addisjon kan vi derfor gjenta partårnet som representerer $6$ fire ganger. Multiplikasjonen kan vi altså se for oss slik som figuren under:
    ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main//img/tallteo/pargpardel2.svg)
-   Siden vi nå har flere tårn (helt konkret fire tårn), som alle er to i bredden. Kan vi stable de fint oppå hverandre, noe som gir et nytt partårn. 
+   Siden vi nå har flere tårn (helt konkret fire tårn), som alle er to i bredden. Kan vi stable de fint oppå hverandre, noe som gir et nytt partårn.
    ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main//img/tallteo/pargpardel3.svg)
-   Siden sluttresultatet endte med et partårn var sluttresultatet også et partall, i dette tilfellet var $6\cdot 4 = 24$. Vi kan deretter peke på at det ikke var noe spesielt med hverken $4$ eller $6$. Det eneste spesielle var vi la sammen flere partårn (vi la sammen fire), det kunne vært hva som helst. Vi kunne for eksempel byttet ut $6$ med et hvilket som helst partall. Vi kunne også byttet ut $4$ med et hvilket som helst partall også. Hadde vi for eksempel tatt $6$ og $24$ ville strukturen i beviset fortsatt fungert, noe som må bety at partall multiplisert med partall må resultere i et partall. 
+   Siden sluttresultatet endte med et partårn var sluttresultatet også et partall, i dette tilfellet var $6\cdot 4 = 24$. Vi kan deretter peke på at det ikke var noe spesielt med hverken $4$ eller $6$. Det eneste spesielle var vi la sammen flere partårn (vi la sammen fire), det kunne vært hva som helst. Vi kunne for eksempel byttet ut $6$ med et hvilket som helst partall. Vi kunne også byttet ut $4$ med et hvilket som helst partall også. Hadde vi for eksempel tatt $6$ og $24$ ville strukturen i beviset fortsatt fungert, noe som må bety at partall multiplisert med partall må resultere i et partall.
 
-#### Middels:  Tallteori
+#### Middels: Bruke begrepene naturlig tall, partall og oddetall, primtall og sammensatt tall,  31.03.23
 
 1. Gi et grunnskoletilpasset argument for at sum av oddetall og partall er oddetall.
 
@@ -47,7 +47,7 @@
 
 2. Studenten bør få fram at to oddetall kan skrives som $2n+1$ og $2m+1$ der $m$ og $n$ er to vilkårlige naturlige tall. Dermed blir produktet $(2n-1)(2m-1) = 2mn-2n-2m+1 = 2(mn-n-m)+1$. Dette er altså noe én over et partall og må derfor fortsatt være et oddetall.
 
-#### Middels:  17.02.23
+#### Middels: Bruke begrepene naturlig tall, partall og oddetall, primtall og sammensatt tall,  17.02.23
 
 1. Gi et grunnskoletilpasset argument for at sum av oddetall og oddetall er partall.
 
@@ -66,7 +66,7 @@ visuelt/ved hjelp av en figur; også da er det viktig at
 illustrasjonen viser strukturer/egenskaper som får frem hvorfor
 sammenhengen gjelder generelt (se heftet for eksempler).
 
-#### Middels:  13.02.23
+#### Middels: Bruke begrepene naturlig tall, partall og oddetall, primtall og sammensatt tall,  13.02.23
 
 1. Gi et formelt argument for at sum av oddetall og partall er oddetall.
 
@@ -85,7 +85,7 @@ visuelt/ved hjelp av en figur; også da er det viktig at
 illustrasjonen viser strukturer/egenskaper som får frem hvorfor
 sammenhengen gjelder generelt (se heftet for eksempler).
 
-#### Middels:  10.02.23
+#### Middels: Bruke begrepene naturlig tall, partall og oddetall, primtall og sammensatt tall,  10.02.23
 
 1. Gi et grunnskoletilpasset argument for at sum av oddetall og oddetall er partall.
 
@@ -104,17 +104,13 @@ visuelt/ved hjelp av en figur; også da er det viktig at
 illustrasjonen viser strukturer/egenskaper som får frem hvorfor
 sammenhengen gjelder generelt (se heftet for eksempler).
 
-#### Middels:  03.02.23
+#### Middels: Bruke begrepene naturlig tall, partall og oddetall, primtall og sammensatt tall,  03.02.23
 
 1. Gi et formelt og et grunnskoletilpasset argument for at sum av oddetall og oddetall er partall.
 
 2. Gi et formelt og et grunnskoletilpasset argument for at oddetall multiplisert med oddetall gir oddetall.
 
-##### Avansert: Løse (også ukjente) problemer knyttet til begrepene
-
-Alle naturlige tall kan beskrives relativ til et tall i fire-gangen. Noen tall er i fire-gangen, noen er én mer enn et tall i fire-gangen, noen er to mer enn tall i fire-gangen, osv. Forklar hvorfor alle primtall bortsett fra 2 er enten én mer eller én mindre enn et tall i fire-gangen.
-
-#### Middels:  27.01.23
+#### Middels: Bruke begrepene naturlig tall, partall og oddetall, primtall og sammensatt tall,  27.01.23
 
 1. Gi et formelt og et grunnskoletilpasset argument for at sum av oddetall og oddetall er partall.
 
@@ -130,7 +126,7 @@ visuelt/ved hjelp av en figur; også da er det viktig at
 illustrasjonen viser strukturer/egenskaper som får frem hvorfor
 sammenhengen gjelder generelt.
 
-#### Middels:  10.01.2023
+#### Middels: Bruke begrepene naturlig tall, partall og oddetall, primtall og sammensatt tall,  10.01.2023
 
 1. Gi et formelt og grunnskoletilpasset argument for at sum av oddetall og partall er oddetall.
 

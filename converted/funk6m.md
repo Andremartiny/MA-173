@@ -1,5 +1,5 @@
 
-#### Middels:  Øveoppgaver
+#### Middels: Gjøre om mellom ulike representasjonsformer for funksjonssammenhenger,  Øveoppgaver
 
 1. Alfa s. 335--336: oppgavene 4.6--4.8
 
@@ -57,7 +57,7 @@
 
 
 
-#### Middels:  31.03.23
+#### Middels: Gjøre om mellom ulike representasjonsformer for funksjonssammenhenger,  31.03.23
 
 Under ser du en skisse av Henriks reisevei til jobb dersom han kjører bil. Fartsgrensene gjelder hver av de rette strekkene.
 
@@ -74,7 +74,7 @@ Siden strekningen inneholder ulike soner med ulike hastigheter *må* dette være
 
 
 
-#### Middels:  17.02.23
+#### Middels: Gjøre om mellom ulike representasjonsformer for funksjonssammenhenger,  17.02.23
 
 André "sykler" (el-sykkel) og Henrik sykler (skikkelig sykkel) til jobb. De har lik reisevei ($8$ km) og bruker like lang tid ($25$ min.). André, med "sykkelen" sin, holder jevn fart hele veien. Henriks fart varierer avhengig om det er strake veier eller bakker. På Henriks reisestrekning er det to oppoverbakker - den første lang og slak, den andre en del kortere og bratt. Det er også én lang nedoverbakke. Det resterende av strekningen er flat. Den første oppoverbakken er ved $2,5$ km, den andre ved $4$ km. Nedoverbakken er ved $7,2$ km.
 
@@ -86,7 +86,7 @@ Studentene må skissere en graf som får fram sammenhengen på en riktig måte, 
 
 
 
-#### Middels:  Funksjoner 13.02.23
+#### Middels: Gjøre om mellom ulike representasjonsformer for funksjonssammenhenger,  Funksjoner 13.02.23
 
 Illustrasjonen til venstre viser en (litt forstørret) klinkekule som slippes ned en liten bakke. Skisser en en graf som viser sammenhengen mellom hastigheten til kulen og hvor mange meter kulen har bevegd seg i horisontal retning.
 Beskriv en situasjon som passer til grafen til høyre. (Andreaksen viser kroner målt i 1000, førsteaksen viser tid)
@@ -101,7 +101,7 @@ Beskriv en situasjon som passer til grafen til høyre. (Andreaksen viser kroner 
 
 
 
-#### Middels:  Funksjoner 10.02.23
+#### Middels: Gjøre om mellom ulike representasjonsformer for funksjonssammenhenger,  Funksjoner 10.02.23
 
 Illustrasjonen til venstre viser havdybden målt i ei linje 100 meter utover fra strandkanten. Skisser en en graf som viser sammenhengen mellom avstanden fra land og havdybden.
 Beskriv en situasjon som passer til grafen til høyre. (Andreaksen viser meter over bakken, førsteaksen viser tid.)

@@ -8,7 +8,7 @@ bibliography: [references.bib]
 
 ### Oppgave 1 {#f17o1}
 
-#### Vurderingskriterier: Grunnleggende {#f17g1}
+##### Vurderingskriterier: Grunnleggende {#f17g1}
 
 Studenten må besvare alle spørsmålene.  
 
@@ -16,11 +16,11 @@ Det skal gis *både* formell og uformell forklaring.
 Formelt: Algebraisk.
 Grunnskoletilpasset: med ord og/eller illustrasjoner
 
-#### Vurderingskriterier: Middels {#f17m1}
+##### Vurderingskriterier: Middels {#f17m1}
 
 Studenten må besvare oppgaven på en forståelig og riktig måte.
 
-#### Vurderingskriterier: Avansert {#f17a1}
+##### Vurderingskriterier: Avansert {#f17a1}
 
 Studenten må gi en strukturert og logisk forklaring på hvorfor $\sqrt n$ er det høyeste tallet en trenger å sjekke.  
 
@@ -28,14 +28,14 @@ Dette handler i hovedsak om å peke på at faktorer (som ikke er $1$ eller talle
 
 ### Oppgave 2 {#f17o2}
 
-#### Vurderingskriterier: Grunnleggende {#f17g2}
+##### Vurderingskriterier: Grunnleggende {#f17g2}
 
 Studenten må besvare alle spørsmålene.  
 
 Besvarelsene må inneholde, forklaringer, eksempler, definisjoner og
 illustrasjoner der dette påpekes i oppgaveteksten.
 
-#### Vurderingskriterier: Middels {#f17m2}
+##### Vurderingskriterier: Middels {#f17m2}
 
 Studenten må besvare alle oppgavene.
 
@@ -48,7 +48,7 @@ visuelt/ved hjelp av en figur; også da er det viktig at
 illustrasjonen viser strukturer/egenskaper som får frem hvorfor
 sammenhengen gjelder generelt (se heftet for eksempler).
 
-#### Vurderingskriterier: Avansert {#f17a2}
+##### Vurderingskriterier: Avansert {#f17a2}
 
 Studenten må i besvarelsen få fram tydelig hvorfor dette alltid
 gjelder.  
@@ -57,7 +57,7 @@ En naturlig besvarelse vil være å peke på at faktorene i et tall alltid komme
 
 ### Oppgave 3 {#f17o3}
 
-#### Vurderingskriterier: Middels
+##### Vurderingskriterier: Middels
 
 Studenten må besvare begge oppgavene.
 
@@ -71,11 +71,11 @@ resultatet gjelder for et hvilket som helst antall sifre.
 
 ### Oppgave 4 {#f17o4}
 
-#### Vurderingskriterier: Grunnleggende {#f17g4}
+##### Vurderingskriterier: Grunnleggende {#f17g4}
 
 Studentene må besvare begge spørsmålene med riktig teknikk (se heftet).
 
-#### Vurderingskriterier: Middels {#f17m4}
+##### Vurderingskriterier: Middels {#f17m4}
 
 Studenten må illustrere figurene og finne eksplisitt uttrykk med riktig teknikk.
 
@@ -87,7 +87,7 @@ Deretter må de jobbe med summen av tilleggene og bruke den eksplisitte formelen
 bruke formelen for trekanttall (se heftet for teknikken om sum
 av tillegg).
 
-#### Vurderingskriterier: Avansert {#f17a4}
+##### Vurderingskriterier: Avansert {#f17a4}
 
 Studenten må besvare begge oppgavene.
 
@@ -102,7 +102,7 @@ ii. Her må de igjen bruke sum av tillegg som på middels.
 I begge oppgavene bes det om to teknikker. Se heftet for *differanse
 mellom eksplisitte uttrykk* og *form på tillegg*.
 
-#### Vurderingskriterier: Grunnleggende {#f17G5}
+##### Vurderingskriterier: Grunnleggende {#f17G5}
 
 Studenten må besvare alle spørsmålene med riktig
 teknikk.
@@ -115,7 +115,7 @@ utvikler seg.
 ii. Her *må* de ta differanse mellom $T_{n}$ og $T_{n - 1}$ og
 gjøre regne seg fram til formen på tillegget
 
-#### Vurderingskriterier: Middels {#f17m5}
+##### Vurderingskriterier: Middels {#f17m5}
 
 Studenten må besvare alle spørsmålene med riktig
 teknikk. Her *må* det være med en illustrasjon.
@@ -132,7 +132,7 @@ ii. Finne uttrykket ved hjelp av å regne $H_{n}– H_{n - 1}$.
 
 ### Oppgave 6 {#f17o6}
 
-#### Vurderingskriterier: Grunnleggende {#f17g6}
+##### Vurderingskriterier: Grunnleggende {#f17g6}
 
 Her må alle spørsmålene besvares, og de må
 illustrere figurer.  
@@ -145,7 +145,7 @@ figuren utvikler seg rekursivt.\
 Igjen kan de ta utgangspunkt i eksempelet gitt på (i) for å
 peke på hvordan utviklingen skjer.
 
-#### Vurderingskriterier: Middels {#f17m6}
+##### Vurderingskriterier: Middels {#f17m6}
 
 De må finne minst to eksplisitte uttrykk og det må gis
 en god nok forklaring på hvordan de har brutt ned figuren. For
@@ -155,7 +155,7 @@ geometrisk nedbrytning. Eventuelt kan de bruke andre teknikker
 tallfølgen og finne eksplisitt uttrykk ved hjelp av sum av
 tillegg.
 
-#### Vurderingskriterier: Avansert {#f173a6}
+##### Vurderingskriterier: Avansert {#f173a6}
 
 Her må illustrere figuren (nok med de tre første), men
 strukturen må komme fram i hvordan figuren utvikler seg!
@@ -171,7 +171,7 @@ måter
 
 ### Oppgave 7 {#f17o7}
 
-#### Vurderingskriterier: Middels {#f17g7}
+##### Vurderingskriterier: Middels {#f17g7}
 
 For å få godkjent må studenten vise:
 
@@ -186,7 +186,7 @@ forklare/begrunne så godt at man blir overbevist om at
 studenten har kontroll på hva algebraisk tenkning
 innebærer.  
 
-#### Vurderingskriterier: Avansert {#f17a7}
+##### Vurderingskriterier: Avansert {#f17a7}
 
 For å få godkjent må disse punktene være oppfylt:
 
@@ -214,7 +214,7 @@ hva algebraisk tenkning innebærer.
 
 ### Oppgave 1 {#f13o1}
 
-#### Vurderingskriterier: Grunnleggende {#f13g1}
+##### Vurderingskriterier: Grunnleggende {#f13g1}
 
 Studenten må besvare alle spørsmålene.  
 
@@ -222,7 +222,7 @@ Det skal gis *både* formell og uformell forklaring.
 Formelt: Algebraisk.
 Grunnskoletilpasset: med ord og/eller illustrasjoner
 
-#### Vurderingskriterier: Middels {#f13m1}
+##### Vurderingskriterier: Middels {#f13m1}
 
 Studenten må gjøre følgende for å få godkjent.
 
@@ -239,7 +239,7 @@ Vi ser altså at dette alltid ligger to over noe i firegangen, uansett hvilket
 naturlig tall vi starter på. Dermed kan ingen summer av fire
 påfølgende naturlige tall ha faktor 4.
 
-#### Vurderingskriterier: Avansert {#f13a1}
+##### Vurderingskriterier: Avansert {#f13a1}
 
 Studenten må gi en strukturert og logisk forklaring på hva
 minste $B$ må være.  
@@ -252,14 +252,14 @@ $B$ må inneholde faktoren $\ 5$. Dermed må $B = 5 \cdot 210$.
 
 ### Oppgave 2 {#f13o2}
 
-#### Vurderingskriterier: Grunnleggende {#f13g2}
+##### Vurderingskriterier: Grunnleggende {#f13g2}
 
 Studenten må besvare alle spørsmålene.  
 
 Besvarelsene må inneholde, forklaringer, eksempler, definisjoner og
 illustrasjoner der dette påpekes i oppgaveteksten.
 
-#### Vurderingskriterier: Middels {#f13m2}
+##### Vurderingskriterier: Middels {#f13m2}
 
 Studenten må besvare alle oppgavene.
 
@@ -272,7 +272,7 @@ visuelt/ved hjelp av en figur; også da er det viktig at
 illustrasjonen viser strukturer/egenskaper som får frem hvorfor
 sammenhengen gjelder generelt (se heftet for eksempler).
 
-#### Vurderingskriterier: Avansert {#f13a2}
+##### Vurderingskriterier: Avansert {#f13a2}
 
 Studenten må i besvarelsen få fram tydelig hvorfor dette alltid
 gjelder.  
@@ -300,7 +300,7 @@ enten er i tregangen eller er én over noe i tregangen.
 
 ### Oppgave 3 {#f13o3}
 
-#### Vurderingskriterier: Middels
+##### Vurderingskriterier: Middels
 Studenten må besvare begge oppgavene.
 
 Formelt: Ta utgangspunkt i tre eller firesifra tall
@@ -313,11 +313,11 @@ resultatet gjelder for et hvilket som helst antall sifre.
 
 ### Oppgave 4 {#f13o4}
 
-#### Vurderingskriterier: Grunnleggende {#f13g4}
+##### Vurderingskriterier: Grunnleggende {#f13g4}
 
 Studentene må besvare begge spørsmålene med riktig teknikk (se heftet).
 
-#### Vurderingskriterier: Middels {#f13m4}
+##### Vurderingskriterier: Middels {#f13m4}
 
 Studenten må illustrere figurene og finne eksplisitt uttrykk med riktig teknikk.
 
@@ -329,7 +329,7 @@ Deretter må de jobbe med summen av tilleggene og bruke den eksplisitte formelen
 bruke formelen for trekanttall (se heftet for teknikken om sum
 av tillegg).
 
-#### Vurderingskriterier: Avansert {#f13a4}
+##### Vurderingskriterier: Avansert {#f13a4}
 
 Studenten må besvare begge oppgavene.
 
@@ -344,7 +344,7 @@ ii. Her må de igjen bruke sum av tillegg som på middels.
 I begge oppgavene bes det om to teknikker. Se heftet for *differanse
 mellom eksplisitte uttrykk* og *form på tillegg*.
 
-#### Vurderingskriterier: Grunnleggende {#f13G5}
+##### Vurderingskriterier: Grunnleggende {#f13G5}
 
 Studenten må besvare alle spørsmålene med riktig
 teknikk.
@@ -357,7 +357,7 @@ utvikler seg.
 ii. Her *må* de ta differanse mellom $T_{n}$ og $T_{n - 1}\ $og
 gjøre regne seg fram til formen på tillegget
 
-#### Vurderingskriterier: Middels {#f13m5}
+##### Vurderingskriterier: Middels {#f13m5}
 
 Studenten må besvare alle spørsmålene med riktig
 teknikk. Her *må* det være med en illustrasjon.
@@ -374,7 +374,7 @@ ii. Finne uttrykket ved hjelp av å regne $B_{n}–\ B_{n - 1}\ $
 
 ### Oppgave 6 {#f13o6}
 
-#### Vurderingskriterier: Grunnleggende {#f13g6}
+##### Vurderingskriterier: Grunnleggende {#f13g6}
 
 Her må alle spørsmålene besvares, og de må
 illustrere figurer.  
@@ -389,7 +389,7 @@ figuren utvikler seg rekursivt.\
 Igjen kan de ta utgangspunkt i eksempelet gitt på (i) for å
 peke på hvordan utviklingen skjer.
 
-#### Vurderingskriterier: Middels {#f13m6}
+##### Vurderingskriterier: Middels {#f13m6}
 
 De må finne minst to eksplisitte uttrykk og det må gis
 en god nok forklaring på hvordan de har brutt ned figuren. For
@@ -399,7 +399,7 @@ geometrisk nedbrytning. Eventuelt kan de bruke andre teknikker
 tallfølgen og finne eksplisitt uttrykk ved hjelp av sum av
 tillegg.
 
-#### Vurderingskriterier: Avansert {#f13a6}
+##### Vurderingskriterier: Avansert {#f13a6}
 
 Her må illustrere figuren (nok med de tre første), men
 strukturen må komme fram i hvordan figuren utvikler seg!
@@ -415,7 +415,7 @@ måter
 
 ### Oppgave 7 {#f13o7}
 
-#### Vurderingskriterier: Middels {#f13g7}
+##### Vurderingskriterier: Middels {#f13g7}
 
 For å få godkjent må studenten vise:
 
@@ -430,7 +430,7 @@ forklare/begrunne så godt at man blir overbevist om at
 studenten har kontroll på hva algebraisk tenkning
 innebærer.  
 
-#### Vurderingskriterier: Avansert {#f13a7}
+##### Vurderingskriterier: Avansert {#f13a7}
 
 For å få godkjent må disse punktene være oppfylt:
 
@@ -458,7 +458,7 @@ hva algebraisk tenkning innebærer.
 
 ### Oppgave 1
 
-#### Vurderingskriterier: Grunnleggende
+##### Vurderingskriterier: Grunnleggende
 
 Studenten må besvare alle spørsmålene.  
 
@@ -466,7 +466,7 @@ Det skal gis *både* formell og uformell forklaring.
 Formelt: Algebraisk.
 Grunnskoletilpasset: med ord og/eller illustrasjoner
 
-#### Vurderingskriterier: Middels
+##### Vurderingskriterier: Middels
 
 Studenten må gjøre følgende for å få godkjent.
 
@@ -483,7 +483,7 @@ Vi ser altså at dette alltid vil fungere, uansett hvilket
 naturlig tall vi starter på. Dermed må alle summer av fem
 påfølgende naturlige tall ha felles faktor 5.
 
-#### Vurderingskriterier: Avansert
+##### Vurderingskriterier: Avansert
 
 Studenten må gi en strukturert og logisk forklaring på hva
 minste $B$ må være.  
@@ -496,14 +496,14 @@ $B$ må inneholde faktoren $\ 5$. Dermed må $B = 5 \cdot 210$.
 
 ### Oppgave 2
 
-#### Vurderingskriterier: Grunnleggende {#g2}
+##### Vurderingskriterier: Grunnleggende {#g2}
 
 Studenten må besvare alle spørsmålene.  
 
 Besvarelsene må inneholde, forklaringer, eksempler, definisjoner og
 illustrasjoner der dette påpekes i oppgaveteksten.
 
-#### Vurderingskriterier: Middels {#m2}
+##### Vurderingskriterier: Middels {#m2}
 
 Studenten må besvare alle oppgavene.
 
@@ -516,7 +516,7 @@ visuelt/ved hjelp av en figur; også da er det viktig at
 illustrasjonen viser strukturer/egenskaper som får frem hvorfor
 sammenhengen gjelder generelt (se heftet for eksempler).
 
-#### Vurderingskriterier: Avansert {#a2}
+##### Vurderingskriterier: Avansert {#a2}
 
 Studenten må i besvarelsen få fram tydelig hvorfor dette alltid
 gjelder.  
@@ -550,7 +550,7 @@ enten er i firegangen eller er én over noe i firegangen.
 
 ### Oppgave 3
 
-#### Vurderingskriterier: Middels
+##### Vurderingskriterier: Middels
 
 Studenten må besvare begge oppgavene.
 
@@ -564,11 +564,11 @@ resultatet gjelder for et hvilket som helst antall sifre.
 
 ### Oppgave 4
 
-#### Vurderingskriterier: Grunnleggende {#g4}
+##### Vurderingskriterier: Grunnleggende {#g4}
 
 Studentene må besvare begge spørsmålene med riktig teknikk (se heftet).
 
-#### Vurderingskriterier: Middels {#m4}
+##### Vurderingskriterier: Middels {#m4}
 
 Studenten må illustrere figurene og finne eksplisitt uttrykk med riktig teknikk.
 
@@ -580,7 +580,7 @@ Deretter må de jobbe med summen av tilleggene og bruke den eksplisitte formelen
 bruke formelen for trekanttall (se heftet for teknikken om sum
 av tillegg).
 
-#### Vurderingskriterier: Avansert {#a4}
+##### Vurderingskriterier: Avansert {#a4}
 
 Studenten må besvare begge oppgavene.
 
@@ -595,7 +595,7 @@ ii. Her må de igjen bruke sum av tillegg som på middels.
 I begge oppgavene bes det om to teknikker. Se heftet for *differanse
 mellom eksplisitte uttrykk* og *form på tillegg*.
 
-#### Vurderingskriterier: Grunnleggende {#G5}
+##### Vurderingskriterier: Grunnleggende {#G5}
 
 Studenten må besvare alle spørsmålene med riktig
 teknikk.
@@ -608,7 +608,7 @@ utvikler seg.
 ii. Her *må* de ta differanse mellom $T_{n}$ og $T_{n - 1}\ $og
 gjøre regne seg fram til formen på tillegget
 
-#### Vurderingskriterier: Middels {#m5}
+##### Vurderingskriterier: Middels {#m5}
 
 Studenten må besvare alle spørsmålene med riktig
 teknikk. Her *må* det være med en illustrasjon.
@@ -625,7 +625,7 @@ ii. Finne uttrykket ved hjelp av å regne $H_{n}–\ H_{n - 1}\ $
 
 ### Oppgave 6
 
-#### Vurderingskriterier: Grunnleggende {#g6}
+##### Vurderingskriterier: Grunnleggende {#g6}
 
 Her må alle spørsmålene besvares, og de må
 illustrere figurer. *Merk* at figuren ikke øker på en naturlig måte da *stammen* ikke passer inn i et godt mønster.  
@@ -643,7 +643,7 @@ figuren utvikler seg rekursivt.\
 Igjen kan de ta utgangspunkt i eksempelet gitt på (i) for å
 peke på hvordan utviklingen skjer.
 
-#### Vurderingskriterier: Middels {#m6}
+##### Vurderingskriterier: Middels {#m6}
 
 *Merk* at figuren ikke øker på en naturlig måte da *stammen* ikke passer inn i et godt mønster. \
 \
@@ -655,7 +655,7 @@ geometrisk nedbrytning. Eventuelt kan de bruke andre teknikker
 tallfølgen og finne eksplisitt uttrykk ved hjelp av sum av
 tillegg.
 
-#### Vurderingskriterier: Avansert {#a6}
+##### Vurderingskriterier: Avansert {#a6}
 
 Her må illustrere figuren (nok med de tre første), men
 strukturen må komme fram i hvordan figuren utvikler seg!
@@ -671,7 +671,7 @@ måter
 
 ### Oppgave 7
 
-#### Vurderingskriterier: Middels {#g7}
+##### Vurderingskriterier: Middels {#g7}
 
 For å få godkjent må studenten vise:
 
@@ -686,7 +686,7 @@ forklare/begrunne så godt at man blir overbevist om at
 studenten har kontroll på hva algebraisk tenkning
 innebærer.  
 
-#### Vurderingskriterier: Avansert {#a7}
+##### Vurderingskriterier: Avansert {#a7}
 
 For å få godkjent må disse punktene være oppfylt:
 
@@ -714,20 +714,20 @@ hva algebraisk tenkning innebærer.
 
 ### Oppgave 1 {#f123o1}
 
-#### Vurderingskriterier: Grunnleggende {#f123g1}
+##### Vurderingskriterier: Grunnleggende {#f123g1}
 
 Her må alle spørsmålene besvares. Det skal gis
 *både* formell og uformell forklaring. Formelt: Algebraisk.
 Grunnskoletilpasset: med ord og/eller illustrasjoner
 
-#### Vurderingskriterier: Middels {#f123m1}
+##### Vurderingskriterier: Middels {#f123m1}
 
 Her må strukturen komme fram. Dette kan gjøres
 algebraisk eller med et konkret talleksempel, men det er viktig
 at de peker på den generelle strukturen som gjør at påstanden
 stemmer.
 
-#### Vurderingskriterier: Avansert {#f13as1}
+##### Vurderingskriterier: Avansert {#f13as1}
 
 Enten gjøre algebra ved å skrive tallene som *ca* og *cb* og
 forklare påstanden derifra. Eller med et talleksempel som får
@@ -735,13 +735,13 @@ fram hvorfor det alltid gjelder!
 
 ### Oppgave 2 {#f1s3o2}
 
-#### Vurderingskriterier: Grunnleggende {#f1s3g2}
+##### Vurderingskriterier: Grunnleggende {#f1s3g2}
 
 Her må alle spørsmålene besvares. Besvarelsene må
 inneholde, forklaringer, eksempler, definisjoner og
 illustrasjoner der dette påpekes i oppgaveteksten.
 
-#### Vurderingskriterier: Middels {#f13sm2}
+##### Vurderingskriterier: Middels {#f13sm2}
 
 Alle oppgavene må besvares: Formelt: Algebra,
 Grunnskoletilpasset: Kan gjøres ved hjelp av et talleksempel der
@@ -751,7 +751,7 @@ visuelt/ved hjelp av en figur; også da er det viktig at
 illustrasjonen viser strukturer/egenskaper som får frem hvorfor
 sammenhengen gjelder generelt.
 
-#### Vurderingskriterier: Avansert {#f1s3a2}
+##### Vurderingskriterier: Avansert {#f1s3a2}
 
 Oppgaven løses mest naturlig algebraisk ved å først uttrykke
 alle primtall > 2 som for eksempel noe på formen 2n-1 eller
@@ -769,18 +769,18 @@ resultatet gjelder for et hvilket som helst antall sifre.
 
 ### Oppgave 4 {#f13do4}
 
-#### Vurderingskriterier: Grunnleggende {#f1d3g4}
+##### Vurderingskriterier: Grunnleggende {#f1d3g4}
 
 Studentene må besvare begge spørsmålene med riktig teknikk (se heftet).
 
-#### Vurderingskriterier: Middels {#f1s3m4}
+##### Vurderingskriterier: Middels {#f1s3m4}
 
 Her må det være med en illustrasjon. I tillegg *må* den
 eksplisitte formelen utledes ved å bruke sum av tillegg: Det vil
 si jobbe seg summen av tilleggene den eksplisitte formelen ved å
 bruke formelen for trekanttall.
 
-#### Vurderingskriterier: Avansert {#f13sa4}
+##### Vurderingskriterier: Avansert {#f13sa4}
 
 Studenten må besvare begge oppgavene.
 
@@ -795,7 +795,7 @@ ii. Her må de igjen bruke sum av tillegg sånn som på middels.
 I begge oppgavene bes det om to teknikker. Se heftet for *differanse
 mellom eksplisitte uttrykk* og *form på tillegg*.
 
-#### Vurderingskriterier: Grunnleggende {#f1s3G5}
+##### Vurderingskriterier: Grunnleggende {#f1s3G5}
 
 Her må alle spørsmålene besvares med riktig
 teknikk.
@@ -808,7 +808,7 @@ utvikler seg
 ii. Her *må* de ta differanse $F_n$ og $F_{n-1}$ og gjøre algebra
 for å komme fram til formen på tillegget.
 
-#### Vurderingskriterier: Middels {#f13sm5}
+##### Vurderingskriterier: Middels {#f13sm5}
 
 Studenten må besvare alle spørsmålene med riktig
 teknikk. Her *må* det være med en illustrasjon.
@@ -818,7 +818,7 @@ ii. Finne uttrykket ved hjelp av å regne $H_n – H_{n-1}$
 
 ### Oppgave 6 {#fs13o6}
 
-#### Vurderingskriterier: Grunnleggende {#f1s3g6}
+##### Vurderingskriterier: Grunnleggende {#f1s3g6}
 
 Her må alle spørsmålene besvares, og de må
 illustrere figurer.  
@@ -828,7 +828,7 @@ i.  Eksplisitt formel må utledes, og de må henvise til figuren.\
 ii. Her må de henvise til illustrasjonen for å få fram hvordan
 figuren utvikler seg rekursivt.\
 
-#### Vurderingskriterier: Middels {#f1s3m6}
+##### Vurderingskriterier: Middels {#f1s3m6}
 
 De må finne minst to eksplisitte uttrykk og det må gis
 en god nok forklaring på hvordan de har brutt ned figuren. For
@@ -838,7 +838,7 @@ geometrisk nedbrytning. Eventuelt kan de bruke andre teknikker
 tallfølgen og finne eksplisitt uttrykk ved hjelp av sum av
 tillegg.
 
-#### Vurderingskriterier: Avansert {#fs13a6}
+##### Vurderingskriterier: Avansert {#fs13a6}
 
 i.  Her må illustrere figuren (nok med de tre første), men
 strukturen må komme fram i hvordan figuren utvikler seg!
@@ -854,7 +854,7 @@ måter
 
 ### Oppgave 7 {#f1s3o7}
 
-#### Vurderingskriterier: Middels {#f1s3g7}
+##### Vurderingskriterier: Middels {#f1s3g7}
 
 For å få godkjent må studenten vise:
 
@@ -869,7 +869,7 @@ forklare/begrunne så godt at man blir overbevist om at
 studenten har kontroll på hva algebraisk tenkning
 innebærer.  
 
-#### Vurderingskriterier: Avansert {#f13sa7}
+##### Vurderingskriterier: Avansert {#f13sa7}
 
 For å få godkjent må disse punktene være oppfylt:
 
@@ -897,32 +897,32 @@ hva algebraisk tenkning innebærer.
 
 ### Oppgave 1 {#f12s3o1}
 
-#### Vurderingskriterier: Grunnleggende {#f123gs1}
+##### Vurderingskriterier: Grunnleggende {#f123gs1}
 
 Grunnleggende: Her må alle spørsmålene besvares. Det skal gis
 *både* formell og uformell forklaring. Formelt: Algebraisk.
 Grunnskoletilpasset: med ord og/eller illustrasjoner.
 
-#### Vurderingskriterier: Middels {#f1s23m1}
+##### Vurderingskriterier: Middels {#f1s23m1}
 
 Her må strukturen komme fram. Dette gjøres gjerne ved
 et konkret talleksempel, men det er viktig at de peker på den
 generelle strukturen som gjør at sff\*mfm = a\*b
 
-#### Vurderingskriterier: Avansert {#f1s3as1}
+##### Vurderingskriterier: Avansert {#f1s3as1}
 
 Her må de skrive tosifra tall som a\*10 + b og deretter gjøre
 noe algebra.
 
 ### Oppgave 2 {#f1ss3o2}
 
-#### Vurderingskriterier: Grunnleggende {#f1s3sg2}
+##### Vurderingskriterier: Grunnleggende {#f1s3sg2}
 
 Her må alle spørsmålene besvares. Besvarelsene må
 inneholde, forklaringer, eksempler, definisjoner og
 illustrasjoner der dette påpekes i oppgaveteksten.
 
-#### Vurderingskriterier: Middels {#f13ssm2}
+##### Vurderingskriterier: Middels {#f13ssm2}
 
 Alle oppgavene må besvares: Formelt: Algebra,
 Grunnskoletilpasset: Kan gjøres ved hjelp av et talleksempel der
@@ -932,7 +932,7 @@ visuelt/ved hjelp av en figur; også da er det viktig at
 illustrasjonen viser strukturer/egenskaper som får frem hvorfor
 sammenhengen gjelder generelt.
 
-#### Vurderingskriterier: Avansert {#f1ss3a2}
+##### Vurderingskriterier: Avansert {#f1ss3a2}
 
 Her må man får frem struktur på en forståelig måte. For eksempel
 dele opp tallene slik:
@@ -943,7 +943,7 @@ på 6.
 
 ### Oppgave 3 {#f13sdo3}
 
-#### Vurdereingskriterier: Middels
+##### Vurdereingskriterier: Middels
 
 Formelt: Ta utgangspunkt i tre eller firesifra tall
 ($1000a + 100b + 10c + d$) og gjøre argumentene. Deretter *må* de
@@ -954,18 +954,18 @@ resultatet gjelder for et hvilket som helst antall sifre.
 
 ### Oppgave 4 {#f13dso4}
 
-#### Vurderingskriterier: Grunnleggende {#f1d3sg4}
+##### Vurderingskriterier: Grunnleggende {#f1d3sg4}
 
 Studentene må besvare begge spørsmålene med riktig teknikk (se heftet).
 
-#### Vurderingskriterier: Middels {#f1s3sm4}
+##### Vurderingskriterier: Middels {#f1s3sm4}
 
 Her må det være med en illustrasjon. I tillegg *må* den
 eksplisitte formelen utledes ved å bruke sum av tillegg: Det vil
 si jobbe seg fra $1+4+7+\ldots + 3n-2$ til $n^2+\frac{n(n-1)}{2}$ ved hjelp av
 algebra og (mest sannsynlig) formelen for trekanttall.
 
-#### Vurderingskriterier: Avansert {#f1s3sa4}
+##### Vurderingskriterier: Avansert {#f1s3sa4}
 
 MERK: Her står det feil i oppgavetekst. Det skal være F_2 = 24
 
@@ -980,7 +980,7 @@ ii. Her må de igjen bruke sum av tillegg sånn som på middels
 I begge oppgavene bes det om to teknikker. Se heftet for *differanse
 mellom eksplisitte uttrykk* og *form på tillegg*.
 
-#### Vurderingskriterier: Grunnleggende {#f1ss3G5}
+##### Vurderingskriterier: Grunnleggende {#f1ss3G5}
 
 Her må alle spørsmålene besvares med riktig
 teknikk.
@@ -993,7 +993,7 @@ utvikler seg
 ii. Her *må* de ta $R_n - R_{n-1}$ og gjøre algebra for å komme
 fram til formen på tillegget.
 
-#### Vurderingskriterier: Middels {#f13ssm5}
+##### Vurderingskriterier: Middels {#f13ssm5}
 
 Studenten må besvare alle spørsmålene med riktig
 teknikk. Her *må* det være med en illustrasjon.
@@ -1004,7 +1004,7 @@ ii. Finne uttrykket ved hjelp av å regne $H_n-H_{n-1}$
 
 ### Oppgave 6 {#fs1s3o6}
 
-#### Vurderingskriterier: Grunnleggende {#f1ss3g6}
+##### Vurderingskriterier: Grunnleggende {#f1ss3g6}
 
 Her må alle spørsmålene besvares, og de må
 illustrere figurer
@@ -1015,12 +1015,12 @@ ii. Her er ordlyden blitt litt dum. Her må de henvise til
 illustrasjonen for å få fram hvordan figuren utvikler seg
 rekursivt.
 
-#### Vurderingskriterier: Middels {#f1s3sm6}
+##### Vurderingskriterier: Middels {#f1s3sm6}
 
 De må finne minst to eksplisitte uttrykk og det må gis
 en god nok forklaring på hvordan de har brutt ned figuren.
 
-#### Vurderingskriterier: Avansert {#fs1d3a6}
+##### Vurderingskriterier: Avansert {#fs1d3a6}
 
 Her må illustrere figuren (nok med de tre første), men
 strukturen må komme fram i hvordan figuren utvikler seg!
@@ -1035,7 +1035,7 @@ måter
 
 ### Oppgave 7 {#f1ss3o7}
 
-#### Vurderingskriterier: Middels {#f1sd3g7}
+##### Vurderingskriterier: Middels {#f1sd3g7}
 
 For å få godkjent må studenten vise:
 
@@ -1050,7 +1050,7 @@ forklare/begrunne så godt at man blir overbevist om at
 studenten har kontroll på hva algebraisk tenkning
 innebærer.  
 
-#### Vurderingskriterier: Avansert {#fs13sa7}
+##### Vurderingskriterier: Avansert {#fs13sa7}
 
 For å få godkjent må disse punktene være oppfylt:
 

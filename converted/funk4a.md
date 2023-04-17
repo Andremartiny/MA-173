@@ -1,4 +1,4 @@
-#### Avansert:  Øveoppgaver
+#### Avansert: Løse likninger fra funksjonsperspektiv,  Øveoppgaver
 
 1. La $f(x) = \frac{12}{x}$ og $g(x) = 3x - \frac{1}{2}$.
 
@@ -45,7 +45,7 @@
 
    ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-27-12-15-21.png)
 
-#### Avansert:  31.03.23
+#### Avansert: Løse likninger fra funksjonsperspektiv,  31.03.23
 
 La $f(x)=2x^2+12x-x$  og  $g(x)=-6x-6$.
 
@@ -60,7 +60,7 @@ Alle oppgavene må besvares
 1. Studenten må regne ut skjæringspunktene.
 2. Studenten må skissere grafene i et koordinatsystem.
 
-#### Avansert:  17.02.23
+#### Avansert: Løse likninger fra funksjonsperspektiv,  17.02.23
 
 La $f(x)=\frac{1}{2}x^2+6x-1$  og  $g(x)=\frac{3}{2}x+4$.
 
@@ -75,7 +75,7 @@ Alle oppgavene må besvares
 1. Studenten må regne ut skjæringspunktene.
 2. Studenten må skissere grafene i et koordinatsystem.
 
-#### Avansert:  Funksjoner 13.02.23
+#### Avansert: Løse likninger fra funksjonsperspektiv,  Funksjoner 13.02.23
 
 To fjellklatrere, Henrik og André, skal overnatte på et fjell. De skal overnatte på en høyde på 2200 meter og bestemmer seg for å vedde om hvem som kommer seg ned til basen på 300 meter først.
 
@@ -106,7 +106,7 @@ Alle oppgavene må besvares
 3. Her må de sette opp og løse $p = h$.
 4. Her må de sette opp og løse $q = h$.
 
-#### Avansert:  Funksjoner 10.02.23
+#### Avansert: Løse likninger fra funksjonsperspektiv,  Funksjoner 10.02.23
 
 La $f(x) = \frac{4}{x}$ og $g(x) = 1+3x$.
 
@@ -120,7 +120,7 @@ Begge oppgavene må besvares
 1. De må skissere grafene slik at på en god måte (skissa må ikke være utrolig nøyaktig, men bør heller ikke være voldsomt slurvete).
 2. De må sette opp likninga og finne skjæringspunktene ved regning.
 
-#### Avansert:  Funksjoner 3.02.23
+#### Avansert: Løse likninger fra funksjonsperspektiv,  Funksjoner 3.02.23
 
 La $f(x) = \frac{30}{x}$ og $g(x) = 2x+4$.
 

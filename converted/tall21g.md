@@ -1,4 +1,4 @@
-#### Grunnleggende:  31.03.23
+#### Grunnleggende: Forklare hva et posisjonssystem er, og regne med tall uttrykt i posisjonssystem med ulike baser,  31.03.23
 
 Forklar kort hva et posisjonssystem er. Gi eksempler fra base ti, fem, to og tolv.
 

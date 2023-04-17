@@ -1,4 +1,4 @@
-#### Grunnleggende:  Øveoppgaver
+#### Grunnleggende: Forklare hva et posisjonssystem er,  Øveoppgaver
 
 Forklare hva et posisjonssystem er, og regne med tall uttrykt i
 posisjonssystem med ulike baser.

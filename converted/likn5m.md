@@ -1,4 +1,4 @@
-#### Middels:  17.02.23
+#### Middels: Bruke de tre kvadratsetningene,  17.02.23
 
 Illustrer andre og tredje kvadratsetning geometrisk. Bruk illustrasjonene til å gi en forklaring av identitetene.
 
@@ -6,7 +6,7 @@ Illustrer andre og tredje kvadratsetning geometrisk. Bruk illustrasjonene til å
 
 Her *må* andre og tredje kvadratsetning illustrerer geometrisk og brukes til å forklare identitetene.
 
-#### Middels:  13.02.23
+#### Middels: Bruke de tre kvadratsetningene,  13.02.23
 
 Illustrer andre og tredje kvadratsetningene geometrisk. Bruk illustrasjonene til å gi en forklaring av identitetene.
 
@@ -14,7 +14,7 @@ Illustrer andre og tredje kvadratsetningene geometrisk. Bruk illustrasjonene til
 
 Her *må* andre og tredje kvadratsetning illustrerer geometrisk og brukes til å forklare identitetene.
 
-#### Middels:  10.02.23
+#### Middels: Bruke de tre kvadratsetningene,  10.02.23
 
 Illustrer andre og tredje kvadratsetningene geometrisk. Bruk illustrasjonene til å gi en forklaring av identitetene.
 
@@ -22,7 +22,7 @@ Illustrer andre og tredje kvadratsetningene geometrisk. Bruk illustrasjonene til
 
 Her *må* andre og tredje kvadratsetning illustrerer geometrisk og brukes til å forklare identitetene.
 
-#### Middels:  03.02.23
+#### Middels: Bruke de tre kvadratsetningene,  03.02.23
 
 Illustrer de tre kvadratsetningene geometrisk. Bruk illustrasjonene til å gi en forklaring av identitetene.
 

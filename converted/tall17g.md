@@ -1,4 +1,4 @@
-#### Grunnleggende:  Øveoppgaver
+#### Grunnleggende: Utføre addisjon og subtraksjon med negative tall,  Øveoppgaver
 
 1. Regn ut.
 

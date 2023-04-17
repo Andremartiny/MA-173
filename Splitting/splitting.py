@@ -45,7 +45,7 @@ def restructure(pathin, pathout):
                     if re.search("vurderingskriterier", line, re.IGNORECASE):
                         dictionary[current_subsubheader][niv].append("#### Vurderingskriterier " + niv + ": " + current_subheader)    
                     else:
-                        dictionary[current_subsubheader][niv].append("#### " + niv.capitalize() + ": " + current_subheader)
+                        dictionary[current_subsubheader][niv].append("#### " + niv.capitalize() + ": " + current_subsubheader + ", " + current_subheader)
             continue
         if current_subsubheader == '' or current_nivå == '':
             continue

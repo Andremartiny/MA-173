@@ -1,4 +1,4 @@
-#### Grunnleggende:  Øveoppgaver
+#### Grunnleggende: Bruke Pytagoras setning,  Øveoppgaver
 
 1. Finn lengden på hypotenusen i en rettvinklet trekant når du vet at
     katetene har lengde:
@@ -47,7 +47,7 @@ så skal ikke dette rundes av til $2,236$
    d.  Vi får at $8^2 +15^2 = 64+225 = 289 = c^2$. Dermed er $c = \sqrt 289$.\
    $\vdots$
 
-#### Grunnleggende:  31.03.23
+#### Grunnleggende: Bruke Pytagoras setning,  31.03.23
 
 Finn lengden på hypotenusen i en rettvinklet trekant når du vet at katetene har lengde:
 

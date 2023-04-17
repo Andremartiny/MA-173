@@ -1,4 +1,4 @@
-#### Grunnleggende:  Tallteori
+#### Grunnleggende: Finne rekursiv uttrykk for figurtall,  31.03.23
 
 Vis i en illustrasjon hvordan hver figur inneholder den forrige, og finn rekursivt uttrykk for trekanttall $n$:
 ved hjelp av strategien form på tillegg.

@@ -1,4 +1,4 @@
-#### Middels:  Øveoppgaver
+#### Middels: Bruke begrepene funksjon, variabel, uavhengig variabel (innverdi), avhengig variabel (utverdi), funksjonsverdi, definisjonsmengde og verdimengde,  Øveoppgaver
 
 1. Sammenhengen mellom sidelengden og arealet av et kvadrat er en
     funksjonssammenheng.
@@ -62,7 +62,7 @@
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-27-12-33-04.png)
 
-#### Middels:  31.03.23
+#### Middels: Bruke begrepene funksjon, variabel, uavhengig variabel (innverdi), avhengig variabel (utverdi), funksjonsverdi, definisjonsmengde og verdimengde,  31.03.23
 
 Til hvert av punktene A) og B), er to variabler beskrevet. Avgjør i hvert tilfelle om én av variablene er funksjon av den andre, begge variabler er funksjon av hverandre, eller ingen av dem er funksjon av den andre. Besvarelsen må inneholde ordene innverdi og funksjonsverdi, definisjons- og verdimengde.
 
@@ -76,7 +76,7 @@ Besvarelsene *må* inneholde ordene innverdi, funksjonsverdi, definisjons- og ve
 A. Studenten må begrunne sammenhengen personens personnummer og høyde. Siden personnummer er unikt for personer og alle personer kun har en høyde, vil det for hvert personnummer (innverdi) finnes nøyaktig én høyde (funksjonsverdi) som hører til det personnummeret. Dette betyr at høyden er en funksjon av personnummeret. Studenten må også gi en meningsfull forklaring på hva definisjons- og verdimengden er til denne funksjonen.
 B. Studenten bør få fram at det kan finnes flere personer med samme navn. Dermed kan ikke en personens navn være nok til å avgjøre utdanning. Tilsvarende kan en utdanning ikke være nok til å avgjøre hvem personers navn.
 
-#### Middels:  17.02.23
+#### Middels: Bruke begrepene funksjon, variabel, uavhengig variabel (innverdi), avhengig variabel (utverdi), funksjonsverdi, definisjonsmengde og verdimengde,  17.02.23
 
 Til hvert av punktene A) og B), er to variabler beskrevet. Avgjør i hvert tilfelle om én av variablene er funksjon av den andre, begge variabler er funksjon av hverandre, eller ingen av dem er funksjon av den andre. Besvarelsen må inneholde ordene innverdi og funksjonsverdi, definisjons- og verdimengde.
 
@@ -90,7 +90,7 @@ Besvarelsene *må* inneholde ordene innverdi, funksjonsverdi, definisjons- og ve
 A. Studenten må begrunne sammenhengen vekt og pris. Som oftes er prisen avhengig av både størrelse og vekt. På denne måten kan en argumentere for at prisen ikke er entydig bestemt av vekten alene. Derfor er pris ikke en funksjon av vekt. Tilsvarende kan en ikke *hente tilbake* vekten ved å se på prisen, da disse ofte settes i intervaller. På den andre side kan en tolke oppgaven som at pakken er i en fiksert størrelse. Dermed vil vekten entydig bestemme prisen. I dette tilfellet vil vekten være innverdi og prisen være funksjonsverdien. Siden vekten kan være alle positive tall må er det naturlig å tenke at definisjonsmengden er alle positive verdier. Verdimengden i dette tilfellet blir de prisene en er nødt til å betale, som i dette tilfelle nok blir en diskrete verdier.  
 B. Studenten må begrunne sammenhengen tid og temperatur.Det vil for hvert tidspunkt være en målt temperatur utenfor stuevinduet. Dermed kan temperaturen utenfor stuevinduet ses på som en funksjon av tiden. Da det ved flere tidspunkt kan være samme temperatur utenfor, kan en ikke finne tilbake til et tidspunkt ved å se på temperaturen. Derfor vil ikke tiden være en funksjon av temperaturen.
 
-#### Middels:  Funksjoner 13.02.23
+#### Middels: Bruke begrepene funksjon, variabel, uavhengig variabel (innverdi), avhengig variabel (utverdi), funksjonsverdi, definisjonsmengde og verdimengde,  Funksjoner 13.02.23
 
 Én av følgende sammenhenger er en funksjonssammenheng: A) Sammenhengen mellom omkrets og bredden i et rektangel. B) Sammenhengen mellom omkrets og areal av en sirkel.  
 
@@ -101,7 +101,7 @@ Bruk funksjonssammenhengen til å forklare begrepene uavhengig og avhengig varia
 
 Her må studenten peke på og begrunne hvorfor det er sammenhengen mellom omkrets og kvadrat som gir en funksjonssammenheng. Begrunnelsen må referere til en riktig definisjon av en funksjon. Deretter må de bruke eksempelet til å forklare begrepene det bes om.
 
-#### Middels:  Funksjoner 10.02.23
+#### Middels: Bruke begrepene funksjon, variabel, uavhengig variabel (innverdi), avhengig variabel (utverdi), funksjonsverdi, definisjonsmengde og verdimengde,  Funksjoner 10.02.23
 
 Én av følgende sammenhenger er en funksjonssammenheng: A) Sammenhengen mellom omkrets og areal i et rektangel. B) Sammenhengen mellom omkrets og areal i et kvadrat.  
 

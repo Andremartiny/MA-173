@@ -1,5 +1,5 @@
 
-#### Avansert:  Øveppgaver
+#### Avansert: Bruke begrepene i temaet til å løse sammensatte problemet,  Øveppgaver
 
 1. Anta at sannsynligheten for å få en gutt alltid er 1/2. I en familie
     som har to barn er det tre muligheter, to gutter, to jenter eller

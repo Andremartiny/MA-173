@@ -78,10 +78,10 @@ og mynt er dette utfallsrommet uniformt. Vi ser her at det er kun ett av de ått
 
 ##### Løsningsforslag
 
-1. Anta at pærene er nummerert 1 til 6 og la 1 og 2 være defekte. Da er
+1. Anta at pærene er nummerert 1 til 6 og la 1, 2 og 3 være defekte. Da er
 mulig utfall parene, (1,2), (1,3), (1,4), (1,5), (1,6), (2,3), (2,4),
 (2,5), (2,6), (3,4), (3,5), (3,6), (4,5), (4,6) og (5,6). Det er
-rimelig å anta at alle parene er like sannsynlige siden vi trekker tilfeldig. Alle parene som inneholder enten $1$ eller $2$ eller begge betyr at André tar med seg en defekt pære. Teller vi opp får vi at sannsynligheten er $\frac{9}{15}$.
+rimelig å anta at alle parene er like sannsynlige siden vi trekker tilfeldig. Alle parene som inneholder enten $1$, $2$ eller $3$ eller to defekte betyr at André tar med seg en defekt pære. Teller vi opp får vi at sannsynligheten er $\frac{12}{15}$.
 
 2. Vi kan tenke oss at vi uansett kaster to kast, selv om vi får en femmer på første kast. Dette betyr bare at vi har fått yatzy og at det siste kastet ikke har noe å si. Vi kan skrive opp de ulike mulighetene slik:
 $$\left\{ \begin{array}{r}
@@ -155,7 +155,7 @@ trinn.
 #### Middels: Forklare og illustrere produktregelen
 
 Forklare og illustrere produktregelen. Pek tydelig på hvorfor det kommer
-frem at produktregelen må gjelde (Setning 7.53).
+frem at produktregelen må gjelde (Setning 7.24).
 
 ### Forklare og bruke begrepene ordnet utvalg med og uten tilbakelegg
 
@@ -245,8 +245,8 @@ tilbakelegg
 
 1. Siden vi ikke kan trekke en student flere ganger, er dette utvalget uten tilbakelegg. I tillegg er det ingen opplysning som impliserer at de skal være distinkte roller i komitéen. Dermed må dette være uordnet (rekkefølge betyr ikke noe)
 2. Her ser vi at rollen på personene som trekkes ut har noe å si, og det er dermed et ordnet utvalg. Det er også tydelig at vi ikke kan velge samme elev, og dermed er det et ordnet utvalg uten tilbakelegg.
-4. Vi skal velge tre lærere. Det står at det alltids trekkes blant de 6 lærerne, og det er derfor et utvalg med tilbakelegg. Siden det er snakk om en uke mellom utvalgene, så er det naturlig å tolke dette som at rekkefølgen betyr noe. Dermed er dette et ordnet utvalg med tilbakelegg.
-5. Vi kan nummerere setene fra $1$ til $6$, og vi ønsker å velge ut fire av de seks sifrene. Vi kan ikke velge samme siffer to ganger, da dette betyr at vi skal dekke på samme plass to ganger. Dermed er det et utvalg uten tilbakeleg. Siden det å dekke på ikke har noen betydning i forhold til rekkefølgen vi gjør det i, så vil dette være et uordnet utvalg uten tilbakelegg.
+4. Vi skal velge tre lærere. Det står at det alltids trekkes blant de 6 lærerne, og det er derfor et utvalg med tilbakelegg. Siden det er snakk om en uke mellom utvalgene, så er det naturlig å tolke dette som at rekkefølgen betyr noe. Dermed er dette et ordnet utvalg med tilbakelegg. *Alternativt kan en også argumentere for at rekkefølgen ikke har noe å si siden premien er den samme og vinnerne ikke bryr seg om når de får premien*.
+5. Vi kan nummerere setene fra $1$ til $6$, og vi ønsker å velge ut fire av de seks sifrene. Vi kan ikke velge samme siffer to ganger, da dette betyr at vi skal dekke på samme plass to ganger. Dermed er det et utvalg uten tilbakelegg. Siden det å dekke på ikke har noen betydning i forhold til rekkefølgen vi gjør det i, så vil dette være et uordnet utvalg uten tilbakelegg.
 6. $\vdots$
 
 ### Forklare, illustrere og bruke addisjonssetningen (for sannsynlighet *og* kombinatorikk)
@@ -255,10 +255,10 @@ tilbakelegg
 
 Forklare og illustrere hva union og snitt er.
 
-#### Middels: Forklare og illustrere addisjonssetningen for to mengder (Setning 7.53)
+#### Middels: Forklare og illustrere addisjonssetningen for to mengder 
 
 Forklare og illustrere addisjonssetningen. Pek tydelig på hvorfor det kommer
-frem at produktregelen må gjelde (Setning 7.53).
+frem at addisjonsregelen må gjelde (Setning 7.53).
 
 #### Avansert: Bruke addisjonssetningen for å undersøke problemer
 

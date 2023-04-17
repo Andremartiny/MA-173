@@ -1,5 +1,5 @@
 
-#### Middels:  Øveoppgaver
+#### Middels: Forklare hvordan endringer i parameterne i funksjonsuttrykket påvirker grafene til andregrads- og omvendt proporsjonale funksjoner,  Øveoppgaver
 
 1. En kvadratisk funksjon ser generelt slik ut:
     $f(x) = ax^{2} + bx + c$. Forklar kort (slik at det fremstår
@@ -27,7 +27,8 @@
 
 Se vurderingskriteriene fra ett av vurderingssettene.
 
-#### Middels:  31.03.23
+
+#### Middels: Forklare hvordan endringer i parameterne i funksjonsuttrykket påvirker grafene til andregrads- og omvendt proporsjonale funksjoner,  31.03.23
 
 En omvendt proporsjonal funksjon ser generelt slik ut: $f(x)=\frac{a}{x}$. Forklar kort (slik at det fremstår meningsfullt for noen som ikke kan det) og vis i et koordinatsystem hvordan grafen må se ut når
 parameteren $a$ er større enn 0.
@@ -44,7 +45,8 @@ Grafen må skisseres for $a>0$ og $a<0$. Det må komme fram hvorfor formen på g
 Kvadratiske funksjoner:  
 Her må det kort komme fram at a avgjør hvor bratt funksjonen stiger (hvis $a>0$) eller synker ($a<0$), og at $c$ flytter grafen oppover eller nedover og tilsier hvor funksjonen skjærer andreaksen.
 
-#### Middels:  17.02.23
+
+#### Middels: Forklare hvordan endringer i parameterne i funksjonsuttrykket påvirker grafene til andregrads- og omvendt proporsjonale funksjoner,  17.02.23
 
 En omvendt proporsjonal funksjon ser generelt slik ut: $f(x)=\frac{a}{x}$. Forklar kort (slik at det fremstår meningsfullt for noen som ikke kan det) og vis i et koordinatsystem hvordan grafen må se ut når
 parameteren $a$ er større enn 0.
@@ -62,7 +64,7 @@ Kvadratiske funksjoner:
 Her må det kort komme fram at a avgjør hvor bratt funksjonen stiger (hvis $a>0$) eller synker ($a<0$), og at $c$ flytter grafen oppover eller nedover og tilsier hvor funksjonen skjærer andreaksen.
 
 
-#### Middels:  Funksjoner 13.02.23
+#### Middels: Forklare hvordan endringer i parameterne i funksjonsuttrykket påvirker grafene til andregrads- og omvendt proporsjonale funksjoner,  Funksjoner 13.02.23
 
 En omvendt proporsjonal funksjon ser generelt slik ut: $f(x)=\frac{a}{x}$. Forklar kort (slik at det fremstår meningsfullt for noen som ikke kan det) og vis i et koordinatsystem hvordan grafen må se ut når
 parameteren $a$ er større enn 0.
@@ -71,6 +73,7 @@ parameteren $a$ er mindre enn 0
 En kvadratisk funksjon ser generelt slik ut: $f(x)=ax^2+bx+c$. Forklar kort (slik at det fremstår meningsfullt for noen som ikke kan det) og vis i et koordinatsystem hva som skjer med grafen når
 parameteren $a$ endres.
 parameteren $c$ endres.
+ de to omvendt proporsjonale grafene.  
 
 #### Vurderingskriterier middels:  Funksjoner 13.02.23
 
@@ -81,7 +84,7 @@ Her må det kort komme fram at a avgjør hvor bratt funksjonen stiger (hvis $a>0
 
 
 
-#### Middels:  Funksjoner 3.02.23
+#### Middels: Forklare hvordan endringer i parameterne i funksjonsuttrykket påvirker grafene til andregrads- og omvendt proporsjonale funksjoner,  Funksjoner 3.02.23
 
 En omvendt proporsjonal funksjon ser generelt slik ut: $f(x)=\frac{a}{x}$. Forklar kort (slik at det fremstår meningsfullt for noen som ikke kan det) og vis i et koordinatsystem hvordan grafen må se ut når
 parameteren $a$ er større enn 0.
@@ -97,7 +100,7 @@ i. Omvendt proporsjonale: Grafen må skisseres for a>0 og a<0. Det må komme fra
 ii. Kvadratiske funksjoner: Her må det kort komme fram at a avgjør hvor bratt funksjonen stiger (hvis a>0) eller synker (a<0), og at c flytter grafen oppover eller nedover og tilsier hvor funksjonen skjærer andreaksen.
 
 
-#### Middels:  Funksjoner 27.01.23
+#### Middels: Forklare hvordan endringer i parameterne i funksjonsuttrykket påvirker grafene til andregrads- og omvendt proporsjonale funksjoner,  Funksjoner 27.01.23
 
 En omvendt proporsjonal funksjon ser generelt slik ut: $f(x)=\frac{a}{x}$. Forklar kort (slik at det fremstår meningsfullt for noen som ikke kan det) og vis i et koordinatsystem hvordan grafen må se ut når
 parameteren $a$ er større enn 0.
@@ -106,6 +109,7 @@ parameteren $a$ er mindre enn 0
 En kvadratisk funksjon ser generelt slik ut: $f(x)=ax^2+bx+c$. Forklar kort (slik at det fremstår meningsfullt for noen som ikke kan det) og vis i et koordinatsystem hva som skjer med grafen når
 parameteren $a$ endres.
 parameteren $c$ endres.
+
 
 #### Vurderingskriterier middels:  Funksjoner 27.01.23
 
