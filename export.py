@@ -15,13 +15,11 @@ for file in os.listdir("./Splitting"):
     if file.endswith(".md"):
         if file == "geo.md" or file == "tallteori.md":
             continue
-        # if file != "tallteori copy.md":
-        #     continue
         file = f"./Splitting/{file}"
         print(file)
         date = datetime.date.today().strftime("%Y-%m-%d")
         print(os.path.splitext(file)[0])
-        fileout_pdf = f"{os.path.splitext(file)[0]}_{date}.pdf"
+        fileout_pdf = f"{os.path.splitext(file)[0]}.pdf"
         fileout_html = os.path.splitext(file)[0] + ".html"
         # pypandoc.convert_file(file, to="html", outputfile=fileout_html, extra_args=[
         #     "--css=styling.css",
