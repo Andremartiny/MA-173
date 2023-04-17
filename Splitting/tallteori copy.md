@@ -106,11 +106,11 @@ pandoc .\quizzer\tallteori\tallteori.md -f markdown -t html --mathjax --template
    a. \
    Formelt: At et tall er et partall betyr at det kan deles på $2$ eller sagt med andre ord at det inneholder faktoren $2$. Det betyr derfor at vi kan skrive to vilkårlige partall som $2m$ og $2n$. Produktet av disse vil derfor være $2n\cdot 2m = 2(2nm)$. Dette er et tall som kan deles på to og er derfor også et partall. Dermed har vi vist at produktet av to partall alltid er et partall. \
    Grunnskoletilpasset: La oss begynne med å avklare en måte å tenke på partall. Siden partall betyr at noe kan deles på to, kan vi også si at partall kan stables eller visualiseres som tårn som kommer i par. For eksempel kan vi ta utgangspunkt i to partall $4$ og $6$. Stabler vi disse slik som forklart vil de se ut som på bildet under:
-   ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main//img/tallteo/pargpardel1.svg)
+   [](https://raw.githubusercontent.com/Andremartiny/MA-173/main//img/tallteo/pargpardel1.svg)
    Ved å tenke på multiplikasjon som gjentatt addisjon kan vi derfor gjenta partårnet som representerer $6$ fire ganger. Multiplikasjonen kan vi altså se for oss slik som figuren under:
-   ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main//img/tallteo/pargpardel2.svg)
+   [](https://raw.githubusercontent.com/Andremartiny/MA-173/main//img/tallteo/pargpardel2.svg)
    Siden vi nå har flere tårn (helt konkret fire tårn), som alle er to i bredden. Kan vi stable de fint oppå hverandre, noe som gir et nytt partårn.
-   ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main//img/tallteo/pargpardel3.svg)
+   [](https://raw.githubusercontent.com/Andremartiny/MA-173/main//img/tallteo/pargpardel3.svg)
    Siden sluttresultatet endte med et partårn var sluttresultatet også et partall, i dette tilfellet var $6\cdot 4 = 24$. Vi kan deretter peke på at det ikke var noe spesielt med hverken $4$ eller $6$. Det eneste spesielle var vi la sammen flere partårn (vi la sammen fire), det kunne vært hva som helst. Vi kunne for eksempel byttet ut $6$ med et hvilket som helst partall. Vi kunne også byttet ut $4$ med et hvilket som helst partall også. Hadde vi for eksempel tatt $6$ og $24$ ville strukturen i beviset fortsatt fungert, noe som må bety at partall multiplisert med partall må resultere i et partall.
 
 #### Avansert: Løse (også ukjente) problemer knyttet til begrepene
@@ -213,7 +213,7 @@ pandoc .\quizzer\tallteori\tallteori.md -f markdown -t html --mathjax --template
 ##### Løsningsforslag
 
 1. For å bruke sum av tillegg er vi nødt til å fremheve tilleggene fra figur til figur. Gjør dette selv ved å tegne! Se også \
-![Hentet fra Wikipedia](https://upload.wikimedia.org/wikipedia/commons/b/b5/Pentagonal_number.gif)
+[Hentet fra Wikipedia](https://upload.wikimedia.org/wikipedia/commons/b/b5/Pentagonal_number.gif)
 
 Vi ser altså at tillegget fra $P_1$ til $P_2$ er $4$, fra $P_2$ til $P_3$ er $7$. Generelt kan vi legge merke til at vi legger til $3$ sider med sidelengde $n$ for å lage $P_n$ fra $P_{n-1}$. Når vi legger til sidene får vi to hjørner som overtelles. Generelt må tillegget derfor være $3n-2$. Vi kan nå skrive figurene våre ved hjelp av tilleggene.
 $$
@@ -303,7 +303,7 @@ $P_n = 3T_n -2n = \frac{3n(n+1)}{2}-2n$.
    $$
    c. Hvis vi skal vise at figurtallet $P_n$ er én mindre enn kvadrattall nummer $n+1$, kan vi bare se på differansen mellom de. $(n+1)^2 - P_n = (n^2+2n+1)-(n^2+2n) = n^2 +2n + 1 - n^2 -2n = 1$. Som viser første del av oppgaven. Vi må nå bare omarrangere figuren. Det kan for eksempel gjøres som i figuren nedenfor. Der ser de grønne ringene uten rød ring ikke flyttet. De grønne med rød ring rundt er de hvite ringene flyttet og den røde ringen er den *manglende* ringen for å fullføre kvadratet.
 
-![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/stirrehardt.svg)
+[](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/stirrehardt.svg)
 
 ### Finne rekursivt uttrykk for figurtall
 
@@ -363,7 +363,7 @@ Se heftet for alle.
 1. Ser vi på oppgave 1. i læringsmålet **Finne eksplisitt uttrykk for figurtall** på Avansert nivå, ser vi at mye av arbeidet allerede er forklart.
 
    a. Vi kan for eksempel tegne figurene på følgende måte (prøv selv og tegne neste med egne farger, der det forrige figur kommer tydelig fram i neste).
-![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/rekursivtall.svg)
+[](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/rekursivtall.svg)
    b. Fra tidligere har vi at formen på tillegget er $2n+1$ og dermed vet vi derfor at $F_n = F_{n-1} + 2n+1$
    c. Vi har også fra tidligere at det eksplisitte uttrykket er $P_n = n^2 + 2n$. Vi må derfor finne tillegget ved å se på $P_n - P_{n-1}$. Ved å regne får vi
    $$
@@ -407,7 +407,7 @@ Se heftet for alle.
 
 1. \
    a. Dette kan gjøres på flere måter. For eksempel kan en se forrige figur i neste, og peke på hva som er lagt til for å bygge den nye figuren. Vi kan også peke på at figuren består av to deler. En trekant, som står på et rektangel. For å lage neste figur så skyv trekanten opp og legg til en bunn på størrelse $n+1$. Rektangelet skal øke én i høyde og én i bredde også. Dermed må vi legge til $n$ og $n-1$. Totalt legger vi altså til $3n$.
-   b. Under er sammenhengen markert. De grønne er forrige figur, det røde er det som legges til i trekanten, det blå er bunnen som legges til i rektangelet, og det gule er siden som legges til i rektangelet. ![Rekursiv sammenheng](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/rekursiv.svg)
+   b. Under er sammenhengen markert. De grønne er forrige figur, det røde er det som legges til i trekanten, det blå er bunnen som legges til i rektangelet, og det gule er siden som legges til i rektangelet. [Rekursiv sammenheng](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/rekursiv.svg)
    c. Vi kan nå bruke dekomponeringen vi har brukt til å beskrive den rekursive sammenhengen. For figur $P_n$ har vi trekanttall $n+1$ minus toppen. Det gir $T_{n+1}-1 = \frac{(n+1)(n+2)}{2}-1$. Rektangelet er alltid $n(n-1)$, så vi får at den eksplisitte formelen er $\frac{(n+1)(n+2)}{2}-1+n(n-1)$.
 
 #### Middels: Finne flere algebraiske uttrykk til samme figur
