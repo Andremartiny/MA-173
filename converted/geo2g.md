@@ -28,11 +28,11 @@ Besvarelsen må gi eksempler i både tre dimensjoner der måltall, måleenhet og
 
 Besvarelsen må gi eksempler i både tre dimensjoner der måltall, måleenhet og størrelsen blir forklart forståelig.
 
-#### Grunnleggende: Bruke begrepene måltall, størrelse og måleenhet til å avgjøre størrelsen av grunnleggende figurer i 3 dimensjoner,  10.02.23 {#f10}
+#### Grunnleggende: Bruke begrepene måltall, størrelse og måleenhet til å avgjøre størrelsen av grunnleggende figurer i 3 dimensjoner,  10.02.23
 
 1. Forklar og gi eksempler på hva som menes med begrepene størrelse, måltall og måleenhet. Besvarelsen må inneholde 3-dimensjonale eksempler.
 
-#### Vurderingskriterier grunnleggende:  10.02.23 {#f10}
+#### Vurderingskriterier grunnleggende:  10.02.23
 
 Besvarelsen må gi eksempler i både tre dimensjoner der måltall, måleenhet og størrelsen blir forklart forståelig.
 

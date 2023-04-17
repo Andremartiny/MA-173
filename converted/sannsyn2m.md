@@ -32,6 +32,18 @@ Totalt 8 mulige utfall. Siden hvert kast gir lik sannsynlighet for kron
 og mynt er dette utfallsrommet uniformt. Vi ser her at det er kun ett av de åtte tilfellene som gir kun tre kron, mens det er flere som gir nøyaktig to kron. Dermed kan ikke det opprinnelige utfallsrommet gitt i teksten gi opphav til en uniform
 
 
+#### Middels: Forklare og bruke begrepet uniform sannsynlighetsmodell,  17.04.23
+
+1. André skal kaste en sekssidet terning. Han skal kaste terningen en gang og setter opp utfallsrommet $\{1, 2, 3, 4, 5, 6\}$. Avgjør om dette gir en uniform sannsynlighetsmodell.
+
+2. Avgjør og begrunn om det finnes noen sannsynlighetsmodell der $P(u_3) = 0.15$.
+
+##### Vurderingskriterier
+
+1. Studenten må forklare at dette gir opphav til en uniform sannsynlighetsmodell ved å peke på at alle utfallene i utfallsrommet er like sannsynlige.
+2. Studenten må konkludere med at dette ikke går an. Dette kan man innse ved å se at siden $0.15 = \frac{3}{20}$, og $3$ ikke går opp i $20$, så vil det ikke finnes et heltall antall utfall som gjør at summen av sannsynlighetene blir $1$.
+
+
 #### Middels: Forklare og bruke begrepet uniform sannsynlighetsmodell,  31.03.23
 
 André skal kaste en firesidet terning, nummerert 1 til 4. Han skal kaste terningen tre ganger og ønsker å få flest enere. og setter opp utfallsrommet {tre enere, to enere , en ener, ingen enere}. Avgjør om dette gir opphav til en uniform sannsynlighetsmodell.

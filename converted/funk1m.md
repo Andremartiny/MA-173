@@ -27,6 +27,22 @@
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-27-11-46-49.png)
 
 
+#### Middels: Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon,  17.04.23
+
+Avgjør og begrunn hva slags funksjon det er snakk om i hvert tilfelle. Begrunnelsen må vise til både en graf og et funksjonsuttrykk:
+
+   a. Du har 36 liter saft du skal fordele likt på et antall glass. Hva er sammenhengen mellom hvor mye innhold det blir i hvert glass og antall glass du skal fylle?
+
+   b. Henrik har en gressplen som er $2$ meter lang og $5$ meter høy. Han ønsker å utvide gressplenen like mye i hver retning. Hva er sammenhengen mellom hvor stor gressplen han får og hvor mye han utvider gressplenen med?
+
+##### Vurderingskriterier
+
+Studenten må avgjøre og begrunne hva slags funksjon det er snakk om, og lage et funksjonsuttrykk og en graf. For eksempel kan de gjøre det som under
+
+a. Hvis vi skal fordele 36 liter saft på $x$ antall glass tar vi $\frac{36}{x}$. Dermed vil $I(x) = \frac{36}{x}$ være innhold per glass som funksjon av $x$ (vi merker oss at ved få glass, vil innhold per glass være urimelig mye). Dette er en omvendt proposjonal funksjon. Grafen må studenten skissere selv.
+b. Hvis plenen øker med $x$ i hver retning blir den nye plenen $(2+x)$ og $(5+x)$ i lengde. Det nye arealet er derfor $A(x) = (2+x)(5+x)$ en andregradsfunksjon. Grafen må studenten skissere selv.
+  
+
 #### Middels: Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon,  31.03.23
 
 1. Et kvadrat i grønt ligger over et rektangel i lilla og  firkantene vokser i takt, slik som vist under. Rektangelets grunnlinje er alltid tre ganger så lang som sidelengen i kvadratet, og høyden til rektangelet er to ganger så langt som kvadratets sidelengde. Hva er sammenhengen mellom sidelengden i kvadratet og det synlige lilla området?
@@ -55,7 +71,7 @@
 2. Studenten må få fram at dette ikke gir en omvendt proporsjonal sammenhenge. Dette kan de for eksempel gjøre ved å forklare at $y$ må være $1000-3x$, der $x$ er anntall gjester og peke på at dette ikke gir sammenhengen $y\cdot x = a$ der $a$ er en konstant.  
 
 
-#### Middels: Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon,  Funksjoner 13.02.23
+#### Middels: Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon,  13.02.23
 
 1. I hagen ligger det et barnebasseng som rommer $1$ m$^3$. Bassenget skal fylles med vann. Du har en vannslage som fyller $0,05$ m$^3$ vann i bassenget per minutt. I tillegg fyller du bøtter med varmt vann innefra og klarer å fylle $0,01$ m$^3$ varmt vann per minutt.  Hva er sammenhengen mellom tiden og mengden vann i bassenget?
 
@@ -63,13 +79,13 @@
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-20-48-58.png)
 
-#### Vurderingskriterier middels:  Funksjoner 13.02.23
+#### Vurderingskriterier middels:  13.02.23
 
 1. Studenten *må* lage en sammenheng mellom mengde vann og tid. Det naturlige er at å koble mengde vann som fylles per minutt, som er $0,\!05 + 0,\!01 = 0,\!06$. Siden vi skal fylle et basseng kan vi anta et det er tomt, som gir $f(x) =0,\!06x$, der $x$ er antall minutter og $f$ er antall $m^3$ som vannet fyller i bassenget.  
 2. Studenten må peke på egenskaper ved omvendtproporsjonale funksjoner for å begrunne. For eksempel kan en peke på at den grønne funksjonen oppfyller dobling av $x$ gir halvering av $y$. Altså at $x= 4$ gir $y=16$ og $x=8$ gir $y = 8$. De bør også pekes på at den blå grafen ikke oppfyller denne egenskapen for eksempel ved å peke på at de krysser i $x= 8$, men ikke i $x= 4$.  
 
 
-#### Middels: Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon,  Funksjoner 10.02.23
+#### Middels: Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon,  10.02.23
 
 1. På hyttetaket ligger det $70$ m$^3$ snø som skal spas bort. Hvert spadetak rommer $0,8$ m$^3$, og du greier $8$ spadetak i minuttet. Hva er sammenhengen mellom tiden og mengden snø igjen på taket?
 
@@ -77,13 +93,13 @@
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-21-04-39.png)
 
-#### Vurderingskriterier middels:  Funksjoner 10.02.23
+#### Vurderingskriterier middels:  10.02.23
 
 1. Studenten *må* lage en sammenheng mellom mengde snø og tid. Det naturlige er at å koble mengde snø fjernet per minutt, som er $8\cdot 0,\!8 = 6,\!4$. Siden vi begynne på $70$ må dette gi $f(x) = 70- 6,\!4x$, det $x$ er antall minutter.
 2. Studenten må peke på egenskaper ved omvendtproporsjonale funksjoner for å begrunne. For eksempel kan en peke på at den grønne funksjonen oppfyller dobling av $x$ gir halvering av $y$. Altså at $x= 1$ gir $y=36$ og $x=2$ gir $y = 18$. De bør også pekes på at den blå grafen ikke oppfyller denne egenskapen da $x = 1$ gir $y$ over $30$ og $x= 2$ gir $y$ under $15$.
 
 
-#### Middels: Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon,  Funksjoner 3.02.23
+#### Middels: Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon,  3.02.23
 
 1. Under ser du tre situasjoner. Avgjør og begrunn hva slags funksjon det er snakk om i hvert tilfelle. Begrunnelsen må vise til både en graf og et funksjonsuttrykk.
 
@@ -93,11 +109,11 @@ b. Du skal lage en sirkulær figur med radius $r$. Hva er sammenhengen mellom ra
 
 c. Du kjører med bil fra Skien til Kristiansand. Du bruker $0.5$ liter bensin per mil. Du starter i Skien med 50 liter bensin. Hva er sammenhengen mellom liter igjen på tanken og mil du har kjørt?
 
-#### Vurderingskriterier middels:  Funksjoner 3.02.23
+#### Vurderingskriterier middels:  3.02.23
 
 De må avgjøre, med begrunnelse (for eksempel ved å peke på definisjon og funksjonsuttrykket de har gitt), hvilken type funksjon som hører til alle tre situasjonene. Det skal også gis et funksjonsuttrykk og en grafisk representasjon av situasjonen.
 
-#### Middels: Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon,  Funksjoner 27.01.23
+#### Middels: Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon,  27.01.23
 
 1. Under ser du tre situasjoner. Avgjør og begrunn hva slags funksjon det er snakk om i hvert tilfelle. Begrunnelsen må vise til både en graf og et funksjonsuttrykk.
 
@@ -107,7 +123,7 @@ b. Du skal male en rektangulær vegg der høyden er 2 meter lengre enn bredden. 
 
 c. Du skal utføre et arbeid og får 1000 kr i grunnhonorar for å ta på deg oppdraget. I tillegg får du en timelønn på 250 kroner. Hva er sammenhengen mellom antall timer du utfører på arbeidet og inntekten du får for arbeidet?
 
-#### Vurderingskriterier middels:  Funksjoner 27.01.23
+#### Vurderingskriterier middels:  27.01.23
 
 De må avgjøre, med begrunnelse (for eksempel ved å peke på definisjon og funksjonsuttrykket de har gitt), hvilken type funksjon som hører til alle tre situasjonene. Det skal også gis et funksjonsuttrykk og en grafisk representasjon av situasjonen
 

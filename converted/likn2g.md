@@ -8,6 +8,14 @@
 
     c.  3.70
 
+#### Grunnleggende: Løse lineære ulikheter ved hjelp av ulike strategier,  17.04.23
+
+Løs ulikheten $2(3-x) \leq 6$.
+
+#### Vurderingskriterier grunnleggende:  17.04.23
+
+Her må de bare løse ulikheten.
+
 #### Grunnleggende: Løse lineære ulikheter ved hjelp av ulike strategier,  17.02.23
 
 Løs ulikheten $2(3-x) \geq 6$.

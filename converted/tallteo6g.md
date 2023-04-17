@@ -143,7 +143,7 @@ ii. Her er ordlyden blitt litt dum. Her må de henvise til
 illustrasjonen for å få fram hvordan figuren utvikler seg
 rekursivt.
 
-#### Grunnleggende: Beskrive oppbygningen av figurtall (alle typer),  10.01.2023
+#### Grunnleggende: Beskrive oppbygningen av figurtall (alle typer),  10.01.23
 
 Ved å illustrere båttallene og markere i illustrasjonen, gi en ordforklaring av
 

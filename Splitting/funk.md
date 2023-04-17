@@ -477,6 +477,184 @@ Se vurderingskriteriene fra ett av vurderingssettene.
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-27-12-47-38.png)
 
+## 17.04.23
+
+### Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon
+
+#### Grunnleggende: Forklare kjennetegn ved og gi eksempler på funksjonstypene
+
+1. Gi et eksempel på en lineær funksjon, og forklart kort, med utgangspunkt i eksemplet ditt, hva som kjennetegner en lineær funksjon.
+2. Gi et eksempel på en kvadratisk funksjon, og forklart kort, med utgangspunkt i eksemplet ditt, hva som kjennetegner en kvadratisk funksjon.
+3. Gi et eksempel på en omvendt proporsjonal funksjon, og forklart kort, med utgangspunkt i eksemplet ditt, hva som kjennetegner en omvendt proporsjonal funksjon.
+
+#### Middels: Bestemme og begrunne funksjonstype basert på beskrivelse av situasjon, uttrykk, graf og tabell
+
+Avgjør og begrunn hva slags funksjon det er snakk om i hvert tilfelle. Begrunnelsen må vise til både en graf og et funksjonsuttrykk:
+
+   a. Du har 36 liter saft du skal fordele likt på et antall glass. Hva er sammenhengen mellom hvor mye innhold det blir i hvert glass og antall glass du skal fylle?
+
+   b. Henrik har en gressplen som er $2$ meter lang og $5$ meter høy. Han ønsker å utvide gressplenen like mye i hver retning. Hva er sammenhengen mellom hvor stor gressplen han får og hvor mye han utvider gressplenen med?
+
+##### Vurderingskriterier
+
+Studenten må avgjøre og begrunne hva slags funksjon det er snakk om, og lage et funksjonsuttrykk og en graf. For eksempel kan de gjøre det som under
+
+a. Hvis vi skal fordele 36 liter saft på $x$ antall glass tar vi $\frac{36}{x}$. Dermed vil $I(x) = \frac{36}{x}$ være innhold per glass som funksjon av $x$ (vi merker oss at ved få glass, vil innhold per glass være urimelig mye). Dette er en omvendt proposjonal funksjon. Grafen må studenten skissere selv.
+b. Hvis plenen øker med $x$ i hver retning blir den nye plenen $(2+x)$ og $(5+x)$ i lengde. Det nye arealet er derfor $A(x) = (2+x)(5+x)$ en andregradsfunksjon. Grafen må studenten skissere selv.
+  
+#### Avansert: Gjøre om mellom ulike representasjonsformer for de tre funksjonstypene, og begrunne omgjøringen
+
+1. Tabellen under viser en funksjonssammenheng.
+    a.  Avgjør om den er lineær, kvadratisk eller omvendt proporsjonal.
+    b.  Finn funksjonsuttrykk, og skisser grafen.
+
+$$
+\begin{array} {|r|r|r|r|r|}\hline x &  \frac{1}{2} & 1 & 2 & 3\\ \hline y & 24 & 12 & 6 & 4\\ \hline  \end{array}
+$$
+
+2. Under ser du grafen til en funksjon.
+
+        a.  Avgjør hva slags funksjon det er snakk om.
+
+        b.  Finn funksjonsuttrykket.
+
+        c.  Lag en passende situasjon som kan høre til funksjonssammenhengen.
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-15-14-20-36.png)
+
+### Forklare sammenhenger mellom parameterne i funksjonsuttrykket og grafen til lineære funksjoner
+
+#### Grunnleggende: Forklare hvordan endringer i stigningstall og konstantledd påvirker grafen til en lineær funksjon
+
+Gitt en lineær funksjon $ax+b$, der $a = 1$ og $b=0$. Illustrer i et koordinatsystem hvordan endringer av $a$ påvirker grafen og hvordan endringer av $b$ påvirker grafen.
+
+##### Vurderingskriterier: Grunnleggende {#170221}
+
+Peke på hva parameterne gjør for førstegradsfunksjoner
+
+#### Middels: Forklare hvordan man kan finne likninga til en lineær funksjon når to punkter på grafen er kjent uten bruk av topunktsformelen
+
+Grafen til en lineær funksjon går gjennom punktene $(\frac{1}{2}, 0)$ og $(\frac{3}{2}, 5)$. Forklar hvordan vi kan finne likninga til den lineære funksjonen.
+
+##### Vurderingskriterier: Middels
+
+Finne likninga og forklare hvordan på en slik måte at man klart forstår det generelle i fremgangsmåten (kunne åpenbart blitt brukt for hvilke som helst punkt-par).
+
+### Forklare hvordan endringer i parameterne i funksjonsuttrykket påvirker grafene til andregrads- og omvendt proporsjonale funksjoner
+
+#### Grunnleggende: Gjengi hvilke roller parameterne i funksjonsuttrykkene til andregrads- og omvendt proporsjonale funksjoner spiller med hensyn til grafene
+
+En omvendt proporsjonal funksjon kan skrives på formen $\frac{a}{x}$. Vis i et koordinatsystem hvordan grafen ser ut dersom $a>0$ og dersom $a<0$.
+
+Skisser grafen til $f$ og $g$ der $f(x)=(x+1)^2 - 2$ og  $g(x)=(x+1)^2 + 2$
+
+##### Vurderingskriterier: Grunnleggende {#170231}
+
+1. Peke på hva parameterne gjør for andregradsfunksjoner
+2. Skissere de to omvendt proporsjonale grafene.  
+
+#### Middels: Forklare hvordan endringer i parameterne i funksjonsuttrykket påvirker grafene til andregrads- og omvendt proporsjonale funksjoner
+
+En omvendt proporsjonal funksjon ser generelt slik ut: $f(x)=\frac{a}{x}$. Forklar kort (slik at det fremstår meningsfullt for noen som ikke kan det) og vis i et koordinatsystem hvordan grafen må se ut når
+parameteren $a$ er større enn 0.
+parameteren $a$ er mindre enn 0
+
+En kvadratisk funksjon ser generelt slik ut: $f(x)=ax^2+bx+c$. Forklar kort (slik at det fremstår meningsfullt for noen som ikke kan det) og vis i et koordinatsystem hva som skjer med grafen når
+parameteren $a$ endres.
+parameteren $c$ endres.
+
+##### Vurderingskriterier: Middels
+
+1. Omvendt proporsjonale:  
+Grafen må skisseres for $a>0$ og $a<0$. Det må komme fram hvorfor formen på grafen er som den er. For eksempel $a>0$ kan en gi et konkret eksempel på en om omvendt prop. funk. og framheve sammenhengen (skaleres $x$ opp med noe skaleres $y$ ned med det samme, derav navnet omvendt prop) $\rightarrow$  større og større $x$ gir $y$ som kryper mot $0$, mindre og mindre $x$ gir større og større $y$. Det bør komme fram noen symmetrier med grafen. Når $a<0$ kan en bare peke på at $a< 0$ gir bare samme graf flippet over $x$-aksen.  
+Kvadratiske funksjoner:  
+Her må det kort komme fram at a avgjør hvor bratt funksjonen stiger (hvis $a>0$) eller synker ($a<0$), og at $c$ flytter grafen oppover eller nedover og tilsier hvor funksjonen skjærer andreaksen.
+
+### Løse likninger fra funksjonsperspektiv
+
+#### Grunnleggende: Forklare algebraisk og grafisk hva som menes med løsningen av en lineær likning
+
+Gitt likningen $6 = 2(3-x)$.
+
+1. Løs likningen
+2. Tolk venstre side og høyre side som funksjonsuttrykk, og skisser grafene i samme koordinatsystem.
+3. Forklar algebraisk og grafisk hva det vil si at tallet du fant i 1. er en løsning på likningen.
+
+##### Vurderingskriterier
+
+Alle oppgaver må besvares.  
+
+1. Likningen må løses.
+2. Her må de tolke og skissere begge grafene i samme koordinatsystem.
+3. Gi en forklaring som viser sammenhengen mellom at løsning gir likhet av venstre og høyre side i likningen og at det tilsvarer skjæringspunktet mellom grafene.  
+
+#### Middels: Tolke lineære likninger grafisk, og finne skjæringspunkt mellom lineære grafer og mellom lineære grafer og aksene
+
+1. Gi en situasjon som passer til funksjonen $f(x)=50-5x$. Hva svarer likninga $50 - 5x= 10$ til i situasjonsbeskrivelsen din? Tolk og løs likningen grafisk i et koordinatsystem.
+
+##### Vurderingskriterier
+
+Studenten må lage en situasjon som gir opphav til likningen. Deretter må de illustrere likningen grafisk og vise løsningen i koordinatsystemet.
+
+#### Avansert: Tolke likninger grafisk, og finne skjæringspunkt mellom grafer til ulike typer funksjoner og mellom grafer og aksene
+
+La $f(x)=3x^2-8x+12$  og  $g(x)= 4x + 3$.
+
+Bestem eventuelle skjæringspunkt (begge koordinater) mellom grafene til $f$ og $g$ ved regning.
+
+Skisser grafene i et koordinatsystem.
+
+##### Vurderingskriterier
+
+Alle oppgavene må besvares
+
+1. Studenten må regne ut skjæringspunktene.
+2. Studenten må skissere grafene i et koordinatsystem.
+
+### Bruke begrepene funksjon, variabel, uavhengig variabel (innverdi), avhengig variabel (utverdi), funksjonsverdi, definisjonsmengde og verdimengde
+
+#### Grunnleggende: Gjengi, forklare og gi eksempler på begrepene
+
+Sammenhengen mellom vann og saft i ferdigblandet Kjelsruds hjemmelagde husholdningssaft er at det skal være ni ganger så mye vann som det er saft. Bruk eksemplet til å forklare begrepene funksjon, innverdi og funksjonsverdi.
+
+##### Vurderingskriterier
+
+Studenten må bruke situasjonen til å forklare begrepene. For eksempel kan de peke på at hvis $x$ er antall liter saft, så vil antall liter ferdigblandet saft $f$ være ti ganger så mye. Dette kan skrives som funksjonsuttrykket $f(x) = 10x$, der $x$ (antall liter saft) er innverdi og $f$ (antall liter ferdigblandet saft) er funksjonsverdi og at antall liter ferdigblandet saft er en *funksjon* av antall liter ren saft. Dette er fordi en funksjon er en sammenheng eller regel som for hver innverdi gir en entydig funksjonsverdi. I dette tilfellet ser vi at for hver innverdi (ren saft), får vi 10 ganger så stor funksjonsverdi (ferdigblandet saft).
+
+#### Middels: Avgjøre og begrunne (ved hjelp av begrepene) om en gitt sammenheng er en funksjonssammenheng
+
+Til hvert av punktene A) og B), er to variabler beskrevet. Avgjør i hvert tilfelle om én av variablene er funksjon av den andre, begge variabler er funksjon av hverandre, eller ingen av dem er funksjon av den andre. Besvarelsen må inneholde ordene innverdi og funksjonsverdi, definisjons- og verdimengde.
+
+A) Mengde blandet saft og mengde vann i ferdigblandet saft som skal blandes i blandingsforholdet $5: 1$.
+
+B) Temperatur ved plenen til UiA og tidspunkt for målingene
+
+##### Vurderingskriterier
+
+Studenten må gi fornuftige og forståelige forklaringer. Besvarelsene *må* inneholde ordene innverdi, funksjonsverdi, definisjons- og verdimengde.
+
+A) Her må studenten peke på at begge variablene kan være en funksjon av hverandre. Vet vi mengde blandet saft så kan vi finne ut av mengde vann, da dette utgjør $\frac{5}{6}$ av den ferdigblannede saften og vet vi antall vann liter, så vet vi at det er $\frac{6}{5}$ liter ferdigblandet saft.
+
+B) Studenten få fram ved et gitt tidspunkt vil det være en entydig temperatur som kan måles av, dermed er temperatur ved plenen en funksjon av tiden. Siden det kan være flere tidspunkter der målingene viser samme temperatur, kan vi ikke avgjøre tidspunktet for målingen ved å se på temperatur. Derfor er tiden ikke en funksjon av temperaturen.
+
+### Gjøre om mellom ulike representasjonsformer for funksjonssammenhenger
+
+#### Middels: Gjøre om mellom de fire representasjonene av funksjoner (Janviers tabell, Alfa 4.1), og vurdere elevers arbeid med overganger mellom representasjonene
+
+Under ser du en skisse av Henrik i klatreveggen på Klatreverket på grim.
+
+Han klatrer hele ruten med jevn fart frem til det bratteste partiet i toppen. Der bruker han lang tid. Når han er kommet til toppen slipper han seg ned og faller i fritt fall noen meter, før sikreren på bakken får bremset tauet slik at Henrik stopper opp i luften. Deretter blir han bremset sakte ned i konstant fart.
+
+Skisser en graf som viser hvor høyt Henrik er over bakken som en funksjon av tid fra han begynte å klatre til han var nede på bakken igjen.
+
+[](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/funk/klatring.png)
+
+##### Vurderingskriterier
+
+Studentene må skissere en graf som får fram sammenhengen på en riktig måte, den må også samsvare med opplysningene som er beskrevet i teksten. \
+Siden strekningen inneholder ulike soner med ulike hastigheter *må* dette være gjenspeilet i grafen. For eksempel må første stigning når Henrik klatrer være relativt langsom, men bli langsommere når han kommer til det bratte partiet. Deretter må funksjonen ha veldig bratt stigning nedover (over kort tid), til Henrik blir stoppet av taubremsen. Her må grafen være konstant en periode før han blir senket ned. Dette må stigningen være negativ, men ikke så veldig brat..
+
+
 ## 31.03.23
 
 

@@ -151,7 +151,7 @@ bryte ned figuren på flere måter teller som forskjellige
 måter
 
 
-#### Avansert: Beskrive oppbygningen av figurtall (alle typer),  10.01.2023
+#### Avansert: Beskrive oppbygningen av figurtall (alle typer),  10.01.23
 
 Du får vite at et figurtall $F_n$ øker på følgende måte. $F_1 = 3$, $F_2 = 8$, $F_3 = 15$, $F_4 = 24$ og $F_5 = 35$.
 

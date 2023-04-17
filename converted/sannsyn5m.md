@@ -16,3 +16,16 @@
 2. Begrunn at følgende utvalg er ordnede utvalg uten tilbakelegg og finn antall muligheter i utvalgene\
    a. Siden vi har fem bokstaver (A, n, d, r, e) som jeg skal stokke om, så kan jeg ikke bruke de flere ganger (uten tilbakelegg). Likevel så bryr jeg meg om rekkefølgen, så det er et ordnet utvalg. Det gir derfor først fem valg, så 4 valg (siden jeg har brukt opp en bokstav), så 3 valg og så videre, altså $5 \cdot 4 \cdot 3 \cdot 2 \cdot 1 = 120$.
 
+
+#### Middels: Forklare og bruke begrepene ordnet utvalg med og uten tilbakelegg,  17.04.23
+
+1. Begrunn at følgende situasjoner kan tenkes på som ordnet utvalg med tilbakelegg og finn antall muligheter i utvalget
+   - Du skal velge en tresifret kode der du kan ha sifrene 1-7 på hver posisjon.
+2. Begrunn at følgende utvalg er ordnet utvalg uten tilbakelegg og finn antall muligheter i utvalget
+   - En klasse på 15 elever skal sende tre elever på en turnering der én elev skal løpe 200 m, én elev skal hoppe lenge og én elev skal løpe 3000 m. Siden ingen fra klassen har lyst til å delta trekker de lodd om hvem som må gjøre hva.
+
+##### Vurderingskriterier
+
+1. Studenten må få fram at siden vi for hver posisjon kan velge mellom siffrene 1-7 så vil det være med tilbakelegg. Rekkefølgen på en kode er også opplagt viktig, som betyr at utvalget er ordna. Altså et ordna utvalg med tilbakelegg. For å finne antallet kan man bruke produktregelen og se at man har tre valg med 7 muligheter i hvert valg. Det gir $7\cdot 7\cdot 7$ muligheter.
+2. Studenten må få frem at elevene kan trekkes ut til forskjellige roller er det er ordnet utvalg, men siden én elev kun skal gjøre en aktivitet er det uten tilbakelegg. For å finne antall muligheter kan man bruke at man skal gjøre tre valg, med $7$ muligheter i første trekk, $6$ i neste og så $5$ i siste valg. Dermed får man $7\cdot 6\cdot 5$ muligheter.
+

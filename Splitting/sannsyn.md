@@ -327,6 +327,170 @@ Forklare begrepet komplement gjennom et eksempel
         gule, og så de fire som skal være røde?
     3. Hva om vi velger rutene som ikke skal fargelegges, så de fire
         som skal være røde?
+        
+## 17.04.23
+
+### Forklare og bruke begrepene utfallsrom, utfall og hendelse og sannsynlighetsmodell
+
+#### Grunnleggende: Gjengi og gi eksempler til begrepene
+
+1. Forklar hva en sannsynlighetsmodell er ved hjelp av begrepene utfall, utfallsrom og hendelse. Gi et eksempel på en sannsynlighetsmodell.
+
+##### Vurderingskriterier
+
+Studenten må gi en forklaring som bruker begrepene, samt gi et eksempel.
+
+#### Middels: Avgjøre og begrunne om situasjoner er en sannsynlighetsmodell
+
+1. La et forsøk ha utfallsrommet $U = { u_1, u_2, u_3, u_4, u_5}$. Hvis $P(\{u_1, u_2, u_3\}) = 0.6$, begrunn at $P(\{u_3, u_4, u_5\}) = 0.7$ må bety at $P(u_3) = 0.15$.
+
+2. Henrik var ute på parkeringsplassen på UiA på mandag, tirsdag og onsdag. På mandag registrerte han $50\%$ av bilene som en Tesla. På tirsdag var $40\%$ av de parkerte bilene en Skoda. På onsdagen var $40\%$ Volvo. Henrik konkluderer med at det er $50\%$ sannsynlig at en bil som parkerer på er Tesla, $40\%$ at det er en Skoda og $40\%$ at det er en Volvo. Avgjør om dette kan være en sannsynlighetsmodell.
+
+##### Vurderingskriterier
+
+1. Studenten må begrunne påstanden. Dette kan for eksempel gjøres ved å peke på at
+$$
+\begin{aligned}
+0.6 + 0.7
+& = P(\{u_1, u_2, u_3\}) + P(\{u_3, u_4, u_5\})
+\\
+& = P(\{u_1\})+P(\{u_2\}) + P(\{u_3\}) + P(\{u_3\})+ P(\{u_4\}) + P(\{u_5\})
+\\
+& = P(\{u_1\})+P(\{u_2\}) + P(\{u_3\})+ P(\{u_4\}) + P(\{u_5\})+ P(\{u_3\})
+\\
+& =
+P(\{u_1, u_2, u_3, u_4, u_5\}) + P(\{u_3\})
+\\
+& = 1 + P(\{u_3\}).
+\end{aligned}
+$$
+Det betyr at $1.3 = 1 + P(\{u_3\})$, eller at $P(\{u_3\}) = 0.3$
+2. Studenten må forklare at dette ikke er en meningsfull sannsynlighetsmodell da summen av sannsynligheten for de forskjellige utfallene blir mer enn $100\%$.
+
+### Forklare og bruke begrepet uniform sannsynlighetsmodell
+
+#### Grunnleggende: Gjengi og gi eksempler til begrepet
+
+Forklar hva en uniform sannsynlighetsmodell er og gi et eksempel på en uniform sannsynlighetsmodell.
+
+##### Vurderingskriterier
+
+Studenten må gi en riktig forklaring, samt gi et eksempel.
+
+#### Middels: Avgjøre og begrunne om situasjoner er en uniform sannsynlighetsmodell
+
+1. André skal kaste en sekssidet terning. Han skal kaste terningen en gang og setter opp utfallsrommet $\{1, 2, 3, 4, 5, 6\}$. Avgjør om dette gir en uniform sannsynlighetsmodell.
+
+2. Avgjør og begrunn om det finnes noen sannsynlighetsmodell der $P(u_3) = 0.15$.
+
+##### Vurderingskriterier
+
+1. Studenten må forklare at dette gir opphav til en uniform sannsynlighetsmodell ved å peke på at alle utfallene i utfallsrommet er like sannsynlige.
+2. Studenten må konkludere med at dette ikke går an. Dette kan man innse ved å se at siden $0.15 = \frac{3}{20}$, og $3$ ikke går opp i $20$, så vil det ikke finnes et heltall antall utfall som gjør at summen av sannsynlighetene blir $1$.
+
+#### Avansert: Sette opp uniforme sannsynlighetsmodeller fra en gitt situasjon
+
+Henrik skal skyte straffespark og har alltid 50% sannsynlighet for å score. Henrik sykter tre ganger.
+
+1. Sett opp et utfallsrom som gir en uniform sannsynlighetsmodell.
+
+2. Avgjør hva sannsynligheten er for at Henrik scorer på nøyaktig to av tre av skuddene.
+
+##### Vurderingskriterier
+
+1. Studenten *må* sette opp en uniform sannsynlighetsmodell. For eksempel kan dette gjøres ved å sette opp utfallsrommet $\{BBB, BBM, BMB, BMM, MBB, MBM, MMB, MMM\}$, der $B$ står for *bom* og $M$ står for *mål*. Vi ser dermed at det er åtte utfall og siden det er lik sannsynlighet for både mål og bom, så er alle utfallene like sannsynlig.
+2. Studenten kan nå bare telle opp fra utfallsrommet fra forrige oppgave. For eksempel ser vi fra 1. at det er utfallene $\{BMM, MBM, MMB\}$ som tilsvarer nøyaktig to mål på tre skudd. Det gir at $P(\text{Henrik scorer på nøyaktig to av tre skudd}) = \frac{3}{8}$.
+
+### Forklare, illustrere og bruke produktregelen
+
+#### Grunnleggende: Forklare og illustrere et sammensatt valg/et forsøk sammensatt av flere trinn
+
+Forklar med bakgrunn i et eksempel på hva som menes med et sammensatt valg.
+
+##### Vurderingskriterier
+
+Studenten må bruke et eksempel til å forklare hva som menes med et sammensatt valg.
+
+#### Middels: Forklare og illustrere produktregelen
+
+Forklare og illustrere produktregelen. Pek tydelig på hvorfor det kommer frem at produktregelen må gjelde.
+
+##### Vurderingskriterier
+
+Studenten må forklare og illustrere produktregelen (Alfa 7.24).
+
+### Forklare og bruke begrepene ordnet utvalg med og uten tilbakelegg
+
+#### Grunnleggende: Forklare og gi eksempler til begrepene
+
+Forklar og gi et eksempel til:
+
+- et ordnet utvalg med tilbakelegg
+- et ordnet utvalg uten tilbakelegg
+
+##### Vurderingskriterier
+
+Studenten må gi eksempler som de blir bedt om, og de må forklare hva et ordnet utvalg med og uten tilbakelegg er.
+
+#### Middels: Begrunne at et utvalg er ordnet og om det er med eller uten tilbakelegg, samt finne antall muligheter i utvalget
+
+1. Begrunn at følgende situasjoner kan tenkes på som ordnet utvalg med tilbakelegg og finn antall muligheter i utvalget
+   - Du skal velge en tresifret kode der du kan ha sifrene 1-7 på hver posisjon.
+2. Begrunn at følgende utvalg er ordnet utvalg uten tilbakelegg og finn antall muligheter i utvalget
+   - En klasse på 15 elever skal sende tre elever på en turnering der én elev skal løpe 200 m, én elev skal hoppe lenge og én elev skal løpe 3000 m. Siden ingen fra klassen har lyst til å delta trekker de lodd om hvem som må gjøre hva.
+
+##### Vurderingskriterier
+
+1. Studenten må få fram at siden vi for hver posisjon kan velge mellom siffrene 1-7 så vil det være med tilbakelegg. Rekkefølgen på en kode er også opplagt viktig, som betyr at utvalget er ordna. Altså et ordna utvalg med tilbakelegg. For å finne antallet kan man bruke produktregelen og se at man har tre valg med 7 muligheter i hvert valg. Det gir $7\cdot 7\cdot 7$ muligheter.
+2. Studenten må få frem at elevene kan trekkes ut til forskjellige roller er det er ordnet utvalg, men siden én elev kun skal gjøre en aktivitet er det uten tilbakelegg. For å finne antall muligheter kan man bruke at man skal gjøre tre valg, med $7$ muligheter i første trekk, $6$ i neste og så $5$ i siste valg. Dermed får man $7\cdot 6\cdot 5$ muligheter.
+
+### Forklare og bruke begrepene uordnet utvalg med og uten tilbakelegg
+
+#### Grunnleggende: Forklare og gi eksempler til begrepene
+
+Forklar og gi et eksempel til
+
+- et uordnet utvalg med tilbakelegg
+- et uordnet utvalg uten tilbakelegg
+
+##### Vurderingskriterier
+
+Studenten må gi eksempler som de blir bedt om, og de må forklare hva et ordnet utvalg med og uten tilbakelegg er.
+
+#### Middels: Begrunne at et utvalg er uordnet og om det er med eller uten tilbakelegg, samt finne antall muligheter i utvalget
+
+1. Begrunn at følgende situasjoner kan tenkes på som uordnet utvalg uten tilbakelegg og finn antall muligheter i utvalget
+   - I en klasse på 12 elever skal dere ha innebandyturnering i kroppsøvingen. Du velger ut tre og tre elever. Hvor mange forskjellige lag bestående av tre elever kan man lage?
+2. Begrunn at følgende utvalg er uordnet utvalg med tilbakelegg og finn antall muligheter i utvalget
+   - Du skal fordele 5 kjeks på to gutter, men begge guttene må ikke få kjeks. På hvor mange måter kan du fordele kjeksene?
+
+##### Vurderingskriterier
+
+1. Studenten må forklare at det er uordnet utvalg uten tilbakelegg ved å peke på at en trekker lag og at det ikke er noe rolle innad i laget. Dermed er det uordnet. Vi må også ha forskjellige elever på laget, som gir et utvalg uten tilbakelegg. For å finne antallet kan en først tenke at det er 3 valg, først 12 muligheter, så 11 og så 10. Altså $12\cdot 11\cdot 10$. Deretter må de ta hensyn til overtellingen. Ved å tenke på for eksempel en gruppe på Arne, Bjarne og Dan, så ser vi at denne kan stokkes om på $3\cdot 2\cdot 1$ mulige måter. Vi overteller altså alle grupper med $6$. Det gir at det er $\frac{12\cdot11\cdot10}{6}=2\cdot 11\cdot 10 = 220$ mulige utvalg.
+2. Studenten kan peke på at det går å tenke på dette som fem valg, der en skal velge mellom en av de to guttene hver gang, altså med tilbakelegg. Når vi velger en gutt får han kjeks, men det er ikke noen forskjell på kjeksene, så det er derfor uordnet. Vi kan systematisere ved å kalle guttene for $0$ og $1$. Da har vi mulighetene:\
+00000, 00001, 00011, 00111, 01111, 11111, altså $6$ muligheter.
+
+### Avgjøre om utvalg er ordnet eller uordnet og om det er med eller uten tilbakelegg
+
+#### Middels: Avgjør om situasjonene under kan tenkes som (u)ordnede utvalg med eller uten tilbakelegg
+
+Avgjør om situasjonene under kan tenkes som ordnede eller uordnede utvalg og om utvalgene er med eller uten tilbakelegg:
+
+1. Til årsmøtet i et lag møter det ti personer. På hvor mange måter kan det velges formann, nestformann og kasserer?
+2. I en klasse på 20 elever skal det velges ut en gruppe på 6. På hvor mange måter kan det gjøres på?
+3. På hvor mange måter kan forskjellige tresifrede tall lages med sifrene 1, 2, 3, 4 og 6, der en kan gjenta gjenta sifre?
+4. På en flervalgsprøve med åtte spørsmål er det tre alternativer på hvert spørsmål, der kun ett alternativ er rett. Hvor mange mulige forskjellige besvarelser kan man gi på prøven?
+
+##### Vurderingskriterier
+
+Studenten må argumentere og begrunne sitt valg. Det *må* ikke nødvendigvis stemme med forslaget under, men er det annerledes må begrunnelsen hvertfall være meningsfull!
+
+1. Studenten må peke på at siden det er forskjellige roller, så vil det være et ordnet utvalg, men siden det ikke er noen som kan være samme rolle så er det uten tilbakelegg.
+2. De skal velge en gruppe på $6$ elever. Én elev kan såklart ikke være med flere ganger i gruppen, så det blir uten tilbakelegg. Det er heller ikke påpekt at gruppen inneholder noen roller som gjør det naturlig å tenke på dette som et uordnet utvalg.
+3. Det blir påpekt at en kan gjenta sifrene, dermed må det tenkes på som et utvalg med tiblakelegg. Rekkefølgen har noe å si siden vi skal lage tresifrede tall, som gjør det til et ordnet utvalg med tilbakelegg.
+4. Siden det er tre muligheter på hvert spørsmål kan en tenke at en på de åtte spørsmålene kan velge mellom 1, 2 og 3, noe som gir et utvalg med tilbakelegg. I tillegg bryr vi oss om rekkefølgen fordi vi ser et mulige besvarelser som kan gis på prøven. Dermed blir dette et ordnet utvalg med tilbakelegg.
+
+
 
 ## 31.03.23
 

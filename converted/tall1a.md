@@ -124,3 +124,4 @@ Hint: I partallsbaser er det bare enerposisjonen som kan være oddetall.
 Når basen $b$ er et oddetall, er også $b^{n}$ et oddetall. Da er
 $b^{n} - 1$ alltid par.
 
+

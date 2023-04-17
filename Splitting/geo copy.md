@@ -77,7 +77,7 @@ man avgjør er relatert til måleenheten.
    a. Ta utgangspunkt i animasjonen under og kall, blå, rød og grønn vinkel for $x$, $y$ og $z$. Vi ser at spaserturen viser at vi har dreid $360^\circ$ (summen av de ytre vinklene, de gule). Ser vi på indre vinkel pluss ytre vinkel ser vi at denne også alltid er $180^\circ$. Noe som tilsier at summen av indre og yre vinkler er $3\cdot 180^\circ$. Trekker vi fra summen av de ytre vinklene får vi $3\cdot 180^\circ-360^\circ = 180^\circ$. 
    b. Forsøk selv, ved å bruke samme argument.
 
-[Animasjon](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/geo/Visvinkler.mp4){width=75%}
+[](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/geo/Visvinkler.mp4){width=75%}
 
 2. Trekk en linje parallell med $f$ og $g$ gjennom vinkel $v$. Vi får da, ved å bruke parallellitetsegenskaper, at $v$ kan deles inn i to vinkler, en del som er $13^\circ$ og en del som er $35^\circ$. Vinkel $v$ er dermed $48^\circ$. *Merk*: Besvarelsen mangler en tegning. Gjør dette selv og forsøk å gjøre din egen besvarelse. 
 
@@ -306,6 +306,159 @@ så skal ikke dette rundes av til $2,236$
 
 1. La oss kalle sidene i den rettvinkla trekanten for $x$, $y$ og $z$, slik at $x^2 + y^2 = z^2$. Da vet vi at de tre halvsirklene har areal $\pi(\frac{x}{2})^2 = \pi \frac{x^2}{4}$, $\pi \frac{y^2}{4}$ and $\pi \frac{z^2}{4}$. I tillegg har trekanten areal $\frac{2x\cdot2y}{2} = 2xy$. Tar vi de to små halvsirklene i tillegg til trekanten får vi hele området. Dette har areal $\frac{\pi}{2}(x^2+y^2)+ 2ab$. Vi kan nå bruke Pytagoras setning til å si at dette arealet kan skrives som $\frac{\pi c^2}{4} + 2ab$.Nå gjenstår det bare å trekke fra den store halvsirkelen for å få arealet av det hvite området. Dette gir $\frac{\pi c^2}{4}+ 2ab - \frac{\pi c^2}{4} = 2ab$. Vi ser dermed at det hvite området har samme areal som trekanten. Dermed blir forholdet mellom det hvite området og arealet av trekanten $1$.
 
+## 17.04.23
+
+### Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer
+
+#### Grunnleggende: Gjengi og forklare, gi eksempler og illustrasjoner til begrepene
+
+1. Forklar og gi eksempler (med illustrasjoner) på hva som menes med begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer.
+
+##### Vurderingskriterier
+
+Studenten må gi riktige forklaringer, med illsutrasjoner, av begrepene.
+
+#### Middels: Argumentere for enkle sammenhenger knyttet til begrepene
+
+Argumenter for at vinkelsummen i sekskanter er $720^\circ$. Merk: hvis du bruker at vinkelsummen i trekanter er $180^\circ$ må du argumentere for dette også.
+
+##### Vurderingskriterier
+
+Studenten må argumentere for vinkelsummen. Dette kan for eksempel være *spasertur*argumentet eller ved å dele inn i mindre trekanter. Sistnevnte argument må da også inkludere et argument for hvorfor trekanter har vinkelsum $180^\circ$.
+
+#### Avansert: Utforske og løse ukjente problemet knyttet til begrepene
+
+Under ser du en firkant $ABCD$ der $\angle BAC$ er $90^\circ$, og $\angle BCD = 30^\circ$. Avgjør hva summen av de lilla vinklene er, det vil si, avgjør $\angle CBA + \angle ADC$.
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-12-15-47-28.png)
+
+##### Vurderingskriterier
+
+Studenten argumentere for summen av vinklene på en logisk og strukturert måte. Dette kan nok gjøres på flere måter. En mulighet kan være at studenten bruker at vinkelsummen i en fikant er $360^\circ$. Da kan man videre utnytte at siden $\angle BAC = 90^\circ$ så må $\angle DAB$ være $270^\circ$, siden vinklene utgjør en hel sirkel. Vi vet derfor at de indre vinklene i firkanten er $270^\circ + 30^\circ + \angle CBA + \angle ADC$. Det gir at summen av de lilla vinklene må være $60^\circ$.
+
+### Bruke begrepene kvadrat, rektangel, parallellogram, trapes, likebeint trekant, likesidet trekant, rettvinklet trekant, mangekant, sirkel
+
+#### Grunnleggende: Gjengi og forklare, gi eksempler og illustrasjoner til begrepene
+
+Forklar og gi eksempler (med illustrasjoner) på hva som menes med begrepene likesidet trekant, sirkel, kvadrat og parallellogram.
+
+##### Vurderingskriterier
+
+Studenten må gi forklaringer og illustrasjoner til begrepene.
+
+#### Middels: Argumentere for enkle sammenhenger knyttet til begrepene
+
+1. Forklar hvorfor, eller hvorfor ikke, et parallellogram er et kvadrat.
+2. Avgjør og begrunn om følgende påstand er sann: Hvis en trekant er likebeint, så er den ene sidelengen lenger enn de to andre .
+
+##### Vurderingskriterier
+
+1. Studenten må peke på at et parallellogram ikke alltid er et kvadrat. Dette gjøres enklest ved å tegne et eksempel av et *skjevt* parallellogram eller et rektangel.
+2. Studenten kan for eksempel tegne en likebeint trekant der den ene siden er mindre enn de to andre for å motbevise påstanden.
+
+### Bruke formler for størrelser av figurer til å utforske geometriske sammenhenger
+
+#### Grunnleggende: Gjengi og forklar formlene for trekanter, rektangler, parallellogram, trapes, sirkler, prismer, sylindre og pyramider
+
+1. Gjengi formelen for å avgjøre arealet av
+
+a. Rektangler
+
+b. Sirkler
+
+c. Trapes
+
+Besvarelsene må inneholde en illustrasjon der en peker på relevante lengder.
+
+#### Middels: Argumentere for enkle sammenhenger knyttet til begrepene
+
+Under ser du en illustrasjon av en iskrem som André spiste på fiskebrygga. Figuren er tegnet på et rutenett og består av en halvsirkel og en likebeint trekant. Enhetene i rutenettet måles i centimeter. Hvor stort areal fyller figuren på rutenettet?
+
+Utregningene skal ikke være avrundet og skal gis i eksakte verdier. Det vil si at hvis svaret er $\sqrt{1^{2} + 2^{2}} = \sqrt{5}$, så skal ikke dette rundes av til $2,236$. Inneholder svaret $\pi$ skal dette heller ikke avrundes til $3.14$!
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-13-14-16-07.png)
+
+##### Vurderingskriterier
+
+Studenten må bruke at rutene i nettet er målt i centimeter. Halvsirkelen har derfor en radius på $2$cm (eventuelt $10$cm hvis de teller de små kvadratene som cm). Halvsirkelen har et areal på $\pi 2^2 = 4\pi$. Trekanten har også en grunnlinje på $4$cm og høyde på $5cm$. Det gir et areal på $\frac{4\cdot 5}{2} = 10$. Dermed fyller figuren $4\pi + 10$cm.
+
+#### Avansert: Utforske og løse ukjente problemet knyttet til begrepene
+
+Under ser du en løpebane konstruert ved hjelp av rutenett bestående av likesidede trekanter med sidelengde 10m. Selve banen er konstruert ved hjelp av kun halvsirkler.
+
+1. Avgjør hvor lang banen er.
+2. Avgjør hvor stort areal banen avgrenser.
+
+Utregningene skal ikke være avrundet og skal gis i eksakte verdier. Det vil si at hvis svaret er $\sqrt{1^{2} + 2^{2}} = \sqrt{5}$, så skal ikke dette rundes av til $2,236$. Inneholder svaret $\pi$ skal dette heller ikke avrundes til $3.14$!
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-13-14-21-59.png)
+
+##### Vurderingskriterier
+
+1. Studenten må bryte ned figuren i relevante sirkelbuer. Det er to halvsirkler med lik radius, $20$cm. Altså en sirkel med omkrets på $40\pi$. Videre er det to sirkelbuer som er en sjettedel av en sirkel ($60^\circ$), én med en radius på $20$cm og én med radius $60$cm. Disse buelengdene har dermed lenge $\frac{1}{6}(40\pi + 120\pi) = \frac{160\pi}{6}$. Totalt må løpebanen derfor være $40\pi + \frac{160\pi}{6}$.
+2. Studenten må bryte ned figuren. Hvis de har brutt den ned som i forrige oppgave, kan dette brukes videre. De to halvsirklene avgrenser en del av området som banen avgrenser. Til sammen avgrenser de $\pi 20^2 = 400 \pi$. Videre avgrensenser den store sirkelbuen en sjettedel av en sirkel med radius $60$, dermed avgrensen den et areal på $\frac{1}{6}\pi 60^2 = 600 \pi$. Dette arealet inkluderer derimot et område utenfor banen. Dette kan vi løse ved å trekke vekk arealet den lille sirkelbuen avgrenser. Dermed ser vi at svaret bør være $400\pi + 600\pi - \frac{1}{6}\pi 20^2 = 1000 \pi- \frac{400 \pi}{6}$.
+
+### Bruke begrepet formlikhet av trekanter
+
+#### Middels: Argumentere for enkle sammenhenger knyttet til begrepet
+
+Under ser du to formlike trekanter. Avgjør lengden på de resterende sidene hvis du får vite at:
+
+1. $c = 2$, $b = 5$, $f = 6$ og $d = 4$.
+2. $a = \frac{1} {3}$, $b = 4$, $d= \frac{3}{2}$ og $f = 9$.
+
+##### Vurderingskriterier
+
+1. Studenten må bruke at $c$ og $f$ samsvarer. Dermed ser vi at forholdet mellom trekantene er $3$. Dermed må $b = 5$ bety at $e = 3\cdot 5 = 15$. I tillegg må $d = 4$ bety at $a = \frac{4}{3}$.
+2. Siden $a$ og $d$ samsvarer må forholdet være $\displaystyle\frac{\frac{1}{3}}{\frac{3}{2}} = \frac{\frac{1}{3}\frac{2}{3}}{\frac{3}{2}\frac{2}{3}} = \frac{2}{9}$. Dette forteller oss at $d$ må forstørres med $\frac{2}{9}$ for å få størrelsen $\frac{1}{3}$. Eller motsatt må $a$ skaleres med $\frac{9}{2}$ for å få $d$. Vi bruker dette til å innse at $b = 4$ betyr at $e = \frac{9}{2}\cdot 4 = 18$. Videre må $f = 9$ bety at $c = \frac{2}{9} = 2$.
+
+### Argumentere visuelt for Pytagoras setning
+
+#### Grunnleggende: Gjengi og forklare, gi eksempler og illustrasjoner til begrepet
+
+Gjengi og forklar Pytagoras setning. Forklaringen må referere til en figur.
+
+##### Vurderingskriterier
+
+Studenten må gi en forklaring av Pytagoras setning ved å referere til en figur.
+
+#### Middels: Gi et visuelt argument for at Pytagoras setning gjelder
+
+Gi et grunnskoletilpasset argument for Pytagoras setning.
+
+##### Vurderingskriterier
+
+Studenten må gi et grunnskoletilpasset argument for at Pytagoras setning gjelder. Dette innebærer å tegne en eller flere figurer og bruke de til å argumentere for Pytagoras setning.
+
+### Bruke Pytagoras setning
+
+#### Grunnleggende: Bruke Pytagoras setning til å løse enkle problemer
+
+Finn lengden på den ukjente kateten i en rettvinklet trekant når du vet at:
+    a.  hypotenusen er 10 og en katet har lengde 8
+    b.  den ene kateten har lengde 5 og hypotenusen har lengde 10.
+
+Utregningene skal ikke være avrundet og skal gis i eksakte verdier. Det vil si at hvis svaret er $\sqrt{1^{2} + 2^{2}} = \sqrt{5}$, så skal ikke dette rundes av til $2,236$.
+
+##### Vurderingskriterier
+
+    a. Studenten må bruke Pytagoras setninging. For eksempel kan de peke på at vi vet at $8^2 + k^2 = 10^2$. Trekker vi fra $8^2$ på begge sider, ser vi at $k^2 = 100-64 = 36$. Dermed må $k = 6$.
+    b. På samme måte som i $a$ kan vi se at $5^2 + k^2 = 10^2$. Det gir dermed at $k^2 = 100-25$, så $k = \sqrt 75$ (som kan forenkles til $5\sqrt 3$, men dette er ikke nødvendig).
+
+#### Middels: Bruke Pytagoras setning til å løse problemer
+
+På figuren under ser du  et parallellogram med sidelengder $x$ og $y$. Trekanten $EFH$ er rettvinklet og har sidelengder $FH = a$ og $HE = b$.
+
+1. Forklar hvorfor $GE^2 = (x+a)^2 + b^2$ og hvorfor $DF^2 = (x-a)^2 + b^2$.
+
+2. Argumenter for hvorfor $GE^2 + DF^2 = 2x^2 + 2y^2$.
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-13-15-05-06.png)
+
+##### Vurderingskriterier
+
+1. Studenten trenger kun å peke på at $GH = x+a$ og så følger resultatet fra Pytagoras setning. Ved å trekke en normal ned fra $F$ til $DE$, kan en raskt innse at $DF^2 = (x-a)^2+b^2$ på samme måte som man gjorde med $GH$.
+2. Studenten må regne seg frem og konkludere med påstanden på en forståelig måte. For eksempel kan de begynne med å peke på at $GE^2 = (x+a)^2 + b^2 =x^2+2xa +a^2+b^2$ og at $DF^2 = x^2 -2xa+a^2+b^2$. Legger vi nå sammen $GE^2+DF^2$ får vi $2x^2 +2(a^2+b^2)$. Skal påstanden stemme må $a^2+b^2 = y^2$, men dette ser vi at stemmer ved å bruke at $FHG$ er rettvinklet med sidelengder $a$, $b$ og $y$. 
 
 ## 31.03.23
 
@@ -457,14 +610,14 @@ Dermed følger det nå at sidelengden er $3 + \sqrt 2$.
 3. Studenten må avgjøre arealet. Det kan for eksempel avgjøres ved å ta arealet av kvadratet og trekke fra trekantene i hjørnet. Det gir
 $$
 \begin{aligned}
-(3+2\sqrt 2)^2 - 4(\sqrt 2)^2
+(3+2\sqrt 2)^2 - 4\frac{(\sqrt 2)^2}{2}
 & =
-3^2 + 2\cdot 6 \cdot \sqrt 2 + 4\cdot 2 - 4 \cdot 2
+3^2 + 2\cdot 6 \cdot \sqrt 2 + 4\cdot 2 - 2 \cdot 2
 \\
 & =
-9 + 12\sqrt 2 + 8 - 8
+9 + 12\sqrt 2 + 8 - 4
 \\
-& = 9 + 12 \sqrt 2
+& = 13 + 12 \sqrt 2
 \end{aligned}
 $$
 
@@ -843,7 +996,7 @@ Studenten må gjøre argumentere på en strukturert og forståelig måte.
 
 Studenten må få fram at radius til innsirkelen er $x$. Deretter følger resultatet ved å bryte trekanten inn i seks mindre trekanter og legge arealet av dem sammen.
 
-## 10.02.23 {#f10}
+## 10.02.23
 
 ### Bruke begrepene måltall, størrelse og måleenhet til å avgjøre størrelsen av grunnleggende figurer i 1 og 2 dimensjoner
 

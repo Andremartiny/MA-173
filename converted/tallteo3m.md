@@ -98,7 +98,7 @@ Grunnskoletilpasset: Ta utgangspunkt i et konkret eksempel og
 forklare strukturen. Igjen må det komme tydelig fram hvordan
 resultatet gjelder for et hvilket som helst antall sifre.
 
-#### Middels: Begrunne delelighetsreglene for tall som er delelig med 2, 3, 4, 5, 6 og 9,  10.01.2023
+#### Middels: Begrunne delelighetsreglene for tall som er delelig med 2, 3, 4, 5, 6 og 9,  10.01.23
 
 Begrunn delelighetsregelen for tall som er delelig med 4. Du må gi både en formell og en grunnskoletilpasset begrunnelse.
 Begrunn delelighetsregelen for tall som er delelig med 9. Du må gi både en formell og en grunnskoletilpasset begrunnelse.

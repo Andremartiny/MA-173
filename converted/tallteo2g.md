@@ -69,7 +69,7 @@ Her må alle spørsmålene besvares. Besvarelsene må
 inneholde, forklaringer, eksempler, definisjoner og
 illustrasjoner der dette påpekes i oppgaveteksten.
 
-#### Grunnleggende: Bruke begrepene naturlig tall, partall og oddetall, primtall og sammensatt tall,  10.01.2023
+#### Grunnleggende: Bruke begrepene naturlig tall, partall og oddetall, primtall og sammensatt tall,  10.01.23
 
 Forklar og gi eksempler på hva et naturlig tall er.
 Forklar og gi eksempler på hva partall og oddetall er. Besvarelsen må inneholde både algebraiske definisjoner, ordforklaringer og illustrasjoner.

@@ -56,6 +56,24 @@
 
 
 
+#### Middels: Gjøre om mellom ulike representasjonsformer for funksjonssammenhenger,  17.04.23
+
+Under ser du en skisse av Henrik i klatreveggen på Klatreverket på grim.
+
+Han klatrer hele ruten med jevn fart frem til det bratteste partiet i toppen. Der bruker han lang tid. Når han er kommet til toppen slipper han seg ned og faller i fritt fall noen meter, før sikreren på bakken får bremset tauet slik at Henrik stopper opp i luften. Deretter blir han bremset sakte ned i konstant fart.
+
+Skisser en graf som viser hvor høyt Henrik er over bakken som en funksjon av tid fra han begynte å klatre til han var nede på bakken igjen.
+
+[](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/funk/klatring.png)
+
+##### Vurderingskriterier
+
+Studentene må skissere en graf som får fram sammenhengen på en riktig måte, den må også samsvare med opplysningene som er beskrevet i teksten. \
+Siden strekningen inneholder ulike soner med ulike hastigheter *må* dette være gjenspeilet i grafen. For eksempel må første stigning når Henrik klatrer være relativt langsom, men bli langsommere når han kommer til det bratte partiet. Deretter må funksjonen ha veldig bratt stigning nedover (over kort tid), til Henrik blir stoppet av taubremsen. Her må grafen være konstant en periode før han blir senket ned. Dette må stigningen være negativ, men ikke så veldig brat..
+
+
+
+
 
 #### Middels: Gjøre om mellom ulike representasjonsformer for funksjonssammenhenger,  31.03.23
 
@@ -86,7 +104,7 @@ Studentene må skissere en graf som får fram sammenhengen på en riktig måte, 
 
 
 
-#### Middels: Gjøre om mellom ulike representasjonsformer for funksjonssammenhenger,  Funksjoner 13.02.23
+#### Middels: Gjøre om mellom ulike representasjonsformer for funksjonssammenhenger,  13.02.23
 
 Illustrasjonen til venstre viser en (litt forstørret) klinkekule som slippes ned en liten bakke. Skisser en en graf som viser sammenhengen mellom hastigheten til kulen og hvor mange meter kulen har bevegd seg i horisontal retning.
 Beskriv en situasjon som passer til grafen til høyre. (Andreaksen viser kroner målt i 1000, førsteaksen viser tid)
@@ -94,14 +112,14 @@ Beskriv en situasjon som passer til grafen til høyre. (Andreaksen viser kroner 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-20-58-35.png)
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-20-58-43.png)
 
-#### Vurderingskriterier middels:  Funksjoner 13.02.23
+#### Vurderingskriterier middels:  13.02.23
 
 1. Studentene må skissere en graf som får fram sammenhengen på en riktig måte
 2. Studentene må her peke på en (mulig) situasjon som kan beskrive grafen som er gitt. (Timelønn kan være en naturlig situasjon her).
 
 
 
-#### Middels: Gjøre om mellom ulike representasjonsformer for funksjonssammenhenger,  Funksjoner 10.02.23
+#### Middels: Gjøre om mellom ulike representasjonsformer for funksjonssammenhenger,  10.02.23
 
 Illustrasjonen til venstre viser havdybden målt i ei linje 100 meter utover fra strandkanten. Skisser en en graf som viser sammenhengen mellom avstanden fra land og havdybden.
 Beskriv en situasjon som passer til grafen til høyre. (Andreaksen viser meter over bakken, førsteaksen viser tid.)
@@ -109,7 +127,7 @@ Beskriv en situasjon som passer til grafen til høyre. (Andreaksen viser meter o
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-21-09-27.png)
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-21-09-32.png)
 
-#### Vurderingskriterier middels:  Funksjoner 10.02.23
+#### Vurderingskriterier middels:  10.02.23
 
 1. Studentene må skissere en graf som får fram sammenhengen på en riktig måte
 2. Studentene må her peke på en (mulig) situasjon som kan beskrive grafen som er gitt.

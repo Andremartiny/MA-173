@@ -99,7 +99,7 @@ Her må de skrive tosifra tall som a\*10 + b og deretter gjøre
 noe algebra.
 
 
-#### Avansert: Bruke begrepene faktor (divisor), felles faktor og største felles faktor, multiplum, felles multiplum og minste felles multiplum,  10.01.2023
+#### Avansert: Bruke begrepene faktor (divisor), felles faktor og største felles faktor, multiplum, felles multiplum og minste felles multiplum,  10.01.23
 
 Under ser du en påstand. Undersøk den og begrunn at den stemmer. Du må begrunne både uformelt og formelt.
 

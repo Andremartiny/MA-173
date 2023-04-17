@@ -20,6 +20,15 @@
 
 2. Trekk en linje parallell med $f$ og $g$ gjennom vinkel $v$. Vi får da, ved å bruke parallellitetsegenskaper, at $v$ kan deles inn i to vinkler, en del som er $13^\circ$ og en del som er $35^\circ$. Vinkel $v$ er dermed $48^\circ$. *Merk*: Besvarelsen mangler en tegning. Gjør dette selv og forsøk å gjøre din egen besvarelse. 
 
+
+#### Middels: Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer,  17.04.23
+
+Argumenter for at vinkelsummen i sekskanter er $720^\circ$. Merk: hvis du bruker at vinkelsummen i trekanter er $180^\circ$ må du argumentere for dette også.
+
+##### Vurderingskriterier
+
+Studenten må argumentere for vinkelsummen. Dette kan for eksempel være *spasertur*argumentet eller ved å dele inn i mindre trekanter. Sistnevnte argument må da også inkludere et argument for hvorfor trekanter har vinkelsum $180^\circ$.
+
 #### Middels: Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer,  31.03.23
 
  Argumenter for at vinkelsummen i firkanter er $360^\circ$. Merk: hvis du bruker at vinkelsummen i trekanter er $180^\circ$ må du argumentere for dette også.
@@ -48,11 +57,11 @@ Argumenter for hvor stor vinkelsummen av de indre vinklene i en trekant er.
 
 Studentene må argumentere for hvor stor vinkelsummen av de indre vinklene i en trekant er.
 
-#### Middels: Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer,  10.02.23 {#f10}
+#### Middels: Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer,  10.02.23
 
 Argumenter for hvor stor vinkelsummen av de indre vinklene i en femkant er.
 
-#### Vurderingskriterier middels:  10.02.23 {#f10}
+#### Vurderingskriterier middels:  10.02.23
 
 Studentene må argumentere for hvor stor vinkelsummen av de indre vinklene i en femkant er.
 

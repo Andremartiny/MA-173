@@ -20,6 +20,14 @@
 
     b.  konstantleddet $b$ endres
 
+#### Grunnleggende: Forklare sammenhenger mellom parameterne i funksjonsuttrykket og grafen til lineære funksjoner,  17.04.23
+
+Gitt en lineær funksjon $ax+b$, der $a = 1$ og $b=0$. Illustrer i et koordinatsystem hvordan endringer av $a$ påvirker grafen og hvordan endringer av $b$ påvirker grafen.
+
+#### Vurderingskriterier grunnleggende:  17.04.23
+
+Peke på hva parameterne gjør for førstegradsfunksjoner
+
 #### Grunnleggende: Forklare sammenhenger mellom parameterne i funksjonsuttrykket og grafen til lineære funksjoner,  31.03.23
 
 Gitt en lineær funksjon $ax+b$, der $a = 1$ og $b=0$. Illustrer i et koordinatsystem hvordan endringer av $a$ påvirker grafen og hvordan endringer av $b$ påvirker grafen.
@@ -38,35 +46,35 @@ Peke på hva parameterne gjør for førstegradsfunksjoner
 Middels:
 Finne likninga og forklare hvordan på en slik måte at man klart forstår det generelle i fremgangsmåten (kunne åpenbart blitt brukt for hvilke som helst punkt-par).
 
-#### Grunnleggende: Forklare sammenhenger mellom parameterne i funksjonsuttrykket og grafen til lineære funksjoner,  Funksjoner 13.02.23
+#### Grunnleggende: Forklare sammenhenger mellom parameterne i funksjonsuttrykket og grafen til lineære funksjoner,  13.02.23
 
 Gitt en lineær funksjon $ax+b$, der $a = 1$ og $b=0$. Illustrer i et koordinatsystem hvordan endringer av $a$ påvirker grafen og hvordan endringer av $b$ påvirker grafen.
 
-#### Vurderingskriterier grunnleggende:  Funksjoner 13.02.23
+#### Vurderingskriterier grunnleggende:  13.02.23
 
 Peke på hva parameterne gjør for førstegradsfunksjoner
 
-#### Grunnleggende: Forklare sammenhenger mellom parameterne i funksjonsuttrykket og grafen til lineære funksjoner,  Funksjoner 10.02.23
+#### Grunnleggende: Forklare sammenhenger mellom parameterne i funksjonsuttrykket og grafen til lineære funksjoner,  10.02.23
 
 Gitt en lineær funksjon $ax+b$, der $a = 1$ og $b=0$. Illustrer i et koordinatsystem hvordan endringer av $a$ påvirker grafen og hvordan endringer av $b$ påvirker grafen.
 
-#### Vurderingskriterier grunnleggende:  Funksjoner 10.02.23
+#### Vurderingskriterier grunnleggende:  10.02.23
 
 Peke på hva parameterne gjør for førstegradsfunksjoner
 
-#### Grunnleggende: Forklare sammenhenger mellom parameterne i funksjonsuttrykket og grafen til lineære funksjoner,  Funksjoner 3.02.23
+#### Grunnleggende: Forklare sammenhenger mellom parameterne i funksjonsuttrykket og grafen til lineære funksjoner,  3.02.23
 
 Gitt en lineær funksjon $ax+b$, der $a = 1$ og $b=0$. Illustrer i et koordinatsystem hvordan endringer av $a$ påvirker grafen og hvordan endringer av $b$ påvirker grafen.
 
-#### Vurderingskriterier grunnleggende:  Funksjoner 3.02.23
+#### Vurderingskriterier grunnleggende:  3.02.23
 
 Peke på hva parameterne gjør for førstegradsfunksjoner
 
-#### Grunnleggende: Forklare sammenhenger mellom parameterne i funksjonsuttrykket og grafen til lineære funksjoner,  Funksjoner 27.01.23
+#### Grunnleggende: Forklare sammenhenger mellom parameterne i funksjonsuttrykket og grafen til lineære funksjoner,  27.01.23
 
 Gitt en lineær funksjon $ax+b$, der $a = 1$ og $b=0$. Illustrer i et koordinatsystem hvordan endringer av $a$ påvirker grafen og hvordan endringer av $b$ påvirker grafen.
 
-#### Vurderingskriterier grunnleggende:  Funksjoner 27.01.23
+#### Vurderingskriterier grunnleggende:  27.01.23
 
 Peke på hva parameterne gjør for førstegradsfunksjoner
 

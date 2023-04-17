@@ -8,6 +8,14 @@
 
     c.  3.47 Løs likningene på flere måter der det virker naturlig, ikke bare slik boka spør etter.
 
+#### Grunnleggende: Løse lineære likninger ved hjelp av ulike strategier,  17.04.23
+
+Løs likningen $3(x-1)=2(x+1)$ på to måter, formelt og grunnskoletilpasset. 
+
+#### Vurderingskriterier grunnleggende:  17.04.23
+
+Her *må* de løse likningen både formelt og grunnskoletilpasset. Formelt vil være med algebra og grunnskoletilpasset kan for eksempel være gjett og sjekk. 
+
 #### Grunnleggende: Løse lineære likninger ved hjelp av ulike strategier,  17.02.23
 
 Blant $163$ spurte mennesker, svarte alle at de spiser enten taco, nudler eller foie gras på fredager. Det er $35$ flere som spiser taco enn fiskepinner, og antallet som spiser foie gras er det tredobbelte av én mer enn antallet som spiser fiskepinner.

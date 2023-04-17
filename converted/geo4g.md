@@ -3,6 +3,14 @@
 1. Forklar og gi eksempler (med illustrasjoner) på hva som menes med
     begrepene *mangekant, sirkel.*
 
+#### Grunnleggende: Bruke begrepene kvadrat, rektangel, parallellogram, trapes, likebeint trekant, likesidet trekant, rettvinklet trekant, mangekant, sirkel,  17.04.23
+
+Forklar og gi eksempler (med illustrasjoner) på hva som menes med begrepene likesidet trekant, sirkel, kvadrat og parallellogram.
+
+##### Vurderingskriterier
+
+Studenten må gi forklaringer og illustrasjoner til begrepene.
+
 #### Grunnleggende: Bruke begrepene kvadrat, rektangel, parallellogram, trapes, likebeint trekant, likesidet trekant, rettvinklet trekant, mangekant, sirkel,  31.03.23
 
 Forklar og gi eksempler (med illustrasjoner) på hva som menes med begrepene likesidet trekant, sirkel, rektangel og trapes.
@@ -43,11 +51,11 @@ Besvarelsene må inneholde en illustrasjon der en peker på relevante lengder.
 
 Studentene må gjengi formlene korrekt med en illustrasjon der det kommer fram hvilke lengder som brukes.
 
-#### Grunnleggende: Bruke begrepene kvadrat, rektangel, parallellogram, trapes, likebeint trekant, likesidet trekant, rettvinklet trekant, mangekant, sirkel,  10.02.23 {#f10}
+#### Grunnleggende: Bruke begrepene kvadrat, rektangel, parallellogram, trapes, likebeint trekant, likesidet trekant, rettvinklet trekant, mangekant, sirkel,  10.02.23
 
 Forklar og gi eksempler (med illustrasjoner) på hva som menes med begrepene kvadrat, trapes, likesidet trekant og sirkel.
 
-#### Vurderingskriterier grunnleggende:  10.02.23 {#f10}
+#### Vurderingskriterier grunnleggende:  10.02.23
 
 Studentene må gi en forklaring med en illustrasjon på de gitte begrepene.
 

@@ -88,7 +88,7 @@ algebraisk
 
 Studentene må besvare begge spørsmålene med riktig teknikk (se heftet).
 
-#### Grunnleggende: Finne eksplisitt uttrykk for figurtall,  10.01.2023
+#### Grunnleggende: Finne eksplisitt uttrykk for figurtall,  10.01.23
 
 Utled det eksplisitte uttrykket for summen av de $n$ første naturlige tallene, det vil si trekanttall nummer $n$, ved hjelp av Gauss-trikset (doble summen):
 geometrisk

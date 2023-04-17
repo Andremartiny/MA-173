@@ -37,3 +37,17 @@
    $1 + (1 + 2) + (1 + 2 + 3) + (1 + 2 + 3 + 4) + (1 + 2 + 3 + 4 + 5) = 35$
    muligheter.
 
+
+#### Middels: Forklare og bruke begrepene uordnet utvalg med og uten tilbakelegg,  17.04.23
+
+1. Begrunn at følgende situasjoner kan tenkes på som uordnet utvalg uten tilbakelegg og finn antall muligheter i utvalget
+   - I en klasse på 12 elever skal dere ha innebandyturnering i kroppsøvingen. Du velger ut tre og tre elever. Hvor mange forskjellige lag bestående av tre elever kan man lage?
+2. Begrunn at følgende utvalg er uordnet utvalg med tilbakelegg og finn antall muligheter i utvalget
+   - Du skal fordele 5 kjeks på to gutter, men begge guttene må ikke få kjeks. På hvor mange måter kan du fordele kjeksene?
+
+##### Vurderingskriterier
+
+1. Studenten må forklare at det er uordnet utvalg uten tilbakelegg ved å peke på at en trekker lag og at det ikke er noe rolle innad i laget. Dermed er det uordnet. Vi må også ha forskjellige elever på laget, som gir et utvalg uten tilbakelegg. For å finne antallet kan en først tenke at det er 3 valg, først 12 muligheter, så 11 og så 10. Altså $12\cdot 11\cdot 10$. Deretter må de ta hensyn til overtellingen. Ved å tenke på for eksempel en gruppe på Arne, Bjarne og Dan, så ser vi at denne kan stokkes om på $3\cdot 2\cdot 1$ mulige måter. Vi overteller altså alle grupper med $6$. Det gir at det er $\frac{12\cdot11\cdot10}{6}=2\cdot 11\cdot 10 = 220$ mulige utvalg.
+2. Studenten kan peke på at det går å tenke på dette som fem valg, der en skal velge mellom en av de to guttene hver gang, altså med tilbakelegg. Når vi velger en gutt får han kjeks, men det er ikke noen forskjell på kjeksene, så det er derfor uordnet. Vi kan systematisere ved å kalle guttene for $0$ og $1$. Da har vi mulighetene:\
+00000, 00001, 00011, 00111, 01111, 11111, altså $6$ muligheter.
+

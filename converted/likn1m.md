@@ -57,6 +57,21 @@
    e) To ganger noe er 20; noe er 10. $\pi$ ganger tallet er 10; tallet $\frac{10}{\pi}$. . 
 
 
+#### Middels: Løse lineære likninger ved hjelp av ulike strategier,  17.04.23
+
+
+En lærer ga elevene følgende tallgåte: "Tenk på et tall. Legg til fem, og multipliser summen med fire. Trekk så fra seks, og del det du fikk på to. Trekk til slutt fra syv. Hvis du forteller meg tallet du nå har, skal jeg fortelle deg hvilket tall du tenkte på." En elev oppgir åtte. Hvilket tall tenkte hun på? Løs problemet på to måter.  
+
+#### Vurderingskriterier middels:  17.04.23
+
+Studenten må løse problemet på to måter. For eksempel kan de jobbe baklengs. De endte med åtte. Dette fikk de ved å trekke fra syv. Da hadde de altså $15$. Tallet $15$ kom fra å dele på to, så da hadde de $30$. Igjen kom $30$ fra en subtraksjon på $6$, så de hadde $36$ på det tidspunktet. Siden $36$ kom fra å multiplisere med $4$ kan vi gå baklengs ved å ta $\frac{36}{4} = 9$. Tallet $9$ fikk de ved å legge til fem, så vi finner det originale tallet ved å trekke fra fem. De må altså ha begynt med $4$.
+
+En annen måte vil være algebraisk. Da kan vi skrive opp hele rekken. Vi kaller tallet eleven tenke på for $a$. Gjennom forklaringen får vi vite at 
+$$
+\frac{(a+5)\cdot 4 - 6}{2}-7 = 8.
+$$
+Løser de denne ligningen vil de essensielt gjøre det samme som er gjort over (eller noe tilsvarende).
+
 #### Middels: Løse lineære likninger ved hjelp av ulike strategier,  17.02.23
 
 På et klassetrinn er det $45$ elever. Alle deltar i en idrett. Antallet elever på håndball er fem mer enn det dobbelte av antallet på fotball. Det er én og en halv ganger flere på basket enn fotball, men fem elever spiller både fotball og basket.

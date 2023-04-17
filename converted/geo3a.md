@@ -25,6 +25,16 @@ v & = \frac{\angle BAC}{2}.
 $$
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-03-21-15-36.png)
 
+#### Avansert: Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer,  17.04.23
+
+Under ser du en firkant $ABCD$ der $\angle BAC$ er $90^\circ$, og $\angle BCD = 30^\circ$. Avgjør hva summen av de lilla vinklene er, det vil si, avgjør $\angle CBA + \angle ADC$.
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-12-15-47-28.png)
+
+##### Vurderingskriterier
+
+Studenten argumentere for summen av vinklene på en logisk og strukturert måte. Dette kan nok gjøres på flere måter. En mulighet kan være at studenten bruker at vinkelsummen i en fikant er $360^\circ$. Da kan man videre utnytte at siden $\angle BAC = 90^\circ$ så må $\angle DAB$ være $270^\circ$, siden vinklene utgjør en hel sirkel. Vi vet derfor at de indre vinklene i firkanten er $270^\circ + 30^\circ + \angle CBA + \angle ADC$. Det gir at summen av de lilla vinklene må være $60^\circ$.
+
 #### Avansert: Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer,  31.03.23
 
 Under ser du en firkant der midtpunktene $E$, $F$, $G$ og $H$ er markert.
@@ -73,13 +83,13 @@ Studentene må gjøre alle oppgavene.
 2. Her må studenten bare bruke informasjonen fra 1. sammen med at vinkelsummen i trekanter er $180$ grader.
 3. Siden $a = b$ må $CB = BD$ (fordi det er en likebeint trekant fra 1.). Nå følger resultatet bare ved direkte bruk av formlikhet.
 
-#### Avansert: Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer,  10.02.23 {#f10}
+#### Avansert: Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer,  10.02.23
 
 Under ser du to parallelle linjer $f$ og $g$. Mellom linjene er det tre linjestykker som danner vinklene $a$, $b$, $c$ og $d$. Når $a = 50^\circ$ og $d = 70^\circ$, avgjør hvor stor $b+c$ er.
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-22-21-01.png)
 
-#### Vurderingskriterier avansert:  10.02.23 {#f10}
+#### Vurderingskriterier avansert:  10.02.23
 
 Studentene må på en forståelig måte få fram hor stor summen av $b+c$ er.
 

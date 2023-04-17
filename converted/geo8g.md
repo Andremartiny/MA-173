@@ -47,6 +47,19 @@ så skal ikke dette rundes av til $2,236$
    d.  Vi får at $8^2 +15^2 = 64+225 = 289 = c^2$. Dermed er $c = \sqrt 289$.\
    $\vdots$
 
+#### Grunnleggende: Bruke Pytagoras setning,  17.04.23
+
+Finn lengden på den ukjente kateten i en rettvinklet trekant når du vet at:
+    a.  hypotenusen er 10 og en katet har lengde 8
+    b.  den ene kateten har lengde 5 og hypotenusen har lengde 10.
+
+Utregningene skal ikke være avrundet og skal gis i eksakte verdier. Det vil si at hvis svaret er $\sqrt{1^{2} + 2^{2}} = \sqrt{5}$, så skal ikke dette rundes av til $2,236$.
+
+##### Vurderingskriterier
+
+    a. Studenten må bruke Pytagoras setninging. For eksempel kan de peke på at vi vet at $8^2 + k^2 = 10^2$. Trekker vi fra $8^2$ på begge sider, ser vi at $k^2 = 100-64 = 36$. Dermed må $k = 6$.
+    b. På samme måte som i $a$ kan vi se at $5^2 + k^2 = 10^2$. Det gir dermed at $k^2 = 100-25$, så $k = \sqrt 75$ (som kan forenkles til $5\sqrt 3$, men dette er ikke nødvendig).
+
 #### Grunnleggende: Bruke Pytagoras setning,  31.03.23
 
 Finn lengden på hypotenusen i en rettvinklet trekant når du vet at katetene har lengde:

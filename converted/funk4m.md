@@ -33,6 +33,15 @@
     b.  $3 - \frac{1}{2}t = 1$
 
 
+#### Middels: Løse likninger fra funksjonsperspektiv,  17.04.23
+
+1. Gi en situasjon som passer til funksjonen $f(x)=50-5x$. Hva svarer likninga $50 - 5x= 10$ til i situasjonsbeskrivelsen din? Tolk og løs likningen grafisk i et koordinatsystem.
+
+##### Vurderingskriterier
+
+Studenten må lage en situasjon som gir opphav til likningen. Deretter må de illustrere likningen grafisk og vise løsningen i koordinatsystemet.
+
+
 #### Middels: Løse likninger fra funksjonsperspektiv,  31.03.23
 
 1. Gi en situasjon som passer til funksjonen $f(x)=50 - 5x$. Hva svarer likninga $50 - 5x=10$ til i situasjonsbeskrivelsen din? Tolk og løs likningen grafisk i et koordinatsystem.
@@ -51,29 +60,29 @@ De må lage en situasjon som gir likningen. Deretter må de illustrere likningen
 De må lage en situasjon som gir likningen. Deretter må de illustrere likningen grafisk og vise løsningen i koordinatsystemet.
 
 
-#### Middels: Løse likninger fra funksjonsperspektiv,  Funksjoner 13.02.23
+#### Middels: Løse likninger fra funksjonsperspektiv,  13.02.23
 
 1. Gi en situasjon som passer til funksjonen $f(x)=5+3x$. Hva svarer likninga $5+3x=0$ til i situasjonsbeskrivelsen din? Tolk og løs likningen grafisk i et koordinatsystem.
 
-#### Vurderingskriterier middels:  Funksjoner 13.02.23
+#### Vurderingskriterier middels:  13.02.23
 
 De må lage en situasjon som gir likningen. Deretter må de illustrere likningen grafisk og vise løsningen i koordinatsystemet.
 
 
-#### Middels: Løse likninger fra funksjonsperspektiv,  Funksjoner 10.02.23
+#### Middels: Løse likninger fra funksjonsperspektiv,  10.02.23
 
 1. Gi en situasjon som passer til funksjonen $f(x)=20-\frac{1}{2}x$. Hva svarer likninga $20-\frac{1}{2}x=0$ til i situasjonsbeskrivelsen din? Tolk og løs likningen grafisk i et koordinatsystem.
 
-#### Vurderingskriterier middels:  Funksjoner 10.02.23
+#### Vurderingskriterier middels:  10.02.23
 
 De må lage en situasjon som gir likningen. Deretter må de illustrere likningen grafisk og vise løsningen i koordinatsystemet.\
 
 
-#### Middels: Løse likninger fra funksjonsperspektiv,  Funksjoner 3.02.23
+#### Middels: Løse likninger fra funksjonsperspektiv,  3.02.23
 
 1. Lag en realistisk situasjon som gir opphav til likningen $20x + 30 =10x + 80$. Tolk likningen grafisk og vis løsningen i et koordinatsystem.
 
-#### Vurderingskriterier middels:  Funksjoner 3.02.23
+#### Vurderingskriterier middels:  3.02.23
 
 De må lage en situasjon som gir likningen. Deretter må de illustrere likningen grafisk og vise løsningen i koordinatsystemet.
 

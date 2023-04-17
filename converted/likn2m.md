@@ -10,6 +10,16 @@
         gjerne på flere måter -- hva som foregår de gangene du må «snu
         ulikhetstegnet».
 
+#### Middels: Løse lineære ulikheter ved hjelp av ulike strategier,  17.04.23
+
+Illustrasjon A er ei tallinje som indikerer alle tall $x$ som er lavere enn $-5$. Illustrasjon B viser alle tall lavere enn tre. Fullfør hver illustrasjon slik at de sammen med en kort ordforklaring viser hvor vi finner $-x$ i hvert tilfelle.
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-16-20-31-52.png)
+
+#### Vurderingskriterier middels:  17.04.23
+
+Studenten må fullføre illustrasjonene (se for eksempel heftet).
+
 #### Middels: Løse lineære ulikheter ved hjelp av ulike strategier,  17.02.23
 
 Vis ved hjelp av ei tallinje at dersom $-\frac{1}{2}x>3$, så må $x<-6$.

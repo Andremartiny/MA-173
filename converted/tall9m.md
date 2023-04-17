@@ -22,3 +22,22 @@
 3. Vis ved hjelp av ordforklaring og illustrasjon at brøkmultiplikasjon
    er kommutativ.
 
+
+#### Middels: Utføre multiplikasjon med brøk,  17.04.23
+
+1. Forklar ved hjelp av en passende illustrasjon at $3 \cdot \frac{2}{5} = \frac{2}{5} \cdot 3$.
+
+2. Forklar kort ved hjelp av en passende illustrasjon hvorfor vi multipliserer teller med teller og nevner med nevner for å finne produktet av to brøker.  
+
+##### Vurderingskriterier
+
+1. Må vise til struktur, ikke bare at «svarene» er like. Eks under.
+Kvadratene er 1, grønn del 2/5. Figuren kan leses som *2/5 gjentatt
+tre ganger,* altså 3 ⋅ 2/5. Den kan også leses som *2/5 av tre,* altså
+2/5 ⋅ 3.
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tall/image13.png)
+
+1. Må vise til en figur som for eksempel den under (2/3 ⋅ 4/5):
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tall/image2.png)
+

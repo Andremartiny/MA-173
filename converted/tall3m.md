@@ -53,6 +53,29 @@
 
    g. Like grupper: målingsdivisjon.
 
+#### Middels: Beskrive situasjoner med hensyn til multiplikative strukturer,  17.04.23
+
+1. Avgjør og begrunn hvilken multiplikativ struktur situasjonene svarer til.
+
+a. En bils tilbakelagte strekning når den har kjørt 60 km/t i 20 minutter.
+b. Antall tyggegummi i tre pakker med åtte i hver.  
+c. Antall seter i en kinosal med 23 rader, hver med 14 seter.
+
+2. Ta utgangspunkt i situasjon b. Legg til nødvendig informasjon, og omformuler på to måter: slik at du lager én divisjonsoppgave med målingsdivisjon og én med delingsdivisjon. Begrunn hvilken som er hva.
+
+##### Vurderingskriterier
+
+Avgjørelsene må begrunnes kort.
+
+1. \
+a. er rate.
+b. er like grupper.
+c. er rektangulært arrangement (eller like grupper).
+2. \
+
+- Målingsdivisjon: 24 tyggegummi fordelt i pakker på 8, hvor mange  pakker?
+- Delingsdivisjon: 24 tyggegummi i tre pakker, hvor mange i hver?
+
 
 #### Middels: Beskrive situasjoner med hensyn til multiplikative strukturer,  31.03.23
 

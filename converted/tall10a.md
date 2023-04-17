@@ -10,3 +10,16 @@
    konteksten til å forklare og illustrere hvorfor delingsregelen
    er som den er.
 
+#### Avansert: Utføre divisjon med brøk,  17.04.23
+
+Ta utgangspunkt i divisjonen $9 : \frac{3}{2}$. Lag to passende kontekster, og bruk dem til å vise at $9 : \frac{3}{2} = 9 \cdot \frac{2}{3}$.
+
+a. Den ene konteksten skal gi delingsdivisjon.
+
+b. Den andre konteksten skal gi målingsdivisjon.
+
+##### Vurderingskriterier
+
+a. Delingsdivisjon: 9 liter maling rekker til 3/2 vegg (like vegger), hvor mye maling trengs per vegg? Fordeler de 9 literne likt på de tre todelene, som gir 9/3 liter per todel. Ganger dette opp med to for å få en hel vegg, altså $9\ :\frac{3}{2} = \frac{9}{3} \cdot 2 = 9 \cdot \frac{3}{2}$.
+b. Målingsdivisjon: Hvor mange en-og-en-halv-litere går det på ni liter? Det går to halvlitere på én liter, så $9 \cdot 2$ halvlitere på ni liter. 3/2 liter er tre ganger så mye, så det går en tredel så mange, altså $9\ :\frac{3}{2} = \frac{9 \cdot 2}{3} = 9 \cdot \frac{3}{2}$.
+

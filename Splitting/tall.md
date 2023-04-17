@@ -1127,6 +1127,326 @@ $\frac{a^{3 + n} \cdot b^{\frac{2}{3}}}{(ab)^{\frac{n}{3}}}$
 | I | $\sqrt[m]{a^{n}} = {\sqrt[m]{a}}^{\ n}$   |
 +---+-------------------------------------------+
 
+## 17.04.23
+
+### Forklare hva et posisjonssystem er
+
+#### Grunnleggende
+
+Forklar kort hva et posisjonssystem er. Gi eksempler fra base ti, tre, to og elleve.
+
+##### Vurderingskriterier
+
+Må få frem ideen om at sifrenes posisjon avgjør verdien de står for, og at denne verdien avhenger av hvilken gruppering vi velger -- hvilken base eller grunntall vi har. Må også ha med eksempler.
+
+#### Middels
+
+1. Forklar kort hva et posisjonssystem er.
+
+2. Gjør om $121_{ti}$ til base tre, $101101_{to}$ til base ti, og $112_{fire}$ til base fem.
+
+##### Vurderingskriterier
+
+Som grunnleggende + omgjøringene. Det må gå frem hvordan omgjøringene er gjort.
+
+### Avansert
+
+1. Gjør om  $112_{tre}$ til base seks.
+2. Regn ut i den aktuelle basen:
+a.  $1101001_{to} - 110010_{to}$  
+
+b.  $43_{seks} \cdot 23_{seks}$
+
+##### Vurderingskriterier
+
+Som middels + beregninger. Disse må være ført i den aktuelle basen.
+
+### Beskrive situasjoner med hensyn til additive strukturer
+
+#### Grunnleggende
+
+1. Beskriv tre situasjoner som har addisjon som modell med henholdsvis økning, forening og additiv sammenlikning som struktur.
+
+2. Velg én av situasjonene over. Omformuler den slik at det er rimelig å si at den har samme struktur, men med subtraksjon som modell.
+
+##### Vurderingskriterier
+
+Additive strukturer s. 52 i Alfa.
+
+### Middels
+
+Avgjør og begrunn hvilken additiv struktur situasjonene har. Angi både addisjons- og subtraksjonsstykket som passer i hvert tilfelle.
+
+a. På en uke har en solsikke inntil husveggen vokst til 212 cm. Hvor mange centimeter må den vokse før den når husveggen på 240 cm?
+b. André fant 12 kroner i bukselomma. I jakkelomma fant han 50. Hvor mye mer fant han i jakka?  
+c. Studentene må lese to pensumbøker med til sammen 643 sider. Den ene boka er på 425 sider. Hvor mange sider har den andre?
+
+##### Vurderingskriterier
+
+En struktur må angis med rimelig begrunnelse. Begge mulige regnestykker må med.
+a. er komplettering: 212 + \_\_ = 240 eller 240 -- 212 = \_\_.
+b. er sammenlikning: 12 + \_\_ = 50 eller 50 -- 12 = \_\_.
+c. er forening/sammenslåing: 425 + \_\_ = 643 eller 643 -- 425 = \_\_.
+
+### Beskrive situasjoner med hensyn til multiplikative strukturer
+
+#### Grunnleggende
+
+1. Gjengi kort med et eksempel til hver, hva som menes med de to multiplikative strukturene rate og kombinatorisk situasjon.
+
+2. Gjengi kort med et eksempel til hver, hva som menes med de to typene divisjon delingsdivisjon og målingsdivisjon.
+
+##### Vurderingskriterier
+
+Multiplikative strukturer s. 58 i Alfa.
+
+#### Middels
+
+1. Avgjør og begrunn hvilken multiplikativ struktur situasjonene svarer til.
+
+a. En bils tilbakelagte strekning når den har kjørt 60 km/t i 20 minutter.
+b. Antall tyggegummi i tre pakker med åtte i hver.  
+c. Antall seter i en kinosal med 23 rader, hver med 14 seter.
+
+2. Ta utgangspunkt i situasjon b. Legg til nødvendig informasjon, og omformuler på to måter: slik at du lager én divisjonsoppgave med målingsdivisjon og én med delingsdivisjon. Begrunn hvilken som er hva.
+
+##### Vurderingskriterier
+
+Avgjørelsene må begrunnes kort.
+
+1. \
+a. er rate.
+b. er like grupper.
+c. er rektangulært arrangement (eller like grupper).
+2. \
+
+- Målingsdivisjon: 24 tyggegummi fordelt i pakker på 8, hvor mange  pakker?
+- Delingsdivisjon: 24 tyggegummi i tre pakker, hvor mange i hver?
+
+### Bruke regnestrategier og egenskaper ved regneoperasjonene
+
+#### Grunnleggende
+
+Gjengi kommutativ, assosiativ og distributiv egenskap for addisjon og multiplikasjon.
+
+##### Vurderingskriterier
+
+Gjengi egenskapene.
+
+#### Middels
+
+1. Bruk minst én av egenskapene (kommutativ, assosiativ, distributiv) til å regne $23 \cdot 11$. Vis tydelig hvordan du tenker.
+
+2. Gjør beregningene under ved hjelp av regnestrategier som ikke innebærer oppstilt regning. Vis tydelig hvordan du tenker.
+
+a. $352 - 61$
+b. $240 : 20$
+c. $160 \cdot \frac{3}{4}$
+
+##### Vurderingskriterier
+
+Trengs et par setninger som tydelig får frem hvordan man har tenkt.
+    i.  Nærliggende å distribuere: $23 \cdot 11 = 23 \cdot (10 + 1)$
+    ii. Eks. dele opp: $352 - 61 = 352 - 60 - 1$
+    iii. Eks. dele på ti, så to: $240\ :20 = (240\ :10):2$
+    iv. Eks. finne firedel av 16, gange med 3, gange med 10.
+
+#### Avansert
+
+1. Bruk multiplikasjonen $5 \cdot 8$ til å illustrere og gi en kort forklaring av distributiv egenskap.
+
+2. Gjør beregningene under ved hjelp av regnestrategier som ikke innebærer oppstilt regning. Vis tydelig hvordan du tenker.
+
+3. Velg én av strategiene fra 2., og gi en illustrasjon og kort forklaring som viser at strategien alltid funker.
+a. $240 : 20$
+b. $160 \cdot \frac{3}{4}$
+
+##### Vurderingskriterier
+
+Få tydelig frem hva man har tenkt.
+    i.  Må bruke gitt multiplikasjon, og få frem at egenskapen er generell (generisk eksempel)
+    ii. Som iii. og iv. fra middels
+    iii. Må få frem at strategien er generell (heller ikke her trengs nødvendigvis noe algebra)
+
+### Forklare og gi eksempler på de ulike betydningen av brøk: del av hel/enhet, del av antall, tall og forhold
+
+#### Grunnleggende
+
+Forklar og gi eksempler på hva som menes med brøk som
+a. del av en hel eller del av en enhet
+b. del av et antall
+c. tall
+d. forhold
+
+##### Vurderingskriterier
+
+Må gi en kort forklaring. Alfa s. 96-101 og s. 109.
+
+#### Middels
+
+1. Avgjør og begrunn kort hvilke(n) betydning av brøk det er naturlig å knytte til situasjonene.
+a. Etter en viss tid har du løpt $\frac{3}{4}$ av strekningen for dagens joggetur.
+b. André føler seg spenstig, og maler $\frac{2}{3}$ av stueveggen grønn, den siste tredelen rosa.
+
+2. Lag to oppgaver, og begrunn kort hvorfor de involverer den aktuelle betydningen av brøk.
+a. Én oppgave med brøk som del av antall.
+b. Én oppgave med brøk som forhold.
+
+##### Vurderingskriterier
+
+1. Må avgjøre med en kort, fornuftig begrunnelse.
+a. er rimelig å tolke som *tall* (en måling).
+b. er rimelig å tolke som *del av helhet* (vegg som helhet).
+2. Oppgavene må rimelig kunne sies å involvere den aktuelle tolkningen, og besvarelsen må inneholde en kort begrunnelse.
+
+### Forklare hvordan de reelle tallene er bygd opp
+
+#### Grunnleggende: Forklare hva hele, rasjonale og irrasjonale tall er
+
+Gjengi kort hva som menes hele, rasjonale og irrasjonale tall.
+
+##### Vurderingskriterier
+
+Gjengi korrekt. Hele tall: ... -2, -1, 0, 1, 2,.... Rasjonale: brøk med heltallig teller og nevner. Irrasjonale: de som ikke er heltallige brøker.
+
+#### Middels: Forklare hvordan de reelle tallene er bygd opp av naturlige, hele, rasjonale og irrasjonale tall
+
+Forklar kort hva naturlige, hele, rasjonale og irrasjonale tall er, og vis med en illustrasjon hvordan disse til sammen utgjør de reelle tallene.
+
+##### Vurderingskriterier
+
+Som grunnleggende, men med presisering av naturlige også, samt et diagram eller liknende som får frem hvilke mengder som er delmengder av hvilke.
+
+### Utvide og forkorte brøker
+
+#### Grunnleggende: Utvide og forkorte brøker
+
+Finn i hvert tilfelle den likeverdige brøken med lavest mulig heltallig teller og nevner.
+a. $\frac{12}{14}$
+b. $\frac{1,5}{6}$
+c. $\frac{\frac{2}{3}}{4}$
+
+##### Vurderingskriterier
+
+6/7, 1/4, 1/6
+
+#### Middels: Utvide og forkorte brøker, og forklare og illustrere hvorfor dette gir brøker av lik verdi  
+
+1. Hvilke brøker er likeverdige med $\frac{2}{5}$?
+a. $\frac{4}{15}$
+b. $\frac{1}{2,5}$
+c. $\frac{\frac{2}{3}}{\frac{5}{3}}$
+d. $\frac{10}{25}$
+
+2. Lag en illustrasjon som tydelig viser at $\frac{2}{3}$ og $\frac{8}{12}$ er likeverdige.  
+
+##### Vurderingskriterier
+
+1. b, c og d
+2. Eks. dele kvadrat i tredeler den ene veien, og firedeler den
+andre.
+
+### Utføre addisjon og subtraksjon med brøk
+
+#### Grunnleggende: Utføre addisjon og subtraksjon med brøk
+
+Regn ut.
+a. $\frac{5}{2} + \frac{2}{3}$
+b. $\frac{7}{3} - \frac{1}{2}$
+
+##### Vurderingskriterier
+
+19/6, 11/6
+
+#### Middels: Utføre addisjon og subtraksjon med brøk, og forklare og illustrere hvorfor regnereglene gir mening
+
+Regn ut, og gi en forklaring med illustrasjon som viser at beregningen må være riktig.
+
+a. $\frac{5}{2} + \frac{2}{3}$
+b. $\frac{2}{3} - \frac{1}{2}$
+
+##### Vurderingskriterier
+
+19/6, 1/6. Illustrasjonen må vise utviding til felles nevner på en forståelig måte.
+
+### Utføre multiplikasjon med brøk
+
+#### Grunnleggende: Utføre multiplikasjon med brøk
+
+Regn ut.
+a. $\frac{3}{2} \cdot \frac{4}{5}$
+b. $2 \frac{2}{5} \cdot \frac{2}{3}$
+
+##### Vurderingskriterier
+
+6/5, 8/5
+
+#### Middels: Utføre multiplikasjon med brøk, og forklare og illustrere hvorfor regnereglene gir mening
+
+1. Forklar ved hjelp av en passende illustrasjon at $3 \cdot \frac{2}{5} = \frac{2}{5} \cdot 3$.
+
+2. Forklar kort ved hjelp av en passende illustrasjon hvorfor vi multipliserer teller med teller og nevner med nevner for å finne produktet av to brøker.  
+
+##### Vurderingskriterier
+
+1. Må vise til struktur, ikke bare at «svarene» er like. Eks under.
+Kvadratene er 1, grønn del 2/5. Figuren kan leses som *2/5 gjentatt
+tre ganger,* altså 3 ⋅ 2/5. Den kan også leses som *2/5 av tre,* altså
+2/5 ⋅ 3.
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tall/image13.png)
+
+1. Må vise til en figur som for eksempel den under (2/3 ⋅ 4/5):
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tall/image2.png)
+
+### Utføre divisjon med brøk
+
+#### Grunnleggende: Utføre divisjon med brøk
+
+Regn ut.
+a. $\frac{4}{5} : \frac{5}{4}$
+b. $\frac{4}{3} : \frac{2}{5}$
+
+##### Vurderingskriterier
+
+ 16/25, 10/3
+
+#### Middels: Vise ved hjelp av generisk eksempel hvorfor regneregelen for divisjon med brøk er som den er
+
+Vis ved hjelp av et generisk eksempel hvorfor divisjon med en brøk svarer til multiplikasjon med den omvendte brøken.
+
+##### Vurderingskriterier
+
+Må tolke en brøkdivisjon som brøk over brøk, og utvide. Oppgaven ber om *generisk eksempel.* Poenget er at strukturen må komme frem (som i algebraen under). Å dele på en stambrøk er ikke godt nok. Velger noen algebra, er det ok.
+$$\frac{a}{b}\ :\frac{c}{d} = \frac{\frac{a}{b}}{\frac{c}{d}} = \frac{\frac{a}{b} \cdot d/c}{\frac{c}{d} \cdot d/c} = \frac{a}{b} \cdot \frac{d}{c}$$
+
+#### Avansert: Forklare ved hjelp av kontekst (både målings- og delingsdivisjon) hvorfor regneregelen for divisjon med brøk gir mening
+
+Ta utgangspunkt i divisjonen $9 : \frac{3}{2}$. Lag to passende kontekster, og bruk dem til å vise at $9 : \frac{3}{2} = 9 \cdot \frac{2}{3}$.
+
+a. Den ene konteksten skal gi delingsdivisjon.
+
+b. Den andre konteksten skal gi målingsdivisjon.
+
+##### Vurderingskriterier
+
+a. Delingsdivisjon: 9 liter maling rekker til 3/2 vegg (like vegger), hvor mye maling trengs per vegg? Fordeler de 9 literne likt på de tre todelene, som gir 9/3 liter per todel. Ganger dette opp med to for å få en hel vegg, altså $9\ :\frac{3}{2} = \frac{9}{3} \cdot 2 = 9 \cdot \frac{3}{2}$.
+b. Målingsdivisjon: Hvor mange en-og-en-halv-litere går det på ni liter? Det går to halvlitere på én liter, så $9 \cdot 2$ halvlitere på ni liter. 3/2 liter er tre ganger så mye, så det går en tredel så mange, altså $9\ :\frac{3}{2} = \frac{9 \cdot 2}{3} = 9 \cdot \frac{3}{2}$.
+
+### Utføre formell omforming av brøk
+
+#### Avansert: Utføre formell omforming av brøk
+
+Regn ut.
+
+a. $\frac{3}{2}(2 + \frac{2}{3} - \frac{3 + \frac{1}{5}}{\frac{3}{2}}) -1$
+b. $\frac{(\frac{4}{7} \cdot (2 + \frac{4}{5})) - \frac{3}{5}}{\frac{2}{3}} + \frac{1}{2}$
+
+##### Vurderingskriterier
+
+-1/5 og 2.
+
+
 ## 31.03.23
 
 ### Forklare hva et posisjonssystem er, og regne med tall uttrykt i posisjonssystem med ulike baser

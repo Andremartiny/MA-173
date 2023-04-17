@@ -68,3 +68,11 @@ posisjonssystem med ulike baser.
    2. $307_{\text{åtte}}=3⋅8^2+0⋅8^1+7⋅8^0=3⋅64+0⋅8+7$
    3. $93A_{\text{elleve}}=9⋅11^2+3⋅11^1+A⋅11^0=2⋅12 +3⋅11 10$
 
+#### Grunnleggende: Forklare hva et posisjonssystem er,  17.04.23
+
+Forklar kort hva et posisjonssystem er. Gi eksempler fra base ti, tre, to og elleve.
+
+##### Vurderingskriterier
+
+Må få frem ideen om at sifrenes posisjon avgjør verdien de står for, og at denne verdien avhenger av hvilken gruppering vi velger -- hvilken base eller grunntall vi har. Må også ha med eksempler.
+

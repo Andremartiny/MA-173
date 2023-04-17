@@ -20,6 +20,22 @@
 
 
 
+#### Middels: Bruke Pytagoras setning,  17.04.23
+
+På figuren under ser du  et parallellogram med sidelengder $x$ og $y$. Trekanten $EFH$ er rettvinklet og har sidelengder $FH = a$ og $HE = b$.
+
+1. Forklar hvorfor $GE^2 = (x+a)^2 + b^2$ og hvorfor $DF^2 = (x-a)^2 + b^2$.
+
+2. Argumenter for hvorfor $GE^2 + DF^2 = 2x^2 + 2y^2$.
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-13-15-05-06.png)
+
+##### Vurderingskriterier
+
+1. Studenten trenger kun å peke på at $GH = x+a$ og så følger resultatet fra Pytagoras setning. Ved å trekke en normal ned fra $F$ til $DE$, kan en raskt innse at $DF^2 = (x-a)^2+b^2$ på samme måte som man gjorde med $GH$.
+2. Studenten må regne seg frem og konkludere med påstanden på en forståelig måte. For eksempel kan de begynne med å peke på at $GE^2 = (x+a)^2 + b^2 =x^2+2xa +a^2+b^2$ og at $DF^2 = x^2 -2xa+a^2+b^2$. Legger vi nå sammen $GE^2+DF^2$ får vi $2x^2 +2(a^2+b^2)$. Skal påstanden stemme må $a^2+b^2 = y^2$, men dette ser vi at stemmer ved å bruke at $FHG$ er rettvinklet med sidelengder $a$, $b$ og $y$. 
+
+
 
 #### Middels: Bruke Pytagoras setning,  31.03.23
 

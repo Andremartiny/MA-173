@@ -22,3 +22,26 @@ tilbakelegg
 5. Vi kan nummerere setene fra $1$ til $6$, og vi ønsker å velge ut fire av de seks sifrene. Vi kan ikke velge samme siffer to ganger, da dette betyr at vi skal dekke på samme plass to ganger. Dermed er det et utvalg uten tilbakelegg. Siden det å dekke på ikke har noen betydning i forhold til rekkefølgen vi gjør det i, så vil dette være et uordnet utvalg uten tilbakelegg.
 6. $\vdots$
 
+
+#### Middels: Avgjøre om utvalg er ordnet eller uordnet og om det er med eller uten tilbakelegg,  17.04.23
+
+Avgjør om situasjonene under kan tenkes som ordnede eller uordnede utvalg og om utvalgene er med eller uten tilbakelegg:
+
+1. Til årsmøtet i et lag møter det ti personer. På hvor mange måter kan det velges formann, nestformann og kasserer?
+2. I en klasse på 20 elever skal det velges ut en gruppe på 6. På hvor mange måter kan det gjøres på?
+3. På hvor mange måter kan forskjellige tresifrede tall lages med sifrene 1, 2, 3, 4 og 6, der en kan gjenta gjenta sifre?
+4. På en flervalgsprøve med åtte spørsmål er det tre alternativer på hvert spørsmål, der kun ett alternativ er rett. Hvor mange mulige forskjellige besvarelser kan man gi på prøven?
+
+##### Vurderingskriterier
+
+Studenten må argumentere og begrunne sitt valg. Det *må* ikke nødvendigvis stemme med forslaget under, men er det annerledes må begrunnelsen hvertfall være meningsfull!
+
+1. Studenten må peke på at siden det er forskjellige roller, så vil det være et ordnet utvalg, men siden det ikke er noen som kan være samme rolle så er det uten tilbakelegg.
+2. De skal velge en gruppe på $6$ elever. Én elev kan såklart ikke være med flere ganger i gruppen, så det blir uten tilbakelegg. Det er heller ikke påpekt at gruppen inneholder noen roller som gjør det naturlig å tenke på dette som et uordnet utvalg.
+3. Det blir påpekt at en kan gjenta sifrene, dermed må det tenkes på som et utvalg med tiblakelegg. Rekkefølgen har noe å si siden vi skal lage tresifrede tall, som gjør det til et ordnet utvalg med tilbakelegg.
+4. Siden det er tre muligheter på hvert spørsmål kan en tenke at en på de åtte spørsmålene kan velge mellom 1, 2 og 3, noe som gir et utvalg med tilbakelegg. I tillegg bryr vi oss om rekkefølgen fordi vi ser et mulige besvarelser som kan gis på prøven. Dermed blir dette et ordnet utvalg med tilbakelegg.
+
+
+
+
+

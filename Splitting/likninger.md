@@ -189,6 +189,197 @@ pandoc .\quizzer\likninger\likninger.md -f markdown -t html --mathjax --template
     formelen som gir løsningene på enhver andregradslikning,
     $x = \frac{- b \pm \sqrt{b^{2} - 4ac}}{2a}$.
 
+## 17.04.23
+
+### Løse lineære likninger ved hjelp av ulike strategier
+
+#### Grunnleggende: Løse likninger, formelt og grunnskoletilpasset
+
+Løs likningen $3(x-1)=2(x+1)$ på to måter, formelt og grunnskoletilpasset. 
+
+##### Vurderingskriterier: Grunnleggende 
+
+Her *må* de løse likningen både formelt og grunnskoletilpasset. Formelt vil være med algebra og grunnskoletilpasset kan for eksempel være gjett og sjekk. 
+
+#### Middels: Forklare og begrunne løsningsstrategier, formelt og grunnskoletilpasset
+
+
+En lærer ga elevene følgende tallgåte: "Tenk på et tall. Legg til fem, og multipliser summen med fire. Trekk så fra seks, og del det du fikk på to. Trekk til slutt fra syv. Hvis du forteller meg tallet du nå har, skal jeg fortelle deg hvilket tall du tenkte på." En elev oppgir åtte. Hvilket tall tenkte hun på? Løs problemet på to måter.  
+
+##### Vurderingskriterier: Middels 
+
+Studenten må løse problemet på to måter. For eksempel kan de jobbe baklengs. De endte med åtte. Dette fikk de ved å trekke fra syv. Da hadde de altså $15$. Tallet $15$ kom fra å dele på to, så da hadde de $30$. Igjen kom $30$ fra en subtraksjon på $6$, så de hadde $36$ på det tidspunktet. Siden $36$ kom fra å multiplisere med $4$ kan vi gå baklengs ved å ta $\frac{36}{4} = 9$. Tallet $9$ fikk de ved å legge til fem, så vi finner det originale tallet ved å trekke fra fem. De må altså ha begynt med $4$.
+
+En annen måte vil være algebraisk. Da kan vi skrive opp hele rekken. Vi kaller tallet eleven tenke på for $a$. Gjennom forklaringen får vi vite at 
+$$
+\frac{(a+5)\cdot 4 - 6}{2}-7 = 8.
+$$
+Løser de denne ligningen vil de essensielt gjøre det samme som er gjort over (eller noe tilsvarende).
+
+#### Avansert: Analysere elevers løsningsstrategier
+
+En elev løser likningen $\frac{1}{5}(3x+1) = x + 5$ slik du ser under. Forklar hvordan eleven kan ha tenkt. Avgjør og begrunn om løsningen er riktig. Det som eventuelt er riktig, må begrunnes. Det som eventuelt er feil, må rettes opp i. 
+
+
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-16-18-56-37.png)
+
+
+##### Vurderingskriterier: Avansert {#313}
+
+Studenten må forklare hva eleven kan ha tenkt og peke på og begrunne det riktige og rette opp i det gale. Fra linje 1 til 2 bør studenten peke på at eleven har faktorisert ut $\frac{1}{5}$ på høyre side, men at det er blitt en feil med konstantleddet i parentesen. Eleven har trukket ut en femdel og dermed bør alt i parentesen bli fem større. Det burde derfor stått
+$$
+\frac{1}{5}(3x+1) = \frac{1}{5}(5x+25).
+$$
+Studenten bør videre peke på at fra linje 2 til 3 så har eleven multiplisert begge sider med $5$ slik at VS blir $3x+1$ og HS blir $5x+1$, eller uten feilen i forrige linje $5x+25$. Med følgefeilen har eleven splittet $5x+1$ opp til $3x+1 + 2x$ og sammenlignet sidene, noe som gjør at eleven konkluderer med at $0 = 2x$ eller bare at $0 = x$. Hadde eleven ikke hatt en følgefeil ville resultatet blitt
+$$
+3x+1 = 3x + 1 + 2x+ 24,
+$$
+som ville ført til at $x = 12$.
+
+### Løse lineære ulikheter ved hjelp av ulike strategier
+
+#### Grunnleggende: Løse ulikheter
+
+Løs ulikheten $2(3-x) \leq 6$.
+
+##### Vurderingskriterier: Grunnleggende 
+
+Her må de bare løse ulikheten.
+
+#### Middels: Forklare og begrunne løsningsstrategier
+
+Illustrasjon A er ei tallinje som indikerer alle tall $x$ som er lavere enn $-5$. Illustrasjon B viser alle tall lavere enn tre. Fullfør hver illustrasjon slik at de sammen med en kort ordforklaring viser hvor vi finner $-x$ i hvert tilfelle.
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-16-20-31-52.png)
+
+##### Vurderingskriterier: Middels
+
+Studenten må fullføre illustrasjonene (se for eksempel heftet).
+
+#### Avansert: Analysere elevers løsningsstrategier
+
+En klasse fikk i oppgave å vise ved hjelp av en illustrasjon at hvis $-x < 5$ så er $x > -5$. En elev besvarte oppgaven slik du ser under. Kommenter hva som ikke er riktig i besvarelsen, og rett opp i den slik at den blir riktig. 
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-16-20-39-01.png)
+
+##### Vurderingskriterier: Avansert
+
+Studentene må peke på problemet med at pilen går fra origo, deretter rette opp i den (se heftet). 
+
+### Løse lineære likningssett med to ukjente på ulike måter
+
+#### Grunnleggende: Løse likningssett ved hjelp av innsetting, addisjonsmetoden og grafisk
+
+Under ser du to likninger med to ukjente.
+
+$2(x - y) = y - 11$,
+
+$3(1 - x) + 2y = 2$.
+
+Løs likningssettet ved hjelp av
+
+1. innsettingsmetoden og
+
+2. addisjonsmetoden.
+
+##### Vurderingskriterier: Grunnleggende
+
+Begge oppgavene skal gjøres med metodene som er oppgitt. For eksempel kan studenten begynne med å rydde litt i likningene. Første likning kan skrives om til
+$$
+2x = 3y - 11,
+$$
+og andre likning kan skrives om til
+$$
+-3x+2y = -1.
+$$
+Hvis vi multipliserer første likning med $3$ og andre likning med $2$, da får vi det ekvivalente likningssettet
+$$
+6x = 9y - 33,
+$$
+$$
+-6x + 4y = -2.
+$$
+Legger vi disse likningene sammen (addisjonsmetoden) ser vi at $2y = 9y-33-2$, eller at $5y = 35$ eller at $y = 7$. Nå kan vi sette inn $y = 7$ i en av likningene å få at $x = 5$.
+
+Innsetting kan vi løse ved å for eksempel ta første likning $2x = 3y -11$ og dele på to. Det gir $x = \frac{3}{2}y - \frac{11}{2}$. Setter vi nå dette inn i likning to får vi $-3(\frac{3}{2}y - \frac{11}{2}) + 2y = -1$. Som vi nå kan løse for y og få samme konklusjon.
+
+#### Middels: Tolke problemstillinger som svarer til likningssett, og løse disse ved hjelp av innsetting, addisjonsmetoden og grafisk og uten bruk av likninger
+
+To tall har følgende to egenskaper: Egenskap 1: Divisjon av det en tallet med det andre gir $3$ og $1$ i rest. Egenskap 2: En femdel av én mer enn differansen mellom tallene, er $2$. Avgjør ved hjelp av en formell strategi hvilke to tall det er snakk om. 
+
+André panter $30$ flasker, og får $72$ kroner. Noen flasker gir to og resten tre kroner i pant. Uten bruk av likninger eller gjett og sjekk, avgjør hvor mange flasker André pantet av hver type.
+
+##### Vurderingskriterier: Middels {#332}
+
+Begge oppgavene må gjøres
+
+1. Studenten kan løse ved oppgaven ved å innse at første egenskap gir $x = 3y + 1$ og andre egenskap gir $\frac{x-y+1}{5} = 2$. Setter vi inn får vi $\frac{3y+1-y-1+1}{5} = 2$, eller at $2y+2 = 10$ eller at $y = 4$. Det gir altså at $x = 12+1$, altså $13$. 
+2. Studenten kan gi et logisk ressonement. For eksempel kan de peke på at hvis en kun panter flasker som gir $2$kr, så får André $60$ kroner. Ved å øke hver flaske som koster $2$kr til $3$kr øker vi panten han får med $1$kr. Siden $72$ kroner er $12$ mer enn $60$, så må han altså ha $18$ flasker som gir $2$kr og $12$ som gir tre.
+
+### Løse kvadratiske likninger ved hjelp av fullstendige kvadraters metode
+
+#### Grunnleggende: Løse likninger med heltallige koeffisienter og løsninger
+
+1. Løs likningen $x^2 - 14x = -40$ med fullstendige kvadraters metode.
+
+2. Løs likningen $3x^2 + 12x = 15$ med fullstendige kvadraters metode.
+
+##### Vurderingskriterier
+
+Begge likningene må løses med korrekt teknikk.
+
+#### Middels: Løse likninger med rasjonale koeffisienter og løsninger
+
+1. Løs likningen $3x^2 + 4x - 7 = 0$ med fullstendige kvadraters metode.
+
+2. Løs likningen $x^2 + \frac{4}{3}(x + \frac{1}{3})  = \frac{9}{4}$ med fullstendige kvadraters metode.
+
+##### Vurderingskriterier
+
+Begge likningene må løses med korrekt teknikk.
+
+#### Avansert: Løse likninger med rasjonale koeffisienter og irrasjonale løsninger
+
+1. Løs likningen $x^2 + x = 3$ med fullstendige kvadraters metode.
+
+2. Løs likningen $5x^2  - 4 = -3x$ med fullstendige kvadraters metode.
+
+##### Vurderingskriterier
+
+Begge likningene må løses med korrekt teknikk.
+
+### Bruke de tre kvadratsetningene
+
+#### Grunnleggende: Gjengi og vise kvadratsetningene algebraisk
+
+Gjengi og vis de tre kvadratsetningene algebraisk
+
+##### Vurderingskriterier: Grunnleggende {#351}
+
+Her *må* første og tredje kvadratsetning gjengis.
+
+#### Middels: Illustrere kvadratsetningene geometrisk
+
+Illustrer andre og tredje kvadratsetning geometrisk. Bruk illustrasjonene til å gi en forklaring av identitetene.
+
+##### Vurderingskriterier: Middels
+
+Her *må* andre og tredje kvadratsetning illustrerer geometrisk og brukes til å forklare identitetene.
+
+#### Avansert: Bruke kvadratsetningene til å faktorisere uttrykk
+
+1. Uttrykket under mangler et ledd for å bli et fullstendig kvadrat. Finn leddet som mangler, og faktoriser det fullstendige uttrykket ved hjelp av en kvadratsetning.
+
+$4x^2y^2 - 12xy$.
+
+2. Faktoriser uttrykket under. Illustrer kvadratsetningen du brukte med tallene og variablene fra uttrykket.  
+
+ $- 4b^2 + 9x^2$.
+
+##### Vurderingskriterier: Avansert
+
+1. Studenten må finne det manglende leddet. En kan innse at uttrykket kan skrives som $(2xy)^2 - 2\cdot 3\cdot 2xy$. Dermed kan de innse at det som mangler i uttrykket er $3^2$, noe som ville gitt $(2xy-3)^2 = 4x^2y^2 - 12xy+9$.
 
 ## 17.02.23
 

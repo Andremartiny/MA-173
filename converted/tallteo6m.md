@@ -140,7 +140,7 @@ Under ser dere dere de tre første båttallene $B_1$, $B_2$ og $B_3$.
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-13-55-27.png)
 
-#### Middels: Beskrive oppbygningen av figurtall (alle typer),  10.01.2023
+#### Middels: Beskrive oppbygningen av figurtall (alle typer),  10.01.23
 
 Ved å bryte båttallene ned på flere måter, utled to ulike, men likeverdige uttrykk for båttallene.
 

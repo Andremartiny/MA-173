@@ -107,7 +107,7 @@ utvikler seg
 ii. Her *må* de ta $R_n - R_{n-1}$ og gjøre algebra for å komme
 fram til formen på tillegget.
 
-#### Grunnleggende: Finne rekursivt uttrykk for figurtall,  10.01.2023
+#### Grunnleggende: Finne rekursivt uttrykk for figurtall,  10.01.23
 
 Vis i en illustrasjon hvordan hver figur inneholder den forrige, og finn rekursivt uttrykk for trekanttall $n$:
 ved hjelp av strategien form på tillegg.

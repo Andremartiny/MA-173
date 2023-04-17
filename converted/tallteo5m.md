@@ -144,7 +144,7 @@ i.  Finne ved å peke på form på tillegg (se grunnleggende i)
 ii. Finne uttrykket ved hjelp av å regne $H_n-H_{n-1}$
 
 
-#### Middels: Finne rekursivt uttrykk for figurtall,  10.01.2023
+#### Middels: Finne rekursivt uttrykk for figurtall,  10.01.23
 
 Vis i en illustrasjon hvordan hver figur inneholder den forrige, og finn rekursivt uttrykk for sekskanttallene $H_n$:
 ved hjelp av strategien form på tillegg.

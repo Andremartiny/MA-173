@@ -45,6 +45,21 @@
 
    ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-27-12-15-21.png)
 
+#### Avansert: Løse likninger fra funksjonsperspektiv,  17.04.23
+
+La $f(x)=3x^2-8x+12$  og  $g(x)= 4x + 3$.
+
+Bestem eventuelle skjæringspunkt (begge koordinater) mellom grafene til $f$ og $g$ ved regning.
+
+Skisser grafene i et koordinatsystem.
+
+##### Vurderingskriterier
+
+Alle oppgavene må besvares
+
+1. Studenten må regne ut skjæringspunktene.
+2. Studenten må skissere grafene i et koordinatsystem.
+
 #### Avansert: Løse likninger fra funksjonsperspektiv,  31.03.23
 
 La $f(x)=2x^2+12x-x$  og  $g(x)=-6x-6$.
@@ -75,7 +90,7 @@ Alle oppgavene må besvares
 1. Studenten må regne ut skjæringspunktene.
 2. Studenten må skissere grafene i et koordinatsystem.
 
-#### Avansert: Løse likninger fra funksjonsperspektiv,  Funksjoner 13.02.23
+#### Avansert: Løse likninger fra funksjonsperspektiv,  13.02.23
 
 To fjellklatrere, Henrik og André, skal overnatte på et fjell. De skal overnatte på en høyde på 2200 meter og bestemmer seg for å vedde om hvem som kommer seg ned til basen på 300 meter først.
 
@@ -97,7 +112,7 @@ I figuren under er også linjen $q = 300$ lagt inn.
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-20-57-45.png)
 
-#### Vurderingskriterier avansert:  Funksjoner 13.02.23
+#### Vurderingskriterier avansert:  13.02.23
 
 Alle oppgavene må besvares
 
@@ -106,28 +121,28 @@ Alle oppgavene må besvares
 3. Her må de sette opp og løse $p = h$.
 4. Her må de sette opp og løse $q = h$.
 
-#### Avansert: Løse likninger fra funksjonsperspektiv,  Funksjoner 10.02.23
+#### Avansert: Løse likninger fra funksjonsperspektiv,  10.02.23
 
 La $f(x) = \frac{4}{x}$ og $g(x) = 1+3x$.
 
 Skisser grafene.
 Finn skjæringspunktene ved regning (Merk: Både $x$- og $y$-verdi må oppgis for skjæringspunktene).
 
-#### Vurderingskriterier avansert:  Funksjoner 10.02.23
+#### Vurderingskriterier avansert:  10.02.23
 
 Begge oppgavene må besvares
 
 1. De må skissere grafene slik at på en god måte (skissa må ikke være utrolig nøyaktig, men bør heller ikke være voldsomt slurvete).
 2. De må sette opp likninga og finne skjæringspunktene ved regning.
 
-#### Avansert: Løse likninger fra funksjonsperspektiv,  Funksjoner 3.02.23
+#### Avansert: Løse likninger fra funksjonsperspektiv,  3.02.23
 
 La $f(x) = \frac{30}{x}$ og $g(x) = 2x+4$.
 
 Skisser grafene.
 Finn skjæringspunktene ved regning.
 
-#### Vurderingskriterier avansert:  Funksjoner 3.02.23
+#### Vurderingskriterier avansert:  3.02.23
 
 Begge oppgavene må besvares
 i. De må skissere grafene slik at på en god måte (skissa må ikke være utrolig nøyaktig, men bør heller ikke være voldsomt slurvete).

@@ -60,3 +60,13 @@
    b. $10010_{to}$ til base fire: $10010_{to} = 1 \cdot 16 + 1 \cdot 4 = 110_{fire}$
    c. ${20B}_{tolv}$ til base fem: ${20B}_{tolv} = 2 \cdot 144 + 11 = 2 \cdot 125 + 38 + 10 + 1 = 2 \cdot 125 + 49 = 2 \cdot 125 + 1 \cdot 25 + 4 \cdot 5 + 4 \cdot 1 = 2144_{fem}$
 
+#### Middels: Forklare hva et posisjonssystem er,  17.04.23
+
+1. Forklar kort hva et posisjonssystem er.
+
+2. Gjør om $121_{ti}$ til base tre, $101101_{to}$ til base ti, og $112_{fire}$ til base fem.
+
+##### Vurderingskriterier
+
+Som grunnleggende + omgjøringene. Det må gå frem hvordan omgjøringene er gjort.
+

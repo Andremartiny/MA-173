@@ -6,6 +6,19 @@
 
     b.  3.64 Løs på så mange måter du greier.
 
+#### Middels: Løse lineære likningssett med to ukjente på ulike måter,  17.04.23
+
+To tall har følgende to egenskaper: Egenskap 1: Divisjon av det en tallet med det andre gir $3$ og $1$ i rest. Egenskap 2: En femdel av én mer enn differansen mellom tallene, er $2$. Avgjør ved hjelp av en formell strategi hvilke to tall det er snakk om. 
+
+André panter $30$ flasker, og får $72$ kroner. Noen flasker gir to og resten tre kroner i pant. Uten bruk av likninger eller gjett og sjekk, avgjør hvor mange flasker André pantet av hver type.
+
+#### Vurderingskriterier middels:  17.04.23
+
+Begge oppgavene må gjøres
+
+1. Studenten kan løse ved oppgaven ved å innse at første egenskap gir $x = 3y + 1$ og andre egenskap gir $\frac{x-y+1}{5} = 2$. Setter vi inn får vi $\frac{3y+1-y-1+1}{5} = 2$, eller at $2y+2 = 10$ eller at $y = 4$. Det gir altså at $x = 12+1$, altså $13$. 
+2. Studenten kan gi et logisk ressonement. For eksempel kan de peke på at hvis en kun panter flasker som gir $2$kr, så får André $60$ kroner. Ved å øke hver flaske som koster $2$kr til $3$kr øker vi panten han får med $1$kr. Siden $72$ kroner er $12$ mer enn $60$, så må han altså ha $18$ flasker som gir $2$kr og $12$ som gir tre.
+
 #### Middels: Løse lineære likningssett med to ukjente på ulike måter,  17.02.23
 
 To tall har følgende to egenskaper: Egenskap 1: Divisjon av det en tallet (dividend) med det andre (divisor) gir $12$ og $3$ i rest. Egenskap 2: Summen av de to tallene er én mer enn halvparten av dividenden. Avgjør hvilke tall det er snakk om på to formelle måter.

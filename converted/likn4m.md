@@ -15,6 +15,17 @@
     lages slik at du selv hvordan de kan løses og hva løsningene er.
 
 
+#### Middels: Løse kvadratiske likninger ved hjelp av fullstendige kvadraters metode,  17.04.23
+
+1. Løs likningen $3x^2 + 4x - 7 = 0$ med fullstendige kvadraters metode.
+
+2. Løs likningen $x^2 + \frac{4}{3}(x + \frac{1}{3})  = \frac{9}{4}$ med fullstendige kvadraters metode.
+
+##### Vurderingskriterier
+
+Begge likningene må løses med korrekt teknikk.
+
+
 #### Middels: Løse kvadratiske likninger ved hjelp av fullstendige kvadraters metode,  17.02.23
 
 1. Løs likningen $3x^2 + 4x = {20}$ med fullstendige kvadraters metode.

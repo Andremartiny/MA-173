@@ -34,6 +34,5 @@
         gule, og så de fire som skal være røde?
     3. Hva om vi velger rutene som ikke skal fargelegges, så de fire
         som skal være røde?
-
-
+        
 

@@ -3,6 +3,28 @@
 1. *Se oppgaver fra tidligere nasjonal deleksamen fra seminar og i modulen nasjonal deleksamen.*
 
 
+#### Avansert: Løse lineære likninger ved hjelp av ulike strategier,  17.04.23
+
+En elev løser likningen $\frac{1}{5}(3x+1) = x + 5$ slik du ser under. Forklar hvordan eleven kan ha tenkt. Avgjør og begrunn om løsningen er riktig. Det som eventuelt er riktig, må begrunnes. Det som eventuelt er feil, må rettes opp i. 
+
+
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-16-18-56-37.png)
+
+
+#### Vurderingskriterier avansert:  17.04.23
+
+Studenten må forklare hva eleven kan ha tenkt og peke på og begrunne det riktige og rette opp i det gale. Fra linje 1 til 2 bør studenten peke på at eleven har faktorisert ut $\frac{1}{5}$ på høyre side, men at det er blitt en feil med konstantleddet i parentesen. Eleven har trukket ut en femdel og dermed bør alt i parentesen bli fem større. Det burde derfor stått
+$$
+\frac{1}{5}(3x+1) = \frac{1}{5}(5x+25).
+$$
+Studenten bør videre peke på at fra linje 2 til 3 så har eleven multiplisert begge sider med $5$ slik at VS blir $3x+1$ og HS blir $5x+1$, eller uten feilen i forrige linje $5x+25$. Med følgefeilen har eleven splittet $5x+1$ opp til $3x+1 + 2x$ og sammenlignet sidene, noe som gjør at eleven konkluderer med at $0 = 2x$ eller bare at $0 = x$. Hadde eleven ikke hatt en følgefeil ville resultatet blitt
+$$
+3x+1 = 3x + 1 + 2x+ 24,
+$$
+som ville ført til at $x = 12$.
+
+
 #### Avansert: Løse lineære likninger ved hjelp av ulike strategier,  17.02.23
 
 Under ser du tre elevers løsninger av likningen $3(2x+5)=(12+3x)$. Forklar hvordan elevene kan ha tenkt. Avgjør og begrunn om løsningene er riktige.

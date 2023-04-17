@@ -16,6 +16,18 @@ Under ser du en figur av tre formlike trekanter. Avgjør lengden på de resteren
 
 1. Vi ser at $a$ samsvarer med $d$ og $g$, at $b$ samsvarer med $e$ og $h$ og at $c$ samsvarer med $f$ og $h$. For å skalere $a = 3$ til $g = 4$, må vi skalere med $\frac{4}{3}$. Dermed må $b = 6$ skaleres til $6\cdot \frac{4}{3} = 8 = h$. For å gå fra $i$ til $c$ må vi skalere ned med $\frac{3}{4}$. Det gir at $c = 1 \cdot \frac{3}{4} = \frac{3}{4}$. 
 
+#### Middels: Bruke begrepet formlikhet av trekanter,  17.04.23
+
+Under ser du to formlike trekanter. Avgjør lengden på de resterende sidene hvis du får vite at:
+
+1. $c = 2$, $b = 5$, $f = 6$ og $d = 4$.
+2. $a = \frac{1} {3}$, $b = 4$, $d= \frac{3}{2}$ og $f = 9$.
+
+##### Vurderingskriterier
+
+1. Studenten må bruke at $c$ og $f$ samsvarer. Dermed ser vi at forholdet mellom trekantene er $3$. Dermed må $b = 5$ bety at $e = 3\cdot 5 = 15$. I tillegg må $d = 4$ bety at $a = \frac{4}{3}$.
+2. Siden $a$ og $d$ samsvarer må forholdet være $\displaystyle\frac{\frac{1}{3}}{\frac{3}{2}} = \frac{\frac{1}{3}\frac{2}{3}}{\frac{3}{2}\frac{2}{3}} = \frac{2}{9}$. Dette forteller oss at $d$ må forstørres med $\frac{2}{9}$ for å få størrelsen $\frac{1}{3}$. Eller motsatt må $a$ skaleres med $\frac{9}{2}$ for å få $d$. Vi bruker dette til å innse at $b = 4$ betyr at $e = \frac{9}{2}\cdot 4 = 18$. Videre må $f = 9$ bety at $c = \frac{2}{9} = 2$.
+
 #### Middels: Bruke begrepet formlikhet av trekanter,  31.03.23
 
 Under ser du to formlike trekanter. Avgjør lengden på de resterende sidene hvis du får vite at:

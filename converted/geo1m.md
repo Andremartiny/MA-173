@@ -71,7 +71,7 @@ Bruk forklaringene og illustrasjonene til å vise hva de generelle formlene må 
 
 Besvarelsen må gi en forståelig forklaring (og illustrasjon) for hvordan man avgjør størrelsene. For omkrets må en få fram måleenheten en bruker (typisk et linjestykke. Ofte cm, meter og lignende). For areal må det komme tydelig fram hvordan arealet henger sammen med måleenheten kvadrat (noe som i de aller fleste tilfeller betyr at en må vise en omforming til et rektangel, et halvt rektangel eller liknende). Begrunnelsene trekke ut ideen fra forklaringen og gi en generell formel for de tre størrelsene.  
 
-#### Middels: Bruke begrepene måltall, størrelse og måleenhet til å avgjøre størrelsen av grunnleggende figurer i 1 og 2 dimensjoner,  10.02.23 {#f10}
+#### Middels: Bruke begrepene måltall, størrelse og måleenhet til å avgjøre størrelsen av grunnleggende figurer i 1 og 2 dimensjoner,  10.02.23
 
 1. Velg passende måleenheter. Vis med ordforklaringer og illustrasjoner, uten å begrunne ved hjelp av de kjente formlene, hvordan man kan avgjøre
 
@@ -83,7 +83,7 @@ c. arealet av en sirkel, når man vet radius.
 
 Bruk forklaringene og illustrasjonene til å vise hva de generelle formlene må være.
 
-#### Vurderingskriterier middels:  10.02.23 {#f10}
+#### Vurderingskriterier middels:  10.02.23
 
 Besvarelsen må gi en forståelig forklaring (og illustrasjon) for hvordan man avgjør størrelsene. For omkrets må en få fram måleenheten en bruker (typisk et linjestykke. Ofte cm, meter og lignende). For areal må det komme tydelig fram hvordan arealet henger sammen med måleenheten kvadrat (noe som i de aller fleste tilfeller betyr at en må vise en omforming til et rektangel, et halvt rektangel eller liknende). Begrunnelsene trekke ut ideen fra forklaringen og gi en generell formel for de tre størrelsene.  
 

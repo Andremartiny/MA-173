@@ -26,6 +26,19 @@ $$\left\{ \begin{array}{r}
 
 Vi ser her at det er $11$ av de $36$ mulighetene som inneholder en femmer. Dermed er sannsynligheten $\frac{11}{36}$.
 
+#### Avansert: Forklare og bruke begrepet uniform sannsynlighetsmodell,  17.04.23
+
+Henrik skal skyte straffespark og har alltid 50% sannsynlighet for å score. Henrik sykter tre ganger.
+
+1. Sett opp et utfallsrom som gir en uniform sannsynlighetsmodell.
+
+2. Avgjør hva sannsynligheten er for at Henrik scorer på nøyaktig to av tre av skuddene.
+
+##### Vurderingskriterier
+
+1. Studenten *må* sette opp en uniform sannsynlighetsmodell. For eksempel kan dette gjøres ved å sette opp utfallsrommet $\{BBB, BBM, BMB, BMM, MBB, MBM, MMB, MMM\}$, der $B$ står for *bom* og $M$ står for *mål*. Vi ser dermed at det er åtte utfall og siden det er lik sannsynlighet for både mål og bom, så er alle utfallene like sannsynlig.
+2. Studenten kan nå bare telle opp fra utfallsrommet fra forrige oppgave. For eksempel ser vi fra 1. at det er utfallene $\{BMM, MBM, MMB\}$ som tilsvarer nøyaktig to mål på tre skudd. Det gir at $P(\text{Henrik scorer på nøyaktig to av tre skudd}) = \frac{3}{8}$.
+
 #### Avansert: Forklare og bruke begrepet uniform sannsynlighetsmodell,  31.03.23
 
 Det er 15 personer i en klasse. Det skal velges ut to elever som skal være i elevrådet og begge to skal trekkes tilfeldig. Henrik vil veldig gjerne være med i elevrådet. Sett opp en uniform sannsynlighetsmodell som får fram at det er $\frac{2}{15}$ sannsynlighet for at Henrik får være med i elevrådet.

@@ -28,6 +28,26 @@
     c.  Begrunn kort hvordan grafen og funksjonsuttrykket svarer til
         situasjonseksemplet.
 
+#### Avansert: Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon,  17.04.23
+
+1. Tabellen under viser en funksjonssammenheng.
+    a.  Avgjør om den er lineær, kvadratisk eller omvendt proporsjonal.
+    b.  Finn funksjonsuttrykk, og skisser grafen.
+
+$$
+\begin{array} {|r|r|r|r|r|}\hline x &  \frac{1}{2} & 1 & 2 & 3\\ \hline y & 24 & 12 & 6 & 4\\ \hline  \end{array}
+$$
+
+2. Under ser du grafen til en funksjon.
+
+        a.  Avgjør hva slags funksjon det er snakk om.
+
+        b.  Finn funksjonsuttrykket.
+
+        c.  Lag en passende situasjon som kan høre til funksjonssammenhengen.
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-15-14-20-36.png)
+
 #### Avansert: Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon,  31.03.23
 
 1. Tabellen under viser en funksjonssammenheng.
@@ -79,7 +99,7 @@ b. Finn funksjonsuttrykket.
 
 Studentene *må* peke på hvilken funksjon det er. I første eksempel kan de se at økningen er lineær, med $25$ per $x$.  Det gir funksjonen $f(x)  = 175 - 25x$. I det andre eksempelet ser vi at $x = 2$ er toppunkt og at funksjonen er en parabel. Dermed er det en andregradsfunksjon. Deretter må finne funksjonsuttrykket (for eksempel ved regning).
 
-#### Avansert: Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon,  Funksjoner 13.02.23
+#### Avansert: Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon,  13.02.23
 
 1. Tabellen under viser en funksjonssammenheng.
 
@@ -101,11 +121,11 @@ b. Finn funksjonsuttrykket.
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-20-49-07.png)
 
-#### Vurderingskriterier avansert:  Funksjoner 13.02.23
+#### Vurderingskriterier avansert:  13.02.23
 
 Studentene *må* peke på hvilken funksjon det er. I første eksempel kan de se at dobling av $x$ gir halvering av $y$. Det gir funksjonen $f(x)  = \frac{300}{x}$. I det andre eksempelet ser vi at $x = 2$ er bunnpunkt og at funksjonen er en parabel. Dermed er det en andregradsfunksjon. Deretter må finne funksjonsuttrykket (for eksempel ved regning).
 
-#### Avansert: Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon,  Funksjoner 10.02.23
+#### Avansert: Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon,  10.02.23
 
 1. Tabellen under viser en funksjonssammenheng.
 
@@ -129,12 +149,12 @@ c. Beskriv en situasjon som kan passe til funksjonen.
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-21-04-54.png)
 
-#### Vurderingskriterier avansert:  Funksjoner 10.02.23
+#### Vurderingskriterier avansert:  10.02.23
 
 Studentene *må* peke på hvilken funksjon det er. I første eksempel kan de set at vi alltid har halvparten av et kvadrattall. Det gir funksjonen $f(x)  = x^2/2$. I det andre eksempelet ser vi at $x = 1$ gir $y= 25$ og $x= 5$ gir $y = 5$, altså en femdobling av $x$ gir at $y$ blir en femtedel.  
 Deretter *må* studentene omforme funksjonene til de andre representasjonene det bes om.
 
-#### Avansert: Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon,  Funksjoner 3.02.23
+#### Avansert: Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon,  3.02.23
 
 1. Avgjør om funksjonssammenhengen fra tabellen under er lineær, kvadratisk eller omvendt proporsjonal. Lag en passende situasjon som kan høre ti funksjonssammenhengen, og en tilhørende graf og funksjonsuttrykk.
 
@@ -149,12 +169,12 @@ Du skal lage en sirkulær figur med radius $r$. Hva er sammenhengen mellom radiu
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-21-13-57.png)
 
-#### Vurderingskriterier avansert:  Funksjoner 3.02.23
+#### Vurderingskriterier avansert:  3.02.23
 
 Her må de gjøre det samme som på middels bare at de nå starter med ulike representasjoner og må gjøre om til de andre representasjonsformene (representasjonsformene er: situasjon, funksjonsuttrykk, tabell og graf)!
 
 
-#### Avansert: Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon,  Funksjoner 27.01.23
+#### Avansert: Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon,  27.01.23
 
 1. Lineære funksjoner.
 
@@ -180,7 +200,7 @@ b. Skisser grafen, og sett opp funksjonsuttrykk.
 
 c. Begrunn kort hvordan grafen og funksjonsuttrykket svarer til situasjonseksemplet.
 
-#### Vurderingskriterier avansert:  Funksjoner 27.01.23
+#### Vurderingskriterier avansert:  27.01.23
 
 Her må de gjøre det samme som på middels bare at de må på egen hånd gi en situasjon!
 

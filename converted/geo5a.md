@@ -30,6 +30,22 @@ x & = \frac{2a}{2\frac{b}{2}}
 $$
 Vi ser altså at $x^2 = 2$ eller at $x = \sqrt 2$.
 
+#### Avansert: Bruke formler for størrelser av figurer til å utforske geometriske sammenhenger,  17.04.23
+
+Under ser du en løpebane konstruert ved hjelp av rutenett bestående av likesidede trekanter med sidelengde 10m. Selve banen er konstruert ved hjelp av kun halvsirkler.
+
+1. Avgjør hvor lang banen er.
+2. Avgjør hvor stort areal banen avgrenser.
+
+Utregningene skal ikke være avrundet og skal gis i eksakte verdier. Det vil si at hvis svaret er $\sqrt{1^{2} + 2^{2}} = \sqrt{5}$, så skal ikke dette rundes av til $2,236$. Inneholder svaret $\pi$ skal dette heller ikke avrundes til $3.14$!
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-13-14-21-59.png)
+
+##### Vurderingskriterier
+
+1. Studenten må bryte ned figuren i relevante sirkelbuer. Det er to halvsirkler med lik radius, $20$cm. Altså en sirkel med omkrets på $40\pi$. Videre er det to sirkelbuer som er en sjettedel av en sirkel ($60^\circ$), én med en radius på $20$cm og én med radius $60$cm. Disse buelengdene har dermed lenge $\frac{1}{6}(40\pi + 120\pi) = \frac{160\pi}{6}$. Totalt må løpebanen derfor være $40\pi + \frac{160\pi}{6}$.
+2. Studenten må bryte ned figuren. Hvis de har brutt den ned som i forrige oppgave, kan dette brukes videre. De to halvsirklene avgrenser en del av området som banen avgrenser. Til sammen avgrenser de $\pi 20^2 = 400 \pi$. Videre avgrensenser den store sirkelbuen en sjettedel av en sirkel med radius $60$, dermed avgrensen den et areal på $\frac{1}{6}\pi 60^2 = 600 \pi$. Dette arealet inkluderer derimot et område utenfor banen. Dette kan vi løse ved å trekke vekk arealet den lille sirkelbuen avgrenser. Dermed ser vi at svaret bør være $400\pi + 600\pi - \frac{1}{6}\pi 20^2 = 1000 \pi- \frac{400 \pi}{6}$.
+
 #### Avansert: Bruke formler for størrelser av figurer til å utforske geometriske sammenhenger,  31.03.23
 
 Pytagoras setning sier at for rettvinklede trekanter så gjelder $a^2+b^2 = c^2$ der $a$ og $b$ er katetene i trekanten og $c$ er hypotenusen. Man kan derfor finne høyden i likebeinte trekanter hvis man vet sidelengdene, ved å halvere grunnlinjen og bruke Pytagoras setning.
@@ -91,7 +107,7 @@ Studenten må argumentere på en strukturert og forståelig måte.
 En naturlig fremgangsmåte vil være å peke på at $\triangle DBA$ og $\triangle DCA$ har samme areal da de har lik grunnlinje og høyde (halve lengden av $BC$), og tilsvarende har $\triangle BDG$ og $\triangle DCG$ likt areal. Dermed kan det nå argumenteres for at trekantene $\triangle BGF$, $\triangle FGA$, $\triangle GEA$ og $\triangle GEC$ har samme areal. Gjentas dette argumentet nå kan studentene få fram at alle seks trekantene har samme areal.
 
 
-#### Avansert: Bruke formler for størrelser av figurer til å utforske geometriske sammenhenger,  10.02.23 {#f10}
+#### Avansert: Bruke formler for størrelser av figurer til å utforske geometriske sammenhenger,  10.02.23
 
 Under er et rektangel med høyde $h$ som består av en blå rettvinklet trekant, en grønn rettvinklet trekant der lengden på grunnlinjen er $x$, og et trapes der de parallelle sidene har lengde $a$ og $b$ som markert på figuren.
 
@@ -105,7 +121,7 @@ Under er et rektangel med høyde $h$ som består av en blå rettvinklet trekant,
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-22-22-14.png)
 
-#### Vurderingskriterier avansert:  10.02.23 {#f10}
+#### Vurderingskriterier avansert:  10.02.23
 
 Studenten må gjøre alle oppgavene for å få godkjent.
 

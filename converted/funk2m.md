@@ -44,6 +44,14 @@
    $$
    Likningen som går gjennom punktene er derfor $y = \frac{4}{3}x + \frac{8}{3}$.
 
+#### Middels: Forklare sammenhenger mellom parameterne i funksjonsuttrykket og grafen til lineære funksjoner,  17.04.23
+
+Grafen til en lineær funksjon går gjennom punktene $(\frac{1}{2}, 0)$ og $(\frac{3}{2}, 5)$. Forklar hvordan vi kan finne likninga til den lineære funksjonen.
+
+#### Vurderingskriterier middels:  17.04.23
+
+Finne likninga og forklare hvordan på en slik måte at man klart forstår det generelle i fremgangsmåten (kunne åpenbart blitt brukt for hvilke som helst punkt-par).
+
 #### Middels: Forklare sammenhenger mellom parameterne i funksjonsuttrykket og grafen til lineære funksjoner,  31.03.23
 
 Grafen til en lineær funksjon går gjennom punktene $(-3, 0)$ og $(6, 3)$. Forklar hvordan vi kan finne likninga til den lineære funksjonen.
@@ -56,38 +64,38 @@ Finne likninga og forklare hvordan på en slik måte at man klart forstår det g
 
 Grafen til en lineær funksjon går gjennom punktene $(-3, 0)$ og $(6, 3)$. Forklar hvordan vi kan finne likninga til den lineære funksjonen.
 
-#### Middels: Forklare sammenhenger mellom parameterne i funksjonsuttrykket og grafen til lineære funksjoner,  Funksjoner 13.02.23
+#### Middels: Forklare sammenhenger mellom parameterne i funksjonsuttrykket og grafen til lineære funksjoner,  13.02.23
 
 Under ser du en lineær funksjon som går gjennom punktene $A$ og $B$. Forklar hvordan vi kan finne likninga til den lineære funksjonen.
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-20-50-16.png)
 
-#### Vurderingskriterier middels:  Funksjoner 13.02.23
+#### Vurderingskriterier middels:  13.02.23
 
 Finne likninga og forklare hvordan på en slik måte at man klart forstår det generelle i fremgangsmåten (kunne åpenbart blitt brukt for hvilke som helst punkt-par).
 
-#### Middels: Forklare sammenhenger mellom parameterne i funksjonsuttrykket og grafen til lineære funksjoner,  Funksjoner 10.02.23
+#### Middels: Forklare sammenhenger mellom parameterne i funksjonsuttrykket og grafen til lineære funksjoner,  10.02.23
 
 Anta at en lineær funksjon $f$ går gjennom punktene $(-3, -3)$ og $(6, 0)$. Forklar hvordan vi kan finne likninga til den lineære funksjonen.
 
-#### Vurderingskriterier middels:  Funksjoner 10.02.23
+#### Vurderingskriterier middels:  10.02.23
 
 Finne likninga og forklare hvordan på en slik måte at man klart forstår det generelle i fremgangsmåten (kunne åpenbart blitt brukt for hvilke som helst punkt-par).
 
-#### Middels: Forklare sammenhenger mellom parameterne i funksjonsuttrykket og grafen til lineære funksjoner,  Funksjoner 3.02.23
+#### Middels: Forklare sammenhenger mellom parameterne i funksjonsuttrykket og grafen til lineære funksjoner,  3.02.23
 
 Anta at en lineær funksjon $f$ går gjennom punktene $(\frac{9}{3}, 7)$ og $(\frac{18}{3}, 10)$. Forklar hvordan vi kan finne likninga til den lineære funksjonen.
 
 
-#### Vurderingskriterier middels:  Funksjoner 3.02.23
+#### Vurderingskriterier middels:  3.02.23
 
 Finne likninga og forklare hvordan på en slik måte at man klart forstår det generelle i fremgangsmåten (kunne åpenbart blitt brukt for hvilke som helst punkt-par).
 
-#### Middels: Forklare sammenhenger mellom parameterne i funksjonsuttrykket og grafen til lineære funksjoner,  Funksjoner 27.01.23
+#### Middels: Forklare sammenhenger mellom parameterne i funksjonsuttrykket og grafen til lineære funksjoner,  27.01.23
 
 Anta at en lineær funksjon $f$ går gjennom punktene $(\frac{5}{2}, 7)$ og $(\frac{11}{2}, 4)$. Forklar hvordan vi kan finne likninga til den lineære funksjonen.
 
-#### Vurderingskriterier middels:  Funksjoner 27.01.23
+#### Vurderingskriterier middels:  27.01.23
 
 Finne likninga og forklare hvordan på en slik måte at man klart forstår det generelle i fremgangsmåten (kunne åpenbart blitt brukt for hvilke som helst punkt-par).
 

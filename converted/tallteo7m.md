@@ -11,7 +11,7 @@
 3. Finn kompetansemål i læreplanen som du mener man berører når man
     arbeider med figurtall i skolen. Begrunn.
 
-#### Middels: Vurdere arbeid med figurtall med hensyn til læreplanens kjerneelementer og didaktikk knyttet til algebraisk tenkning,  10.01.2023
+#### Middels: Vurdere arbeid med figurtall med hensyn til læreplanens kjerneelementer og didaktikk knyttet til algebraisk tenkning,  10.01.23
 
 Gi en forklaring hvordan arbeidet med figurtall innebærer algebraisk tenkning og pek på hvilke kjerneelementer som er relevante i arbeid med figurtall.
 

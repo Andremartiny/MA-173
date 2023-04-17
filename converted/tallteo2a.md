@@ -124,7 +124,7 @@ $6 \cdot$ *et antall tiere* $+ \ 36$. Med andre ord ender tallet
 på 6.
 
 
-#### Avansert: Bruke begrepene naturlig tall, partall og oddetall, primtall og sammensatt tall,  10.01.2023
+#### Avansert: Bruke begrepene naturlig tall, partall og oddetall, primtall og sammensatt tall,  10.01.23
 
 Ved å multiplisere primtallene to primtall $a$ og $b$ og legge til $1$ får vi tallet $a\cdot b + 1$. Begrunn hvorfor dette tallet aldri er delelig på $a$ eller $b$.
 

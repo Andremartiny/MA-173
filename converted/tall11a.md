@@ -11,3 +11,17 @@
 
    d. $\left( \frac{\left( 2\ \ :\ \frac{2}{3} \right)\  \cdot \ \frac{3}{2}}{1\  + \ \frac{3}{2}} - \frac{4}{5} \right) \cdot (\frac{4}{5} - 2)$
 
+
+#### Avansert: Utføre formell omforming av brøk,  17.04.23
+
+Regn ut.
+
+a. $\frac{3}{2}(2 + \frac{2}{3} - \frac{3 + \frac{1}{5}}{\frac{3}{2}}) -1$
+b. $\frac{(\frac{4}{7} \cdot (2 + \frac{4}{5})) - \frac{3}{5}}{\frac{2}{3}} + \frac{1}{2}$
+
+##### Vurderingskriterier
+
+-1/5 og 2.
+
+
+

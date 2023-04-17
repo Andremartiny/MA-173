@@ -132,7 +132,7 @@ si jobbe seg fra $1+4+7+\ldots + 3n-2$ til $n^2+\frac{n(n-1)}{2}$ ved hjelp av
 algebra og (mest sannsynlig) formelen for trekanttall.
 
 
-#### Middels: Finne eksplisitt uttrykk for figurtall,  10.01.2023
+#### Middels: Finne eksplisitt uttrykk for figurtall,  10.01.23
 
 Illustrer sekskanttallene opp til $H_4$, og utled eksplisitt uttrykk for $H_n$ ved hjelp av strategien sum av tillegg.
 Avansert: Ved hjelp av geometrisk betraktning/stirre hardt og sum av tillegg for sammensatte figurtall.

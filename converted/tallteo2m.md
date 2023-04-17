@@ -126,7 +126,7 @@ visuelt/ved hjelp av en figur; også da er det viktig at
 illustrasjonen viser strukturer/egenskaper som får frem hvorfor
 sammenhengen gjelder generelt.
 
-#### Middels: Bruke begrepene naturlig tall, partall og oddetall, primtall og sammensatt tall,  10.01.2023
+#### Middels: Bruke begrepene naturlig tall, partall og oddetall, primtall og sammensatt tall,  10.01.23
 
 1. Gi et formelt og grunnskoletilpasset argument for at sum av oddetall og partall er oddetall.
 

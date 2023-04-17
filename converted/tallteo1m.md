@@ -106,7 +106,7 @@ Her må strukturen komme fram. Dette gjøres gjerne ved
 et konkret talleksempel, men det er viktig at de peker på den
 generelle strukturen som gjør at sff\*mfm = a\*b
 
-#### Middels: Bruke begrepene faktor (divisor), felles faktor og største felles faktor, multiplum, felles multiplum og minste felles multiplum,  10.01.2023
+#### Middels: Bruke begrepene faktor (divisor), felles faktor og største felles faktor, multiplum, felles multiplum og minste felles multiplum,  10.01.23
 
 La $a$ og $b$ være to naturlige tall med største felles faktor $10$ og minste felles multiplum $105$. Hvis $a = 30$ hva er da $b$? Begrunn.
 
