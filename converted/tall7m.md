@@ -6,6 +6,20 @@
 2. Vis ved hjelp av illustrasjon og ordforklaring hvorfor utviding og
    forkorting gir likeverdige brøker.
 
+##### Løsningsforslag
+
+Figuren til venstre viser $\frac{2}{3}$ (kvadratet er $1$). Ved å dele
+hver tredel i fire, får vi $3 \cdot 4$ små deler. De to skraverte
+tredelene utgjør da $2 \cdot 4$ tolvdeler. Altså:
+$\frac{2}{3} = \frac{2 \cdot 4}{3 \cdot 4} = \frac{8}{12}$. Det samme
+gjelder opplagt andre vei, altså forkorting. At teller og nevner har
+felles faktor, betyr bare at det finnes et mindre antall kakestykker
+kvadratkaka kan deles i, som fortsatt gir akkurat like stor dele av hele
+kaka.
+
+![](./img/tall/image4.png){width="5.2659722222222225in"
+height="2.2843307086614173in"}
+
 
 #### Middels: Utvide og forkorte brøker,  17.04.23
 

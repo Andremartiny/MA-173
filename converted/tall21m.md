@@ -1,11 +1,17 @@
+#### Middels: Forklare og gi eksempler på de ulike betydningen av brøk: del av hel/enhet, del av antall, tall og forhold,  17.04.23
 
-1. Gjør om  $112_{tre}$ til base seks.
-2. Regn ut i den aktuelle basen:
-a.  $1101001_{to} - 110010_{to}$  
+1. Avgjør og begrunn kort hvilke(n) betydning av brøk det er naturlig å knytte til situasjonene.
+a. Etter en viss tid har du løpt $\frac{3}{4}$ av strekningen for dagens joggetur.
+b. André føler seg spenstig, og maler $\frac{2}{3}$ av stueveggen grønn, den siste tredelen rosa.
 
-b.  $43_{seks} \cdot 23_{seks}$
+2. Lag to oppgaver, og begrunn kort hvorfor de involverer den aktuelle betydningen av brøk.
+a. Én oppgave med brøk som del av antall.
+b. Én oppgave med brøk som forhold.
 
 ##### Vurderingskriterier
 
-Som middels + beregninger. Disse må være ført i den aktuelle basen.
+1. Må avgjøre med en kort, fornuftig begrunnelse.
+a. er rimelig å tolke som _tall_ (en måling).
+b. er rimelig å tolke som _del av helhet_ (vegg som helhet).
+2. Oppgavene må rimelig kunne sies å involvere den aktuelle tolkningen, og besvarelsen må inneholde en kort begrunnelse.
 

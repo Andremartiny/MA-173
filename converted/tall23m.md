@@ -11,7 +11,7 @@ b. Én oppgave med brøk som forhold.
 ##### Vurderingskriterier
 
 1. Må avgjøre med en kort, fornuftig begrunnelse.
-a. er rimelig å tolke som *tall* (en måling).
-b. er rimelig å tolke som *del av helhet* (vegg som helhet).
+a. er rimelig å tolke som _tall_ (en måling).
+b. er rimelig å tolke som _del av helhet_ (vegg som helhet).
 2. Oppgavene må rimelig kunne sies å involvere den aktuelle tolkningen, og besvarelsen må inneholde en kort begrunnelse.
 

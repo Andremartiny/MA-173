@@ -22,6 +22,13 @@
 3. Vis ved hjelp av ordforklaring og illustrasjon at brøkmultiplikasjon
    er kommutativ.
 
+##### Løsningsforslag
+
+2. \
+a. Syv kopier av 4/5. to tredeler av tolv. To tredeler av 4/5.
+b. Syv flasker, hver med 4/5 liter vann i. 2/3 av en strekning på 12 meter. Drikker 2/3 av ei av flaskene med 4/5 liter vann i.
+c. Heftet.
+
 
 #### Middels: Utføre multiplikasjon med brøk,  17.04.23
 
@@ -33,7 +40,7 @@
 
 1. Må vise til struktur, ikke bare at «svarene» er like. Eks under.
 Kvadratene er 1, grønn del 2/5. Figuren kan leses som *2/5 gjentatt
-tre ganger,* altså 3 ⋅ 2/5. Den kan også leses som *2/5 av tre,* altså
+tre ganger,* altså 3 ⋅ 2/5. Den kan også leses som _2/5 av tre,_ altså
 2/5 ⋅ 3.
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tall/image13.png)
 

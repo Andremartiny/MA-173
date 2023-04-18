@@ -10,6 +10,10 @@
    konteksten til å forklare og illustrere hvorfor delingsregelen
    er som den er.
 
+##### Løsningsforslag
+
+Heftet.
+
 #### Avansert: Utføre divisjon med brøk,  17.04.23
 
 Ta utgangspunkt i divisjonen $9 : \frac{3}{2}$. Lag to passende kontekster, og bruk dem til å vise at $9 : \frac{3}{2} = 9 \cdot \frac{2}{3}$.

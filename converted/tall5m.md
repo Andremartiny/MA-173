@@ -28,3 +28,13 @@
    f. Hvor mange glass på én tredels liter kan man fylle med
    $2\frac{1}{2}$ liter vann?
 
+##### Løsningsforslag
+
+2. \
+a. Del av antall. (Bak brøkene er det antall, nemlig (deler av) Norges befolkning.)
+bTall. (Opprinnelig pris er p. Da er ny pris $\frac{2}{3}p$ og avslaget $\frac{1}{3}p$.) (Man kan selvsagt krangle og si dette er del av antall, der prisen er et antall kroner, men det er en litt rar tolkning.)
+c. Del av helhet. (Landareal som helhet.) Kan også tenke at arealet er tallfestet; da er vi samme situasjon som over.
+d. Forhold. ($0.3 = \frac{3}{20}=\frac{?}{30}$. Altså 0,3 liter per 20 min angir et forhold; og forhold er brøk.)
+e. Tall (7∶5) eller del av hel (syv boller som hel, eller hver bolle som helhet – har syv slike).
+f. Tall. (2 1/2 ∶1/3.)
+

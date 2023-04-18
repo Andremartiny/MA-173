@@ -5,6 +5,28 @@
    Forklar og illustrer deretter hvordan disse til sammen utgjør de
    reelle tallene.
 
+##### Løsningsforslag
+
+**Naturlige tall**: $\mathbb{N} = \{ 1,\ 2,\ 3,\ \ldots\}$.
+Telletallene.
+
+**Hele** **tall** (eller heltall):
+$\mathbb{Z} = \{\ldots,\  - 2,\  - 1,\ 0,\ 1,\ 2,\ \ldots\}$.
+Telletallene, null og de negative telletallene.
+
+**Rasjonale tall**: $\mathbb{Q =}$ alle $\frac{a}{b}$, der $a$ og $b$ er
+i ℤ. Brøkene, som inkluderer heltallene.
+
+**Irrasjonale tall**: Tallene som *ikke* er brøker.
+
+**Reelle tall**: Hele tallinja. Det vil si samlinga av alle mengdene
+over.
+
+Figuren viser hvordan de reelle tallene (hele figuren) er satt sammen de
+øvrige tallmengdene.
+
+![](./img/tall//image3.png)
+
 
 #### Middels: Forklare hvordan de reelle tallene er bygd opp,  17.04.23
 

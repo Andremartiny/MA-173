@@ -11,6 +11,15 @@
 
    d. $\left( \frac{\left( 2\ \ :\ \frac{2}{3} \right)\  \cdot \ \frac{3}{2}}{1\  + \ \frac{3}{2}} - \frac{4}{5} \right) \cdot (\frac{4}{5} - 2)$
 
+##### Løsningsforslag
+
+1. \
+a. 
+$${\frac{3}{2}\left( 7 + \frac{16}{5} \cdot \frac{3}{2} \right) - 1
+}{\frac{3}{2} \cdot \frac{35 + 24}{5} - 1
+}{\frac{117}{10} - \frac{10}{10}
+}\frac{107}{10}$$
+
 
 #### Avansert: Utføre formell omforming av brøk,  17.04.23
 
@@ -22,6 +31,5 @@ b. $\frac{(\frac{4}{7} \cdot (2 + \frac{4}{5})) - \frac{3}{5}}{\frac{2}{3}} + \f
 ##### Vurderingskriterier
 
 -1/5 og 2.
-
 
 

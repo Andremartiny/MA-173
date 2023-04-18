@@ -537,6 +537,16 @@ Eventuelt kan man vise mellomregning.
    f. Hvor mange glass på én tredels liter kan man fylle med
    $2\frac{1}{2}$ liter vann?
 
+##### Løsningsforslag
+
+2. \
+a. Del av antall. (Bak brøkene er det antall, nemlig (deler av) Norges befolkning.)
+bTall. (Opprinnelig pris er p. Da er ny pris $\frac{2}{3}p$ og avslaget $\frac{1}{3}p$.) (Man kan selvsagt krangle og si dette er del av antall, der prisen er et antall kroner, men det er en litt rar tolkning.)
+c. Del av helhet. (Landareal som helhet.) Kan også tenke at arealet er tallfestet; da er vi samme situasjon som over.
+d. Forhold. ($0.3 = \frac{3}{20}=\frac{?}{30}$. Altså 0,3 liter per 20 min angir et forhold; og forhold er brøk.)
+e. Tall (7∶5) eller del av hel (syv boller som hel, eller hver bolle som helhet – har syv slike).
+f. Tall. (2 1/2 ∶1/3.)
+
 ### Forklare hvordan de reelle tallene er bygd opp
 
 #### Grunnleggende: Forklare hva hele, rasjonale og irrasjonale tall er
@@ -551,6 +561,28 @@ Eventuelt kan man vise mellomregning.
    Forklar og illustrer deretter hvordan disse til sammen utgjør de
    reelle tallene.
 
+##### Løsningsforslag
+
+**Naturlige tall**: $\mathbb{N} = \{ 1,\ 2,\ 3,\ \ldots\}$.
+Telletallene.
+
+**Hele** **tall** (eller heltall):
+$\mathbb{Z} = \{\ldots,\  - 2,\  - 1,\ 0,\ 1,\ 2,\ \ldots\}$.
+Telletallene, null og de negative telletallene.
+
+**Rasjonale tall**: $\mathbb{Q =}$ alle $\frac{a}{b}$, der $a$ og $b$ er
+i ℤ. Brøkene, som inkluderer heltallene.
+
+**Irrasjonale tall**: Tallene som *ikke* er brøker.
+
+**Reelle tall**: Hele tallinja. Det vil si samlinga av alle mengdene
+over.
+
+Figuren viser hvordan de reelle tallene (hele figuren) er satt sammen de
+øvrige tallmengdene.
+
+![](./img/tall//image3.png)
+
 ### Utvide og forkorte brøker
 
 #### Grunnleggende: Utvide og forkorte brøker
@@ -563,6 +595,20 @@ Eventuelt kan man vise mellomregning.
 
 2. Vis ved hjelp av illustrasjon og ordforklaring hvorfor utviding og
    forkorting gir likeverdige brøker.
+
+##### Løsningsforslag
+
+Figuren til venstre viser $\frac{2}{3}$ (kvadratet er $1$). Ved å dele
+hver tredel i fire, får vi $3 \cdot 4$ små deler. De to skraverte
+tredelene utgjør da $2 \cdot 4$ tolvdeler. Altså:
+$\frac{2}{3} = \frac{2 \cdot 4}{3 \cdot 4} = \frac{8}{12}$. Det samme
+gjelder opplagt andre vei, altså forkorting. At teller og nevner har
+felles faktor, betyr bare at det finnes et mindre antall kakestykker
+kvadratkaka kan deles i, som fortsatt gir akkurat like stor dele av hele
+kaka.
+
+![](./img/tall/image4.png){width="5.2659722222222225in"
+height="2.2843307086614173in"}
 
 ### Utføre addisjon og subtraksjon med brøk
 
@@ -578,6 +624,23 @@ Eventuelt kan man vise mellomregning.
 2. Velg en addisjon og en subtraksjon av brøker med ulike nevnere.
    Forklar og illustrer løsningen. Pass på at forklaring og
    illustrasjon viser _hvorfor,_ ikke bare _hva_ du gjør.
+
+##### Løsingsforslag
+
+
+Problemet er at ulike deler ikke uten videre kan adderes, for eksempel
+for $\frac{1}{4} + \frac{2}{3}$. Vi må finne en mindre inndeling som lar
+oss telle *både* 4- og 3-deler. Hvis vi deler firedelene i tre (eller
+tredelene i fire), får vi til dette. Vi *utvider* altså til det som (av
+ganske åpenbare årsaker) heter *fellesnevner.* Vi kan da støtte oss i en
+figur som den over, med kvadratene, eller vi kan illustrere ved hjelp av
+tallinjer. Se under. Vi deler firedelene i tre, og ser at
+$\frac{1}{4} = \frac{3}{12}$, og $\frac{2}{3} = \frac{8}{12}$. Tolvdeler
+er glade i hverandre, så nå er det bare å dure i vei:
+$\frac{3}{12} + \frac{8}{12} = \frac{11}{12}$.
+
+![](./img/tall/image5.png)
+
 
 ### Utføre multiplikasjon med brøk
 
@@ -614,6 +677,13 @@ Eventuelt kan man vise mellomregning.
 3. Vis ved hjelp av ordforklaring og illustrasjon at brøkmultiplikasjon
    er kommutativ.
 
+##### Løsningsforslag
+
+2. \
+a. Syv kopier av 4/5. to tredeler av tolv. To tredeler av 4/5.
+b. Syv flasker, hver med 4/5 liter vann i. 2/3 av en strekning på 12 meter. Drikker 2/3 av ei av flaskene med 4/5 liter vann i.
+c. Heftet.
+
 ### Utføre divisjon med brøk
 
 #### Grunnleggende: Utføre divisjon med brøk
@@ -629,6 +699,10 @@ Eventuelt kan man vise mellomregning.
 1. Forklar ved hjelp av et generisk eksempel hvorfor divisjon med en
    brøk svarer til å gange med den omvendte brøken.
 
+##### Løsningsforslag
+
+Heftet.
+
 #### Avansert: Forklare ved hjelp av kontekst (både målings- og delingsdivisjon) hvorfor regneregelen for divisjon med brøk gir mening
 
 1. Velg en divisjon med brøk.
@@ -640,6 +714,10 @@ Eventuelt kan man vise mellomregning.
    b. Lag en passende kontekst som gir _delingsdivisjon_. Bruk
    konteksten til å forklare og illustrere hvorfor delingsregelen
    er som den er.
+
+##### Løsningsforslag
+
+Heftet.
 
 ### Utføre formell omforming av brøk
 
@@ -655,7 +733,16 @@ Eventuelt kan man vise mellomregning.
 
    d. $\left( \frac{\left( 2\ \ :\ \frac{2}{3} \right)\  \cdot \ \frac{3}{2}}{1\  + \ \frac{3}{2}} - \frac{4}{5} \right) \cdot (\frac{4}{5} - 2)$
 
-### Forklare begrepet og regne med desimaltall (desimal*brøk* i Alfa)
+##### Løsningsforslag
+
+1. \
+a. 
+$${\frac{3}{2}\left( 7 + \frac{16}{5} \cdot \frac{3}{2} \right) - 1
+}{\frac{3}{2} \cdot \frac{35 + 24}{5} - 1
+}{\frac{117}{10} - \frac{10}{10}
+}\frac{107}{10}$$
+
+### Forklare begrepet og regne med desimaltall (desimal_brøk_ i Alfa)
 
 #### Grunnleggende: Beskrive desimaltall med hensyn til posisjonssystemet og brøkbegrepet
 
@@ -1149,7 +1236,7 @@ Må få frem ideen om at sifrenes posisjon avgjør verdien de står for, og at d
 
 Som grunnleggende + omgjøringene. Det må gå frem hvordan omgjøringene er gjort.
 
-### Avansert
+#### Avansert
 
 1. Gjør om  $112_{tre}$ til base seks.
 2. Regn ut i den aktuelle basen:
@@ -1173,7 +1260,7 @@ Som middels + beregninger. Disse må være ført i den aktuelle basen.
 
 Additive strukturer s. 52 i Alfa.
 
-### Middels
+#### Middels
 
 Avgjør og begrunn hvilken additiv struktur situasjonene har. Angi både addisjons- og subtraksjonsstykket som passer i hvert tilfelle.
 
@@ -1295,8 +1382,8 @@ b. Én oppgave med brøk som forhold.
 ##### Vurderingskriterier
 
 1. Må avgjøre med en kort, fornuftig begrunnelse.
-a. er rimelig å tolke som *tall* (en måling).
-b. er rimelig å tolke som *del av helhet* (vegg som helhet).
+a. er rimelig å tolke som _tall_ (en måling).
+b. er rimelig å tolke som _del av helhet_ (vegg som helhet).
 2. Oppgavene må rimelig kunne sies å involvere den aktuelle tolkningen, og besvarelsen må inneholde en kort begrunnelse.
 
 ### Forklare hvordan de reelle tallene er bygd opp
@@ -1391,7 +1478,7 @@ b. $2 \frac{2}{5} \cdot \frac{2}{3}$
 
 1. Må vise til struktur, ikke bare at «svarene» er like. Eks under.
 Kvadratene er 1, grønn del 2/5. Figuren kan leses som *2/5 gjentatt
-tre ganger,* altså 3 ⋅ 2/5. Den kan også leses som *2/5 av tre,* altså
+tre ganger,* altså 3 ⋅ 2/5. Den kan også leses som _2/5 av tre,_ altså
 2/5 ⋅ 3.
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tall/image13.png)
 
@@ -1417,7 +1504,7 @@ Vis ved hjelp av et generisk eksempel hvorfor divisjon med en brøk svarer til m
 
 ##### Vurderingskriterier
 
-Må tolke en brøkdivisjon som brøk over brøk, og utvide. Oppgaven ber om *generisk eksempel.* Poenget er at strukturen må komme frem (som i algebraen under). Å dele på en stambrøk er ikke godt nok. Velger noen algebra, er det ok.
+Må tolke en brøkdivisjon som brøk over brøk, og utvide. Oppgaven ber om _generisk eksempel._ Poenget er at strukturen må komme frem (som i algebraen under). Å dele på en stambrøk er ikke godt nok. Velger noen algebra, er det ok.
 $$\frac{a}{b}\ :\frac{c}{d} = \frac{\frac{a}{b}}{\frac{c}{d}} = \frac{\frac{a}{b} \cdot d/c}{\frac{c}{d} \cdot d/c} = \frac{a}{b} \cdot \frac{d}{c}$$
 
 #### Avansert: Forklare ved hjelp av kontekst (både målings- og delingsdivisjon) hvorfor regneregelen for divisjon med brøk gir mening
@@ -1445,7 +1532,6 @@ b. $\frac{(\frac{4}{7} \cdot (2 + \frac{4}{5})) - \frac{3}{5}}{\frac{2}{3}} + \f
 ##### Vurderingskriterier
 
 -1/5 og 2.
-
 
 ## 31.03.23
 

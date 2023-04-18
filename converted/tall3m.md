@@ -53,6 +53,7 @@
 
    g. Like grupper: målingsdivisjon.
 
+
 #### Middels: Beskrive situasjoner med hensyn til multiplikative strukturer,  17.04.23
 
 1. Avgjør og begrunn hvilken multiplikativ struktur situasjonene svarer til.
