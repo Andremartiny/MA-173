@@ -21,7 +21,7 @@ $\frac{1}{4} = \frac{3}{12}$, og $\frac{2}{3} = \frac{8}{12}$. Tolvdeler
 er glade i hverandre, så nå er det bare å dure i vei:
 $\frac{3}{12} + \frac{8}{12} = \frac{11}{12}$.
 
-![](./img/tall/image5.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tall/image5.png)
 
 
 

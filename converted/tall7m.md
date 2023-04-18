@@ -17,7 +17,7 @@ felles faktor, betyr bare at det finnes et mindre antall kakestykker
 kvadratkaka kan deles i, som fortsatt gir akkurat like stor dele av hele
 kaka.
 
-![](./img/tall/image4.png){width="5.2659722222222225in"
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tall/image4.png){width="5.2659722222222225in"
 height="2.2843307086614173in"}
 
 

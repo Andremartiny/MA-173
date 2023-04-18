@@ -1,12 +1,8 @@
-#### Grunnleggende: Forklare og gi eksempler på de ulike betydningen av brøk: del av hel/enhet, del av antall, tall og forhold,  17.04.23
+#### Grunnleggende: Forklare hva et posisjonssystem er, og regne med tall uttrykt i posisjonssystem med ulike baser,  31.03.23
 
-Forklar og gi eksempler på hva som menes med brøk som
-a. del av en hel eller del av en enhet
-b. del av et antall
-c. tall
-d. forhold
+Forklar kort hva et posisjonssystem er. Gi eksempler fra base ti, fem, to og tolv.
 
 ##### Vurderingskriterier
 
-Må gi en kort forklaring. Alfa s. 96-101 og s. 109.
+Må få frem ideen om at sifrenes posisjon avgjør verdien de står for, og at denne verdien avhenger av hvilken gruppering vi velger – hvilken base eller grunntall vi har. Må også ha med eksempler.
 

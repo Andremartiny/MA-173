@@ -25,7 +25,7 @@ over.
 Figuren viser hvordan de reelle tallene (hele figuren) er satt sammen de
 øvrige tallmengdene.
 
-![](./img/tall//image3.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tall/image3.png)
 
 
 #### Middels: Forklare hvordan de reelle tallene er bygd opp,  17.04.23

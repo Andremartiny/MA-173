@@ -581,7 +581,7 @@ over.
 Figuren viser hvordan de reelle tallene (hele figuren) er satt sammen de
 øvrige tallmengdene.
 
-![](./img/tall//image3.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tall/image3.png)
 
 ### Utvide og forkorte brøker
 
@@ -607,7 +607,7 @@ felles faktor, betyr bare at det finnes et mindre antall kakestykker
 kvadratkaka kan deles i, som fortsatt gir akkurat like stor dele av hele
 kaka.
 
-![](./img/tall/image4.png){width="5.2659722222222225in"
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tall/image4.png){width="5.2659722222222225in"
 height="2.2843307086614173in"}
 
 ### Utføre addisjon og subtraksjon med brøk
@@ -639,7 +639,7 @@ $\frac{1}{4} = \frac{3}{12}$, og $\frac{2}{3} = \frac{8}{12}$. Tolvdeler
 er glade i hverandre, så nå er det bare å dure i vei:
 $\frac{3}{12} + \frac{8}{12} = \frac{11}{12}$.
 
-![](./img/tall/image5.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tall/image5.png)
 
 
 ### Utføre multiplikasjon med brøk
@@ -741,6 +741,22 @@ $${\frac{3}{2}\left( 7 + \frac{16}{5} \cdot \frac{3}{2} \right) - 1
 }{\frac{3}{2} \cdot \frac{35 + 24}{5} - 1
 }{\frac{117}{10} - \frac{10}{10}
 }\frac{107}{10}$$
+b. 
+$${\frac{4 \cdot 13}{7 \cdot 5} \cdot \frac{3}{2} + 8
+}{\frac{2 \cdot 13 \cdot 3}{35} + \frac{280}{35}
+}\frac{358}{35}$$
+c.
+$${\frac{19}{3} \cdot \frac{20}{27} + \frac{7}{2} \cdot \left( - \frac{5}{3} \right)
+ }{\frac{380}{81} - \frac{35}{6}
+}{\frac{760}{162} - \frac{945}{162}
+}{- \frac{185}{162}}
+$$
+d.
+$$
+{\left( \left( 2 \cdot \frac{3}{2} \cdot \frac{3}{2} \right) \cdot \frac{2}{5} - \frac{4}{5} \right) \cdot \left( - \frac{6}{5} \right)
+}{\left( \frac{9}{5} - \frac{4}{5} \right) \cdot \left( - \frac{6}{5} \right)
+}{- \frac{6}{5}}
+$$
 
 ### Forklare begrepet og regne med desimaltall (desimal_brøk_ i Alfa)
 
@@ -1355,7 +1371,7 @@ Få tydelig frem hva man har tenkt.
     ii. Som iii. og iv. fra middels
     iii. Må få frem at strategien er generell (heller ikke her trengs nødvendigvis noe algebra)
 
-### Forklare og gi eksempler på de ulike betydningen av brøk: del av hel/enhet, del av antall, tall og forhold
+### Forklare og gi eksempler på de ulike betydningene av brøk: del av hel/enhet, del av antall, tall og forhold
 
 #### Grunnleggende
 
