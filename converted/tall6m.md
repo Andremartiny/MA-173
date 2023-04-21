@@ -17,7 +17,7 @@ Telletallene, null og de negative telletallene.
 **Rasjonale tall**: $\mathbb{Q =}$ alle $\frac{a}{b}$, der $a$ og $b$ er
 i ℤ. Brøkene, som inkluderer heltallene.
 
-**Irrasjonale tall**: Tallene som *ikke* er brøker.
+**Irrasjonale tall**: Tallene som _ikke_ er brøker.
 
 **Reelle tall**: Hele tallinja. Det vil si samlinga av alle mengdene
 over.
@@ -25,7 +25,7 @@ over.
 Figuren viser hvordan de reelle tallene (hele figuren) er satt sammen de
 øvrige tallmengdene.
 
-![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tall/image3.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tall/err.png)
 
 
 #### Middels: Forklare hvordan de reelle tallene er bygd opp,  17.04.23

@@ -512,13 +512,13 @@ $$
 \begin{array} {|r|r|r|r|r|}\hline x &  \frac{1}{2} & 1 & 2 & 3\\ \hline y & 24 & 12 & 6 & 4\\ \hline  \end{array}
 $$
 
-2. Under ser du grafen til en funksjon.
+1. Under ser du grafen til en funksjon.
 
-        a.  Avgjør hva slags funksjon det er snakk om.
+    a.  Avgjør hva slags funksjon det er snakk om.
 
-        b.  Finn funksjonsuttrykket.
+    b.  Finn funksjonsuttrykket.
 
-        c.  Lag en passende situasjon som kan høre til funksjonssammenhengen.
+    c.  Lag en passende situasjon som kan høre til funksjonssammenhengen.
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-15-14-20-36.png)
 

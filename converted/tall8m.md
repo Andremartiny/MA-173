@@ -9,20 +9,18 @@
 
 ##### Løsingsforslag
 
-
 Problemet er at ulike deler ikke uten videre kan adderes, for eksempel
 for $\frac{1}{4} + \frac{2}{3}$. Vi må finne en mindre inndeling som lar
-oss telle *både* 4- og 3-deler. Hvis vi deler firedelene i tre (eller
-tredelene i fire), får vi til dette. Vi *utvider* altså til det som (av
-ganske åpenbare årsaker) heter *fellesnevner.* Vi kan da støtte oss i en
+oss telle _både_ 4- og 3-deler. Hvis vi deler firedelene i tre (eller
+tredelene i fire), får vi til dette. Vi _utvider_ altså til det som (av
+ganske åpenbare årsaker) heter _fellesnevner._ Vi kan da støtte oss i en
 figur som den over, med kvadratene, eller vi kan illustrere ved hjelp av
 tallinjer. Se under. Vi deler firedelene i tre, og ser at
 $\frac{1}{4} = \frac{3}{12}$, og $\frac{2}{3} = \frac{8}{12}$. Tolvdeler
 er glade i hverandre, så nå er det bare å dure i vei:
 $\frac{3}{12} + \frac{8}{12} = \frac{11}{12}$.
 
-![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tall/err.png)
-
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tall/image5.png)
 
 
 #### Middels: Utføre addisjon og subtraksjon med brøk,  17.04.23

@@ -179,6 +179,7 @@ Forklar og gi eksempler til begrepene
    b. Vi skal skrive opp antall øyne for hvert kast. Et eksempel kan være (1,3, 6) som betyr 1 på første, 3 på andre og 6 på tredje. Vi ser at rekkefølgen betyr noe, siden (3, 1, 6) betyr 3 på første og 1 på andre. Siden vi hver gang kan slå et tall fra 1 til 6 blir dette også et ordnet utvalg med tilbakelegg, som gir $6 \cdot 6 \cdot 6 = 216$ mulige utfall.
 2. Begrunn at følgende utvalg er ordnede utvalg uten tilbakelegg og finn antall muligheter i utvalgene\
    a. Siden vi har fem bokstaver (A, n, d, r, e) som jeg skal stokke om, så kan jeg ikke bruke de flere ganger (uten tilbakelegg). Likevel så bryr jeg meg om rekkefølgen, så det er et ordnet utvalg. Det gir derfor først fem valg, så 4 valg (siden jeg har brukt opp en bokstav), så 3 valg og så videre, altså $5 \cdot 4 \cdot 3 \cdot 2 \cdot 1 = 120$.
+   b. Det er syv mulige personer som kan få førsteplassen. Når førsteplassen er valgt vil det være 6 mulige personer som kan komme på andre plass, og da 5 personer som kan komme på tredje. Dermed har vi for hver av de syv førsteplassene 6 mulige valg for andreplassen, altså $6$ syv ganger $7\cdot 6$. For hver av de $7\cdot 6$ mulighetene for første *og* andreplasser er det $5$ mulige valg for tredje, altså totalt $7\cdot 6 \cdot 5$ mulige 1.-, 2. og 3. plasser.
 
 ### Forklare og bruke begrepene uordnet utvalg med og uten tilbakelegg
 
@@ -200,7 +201,7 @@ Forklar og gi eksempler til begrepene
 1. Begrunn at følgende situasjoner kan tenkes på som uordnede utvalg uten tilbakelegg og finn antall muligheter i utvalgene
    a. Siden twistene er forskjellige og vi kan trekke en av hver type er dette et utvalg uten tilbakelegg. I tillegg ønsker er det ikke viktig hvilken rekkefølge vi plukker twistene opp i. Det er altså et uordna utvalg. Det gir derfor $7 \cdot 6 \cdot 5$ muligheter for å sette opp et ordna utvalg, men nå overteller vi alle omstokkingene av tre twist. Vi har altså telt alle utvalg $3 \cdot 2 \cdot 1 = 6$ ganger for mye. Totalt gir dette $\frac{7 \cdot 6 \cdot 5}{3 \cdot 2 \cdot 1} = 35$ muligheter.
 2. Begrunn at følgende situasjoner kan tenkes på som uordnede utvalg med tilbakelegg og finn antall muligheter i utvalgene
-   a.Vi kan velge samme pizza flere ganger, så det er med
+   a. Vi kan velge samme pizza flere ganger, så det er med
    tilbakelegg. I tillegg er rekkefølgen ikke nøye, så det
    er uordnet. Siden det er uordnet kan vi tenke oss at vi
    alltid skriver utvalgene i «stigende» rekkefølge. Dermed
@@ -442,7 +443,7 @@ Studenten må gi eksempler som de blir bedt om, og de må forklare hva et ordnet
 ##### Vurderingskriterier
 
 1. Studenten må få fram at siden vi for hver posisjon kan velge mellom siffrene 1-7 så vil det være med tilbakelegg. Rekkefølgen på en kode er også opplagt viktig, som betyr at utvalget er ordna. Altså et ordna utvalg med tilbakelegg. For å finne antallet kan man bruke produktregelen og se at man har tre valg med 7 muligheter i hvert valg. Det gir $7\cdot 7\cdot 7$ muligheter.
-2. Studenten må få frem at elevene kan trekkes ut til forskjellige roller er det er ordnet utvalg, men siden én elev kun skal gjøre en aktivitet er det uten tilbakelegg. For å finne antall muligheter kan man bruke at man skal gjøre tre valg, med $7$ muligheter i første trekk, $6$ i neste og så $5$ i siste valg. Dermed får man $7\cdot 6\cdot 5$ muligheter.
+2. Studenten må få frem at elevene kan trekkes ut til forskjellige roller er det er ordnet utvalg, men siden én elev kun skal gjøre en aktivitet er det uten tilbakelegg. For å finne antall muligheter kan man bruke at man skal gjøre tre valg, med $15$ muligheter i første trekk, $14$ i neste og så $13$ i siste valg. Dermed får man $15\cdot 14\cdot 13$ muligheter.
 
 ### Forklare og bruke begrepene uordnet utvalg med og uten tilbakelegg
 

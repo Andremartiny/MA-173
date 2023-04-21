@@ -13,7 +13,7 @@
 1. Begrunn at følgende situasjoner kan tenkes på som uordnede utvalg uten tilbakelegg og finn antall muligheter i utvalgene
    a. Siden twistene er forskjellige og vi kan trekke en av hver type er dette et utvalg uten tilbakelegg. I tillegg ønsker er det ikke viktig hvilken rekkefølge vi plukker twistene opp i. Det er altså et uordna utvalg. Det gir derfor $7 \cdot 6 \cdot 5$ muligheter for å sette opp et ordna utvalg, men nå overteller vi alle omstokkingene av tre twist. Vi har altså telt alle utvalg $3 \cdot 2 \cdot 1 = 6$ ganger for mye. Totalt gir dette $\frac{7 \cdot 6 \cdot 5}{3 \cdot 2 \cdot 1} = 35$ muligheter.
 2. Begrunn at følgende situasjoner kan tenkes på som uordnede utvalg med tilbakelegg og finn antall muligheter i utvalgene
-   a.Vi kan velge samme pizza flere ganger, så det er med
+   a. Vi kan velge samme pizza flere ganger, så det er med
    tilbakelegg. I tillegg er rekkefølgen ikke nøye, så det
    er uordnet. Siden det er uordnet kan vi tenke oss at vi
    alltid skriver utvalgene i «stigende» rekkefølge. Dermed

@@ -5,7 +5,7 @@ workbook = openpyxl.load_workbook("C:\\Users\\andrem\\OneDrive - Universitetet i
 workbook1 = openpyxl.load_workbook("C:\\Users\\andrem\\OneDrive - Universitetet i Agder\\Undervisning\\MA-173\\Ukeplan med oppgaver og vedlegg\\Datamateriale\\Kandidat1Mal.xlsx")
 
 # Replace with your own access token and Canvas domain
-API_KEY = "10742~bKwu47TRaxvDybBOex52yNcghKRWDtT7gNRxjzXIk4iRWH7WhmAUWRuv0Y9M23UT"
+API_KEY = "10742~BVyt0MYvbYdR4dzoGLNXZriL7wfmwKmYwzj1jyVFwd19i585uILGA4sVmsIJ9hrX"
 CANVAS_DOMAIN = "uia.instructure.com"
 
 headers = {
@@ -14,7 +14,7 @@ headers = {
 
 # Replace with your desired course ID
 # course_id = 9847
-# course_id = 12547 # MA-173-ID: 12547
+course_id = 12547 # MA-173-ID: 12547
 
 
 def get_assignments():

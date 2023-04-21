@@ -573,7 +573,7 @@ Telletallene, null og de negative telletallene.
 **Rasjonale tall**: $\mathbb{Q =}$ alle $\frac{a}{b}$, der $a$ og $b$ er
 i ℤ. Brøkene, som inkluderer heltallene.
 
-**Irrasjonale tall**: Tallene som *ikke* er brøker.
+**Irrasjonale tall**: Tallene som _ikke_ er brøker.
 
 **Reelle tall**: Hele tallinja. Det vil si samlinga av alle mengdene
 over.
@@ -581,7 +581,7 @@ over.
 Figuren viser hvordan de reelle tallene (hele figuren) er satt sammen de
 øvrige tallmengdene.
 
-![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tall/image3.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tall/err.png)
 
 ### Utvide og forkorte brøker
 
@@ -627,20 +627,18 @@ height="2.2843307086614173in"}
 
 ##### Løsingsforslag
 
-
 Problemet er at ulike deler ikke uten videre kan adderes, for eksempel
 for $\frac{1}{4} + \frac{2}{3}$. Vi må finne en mindre inndeling som lar
-oss telle *både* 4- og 3-deler. Hvis vi deler firedelene i tre (eller
-tredelene i fire), får vi til dette. Vi *utvider* altså til det som (av
-ganske åpenbare årsaker) heter *fellesnevner.* Vi kan da støtte oss i en
+oss telle _både_ 4- og 3-deler. Hvis vi deler firedelene i tre (eller
+tredelene i fire), får vi til dette. Vi _utvider_ altså til det som (av
+ganske åpenbare årsaker) heter _fellesnevner._ Vi kan da støtte oss i en
 figur som den over, med kvadratene, eller vi kan illustrere ved hjelp av
 tallinjer. Se under. Vi deler firedelene i tre, og ser at
 $\frac{1}{4} = \frac{3}{12}$, og $\frac{2}{3} = \frac{8}{12}$. Tolvdeler
 er glade i hverandre, så nå er det bare å dure i vei:
 $\frac{3}{12} + \frac{8}{12} = \frac{11}{12}$.
 
-![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tall/err.png)
-
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tall/image5.png)
 
 ### Utføre multiplikasjon med brøk
 
@@ -736,26 +734,53 @@ Heftet.
 ##### Løsningsforslag
 
 1. \
-a. 
-$${\frac{3}{2}\left( 7 + \frac{16}{5} \cdot \frac{3}{2} \right) - 1
-}{\frac{3}{2} \cdot \frac{35 + 24}{5} - 1
-}{\frac{117}{10} - \frac{10}{10}
-}\frac{107}{10}$$
-b. 
-$${\frac{4 \cdot 13}{7 \cdot 5} \cdot \frac{3}{2} + 8
-}{\frac{2 \cdot 13 \cdot 3}{35} + \frac{280}{35}
-}\frac{358}{35}$$
+a.
+$$
+\begin{aligned}
+\frac{3}{2}\left( 7 + \frac{16}{5} \cdot \frac{3}{2} \right) - 1
+& = \frac{3}{2} \cdot \frac{35 + 24}{5} - 1
+\\
+& = \frac{177}{10} - \frac{10}{10}
+\\
+& = \frac{167}{10}
+\end{aligned}
+$$
+b.
+$$
+\begin{aligned}
+\frac{4 \cdot 13-105}{7 \cdot 5} \cdot \frac{3}{2} + 8
+&
+= {\frac{53}{7 \cdot 5} \cdot \frac{3}{2} + 8}
+\\
+&
+= {\frac{-159\cdot 3}{7\cdot 5\cdot 2} + \frac{560}{7\cdot 5\cdot 2}}
+\\
+& = \frac{401}{70}
+\end{aligned}
+$$
 c.
-$${\frac{19}{3} \cdot \frac{20}{27} + \frac{7}{2} \cdot \left( - \frac{5}{3} \right)
- }{\frac{380}{81} - \frac{35}{6}
-}{\frac{760}{162} - \frac{945}{162}
-}{- \frac{185}{162}}
+$$
+\begin{aligned}
+\frac{19}{3} \cdot \frac{20}{27} + \frac{7}{2} \cdot \left( - \frac{5}{3} \right)
+ &
+ =\frac{380}{81} - \frac{35}{6}
+\\
+&= \frac{760}{162} - \frac{945}{162}
+\\
+& = - \frac{185}{162}
+\end{aligned}
 $$
 d.
 $$
+\begin{aligned}
 {\left( \left( 2 \cdot \frac{3}{2} \cdot \frac{3}{2} \right) \cdot \frac{2}{5} - \frac{4}{5} \right) \cdot \left( - \frac{6}{5} \right)
-}{\left( \frac{9}{5} - \frac{4}{5} \right) \cdot \left( - \frac{6}{5} \right)
-}{- \frac{6}{5}}
+}
+&
+= {\left( \frac{9}{5} - \frac{4}{5} \right) \cdot \left( - \frac{6}{5} \right)
+}
+\\
+& = {- \frac{6}{5}}
+\end{aligned}
 $$
 
 ### Forklare begrepet og regne med desimaltall (desimal_brøk_ i Alfa)
