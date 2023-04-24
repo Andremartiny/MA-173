@@ -14,6 +14,22 @@
 
 Besvarelsene må inneholde en illustrasjon der en peker på relevante lengder.
 
+#### Grunnleggende: Bruke formler for størrelser av figurer til å utforske geometriske sammenhenger,  24.04.23
+
+1. Gjengi formelen for å avgjøre arealet av
+
+a. Trekanter
+
+b. Trapes
+
+c. Prismer
+
+Besvarelsene må inneholde en illustrasjon der en peker på relevante lengder.
+
+#### Vurderingskriterier grunnleggende:  24.04.23
+
+Studentene må gjengi formlene korrekt med en illustrasjon der det kommer fram hvilke lengder som brukes.
+
 #### Grunnleggende: Bruke formler for størrelser av figurer til å utforske geometriske sammenhenger,  17.04.23
 
 1. Gjengi formelen for å avgjøre arealet av

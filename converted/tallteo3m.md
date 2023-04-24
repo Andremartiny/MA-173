@@ -18,6 +18,23 @@
 6. Begrunn delelighetsregelen for tall som er delelig med 9. Du må gi
     både en formell og en grunnskoletilpasset begrunnelse.
 
+#### Middels: Begrunne delelighetsreglene for tall som er delelig med 2, 3, 4, 5, 6 og 9,  24.04
+
+Gi en formell begrunnelse for delelighetsregelen for tall som er delelig med 5.
+Gi en grunnskoletilpasset begrunnelse for delelighetsregelen for tall som er delelig med 9.
+
+##### Vurderingskriterier
+
+Studenten må besvare begge oppgavene.
+
+Formelt: For eksempel kan de ta utgangspunkt i tre eller firesifra tall
+($1000a + 100b + 10c + d$) og gjøre argumentene. Deretter *må* de
+peke på hvorfor dette også fungerer for tall med flere siffer. Alternativt kan de skrive et tall som $10n + b$, der $b$ er et siffer og $n$ er et vilkårlig positivt tall. For tallet $2343403$ vil $n = 234340$ og $b = 3$. Dermed kan de nå peke direkte på at siden $10n$ inneholder faktoren $5$, så vil det være $b$, altås siste siffer, som avgjør om tallet er delelig på $5$ eller ikke.
+
+Grunnskoletilpasset: Ta utgangspunkt i et konkret eksempel og
+forklare strukturen. Igjen må det komme tydelig fram hvordan
+resultatet gjelder for et hvilket som helst antall sifre.
+
 #### Middels: Begrunne delelighetsreglene for tall som er delelig med 2, 3, 4, 5, 6 og 9,  31.03.23
 
 Gi en formell begrunnelse for delelighetsregelen for tall som er delelig med 4.

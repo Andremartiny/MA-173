@@ -509,6 +509,257 @@ b.  Hvilke uttrykk stemmer? Argumenter ved hjelp av figuren og ved å
     b.  Begrunn hvordan oppgaven innebærer arbeid med algebraisk
         tenkning og kompetansemålene og kjerneelementene du valgte.
 
+
+## 24.04
+
+### Bruke begrepene faktor (divisor), felles faktor og største felles faktor, multiplum, felles multiplum og minste felles multiplum
+
+#### Grunnleggende: Gjengi og forklare, gi eksempler og illustrasjoner til begrepene
+
+1. Gi en grunnskoletilpasset forklaring med eksempel på begrepene faktor og divisor.
+2. Forklar og gi eksempler på hva som menes med felles multiplum og minste felles multiplum for to tall. Besvarelsen må inneholde både formelle definisjoner og grunnskoletilpassete forklaringer.
+
+#### Middels: Argumentere for enkle sammenhenger knyttet til begrepene
+
+La \(a\) og \(b\) være to naturlige tall med største felles faktor \(10\) og minste felles multiplum \(1050\). Hvis \(a = 30\) hva er da \(b\)? Begrunn.
+
+##### Vurderingskriterier
+
+Studentene må bevare oppgaven på en forståelig og riktig måte. For eksempel kan en bruke at $SFF\cdot MFM = a\cdot b$ og løse dette som en likning. Det gir at $10\cdot 1050 = 10500 = 30\cdot b$, eller at $1050 = 3\cdot b$ eller $b = 350$.
+
+#### Avansert: Løse (også ukjente) problemer knyttet til begrepene
+
+Under ser du en påstand. Undersøk den og begrunn at den stemmer. Du må begrunne  formelt.
+
+Hvis et tall er faktor i to tall, så er det også faktor i differansen mellom de to tallene.
+
+##### Vurderingskriterier
+
+Studenten må besvare oppgaven på en forståelig og riktig måte. Hvis vi antar at $a$ er faktor i to tall kan vi si at disse tallene kan skrives som $an$ og $am$ (og vi kan anta at $n > m$). Ser vi nå på differansen mellom disse tallene ser vi på $an - am$, men siden vi kan faktorisere $a$ får vi at differansen er $a(n-m)$, og siden $n-m$ er et naturlig tall så ser vi at $a$ er en faktor i dette tallet.
+
+### Bruke begrepene naturlig tall, partall og oddetall, primtall og sammensatt tall
+
+#### Grunnleggende: Gjengi og forklare, gi eksempler og illustrasjoner til begrepene
+
+Forklar og gi eksempler på hva partall og oddetall er.
+Forklar og gi eksempler på hva primtall og sammensatt tall er.
+Besvarelsen må inneholde både algebraiske definisjoner, ordforklaringer og illustrasjoner.
+
+#### Middels: Argumentere for enkle sammenhenger knyttet til begrepene
+
+1. Gi et formelt argument for at sum av oddetall og oddetall er partall.
+
+2. Gi et grunnskoletilpasset argument for at partall multiplisert med oddetall gir partall.
+
+##### Vurderingskriterier
+
+1. Studenten må gi et formelt argument. Det kan være å skrive to oddetall som $2n-1$ og $2m-1$. Summen er da $2n-1 + 2m-1 = 2n + 2m - 2 = 2(n+m-2)$. Vi ser at summen inneholder faktoren to og derfor er et partall.
+2. Studenten må gi et grunnskoletilpasset argument. Her er det flere muligheter. De kan for eksempel gi et generisk eksempel og dra ut strukturen derfra. Ta for eksempel partallet $6$ og oddetallet $9$. Siden $6$ er et partall kan vi skrive det som $2$ ganger noe, i dette tilfellet $3$. Dermed er produktet $6\cdot 9$ også produktet $2\cdot 3 \cdot 9$. Men vi ser nå at vi har en faktor $2$ i produktet. Dermed må dette være et partall. Siden det ikke var noe spesielt med partallet $6$, så ser vi at vi alltid kan dra ut faktoren $2$, slik det ble gjort med $6$ og produktet mellom et partall og oddetall vil derfor alltid inneholde faktoren $2$, noe som gjør det til et partall.
+
+#### Avansert: Løse (også ukjente) problemer knyttet til begrepene
+
+Hvis vi skal gange et tosifret tall med \(11\), kan vi gjøre det på denne måten, dersom tverrsummen er mindre enn ti: Sett første siffer på hundrerplassen, tverrsummen på tierplassen og andre siffer på enerplassen. Eksempelvis er da \(35\cdot 11=385\). Vis at dette er sant for alle tosifra tall med tverrsum lavere enn ti.
+
+##### Vurderingskriterier
+
+Studenten må vise at dette stemmer. En naturlig måte vil være å skrive tallet som $10a+b$ der $a$ og $b$ er siffer og $a+b < 10$. Tar vi tallet vårt ganger $11$ får vi $(10a+b)\cdot 11 = (10a+b)(10+1) = 100a + 10 b + 10 a + b$, eller $100a + 10(a+b) + b$. Dermed ser vi at siden $a$, $b$ og $a+b<10$ første siffer, $a$ være på hundrerplassen, tverrsummen, $a+b$, på tierplassen og andre siffer, $b$, vil være på enerplassen.
+
+### Begrunne delelighetsreglene for tall som er delelig med 2, 3, 4, 5, 6 og 9
+
+#### Middels: Argumentere for enkle sammenhenger knyttet til begrepene
+
+Gi en formell begrunnelse for delelighetsregelen for tall som er delelig med 5.
+Gi en grunnskoletilpasset begrunnelse for delelighetsregelen for tall som er delelig med 9.
+
+##### Vurderingskriterier
+
+Studenten må besvare begge oppgavene.
+
+Formelt: For eksempel kan de ta utgangspunkt i tre eller firesifra tall
+($1000a + 100b + 10c + d$) og gjøre argumentene. Deretter *må* de
+peke på hvorfor dette også fungerer for tall med flere siffer. Alternativt kan de skrive et tall som $10n + b$, der $b$ er et siffer og $n$ er et vilkårlig positivt tall. For tallet $2343403$ vil $n = 234340$ og $b = 3$. Dermed kan de nå peke direkte på at siden $10n$ inneholder faktoren $5$, så vil det være $b$, altås siste siffer, som avgjør om tallet er delelig på $5$ eller ikke.
+
+Grunnskoletilpasset: Ta utgangspunkt i et konkret eksempel og
+forklare strukturen. Igjen må det komme tydelig fram hvordan
+resultatet gjelder for et hvilket som helst antall sifre.
+
+### Finne eksplisitt uttrykk for figurtall
+
+#### Grunnleggende: Ved hjelp av Gauss-trikset/doble summen for trekanttall, og ved hjelp av sum av tillegg for kvadrat- og rektangeltall
+
+Utled det eksplisitte uttrykket for summen av de $n$ første naturlige tallene, det vil si trekanttall nummer  $n$, ved hjelp av Gauss-trikset (doble summen) geometrisk.
+Utled det eksplisitte uttrykket for kvadrattallene ved hjelp av sum av tillegg.
+
+#### Middels: Ved hjelp av sum av tillegg for andre polygontall
+
+Illustrer femkanttallene opp til $P_3$, og utled eksplisitt uttrykk for $P_n$ ved hjelp av strategien sum av tillegg. Merk at tallrekken som tilhører sekskanttallene er $1, 5, 12, 22,  \ldots$.
+
+##### Vurderingskriterier
+
+Studenten må illustrere figurene og finne eksplisitt uttrykk med riktig teknikk.
+
+Studenten må derfor utlede at formen på tillegget er $3n-2$, som gir at figurtall nummer $n$ kan skrives som summen av tilleggene slik:
+$$
+P_n = 1 + 4 + 7 + 10 + \ldots + 3n - n.
+$$
+Deretter må de jobbe med summen av tilleggene og bruke den eksplisitte formelen ved å
+bruke formelen for trekanttall (se heftet for teknikken om sum
+av tillegg).
+
+#### Avansert: Ved hjelp av geometrisk betraktning/stirre hardt og sum av tillegg for sammensatte figurtall
+
+På figuren under ser du de tre første figurene i en sammensatt figur, der $F_1 = 8$, $F_2 = 18$ og $F_3 = 32$.
+
+1. Finn en eksplsitt formel for $F_n$ ved å betrakte figuren geometrisk.
+
+2. Finn en eksplisitt formel ved hjelp av sum av tillegg.
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-21-12-10-31.png)
+
+##### Vurderingskriterier
+
+1. Studenten må betrakte figuren og finne en eksplisitt formel ved å referere til figuren. For eksempel kan man ved å betrakte figuren figuren geometrisk kan en se at hvis en flytter trekantene som "stikker ut" tilbake på plass, så får man et rektangel som alltid er dobbelt så høyt som langt og at lengden er én høyere enn figurtallsnummeret. Man ser dermed at $F_1 = 2\cdot 4$, $F_2 = 3\cdot 6$ og $F_3 = 4 \cdot 8$ og generelt at $F_n = (n+1)\cdot 2(n+1) = 2(n+1)^2$.
+2. Studenten må bruke teknikken sum av tillegg. Først bør de finne formen på tillegget. Dette kan de for eksempel gjøre ved å bruke den eksplisitte formelen over og se på $F_n - F_{n-1} = 2(n+1)^2 - 2n^2 = 2(n+1+n)(n+1-n) = 2(2n+1)$ eller $4n + 2$. Nå gjenstår bare bruken av teknikken sum av tillegg. Siden vi nå har formen på tilleggene kan vi skrive $F_n = 8 + (4\cdot 2 + 2) + (4\cdot 3 + 2) + \ldots + (4n+2)$. Vi ser også at $8 = 4\cdot 1 + 2 +2$, som gir oss muligheten til å skrive
+$$
+\begin{aligned}
+F_n
+& = 2 + (4\cdot 1 + 2) + (4\cdot 2 + 2) + (4\cdot 3 + 2) + \ldots + (4n+2)
+\\
+&
+= 2 + 4(1+2+\ldots + n) + 2\cdot n
+\\
+&
+= 2 + 4T_n +2n
+\\
+&
+2 + 2n(n+1)+2n.
+\end{aligned}
+$$
+Her har vi et eksplisitt uttrykk for figurtall nummer $n$ og studenten trenger ikke omforme dette til å passe med 1., men vi kan se at det gjør det ved å fortsette
+$$
+\begin{aligned}
+2 + 2n(n+1) + 2n
+& =
+2(1+2n(n+1)+n)
+\\
+&
+=2(n(n+1) + (n+1))
+\\
+& =
+2(n+1)(n+1) = 2(n+1)^2
+\end{aligned}
+$$
+
+### Finne rekursiv uttrykk for figurtall
+
+#### Grunnleggende: Ved hjelp av form på tillegg, og differanse mellom eksplisitte uttrykk for trekant-, kvadrat- og rektangeltall
+
+Vis i en illustrasjon hvordan hver figur inneholder den forrige, og finn rekursivt uttrykk for trekanttall $n$:
+ved hjelp av strategien form på tillegg.
+ved hjelp av strategien differanse mellom eksplisitte uttrykk. Merk eksplisitt uttrykk for trekanttall er $\frac{n\cdot(n+1)}{2}$.
+
+##### Vurderingskriterier
+
+Studenten må besvare alle spørsmålene med riktig
+teknikk.
+
+i.  Her må de peke på formen på tillegget. Enten ved å peke på
+figuren og vise hvordan den utvikler seg generelt. Eller ved
+å peke på tilleggene i tallfølgen og forklare hvordan den
+utvikler seg.
+
+ii. Her *må* de ta differanse mellom $T_{n}$ og $T_{n - 1}$ og
+gjøre regne seg fram til formen på tillegget
+
+#### Middels: Ved hjelp av form på tillegg, og differanse mellom eksplisitte uttrykk for andre polygontall og sammensatte figurtall
+
+Vis i en illustrasjon hvordan hver figur inneholder den forrige, og finn rekursivt uttrykk for femkanttallene  $P_n$, der $P_1 =1$, $P_2 = 5$ og $P_3 = 12$:
+ved hjelp av strategien form på tillegg.
+ved hjelp av strategien differanse mellom eksplisitte uttrykk. Merk: Det eksplisitte uttrykket for bikubetallene er $P_n = {\frac{n}{2}(3n-1)}$.
+
+##### Vurderingskriterier
+
+Studenten må besvare alle spørsmålene med riktig
+teknikk. Her *må* det være med en illustrasjon.
+
+i.  Finne ved å peke på form på tillegg (se grunnleggende i).
+De må altså se at tilleggene øker med $3$, noe som tilsier at
+formen på tillegget må være en lineær faktor med stigning $3$.
+Fra dette bør de komme seg til\
+$$
+P_{n} = P_{n - 1} + 3n-2
+$$
+
+ii. Finne uttrykket ved hjelp av å regne $P_{n}– P_{n - 1}$.
+
+### Beskrive oppbygningen av figurtall (alle typer)
+
+Under ser dere dere de tre figurtallene $F_1$, $F_2$ og $F_3$
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-21-12-22-21.png)
+
+#### Grunnleggende: Beskrive eksplisitt og rekursiv sammenheng verbalt og ved hjelp av illustrasjon
+
+Ved å illustrere figurtallene og markere i illustrasjonen, gi en ordforklaring av
+
+1. en eksplisitt sammenheng mellom figurtall nummer \(n\) og antall prikker i figurtallet.
+
+2. en rekursiv sammenheng mellom to påfølgende figurtall.
+
+##### Vurderingskriterier
+
+Her må alle spørsmålene besvares, og de må
+illustrere figurer.  
+
+i.  Eksplisitt formel må utledes, og de må henvise til figuren.\
+\
+ii. Her må de henvise til illustrasjonen for å få fram hvordan
+figuren utvikler seg rekursivt.\
+
+For eksempel kan det fremheves at det er to trekanter som ligger i figuren som starter på samme nivå som figurtallsnummeret, markert i gult i figuren under. Flytter man trekantene sammen får man et rektangel av størrelse $n$ og $n+1$.  Videre kan en da utifra markeringene se hvis en flytter toppene ned i "hullet", markert i grønn, så vil en ha et rektangel med høyde $n$ og bredde $2$. Totalt sett får vi et rektangel med bredde $2 + (n+1)$ og høyde $n$. Som gir en eksplisitt formel $(n+3)\cdot n$.
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-21-13-28-48.png)
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-21-13-26-27.png)
+
+#### Middels: Finne flere algebraiske uttrykk til samme figur
+
+Ved å bryte figurtallene ned på flere måter, utled to ulike, men likeverdige uttrykk for figurtallene.
+
+##### Vurderingskriterier
+
+De må finne minst to eksplisitte uttrykk og det må gis
+en god nok forklaring på hvordan de har brutt ned figuren. For
+eksempel kan de gjøre som i grunnleggende i tillegg til en annen
+nedbrytning. Geometrisk kan dette være å peke på en alltid i "midten" har et rektangel med bredde $4$ og høyde $n$ (ved å flytte ned toppene), altså $4n$ prikker i rektangelet i midten. I tillegg stikker det ut to trekanter som for figurtallsnummer $n$ er av størrelse $T_{n-1}$. Disse trekantene kan altså eksplisitt utregnes ved å ta $2T_{n-1} = n(n-1)$. Totalt gir dette det eksplisitte uttrykket $4n + n(n-1)$.  
+
+#### Avansert: Lage figurer basert på algebraiske uttrykk og tallfølger
+
+Du får vite at et figurtall $F_n$ øker på følgende måte. $F_1 = 2$, $F_2 = 6$, $F_3 = 11$, $F_4 = 17$.
+
+1. Lag en figur som følger mønsteret til $F_n$. Det er nok å illustrere $F_1$, $F_2$ og $F_3$, så lengde det får fram mønsteret.
+2. Vis og forklar sammenhengen mellom tallrekken og figurene rekursivt.
+3. Finn en eksplisitt formel på to forskjellige måter.
+
+##### Vurderingskriterier
+
+Her må illustrere figuren (nok med de tre første), men
+strukturen må komme fram i hvordan figuren utvikler seg!
+
+1. Studenten står fritt til hvordan de vil gjøre dette. for eksempel kan de se at vi kan skrive følgen slik, $F_1 = 4+ 1$, $F_2 = 4+3$, $F_3 = 4+6$ og $F_4 = 4+10$. Vi kjenner igjen rekken $1$, $3$, $6$ og $10$ som trekanttallene. Dermed kan vi se at det kun er en trekant i tillegg til noe som konstant er $4$. Da kan en figur se slik ut
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-21-13-39-36.png)
+
+2. Her må de peke på utviklingen i både figur og tallrekker for
+så å forklare hvordan de utvikler seg. Har de tegnet som figuren over er det nok å peke på at det alltid legges en ny rad på toppen av figuren og at denne alltid inneholder $n$ prikker.
+
+1. Studenten *må* finne formelen på to forskjellige måter. Typisk kan det
+være: Bryte ned figur geometrisk, sum av tillegg,
+gauss-triks algebraisk, gauss-triks ved figur. Merk at å
+bryte ned figuren på flere måter teller som forskjellige
+måter. Siden figuren fra 1. er laget litt taktisk kan en nå se at en enkelt kan bryte den ned til å være $T_n + 4$ som gir formelen $\frac{n(n+1)}{2}+ +4$.
+
+
 ## 31.03.23
 
 ### Bruke begrepene faktor (divisor), felles faktor og største felles faktor, multiplum, felles multiplum og minste felles multiplum

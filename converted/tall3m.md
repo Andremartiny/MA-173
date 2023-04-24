@@ -53,6 +53,28 @@
 
    g. Like grupper: målingsdivisjon.
 
+#### Middels: Beskrive situasjoner med hensyn til multiplikative strukturer,  24.04
+
+1. Avgjør og begrunn hvilken multiplikativ struktur situasjonene svarer til.
+
+a.  Antall Twist André spiser på \(6,5\) minutter når han spiser \(12\) Twist i minuttet.
+b.  Arealet av en rektangulær terrasse med sider \(2,3\) og \(4,7\) meter.
+c.  En strekning på \(12 \ \text{km}\) er delt opp i \(4\) etapper.  
+2. Ta utgangspunkt i situasjon c. Legg til nødvendig informasjon, og omformuler på to måter: slik at du lager én divisjonsoppgave med målingsdivisjon og én med delingsdivisjon. Begrunn hvilken som er hva.  
+
+##### Vurderingskriterier
+
+Avgjørelsene må begrunnes kort.
+
+1. \
+a. er rate.
+b. er rektangulært arrangement.
+c. er like grupper.
+2. \
+
+- Målingsdivisjon: hvor mange 3 km etapper på 12 km?
+- Delingsdivisjon: hvor lange etapper når 12 km deles i fire etapper?
+
 
 #### Middels: Beskrive situasjoner med hensyn til multiplikative strukturer,  17.04.23
 

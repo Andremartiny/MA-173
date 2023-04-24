@@ -8,6 +8,16 @@
 
    c. 1.45
 
+#### Grunnleggende: Utføre multiplikasjon med brøk,  24.04
+
+Regn ut.
+a. \(\frac{7}{5} \cdot \frac{4}{5}\)
+b. \(3 \frac{2}{3} \cdot \frac{3}{2}\)
+
+##### Vurderingskriterier
+
+28/25, 11/2
+
 #### Grunnleggende: Utføre multiplikasjon med brøk,  17.04.23
 
 Regn ut.

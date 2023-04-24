@@ -306,6 +306,183 @@ så skal ikke dette rundes av til $2,236$
 
 1. La oss kalle sidene i den rettvinkla trekanten for $x$, $y$ og $z$, slik at $x^2 + y^2 = z^2$. Da vet vi at de tre halvsirklene har areal $\pi(\frac{x}{2})^2 = \pi \frac{x^2}{4}$, $\pi \frac{y^2}{4}$ and $\pi \frac{z^2}{4}$. I tillegg har trekanten areal $\frac{2x\cdot2y}{2} = 2xy$. Tar vi de to små halvsirklene i tillegg til trekanten får vi hele området. Dette har areal $\frac{\pi}{2}(x^2+y^2)+ 2ab$. Vi kan nå bruke Pytagoras setning til å si at dette arealet kan skrives som $\frac{\pi c^2}{4} + 2ab$.Nå gjenstår det bare å trekke fra den store halvsirkelen for å få arealet av det hvite området. Dette gir $\frac{\pi c^2}{4}+ 2ab - \frac{\pi c^2}{4} = 2ab$. Vi ser dermed at det hvite området har samme areal som trekanten. Dermed blir forholdet mellom det hvite området og arealet av trekanten $1$.
 
+## 24.04.23
+
+### Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer
+
+#### Grunnleggende: Gjengi og forklare, gi eksempler og illustrasjoner til begrepene
+
+Forklar og gi eksempler (med illustrasjoner) på hva som menes med begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer.
+
+##### Vurderingskriterier: Grunnleggende {#f13g3}
+
+Studenten må gi en forklaring med en illustrasjon på de gitte begrepene.
+
+#### Middels: Argumentere for enkle sammenhenger knyttet til begrepene
+
+Argumenter for hvor stor vinkelsummen av de indre vinklene i en trekant er.
+
+##### Vurderingskriterier: Middels {#f13m3}
+
+Studentene må argumentere for hvor stor vinkelsummen av de indre vinklene i en trekant er.
+
+#### Avansert: Utforske og løse ukjente problemet knyttet til begrepene
+
+Under ser du en trekant $ABC$, der $\angle ACB$ er halvert og går gjennom punktet $E$ (det vil si at $a = c$). Linjen som går gjennom $BD$ er parallell med linjen gjennom $AC$.
+
+1. Forklar at $a = b$ og $d = e$.
+
+2. Forklar hvorfor $\triangle AEC$  er formlik med $\triangle EDB$ ved å begrunne at de indre vinklene i trekantene er de samme.
+
+Når to trekanter er formlike gjelder det at de samsvarende sidene er har samme forhold. Det vil si $\frac{AC}{BD} = \frac{AE}{EB}$.
+
+3. Forklar hvorfor $\frac{AC}{BC} = \frac{AE}{EB}$ (vink: trekanter med to like vinkler er likebeinte).
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-22-16-49.png)
+
+##### Vurderingskriterier: Avansert {#f13a3}
+
+Studentene må gjøre alle oppgavene.
+
+1. Det må pekes på at $c = a$. Siden $BD$ er parallell med $AC$, så vil $c = b$ (dette kan pekes på ved å forlenge $BD$ og $CD$ og lage toppvinklene) som igjen betyr at $a = b$. At $d = e$ følger igjen av at linjene $BD$ og $AC$ er parallelle.
+2. Her må studenten bare bruke informasjonen fra 1. sammen med at vinkelsummen i trekanter er $180$ grader.
+3. Siden $a = b$ må $CB = BD$ (fordi det er en likebeint trekant fra 1.). Nå følger resultatet bare ved direkte bruk av formlikhet.
+
+### Bruke begrepene kvadrat, rektangel, parallellogram, trapes, likebeint trekant, likesidet trekant, rettvinklet trekant, mangekant, sirkel
+
+#### Grunnleggende: Gjengi og forklare, gi eksempler og illustrasjoner til begrepene
+
+Forklar og gi eksempler (med illustrasjoner) på hva som menes med begrepene likesidet trekant, sirkel, kvadrat og parallellogram.
+
+##### Vurderingskriterier
+
+Studenten må gi forklaringer og illustrasjoner til begrepene.
+
+#### Middels: Argumentere for enkle sammenhenger knyttet til begrepene
+
+1. Forklar hvorfor, eller hvorfor ikke, et parallellogram er et kvadrat.
+2. Avgjør og begrunn om følgende påstand er sann: Hvis en trekant er likebeint, så er den ene sidelengen lenger enn de to andre .
+
+##### Vurderingskriterier
+
+1. Studenten må peke på at et parallellogram ikke alltid er et kvadrat. Dette gjøres enklest ved å tegne et eksempel av et *skjevt* parallellogram eller et rektangel.
+2. Studenten kan for eksempel tegne en likebeint trekant der den ene siden er mindre enn de to andre for å motbevise påstanden.
+
+### Bruke formler for størrelser av figurer til å utforske geometriske sammenhenger
+
+#### Grunnleggende: Gjengi og forklar formlene for trekanter, rektangler, parallellogram, trapes, sirkler, prismer, sylindre og pyramider
+
+1. Gjengi formelen for å avgjøre arealet av
+
+a. Trekanter
+
+b. Trapes
+
+c. Prismer
+
+Besvarelsene må inneholde en illustrasjon der en peker på relevante lengder.
+
+##### Vurderingskriterier: Grunnleggende {#f10g5}
+
+Studentene må gjengi formlene korrekt med en illustrasjon der det kommer fram hvilke lengder som brukes.
+
+#### Middels: Argumentere for enkle sammenhenger knyttet til begrepene
+
+Du har en sirkel med radius $r$. Hvis radius økes med $x$. Vis algebraisk hvor mye lengre omkretsen til den nye sirkelen har blitt.
+
+##### Vurderingskriterier: Middels {#f10m5}
+
+Dette må gjøres algebraisk.
+
+#### Avansert: Utforske og løse ukjente problemet knyttet til begrepene
+
+Under er et rektangel med høyde $h$ som består av en blå rettvinklet trekant, en grønn rettvinklet trekant der lengden på grunnlinjen er $x$, og et trapes der de parallelle sidene har lengde $a$ og $b$ som markert på figuren.
+
+1. Uttrykk lengden fra punkt $L$ til $I$ ved hjelp av $a$, $b$ og $x$.
+
+2. Avgjør arealet $A$ av rektangelet.
+
+3. Avgjør arealet $B$ til den blå trekanten og arealet $C$ til den grønne trekanten.
+
+4. Begrunn at arealet av trapeset må være $\frac{(a+b)h}{2}$, ved å bruke arealene du fant i oppgave 2 og 3.
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-22-22-14.png)
+
+##### Vurderingskriterier: Avansert {#f10a5}
+
+Studenten må gjøre alle oppgavene for å få godkjent.
+
+1. Studenten må få fram at $LI = a+x-b$.
+2. Studenten må peke på at $A = (a+x)h$.
+3. Studenten må få fram at $B = \frac{(a+x-b)h}{2}$ og at $C = \frac{xh}{2}$.
+4. Studenten må få fram arealet. Det vil være naturlig å regne seg fram ved å se på $A-B-C$.
+$$
+\begin{aligned}
+A-B-C & = (a+x-b)h-\frac{(a+x-b)h}{2} - \frac{xh}{2}
+\\
+& = (a+x-b)h - \frac{(a-b+2x)h}{2} = \frac{(a+b) h}{2}.
+\end{aligned}
+$$
+
+*Merk* at det bevisst er utelatt litt detaljer i regningen som bør være med.
+
+### Bruke begrepet formlikhet av trekanter
+
+#### Middels: Argumentere for enkle sammenhenger knyttet til begrepet
+
+Da det var jul hadde André kjøpt et høyt juletre som han fint hadde pyntet med en julestjerne på toppen. André mente det ville være morsomt for sin samboer å beregne høyden på treet ved å bruke formlikhet (men det syns ikke hun). Derfor ba han henne legge seg legge seg ned på gulvet slik at hun akkurat kunne se toppen av stjernen bak toppen av hodet til André . Da lå hun 3 meter unna André og 5 meter unna treet (se figur). André er $\frac{7}{4}$ meter høy. Bruk formlikhet til å avgjøre hvor høyt treet var, når en inkluderer stjernen på toppen.
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/geo/juletre.png)
+
+##### Vurderingskriterier
+
+1. Studenten må bruke formlikhet for å avgjøre høyden på treet. For eksempel kan de at den store trekanten er $\frac{5}{3}$ ganger så stor som den lille. Dermed må høyden til André skaleres opp med $\frac{5}{3}$. Det gir en høyde på $\frac{7}{4}\cdot \frac{5}{3} = \frac{35}{12}$. Dermed var treet $\frac{35}{12}$ meter eller $1/2$ meter unna å være tre meter høyt.
+
+### Argumentere visuelt for Pytagoras setning
+
+#### Grunnleggende: Gjengi og forklare, gi eksempler og illustrasjoner til begrepet
+
+Gjengi og forklar Pytagoras setning. Forklaringen må referere til en figur.
+
+##### Vurderingskriterier
+
+Studenten må gi en forklaring av Pytagoras setning ved å referere til en figur.
+
+#### Middels: Gi et visuelt argument for at Pytagoras setning gjelder
+
+Gi et grunnskoletilpasset argument for Pytagoras setning.
+
+##### Vurderingskriterier
+
+Studenten må gi et grunnskoletilpasset argument for at Pytagoras setning gjelder. Dette innebærer å tegne en eller flere figurer og bruke de til å argumentere for Pytagoras setning.
+
+### Bruke Pytagoras setning
+
+#### Grunnleggende: Bruke Pytagoras setning til å løse enkle problemer
+
+Finn lengden på hypotenusen i en rettvinklet trekant når du vet at katetene har lengde:
+
+a.  5 og 6
+b.  3 og 11
+
+Utregningene skal ikke være avrundet og skal gis i eksakte verdier. Det vil si at hvis svaret er \(\sqrt{1^{2} + 2^{2}} = \sqrt{5}\), så skal ikke dette rundes av til \(2,236\).
+
+##### Vurderingskriterier
+
+a. Studenten må bruke Pytagoras setninging. For eksempel kan de peke på at vi vet at $5^2 + 6^2 = h^2$, som betyr at $h = \sqrt{25+36} = \sqrt{61}$.
+b. Vi ser tilsvarende at $3^2+11^2 = 9+121 = 130 = h^2$, som betyr at $h = \sqrt 130$. 
+
+#### Middels: Bruke Pytagoras setning til å løse problemer
+
+På figuren under ser du et rektangel med sidelengder $\sqrt 2$ og $x$. Rektangelet er rotert $45^\circ$ og plassert i et kvadrat med sidelengde $DC = \sqrt 8 +1$. Avgjør hva $x$ er.
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-21-15-21-11.png)
+
+##### Vurderingskriterier
+
+Studenten må løse for $x$. Siden rektangelet er rotert $45^\circ$ får vi en rettvinklet likebeint trekant med hypotenus lik $\sqrt 2$. Pytagoras gir nå at $a^2 + a^2 = 2$ eller at $a^2 = 1$ som betyr at $a = 1$, der $a$ er lengden $DG$. Det betyr at $GC = \sqrt 8$. Igjen er trekanten $GCF$ likebeint og rettvinklet som gir at $GC ^2 + CF^2 = x^2$ og siden $GC = CF$ får vi at $2(\sqrt 8) ^2 = x ^2$, eller at $16 = x^2$ som betyr at $x = 4$.  
+
+
 ## 17.04.23
 
 ### Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer

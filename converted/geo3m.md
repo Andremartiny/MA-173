@@ -21,6 +21,15 @@
 2. Trekk en linje parallell med $f$ og $g$ gjennom vinkel $v$. Vi får da, ved å bruke parallellitetsegenskaper, at $v$ kan deles inn i to vinkler, en del som er $13^\circ$ og en del som er $35^\circ$. Vinkel $v$ er dermed $48^\circ$. *Merk*: Besvarelsen mangler en tegning. Gjør dette selv og forsøk å gjøre din egen besvarelse. 
 
 
+#### Middels: Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer,  24.04.23
+
+Argumenter for hvor stor vinkelsummen av de indre vinklene i en trekant er.
+
+#### Vurderingskriterier middels:  24.04.23
+
+Studentene må argumentere for hvor stor vinkelsummen av de indre vinklene i en trekant er.
+
+
 #### Middels: Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer,  17.04.23
 
 Argumenter for at vinkelsummen i sekskanter er $720^\circ$. Merk: hvis du bruker at vinkelsummen i trekanter er $180^\circ$ må du argumentere for dette også.

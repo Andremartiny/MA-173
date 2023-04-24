@@ -28,6 +28,26 @@ b) er et spesialtilfelle av tredje kvadratsetning. Algebraisk:
 $(10a + b)(10a - b) = (10a)^{2} - b^{2}$ ved tredje kvadratsetning.
 Eventuelt kan man vise mellomregning.
 
+#### Avansert: Bruke regnestrategier og egenskaper ved regneoperasjonene,  24.04
+
+1. Velg to passende multiplikasjoner, og illustrer og gi en kort forklaring av distributiv egenskap og kommutativ egenskap.
+
+2. Gjør beregningene under ved hjelp av regnestrategier som ikke innebærer oppstilt regning. Vis tydelig hvordan du tenker.
+
+3. Velg én av strategiene fra 2., og gi en illustrasjon og kort forklaring som viser at strategien alltid funker.
+
+a.  \(240 : 2,5\)
+b.  \(180 \cdot \frac{4}{3}\)
+
+##### Vurderingskriterier
+
+Få tydelig frem hva man har tenkt.
+
+1. Må velge eksempler som fungerer generisk, det vil si at de får frem at egenskapene gjelder generelt (for positive i alle fall).
+2. \
+a. Som 2b. og 2c. fra middels
+3. Må få frem at strategien er generell (heller ikke her trengs nødvendigvis noe algebra)
+
 #### Avansert: Bruke regnestrategier og egenskaper ved regneoperasjonene,  17.04.23
 
 1. Bruk multiplikasjonen $5 \cdot 8$ til å illustrere og gi en kort forklaring av distributiv egenskap.

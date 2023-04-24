@@ -5,6 +5,14 @@
     begrepene *punkt, linje, plan, linjestykke,* *vinkel og parallelle
     linjer.*
 
+#### Grunnleggende: Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer,  24.04.23
+
+Forklar og gi eksempler (med illustrasjoner) på hva som menes med begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer.
+
+#### Vurderingskriterier grunnleggende:  24.04.23
+
+Studenten må gi en forklaring med en illustrasjon på de gitte begrepene.
+
 #### Grunnleggende: Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer,  17.04.23
 
 1. Forklar og gi eksempler (med illustrasjoner) på hva som menes med begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer.

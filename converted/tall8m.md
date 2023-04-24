@@ -23,6 +23,18 @@ $\frac{3}{12} + \frac{8}{12} = \frac{11}{12}$.
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tall/image5.png)
 
 
+#### Middels: Utføre addisjon og subtraksjon med brøk,  24.04
+
+Regn ut, og gi en forklaring med illustrasjon som viser at beregningen må være riktig.
+
+a. \(\frac{2}{5} + \frac{1}{4}\)
+b. \(\frac{5}{6} - \frac{1}{3}\)
+
+##### Vurderingskriterier
+
+13/20, 1/2. Illustrasjonen må vise utviding til felles nevner på en forståelig måte.
+
+
 #### Middels: Utføre addisjon og subtraksjon med brøk,  17.04.23
 
 Regn ut, og gi en forklaring med illustrasjon som viser at beregningen må være riktig.

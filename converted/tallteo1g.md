@@ -6,6 +6,11 @@
 
 4. Forklar og gi eksempler på hva som menes med *felles multiplum* og *minste felles multiplum* for to tall. Besvarelsen må inneholde både formelle definisjoner og grunnskoletilpassete forklaringer.
 
+#### Grunnleggende: Bruke begrepene faktor (divisor), felles faktor og største felles faktor, multiplum, felles multiplum og minste felles multiplum,  24.04
+
+1. Gi en grunnskoletilpasset forklaring med eksempel på begrepene faktor og divisor.
+2. Forklar og gi eksempler på hva som menes med felles multiplum og minste felles multiplum for to tall. Besvarelsen må inneholde både formelle definisjoner og grunnskoletilpassete forklaringer.
+
 #### Grunnleggende: Bruke begrepene faktor (divisor), felles faktor og største felles faktor, multiplum, felles multiplum og minste felles multiplum,  31.03.23
 
 1. Gi en grunnskoletilpasset forklaring med eksempel på begrepene faktor og divisor.

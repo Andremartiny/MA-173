@@ -43,6 +43,7 @@
 
    f. Etter en tids hardt innsamlingsarbeid, kjøper Arne og Anne omsider en pantemaskin. De sitter da igjen med 421 kroner. Hvor mye penger hadde før de kjøpte maskinen? Oppheving av minskning.
 
+
 #### Middels: Beskrive situasjoner med hensyn til additive strukturer,  17.04.23
 
 Avgjør og begrunn hvilken additiv struktur situasjonene har. Angi både addisjons- og subtraksjonsstykket som passer i hvert tilfelle.

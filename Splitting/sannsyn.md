@@ -256,7 +256,7 @@ tilbakelegg
 
 Forklare og illustrere hva union og snitt er.
 
-#### Middels: Forklare og illustrere addisjonssetningen for to mengder 
+#### Middels: Forklare og illustrere addisjonssetningen for to mengder
 
 Forklare og illustrere addisjonssetningen. Pek tydelig på hvorfor det kommer
 frem at addisjonsregelen må gjelde (Setning 7.53).
@@ -266,12 +266,11 @@ frem at addisjonsregelen må gjelde (Setning 7.53).
 1. Henrik har en tresifret kombinasjon på sykkellåsen sin. Du får vite at koden inneholder en toer (minst), men er ikke et partall. Avgjør hvor mange gjenværende muligheter det er
 2. André har en tresifret kombinasjon på sykkellåsen sin. Du får vite at koden inneholder minst én ener og minst én toer. Du regner deg fram til at det er 271 koder som inneholder minst én ener, og 271 koder som inneholder minst én toer. I tillegg er det 512 av de totalt 1000 mulighetene som hverken inneholder enere eller toere. Hvor mange forskjellige koder kan André ha på sin lås?
 
-
 ##### Løsninsgforslag
 
 1. Siden tallet ikke kan være et partall, så kan toer(ne) kun være på første og andre posisjon og på tredje posisjon kan vi velge fritt mellom oddetallene (5 muligheter). Vi begynner med å splitte i tre disjunkte tilfeller:
    1. Enten er det en toer på første posisjon, men ikke på andre. Vi kan altså ha kombinasjonene $2x$, der $x$ er et siffer som ikke er $2$ (altså 9 muligheter). For hver av de $9$ sifrene kan vi kombintere det med et av fem oddetall. Altså totalt $9\cdot 5 = 45$ muligheter i dette tilfellet.
-   2. Eller så er det ikke en toer på første posisjon, men på andre $x2$, der $x$ er et siffer som ikke er $2$ (altså 9 muligheter). Tilsvarende som over får vi $45$ muligheter. 
+   2. Eller så er det ikke en toer på første posisjon, men på andre $x2$, der $x$ er et siffer som ikke er $2$ (altså 9 muligheter). Tilsvarende som over får vi $45$ muligheter.
    3. Eller $22$. Her er det kun siste siffer som kan endre på seg, og vi har derfor 5 muligheter.
    Siden vi nå har delt mulighetene våre i tre tilfeller som dekker alle mulighetene, og i tillegg ikke overteller noe (er disjunkt), så sier addisjonsprinsippet at antallet er $45+45+5 = 95$.
 
@@ -291,23 +290,32 @@ Forklare begrepet komplement gjennom et eksempel
 
 - Alfa 7.72, 7.74.
 
+##### Løsningsforslag
+
+1. Alfa 7.72
+   Hvis vi kaster en mynt fem ganger kan vi for hvert kast få enten kron eller mynt. Dermed vil vi ha $2^5$ forskjellige utfall i forsøket vårt (vi bryr oss om rekkefølge).
+   a. Det er kun én måte å få bare kron på. Dermed blir sannsynligheten også $\frac{1}{32}$, siden alle mulige utfall er like sannsynlig og det er $32$ mulige utfall.
+   b. Siden det å ikke bare få kron dekker alle andre utfall enn å bare få kron, så må det være $32-1$ mulige utfall som ikke bare gir ikke bare kron. Sannsynligheten blir derfor $\frac{31}{32}$.
+   c. Det er på samme måte kun ett utfall som gir bare mynt. Dermed av de totalt $32$ mulighetene så er det $32-2$ som hverken inneholder bare kron eller bare mynt. Sannsynligheten blir derfor $\frac{30}{32}$.
+
 ### Bruke begrepene i temaet til å løse sammensatte problemet
 
 #### Avansert
 
 1. Anta at sannsynligheten for å få en gutt alltid er 1/2. I en familie
     som har to barn er det tre muligheter, to gutter, to jenter eller
-    ett av hvert kjønn. Eleven per sier at hvis en velger en tilfeldig
-    tobarnsfamilie er det 1/3 sjans for at de har to gutter. André og
-    Kristin planlegger å få fem barn.
-    1. Hva er sannsynligheten for at de får bare gutter?
-    2. Hva er sannsynligheten for at de får to jenter og tre gutter?
-    3. Hva er sannsynligheten for at de får minst 2 jenter?
+    ett av hvert kjønn.
+    1. Eleven Per sier at hvis en velger en tilfeldig
+    tobarnsfamilie er det 1/3 sjans for at de har to gutter. Avgjør om Per tenker rett. Pek på eventuelle misforståelser eller riktige oppfatninger. Hvis det er noen misforståelser må disse rettes opp slik at Per forstår hva som er feil.
+    André og Kristin planlegger å få fem barn.
+    2. Hva er sannsynligheten for at de får bare gutter?
+    3. Hva er sannsynligheten for at de får to jenter og tre gutter?
+    4. Hva er sannsynligheten for at de får minst 2 jenter?
 2. I en vanlig kortstokk med 52 kort finnes det fire sorter, hjerter,
     ruter, kløver og spar. I hver sort er det 13 kort, kortene 1 til 10
     i tillegg til en knekt, en dame og en konge. Når man spiller bridge
     får man en hånd bestående av 13 tilfeldige kort.
-    - Hvor mange av alle de mulige bridgehendene består av åtte
+    - Hvor mange av alle de mulige bridgehendene består av nøyaktig åtte
         kløver?
     - Hvor mange ulike bridgehender med nøyaktige fem spar er det
         mulig å dele ut?
@@ -328,7 +336,277 @@ Forklare begrepet komplement gjennom et eksempel
         gule, og så de fire som skal være røde?
     3. Hva om vi velger rutene som ikke skal fargelegges, så de fire
         som skal være røde?
-        
+
+##### Løsningsforslag
+
+1. Anta at sannsynligheten for å få en gutt alltid er 1/2. I en familie som har to barn er det tre muligheter, to gutter, to jenter eller ett av hvert kjønn.
+   1. Eleven Per sier at hvis en velger en tilfeldig
+   tobarnsfamilie er det 1/3 sjans for at de har to gutter. Avgjør om Per tenker rett. Pek på eventuelle misforståelser eller riktige oppfatninger. Hvis det er noen misforståelser må disse rettes opp slik at Per forstår hva som er feil.
+   \
+   - Problemet med utsagnet til Per er mest sannsynlig at han tenker at alle de tre utfallene han lister opp i er like sannsynlige. Hvis vi tegner et utfallstre vil vi se at vi får grenene $\{gg, gj, jg, jj\}$, altså fire utfall. Siden det er lik sannsynlighet for at hver gren skal "skje" så er de fire utfallene like sannsynlige. Vi kan nå vise Per at det derfor er $\frac{1}{4}$ av tilfellene som gir bare gutter og $\frac{1}{4}$ som gir bare jenter, og at i $50\%$ av tilfellene så får vi gutt og jente.
+   \
+   André og Kristin planlegger å få fem barn.
+   2. Hva er sannsynligheten for at de får bare gutter?
+   \
+   - Vi kan tenke likt som over og se at det er $2^5$ mulige utfall. Det er kun ett av disse som gir kun gutter, så sannsynligheten blir derfor $\frac{1}{32}$.
+   \
+   3. Hva er sannsynligheten for at de får to jenter og tre gutter?
+   \
+   - Siden vi vet at det er kun $32$ mulige utfall, kan vi enten telle antallet som inneholder to gutter og tre jenter. Vi kan også tenke slik. Av de fem barnene så skal jeg velge to av dem som skal være gutter. Det er derfor $\frac{5\cdot 4}{2}$ mulige måter å velge ut to gutter av fem barn. Vi har derfor at det er $10$ muligheter for å få nøyaktig to gutter og tre jenter, som gir en sannsynlighet på $\frac{10}{32}$.
+   \
+   1. Hva er sannsynligheten for at de får minst 2 jenter?
+   \
+   Vi vet at det er én måte å få ingen jenter (kun gutter), i tillegg er det mulig å få nøyaktig én jente (førstefødte er jente resten gutter, andrefødte er jente resten gutter osv). Dermed er det $6$ utfall som gir mindre enn $2$ jenter. De gjenværende utfallene må derfor være minst to jenter og sannsynligheten blir derfor $\frac{26}{32}$.
+   \
+2. I en vanlig kortstokk med 52 kort finnes det fire sorter, hjerter, ruter, kløver og spar. I hver sort er det 13 kort, kortene 1 til 10 i tillegg til en knekt, en dame og en konge. Når man spiller bridge får man en hånd bestående av 13 tilfeldige kort.
+
+Vi merker oss først at det er $\frac{52\cdot 51\cdot 50\cdots 42\cdot 41\cdot 40}{13\cdot 12\cdots 3\cdot 2\cdot 1}$ mulige brigdehender man kan ha (vi tenker på dette som et uordnet utvalg uten tilbakelegg, da vi ikke kan ha samme kort på hånden og vi ikke bryr oss om rekkefølgen).
+
+- Hvor mange av alle de mulige bridgehendene består av nøyaktig åtte kløver?
+  - Vi ønsker å trekke ut åtte av de tretten kløverne. Dette kan gjøres på $\frac{13\cdot 12\cdot 11\cdot 10 \cdots 7\cdot 6}{8\cdot 7 \cdots 3\cdot 2\cdot 1}$ mulige måter. Vi deler på $8\cdot 7 \cdot 6\cdots 3\cdot 2\cdot 1$ fordi vi ikke bryr oss om overtelling, og vi deler derfor dette vekk. Videre må vi nå se på hvor mange måter vi kan trekke ut nøyaktig de fem resterende kortene uten at dette er kløver. Siden det er 13 kort som er kløver er det $39$ kort som ikke er det. Dermed har vi $\frac{39\cdot 38\cdot 37\cdot 36\cdot 35}{5\cdot 4\cdot 3\cdot 2\cdot 1}$. Vi kan altså for hvert unike utvalg av åtte kløver kombinere dette med $\frac{39\cdot 38\cdot 37\cdot 36\cdot 35}{5\cdot 4\cdot 3\cdot 2\cdot 1}$ andre utvalg som ikke er kløver. Totalt får vi altså (fra multiplikasjonsprinsippet) $\frac{13\cdot 12\cdot 11\cdot 10 \cdots 7\cdot 6}{8\cdot 7 \cdots 3\cdot 2\cdot 1}\cdot \frac{39\cdot 38\cdot 37\cdot 36\cdot 35}{5\cdot 4\cdot 3\cdot 2\cdot 1}$ mulige måter å trekke ut nøyaktig åtte kløver.
+- Hvor mange ulike bridgehender med nøyaktige fem spar er det mulig å dele ut?
+  - Tanken her er den samme som i oppgaven over, vi får derfor $\frac{13\cdot 12\cdot 11\cdot 10\cdot 9}{5\cdot 4\cdot 3\cdot 2\cdot 1}\cdot \frac{39\cdot 38\cdot 37\cdot 36 \cdot 35\cdot 34\cdot 33\cdot 32}{8\cdot 7 \cdots 3\cdot 2\cdot 1}$ mulige måter å trekke ut nøyaktig fem spar.
+- Hvor mange bridgehender med nøyaktig seks kort i en og samme farge finnes det?
+  - Vi kan først finne antall muligheter for å få seks av samme sort (men allerede nå kan vi merke oss at vi da også teller hender som inneholder for eksempel 6 spar *og* seks ruter). For å få seks hjerter er det $\frac{13\cdot 12\cdot 11\cdot 10 \cdot 9 \cdot 8}{6\cdot 5\cdot 4\cdot 3\cdot 2\cdot 1}\cdot \frac{39\cdot 38\cdots 35\cdot 34\cdot 33}{7\cdot 6\cdot 5\cdot 4\cdot 3 \cdot 2\cdot 1}$ mulige hender. Siden hjerter ikke var spesielt her, er det generelt $4$ ganger så mange måter å velge ut en sort og få nøyaktig seks av den sorten i en hånd. Problemet nå er at vi overteller noe. Vi overteller alle måter å trekke ut nøyaktig seks av i to sorter. Dette kan gjøres på $6$ måter (hjerter-spar, herter-kløver, hjerter-ruter, spar-kløver, spar-ruter og kløver-ruter). Hver av disse kombinasjonene har $\frac{13\cdot 12\cdot 11\cdot 10 \cdot 9 \cdot 8}{6\cdot 5\cdot 4\cdot 3\cdot 2\cdot 1}\cdot \frac{13\cdot 12\cdot 11\cdot 10 \cdot 9 \cdot 8}{6\cdot 5\cdot 4\cdot 3\cdot 2\cdot 1} \cdot 26$ ulike hender (vi ganger med $26$ fordi det er 26 gjenværende kort som ikke er i de to sortene vi har valgt). Dermed kan vi ved å bruke addisjonssetningen nå si at det er
+  $$
+  \begin{aligned}
+   4\cdot
+   & \frac{13\cdot 12\cdot 11\cdot 10 \cdot 9 \cdot 8}{6\cdot 5\cdot 4\cdot 3\cdot 2\cdot 1}\cdot \frac{39\cdot 38\cdots 35\cdot 34\cdot 33}{7\cdot 6\cdot 5\cdot 4\cdot 3 \cdot 2\cdot 1}
+   \\
+   -6\cdot
+   & \frac{13\cdot 12\cdot 11\cdot 10 \cdot 9 \cdot 8}{6\cdot 5\cdot 4\cdot 3\cdot 2\cdot 1}\cdot \frac{13\cdot 12\cdot 11\cdot 10 \cdot 9 \cdot 8}{6\cdot 5\cdot 4\cdot 3\cdot 2\cdot 1} \cdot 26
+  \end{aligned}
+  $$
+  mulige hender som inneholder nøyaktig seks av en sort.
+- Hva er sannsynligheten for å få ei slik hånd?
+  - Sannsynligheten blir dermed gunstige over mulige eller
+  $$
+  \frac{4\cdot
+   \frac{13\cdot 12\cdot 11\cdot 10 \cdot 9 \cdot 8}{6\cdot 5\cdot 4\cdot 3\cdot 2\cdot 1}\cdot \frac{39\cdot 38\cdots 35\cdot 34\cdot 33}{7\cdot 6\cdot 5\cdot 4\cdot 3 \cdot 2\cdot 1}
+   -6\cdot\frac{13\cdot 12\cdot 11\cdot 10 \cdot 9 \cdot 8}{6\cdot 5\cdot 4\cdot 3\cdot 2\cdot 1}\cdot \frac{13\cdot 12\cdot 11\cdot 10 \cdot 9 \cdot 8}{6\cdot 5\cdot 4\cdot 3\cdot 2\cdot 1} \cdot 26}{\frac{52\cdot 51\cdot 50\cdots 42\cdot 41\cdot 40}{13\cdot 12\cdots 3\cdot 2\cdot 1}}
+  $$
+
+4. Vi har et rutenett med $2 \times 5$ ruter. Vi skal først fargelegge
+    fire ruter røde og så to gule.
+   1. Hvor mange måter kan vi gjøre det på?
+   - Vi har 10 ruter å velge mellom. Begynner vi med fire ruter i rødt får vi $\frac{10\cdot 9\cdot 8 \cdot 7}{4\cdot 3\cdot 2\cdot 1}$. Her deler vi på $4\cdot 3\cdot 2\cdot 1$ fordi dette er et uordnet utvalg uten tilbakelegg. Det gjenstår nå 6 ruter vi kan velge til gulfargene. Det gir $\frac{6\cdot 5}{2}$. Multiplikasjonsprinsippet forteller oss nå at det er $\frac{10\cdot 9\cdot 8 \cdot 7}{4\cdot 3\cdot 2\cdot 1}\cdot \frac{6\cdot 5}{2}$ forskjellige måter å fargelegge 4 av de ti rutene røde og så 2 av rutene gule. 
+   2. Hvordan ville det blitt om vi først velger de to som skal være gule, og så de fire som skal være røde?
+   - Logikken blir lik som over, men fremgangen er noe ulik. Altså først $\frac{10\cdot 9}{2}$ og deretter $\frac{8\cdot 7\cdot 6\cdot 5}{4\cdot 3 \cdot 2 \cdot 1}$ og igjen får vi totalt $\frac{10\cdot 9}{2}\cdot \frac{8\cdot 7\cdot 6\cdot 5}{4\cdot 3 \cdot 2 \cdot 1}$ muligheter.
+   3. Hva om vi velger rutene som ikke skal fargelegges, så de fire
+        som skal være røde?
+   - Her får dere regne selv, men egg merke til at dette gir samme svar som de to oppgavene over. 
+
+## 24.04.23
+
+### Forklare og bruke begrepene utfallsrom, utfall og hendelse og sannsynlighetsmodell
+
+#### Grunnleggende: Gjengi og gi eksempler til begrepene
+
+1. Forklar hva en sannsynlighetsmodell er ved hjelp av begrepene utfall, utfallsrom og hendelse. Gi et eksempel på en sannsynlighetsmodell.
+
+##### Vurderingskriterier
+
+Studenten må gi en forklaring som bruker begrepene, samt gi et eksempel.
+
+#### Middels: Avgjøre og begrunne om situasjoner er en sannsynlighetsmodell
+
+1. La et forsøk ha utfallsrommet \(U = { u_1, u_2, u_3, u_4, u_5} \). Hvis \(P(\{u_1, u_2, u_3\}) = 0.6\), gi et eksempel på hva \(P(\{u_4, u_5\})\) og \(P(u_6)\) kan være. Besvarelsen må være begrunnet.
+
+2. La et forsøk ha et utfallsrom \(U = { u_1, u_2, u_3, u_4, u_5} \). Forklar at \(P(\{u_3\})\) ikke kan være større enn \(0.4\) hvis \(P(\{u_1,u_3\}) = 0.7\) og \(P(\{u_2, u,3\}) = 0.7\).  
+
+##### Vurderingskriterier
+
+1. Studenten må begrunne påstanden. Her kan de for eksempel bare peke på at $P(U) = 1$ og dermed kan en enkelt bare si at $P(\{u_4, u_5\})$ kan være lik $0.2$, hvis $P(u_6)$ også er lik $0.2$. Dette er fordi en ikke bryter med noen av aksiomene til sannsynlighetsmodeller.
+2. Siden $1.4 = 0.7+0.7 = P(\{u_1,u_3\}) + P(\{u_2,u_3\}) = P(u_1)+P(u_2)+2P(u_3)$, ser vi at hvis $P(u_3)$ er større enn $0.4$ så vil $1.4-P(u_3)$ være større enn $1$ samtidig som det vil være lik sannsynligheten for tre enkelutufall i utfallsrommet. Noe som gir en motsigelse.
+
+### Forklare og bruke begrepet uniform sannsynlighetsmodell
+
+#### Grunnleggende: Gjengi og gi eksempler til begrepet
+
+Forklar hva en uniform sannsynlighetsmodell er og gi et eksempel på en uniform sannsynlighetsmodell.
+
+##### Vurderingskriterier
+
+Studenten må gi en riktig forklaring, samt gi et eksempel.
+
+#### Middels: Avgjøre og begrunne om situasjoner er en uniform sannsynlighetsmodell
+
+Det er 21 studenter i klassen og de skal deles opp i 7 grupper som alle inneholder 3 studenter. Du trekker kort først og havner på gruppe 1. Neste som trekker er bestevennen din. Det er 20 mulige kort igjen å trekke og to mulige plasser på din gruppe. Bestevennen din sier. Det er to mulige utfall, enten så trekker jeg gruppen din, eller så gjør jeg ikke det. I 10% av tilfellene kommer vi på gruppe, og i 90% av tilfellene gjør vi ikke det. Avgjør og begrunn om modellen som er satt opp er en uniform sannsynlighetsmodell.
+
+##### Vurderingskriterier
+
+Studenten må konkludere med at modellen ikke er en uniform sannsynlighetsmodell. Dette kan de enkelt gjøre ved å peke på at hvis det kun er to utfall i utfallsrommet, må det være $50\%$ sjans for hver av utfallene. Dette er det ikke i modellen som er satt opp.
+
+#### Avansert: Sette opp uniforme sannsynlighetsmodeller fra en gitt situasjon
+
+Henrik og André spiller et spill der de først kaster en vanlig seksidet terning og deretter en mynt. Vi anter at det er like sannsynlig å få kron og mynt, og at alle seks sidene på terningen er like sannsynlig. Spillet fungerer slik: Når man har kastet en verdi, \(n\), på terningen så kaster man mynten. Hvis den lander på mynt, får man dobbler man verdien man fikk på terningen. Kaster man kron får man kun verdien man hadde på terningen.
+
+For eksempel vil et terningkast på 4 og så et kast som gir mynt gi 8 poeng, mens et terningkast på 6 og så en kron vil gi 6 poeng.
+
+1. Sett opp et utfallsrom som gir opphav til en uniform sannsynlighetsmodell.
+2. Bruk modellen til å avgjøre hva sannsynligheten er for å få 6 eller flere poeng når man spiller spillet.
+
+##### Vurderingskriterier
+
+1. Studenten *må* sette opp en uniform sannsynlighetsmodell. For eksempel kan dette gjøres ved å sette opp utfallsrommet $\{1m, 2m, 3m, 4m, 5m, 6m, 1k, 2k, 3k, 4k, 5k, 6k\}$, der siffrene er tallene fra terningskastet og $m$ står får mynt og $k$ står for kron. Studenten kan også tegne opp et utfallstre og peke på at greiene tilsvarer hvert utfall. Studenten må deretter begrunne at modellen er uniform. Det kan de gjøre ved å enkelt peke på at første delforsøk er uniform, slik som det andre delforsøket (myntkastet). Dermed må det være like sannsynlig å få $3m$ som $6k$, siden $3$ og $6$ er like sannsynlig og $m$ og $k$ er like sannsnylig.
+2. Studenten kan nå bare telle opp fra utfallsrommet fra forrige oppgave. $3m$, $4m$, $5m$ og $6m$ vil tilsvare en poengverdi på $6, 8, 10$ og $12$. I tillegg vil $6k$ tilsvare en poengverdi på $6$. Det er altså 5 gunstige utfall, noe som gir en sannsynlighet på $\frac{5}{12}$.
+
+### Forklare, illustrere og bruke produktregelen
+
+#### Grunnleggende: Forklare og illustrere et sammensatt valg/et forsøk sammensatt av flere trinn
+
+Forklar med bakgrunn i et eksempel på hva som menes med et sammensatt valg.
+
+##### Vurderingskriterier
+
+Studenten må bruke et eksempel til å forklare hva som menes med et sammensatt valg.
+
+#### Middels: Forklare og illustrere produktregelen
+
+Forklare og illustrere produktregelen. Pek tydelig på hvorfor det kommer frem at produktregelen må gjelde.
+
+##### Vurderingskriterier
+
+Studenten må forklare og illustrere produktregelen (Alfa 7.24).
+
+### Forklare og bruke begrepene ordnet utvalg med og uten tilbakelegg
+
+#### Grunnleggende: Forklare og gi eksempler til begrepene
+
+Forklar og gi et eksempel til:
+
+- et ordnet utvalg med tilbakelegg
+- et ordnet utvalg uten tilbakelegg
+
+##### Vurderingskriterier
+
+Studenten må gi eksempler som de blir bedt om, og de må forklare hva et ordnet utvalg med og uten tilbakelegg er.
+
+#### Middels: Begrunne at et utvalg er ordnet og om det er med eller uten tilbakelegg, samt finne antall muligheter i utvalget
+
+1. Begrunn at følgende situasjoner kan tenkes på som ordnet utvalg med tilbakelegg og finn antall muligheter i utvalget. Du har en krukke med 8 kuler nummerert 1 til 8 og du trekker en kule to ganger for å lage et tall.\
+Hver gang du trekker en kule legger du den tilbake og skriver ned sifferet du trakk.
+2. Begrunn at følgende utvalg er ordnet utvalg uten tilbakelegg og finn antall muligheter i utvalget. \
+Henrik har en kasse med 16 defekte lys og 1 fungerende lys. Han skal skifte lys i stua og satser på at han er heldig og tar med seg 3 lyspærer fra kassa.
+
+##### Vurderingskriterier
+
+1. Studenten må få fram at siden vi for hvert trekk kan trekke mellom de 8 kulene, så vil en ha et utvalg med tilbakelegg. I tillegg skriver man ned siffrene man trekker hver gang for å lage et tall. Dermed er det natulig å tenke at utvalget er ordnet. Siden vi derfor har 8 valg på første trekk og så 8 valg på neste, må det være $8\cdot 8 = 64$ mulige utfall.
+2. Studenten må få frem at at en har 17 lys, men ikke kan trekke samme pæren to ganger. I tillegg har ikke rekkefølgen noe å si, som betyr at det er et ordnet
+
+### Forklare og bruke begrepene uordnet utvalg med og uten tilbakelegg
+
+#### Grunnleggende: Forklare og gi eksempler til begrepene
+
+Forklar og gi et eksempel til
+
+- et uordnet utvalg med tilbakelegg
+- et uordnet utvalg uten tilbakelegg
+
+##### Vurderingskriterier
+
+Studenten må gi eksempler som de blir bedt om, og de må forklare hva et ordnet utvalg med og uten tilbakelegg er.
+
+#### Middels: Begrunne at et utvalg er uordnet og om det er med eller uten tilbakelegg, samt finne antall muligheter i utvalget
+
+1. Begrunn at følgende situasjoner kan tenkes på som uordnet utvalg uten tilbakelegg og finn antall muligheter i utvalget
+   - Du har gjester på besøk og har dekket på til seks. Når du skal skjenke Cola innser du at du kun har nok til tre glass. På hvor mange måter kan du velge ut tre av de seks glassene du har dekket på?
+2. Begrunn at følgende utvalg er uordnet utvalg med tilbakelegg og finn antall muligheter i utvalget
+   - Du og dine venner har dratt til dyreparken og dere rekker tre turer med attraksjoner før dere må dra hjem. Dere kan velge mellom tømmerrenna, jungelboben og fyrtårnet. Hvor mange forskjellige turer
+
+##### Vurderingskriterier
+
+1. Studenten må forklare at det er uordnet utvalg uten tilbakelegg ved å peke på at en trekker lag og at det ikke er noe rolle innad i laget. Dermed er det uordnet. Vi må også ha forskjellige elever på laget, som gir et utvalg uten tilbakelegg. For å finne antallet kan en først tenke at det er 3 valg, først 12 muligheter, så 11 og så 10. Altså $12\cdot 11\cdot 10$. Deretter må de ta hensyn til overtellingen. Ved å tenke på for eksempel en gruppe på Arne, Bjarne og Dan, så ser vi at denne kan stokkes om på $3\cdot 2\cdot 1$ mulige måter. Vi overteller altså alle grupper med $6$. Det gir at det er $\frac{12\cdot11\cdot10}{6}=2\cdot 11\cdot 10 = 220$ mulige utvalg.
+2. Studenten kan peke på at det går å tenke på dette som fem valg, der en skal velge mellom en av de to guttene hver gang, altså med tilbakelegg. Når vi velger en gutt får han kjeks, men det er ikke noen forskjell på kjeksene, så det er derfor uordnet. Vi kan systematisere ved å kalle guttene for $0$ og $1$. Da har vi mulighetene:\
+00000, 00001, 00011, 00111, 01111, 11111, altså $6$ muligheter.
+
+### Avgjøre om utvalg er ordnet eller uordnet og om det er med eller uten tilbakelegg
+
+#### Middels: Avgjør om situasjonene under kan tenkes som (u)ordnede utvalg med eller uten tilbakelegg
+
+Avgjør om situasjonene under kan tenkes som ordnede eller uordnede utvalg og om utvalgene er med eller uten tilbakelegg:
+
+1. Til årsmøtet i et lag møter det ti personer. På hvor mange måter kan det velges formann, nestformann og kasserer?
+2. I en klasse på 20 elever skal det velges ut en gruppe på 6. På hvor mange måter kan det gjøres på?
+3. På hvor mange måter kan forskjellige tresifrede tall lages med sifrene 1, 2, 3, 4 og 6, der en kan gjenta gjenta sifre?
+4. På en flervalgsprøve med åtte spørsmål er det tre alternativer på hvert spørsmål, der kun ett alternativ er rett. Hvor mange mulige forskjellige besvarelser kan man gi på prøven?
+
+##### Vurderingskriterier
+
+Studenten må argumentere og begrunne sitt valg. Det *må* ikke nødvendigvis stemme med forslaget under, men er det annerledes må begrunnelsen hvertfall være meningsfull!
+
+1. Studenten må peke på at siden det er forskjellige roller, så vil det være et ordnet utvalg, men siden det ikke er noen som kan være samme rolle så er det uten tilbakelegg.
+2. De skal velge en gruppe på $6$ elever. Én elev kan såklart ikke være med flere ganger i gruppen, så det blir uten tilbakelegg. Det er heller ikke påpekt at gruppen inneholder noen roller som gjør det naturlig å tenke på dette som et uordnet utvalg.
+3. Det blir påpekt at en kan gjenta sifrene, dermed må det tenkes på som et utvalg med tiblakelegg. Rekkefølgen har noe å si siden vi skal lage tresifrede tall, som gjør det til et ordnet utvalg med tilbakelegg.
+4. Siden det er tre muligheter på hvert spørsmål kan en tenke at en på de åtte spørsmålene kan velge mellom 1, 2 og 3, noe som gir et utvalg med tilbakelegg. I tillegg bryr vi oss om rekkefølgen fordi vi ser et mulige besvarelser som kan gis på prøven. Dermed blir dette et ordnet utvalg med tilbakelegg.
+
+### Forklare, illustrere og bruke komplementsetningen
+
+#### Grunnleggende: Forklare begrepet komplement
+
+Forklar begrepet komplement ved hjelp av et eksempel.
+
+#### Middels: Forklare og illustrere komplementsetningen i sannsynlighet
+
+Sannsynligheten for hendelsen \(A\) er \(0.4\). Forklar, ved hjelp av en illustrasjon, hva \(P(A^C)\) er.
+
+##### Vurderingskriterier
+
+Studetnen trenger bare å bruke at $P(A) + P(A^C) = 1$ for å konkludere at $P(A^C) = 0.6$.
+
+#### Avansert: Forklare, illustrere og bruke komplementsetningen i sannsynlighet
+
+Da Henrik var student gikk han i en klasse med 21 studenter. Hver undervisningsøkt deltes de inn i grupper på tre. Henrik hadde fire venner han gjerne ønsket å komme på gruppe med. Hva var synligheten for at Henrik kom på gruppe med minst en av dine venner, når gruppene ble valgt tilfeldig?
+
+##### Vurderingskriterier
+
+Studeten må løse på en måte slik at leseren kan forstå hva som er gjort. For eksempel kan en peke på hvilke to som havner på gruppe med Henrik er like sannsynlig. Det er $\frac{20\cdot 19}{2} = 190$ forskjellige mulige klassekammerater som han kan havne på. For å avgjøre hvor mange av de som inneholder minst én, er det naturlig å se på hvor mange som ikke inneholder noen. Av de 20 resterende klassekammeratene er det 16 som ikke er av de fire vennene Henrik ønsker å komme på gruppe med. Derfor er det $\frac{16\cdot 15}{2} = 8\cdot 15 = 120$ grupper som ikke inneholder noen av Henriks venner. Derfor må det være $180 - 120 = 60$ mulige grupper der Henrik er på gruppe med minst én av sine venner. Sannsynligheten er derfor $\frac{60}{190}=\frac{6}{19}$.
+
+### Bruke begrepene i temaet til å løse sammensatte problemer
+
+#### Avansert: Bruke addisjonssetningen for å undersøke problemer
+
+I en vanlig kortstokk med 52 kort finnes det fire sorter, hjerter, ruter, kløver og spar. I hver sort er det 13 kort, kortene 1 (ess) til 10 i tillegg til en knekt, en dame og en konge. Når man spiller bridge får man en hånd bestående av 13 tilfeldige kort.
+
+- Hvor mange av alle de mulige bridgehendene består av nøyaktig åtte kløver?
+- Hvor mange ulike bridgehender med nøyaktige fem spar er det mulig å dele ut?
+- Hvor mange bridgehender med seks kort i en og samme farge finnes det?
+  - Hva er sannsynligheten for å få ei slik hånd?
+
+Du trenger ikke regne ut verdiene. For eksempel holder det å skrive at et antall er \(30\cdot 29\cdot 28\).
+
+##### Vurderingskriterier
+
+**Merk** Det stod opprinnelig ikke *nøyaktig* åtte kløver i oppgaveteksten. Derfor godtas flere tolkninger av første deloppgave. I tillegg er det også presisert *nøyaktig* i tredje deloppgave, men denne kunne også tolkes på flere måter. Det er uansett fremgangsmåten og logikken som tas tak i og utgjør om studenten får godkjent eller ikke. 
+
+I en vanlig kortstokk med 52 kort finnes det fire sorter, hjerter, ruter, kløver og spar. I hver sort er det 13 kort, kortene 1 til 10 i tillegg til en knekt, en dame og en konge. Når man spiller bridge får man en hånd bestående av 13 tilfeldige kort.
+
+Vi merker oss først at det er $\frac{52\cdot 51\cdot 50\cdots 42\cdot 41\cdot 40}{13\cdot 12\cdots 3\cdot 2\cdot 1}$ mulige brigdehender man kan ha (vi tenker på dette som et uordnet utvalg uten tilbakelegg, da vi ikke kan ha samme kort på hånden og vi ikke bryr oss om rekkefølgen).
+
+- Hvor mange av alle de mulige bridgehendene består av nøyaktig åtte kløver?
+  - Vi ønsker å trekke ut åtte av de tretten kløverne. Dette kan gjøres på $\frac{13\cdot 12\cdot 11\cdot 10 \cdots 7\cdot 6}{8\cdot 7 \cdots 3\cdot 2\cdot 1}$ mulige måter. Vi deler på $8\cdot 7 \cdot 6\cdots 3\cdot 2\cdot 1$ fordi vi ikke bryr oss om overtelling, og vi deler derfor dette vekk. Videre må vi nå se på hvor mange måter vi kan trekke ut nøyaktig de fem resterende kortene uten at dette er kløver. Siden det er 13 kort som er kløver er det $39$ kort som ikke er det. Dermed har vi $\frac{39\cdot 38\cdot 37\cdot 36\cdot 35}{5\cdot 4\cdot 3\cdot 2\cdot 1}$. Vi kan altså for hvert unike utvalg av åtte kløver kombinere dette med $\frac{39\cdot 38\cdot 37\cdot 36\cdot 35}{5\cdot 4\cdot 3\cdot 2\cdot 1}$ andre utvalg som ikke er kløver. Totalt får vi altså (fra multiplikasjonsprinsippet) $\frac{13\cdot 12\cdot 11\cdot 10 \cdots 7\cdot 6}{8\cdot 7 \cdots 3\cdot 2\cdot 1}\cdot \frac{39\cdot 38\cdot 37\cdot 36\cdot 35}{5\cdot 4\cdot 3\cdot 2\cdot 1}$ mulige måter å trekke ut nøyaktig åtte kløver.
+- Hvor mange ulike bridgehender med nøyaktige fem spar er det mulig å dele ut?
+  - Tanken her er den samme som i oppgaven over, vi får derfor $\frac{13\cdot 12\cdot 11\cdot 10\cdot 9}{5\cdot 4\cdot 3\cdot 2\cdot 1}\cdot \frac{39\cdot 38\cdot 37\cdot 36 \cdot 35\cdot 34\cdot 33\cdot 32}{8\cdot 7 \cdots 3\cdot 2\cdot 1}$ mulige måter å trekke ut nøyaktig fem spar.
+- Hvor mange bridgehender med nøyaktig seks kort i en og samme farge finnes det?
+  - Vi kan først finne antall muligheter for å få seks av samme sort (men allerede nå kan vi merke oss at vi da også teller hender som inneholder for eksempel 6 spar *og* seks ruter). For å få seks hjerter er det $\frac{13\cdot 12\cdot 11\cdot 10 \cdot 9 \cdot 8}{6\cdot 5\cdot 4\cdot 3\cdot 2\cdot 1}\cdot \frac{39\cdot 38\cdots 35\cdot 34\cdot 33}{7\cdot 6\cdot 5\cdot 4\cdot 3 \cdot 2\cdot 1}$ mulige hender. Siden hjerter ikke var spesielt her, er det generelt $4$ ganger så mange måter å velge ut en sort og få nøyaktig seks av den sorten i en hånd. Problemet nå er at vi overteller noe. Vi overteller alle måter å trekke ut nøyaktig seks av i to sorter. Dette kan gjøres på $6$ måter (hjerter-spar, herter-kløver, hjerter-ruter, spar-kløver, spar-ruter og kløver-ruter). Hver av disse kombinasjonene har $\frac{13\cdot 12\cdot 11\cdot 10 \cdot 9 \cdot 8}{6\cdot 5\cdot 4\cdot 3\cdot 2\cdot 1}\cdot \frac{13\cdot 12\cdot 11\cdot 10 \cdot 9 \cdot 8}{6\cdot 5\cdot 4\cdot 3\cdot 2\cdot 1} \cdot 26$ ulike hender (vi ganger med $26$ fordi det er 26 gjenværende kort som ikke er i de to sortene vi har valgt). Dermed kan vi ved å bruke addisjonssetningen nå si at det er
+  $$
+  \begin{aligned}
+   4\cdot
+   & \frac{13\cdot 12\cdot 11\cdot 10 \cdot 9 \cdot 8}{6\cdot 5\cdot 4\cdot 3\cdot 2\cdot 1}\cdot \frac{39\cdot 38\cdots 35\cdot 34\cdot 33}{7\cdot 6\cdot 5\cdot 4\cdot 3 \cdot 2\cdot 1}
+   \\
+   -6\cdot
+   & \frac{13\cdot 12\cdot 11\cdot 10 \cdot 9 \cdot 8}{6\cdot 5\cdot 4\cdot 3\cdot 2\cdot 1}\cdot \frac{13\cdot 12\cdot 11\cdot 10 \cdot 9 \cdot 8}{6\cdot 5\cdot 4\cdot 3\cdot 2\cdot 1} \cdot 26
+  \end{aligned}
+  $$
+  mulige hender som inneholder nøyaktig seks av en sort.
+- Hva er sannsynligheten for å få ei slik hånd?
+  - Sannsynligheten blir dermed gunstige over mulige eller
+  $$
+  \frac{4\cdot
+   \frac{13\cdot 12\cdot 11\cdot 10 \cdot 9 \cdot 8}{6\cdot 5\cdot 4\cdot 3\cdot 2\cdot 1}\cdot \frac{39\cdot 38\cdots 35\cdot 34\cdot 33}{7\cdot 6\cdot 5\cdot 4\cdot 3 \cdot 2\cdot 1}
+   -6\cdot\frac{13\cdot 12\cdot 11\cdot 10 \cdot 9 \cdot 8}{6\cdot 5\cdot 4\cdot 3\cdot 2\cdot 1}\cdot \frac{13\cdot 12\cdot 11\cdot 10 \cdot 9 \cdot 8}{6\cdot 5\cdot 4\cdot 3\cdot 2\cdot 1} \cdot 26}{\frac{52\cdot 51\cdot 50\cdots 42\cdot 41\cdot 40}{13\cdot 12\cdots 3\cdot 2\cdot 1}}
+  $$
+
 ## 17.04.23
 
 ### Forklare og bruke begrepene utfallsrom, utfall og hendelse og sannsynlighetsmodell
@@ -491,10 +769,7 @@ Studenten må argumentere og begrunne sitt valg. Det *må* ikke nødvendigvis st
 3. Det blir påpekt at en kan gjenta sifrene, dermed må det tenkes på som et utvalg med tiblakelegg. Rekkefølgen har noe å si siden vi skal lage tresifrede tall, som gjør det til et ordnet utvalg med tilbakelegg.
 4. Siden det er tre muligheter på hvert spørsmål kan en tenke at en på de åtte spørsmålene kan velge mellom 1, 2 og 3, noe som gir et utvalg med tilbakelegg. I tillegg bryr vi oss om rekkefølgen fordi vi ser et mulige besvarelser som kan gis på prøven. Dermed blir dette et ordnet utvalg med tilbakelegg.
 
-
-
 ## 31.03.23
-
 
 ### Forklare og bruke begrepene utfallsrom, utfall og hendelse og sannsynlighetsmodell
 

@@ -783,7 +783,7 @@ $$
 \end{aligned}
 $$
 
-### Forklare begrepet og regne med desimaltall (desimal_brøk_ i Alfa)
+### Forklare begrepet og regne med desimaltall (desimalbrøk i Alfa)
 
 #### Grunnleggende: Beskrive desimaltall med hensyn til posisjonssystemet og brøkbegrepet
 
@@ -801,6 +801,21 @@ $$
 
    c. 1.67
 
+##### Løsningsforslag
+
+3. s. 139
+a. 165: Tideler er (ti ganger) større enn hundredeler. 0,1 er én tidel. 0,17 er én tidel og syv hundredeler (altså mer enn én tidel). 0,2 er to tideler (altså mer enn det igjen).
+b.  1.66: \
+1,20 \| 2,05 \| 1,008 \| 0,65 \| 3,204
+c.  1.67
+   1. $1\frac{7}{10} = 1,7$ 
+   2. $\frac{4}{10} = 0,4$
+   3. $\frac{2}{10} + \frac{3}{100} = 0,23$
+   4. $5\frac{6}{100} = 5,06$
+   5. $\frac{4}{100} = 0,04$
+   6. $\frac{23}{10} = 1,3$
+   7. $\frac{80}{10\ 000} = 0,008$
+
 #### Middels: Forklare hvordan man kan regne med desimaltall med hensyn til posisjonssystemet og brøkbegrepet
 
 1. Alfa s. 140
@@ -810,6 +825,31 @@ $$
    b. 1.69
 
    c. 1.70
+
+##### Løsningsforslag
+
+1.  Alfa s. 140
+
+    a.  1.68
+
+$2 \cdot 0,4$ er to kopier av $0,4$.
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tall/image6.png)
+$0,4 \cdot 3$ er fire tideler av tre.
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tall/image7.png)
+$0,7 \cdot 0,4$ er syv tideler av fire tideler.
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tall/image8.png)
+b.  1.69
+$$
+3 \cdot 0,2 = 3 \cdot \frac{2}{10} = \frac{6}{10} = 0,6
+$$
+$$
+40 \cdot 0,006 = 40 \cdot \frac{6}{1000} = \frac{24 \cdot 10}{100 \cdot 10} = \frac{24}{100} = 0,24
+$$
+$$
+21,72 \cdot 0,3 = \left( 2172 \cdot \frac{1}{100} \right) \cdot \left( 3 \cdot \frac{1}{10} \right) = (2172 \cdot 3) \cdot \left( \frac{1}{10} \cdot \frac{1}{100} \right) = \frac{2172 \cdot 3}{1000}$$
+$$
+0,000943\ :0,0023 = \frac{943 \cdot 10^{6}}{23 \cdot 10^{4}} = \frac{943}{23} \cdot \frac{1}{100} = \frac{41}{100} = 0,41
+$$
 
 ### Gjøre om mellom brøk og desimaltall
 
@@ -873,6 +913,99 @@ $$
 
    d. Og så videre.
 
+##### Løsningsforslag
+
+2.  Gjør om til brøk.
+a.  $0,\overline{45}$
+$$
+\begin{aligned}
+100x 
+& = 45,\overline{45}
+\\
+-x
+&  =
+-0,\overline{45}
+\\
+\Rightarrow 99x 
+& = 45
+\\
+x & = \frac{45}{99} 
+= \frac{5}{11}
+\end{aligned}
+$$
+
+b.  $0,0\overline{45}$
+
+$$
+\begin{aligned}
+1000x 
+&= 45,\overline{45}
+\\
+10x
+&= 0,\overline{45}
+\\
+\Rightarrow 990x 
+& = 45
+\\
+x 
+& = \frac{45}{990} = \frac{1}{22}
+\end{aligned}$$
+
+c.  $0,\overline{123}$
+
+$$
+1000x - x = 999x = 123 \Rightarrow x = \frac{123}{999} = \frac{41}{333}
+$$
+
+d.  $0,123\overline{45}$
+
+$$
+\begin{aligned}
+100\ 000x 
+& = 12\ 345,\overline{345}
+\\
+100x 
+& = 12,\overline{345}
+\\
+\Rightarrow 99\ 900x 
+& = 12\ 333
+\\
+x 
+& = \frac{12\ 333}{99\ 900} = \frac{4\ 111}{33\ 300}
+\end{aligned}$$
+
+e.  $1,001001001\ldots$
+
+$$
+\begin{aligned}
+100\ 000x 
+& = 100\ 100,\overline{100}
+\\
+100x 
+& = 100,\overline{100}
+\\
+99\ 900x 
+& = 100\ 000
+\\
+x 
+& = \frac{100\ 000}{99\ 900} = \frac{1000}{999}
+\end{aligned}$$
+
+Alternativt kunne vi sett bort fra eneren, gjort trikset på
+$0,00\overline{100}$, og lagt til $1$ etterpå.
+
+3.  Gjør om til brøk.
+
+    a.  $0,111\ldots$ $= \frac{1}{9}$
+
+    b.  $0,222\ldots = \frac{2}{9}$
+
+    c.  $0,333\ldots = \frac{3}{9}$
+
+    d.  Og så videre. $0,aaa\ldots = \frac{a}{9}$ for
+        $a \in \{ 0,\ 1,\ \ldots,\ 9\}$. Det betyr spesielt at
+        $0,999\ldots = \frac{9}{9} = 1.$
+
 ### Begrunne hvilke brøker som svarer til endelige og hvilke som svarer til periodiske desimaltall
 
 #### Middels: Avgjøre og begrunne (uten å utføre divisjon) om en gitt brøk er endelig eller periodisk
@@ -885,14 +1018,31 @@ $$
    til)
 
 2. Hvis mulig, utvid eller forkort brøken slik at det klart fremgår at
-   den svarer til et endelig desimaltall. Begrunn ellers hvorfor dette
-   ikke lar seg gjøre.
+den svarer til et endelig desimaltall. Begrunn ellers hvorfor dette ikke lar seg gjøre.
+   1. $\frac{14}{35}$
+   2. $\frac{12}{36}$
+   3. $\frac{12}{36}$
+   4. $\frac{3}{16}$
+   5. $\frac{18}{45}$
+   6. $\frac{6}{18}$
 
-+------------------+------------------------+-----------------+
-| $\frac{14}{35}$  | $\frac{12}{36}$        | $\frac{12}{36}$ |
-+------------------+------------------------+-----------------+
-| $\frac{3}{16}$   | $\frac{18}{45}$        | $\frac{6}{18}$  |
-+------------------+------------------------+-----------------+
+
+##### Løsningsforslag
+
+2. \
+   1. $\frac{14}{35}  = \frac{2}{5} = \frac{4}{\mathbf{10}}$
+   2. $\frac{12}{36} = \frac{1}{\mathbf{3}}$
+   3. $\frac{7}{150} = \frac{7}{\mathbf{3} \cdot 50}$
+   4. $\frac{3}{16} = \frac{3 \cdot 5^{4}}{2^{4} \cdot 5^{4}} = \frac{3 \cdot 5^{4}}{\mathbf{10\ 000}}$
+   5. $\frac{18}{45}= \frac{2}{5} = \frac{4}{\mathbf{10}}$
+   6. $\frac{6}{18} = \frac{1}{\mathbf{3}}$
+Det er valgt litt dumme eksempler her, da 3 ser ut til å være
+eneste faktor i nevner som gjør at brøker ikke er endelige. Slik er det
+ikke: Det er hvis, og bare hvis, 2 og 5 er de eneste primfaktorene i den
+maksimalt forkorta nevneren, at brøken svarer til et endelig
+desimaltall. *Alle andre faktorer* i den maksimalt forkorta nevneren,
+gir *ikke* endelig desimaltall.
+
 
 #### Avansert: Begrunne hvilke brøker som svarer til endelige og hvilke som svarer til periodiske desimaltall
 
@@ -902,6 +1052,17 @@ $$
 
 2. Brøkene som ikke svarer til endelige desimaltall, gir periodiske
    desimaltall. Begrunn hvorfor det er slik.
+
+##### Løsningsforslag
+
+1.  Alle brøkene som svarer til endelige desimaltall, har en felles
+    egenskap. Forklar hvilken det er, og gi en begrunnelse for at det er
+    slik. De har til felles at når maksimalt forkorta, er 2 og 5 eneste primfaktorer i nevneren. For at en brøk skal være et endelig desimaltall, må den kunne utvides til 10-, 100- eller 1000- deler og så videre, altså til en brøk med tierpotens til nevner (fordi det er det desimaltall er). Siden 2 og 5 er de eneste primfaktorene i $10^{n}$, kan vi ikke ha andre faktorer i nevner om brøken skal være endelig.
+
+2.  Brøkene som ikke svarer til endelige desimaltall, gir periodiske
+    desimaltall. Begrunn hvorfor det er slik. Skal vi gjøre om brøker til desimaltall, kan vi dele. For eksempel finner vi 3/7 som desimaltall ved å dele 3 på 7. Når vi gjør dette ved hjelp av divisjonsalgoritmen, deler vi ut så mye vi kan, gjør om resten til neste posisjon (3 enere til 30 tideler for eksempel), og «trekker ned» sifferet som angir hvor mye vi har fra før av den posisjonen. \
+    \
+    Når vi deler på for eksempel syv, er det bare syv mulige rester vi kan få, nemlig 0, 1, 2, ... og 6. Det betyr at vi før eller siden (innen seks steg, for divisjonen vil jo ikke gå opp på noe tidspunkt) vil få en rest vi har hatt tidligere når vi utfører divisjonsalgoritmen. Og da vil vi nødvendigvis få en gjentakelse av stegene fra første gang vi fikk den resten; vi havner i en «periode-loop».
 
 ### Utføre og begrunne prosentregning
 
@@ -1254,6 +1415,540 @@ $\frac{a^{3 + n} \cdot b^{\frac{2}{3}}}{(ab)^{\frac{n}{3}}}$
 +---+-------------------------------------------+
 | I | $\sqrt[m]{a^{n}} = {\sqrt[m]{a}}^{\ n}$   |
 +---+-------------------------------------------+
+
+## 24.04
+
+### Forklare hva et posisjonssystem er
+
+#### Grunnleggende
+
+Forklar kort hva et posisjonssystem er. Gi eksempler fra base ti, tre, to og elleve.
+
+##### Vurderingskriterier
+
+Må få frem ideen om at sifrenes posisjon avgjør verdien de står for, og at denne verdien avhenger av hvilken gruppering vi velger -- hvilken base eller grunntall vi har. Må også ha med eksempler.
+
+#### Middels
+
+1. Forklar kort hva et posisjonssystem er.
+
+2. Gjør om $289_{ti}$ til base tre,
+3. $222_{fire}$ til base åtte uten å regne ut i base ti først.
+
+##### Vurderingskriterier
+
+Som grunnleggende + omgjøringene. Det må gå frem hvordan omgjøringene er gjort.
+
+### Avansert
+
+1. Gjør om  $212{tre}$ til base seks uten å først regne ut i base ti.
+2. Regn ut i den aktuelle basen:
+a.  $1001001{to} - 100110_{to}$  
+
+b.  $43_{syv} \cdot 23_{syv}$
+
+##### Vurderingskriterier
+
+Som middels + beregninger. Disse må være ført i den aktuelle basen.
+
+### Beskrive situasjoner med hensyn til additive strukturer
+
+#### Grunnleggende
+
+1. Beskriv tre situasjoner som har addisjon som modell med henholdsvis økning, forening og additiv sammenlikning som struktur.
+
+2. Velg én av situasjonene over. Omformuler den slik at det er rimelig å si at den har samme struktur, men med subtraksjon som modell.
+
+##### Vurderingskriterier
+
+Additive strukturer s. 52 i Alfa.
+
+### Middels
+
+Avgjør og begrunn hvilken additiv struktur situasjonene har. Angi både addisjons- og subtraksjonsstykket som passer i hvert tilfelle.
+
+1. I hver situasjon under, argumenter for to additive strukturer det er rimelig å si at situasjonen er et eksempel på. Oppgi i hvert tilfelle både addisjons- og subtraksjonsstykket som passer.
+a. Henrik hiver to dartpiler. Første pil treffer \(18\), andre pil \(17\). Hvor mange poeng fikk han?  
+b. André samler enhjørning-klistremerker. En pakke klistremerker koster \(349\), men stakkars André har bare \(200\) kroner. Hvor mye mer trenger han for å få råd?
+a. På en uke har en solsikke inntil husveggen vokst til 212 cm. Hvor mange centimeter må den vokse før den når husveggen på 240 cm?
+b. André fant 12 kroner i bukselomma. I jakkelomma fant han 50. Hvor mye mer fant han i jakka?  
+2. Lag en oppgave til \(150 + {\_\_} =225\) med additiv sammenlikning som struktur.
+
+##### Vurderingskriterier
+
+1. To struktur må angis med rimelig begrunnelse. Begge mulige regnestykker må med.
+a. kan være forening, økning eller komplettering: 18 + 17 = \_\_ eller \_\_ -- 17 = 18.
+b. kan være komplettering, økning eller sammenlikning: 200 + \_\_ = 349 eller 349 -- 200 = \_\_.
+2. Oppgaven må rimelig kunne sies å være et eksempel på sammenlikning.
+
+### Beskrive situasjoner med hensyn til multiplikative strukturer
+
+#### Grunnleggende
+
+1. Gjengi kort med et eksempel til hver, hva som menes med de to multiplikative strukturene rate og kombinatorisk situasjon.
+
+2. Gjengi kort med et eksempel til hver, hva som menes med de to typene divisjon delingsdivisjon og målingsdivisjon.
+
+##### Vurderingskriterier
+
+Multiplikative strukturer s. 58 i Alfa.
+
+#### Middels
+
+1. Avgjør og begrunn hvilken multiplikativ struktur situasjonene svarer til.
+
+a.  Antall Twist André spiser på \(6,5\) minutter når han spiser \(12\) Twist i minuttet.
+b.  Arealet av en rektangulær terrasse med sider \(2,3\) og \(4,7\) meter.
+c.  En strekning på \(12 \ \text{km}\) er delt opp i \(4\) etapper.  
+2. Ta utgangspunkt i situasjon c. Legg til nødvendig informasjon, og omformuler på to måter: slik at du lager én divisjonsoppgave med målingsdivisjon og én med delingsdivisjon. Begrunn hvilken som er hva.  
+
+##### Vurderingskriterier
+
+Avgjørelsene må begrunnes kort.
+
+1. \
+a. er rate.
+b. er rektangulært arrangement.
+c. er like grupper.
+2. \
+
+- Målingsdivisjon: hvor mange 3 km etapper på 12 km?
+- Delingsdivisjon: hvor lange etapper når 12 km deles i fire etapper?
+
+### Bruke regnestrategier og egenskaper ved regneoperasjonene
+
+#### Grunnleggende
+
+Gjengi kommutativ, assosiativ og distributiv egenskap for addisjon og multiplikasjon.
+
+##### Vurderingskriterier
+
+Gjengi egenskapene.
+
+#### Middels
+
+1. Bruk minst én av egenskapene (kommutativ, assosiativ, distributiv) til å regne $23 \cdot 11$. Vis tydelig hvordan du tenker.
+
+2. Gjør beregningene under ved hjelp av regnestrategier som ikke innebærer oppstilt regning. Vis tydelig hvordan du tenker.
+a.  \(352 + 61\)
+b.  \(240 : 2,5\)
+c.  \(180 \cdot \frac{4}{3}\)
+
+##### Vurderingskriterier
+
+Trengs et par setninger som tydelig får frem hvordan man har tenkt.
+
+1. Nærliggende å distribuere: $23 \cdot 11 + 46 = 23 \cdot (11 + 2) = 23 \cdot (10 + 3)$
+2. \
+a. Eks. gå via hele 100-ere: $352 + 61 = 352 + 50 + 11$
+b. Eks. dele på ti, gange med fire: $240\ :2,5 = (240\ :10) \cdot 4$
+c. Eks. finne tredel av 18, gange opp med 4, og deretter med 10.
+
+#### Avansert
+
+1. Velg to passende multiplikasjoner, og illustrer og gi en kort forklaring av distributiv egenskap og kommutativ egenskap.
+
+2. Gjør beregningene under ved hjelp av regnestrategier som ikke innebærer oppstilt regning. Vis tydelig hvordan du tenker.
+
+3. Velg én av strategiene fra 2., og gi en illustrasjon og kort forklaring som viser at strategien alltid funker.
+
+a.  \(240 : 2,5\)
+b.  \(180 \cdot \frac{4}{3}\)
+
+##### Vurderingskriterier
+
+Få tydelig frem hva man har tenkt.
+
+1. Må velge eksempler som fungerer generisk, det vil si at de får frem at egenskapene gjelder generelt (for positive i alle fall).
+2. \
+a. Som 2b. og 2c. fra middels
+3. Må få frem at strategien er generell (heller ikke her trengs nødvendigvis noe algebra)
+
+### Forklare og gi eksempler på de ulike betydningen av brøk: del av hel/enhet, del av antall, tall og forhold
+
+#### Grunnleggende
+
+Forklar og gi eksempler på hva som menes med brøk som
+a. del av en hel eller del av en enhet
+b. del av et antall
+c. tall
+d. forhold
+
+##### Vurderingskriterier
+
+Må gi en kort forklaring. Alfa s. 96-101 og s. 109.
+
+#### Middels
+
+1. Avgjør og begrunn kort hvilken ene betydning av brøk det er naturlig å knytte til situasjonen under.
+
+- André og Henrik skal dele en pose Twist som inneholder \(45\) biter. Henrik er en grådig j***l, så i et øyeblikk der André snur seg, rasker han med seg \(\frac{2}{3}\) av innholdet og løper.
+
+2. Avgjør og begrunn hvilke to betydninger av brøk det er naturlig å knytte til situasjonen under.
+
+- En rektangulær terrasse måler tre meter den ene veien og to og en halv meter den andre. Arealet av terrassen er da \(3 \cdot 2\frac{1}{2}\) kvadratmeter.
+
+3. Lag to oppgaver, og begrunn kort hvorfor de involverer den aktuelle betydningen av brøk.
+
+a. Én oppgave med brøk som del av hel/enhet.
+b. Én oppgave med brøk som forhold.
+
+##### Vurderingskriterier
+
+1. Må avgjøre med en kort, fornuftig begrunnelse. *Del av antall* er rimelig.
+2. Må avgjøre med en kort, fornuftig begrunnelse. *Tall* og *del av enhet (kvadratmeter)* er rimelig.
+3. Må fornuftig kunne sies å involvere de angitte betydningene.
+
+### Forklare hvordan de reelle tallene er bygd opp
+
+#### Grunnleggende: Forklare hva hele, rasjonale og irrasjonale tall er
+
+Gjengi kort hva som menes hele, rasjonale og irrasjonale tall.
+
+##### Vurderingskriterier
+
+Gjengi korrekt. Hele tall: ... -2, -1, 0, 1, 2,.... Rasjonale: brøk med heltallig teller og nevner. Irrasjonale: de som ikke er heltallige brøker.
+
+#### Middels: Forklare hvordan de reelle tallene er bygd opp av naturlige, hele, rasjonale og irrasjonale tall
+
+Forklar kort hva naturlige, hele, rasjonale og irrasjonale tall er, og vis med en illustrasjon hvordan disse til sammen utgjør de reelle tallene.
+
+##### Vurderingskriterier
+
+Som grunnleggende, men med presisering av naturlige også, samt et diagram eller liknende som får frem hvilke mengder som er delmengder av hvilke.
+
+### Utvide og forkorte brøker
+
+#### Grunnleggende: Utvide og forkorte brøker
+
+Finn i hvert tilfelle den likeverdige brøken med lavest mulig heltallig teller og nevner.
+a. $\frac{14}{12}$
+b. $\frac{2,2}{11}$
+c. $\frac{\frac{6}{5}}{2}$
+
+##### Vurderingskriterier
+
+7/6, 1/5, 3/5
+
+#### Middels: Utvide og forkorte brøker, og forklare og illustrere hvorfor dette gir brøker av lik verdi  
+
+1. Hvilke brøker er likeverdige med $\frac{2}{5}$?
+a. \(\frac{7,5}{9}\)
+b. \(\frac{25}{36}\)
+c. \(\frac{\frac{5}{3}}{2}\)
+d. \(\frac{20}{24}\)
+
+2. Lag en illustrasjon som viser tydelig at \(\frac{3}{4}\) og \(\frac{9}{12}\) er likeverdige.  
+
+##### Vurderingskriterier
+
+1. a, c og d (må ha begrunnelse, det vil si passende utvidelse/forkorting av brøk).
+2. Eks. dele kvadrat i firedeler den ene veien, og tredeler den
+andre.
+
+### Utføre addisjon og subtraksjon med brøk
+
+#### Grunnleggende: Utføre addisjon og subtraksjon med brøk
+
+Regn ut.
+a. \(\frac{2}{5} + \frac{7}{3}\)
+b. \(\frac{7}{3} - \frac{3}{4}\)
+
+##### Vurderingskriterier
+
+41/15, 19/12
+
+#### Middels: Utføre addisjon og subtraksjon med brøk, og forklare og illustrere hvorfor regnereglene gir mening
+
+Regn ut, og gi en forklaring med illustrasjon som viser at beregningen må være riktig.
+
+a. \(\frac{2}{5} + \frac{1}{4}\)
+b. \(\frac{5}{6} - \frac{1}{3}\)
+
+##### Vurderingskriterier
+
+13/20, 1/2. Illustrasjonen må vise utviding til felles nevner på en forståelig måte.
+
+### Utføre multiplikasjon med brøk
+
+#### Grunnleggende: Utføre multiplikasjon med brøk
+
+Regn ut.
+a. \(\frac{7}{5} \cdot \frac{4}{5}\)
+b. \(3 \frac{2}{3} \cdot \frac{3}{2}\)
+
+##### Vurderingskriterier
+
+28/25, 11/2
+
+#### Middels: Utføre multiplikasjon med brøk, og forklare og illustrere hvorfor regnereglene gir mening
+
+1. Forklar ved hjelp av en passende illustrasjon at \(5 \cdot \frac{3}{4} = \frac{3}{4} \cdot 5\).
+
+2. Forklar kort ved hjelp av en passende illustrasjon hvorfor vi multipliserer teller med teller og nevner med nevner for å finne produktet av to brøker.  
+
+##### Vurderingskriterier
+
+1. Må vise til struktur, ikke bare at «svarene» er like, slik som i
+eks under (feil tall, bare). Kvadratene er 1, grønn del 2/5. Figuren
+kan leses som *2/5 gjentatt tre ganger,* altså 3 ⋅ 2/5. Den kan også
+leses som *2/5 av tre,* altså 2/5 ⋅ 3.
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img//tal/24.04media/media/image1.png)
+
+1. Må vise til en figur som for eksempel den under (2/3 ⋅ 4/5):
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img//tal/24.04media/media/image2.png)
+
+### Utføre divisjon med brøk
+
+#### Grunnleggende: Utføre divisjon med brøk
+
+Regn ut.
+a. \(2\frac{1}{3} : \frac{14}{6}\)
+b. \(\frac{3}{4} : \frac{6}{5}\)
+
+##### Vurderingskriterier
+
+1, 5/8
+
+#### Middels: Vise ved hjelp av generisk eksempel hvorfor regneregelen for divisjon med brøk er som den er
+
+Vis ved hjelp av et generisk eksempel hvorfor divisjon med en brøk svarer til multiplikasjon med den omvendte brøken.
+
+##### Vurderingskriterier
+
+Må tolke en brøkdivisjon som brøk over brøk, og utvide. Oppgaven ber om *generisk eksempel.* Poenget er at strukturen må komme frem (som i algebraen under). Å dele på en stambrøk er ikke godt nok. Velger noen algebra, er det ok.
+$$\frac{a}{b}\ :\frac{c}{d} = \frac{\frac{a}{b}}{\frac{c}{d}} = \frac{\frac{a}{b} \cdot d/c}{\frac{c}{d} \cdot d/c} = \frac{a}{b} \cdot \frac{d}{c}$$
+
+#### Avansert: Forklare ved hjelp av kontekst (både målings- og delingsdivisjon) hvorfor regneregelen for divisjon med brøk gir mening
+
+Ta utgangspunkt i divisjonen \(9 : \frac{2}{3}\). Lag to passende kontekster, og bruk dem til å vise at \(9 : \frac{2}{3} = 9 \cdot \frac{3}{2}\).
+
+a. Den ene konteksten skal gi delingsdivisjon.
+
+b. Den andre konteksten skal gi målingsdivisjon.
+
+##### Vurderingskriterier
+
+a. Delingsdivisjon: 9 liter maling rekker til 2/3 vegg (like vegger), hvor mye maling trengs per vegg? Fordeler de 9 literne likt på de to tredelene, som gir 9/2 liter per tredel. Ganger dette opp med tre for å få en hel vegg, altså $9\ :\frac{2}{3} = \frac{9}{2} \cdot 3 = 9 \cdot \frac{3}{2}$.
+b. Målingsdivisjon: Hvor mange to-tredels-litere går det på ni liter? Det går tre tredelslitere på én liter, så $9 \cdot 3$ tredeler på ni liter. 2/3 liter er dobbelt så mye, så det går halvparten så mange, altså $9\ :\frac{2}{3} = \frac{9\  \cdot \ 3}{2} = 9 \cdot \frac{3}{2}$.
+
+### Utføre formell omforming av brøk
+
+#### Avansert: Utføre formell omforming av brøk
+
+Regn ut.
+
+a. \(((\frac{4}{5} + \frac{1}{\frac{7}{3}}) \frac{1}{43})) \cdot 7 + \frac{4}{5}\)
+b. \(\frac{1}{2} - \frac{\frac{4}{11}((\frac{8}{6} : \frac{1}{3}) + \frac{2}{5})}{\frac{4}{2,5}}\)
+
+##### Vurderingskriterier
+
+1, -1/2
+
+### Forklare begrepet og regne med desimaltall
+
+#### Grunnleggende: Beskrive desimaltall med hensyn til posisjonssystemet og brøkbegrepet
+
+Forklar hva \(21,203\) betyr. Forklaringa må støtte seg på brøkbegrepet og hvordan posisjonssystemet er bygd opp.
+
+##### Vurderingskriterier
+
+Må peke på posisjonssystemet: \*10 til venstre,
+        :10 til høyre. Gir tideler, hundredeler og så videre. Dette
+        siste gir at desimaltall er brøker der nevner er tierpotenser.
+
+#### Middels: Forklare hvordan man kan regne med desimaltall med hensyn til posisjonssystemet og brøkbegrepet
+
+1. Det er fort gjort å gjøre denne feilen når man regner med desimaltall: \(0,3 \cdot 0,2 = 0,6\). Forklar ved hjelp av posisjonssystemet og/eller brøkbegrepet hvorfor dette er feil.
+
+2. Divisjonen \(3,6 : 0,12\) kan gjøres ved å regne \(36 : 12\), for deretter å flytte desimalkommaet til riktig plass. Forklar hvordan og hvorfor.
+
+##### Vurderingskriterier
+
+1. Siden vi kan brøkregning, ser vi at $0,3 \cdot 0,2 = \frac{3}{10} \cdot \frac{2}{10} = \frac{3 \cdot 2}{10 \cdot 10} = \frac{6}{100}$. Og seks hundredeler er 0,06.
+
+2. Justeringen fra 3,6 : 0,12 til 36 : 12 er $\frac{3,6}{0,12} \rightarrow \frac{3,6 \cdot 10}{0,12 \cdot 100} = \frac{3,6}{0,12} \cdot \frac{1}{10}$. Svaret vi får er altså en tidel av det vi skal ha, så vi må gange opp med ti (flytte desimaltegnet én plass til høyre).
+
+### Gjøre om mellom brøk og desimaltall
+
+#### Grunnleggende: Forklare og gi eksempler på de tre typene desimaltall, og gjengi hvilke brøker som svarer til endelige og hvilke som svarer til periodiske desimaltall
+
+Forklar og gi eksempler på hva som menes med endelig desimaltall, periodisk desimaltall og uendelig ikke-periodisk desimaltall.
+
+##### Vurderingskriterier
+
+Må gi passende eksempler og kort, riktig forklaring. *Endelige* desimaltall har en endelig desimalutvikling; de er et endelig antall ti-, hundre-, tusendeler og så videre. (Eventuelt, er brøkene der nevner kan utvides til tierpotens). *Periodiske* er uendelige, med siffersekvenser som gjentas i det uendelige (brøkene som maksimalt forkorta har nevner med andre primfaktorer enn to og fem). *Ikke*-*periodiske*, uendelige desimaltall er de irrasjonale tallene (kan ha uendelig med desimaler uten mønster, eller med mønster, bare ikke periodisk, for eksempel 0,01001000100001 ...).
+
+#### Middels: Gjøre om mellom brøk og desimaltall med endelig desimalutvikling
+
+1. Gjør om til brøk.
+a. \(0,23\)
+b. \(0,2003\)
+c. \(0,0203\)
+
+2. Gjør om til desimaltall.
+
+a. \(\frac{3}{15}\)
+b. \(\frac{35}{14}\)
+c. \(\frac{3}{20}\)
+
+##### Vurderingskriterier
+
+1. \
+a.23/100,
+b. 2003/10 000,
+c. 203/10 000
+
+2. \
+a.  0,2;
+b. 2,5;
+c. 0,15
+
+#### Avansert: Gjøre om mellom brøk og desimaltall med periodisk desimalutvikling
+
+1. Gjør om til brøk.
+a. \(0,\overline{23}\)
+b. \(0,2\overline{003}\)
+2. Gjør om til desimaltall.
+a. \(\frac{3}{7}\)
+b. \(\frac{17}{6}\)
+
+##### Vurderingskriterier
+
+1. \
+a.
+$$
+\begin{aligned}
+100x &
+= 23,232323\ldots
+\\
+-x
+& = 0,232323\ldots
+\\
+\Rightarrow 99x
+& = 23
+\\
+x
+&= 23/99
+\end{aligned}$$
+
+b.
+$$
+\begin{aligned}
+10\ 000x &
+= 2003,003003\ldots
+\\
+-10x &
+= 2,003003\ldots
+\\
+9990x
+& = 2\ 001
+\\
+x
+& = \frac{2\ 001}{9\ 990}
+\end{aligned}
+$$
+2. Må vise utregning.
+
+a.  $0,\overline{428571}$
+
+b. $2,8\overline{3}$
+
+### Begrunne hvilke brøker som svarer til endelige og hvilke som svarer til periodiske desimaltall
+
+#### Middels: Avgjøre og begrunne (uten å utføre divisjon) om en gitt brøk er endelig eller periodisk
+
+Avgjør og begrunn om brøkene er endelige eller periodiske, uten å utføre divisjon.
+a. \(\frac{18}{24}\)
+b. \(\frac{18}{25}\)
+c. \(\frac{12}{35}\)
+d. \(\frac{12}{30}\)
+
+##### Vurderingskriterier
+
+a. $\frac{18}{24} = \frac{9}{8}$. Siden 2 er eneste primfaktor i 8, så brøken er endelig.
+b. 25 er faktor i hundre; brøken er endelig.
+c. 35 har faktoren 7; siden teller ikke har det, er brøken periodisk.
+d. $\frac{12}{30} = \frac{4}{10}$ som er endelig.
+
+#### Avansert: Begrunne hvilke brøker som svarer til endelige og hvilke som svarer til periodiske desimaltall
+
+1. Begrunn påstanden: En brøk svarer til et endelig desimaltall bare dersom den maksimalt forkorta kun har primfaktorene 2 og 5 i nevner.
+
+2. Begrunn hvorfor resten av brøkene gir periodiske desimaltall.
+
+##### Vurderingskriterier
+
+a.  Må vise til at desimaltall er brøker med tierpotenser til nevner. Siden eneste primfaktorer i 10 er 2 og 5, må den maksimalt forkorta brøken ha nevner uten andre primfaktorer enn disse.
+b. Begrunnes ved hjelp av eksempel: Tolke for eksempel 3/7 som divisjonen 3 : 7, og utføre den vanlige algoritmen. Divisjon med 7 kan bare gi restene 0, 1, ..., 6 (i vårt tilfelle ikke 0, for divisjonen går ikke opp). Det gir at høyeste antall mulige steg i divisjonsalgoritmen før vi får en rest vi har hatt tidligere, er seks. Dermed havner vi i en  «periode-loop».
+
+### Utføre og begrunne prosentregning
+
+#### Grunnleggende: Finne prosentdel av et tall, uttrykke tall som prosentdel av et hele, og finne det hele når del og prosentdel er gitt
+
+1. Finn \(20 \ \%\) av \(250\) på to måter.
+
+2. Hva er \(100 \ \%\) dersom \(18\) er \(12 \ \%\)?
+
+3. Hvis du har kjørt \(36 \  \text{km} \) av en \(108 \ \text{km} \) roadtrip, hvor stor prosentdel av turen er unnagjort?
+
+##### Vurderingskriterier
+
+1. Dele på fem, veien om 1 (prosent) ...
+2. 18/12 \* 100
+3. 36/108
+
+#### Middels: Utføre og begrunne beregningene over
+
+1. Forklar kort to strategier for å finne \(20 \ \%\) av \(250\). Forklaringene må vise tydelig at strategiene er riktige.
+
+2. Hvis vi skal uttrykke \(65\) som prosentdel av \(260\), kan vi regne på de to måtene du ser under. Forklar hvorfor de to strategiene funker.
+
+        a. Dele \(260\) på \(100\), for så å dele \(65\) på tallet vi fikk.
+
+        b. Dele \(100\) på \(260\), for så å gange \(65\) med tallet vi fikk.
+
+##### Vurderingskriterier
+ 
+ 
+1. Som grunnleggende, bare med god forklaring.
+2. \
+a. 260/100 gir én prosent av 260. Vi lurer på hvor mange slike
+1-prosentere som går på 65, så 65 : 260/100. 
+b. 100/260 gir antall prosent per 1-er. Vi har 65 1-ere, så ganger opp med
+65.
+
+### Løse (ukjente) problemer knyttet til brøk, prosent (og desimaltall).
+
+#### Avansert: Løse (ukjente) problemer knyttet til brøk, prosent (og desimaltall).
+
+Hvis noe øker fra f.eks. \(20 \ \%\) til \(25 \ \%\) sier vi at økningen var på \(5\) prosentpoeng. Fra en en meningsmåling til den neste, økte et politisk parti sin oppslutning med \(2\) prosentpoeng. Det tilsvarte en økning på \(12,5 \ \%\). Hvor stor oppslutning hadde partiet ved første måling?  
+
+
+
+
+
+##### Vurderingskriterier
+ 
+
+Si partiet hadde $p/100$ i oppslutning. Økte med 2 poeng til $(p + 2)/100$. Dette svarer til en 12,5 % økning, altså er
+
+$$
+\begin{aligned}
+\frac{p + 2}{100} 
+& = 1,125 \cdot \frac{p}{100}
+\\
+p + 2 
+& = 1,125 \cdot p
+\\
+0,125 \cdot p 
+& = 2
+\\
+p & = 16.
+\end{aligned}
+$$
+Partiet hadde altså 16 % prosent oppslutning før økningen.
 
 ## 17.04.23
 

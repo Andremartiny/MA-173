@@ -18,6 +18,16 @@
    _minskning, oppdeling, additiv sammenlikning, mangel_ og _oppheving
    av økning_. Alfa.
 
+#### Grunnleggende: Beskrive situasjoner med hensyn til additive strukturer,  24.04
+
+1. Beskriv tre situasjoner som har addisjon som modell med henholdsvis økning, forening og additiv sammenlikning som struktur.
+
+2. Velg én av situasjonene over. Omformuler den slik at det er rimelig å si at den har samme struktur, men med subtraksjon som modell.
+
+##### Vurderingskriterier
+
+Additive strukturer s. 52 i Alfa.
+
 #### Grunnleggende: Beskrive situasjoner med hensyn til additive strukturer,  17.04.23
 
 1. Beskriv tre situasjoner som har addisjon som modell med henholdsvis økning, forening og additiv sammenlikning som struktur.

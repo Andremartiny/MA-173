@@ -26,6 +26,20 @@ $$\left\{ \begin{array}{r}
 
 Vi ser her at det er $11$ av de $36$ mulighetene som inneholder en femmer. Dermed er sannsynligheten $\frac{11}{36}$.
 
+#### Avansert: Forklare og bruke begrepet uniform sannsynlighetsmodell,  24.04.23
+
+Henrik og André spiller et spill der de først kaster en vanlig seksidet terning og deretter en mynt. Vi anter at det er like sannsynlig å få kron og mynt, og at alle seks sidene på terningen er like sannsynlig. Spillet fungerer slik: Når man har kastet en verdi, \(n\), på terningen så kaster man mynten. Hvis den lander på mynt, får man dobbler man verdien man fikk på terningen. Kaster man kron får man kun verdien man hadde på terningen.
+
+For eksempel vil et terningkast på 4 og så et kast som gir mynt gi 8 poeng, mens et terningkast på 6 og så en kron vil gi 6 poeng.
+
+1. Sett opp et utfallsrom som gir opphav til en uniform sannsynlighetsmodell.
+2. Bruk modellen til å avgjøre hva sannsynligheten er for å få 6 eller flere poeng når man spiller spillet.
+
+##### Vurderingskriterier
+
+1. Studenten *må* sette opp en uniform sannsynlighetsmodell. For eksempel kan dette gjøres ved å sette opp utfallsrommet $\{1m, 2m, 3m, 4m, 5m, 6m, 1k, 2k, 3k, 4k, 5k, 6k\}$, der siffrene er tallene fra terningskastet og $m$ står får mynt og $k$ står for kron. Studenten kan også tegne opp et utfallstre og peke på at greiene tilsvarer hvert utfall. Studenten må deretter begrunne at modellen er uniform. Det kan de gjøre ved å enkelt peke på at første delforsøk er uniform, slik som det andre delforsøket (myntkastet). Dermed må det være like sannsynlig å få $3m$ som $6k$, siden $3$ og $6$ er like sannsynlig og $m$ og $k$ er like sannsnylig.
+2. Studenten kan nå bare telle opp fra utfallsrommet fra forrige oppgave. $3m$, $4m$, $5m$ og $6m$ vil tilsvare en poengverdi på $6, 8, 10$ og $12$. I tillegg vil $6k$ tilsvare en poengverdi på $6$. Det er altså 5 gunstige utfall, noe som gir en sannsynlighet på $\frac{5}{12}$.
+
 #### Avansert: Forklare og bruke begrepet uniform sannsynlighetsmodell,  17.04.23
 
 Henrik skal skyte straffespark og har alltid 50% sannsynlighet for å score. Henrik sykter tre ganger.

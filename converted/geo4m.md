@@ -16,6 +16,16 @@
    a. Et kvadrat kan defineres ved at alle indre vinkler er $90^\circ$ og *alle* sider er like lange. Et rektangel kan defineres ved at alle indre vinkler er $90^\circ$. Siden definisjonen av et kvadrat krever at alle vinklene er $90^\circ$, må altså et kvadrat være et rektangel.
    b. Et parallellogram kan defineres ved å si at motstående sider må være parallelle. Siden kravet om at alle indre vinkler i rektangler er $90^\circ$ impliserer at motstående sider må være parallelle, betyr det altså at et rektangel må også være et parallellogram.
 
+#### Middels: Bruke begrepene kvadrat, rektangel, parallellogram, trapes, likebeint trekant, likesidet trekant, rettvinklet trekant, mangekant, sirkel,  24.04.23
+
+1. Forklar hvorfor, eller hvorfor ikke, et parallellogram er et kvadrat.
+2. Avgjør og begrunn om følgende påstand er sann: Hvis en trekant er likebeint, så er den ene sidelengen lenger enn de to andre .
+
+##### Vurderingskriterier
+
+1. Studenten må peke på at et parallellogram ikke alltid er et kvadrat. Dette gjøres enklest ved å tegne et eksempel av et *skjevt* parallellogram eller et rektangel.
+2. Studenten kan for eksempel tegne en likebeint trekant der den ene siden er mindre enn de to andre for å motbevise påstanden.
+
 #### Middels: Bruke begrepene kvadrat, rektangel, parallellogram, trapes, likebeint trekant, likesidet trekant, rettvinklet trekant, mangekant, sirkel,  17.04.23
 
 1. Forklar hvorfor, eller hvorfor ikke, et parallellogram er et kvadrat.

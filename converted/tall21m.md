@@ -1,10 +1,11 @@
-#### Middels: Forklare hva et posisjonssystem er, og regne med tall uttrykt i posisjonssystem med ulike baser,  31.03.23
 
-1. Forklar kort hva et posisjonssystem er.
+1. Gjør om  $212{tre}$ til base seks uten å først regne ut i base ti.
+2. Regn ut i den aktuelle basen:
+a.  $1001001{to} - 100110_{to}$  
 
-2. Gjør om $112_{ti}$ til base tre, $1001010_{to}$ til base ti, og $112_{tre}$ til base fem.
+b.  $43_{syv} \cdot 23_{syv}$
 
 ##### Vurderingskriterier
 
-Som over + omgjøringene. Det må gå frem hvordan omgjøringene er gjort.
+Som middels + beregninger. Disse må være ført i den aktuelle basen.
 

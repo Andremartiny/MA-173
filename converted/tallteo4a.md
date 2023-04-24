@@ -67,6 +67,50 @@
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/stirrehardt.svg)
 
+#### Avansert: Finne eksplisitt uttrykk for figurtall,  24.04
+
+På figuren under ser du de tre første figurene i en sammensatt figur, der $F_1 = 8$, $F_2 = 18$ og $F_3 = 32$.
+
+1. Finn en eksplsitt formel for $F_n$ ved å betrakte figuren geometrisk.
+
+2. Finn en eksplisitt formel ved hjelp av sum av tillegg.
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-21-12-10-31.png)
+
+##### Vurderingskriterier
+
+1. Studenten må betrakte figuren og finne en eksplisitt formel ved å referere til figuren. For eksempel kan man ved å betrakte figuren figuren geometrisk kan en se at hvis en flytter trekantene som "stikker ut" tilbake på plass, så får man et rektangel som alltid er dobbelt så høyt som langt og at lengden er én høyere enn figurtallsnummeret. Man ser dermed at $F_1 = 2\cdot 4$, $F_2 = 3\cdot 6$ og $F_3 = 4 \cdot 8$ og generelt at $F_n = (n+1)\cdot 2(n+1) = 2(n+1)^2$.
+2. Studenten må bruke teknikken sum av tillegg. Først bør de finne formen på tillegget. Dette kan de for eksempel gjøre ved å bruke den eksplisitte formelen over og se på $F_n - F_{n-1} = 2(n+1)^2 - 2n^2 = 2(n+1+n)(n+1-n) = 2(2n+1)$ eller $4n + 2$. Nå gjenstår bare bruken av teknikken sum av tillegg. Siden vi nå har formen på tilleggene kan vi skrive $F_n = 8 + (4\cdot 2 + 2) + (4\cdot 3 + 2) + \ldots + (4n+2)$. Vi ser også at $8 = 4\cdot 1 + 2 +2$, som gir oss muligheten til å skrive
+$$
+\begin{aligned}
+F_n
+& = 2 + (4\cdot 1 + 2) + (4\cdot 2 + 2) + (4\cdot 3 + 2) + \ldots + (4n+2)
+\\
+&
+= 2 + 4(1+2+\ldots + n) + 2\cdot n
+\\
+&
+= 2 + 4T_n +2n
+\\
+&
+2 + 2n(n+1)+2n.
+\end{aligned}
+$$
+Her har vi et eksplisitt uttrykk for figurtall nummer $n$ og studenten trenger ikke omforme dette til å passe med 1., men vi kan se at det gjør det ved å fortsette
+$$
+\begin{aligned}
+2 + 2n(n+1) + 2n
+& =
+2(1+2n(n+1)+n)
+\\
+&
+=2(n(n+1) + (n+1))
+\\
+& =
+2(n+1)(n+1) = 2(n+1)^2
+\end{aligned}
+$$
+
 #### Avansert: Finne eksplisitt uttrykk for figurtall,  31.03.23
 
 På figuren under ser du de tre første figurene i en sammensatt figur, der $F_1 = 7$, $F_2 = 12$ og $F_3 = 18$.

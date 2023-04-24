@@ -5,10 +5,13 @@ Bruke begrepene i temaet til å løse sammensatte problemet,
 <ol type="1">
 <li>Anta at sannsynligheten for å få en gutt alltid er 1/2. I en familie
 som har to barn er det tre muligheter, to gutter, to jenter eller ett av
-hvert kjønn. Eleven per sier at hvis en velger en tilfeldig
-tobarnsfamilie er det 1/3 sjans for at de har to gutter. André og
-Kristin planlegger å få fem barn.
+hvert kjønn.
 <ol type="1">
+<li>Eleven Per sier at hvis en velger en tilfeldig tobarnsfamilie er det
+1/3 sjans for at de har to gutter. Avgjør om Per tenker rett. Pek på
+eventuelle misforståelser eller riktige oppfatninger. Hvis det er noen
+misforståelser må disse rettes opp slik at Per forstår hva som er feil.
+André og Kristin planlegger å få fem barn.</li>
 <li>Hva er sannsynligheten for at de får bare gutter?</li>
 <li>Hva er sannsynligheten for at de får to jenter og tre gutter?</li>
 <li>Hva er sannsynligheten for at de får minst 2 jenter?</li>
@@ -18,7 +21,7 @@ ruter, kløver og spar. I hver sort er det 13 kort, kortene 1 til 10 i
 tillegg til en knekt, en dame og en konge. Når man spiller bridge får
 man en hånd bestående av 13 tilfeldige kort.
 <ul>
-<li>Hvor mange av alle de mulige bridgehendene består av åtte
+<li>Hvor mange av alle de mulige bridgehendene består av nøyaktig åtte
 kløver?</li>
 <li>Hvor mange ulike bridgehender med nøyaktige fem spar er det mulig å
 dele ut?</li>
@@ -45,4 +48,203 @@ og så de fire som skal være røde?</li>
 <li>Hva om vi velger rutene som ikke skal fargelegges, så de fire som
 skal være røde?</li>
 </ol></li>
+</ol>
+<h5 id="løsningsforslag">Løsningsforslag</h5>
+<ol type="1">
+<li>Anta at sannsynligheten for å få en gutt alltid er 1/2. I en familie
+som har to barn er det tre muligheter, to gutter, to jenter eller ett av
+hvert kjønn.
+<ol type="1">
+<li>Eleven Per sier at hvis en velger en tilfeldig tobarnsfamilie er det
+1/3 sjans for at de har to gutter. Avgjør om Per tenker rett. Pek på
+eventuelle misforståelser eller riktige oppfatninger. Hvis det er noen
+misforståelser må disse rettes opp slik at Per forstår hva som er
+feil.<br />
+</li>
+</ol>
+<ul>
+<li>Problemet med utsagnet til Per er mest sannsynlig at han tenker at
+alle de tre utfallene han lister opp i er like sannsynlige. Hvis vi
+tegner et utfallstre vil vi se at vi får grenene <span
+class="math inline">\(\{gg, gj, jg, jj\}\)</span>, altså fire utfall.
+Siden det er lik sannsynlighet for at hver gren skal “skje” så er de
+fire utfallene like sannsynlige. Vi kan nå vise Per at det derfor er
+<span class="math inline">\(\frac{1}{4}\)</span> av tilfellene som gir
+bare gutter og <span class="math inline">\(\frac{1}{4}\)</span> som gir
+bare jenter, og at i <span class="math inline">\(50\%\)</span> av
+tilfellene så får vi gutt og jente.<br />
+André og Kristin planlegger å få fem barn.</li>
+</ul>
+<ol start="2" type="1">
+<li>Hva er sannsynligheten for at de får bare gutter?<br />
+</li>
+</ol>
+<ul>
+<li>Vi kan tenke likt som over og se at det er <span
+class="math inline">\(2^5\)</span> mulige utfall. Det er kun ett av
+disse som gir kun gutter, så sannsynligheten blir derfor <span
+class="math inline">\(\frac{1}{32}\)</span>.<br />
+</li>
+</ul>
+<ol start="3" type="1">
+<li>Hva er sannsynligheten for at de får to jenter og tre gutter?<br />
+</li>
+</ol>
+<ul>
+<li>Siden vi vet at det er kun <span class="math inline">\(32\)</span>
+mulige utfall, kan vi enten telle antallet som inneholder to gutter og
+tre jenter. Vi kan også tenke slik. Av de fem barnene så skal jeg velge
+to av dem som skal være gutter. Det er derfor <span
+class="math inline">\(\frac{5\cdot 4}{2}\)</span> mulige måter å velge
+ut to gutter av fem barn. Vi har derfor at det er <span
+class="math inline">\(10\)</span> muligheter for å få nøyaktig to gutter
+og tre jenter, som gir en sannsynlighet på <span
+class="math inline">\(\frac{10}{32}\)</span>.<br />
+</li>
+</ul>
+<ol type="1">
+<li>Hva er sannsynligheten for at de får minst 2 jenter?<br />
+Vi vet at det er én måte å få ingen jenter (kun gutter), i tillegg er
+det mulig å få nøyaktig én jente (førstefødte er jente resten gutter,
+andrefødte er jente resten gutter osv). Dermed er det <span
+class="math inline">\(6\)</span> utfall som gir mindre enn <span
+class="math inline">\(2\)</span> jenter. De gjenværende utfallene må
+derfor være minst to jenter og sannsynligheten blir derfor <span
+class="math inline">\(\frac{26}{32}\)</span>.<br />
+</li>
+</ol></li>
+<li>I en vanlig kortstokk med 52 kort finnes det fire sorter, hjerter,
+ruter, kløver og spar. I hver sort er det 13 kort, kortene 1 til 10 i
+tillegg til en knekt, en dame og en konge. Når man spiller bridge får
+man en hånd bestående av 13 tilfeldige kort.</li>
+</ol>
+<p>Vi merker oss først at det er <span
+class="math inline">\(\frac{52\cdot 51\cdot 50\cdots 42\cdot 41\cdot
+40}{13\cdot 12\cdots 3\cdot 2\cdot 1}\)</span> mulige brigdehender man
+kan ha (vi tenker på dette som et uordnet utvalg uten tilbakelegg, da vi
+ikke kan ha samme kort på hånden og vi ikke bryr oss om
+rekkefølgen).</p>
+<ul>
+<li>Hvor mange av alle de mulige bridgehendene består av nøyaktig åtte
+kløver?
+<ul>
+<li>Vi ønsker å trekke ut åtte av de tretten kløverne. Dette kan gjøres
+på <span class="math inline">\(\frac{13\cdot 12\cdot 11\cdot 10 \cdots
+7\cdot 6}{8\cdot 7 \cdots 3\cdot 2\cdot 1}\)</span> mulige måter. Vi
+deler på <span class="math inline">\(8\cdot 7 \cdot 6\cdots 3\cdot
+2\cdot 1\)</span> fordi vi ikke bryr oss om overtelling, og vi deler
+derfor dette vekk. Videre må vi nå se på hvor mange måter vi kan trekke
+ut nøyaktig de fem resterende kortene uten at dette er kløver. Siden det
+er 13 kort som er kløver er det <span class="math inline">\(39\)</span>
+kort som ikke er det. Dermed har vi <span
+class="math inline">\(\frac{39\cdot 38\cdot 37\cdot 36\cdot 35}{5\cdot
+4\cdot 3\cdot 2\cdot 1}\)</span>. Vi kan altså for hvert unike utvalg av
+åtte kløver kombinere dette med <span
+class="math inline">\(\frac{39\cdot 38\cdot 37\cdot 36\cdot 35}{5\cdot
+4\cdot 3\cdot 2\cdot 1}\)</span> andre utvalg som ikke er kløver. Totalt
+får vi altså (fra multiplikasjonsprinsippet) <span
+class="math inline">\(\frac{13\cdot 12\cdot 11\cdot 10 \cdots 7\cdot
+6}{8\cdot 7 \cdots 3\cdot 2\cdot 1}\cdot \frac{39\cdot 38\cdot 37\cdot
+36\cdot 35}{5\cdot 4\cdot 3\cdot 2\cdot 1}\)</span> mulige måter å
+trekke ut nøyaktig åtte kløver.</li>
+</ul></li>
+<li>Hvor mange ulike bridgehender med nøyaktige fem spar er det mulig å
+dele ut?
+<ul>
+<li>Tanken her er den samme som i oppgaven over, vi får derfor <span
+class="math inline">\(\frac{13\cdot 12\cdot 11\cdot 10\cdot 9}{5\cdot
+4\cdot 3\cdot 2\cdot 1}\cdot \frac{39\cdot 38\cdot 37\cdot 36 \cdot
+35\cdot 34\cdot 33\cdot 32}{8\cdot 7 \cdots 3\cdot 2\cdot 1}\)</span>
+mulige måter å trekke ut nøyaktig fem spar.</li>
+</ul></li>
+<li>Hvor mange bridgehender med nøyaktig seks kort i en og samme farge
+finnes det?
+<ul>
+<li>Vi kan først finne antall muligheter for å få seks av samme sort
+(men allerede nå kan vi merke oss at vi da også teller hender som
+inneholder for eksempel 6 spar <em>og</em> seks ruter). For å få seks
+hjerter er det <span class="math inline">\(\frac{13\cdot 12\cdot 11\cdot
+10 \cdot 9 \cdot 8}{6\cdot 5\cdot 4\cdot 3\cdot 2\cdot 1}\cdot
+\frac{39\cdot 38\cdots 35\cdot 34\cdot 33}{7\cdot 6\cdot 5\cdot 4\cdot 3
+\cdot 2\cdot 1}\)</span> mulige hender. Siden hjerter ikke var spesielt
+her, er det generelt <span class="math inline">\(4\)</span> ganger så
+mange måter å velge ut en sort og få nøyaktig seks av den sorten i en
+hånd. Problemet nå er at vi overteller noe. Vi overteller alle måter å
+trekke ut nøyaktig seks av i to sorter. Dette kan gjøres på <span
+class="math inline">\(6\)</span> måter (hjerter-spar, herter-kløver,
+hjerter-ruter, spar-kløver, spar-ruter og kløver-ruter). Hver av disse
+kombinasjonene har <span class="math inline">\(\frac{13\cdot 12\cdot
+11\cdot 10 \cdot 9 \cdot 8}{6\cdot 5\cdot 4\cdot 3\cdot 2\cdot 1}\cdot
+\frac{13\cdot 12\cdot 11\cdot 10 \cdot 9 \cdot 8}{6\cdot 5\cdot 4\cdot
+3\cdot 2\cdot 1} \cdot 26\)</span> ulike hender (vi ganger med <span
+class="math inline">\(26\)</span> fordi det er 26 gjenværende kort som
+ikke er i de to sortene vi har valgt). Dermed kan vi ved å bruke
+addisjonssetningen nå si at det er <span class="math display">\[
+\begin{aligned}
+4\cdot
+&amp; \frac{13\cdot 12\cdot 11\cdot 10 \cdot 9 \cdot 8}{6\cdot 5\cdot
+4\cdot 3\cdot 2\cdot 1}\cdot \frac{39\cdot 38\cdots 35\cdot 34\cdot
+33}{7\cdot 6\cdot 5\cdot 4\cdot 3 \cdot 2\cdot 1}
+\\
+-6\cdot
+&amp; \frac{13\cdot 12\cdot 11\cdot 10 \cdot 9 \cdot 8}{6\cdot 5\cdot
+4\cdot 3\cdot 2\cdot 1}\cdot \frac{13\cdot 12\cdot 11\cdot 10 \cdot 9
+\cdot 8}{6\cdot 5\cdot 4\cdot 3\cdot 2\cdot 1} \cdot 26
+\end{aligned}
+\]</span> mulige hender som inneholder nøyaktig seks av en sort.</li>
+</ul></li>
+<li>Hva er sannsynligheten for å få ei slik hånd?
+<ul>
+<li>Sannsynligheten blir dermed gunstige over mulige eller <span
+class="math display">\[
+\frac{4\cdot
+\frac{13\cdot 12\cdot 11\cdot 10 \cdot 9 \cdot 8}{6\cdot 5\cdot 4\cdot
+3\cdot 2\cdot 1}\cdot \frac{39\cdot 38\cdots 35\cdot 34\cdot 33}{7\cdot
+6\cdot 5\cdot 4\cdot 3 \cdot 2\cdot 1}
+-6\cdot\frac{13\cdot 12\cdot 11\cdot 10 \cdot 9 \cdot 8}{6\cdot 5\cdot
+4\cdot 3\cdot 2\cdot 1}\cdot \frac{13\cdot 12\cdot 11\cdot 10 \cdot 9
+\cdot 8}{6\cdot 5\cdot 4\cdot 3\cdot 2\cdot 1} \cdot 26}{\frac{52\cdot
+51\cdot 50\cdots 42\cdot 41\cdot 40}{13\cdot 12\cdots 3\cdot 2\cdot 1}}
+\]</span></li>
+</ul></li>
+</ul>
+<ol start="4" type="1">
+<li>Vi har et rutenett med <span class="math inline">\(2 \times
+5\)</span> ruter. Vi skal først fargelegge fire ruter røde og så to
+gule.
+<ol type="1">
+<li>Hvor mange måter kan vi gjøre det på?</li>
+</ol>
+<ul>
+<li>Vi har 10 ruter å velge mellom. Begynner vi med fire ruter i rødt
+får vi <span class="math inline">\(\frac{10\cdot 9\cdot 8 \cdot
+7}{4\cdot 3\cdot 2\cdot 1}\)</span>. Her deler vi på <span
+class="math inline">\(4\cdot 3\cdot 2\cdot 1\)</span> fordi dette er et
+uordnet utvalg uten tilbakelegg. Det gjenstår nå 6 ruter vi kan velge
+til gulfargene. Det gir <span class="math inline">\(\frac{6\cdot
+5}{2}\)</span>. Multiplikasjonsprinsippet forteller oss nå at det er
+<span class="math inline">\(\frac{10\cdot 9\cdot 8 \cdot 7}{4\cdot
+3\cdot 2\cdot 1}\cdot \frac{6\cdot 5}{2}\)</span> forskjellige måter å
+fargelegge 4 av de ti rutene røde og så 2 av rutene gule.</li>
+</ul>
+<ol start="2" type="1">
+<li>Hvordan ville det blitt om vi først velger de to som skal være gule,
+og så de fire som skal være røde?</li>
+</ol>
+<ul>
+<li>Logikken blir lik som over, men fremgangen er noe ulik. Altså først
+<span class="math inline">\(\frac{10\cdot 9}{2}\)</span> og deretter
+<span class="math inline">\(\frac{8\cdot 7\cdot 6\cdot 5}{4\cdot 3 \cdot
+2 \cdot 1}\)</span> og igjen får vi totalt <span
+class="math inline">\(\frac{10\cdot 9}{2}\cdot \frac{8\cdot 7\cdot
+6\cdot 5}{4\cdot 3 \cdot 2 \cdot 1}\)</span> muligheter.</li>
+</ul>
+<ol start="3" type="1">
+<li>Hva om vi velger rutene som ikke skal fargelegges, så de fire som
+skal være røde?</li>
+</ol>
+<ul>
+<li>Her får dere regne selv, men egg merke til at dette gir samme svar
+som de to oppgavene over.</li>
+</ul></li>
 </ol>

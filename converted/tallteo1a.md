@@ -20,6 +20,17 @@
 3. La oss skrive tre vilkårlig påfølgende tall slik $n-1$, $n$ og $n+1$. Er for eksempel $n = 3$ er de tre påfølgende tallene her $2$, $3$ og $4$. Det viktige vi må legge merke til her er at vi vil alltid ha minst ett partall i rekken. Starter vi på et partall så har vi to. I tillegg vil vi alltid ha et tall i $3$-gangen. Det betyr at produktet vårt må inneholde faktoren $2$ og $3$. Dermed må prodkutet også faktoren $6$. Alle produkter av tre påfølgende tall har derfor felles faktorer $2$, $3$ og $6$, i tillegg til $1$.
 
 
+#### Avansert: Bruke begrepene faktor (divisor), felles faktor og største felles faktor, multiplum, felles multiplum og minste felles multiplum,  24.04
+
+Under ser du en påstand. Undersøk den og begrunn at den stemmer. Du må begrunne  formelt.
+
+Hvis et tall er faktor i to tall, så er det også faktor i differansen mellom de to tallene.
+
+##### Vurderingskriterier
+
+Studenten må besvare oppgaven på en forståelig og riktig måte. Hvis vi antar at $a$ er faktor i to tall kan vi si at disse tallene kan skrives som $an$ og $am$ (og vi kan anta at $n > m$). Ser vi nå på differansen mellom disse tallene ser vi på $an - am$, men siden vi kan faktorisere $a$ får vi at differansen er $a(n-m)$, og siden $n-m$ er et naturlig tall så ser vi at $a$ er en faktor i dette tallet.
+
+
 #### Avansert: Bruke begrepene faktor (divisor), felles faktor og største felles faktor, multiplum, felles multiplum og minste felles multiplum,  31.03.23
 
 Uten å regne det ut, hvordan kan vi vite hvor mange 0'ere, det vil være på slutten av produktet av tallene 1, 2, 3, 4, 5, 6, 7, 8, 9 og 10?

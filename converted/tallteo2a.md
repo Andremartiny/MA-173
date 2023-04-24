@@ -14,6 +14,15 @@
 1. Hvis vi fokuserer på antall oddetall i summen, ser vi at det er $1, 3, 5, 7$ og $9$. Vi kan enten legge de til eller trekke de fra i summen vår. Siden vi har et oddetall antall oddetall. Det betyr også at vi enten vil legge til et oddetall antall oddetall, eller trekke fra et oddetall antall oddetall. Vi kan anta at vi legger de til (for hvis summen ble 0 etter vi la til + og -, så ville vi fortsatt fått 0 i sum dersom vi byttet om alle +'ene med -'er og motsatt). Siden vi legger til et oddetall antall oddetall i tillegg til noen partall vil vi til slutt ende opp med å ha lagt til et oddetall. Ser vi på hva vi trekker fra, ser vi at vi trekker fra et partall antall oddetall i tillegg til noen partall. Det betyr at vi trekker fra et partall. Vi må altså ha at vi legger til et oddetall og trekker fra et partall. Dette kan åpenbart ikke bli 0. Uten å undersøke noen mønstre veldig nøye, kan vi allerede nå konkludere med at hvis vi har et oddetall antall oddetall og en tilsvarende situasjon, så vil vi aldri kunne lage en sum som blir 0. (Videre undersøking for flere mønstre får dere gjøre selv 😉)
 
 
+#### Avansert: Bruke begrepene naturlig tall, partall og oddetall, primtall og sammensatt tall,  24.04
+
+Hvis vi skal gange et tosifret tall med \(11\), kan vi gjøre det på denne måten, dersom tverrsummen er mindre enn ti: Sett første siffer på hundrerplassen, tverrsummen på tierplassen og andre siffer på enerplassen. Eksempelvis er da \(35\cdot 11=385\). Vis at dette er sant for alle tosifra tall med tverrsum lavere enn ti.
+
+##### Vurderingskriterier
+
+Studenten må vise at dette stemmer. En naturlig måte vil være å skrive tallet som $10a+b$ der $a$ og $b$ er siffer og $a+b < 10$. Tar vi tallet vårt ganger $11$ får vi $(10a+b)\cdot 11 = (10a+b)(10+1) = 100a + 10 b + 10 a + b$, eller $100a + 10(a+b) + b$. Dermed ser vi at siden $a$, $b$ og $a+b<10$ første siffer, $a$ være på hundrerplassen, tverrsummen, $a+b$, på tierplassen og andre siffer, $b$, vil være på enerplassen.
+
+
 #### Avansert: Bruke begrepene naturlig tall, partall og oddetall, primtall og sammensatt tall,  31.03.23
 
 Hvis vi ønsker å undersøke manuelt om et tall $n$ er prim eller sammensatt, er det ikke nødvendig å lete etter faktorer i $n$ som er høyere enn $\sqrt n$. Forklar hvorfor.

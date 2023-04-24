@@ -35,6 +35,22 @@ b.  Hvilke uttrykk stemmer? Argumenter ved hjelp av figuren og ved å
    *Merk*: Det er viktig å tegne selv og forsikre seg om at man forstår sammenhengen mellom uttrykket og figuren. Tegn derfor selv!
 
 
+Under ser dere dere de tre figurtallene $F_1$, $F_2$ og $F_3$
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-21-12-22-21.png)
+
+#### Middels: Beskrive oppbygningen av figurtall (alle typer),  24.04
+
+Ved å bryte figurtallene ned på flere måter, utled to ulike, men likeverdige uttrykk for figurtallene.
+
+##### Vurderingskriterier
+
+De må finne minst to eksplisitte uttrykk og det må gis
+en god nok forklaring på hvordan de har brutt ned figuren. For
+eksempel kan de gjøre som i grunnleggende i tillegg til en annen
+nedbrytning. Geometrisk kan dette være å peke på en alltid i "midten" har et rektangel med bredde $4$ og høyde $n$ (ved å flytte ned toppene), altså $4n$ prikker i rektangelet i midten. I tillegg stikker det ut to trekanter som for figurtallsnummer $n$ er av størrelse $T_{n-1}$. Disse trekantene kan altså eksplisitt utregnes ved å ta $2T_{n-1} = n(n-1)$. Totalt gir dette det eksplisitte uttrykket $4n + n(n-1)$.  
+
+
 Under ser dere dere de fire første trappetallene.
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-30-12-48-55.png)

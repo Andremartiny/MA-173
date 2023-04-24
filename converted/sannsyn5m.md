@@ -18,6 +18,19 @@
    b. Det er syv mulige personer som kan få førsteplassen. Når førsteplassen er valgt vil det være 6 mulige personer som kan komme på andre plass, og da 5 personer som kan komme på tredje. Dermed har vi for hver av de syv førsteplassene 6 mulige valg for andreplassen, altså $6$ syv ganger $7\cdot 6$. For hver av de $7\cdot 6$ mulighetene for første *og* andreplasser er det $5$ mulige valg for tredje, altså totalt $7\cdot 6 \cdot 5$ mulige 1.-, 2. og 3. plasser.
 
 
+#### Middels: Forklare og bruke begrepene ordnet utvalg med og uten tilbakelegg,  24.04.23
+
+1. Begrunn at følgende situasjoner kan tenkes på som ordnet utvalg med tilbakelegg og finn antall muligheter i utvalget. Du har en krukke med 8 kuler nummerert 1 til 8 og du trekker en kule to ganger for å lage et tall.\
+Hver gang du trekker en kule legger du den tilbake og skriver ned sifferet du trakk.
+2. Begrunn at følgende utvalg er ordnet utvalg uten tilbakelegg og finn antall muligheter i utvalget. \
+Henrik har en kasse med 16 defekte lys og 1 fungerende lys. Han skal skifte lys i stua og satser på at han er heldig og tar med seg 3 lyspærer fra kassa.
+
+##### Vurderingskriterier
+
+1. Studenten må få fram at siden vi for hvert trekk kan trekke mellom de 8 kulene, så vil en ha et utvalg med tilbakelegg. I tillegg skriver man ned siffrene man trekker hver gang for å lage et tall. Dermed er det natulig å tenke at utvalget er ordnet. Siden vi derfor har 8 valg på første trekk og så 8 valg på neste, må det være $8\cdot 8 = 64$ mulige utfall.
+2. Studenten må få frem at at en har 17 lys, men ikke kan trekke samme pæren to ganger. I tillegg har ikke rekkefølgen noe å si, som betyr at det er et ordnet
+
+
 #### Middels: Forklare og bruke begrepene ordnet utvalg med og uten tilbakelegg,  17.04.23
 
 1. Begrunn at følgende situasjoner kan tenkes på som ordnet utvalg med tilbakelegg og finn antall muligheter i utvalget

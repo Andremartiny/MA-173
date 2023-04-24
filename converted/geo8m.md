@@ -20,6 +20,19 @@
 
 
 
+#### Middels: Bruke Pytagoras setning,  24.04.23
+
+På figuren under ser du et rektangel med sidelengder $\sqrt 2$ og $x$. Rektangelet er rotert $45^\circ$ og plassert i et kvadrat med sidelengde $DC = \sqrt 8 +1$. Avgjør hva $x$ er.
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-21-15-21-11.png)
+
+##### Vurderingskriterier
+
+Studenten må løse for $x$. Siden rektangelet er rotert $45^\circ$ får vi en rettvinklet likebeint trekant med hypotenus lik $\sqrt 2$. Pytagoras gir nå at $a^2 + a^2 = 2$ eller at $a^2 = 1$ som betyr at $a = 1$, der $a$ er lengden $DG$. Det betyr at $GC = \sqrt 8$. Igjen er trekanten $GCF$ likebeint og rettvinklet som gir at $GC ^2 + CF^2 = x^2$ og siden $GC = CF$ får vi at $2(\sqrt 8) ^2 = x ^2$, eller at $16 = x^2$ som betyr at $x = 4$.  
+
+
+
+
 #### Middels: Bruke Pytagoras setning,  17.04.23
 
 På figuren under ser du  et parallellogram med sidelengder $x$ og $y$. Trekanten $EFH$ er rettvinklet og har sidelengder $FH = a$ og $HE = b$.

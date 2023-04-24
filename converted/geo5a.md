@@ -30,6 +30,38 @@ x & = \frac{2a}{2\frac{b}{2}}
 $$
 Vi ser altså at $x^2 = 2$ eller at $x = \sqrt 2$.
 
+#### Avansert: Bruke formler for størrelser av figurer til å utforske geometriske sammenhenger,  24.04.23
+
+Under er et rektangel med høyde $h$ som består av en blå rettvinklet trekant, en grønn rettvinklet trekant der lengden på grunnlinjen er $x$, og et trapes der de parallelle sidene har lengde $a$ og $b$ som markert på figuren.
+
+1. Uttrykk lengden fra punkt $L$ til $I$ ved hjelp av $a$, $b$ og $x$.
+
+2. Avgjør arealet $A$ av rektangelet.
+
+3. Avgjør arealet $B$ til den blå trekanten og arealet $C$ til den grønne trekanten.
+
+4. Begrunn at arealet av trapeset må være $\frac{(a+b)h}{2}$, ved å bruke arealene du fant i oppgave 2 og 3.
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-22-22-14.png)
+
+#### Vurderingskriterier avansert:  24.04.23
+
+Studenten må gjøre alle oppgavene for å få godkjent.
+
+1. Studenten må få fram at $LI = a+x-b$.
+2. Studenten må peke på at $A = (a+x)h$.
+3. Studenten må få fram at $B = \frac{(a+x-b)h}{2}$ og at $C = \frac{xh}{2}$.
+4. Studenten må få fram arealet. Det vil være naturlig å regne seg fram ved å se på $A-B-C$.
+$$
+\begin{aligned}
+A-B-C & = (a+x-b)h-\frac{(a+x-b)h}{2} - \frac{xh}{2}
+\\
+& = (a+x-b)h - \frac{(a-b+2x)h}{2} = \frac{(a+b) h}{2}.
+\end{aligned}
+$$
+
+*Merk* at det bevisst er utelatt litt detaljer i regningen som bør være med.
+
 #### Avansert: Bruke formler for størrelser av figurer til å utforske geometriske sammenhenger,  17.04.23
 
 Under ser du en løpebane konstruert ved hjelp av rutenett bestående av likesidede trekanter med sidelengde 10m. Selve banen er konstruert ved hjelp av kun halvsirkler.

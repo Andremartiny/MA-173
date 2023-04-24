@@ -32,6 +32,15 @@ Totalt 8 mulige utfall. Siden hvert kast gir lik sannsynlighet for kron
 og mynt er dette utfallsrommet uniformt. Vi ser her at det er kun ett av de åtte tilfellene som gir kun tre kron, mens det er flere som gir nøyaktig to kron. Dermed kan ikke det opprinnelige utfallsrommet gitt i teksten gi opphav til en uniform
 
 
+#### Middels: Forklare og bruke begrepet uniform sannsynlighetsmodell,  24.04.23
+
+Det er 21 studenter i klassen og de skal deles opp i 7 grupper som alle inneholder 3 studenter. Du trekker kort først og havner på gruppe 1. Neste som trekker er bestevennen din. Det er 20 mulige kort igjen å trekke og to mulige plasser på din gruppe. Bestevennen din sier. Det er to mulige utfall, enten så trekker jeg gruppen din, eller så gjør jeg ikke det. I 10% av tilfellene kommer vi på gruppe, og i 90% av tilfellene gjør vi ikke det. Avgjør og begrunn om modellen som er satt opp er en uniform sannsynlighetsmodell.
+
+##### Vurderingskriterier
+
+Studenten må konkludere med at modellen ikke er en uniform sannsynlighetsmodell. Dette kan de enkelt gjøre ved å peke på at hvis det kun er to utfall i utfallsrommet, må det være $50\%$ sjans for hver av utfallene. Dette er det ikke i modellen som er satt opp.
+
+
 #### Middels: Forklare og bruke begrepet uniform sannsynlighetsmodell,  17.04.23
 
 1. André skal kaste en sekssidet terning. Han skal kaste terningen en gang og setter opp utfallsrommet $\{1, 2, 3, 4, 5, 6\}$. Avgjør om dette gir en uniform sannsynlighetsmodell.

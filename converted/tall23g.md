@@ -1,4 +1,4 @@
-#### Grunnleggende: Forklare og gi eksempler på de ulike betydningen av brøk: del av hel/enhet, del av antall, tall og forhold,  17.04.23
+#### Grunnleggende: Forklare og gi eksempler på de ulike betydningen av brøk: del av hel/enhet, del av antall, tall og forhold,  24.04
 
 Forklar og gi eksempler på hva som menes med brøk som
 a. del av en hel eller del av en enhet

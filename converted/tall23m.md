@@ -1,17 +1,21 @@
-#### Middels: Forklare og gi eksempler på de ulike betydningen av brøk: del av hel/enhet, del av antall, tall og forhold,  17.04.23
+#### Middels: Forklare og gi eksempler på de ulike betydningen av brøk: del av hel/enhet, del av antall, tall og forhold,  24.04
 
-1. Avgjør og begrunn kort hvilke(n) betydning av brøk det er naturlig å knytte til situasjonene.
-a. Etter en viss tid har du løpt $\frac{3}{4}$ av strekningen for dagens joggetur.
-b. André føler seg spenstig, og maler $\frac{2}{3}$ av stueveggen grønn, den siste tredelen rosa.
+1. Avgjør og begrunn kort hvilken ene betydning av brøk det er naturlig å knytte til situasjonen under.
 
-2. Lag to oppgaver, og begrunn kort hvorfor de involverer den aktuelle betydningen av brøk.
-a. Én oppgave med brøk som del av antall.
+- André og Henrik skal dele en pose Twist som inneholder \(45\) biter. Henrik er en grådig j***l, så i et øyeblikk der André snur seg, rasker han med seg \(\frac{2}{3}\) av innholdet og løper.
+
+2. Avgjør og begrunn hvilke to betydninger av brøk det er naturlig å knytte til situasjonen under.
+
+- En rektangulær terrasse måler tre meter den ene veien og to og en halv meter den andre. Arealet av terrassen er da \(3 \cdot 2\frac{1}{2}\) kvadratmeter.
+
+3. Lag to oppgaver, og begrunn kort hvorfor de involverer den aktuelle betydningen av brøk.
+
+a. Én oppgave med brøk som del av hel/enhet.
 b. Én oppgave med brøk som forhold.
 
 ##### Vurderingskriterier
 
-1. Må avgjøre med en kort, fornuftig begrunnelse.
-a. er rimelig å tolke som _tall_ (en måling).
-b. er rimelig å tolke som _del av helhet_ (vegg som helhet).
-2. Oppgavene må rimelig kunne sies å involvere den aktuelle tolkningen, og besvarelsen må inneholde en kort begrunnelse.
+1. Må avgjøre med en kort, fornuftig begrunnelse. *Del av antall* er rimelig.
+2. Må avgjøre med en kort, fornuftig begrunnelse. *Tall* og *del av enhet (kvadratmeter)* er rimelig.
+3. Må fornuftig kunne sies å involvere de angitte betydningene.
 

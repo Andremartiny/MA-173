@@ -25,6 +25,28 @@ v & = \frac{\angle BAC}{2}.
 $$
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-03-21-15-36.png)
 
+#### Avansert: Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer,  24.04.23
+
+Under ser du en trekant $ABC$, der $\angle ACB$ er halvert og går gjennom punktet $E$ (det vil si at $a = c$). Linjen som går gjennom $BD$ er parallell med linjen gjennom $AC$.
+
+1. Forklar at $a = b$ og $d = e$.
+
+2. Forklar hvorfor $\triangle AEC$  er formlik med $\triangle EDB$ ved å begrunne at de indre vinklene i trekantene er de samme.
+
+Når to trekanter er formlike gjelder det at de samsvarende sidene er har samme forhold. Det vil si $\frac{AC}{BD} = \frac{AE}{EB}$.
+
+3. Forklar hvorfor $\frac{AC}{BC} = \frac{AE}{EB}$ (vink: trekanter med to like vinkler er likebeinte).
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-22-16-49.png)
+
+#### Vurderingskriterier avansert:  24.04.23
+
+Studentene må gjøre alle oppgavene.
+
+1. Det må pekes på at $c = a$. Siden $BD$ er parallell med $AC$, så vil $c = b$ (dette kan pekes på ved å forlenge $BD$ og $CD$ og lage toppvinklene) som igjen betyr at $a = b$. At $d = e$ følger igjen av at linjene $BD$ og $AC$ er parallelle.
+2. Her må studenten bare bruke informasjonen fra 1. sammen med at vinkelsummen i trekanter er $180$ grader.
+3. Siden $a = b$ må $CB = BD$ (fordi det er en likebeint trekant fra 1.). Nå følger resultatet bare ved direkte bruk av formlikhet.
+
 #### Avansert: Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer,  17.04.23
 
 Under ser du en firkant $ABCD$ der $\angle BAC$ er $90^\circ$, og $\angle BCD = 30^\circ$. Avgjør hva summen av de lilla vinklene er, det vil si, avgjør $\angle CBA + \angle ADC$.

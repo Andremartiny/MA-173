@@ -16,6 +16,16 @@ Under ser du en figur av tre formlike trekanter. Avgjør lengden på de resteren
 
 1. Vi ser at $a$ samsvarer med $d$ og $g$, at $b$ samsvarer med $e$ og $h$ og at $c$ samsvarer med $f$ og $h$. For å skalere $a = 3$ til $g = 4$, må vi skalere med $\frac{4}{3}$. Dermed må $b = 6$ skaleres til $6\cdot \frac{4}{3} = 8 = h$. For å gå fra $i$ til $c$ må vi skalere ned med $\frac{3}{4}$. Det gir at $c = 1 \cdot \frac{3}{4} = \frac{3}{4}$. 
 
+#### Middels: Bruke begrepet formlikhet av trekanter,  24.04.23
+
+Da det var jul hadde André kjøpt et høyt juletre som han fint hadde pyntet med en julestjerne på toppen. André mente det ville være morsomt for sin samboer å beregne høyden på treet ved å bruke formlikhet (men det syns ikke hun). Derfor ba han henne legge seg legge seg ned på gulvet slik at hun akkurat kunne se toppen av stjernen bak toppen av hodet til André . Da lå hun 3 meter unna André og 5 meter unna treet (se figur). André er $\frac{7}{4}$ meter høy. Bruk formlikhet til å avgjøre hvor høyt treet var, når en inkluderer stjernen på toppen.
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/geo/juletre.png)
+
+##### Vurderingskriterier
+
+1. Studenten må bruke formlikhet for å avgjøre høyden på treet. For eksempel kan de at den store trekanten er $\frac{5}{3}$ ganger så stor som den lille. Dermed må høyden til André skaleres opp med $\frac{5}{3}$. Det gir en høyde på $\frac{7}{4}\cdot \frac{5}{3} = \frac{35}{12}$. Dermed var treet $\frac{35}{12}$ meter eller $1/2$ meter unna å være tre meter høyt.
+
 #### Middels: Bruke begrepet formlikhet av trekanter,  17.04.23
 
 Under ser du to formlike trekanter. Avgjør lengden på de resterende sidene hvis du får vite at:

@@ -21,6 +21,23 @@ kaka.
 height="2.2843307086614173in"}
 
 
+#### Middels: Utvide og forkorte brøker,  24.04
+
+1. Hvilke brøker er likeverdige med $\frac{2}{5}$?
+a. \(\frac{7,5}{9}\)
+b. \(\frac{25}{36}\)
+c. \(\frac{\frac{5}{3}}{2}\)
+d. \(\frac{20}{24}\)
+
+2. Lag en illustrasjon som viser tydelig at \(\frac{3}{4}\) og \(\frac{9}{12}\) er likeverdige.  
+
+##### Vurderingskriterier
+
+1. a, c og d (må ha begrunnelse, det vil si passende utvidelse/forkorting av brøk).
+2. Eks. dele kvadrat i firedeler den ene veien, og tredeler den
+andre.
+
+
 #### Middels: Utvide og forkorte brøker,  17.04.23
 
 1. Hvilke brøker er likeverdige med $\frac{2}{5}$?

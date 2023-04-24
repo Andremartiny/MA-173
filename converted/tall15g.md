@@ -30,3 +30,17 @@
 
    d. 1.90
 
+#### Grunnleggende: Utføre og begrunne prosentregning,  24.04
+
+1. Finn \(20 \ \%\) av \(250\) på to måter.
+
+2. Hva er \(100 \ \%\) dersom \(18\) er \(12 \ \%\)?
+
+3. Hvis du har kjørt \(36 \  \text{km} \) av en \(108 \ \text{km} \) roadtrip, hvor stor prosentdel av turen er unnagjort?
+
+##### Vurderingskriterier
+
+1. Dele på fem, veien om 1 (prosent) ...
+2. 18/12 \* 100
+3. 36/108
+

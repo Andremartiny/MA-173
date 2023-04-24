@@ -25,6 +25,30 @@
    b. Under er sammenhengen markert. De grønne er forrige figur, det røde er det som legges til i trekanten, det blå er bunnen som legges til i rektangelet, og det gule er siden som legges til i rektangelet. ![Rekursiv sammenheng](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/rekursiv.svg)
    c. Vi kan nå bruke dekomponeringen vi har brukt til å beskrive den rekursive sammenhengen. For figur $P_n$ har vi trekanttall $n+1$ minus toppen. Det gir $T_{n+1}-1 = \frac{(n+1)(n+2)}{2}-1$. Rektangelet er alltid $n(n-1)$, så vi får at den eksplisitte formelen er $\frac{(n+1)(n+2)}{2}-1+n(n-1)$.
 
+#### Grunnleggende: Beskrive oppbygningen av figurtall (alle typer),  24.04
+
+Ved å illustrere figurtallene og markere i illustrasjonen, gi en ordforklaring av
+
+1. en eksplisitt sammenheng mellom figurtall nummer \(n\) og antall prikker i figurtallet.
+
+2. en rekursiv sammenheng mellom to påfølgende figurtall.
+
+##### Vurderingskriterier
+
+Her må alle spørsmålene besvares, og de må
+illustrere figurer.  
+
+i.  Eksplisitt formel må utledes, og de må henvise til figuren.\
+\
+ii. Her må de henvise til illustrasjonen for å få fram hvordan
+figuren utvikler seg rekursivt.\
+
+For eksempel kan det fremheves at det er to trekanter som ligger i figuren som starter på samme nivå som figurtallsnummeret, markert i gult i figuren under. Flytter man trekantene sammen får man et rektangel av størrelse $n$ og $n+1$.  Videre kan en da utifra markeringene se hvis en flytter toppene ned i "hullet", markert i grønn, så vil en ha et rektangel med høyde $n$ og bredde $2$. Totalt sett får vi et rektangel med bredde $2 + (n+1)$ og høyde $n$. Som gir en eksplisitt formel $(n+3)\cdot n$.
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-21-13-28-48.png)
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-21-13-26-27.png)
+
 #### Grunnleggende: Beskrive oppbygningen av figurtall (alle typer),  31.03.23
 
 Ved å illustrere trappetallene og markere i illustrasjonen, gi en ordforklaring av

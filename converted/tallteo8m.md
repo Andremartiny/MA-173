@@ -1,3 +1,24 @@
+#### Middels: Finne rekursiv uttrykk for figurtall,  24.04
+
+Vis i en illustrasjon hvordan hver figur inneholder den forrige, og finn rekursivt uttrykk for femkanttallene  $P_n$, der $P_1 =1$, $P_2 = 5$ og $P_3 = 12$:
+ved hjelp av strategien form på tillegg.
+ved hjelp av strategien differanse mellom eksplisitte uttrykk. Merk: Det eksplisitte uttrykket for bikubetallene er $P_n = {\frac{n}{2}(3n-1)}$.
+
+##### Vurderingskriterier
+
+Studenten må besvare alle spørsmålene med riktig
+teknikk. Her *må* det være med en illustrasjon.
+
+i.  Finne ved å peke på form på tillegg (se grunnleggende i).
+De må altså se at tilleggene øker med $3$, noe som tilsier at
+formen på tillegget må være en lineær faktor med stigning $3$.
+Fra dette bør de komme seg til\
+$$
+P_{n} = P_{n - 1} + 3n-2
+$$
+
+ii. Finne uttrykket ved hjelp av å regne $P_{n}– P_{n - 1}$.
+
 #### Middels: Finne rekursiv uttrykk for figurtall,  31.03.23
 
 Vis i en illustrasjon hvordan hver figur inneholder den forrige, og finn rekursivt uttrykk for sekskanttallene  $H_n$, der $H_1 =1$, $H_2 = 6$ og $H_3 = 15$:

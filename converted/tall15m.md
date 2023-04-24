@@ -17,3 +17,23 @@
    c. det hele når del og prosentdel er kjent (hvis $x$ utgjør $y$
    prosent, hva er da $100$ %?)
 
+#### Middels: Utføre og begrunne prosentregning,  24.04
+
+1. Forklar kort to strategier for å finne \(20 \ \%\) av \(250\). Forklaringene må vise tydelig at strategiene er riktige.
+
+2. Hvis vi skal uttrykke \(65\) som prosentdel av \(260\), kan vi regne på de to måtene du ser under. Forklar hvorfor de to strategiene funker.
+
+        a. Dele \(260\) på \(100\), for så å dele \(65\) på tallet vi fikk.
+
+        b. Dele \(100\) på \(260\), for så å gange \(65\) med tallet vi fikk.
+
+##### Vurderingskriterier
+ 
+ 
+1. Som grunnleggende, bare med god forklaring.
+2. \
+a. 260/100 gir én prosent av 260. Vi lurer på hvor mange slike
+1-prosentere som går på 65, så 65 : 260/100. 
+b. 100/260 gir antall prosent per 1-er. Vi har 65 1-ere, så ganger opp med
+65.
+

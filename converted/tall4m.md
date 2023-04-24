@@ -60,6 +60,26 @@
    f. $\frac{5}{4} \cdot 120$ $= 5 \cdot (\frac{1}{4} \cdot 120)$
 
 
+#### Middels: Bruke regnestrategier og egenskaper ved regneoperasjonene,  24.04
+
+1. Bruk minst én av egenskapene (kommutativ, assosiativ, distributiv) til å regne $23 \cdot 11$. Vis tydelig hvordan du tenker.
+
+2. Gjør beregningene under ved hjelp av regnestrategier som ikke innebærer oppstilt regning. Vis tydelig hvordan du tenker.
+a.  \(352 + 61\)
+b.  \(240 : 2,5\)
+c.  \(180 \cdot \frac{4}{3}\)
+
+##### Vurderingskriterier
+
+Trengs et par setninger som tydelig får frem hvordan man har tenkt.
+
+1. Nærliggende å distribuere: $23 \cdot 11 + 46 = 23 \cdot (11 + 2) = 23 \cdot (10 + 3)$
+2. \
+a. Eks. gå via hele 100-ere: $352 + 61 = 352 + 50 + 11$
+b. Eks. dele på ti, gange med fire: $240\ :2,5 = (240\ :10) \cdot 4$
+c. Eks. finne tredel av 18, gange opp med 4, og deretter med 10.
+
+
 #### Middels: Bruke regnestrategier og egenskaper ved regneoperasjonene,  17.04.23
 
 1. Bruk minst én av egenskapene (kommutativ, assosiativ, distributiv) til å regne $23 \cdot 11$. Vis tydelig hvordan du tenker.
