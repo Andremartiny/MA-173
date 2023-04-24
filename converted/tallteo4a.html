@@ -111,6 +111,72 @@ fullføre kvadratet.</li>
 </ol>
 <p><img
 src="https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/stirrehardt.svg" /></p>
+<h4 id="avansert-finne-eksplisitt-uttrykk-for-figurtall-24.04">Avansert:
+Finne eksplisitt uttrykk for figurtall, 24.04</h4>
+<p>På figuren under ser du de tre første figurene i en sammensatt figur,
+der <span class="math inline">\(F_1 = 8\)</span>, <span
+class="math inline">\(F_2 = 18\)</span> og <span
+class="math inline">\(F_3 = 32\)</span>.</p>
+<ol type="1">
+<li><p>Finn en eksplsitt formel for <span
+class="math inline">\(F_n\)</span> ved å betrakte figuren
+geometrisk.</p></li>
+<li><p>Finn en eksplisitt formel ved hjelp av sum av tillegg.</p></li>
+</ol>
+<p><img
+src="https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-21-12-10-31.png" /></p>
+<h5 id="vurderingskriterier">Vurderingskriterier</h5>
+<ol type="1">
+<li>Studenten må betrakte figuren og finne en eksplisitt formel ved å
+referere til figuren. For eksempel kan man ved å betrakte figuren
+figuren geometrisk kan en se at hvis en flytter trekantene som “stikker
+ut” tilbake på plass, så får man et rektangel som alltid er dobbelt så
+høyt som langt og at lengden er én høyere enn figurtallsnummeret. Man
+ser dermed at <span class="math inline">\(F_1 = 2\cdot 4\)</span>, <span
+class="math inline">\(F_2 = 3\cdot 6\)</span> og <span
+class="math inline">\(F_3 = 4 \cdot 8\)</span> og generelt at <span
+class="math inline">\(F_n = (n+1)\cdot 2(n+1) = 2(n+1)^2\)</span>.</li>
+<li>Studenten må bruke teknikken sum av tillegg. Først bør de finne
+formen på tillegget. Dette kan de for eksempel gjøre ved å bruke den
+eksplisitte formelen over og se på <span class="math inline">\(F_n -
+F_{n-1} = 2(n+1)^2 - 2n^2 = 2(n+1+n)(n+1-n) = 2(2n+1)\)</span> eller
+<span class="math inline">\(4n + 2\)</span>. Nå gjenstår bare bruken av
+teknikken sum av tillegg. Siden vi nå har formen på tilleggene kan vi
+skrive <span class="math inline">\(F_n = 8 + (4\cdot 2 + 2) + (4\cdot 3
++ 2) + \ldots + (4n+2)\)</span>. Vi ser også at <span
+class="math inline">\(8 = 4\cdot 1 + 2 +2\)</span>, som gir oss
+muligheten til å skrive <span class="math display">\[
+\begin{aligned}
+F_n
+&amp; = 2 + (4\cdot 1 + 2) + (4\cdot 2 + 2) + (4\cdot 3 + 2) + \ldots +
+(4n+2)
+\\
+&amp;
+= 2 + 4(1+2+\ldots + n) + 2\cdot n
+\\
+&amp;
+= 2 + 4T_n +2n
+\\
+&amp;
+2 + 2n(n+1)+2n.
+\end{aligned}
+\]</span> Her har vi et eksplisitt uttrykk for figurtall nummer <span
+class="math inline">\(n\)</span> og studenten trenger ikke omforme dette
+til å passe med 1., men vi kan se at det gjør det ved å fortsette <span
+class="math display">\[
+\begin{aligned}
+2 + 2n(n+1) + 2n
+&amp; =
+2(1+2n(n+1)+n)
+\\
+&amp;
+=2(n(n+1) + (n+1))
+\\
+&amp; =
+2(n+1)(n+1) = 2(n+1)^2
+\end{aligned}
+\]</span></li>
+</ol>
 <h4
 id="avansert-finne-eksplisitt-uttrykk-for-figurtall-31.03.23">Avansert:
 Finne eksplisitt uttrykk for figurtall, 31.03.23</h4>
@@ -126,7 +192,7 @@ geometrisk.</p></li>
 </ol>
 <p><img
 src="https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-30-12-43-49.png" /></p>
-<h5 id="vurderingskriterier">Vurderingskriterier</h5>
+<h5 id="vurderingskriterier-1">Vurderingskriterier</h5>
 <p>Ved å betrakte figuren bør studentene se at figuren kan skrives som
 <span class="math inline">\(F_1 = 3+ 4\)</span>, <span
 class="math inline">\(F_2 = 3 + 4 + 5\)</span>, <span
