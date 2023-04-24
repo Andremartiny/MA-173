@@ -21,6 +21,10 @@
 2. En svært nyttig øvelse: Lag likninger til hverandre. Likningene må
     lages slik at du selv hvordan de kan løses og hva løsningene er.
 
+#### Grunnleggende: Løse kvadratiske likninger ved hjelp av fullstendige kvadraters metode,  24.04
+
+Se 03.02.23
+
 #### Grunnleggende: Løse kvadratiske likninger ved hjelp av fullstendige kvadraters metode,  17.04.23
 
 1. Løs likningen $x^2 - 14x = -40$ med fullstendige kvadraters metode.

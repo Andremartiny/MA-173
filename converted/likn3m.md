@@ -6,9 +6,21 @@
 
     b.  3.64 Løs på så mange måter du greier.
 
+#### Middels: Løse lineære likningssett med to ukjente på ulike måter,  24.04
+
+Henrik befinner seg i Retnym, der myntenheten heter Renork (ren), og myntene bare finnes i valørene 3 og 5 ren. Her har han handlet et verdifullt eksemplar av Euklids Elementer. Han betalte med 17 mynter til en verdi av 69 ren. Hvor mange mynter av hver valør betalte Henrik for boka?
+a. Løs oppgaven uten å bruke likninger eller gjett og sjekk.
+b. Løs oppgaven ved å sette og løse et likningssett på to måter.
+
+#### Vurderingskriterier middels:  24.04
+
+Begge oppgavene må gjøres
+
+1. Fordeler 17 3-ere, som gir 51 ren. Det er 18 for lite. 18:2=9, så må ha ni 5-ere og resten, det vil si åtte 3-ere.  
+
 #### Middels: Løse lineære likningssett med to ukjente på ulike måter,  17.04.23
 
-To tall har følgende to egenskaper: Egenskap 1: Divisjon av det en tallet med det andre gir $3$ og $1$ i rest. Egenskap 2: En femdel av én mer enn differansen mellom tallene, er $2$. Avgjør ved hjelp av en formell strategi hvilke to tall det er snakk om. 
+To tall har følgende to egenskaper: Egenskap 1: Divisjon av det en tallet med det andre gir $3$ og $1$ i rest. Egenskap 2: En femdel av én mer enn differansen mellom tallene, er $2$. Avgjør ved hjelp av en formell strategi hvilke to tall det er snakk om.
 
 André panter $30$ flasker, og får $72$ kroner. Noen flasker gir to og resten tre kroner i pant. Uten bruk av likninger eller gjett og sjekk, avgjør hvor mange flasker André pantet av hver type.
 
@@ -16,7 +28,7 @@ André panter $30$ flasker, og får $72$ kroner. Noen flasker gir to og resten t
 
 Begge oppgavene må gjøres
 
-1. Studenten kan løse ved oppgaven ved å innse at første egenskap gir $x = 3y + 1$ og andre egenskap gir $\frac{x-y+1}{5} = 2$. Setter vi inn får vi $\frac{3y+1-y-1+1}{5} = 2$, eller at $2y+2 = 10$ eller at $y = 4$. Det gir altså at $x = 12+1$, altså $13$. 
+1. Studenten kan løse ved oppgaven ved å innse at første egenskap gir $x = 3y + 1$ og andre egenskap gir $\frac{x-y+1}{5} = 2$. Setter vi inn får vi $\frac{3y+1-y-1+1}{5} = 2$, eller at $2y+2 = 10$ eller at $y = 4$. Det gir altså at $x = 12+1$, altså $13$.
 2. Studenten kan gi et logisk ressonement. For eksempel kan de peke på at hvis en kun panter flasker som gir $2$kr, så får André $60$ kroner. Ved å øke hver flaske som koster $2$kr til $3$kr øker vi panten han får med $1$kr. Siden $72$ kroner er $12$ mer enn $60$, så må han altså ha $18$ flasker som gir $2$kr og $12$ som gir tre.
 
 #### Middels: Løse lineære likningssett med to ukjente på ulike måter,  17.02.23

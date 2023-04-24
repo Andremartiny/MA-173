@@ -73,8 +73,6 @@ Siden strekningen inneholder ulike soner med ulike hastigheter *må* dette være
 
 
 
-
-
 #### Middels: Gjøre om mellom ulike representasjonsformer for funksjonssammenhenger,  31.03.23
 
 Under ser du en skisse av Henriks reisevei til jobb dersom han kjører bil. Fartsgrensene gjelder hver av de rette strekkene.

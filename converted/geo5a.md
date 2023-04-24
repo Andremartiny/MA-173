@@ -16,7 +16,7 @@
 $$
 \begin{aligned}
 \frac{b}{a}
-& = 
+& =
 \frac{a}{\frac{b}{2}}
 \\
 x & = \frac{2a}{2\frac{b}{2}}

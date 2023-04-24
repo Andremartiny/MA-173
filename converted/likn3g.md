@@ -4,6 +4,10 @@
 
     a.  3.60 Løs på så mange måter du greier.
 
+#### Grunnleggende: Løse lineære likningssett med to ukjente på ulike måter,  24.04
+
+Se 17.04.23
+
 #### Grunnleggende: Løse lineære likningssett med to ukjente på ulike måter,  17.04.23
 
 Under ser du to likninger med to ukjente.

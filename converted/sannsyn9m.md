@@ -7,7 +7,7 @@
 
 #### Middels: Forklare, illustrere og bruke komplementsetningen,  24.04.23
 
-Sannsynligheten for hendelsen \(A\) er \(0.4\). Forklar, ved hjelp av en illustrasjon, hva \(P(A^C)\) er.
+Sannsynligheten for hendelsen $A$ er $0.4$. Forklar, ved hjelp av en illustrasjon, hva $P(A^C)$ er.
 
 ##### Vurderingskriterier
 

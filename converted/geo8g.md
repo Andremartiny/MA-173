@@ -54,12 +54,12 @@ Finn lengden på hypotenusen i en rettvinklet trekant når du vet at katetene ha
 a.  5 og 6
 b.  3 og 11
 
-Utregningene skal ikke være avrundet og skal gis i eksakte verdier. Det vil si at hvis svaret er \(\sqrt{1^{2} + 2^{2}} = \sqrt{5}\), så skal ikke dette rundes av til \(2,236\).
+Utregningene skal ikke være avrundet og skal gis i eksakte verdier. Det vil si at hvis svaret er $\sqrt{1^{2} + 2^{2}} = \sqrt{5}$, så skal ikke dette rundes av til $2,236$.
 
 ##### Vurderingskriterier
 
 a. Studenten må bruke Pytagoras setninging. For eksempel kan de peke på at vi vet at $5^2 + 6^2 = h^2$, som betyr at $h = \sqrt{25+36} = \sqrt{61}$.
-b. Vi ser tilsvarende at $3^2+11^2 = 9+121 = 130 = h^2$, som betyr at $h = \sqrt 130$. 
+b. Vi ser tilsvarende at $3^2+11^2 = 9+121 = 130 = h^2$, som betyr at $h = \sqrt 130$.
 
 #### Grunnleggende: Bruke Pytagoras setning,  17.04.23
 

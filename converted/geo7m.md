@@ -5,7 +5,6 @@ Gi et grunnskoletilpasset bevis for Pytagoras setning med et visuelt argument.
 
 ##### Løsningsforslag
 
-
 Se for eksempel Alfa.
 
 

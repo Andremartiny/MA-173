@@ -654,9 +654,7 @@ Skisser en graf som viser hvor høyt Henrik er over bakken som en funksjon av ti
 Studentene må skissere en graf som får fram sammenhengen på en riktig måte, den må også samsvare med opplysningene som er beskrevet i teksten. \
 Siden strekningen inneholder ulike soner med ulike hastigheter *må* dette være gjenspeilet i grafen. For eksempel må første stigning når Henrik klatrer være relativt langsom, men bli langsommere når han kommer til det bratte partiet. Deretter må funksjonen ha veldig bratt stigning nedover (over kort tid), til Henrik blir stoppet av taubremsen. Her må grafen være konstant en periode før han blir senket ned. Dette må stigningen være negativ, men ikke så veldig brat..
 
-
 ## 31.03.23
-
 
 ### Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon
 
@@ -723,7 +721,7 @@ Peke på hva parameterne gjør for førstegradsfunksjoner.
 
 Grafen til en lineær funksjon går gjennom punktene $(-3, 0)$ og $(6, 3)$. Forklar hvordan vi kan finne likninga til den lineære funksjonen.
 
-##### Vurderingskriterier: Middels:
+##### Vurderingskriterier: Middels
 
 Finne likninga og forklare hvordan på en slik måte at man klart forstår det generelle i fremgangsmåten (kunne åpenbart blitt brukt for hvilke som helst punkt-par).
 
@@ -917,11 +915,11 @@ En omvendt proporsjonal funksjon kan skrives på formen $\frac{a}{x}$. Vis i et 
 
 Skisser grafen til $f$ og $g$ der $f(x)=x(x-5)$ og  $g(x)=x(x-5) + 2$
 
-
 ##### Vurderingskriterier: Grunnleggende {#170231}
 
 1. Peke på hva parameterne gjør for andregradsfunksjoner
 2. Skissere de to omvendt proporsjonale grafene.  
+
 #### Middels: Forklare hvordan endringer i parameterne i funksjonsuttrykket påvirker grafene til andregrads- og omvendt proporsjonale funksjoner
 
 En omvendt proporsjonal funksjon ser generelt slik ut: $f(x)=\frac{a}{x}$. Forklar kort (slik at det fremstår meningsfullt for noen som ikke kan det) og vis i et koordinatsystem hvordan grafen må se ut når
@@ -1101,6 +1099,7 @@ Skisser grafene $y = \frac{24}{x}$ og $y = \frac{-24}{x}$ i samme koordinatsyste
 
 1. Peke på hva parameterne gjør for andregradsfunksjoner
 2. Skissere
+
 #### Middels: Forklare hvordan endringer i parameterne i funksjonsuttrykket påvirker grafene til andregrads- og omvendt proporsjonale funksjoner
 
 En omvendt proporsjonal funksjon ser generelt slik ut: $f(x)=\frac{a}{x}$. Forklar kort (slik at det fremstår meningsfullt for noen som ikke kan det) og vis i et koordinatsystem hvordan grafen må se ut når
@@ -1453,7 +1452,6 @@ Peke på hva parameterne gjør for førstegradsfunksjoner
 
 Anta at en lineær funksjon $f$ går gjennom punktene $(\frac{9}{3}, 7)$ og $(\frac{18}{3}, 10)$. Forklar hvordan vi kan finne likninga til den lineære funksjonen.
 
-
 ##### Vurderingskriterier: Middels {#13022s2}
 
 Finne likninga og forklare hvordan på en slik måte at man klart forstår det generelle i fremgangsmåten (kunne åpenbart blitt brukt for hvilke som helst punkt-par).
@@ -1607,6 +1605,7 @@ Finne likninga og forklare hvordan på en slik måte at man klart forstår det g
 En andregradsfunksjon kan skrives på formen $ax^2 + b x + c$. Gjengi med ord hvilken påvirkning endringer i $a$ (tallet foran $x^2$) og $c$ (konstantleddet) har på grafen til en andregradsfunksjon.
 
 Skisser grafene $y = \frac{15}{x}$ og $y = \frac{-15}{x}$ i samme koordinatsystem.
+
 ##### Vurderingskriterier: Grunnleggende {#1asd302s31}
 
 i. Peke på hva parameterne gjør for andregradsfunksjoner
@@ -1621,7 +1620,6 @@ parameteren $a$ er mindre enn 0
 En kvadratisk funksjon ser generelt slik ut: $f(x)=ax^2+bx+c$. Forklar kort (slik at det fremstår meningsfullt for noen som ikke kan det) og vis i et koordinatsystem hva som skjer med grafen når
 parameteren $a$ endres.
 parameteren $c$ endres.
-
 
 ##### Vurderingskriterier: Middels {#13s0sdf232}
 

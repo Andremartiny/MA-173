@@ -3,7 +3,7 @@
 1. En korde-tangent-vinkel har størrelse *v*. Hvor stor er sirkelbuen
     den skjærer av? (Merk: En tangent står vinkelrett på linjen fra
     sentrum av sirkelen til tangeringspunktet).\
-    
+
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/geo/image2.png)
 
 ##### Løsningsforslag
@@ -69,7 +69,7 @@ Påstand: La $ABC$ være en vilkårlig trekant. Hvis $I$ og $M$ er midtpunktene 
 
 ##### Vurderingskriterier
 
-Studenten må gi en forståelig forklaring. Siden påstanden de skal bruke peker på trekanter er det naturlig at studenten trekker diagonalen i firkanten. Dermed kan de nå bruke at $E$, $F$, $G$, og $H$ alle er midtpunkter til å peke på at for eksempel $EF$ og $HG$ er parallell med samme diagonal, noe som betyr at de også må være parallelle. Tilsvarende kan de argumentere for $EH$ og $FG$. 
+Studenten må gi en forståelig forklaring. Siden påstanden de skal bruke peker på trekanter er det naturlig at studenten trekker diagonalen i firkanten. Dermed kan de nå bruke at $E$, $F$, $G$, og $H$ alle er midtpunkter til å peke på at for eksempel $EF$ og $HG$ er parallell med samme diagonal, noe som betyr at de også må være parallelle. Tilsvarende kan de argumentere for $EH$ og $FG$.
 
 #### Avansert: Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer,  17.02.23
 

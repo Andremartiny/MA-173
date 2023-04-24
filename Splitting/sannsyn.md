@@ -389,12 +389,12 @@ Vi merker oss først at det er $\frac{52\cdot 51\cdot 50\cdots 42\cdot 41\cdot 4
 4. Vi har et rutenett med $2 \times 5$ ruter. Vi skal først fargelegge
     fire ruter røde og så to gule.
    1. Hvor mange måter kan vi gjøre det på?
-   - Vi har 10 ruter å velge mellom. Begynner vi med fire ruter i rødt får vi $\frac{10\cdot 9\cdot 8 \cdot 7}{4\cdot 3\cdot 2\cdot 1}$. Her deler vi på $4\cdot 3\cdot 2\cdot 1$ fordi dette er et uordnet utvalg uten tilbakelegg. Det gjenstår nå 6 ruter vi kan velge til gulfargene. Det gir $\frac{6\cdot 5}{2}$. Multiplikasjonsprinsippet forteller oss nå at det er $\frac{10\cdot 9\cdot 8 \cdot 7}{4\cdot 3\cdot 2\cdot 1}\cdot \frac{6\cdot 5}{2}$ forskjellige måter å fargelegge 4 av de ti rutene røde og så 2 av rutene gule. 
+   - Vi har 10 ruter å velge mellom. Begynner vi med fire ruter i rødt får vi $\frac{10\cdot 9\cdot 8 \cdot 7}{4\cdot 3\cdot 2\cdot 1}$. Her deler vi på $4\cdot 3\cdot 2\cdot 1$ fordi dette er et uordnet utvalg uten tilbakelegg. Det gjenstår nå 6 ruter vi kan velge til gulfargene. Det gir $\frac{6\cdot 5}{2}$. Multiplikasjonsprinsippet forteller oss nå at det er $\frac{10\cdot 9\cdot 8 \cdot 7}{4\cdot 3\cdot 2\cdot 1}\cdot \frac{6\cdot 5}{2}$ forskjellige måter å fargelegge 4 av de ti rutene røde og så 2 av rutene gule.
    2. Hvordan ville det blitt om vi først velger de to som skal være gule, og så de fire som skal være røde?
    - Logikken blir lik som over, men fremgangen er noe ulik. Altså først $\frac{10\cdot 9}{2}$ og deretter $\frac{8\cdot 7\cdot 6\cdot 5}{4\cdot 3 \cdot 2 \cdot 1}$ og igjen får vi totalt $\frac{10\cdot 9}{2}\cdot \frac{8\cdot 7\cdot 6\cdot 5}{4\cdot 3 \cdot 2 \cdot 1}$ muligheter.
    3. Hva om vi velger rutene som ikke skal fargelegges, så de fire
         som skal være røde?
-   - Her får dere regne selv, men egg merke til at dette gir samme svar som de to oppgavene over. 
+   - Her får dere regne selv, men egg merke til at dette gir samme svar som de to oppgavene over.
 
 ## 24.04.23
 
@@ -410,9 +410,9 @@ Studenten må gi en forklaring som bruker begrepene, samt gi et eksempel.
 
 #### Middels: Avgjøre og begrunne om situasjoner er en sannsynlighetsmodell
 
-1. La et forsøk ha utfallsrommet \(U = { u_1, u_2, u_3, u_4, u_5} \). Hvis \(P(\{u_1, u_2, u_3\}) = 0.6\), gi et eksempel på hva \(P(\{u_4, u_5\})\) og \(P(u_6)\) kan være. Besvarelsen må være begrunnet.
+1. La et forsøk ha utfallsrommet $U = { u_1, u_2, u_3, u_4, u_5}$. Hvis $P(\{u_1, u_2, u_3\}) = 0.6$, gi et eksempel på hva $P(\{u_4, u_5\})$ og $P(u_6)$ kan være. Besvarelsen må være begrunnet.
 
-2. La et forsøk ha et utfallsrom \(U = { u_1, u_2, u_3, u_4, u_5} \). Forklar at \(P(\{u_3\})\) ikke kan være større enn \(0.4\) hvis \(P(\{u_1,u_3\}) = 0.7\) og \(P(\{u_2, u,3\}) = 0.7\).  
+2. La et forsøk ha et utfallsrom $U = { u_1, u_2, u_3, u_4, u_5}$. Forklar at $P(\{u_3\})$ ikke kan være større enn $0.4$ hvis $P(\{u_1,u_3\}) = 0.7$ og $P(\{u_2, u,3\}) = 0.7$.  
 
 ##### Vurderingskriterier
 
@@ -439,7 +439,7 @@ Studenten må konkludere med at modellen ikke er en uniform sannsynlighetsmodell
 
 #### Avansert: Sette opp uniforme sannsynlighetsmodeller fra en gitt situasjon
 
-Henrik og André spiller et spill der de først kaster en vanlig seksidet terning og deretter en mynt. Vi anter at det er like sannsynlig å få kron og mynt, og at alle seks sidene på terningen er like sannsynlig. Spillet fungerer slik: Når man har kastet en verdi, \(n\), på terningen så kaster man mynten. Hvis den lander på mynt, får man dobbler man verdien man fikk på terningen. Kaster man kron får man kun verdien man hadde på terningen.
+Henrik og André spiller et spill der de først kaster en vanlig seksidet terning og deretter en mynt. Vi anter at det er like sannsynlig å få kron og mynt, og at alle seks sidene på terningen er like sannsynlig. Spillet fungerer slik: Når man har kastet en verdi, $n$, på terningen så kaster man mynten. Hvis den lander på mynt, får man dobbler man verdien man fikk på terningen. Kaster man kron får man kun verdien man hadde på terningen.
 
 For eksempel vil et terningkast på 4 og så et kast som gir mynt gi 8 poeng, mens et terningkast på 6 og så en kron vil gi 6 poeng.
 
@@ -548,7 +548,7 @@ Forklar begrepet komplement ved hjelp av et eksempel.
 
 #### Middels: Forklare og illustrere komplementsetningen i sannsynlighet
 
-Sannsynligheten for hendelsen \(A\) er \(0.4\). Forklar, ved hjelp av en illustrasjon, hva \(P(A^C)\) er.
+Sannsynligheten for hendelsen $A$ er $0.4$. Forklar, ved hjelp av en illustrasjon, hva $P(A^C)$ er.
 
 ##### Vurderingskriterier
 
@@ -573,11 +573,11 @@ I en vanlig kortstokk med 52 kort finnes det fire sorter, hjerter, ruter, kløve
 - Hvor mange bridgehender med seks kort i en og samme farge finnes det?
   - Hva er sannsynligheten for å få ei slik hånd?
 
-Du trenger ikke regne ut verdiene. For eksempel holder det å skrive at et antall er \(30\cdot 29\cdot 28\).
+Du trenger ikke regne ut verdiene. For eksempel holder det å skrive at et antall er $30\cdot 29\cdot 28$.
 
 ##### Vurderingskriterier
 
-**Merk** Det stod opprinnelig ikke *nøyaktig* åtte kløver i oppgaveteksten. Derfor godtas flere tolkninger av første deloppgave. I tillegg er det også presisert *nøyaktig* i tredje deloppgave, men denne kunne også tolkes på flere måter. Det er uansett fremgangsmåten og logikken som tas tak i og utgjør om studenten får godkjent eller ikke. 
+**Merk** Det stod opprinnelig ikke *nøyaktig* åtte kløver i oppgaveteksten. Derfor godtas flere tolkninger av første deloppgave. I tillegg er det også presisert *nøyaktig* i tredje deloppgave, men denne kunne også tolkes på flere måter. Det er uansett fremgangsmåten og logikken som tas tak i og utgjør om studenten får godkjent eller ikke.
 
 I en vanlig kortstokk med 52 kort finnes det fire sorter, hjerter, ruter, kløver og spar. I hver sort er det 13 kort, kortene 1 til 10 i tillegg til en knekt, en dame og en konge. Når man spiller bridge får man en hånd bestående av 13 tilfeldige kort.
 

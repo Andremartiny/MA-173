@@ -32,7 +32,7 @@ c. Heftet.
 
 #### Middels: Utføre multiplikasjon med brøk,  24.04
 
-1. Forklar ved hjelp av en passende illustrasjon at \(5 \cdot \frac{3}{4} = \frac{3}{4} \cdot 5\).
+1. Forklar ved hjelp av en passende illustrasjon at $5 \cdot \frac{3}{4} = \frac{3}{4} \cdot 5$.
 
 2. Forklar kort ved hjelp av en passende illustrasjon hvorfor vi multipliserer teller med teller og nevner med nevner for å finne produktet av to brøker.  
 
@@ -40,8 +40,8 @@ c. Heftet.
 
 1. Må vise til struktur, ikke bare at «svarene» er like, slik som i
 eks under (feil tall, bare). Kvadratene er 1, grønn del 2/5. Figuren
-kan leses som *2/5 gjentatt tre ganger,* altså 3 ⋅ 2/5. Den kan også
-leses som *2/5 av tre,* altså 2/5 ⋅ 3.
+kan leses som _2/5 gjentatt tre ganger,_ altså 3 ⋅ 2/5. Den kan også
+leses som _2/5 av tre,_ altså 2/5 ⋅ 3.
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img//tal/24.04media/media/image1.png)
 
 1. Må vise til en figur som for eksempel den under (2/3 ⋅ 4/5):

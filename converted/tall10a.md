@@ -16,7 +16,7 @@ Heftet.
 
 #### Avansert: Utføre divisjon med brøk,  24.04
 
-Ta utgangspunkt i divisjonen \(9 : \frac{2}{3}\). Lag to passende kontekster, og bruk dem til å vise at \(9 : \frac{2}{3} = 9 \cdot \frac{3}{2}\).
+Ta utgangspunkt i divisjonen $9 : \frac{2}{3}$. Lag to passende kontekster, og bruk dem til å vise at $9 : \frac{2}{3} = 9 \cdot \frac{3}{2}$.
 
 a. Den ene konteksten skal gi delingsdivisjon.
 

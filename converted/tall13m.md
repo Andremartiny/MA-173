@@ -25,15 +25,15 @@
 #### Middels: Gjøre om mellom brøk og desimaltall,  24.04
 
 1. Gjør om til brøk.
-a. \(0,23\)
-b. \(0,2003\)
-c. \(0,0203\)
+a. $0,23$
+b. $0,2003$
+c. $0,0203$
 
 2. Gjør om til desimaltall.
 
-a. \(\frac{3}{15}\)
-b. \(\frac{35}{14}\)
-c. \(\frac{3}{20}\)
+a. $\frac{3}{15}$
+b. $\frac{35}{14}$
+c. $\frac{3}{20}$
 
 ##### Vurderingskriterier
 

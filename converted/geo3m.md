@@ -13,12 +13,12 @@
 ##### Løsningsforslag
 
 1. \
-   a. Ta utgangspunkt i animasjonen under og kall, blå, rød og grønn vinkel for $x$, $y$ og $z$. Vi ser at spaserturen viser at vi har dreid $360^\circ$ (summen av de ytre vinklene, de gule). Ser vi på indre vinkel pluss ytre vinkel ser vi at denne også alltid er $180^\circ$. Noe som tilsier at summen av indre og yre vinkler er $3\cdot 180^\circ$. Trekker vi fra summen av de ytre vinklene får vi $3\cdot 180^\circ-360^\circ = 180^\circ$. 
+   a. Ta utgangspunkt i animasjonen under og kall, blå, rød og grønn vinkel for $x$, $y$ og $z$. Vi ser at spaserturen viser at vi har dreid $360^\circ$ (summen av de ytre vinklene, de gule). Ser vi på indre vinkel pluss ytre vinkel ser vi at denne også alltid er $180^\circ$. Noe som tilsier at summen av indre og yre vinkler er $3\cdot 180^\circ$. Trekker vi fra summen av de ytre vinklene får vi $3\cdot 180^\circ-360^\circ = 180^\circ$.
    b. Forsøk selv, ved å bruke samme argument.
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/geo/Visvinkler.mp4){width=75%}
 
-2. Trekk en linje parallell med $f$ og $g$ gjennom vinkel $v$. Vi får da, ved å bruke parallellitetsegenskaper, at $v$ kan deles inn i to vinkler, en del som er $13^\circ$ og en del som er $35^\circ$. Vinkel $v$ er dermed $48^\circ$. *Merk*: Besvarelsen mangler en tegning. Gjør dette selv og forsøk å gjøre din egen besvarelse. 
+2. Trekk en linje parallell med $f$ og $g$ gjennom vinkel $v$. Vi får da, ved å bruke parallellitetsegenskaper, at $v$ kan deles inn i to vinkler, en del som er $13^\circ$ og en del som er $35^\circ$. Vinkel $v$ er dermed $48^\circ$. *Merk*: Besvarelsen mangler en tegning. Gjør dette selv og forsøk å gjøre din egen besvarelse.
 
 
 #### Middels: Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer,  24.04.23

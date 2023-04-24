@@ -16,7 +16,6 @@ den svarer til et endelig desimaltall. Begrunn ellers hvorfor dette ikke lar seg
    5. $\frac{18}{45}$
    6. $\frac{6}{18}$
 
-
 ##### Løsningsforslag
 
 2. \
@@ -30,17 +29,16 @@ Det er valgt litt dumme eksempler her, da 3 ser ut til å være
 eneste faktor i nevner som gjør at brøker ikke er endelige. Slik er det
 ikke: Det er hvis, og bare hvis, 2 og 5 er de eneste primfaktorene i den
 maksimalt forkorta nevneren, at brøken svarer til et endelig
-desimaltall. *Alle andre faktorer* i den maksimalt forkorta nevneren,
-gir *ikke* endelig desimaltall.
-
+desimaltall. _Alle andre faktorer_ i den maksimalt forkorta nevneren,
+gir _ikke_ endelig desimaltall.
 
 #### Middels: Begrunne hvilke brøker som svarer til endelige og hvilke som svarer til periodiske desimaltall,  24.04
 
 Avgjør og begrunn om brøkene er endelige eller periodiske, uten å utføre divisjon.
-a. \(\frac{18}{24}\)
-b. \(\frac{18}{25}\)
-c. \(\frac{12}{35}\)
-d. \(\frac{12}{30}\)
+a. $\frac{18}{24}$
+b. $\frac{18}{25}$
+c. $\frac{12}{35}$
+d. $\frac{12}{30}$
 
 ##### Vurderingskriterier
 

@@ -68,8 +68,8 @@ $$
 
 Regn ut.
 
-a. \(((\frac{4}{5} + \frac{1}{\frac{7}{3}}) \frac{1}{43})) \cdot 7 + \frac{4}{5}\)
-b. \(\frac{1}{2} - \frac{\frac{4}{11}((\frac{8}{6} : \frac{1}{3}) + \frac{2}{5})}{\frac{4}{2,5}}\)
+a. $((\frac{4}{5} + \frac{1}{\frac{7}{3}}) \frac{1}{43})) \cdot 7 + \frac{4}{5}$
+b. $\frac{1}{2} - \frac{\frac{4}{11}((\frac{8}{6} : \frac{1}{3}) + \frac{2}{5})}{\frac{4}{2,5}}$
 
 ##### Vurderingskriterier
 

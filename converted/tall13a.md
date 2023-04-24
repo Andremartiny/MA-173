@@ -30,21 +30,21 @@
 
 ##### Løsningsforslag
 
-2.  Gjør om til brøk.
+2. Gjør om til brøk.
 a.  $0,\overline{45}$
 $$
 \begin{aligned}
-100x 
+100x
 & = 45,\overline{45}
 \\
 -x
 &  =
 -0,\overline{45}
 \\
-\Rightarrow 99x 
+\Rightarrow 99x
 & = 45
 \\
-x & = \frac{45}{99} 
+x & = \frac{45}{99}
 = \frac{5}{11}
 \end{aligned}
 $$
@@ -53,16 +53,16 @@ b.  $0,0\overline{45}$
 
 $$
 \begin{aligned}
-1000x 
+1000x
 &= 45,\overline{45}
 \\
 10x
 &= 0,\overline{45}
 \\
-\Rightarrow 990x 
+\Rightarrow 990x
 & = 45
 \\
-x 
+x
 & = \frac{45}{990} = \frac{1}{22}
 \end{aligned}$$
 
@@ -76,16 +76,16 @@ d.  $0,123\overline{45}$
 
 $$
 \begin{aligned}
-100\ 000x 
+100\ 000x
 & = 12\ 345,\overline{345}
 \\
-100x 
+100x
 & = 12,\overline{345}
 \\
-\Rightarrow 99\ 900x 
+\Rightarrow 99\ 900x
 & = 12\ 333
 \\
-x 
+x
 & = \frac{12\ 333}{99\ 900} = \frac{4\ 111}{33\ 300}
 \end{aligned}$$
 
@@ -93,23 +93,23 @@ e.  $1,001001001\ldots$
 
 $$
 \begin{aligned}
-100\ 000x 
+100\ 000x
 & = 100\ 100,\overline{100}
 \\
-100x 
+100x
 & = 100,\overline{100}
 \\
-99\ 900x 
+99\ 900x
 & = 100\ 000
 \\
-x 
+x
 & = \frac{100\ 000}{99\ 900} = \frac{1000}{999}
 \end{aligned}$$
 
 Alternativt kunne vi sett bort fra eneren, gjort trikset på
 $0,00\overline{100}$, og lagt til $1$ etterpå.
 
-3.  Gjør om til brøk.
+3. Gjør om til brøk.
 
     a.  $0,111\ldots$ $= \frac{1}{9}$
 
@@ -124,11 +124,11 @@ $0,00\overline{100}$, og lagt til $1$ etterpå.
 #### Avansert: Gjøre om mellom brøk og desimaltall,  24.04
 
 1. Gjør om til brøk.
-a. \(0,\overline{23}\)
-b. \(0,2\overline{003}\)
+a. $0,\overline{23}$
+b. $0,2\overline{003}$
 2. Gjør om til desimaltall.
-a. \(\frac{3}{7}\)
-b. \(\frac{17}{6}\)
+a. $\frac{3}{7}$
+b. $\frac{17}{6}$
 
 ##### Vurderingskriterier
 

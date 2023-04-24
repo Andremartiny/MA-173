@@ -3,14 +3,16 @@
 1. *Se oppgaver fra tidligere nasjonal deleksamen fra seminar og i modulen nasjonal deleksamen.*
 
 
+#### Avansert: Løse lineære likninger ved hjelp av ulike strategier,  24.04
+
+Se 27.01.23
+
+
 #### Avansert: Løse lineære likninger ved hjelp av ulike strategier,  17.04.23
 
-En elev løser likningen $\frac{1}{5}(3x+1) = x + 5$ slik du ser under. Forklar hvordan eleven kan ha tenkt. Avgjør og begrunn om løsningen er riktig. Det som eventuelt er riktig, må begrunnes. Det som eventuelt er feil, må rettes opp i. 
-
-
+En elev løser likningen $\frac{1}{5}(3x+1) = x + 5$ slik du ser under. Forklar hvordan eleven kan ha tenkt. Avgjør og begrunn om løsningen er riktig. Det som eventuelt er riktig, må begrunnes. Det som eventuelt er feil, må rettes opp i.
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-16-18-56-37.png)
-
 
 #### Vurderingskriterier avansert:  17.04.23
 
@@ -46,7 +48,7 @@ Noen mellomtrinnselever fikk denne utfordringen: En bil, sjåfør og tilhenger v
 
 Under ser du tre elevers løsninger. Forklar hvordan de har tolket og løst oppgaven.
 
-![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-15-14-41.png)   
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-15-14-41.png)
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-15-14-45.png)  
   

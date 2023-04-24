@@ -37,25 +37,25 @@ pandoc .\quizzer\likninger\likninger.md -f markdown -t html --mathjax --template
    c) Løsning 1: Utvider til 2-deler, sammenlikner tellerne. Hvis *noe* pluss 10 er null, er *noe* -10.
    $$
    \begin{aligned}
-   \frac{3x}{2}+5 
+   \frac{3x}{2}+5
    & = \frac{x}{2}
    \\
    \frac{ 3x + 10 }{2}
    & = \frac{x}{2}
    \\
-   2x + 10 
+   2x + 10
    & = 0
    \\
-   x 
-   & = 
+   x
+   & =
    -5.
    \end{aligned}
    $$
    Løsning 2: Sorterer uttrykk med ukjent på VS, tall på HS (trekker fra $\frac{x}{2}$ og $5$ på begge sider av likhetstegnet). To halve er én hel.
    $$
    \begin{aligned}
-   \frac{3x}{2} + 5 
-   & = 
+   \frac{3x}{2} + 5
+   & =
    \frac{x}{2}
    \\
    \frac{3x}{2}- \frac{x}{2}
@@ -65,19 +65,18 @@ pandoc .\quizzer\likninger\likninger.md -f markdown -t html --mathjax --template
    \end{aligned}
    $$
    \
-   b. Starter i hvert tilfelle med $x$, og leser likninga fra venstre. Deretter rygger vi steg for steg: Starter med *svaret*, og leser (det vil si regner) baklengs med motsatte regneoperasjoner til vi er tilbake på $x$. 
-   a) 20. Gange med to (40), trekke fra ti (30), dele på tre (10). 
-   b) 15. Trekke fra seks (9), gange med fire (24). 
+   b. Starter i hvert tilfelle med $x$, og leser likninga fra venstre. Deretter rygger vi steg for steg: Starter med *svaret*, og leser (det vil si regner) baklengs med motsatte regneoperasjoner til vi er tilbake på $x$.
+   a) 20. Gange med to (40), trekke fra ti (30), dele på tre (10).
+   b) 15. Trekke fra seks (9), gange med fire (24).
    c) 10. Gange med tre (30), legge til femten (45), dele på fem (7). \
    \
    c. Holde over: \
    \
-   a) TELLER delt på to er tjue; TELLER er 40. NOE pluss ti er førti; NOE er 30. Det tredobbelt av tallet er tretti; tallet er 10. 
-   b) Noe + 6 = 15, noe = 9. En firedel av noe er 9, noe er 36. 
-   c) Teller er 30; 5x er 45; x er 7. 
-   d) Noe + 5 = 37; noe = 32. Det dobbelte av noe er 32; noe er 16. Tallet i andre er 16; tallet er 4. 
-   e) To ganger noe er 20; noe er 10. $\pi$ ganger tallet er 10; tallet $\frac{10}{\pi}$. . 
-
+   a) TELLER delt på to er tjue; TELLER er 40. NOE pluss ti er førti; NOE er 30. Det tredobbelt av tallet er tretti; tallet er 10.
+   b) Noe + 6 = 15, noe = 9. En firedel av noe er 9, noe er 36.
+   c) Teller er 30; 5x er 45; x er 7.
+   d) Noe + 5 = 37; noe = 32. Det dobbelte av noe er 32; noe er 16. Tallet i andre er 16; tallet er 4.
+   e) To ganger noe er 20; noe er 10. $\pi$ ganger tallet er 10; tallet $\frac{10}{\pi}$. .
 
 #### Avansert: Analysere elevers løsningsstrategier
 
@@ -189,28 +188,128 @@ pandoc .\quizzer\likninger\likninger.md -f markdown -t html --mathjax --template
     formelen som gir løsningene på enhver andregradslikning,
     $x = \frac{- b \pm \sqrt{b^{2} - 4ac}}{2a}$.
 
+## 24.04
+
+### Løse lineære likninger ved hjelp av ulike strategier
+
+#### Grunnleggende: Løse likninger, formelt og grunnskoletilpasset
+
+Løs likningen $3(x-1)=2(x+1)$ på to måter, formelt og grunnskoletilpasset.
+
+##### Vurderingskriterier: Grunnleggende
+
+Her *må* de løse likningen både formelt og grunnskoletilpasset. Formelt vil være med algebra og grunnskoletilpasset kan for eksempel være gjett og sjekk.
+
+#### Middels: Forklare og begrunne løsningsstrategier, formelt og grunnskoletilpasset
+
+Løs likningen på to måter, formelt og uformelt. La det gå klart frem at hvert steg i løsningen din må være riktig.
+$3 + \frac{12}{\frac{3x+3}{8}} = 7 $
+
+##### Vurderingskriterier: Middels
+
+Løses på to måter, formelt (vanlig) og uformelt (for eksempel «holde over»). 3 + noe er 7, noe er 4 og så videre.
+
+#### Avansert: Analysere elevers løsningsstrategier
+
+Se 27.01.23
+
+### Løse lineære ulikheter ved hjelp av ulike strategier
+
+#### Grunnleggende: Løse ulikheter
+
+Grunnleggende: Se 20.01.23
+
+#### Middels: Forklare og begrunne løsningsstrategier
+
+Middels: Se 20.01.23
+
+#### Avansert: Analysere elevers løsningsstrategier
+
+Avansert: Se 27.01.23
+
+### Løse lineære likningssett med to ukjente på ulike måter
+
+#### Grunnleggende: Løse likningssett ved hjelp av innsetting, addisjonsmetoden og grafisk
+
+Se 17.04.23
+
+#### Middels: Tolke problemstillinger som svarer til likningssett, og løse disse ved hjelp av innsetting, addisjonsmetoden og grafisk og uten bruk av likninger
+
+Henrik befinner seg i Retnym, der myntenheten heter Renork (ren), og myntene bare finnes i valørene 3 og 5 ren. Her har han handlet et verdifullt eksemplar av Euklids Elementer. Han betalte med 17 mynter til en verdi av 69 ren. Hvor mange mynter av hver valør betalte Henrik for boka?
+a. Løs oppgaven uten å bruke likninger eller gjett og sjekk.
+b. Løs oppgaven ved å sette og løse et likningssett på to måter.
+
+##### Vurderingskriterier: Middels {#332}
+
+Begge oppgavene må gjøres
+
+1. Fordeler 17 3-ere, som gir 51 ren. Det er 18 for lite. 18:2=9, så må ha ni 5-ere og resten, det vil si åtte 3-ere.  
+
+### Løse kvadratiske likninger ved hjelp av fullstendige kvadraters metode
+
+#### Grunnleggende: Løse likninger med heltallige koeffisienter og løsninger
+
+Se 03.02.23
+
+#### Middels: Løse likninger med rasjonale koeffisienter og løsninger
+
+Se 03.02.23
+
+#### Avansert: Løse likninger med rasjonale koeffisienter og irrasjonale løsninger
+
+Se 03.02.23
+
+### Bruke de tre kvadratsetningene
+
+#### Grunnleggende: Gjengi og vise kvadratsetningene algebraisk
+
+Gjengi og vis de tre kvadratsetningene algebraisk
+
+##### Vurderingskriterier: Grunnleggende {#351}
+
+Her *må* første og tredje kvadratsetning gjengis.
+
+#### Middels: Illustrere kvadratsetningene geometrisk
+
+Illustrer andre og tredje kvadratsetning geometrisk. Bruk illustrasjonene til å gi en forklaring av identitetene.
+
+##### Vurderingskriterier: Middels
+
+Her *må* andre og tredje kvadratsetning illustrerer geometrisk og brukes til å forklare identitetene.
+
+#### Avansert: Bruke kvadratsetningene til å faktorisere uttrykk
+
+Faktoriser uttrykkene ved hjelp kvadratsetningene.
+
+a. $10x^2 + 3(2x^2-y(8x-3y))$.
+b. $x^4-9y^2$
+
+##### Vurderingskriterier: Avansert
+
+a. $(4x-3y)^2$
+b. $(x^2+3y)(x^2-3y)$
+
 ## 17.04.23
 
 ### Løse lineære likninger ved hjelp av ulike strategier
 
 #### Grunnleggende: Løse likninger, formelt og grunnskoletilpasset
 
-Løs likningen $3(x-1)=2(x+1)$ på to måter, formelt og grunnskoletilpasset. 
+Løs likningen $3(x-1)=2(x+1)$ på to måter, formelt og grunnskoletilpasset.
 
-##### Vurderingskriterier: Grunnleggende 
+##### Vurderingskriterier: Grunnleggende
 
-Her *må* de løse likningen både formelt og grunnskoletilpasset. Formelt vil være med algebra og grunnskoletilpasset kan for eksempel være gjett og sjekk. 
+Her *må* de løse likningen både formelt og grunnskoletilpasset. Formelt vil være med algebra og grunnskoletilpasset kan for eksempel være gjett og sjekk.
 
 #### Middels: Forklare og begrunne løsningsstrategier, formelt og grunnskoletilpasset
 
-
 En lærer ga elevene følgende tallgåte: "Tenk på et tall. Legg til fem, og multipliser summen med fire. Trekk så fra seks, og del det du fikk på to. Trekk til slutt fra syv. Hvis du forteller meg tallet du nå har, skal jeg fortelle deg hvilket tall du tenkte på." En elev oppgir åtte. Hvilket tall tenkte hun på? Løs problemet på to måter.  
 
-##### Vurderingskriterier: Middels 
+##### Vurderingskriterier: Middels
 
 Studenten må løse problemet på to måter. For eksempel kan de jobbe baklengs. De endte med åtte. Dette fikk de ved å trekke fra syv. Da hadde de altså $15$. Tallet $15$ kom fra å dele på to, så da hadde de $30$. Igjen kom $30$ fra en subtraksjon på $6$, så de hadde $36$ på det tidspunktet. Siden $36$ kom fra å multiplisere med $4$ kan vi gå baklengs ved å ta $\frac{36}{4} = 9$. Tallet $9$ fikk de ved å legge til fem, så vi finner det originale tallet ved å trekke fra fem. De må altså ha begynt med $4$.
 
-En annen måte vil være algebraisk. Da kan vi skrive opp hele rekken. Vi kaller tallet eleven tenke på for $a$. Gjennom forklaringen får vi vite at 
+En annen måte vil være algebraisk. Da kan vi skrive opp hele rekken. Vi kaller tallet eleven tenke på for $a$. Gjennom forklaringen får vi vite at
 $$
 \frac{(a+5)\cdot 4 - 6}{2}-7 = 8.
 $$
@@ -218,12 +317,9 @@ Løser de denne ligningen vil de essensielt gjøre det samme som er gjort over (
 
 #### Avansert: Analysere elevers løsningsstrategier
 
-En elev løser likningen $\frac{1}{5}(3x+1) = x + 5$ slik du ser under. Forklar hvordan eleven kan ha tenkt. Avgjør og begrunn om løsningen er riktig. Det som eventuelt er riktig, må begrunnes. Det som eventuelt er feil, må rettes opp i. 
-
-
+En elev løser likningen $\frac{1}{5}(3x+1) = x + 5$ slik du ser under. Forklar hvordan eleven kan ha tenkt. Avgjør og begrunn om løsningen er riktig. Det som eventuelt er riktig, må begrunnes. Det som eventuelt er feil, må rettes opp i.
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-16-18-56-37.png)
-
 
 ##### Vurderingskriterier: Avansert {#313}
 
@@ -243,7 +339,7 @@ som ville ført til at $x = 12$.
 
 Løs ulikheten $2(3-x) \leq 6$.
 
-##### Vurderingskriterier: Grunnleggende 
+##### Vurderingskriterier: Grunnleggende
 
 Her må de bare løse ulikheten.
 
@@ -259,13 +355,13 @@ Studenten må fullføre illustrasjonene (se for eksempel heftet).
 
 #### Avansert: Analysere elevers løsningsstrategier
 
-En klasse fikk i oppgave å vise ved hjelp av en illustrasjon at hvis $-x < 5$ så er $x > -5$. En elev besvarte oppgaven slik du ser under. Kommenter hva som ikke er riktig i besvarelsen, og rett opp i den slik at den blir riktig. 
+En klasse fikk i oppgave å vise ved hjelp av en illustrasjon at hvis $-x < 5$ så er $x > -5$. En elev besvarte oppgaven slik du ser under. Kommenter hva som ikke er riktig i besvarelsen, og rett opp i den slik at den blir riktig.
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-16-20-39-01.png)
 
 ##### Vurderingskriterier: Avansert
 
-Studentene må peke på problemet med at pilen går fra origo, deretter rette opp i den (se heftet). 
+Studentene må peke på problemet med at pilen går fra origo, deretter rette opp i den (se heftet).
 
 ### Løse lineære likningssett med to ukjente på ulike måter
 
@@ -306,7 +402,7 @@ Innsetting kan vi løse ved å for eksempel ta første likning $2x = 3y -11$ og 
 
 #### Middels: Tolke problemstillinger som svarer til likningssett, og løse disse ved hjelp av innsetting, addisjonsmetoden og grafisk og uten bruk av likninger
 
-To tall har følgende to egenskaper: Egenskap 1: Divisjon av det en tallet med det andre gir $3$ og $1$ i rest. Egenskap 2: En femdel av én mer enn differansen mellom tallene, er $2$. Avgjør ved hjelp av en formell strategi hvilke to tall det er snakk om. 
+To tall har følgende to egenskaper: Egenskap 1: Divisjon av det en tallet med det andre gir $3$ og $1$ i rest. Egenskap 2: En femdel av én mer enn differansen mellom tallene, er $2$. Avgjør ved hjelp av en formell strategi hvilke to tall det er snakk om.
 
 André panter $30$ flasker, og får $72$ kroner. Noen flasker gir to og resten tre kroner i pant. Uten bruk av likninger eller gjett og sjekk, avgjør hvor mange flasker André pantet av hver type.
 
@@ -314,7 +410,7 @@ André panter $30$ flasker, og får $72$ kroner. Noen flasker gir to og resten t
 
 Begge oppgavene må gjøres
 
-1. Studenten kan løse ved oppgaven ved å innse at første egenskap gir $x = 3y + 1$ og andre egenskap gir $\frac{x-y+1}{5} = 2$. Setter vi inn får vi $\frac{3y+1-y-1+1}{5} = 2$, eller at $2y+2 = 10$ eller at $y = 4$. Det gir altså at $x = 12+1$, altså $13$. 
+1. Studenten kan løse ved oppgaven ved å innse at første egenskap gir $x = 3y + 1$ og andre egenskap gir $\frac{x-y+1}{5} = 2$. Setter vi inn får vi $\frac{3y+1-y-1+1}{5} = 2$, eller at $2y+2 = 10$ eller at $y = 4$. Det gir altså at $x = 12+1$, altså $13$.
 2. Studenten kan gi et logisk ressonement. For eksempel kan de peke på at hvis en kun panter flasker som gir $2$kr, så får André $60$ kroner. Ved å øke hver flaske som koster $2$kr til $3$kr øker vi panten han får med $1$kr. Siden $72$ kroner er $12$ mer enn $60$, så må han altså ha $18$ flasker som gir $2$kr og $12$ som gir tre.
 
 ### Løse kvadratiske likninger ved hjelp av fullstendige kvadraters metode
@@ -594,7 +690,7 @@ Noen mellomtrinnselever fikk denne utfordringen: En bil, sjåfør og tilhenger v
 
 Under ser du tre elevers løsninger. Forklar hvordan de har tolket og løst oppgaven.
 
-![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-15-14-41.png)   
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-15-14-41.png)
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-15-14-45.png)  
   

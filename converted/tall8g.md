@@ -6,8 +6,8 @@
 #### Grunnleggende: Utføre addisjon og subtraksjon med brøk,  24.04
 
 Regn ut.
-a. \(\frac{2}{5} + \frac{7}{3}\)
-b. \(\frac{7}{3} - \frac{3}{4}\)
+a. $\frac{2}{5} + \frac{7}{3}$
+b. $\frac{7}{3} - \frac{3}{4}$
 
 ##### Vurderingskriterier
 

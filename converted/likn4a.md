@@ -21,6 +21,10 @@
     $x = \frac{- b \pm \sqrt{b^{2} - 4ac}}{2a}$.
 
 
+#### Avansert: Løse kvadratiske likninger ved hjelp av fullstendige kvadraters metode,  24.04
+
+Se 03.02.23
+
 #### Avansert: Løse kvadratiske likninger ved hjelp av fullstendige kvadraters metode,  17.04.23
 
 1. Løs likningen $x^2 + x = 3$ med fullstendige kvadraters metode.

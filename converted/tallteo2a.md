@@ -16,7 +16,7 @@
 
 #### Avansert: Bruke begrepene naturlig tall, partall og oddetall, primtall og sammensatt tall,  24.04
 
-Hvis vi skal gange et tosifret tall med \(11\), kan vi gjøre det på denne måten, dersom tverrsummen er mindre enn ti: Sett første siffer på hundrerplassen, tverrsummen på tierplassen og andre siffer på enerplassen. Eksempelvis er da \(35\cdot 11=385\). Vis at dette er sant for alle tosifra tall med tverrsum lavere enn ti.
+Hvis vi skal gange et tosifret tall med $11$, kan vi gjøre det på denne måten, dersom tverrsummen er mindre enn ti: Sett første siffer på hundrerplassen, tverrsummen på tierplassen og andre siffer på enerplassen. Eksempelvis er da $35\cdot 11=385$. Vis at dette er sant for alle tosifra tall med tverrsum lavere enn ti.
 
 ##### Vurderingskriterier
 

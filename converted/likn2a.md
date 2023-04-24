@@ -4,15 +4,20 @@
 1. *Se oppgaver fra tidligere nasjonal deleksamen fra seminar.*
 
 
+#### Avansert: Løse lineære ulikheter ved hjelp av ulike strategier,  24.04
+
+Avansert: Se 27.01.23
+
+
 #### Avansert: Løse lineære ulikheter ved hjelp av ulike strategier,  17.04.23
 
-En klasse fikk i oppgave å vise ved hjelp av en illustrasjon at hvis $-x < 5$ så er $x > -5$. En elev besvarte oppgaven slik du ser under. Kommenter hva som ikke er riktig i besvarelsen, og rett opp i den slik at den blir riktig. 
+En klasse fikk i oppgave å vise ved hjelp av en illustrasjon at hvis $-x < 5$ så er $x > -5$. En elev besvarte oppgaven slik du ser under. Kommenter hva som ikke er riktig i besvarelsen, og rett opp i den slik at den blir riktig.
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-16-20-39-01.png)
 
 #### Vurderingskriterier avansert:  17.04.23
 
-Studentene må peke på problemet med at pilen går fra origo, deretter rette opp i den (se heftet). 
+Studentene må peke på problemet med at pilen går fra origo, deretter rette opp i den (se heftet).
 
 
 #### Avansert: Løse lineære ulikheter ved hjelp av ulike strategier,  17.02.23

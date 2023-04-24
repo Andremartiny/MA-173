@@ -12,9 +12,9 @@ får vi at $P\left( u_{3} \right) = 0.5$.\
 
 #### Middels: Forklare og bruke begrepene utfallsrom, utfall og hendelse og sannsynlighetsmodell,  24.04.23
 
-1. La et forsøk ha utfallsrommet \(U = { u_1, u_2, u_3, u_4, u_5} \). Hvis \(P(\{u_1, u_2, u_3\}) = 0.6\), gi et eksempel på hva \(P(\{u_4, u_5\})\) og \(P(u_6)\) kan være. Besvarelsen må være begrunnet.
+1. La et forsøk ha utfallsrommet $U = { u_1, u_2, u_3, u_4, u_5}$. Hvis $P(\{u_1, u_2, u_3\}) = 0.6$, gi et eksempel på hva $P(\{u_4, u_5\})$ og $P(u_6)$ kan være. Besvarelsen må være begrunnet.
 
-2. La et forsøk ha et utfallsrom \(U = { u_1, u_2, u_3, u_4, u_5} \). Forklar at \(P(\{u_3\})\) ikke kan være større enn \(0.4\) hvis \(P(\{u_1,u_3\}) = 0.7\) og \(P(\{u_2, u,3\}) = 0.7\).  
+2. La et forsøk ha et utfallsrom $U = { u_1, u_2, u_3, u_4, u_5}$. Forklar at $P(\{u_3\})$ ikke kan være større enn $0.4$ hvis $P(\{u_1,u_3\}) = 0.7$ og $P(\{u_2, u,3\}) = 0.7$.  
 
 ##### Vurderingskriterier
 

@@ -27,8 +27,8 @@ $\frac{3}{12} + \frac{8}{12} = \frac{11}{12}$.
 
 Regn ut, og gi en forklaring med illustrasjon som viser at beregningen må være riktig.
 
-a. \(\frac{2}{5} + \frac{1}{4}\)
-b. \(\frac{5}{6} - \frac{1}{3}\)
+a. $\frac{2}{5} + \frac{1}{4}$
+b. $\frac{5}{6} - \frac{1}{3}$
 
 ##### Vurderingskriterier
 

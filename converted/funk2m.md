@@ -86,7 +86,6 @@ Finne likninga og forklare hvordan på en slik måte at man klart forstår det g
 
 Anta at en lineær funksjon $f$ går gjennom punktene $(\frac{9}{3}, 7)$ og $(\frac{18}{3}, 10)$. Forklar hvordan vi kan finne likninga til den lineære funksjonen.
 
-
 #### Vurderingskriterier middels:  3.02.23
 
 Finne likninga og forklare hvordan på en slik måte at man klart forstår det generelle i fremgangsmåten (kunne åpenbart blitt brukt for hvilke som helst punkt-par).

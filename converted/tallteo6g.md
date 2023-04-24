@@ -29,7 +29,7 @@
 
 Ved å illustrere figurtallene og markere i illustrasjonen, gi en ordforklaring av
 
-1. en eksplisitt sammenheng mellom figurtall nummer \(n\) og antall prikker i figurtallet.
+1. en eksplisitt sammenheng mellom figurtall nummer $n$ og antall prikker i figurtallet.
 
 2. en rekursiv sammenheng mellom to påfølgende figurtall.
 

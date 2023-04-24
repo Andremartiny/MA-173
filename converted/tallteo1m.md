@@ -29,7 +29,7 @@
 
 #### Middels: Bruke begrepene faktor (divisor), felles faktor og største felles faktor, multiplum, felles multiplum og minste felles multiplum,  24.04
 
-La \(a\) og \(b\) være to naturlige tall med største felles faktor \(10\) og minste felles multiplum \(1050\). Hvis \(a = 30\) hva er da \(b\)? Begrunn.
+La $a$ og $b$ være to naturlige tall med største felles faktor $10$ og minste felles multiplum $1050$. Hvis $a = 30$ hva er da $b$? Begrunn.
 
 ##### Vurderingskriterier
 

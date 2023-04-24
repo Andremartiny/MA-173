@@ -74,19 +74,19 @@ man avgjør er relatert til måleenheten.
 ##### Løsningsforslag
 
 1. \
-   a. Ta utgangspunkt i animasjonen under og kall, blå, rød og grønn vinkel for $x$, $y$ og $z$. Vi ser at spaserturen viser at vi har dreid $360^\circ$ (summen av de ytre vinklene, de gule). Ser vi på indre vinkel pluss ytre vinkel ser vi at denne også alltid er $180^\circ$. Noe som tilsier at summen av indre og yre vinkler er $3\cdot 180^\circ$. Trekker vi fra summen av de ytre vinklene får vi $3\cdot 180^\circ-360^\circ = 180^\circ$. 
+   a. Ta utgangspunkt i animasjonen under og kall, blå, rød og grønn vinkel for $x$, $y$ og $z$. Vi ser at spaserturen viser at vi har dreid $360^\circ$ (summen av de ytre vinklene, de gule). Ser vi på indre vinkel pluss ytre vinkel ser vi at denne også alltid er $180^\circ$. Noe som tilsier at summen av indre og yre vinkler er $3\cdot 180^\circ$. Trekker vi fra summen av de ytre vinklene får vi $3\cdot 180^\circ-360^\circ = 180^\circ$.
    b. Forsøk selv, ved å bruke samme argument.
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/geo/Visvinkler.mp4){width=75%}
 
-2. Trekk en linje parallell med $f$ og $g$ gjennom vinkel $v$. Vi får da, ved å bruke parallellitetsegenskaper, at $v$ kan deles inn i to vinkler, en del som er $13^\circ$ og en del som er $35^\circ$. Vinkel $v$ er dermed $48^\circ$. *Merk*: Besvarelsen mangler en tegning. Gjør dette selv og forsøk å gjøre din egen besvarelse. 
+2. Trekk en linje parallell med $f$ og $g$ gjennom vinkel $v$. Vi får da, ved å bruke parallellitetsegenskaper, at $v$ kan deles inn i to vinkler, en del som er $13^\circ$ og en del som er $35^\circ$. Vinkel $v$ er dermed $48^\circ$. *Merk*: Besvarelsen mangler en tegning. Gjør dette selv og forsøk å gjøre din egen besvarelse.
 
 #### Avansert: Utforske og løse ukjente problemet knyttet til begrepene
 
 1. En korde-tangent-vinkel har størrelse *v*. Hvor stor er sirkelbuen
     den skjærer av? (Merk: En tangent står vinkelrett på linjen fra
     sentrum av sirkelen til tangeringspunktet).\
-    
+
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/geo/image2.png)
 
 ##### Løsningsforslag
@@ -177,7 +177,7 @@ Vi vet at $A = \frac{(a+b)h}{2}$. Skalerer vi opp trapeset og bevarer formen få
 $$
 \begin{aligned}
 \frac{b}{a}
-& = 
+& =
 \frac{a}{\frac{b}{2}}
 \\
 x & = \frac{2a}{2\frac{b}{2}}
@@ -214,7 +214,7 @@ Under ser du en figur av tre formlike trekanter. Avgjør lengden på de resteren
 
 ##### Løsningsforslag
 
-1. Vi ser at $a$ samsvarer med $d$ og $g$, at $b$ samsvarer med $e$ og $h$ og at $c$ samsvarer med $f$ og $h$. For å skalere $a = 3$ til $g = 4$, må vi skalere med $\frac{4}{3}$. Dermed må $b = 6$ skaleres til $6\cdot \frac{4}{3} = 8 = h$. For å gå fra $i$ til $c$ må vi skalere ned med $\frac{3}{4}$. Det gir at $c = 1 \cdot \frac{3}{4} = \frac{3}{4}$. 
+1. Vi ser at $a$ samsvarer med $d$ og $g$, at $b$ samsvarer med $e$ og $h$ og at $c$ samsvarer med $f$ og $h$. For å skalere $a = 3$ til $g = 4$, må vi skalere med $\frac{4}{3}$. Dermed må $b = 6$ skaleres til $6\cdot \frac{4}{3} = 8 = h$. For å gå fra $i$ til $c$ må vi skalere ned med $\frac{3}{4}$. Det gir at $c = 1 \cdot \frac{3}{4} = \frac{3}{4}$.
 
 ### Argumentere visuelt for Pytagoras setning
 
@@ -232,7 +232,6 @@ Pytagoras setning sier at for enhver rettvinklet trekant, så gjelder at $a^2+b^
 Gi et grunnskoletilpasset bevis for Pytagoras setning med et visuelt argument.
 
 ##### Løsningsforslag
-
 
 Se for eksempel Alfa.
 
@@ -465,12 +464,12 @@ Finn lengden på hypotenusen i en rettvinklet trekant når du vet at katetene ha
 a.  5 og 6
 b.  3 og 11
 
-Utregningene skal ikke være avrundet og skal gis i eksakte verdier. Det vil si at hvis svaret er \(\sqrt{1^{2} + 2^{2}} = \sqrt{5}\), så skal ikke dette rundes av til \(2,236\).
+Utregningene skal ikke være avrundet og skal gis i eksakte verdier. Det vil si at hvis svaret er $\sqrt{1^{2} + 2^{2}} = \sqrt{5}$, så skal ikke dette rundes av til $2,236$.
 
 ##### Vurderingskriterier
 
 a. Studenten må bruke Pytagoras setninging. For eksempel kan de peke på at vi vet at $5^2 + 6^2 = h^2$, som betyr at $h = \sqrt{25+36} = \sqrt{61}$.
-b. Vi ser tilsvarende at $3^2+11^2 = 9+121 = 130 = h^2$, som betyr at $h = \sqrt 130$. 
+b. Vi ser tilsvarende at $3^2+11^2 = 9+121 = 130 = h^2$, som betyr at $h = \sqrt 130$.
 
 #### Middels: Bruke Pytagoras setning til å løse problemer
 
@@ -481,7 +480,6 @@ På figuren under ser du et rektangel med sidelengder $\sqrt 2$ og $x$. Rektange
 ##### Vurderingskriterier
 
 Studenten må løse for $x$. Siden rektangelet er rotert $45^\circ$ får vi en rettvinklet likebeint trekant med hypotenus lik $\sqrt 2$. Pytagoras gir nå at $a^2 + a^2 = 2$ eller at $a^2 = 1$ som betyr at $a = 1$, der $a$ er lengden $DG$. Det betyr at $GC = \sqrt 8$. Igjen er trekanten $GCF$ likebeint og rettvinklet som gir at $GC ^2 + CF^2 = x^2$ og siden $GC = CF$ får vi at $2(\sqrt 8) ^2 = x ^2$, eller at $16 = x^2$ som betyr at $x = 4$.  
-
 
 ## 17.04.23
 
@@ -635,7 +633,7 @@ På figuren under ser du  et parallellogram med sidelengder $x$ og $y$. Trekante
 ##### Vurderingskriterier
 
 1. Studenten trenger kun å peke på at $GH = x+a$ og så følger resultatet fra Pytagoras setning. Ved å trekke en normal ned fra $F$ til $DE$, kan en raskt innse at $DF^2 = (x-a)^2+b^2$ på samme måte som man gjorde med $GH$.
-2. Studenten må regne seg frem og konkludere med påstanden på en forståelig måte. For eksempel kan de begynne med å peke på at $GE^2 = (x+a)^2 + b^2 =x^2+2xa +a^2+b^2$ og at $DF^2 = x^2 -2xa+a^2+b^2$. Legger vi nå sammen $GE^2+DF^2$ får vi $2x^2 +2(a^2+b^2)$. Skal påstanden stemme må $a^2+b^2 = y^2$, men dette ser vi at stemmer ved å bruke at $FHG$ er rettvinklet med sidelengder $a$, $b$ og $y$. 
+2. Studenten må regne seg frem og konkludere med påstanden på en forståelig måte. For eksempel kan de begynne med å peke på at $GE^2 = (x+a)^2 + b^2 =x^2+2xa +a^2+b^2$ og at $DF^2 = x^2 -2xa+a^2+b^2$. Legger vi nå sammen $GE^2+DF^2$ får vi $2x^2 +2(a^2+b^2)$. Skal påstanden stemme må $a^2+b^2 = y^2$, men dette ser vi at stemmer ved å bruke at $FHG$ er rettvinklet med sidelengder $a$, $b$ og $y$.
 
 ## 31.03.23
 
@@ -699,7 +697,7 @@ Påstand: La $ABC$ være en vilkårlig trekant. Hvis $I$ og $M$ er midtpunktene 
 
 ##### Vurderingskriterier
 
-Studenten må gi en forståelig forklaring. Siden påstanden de skal bruke peker på trekanter er det naturlig at studenten trekker diagonalen i firkanten. Dermed kan de nå bruke at $E$, $F$, $G$, og $H$ alle er midtpunkter til å peke på at for eksempel $EF$ og $HG$ er parallell med samme diagonal, noe som betyr at de også må være parallelle. Tilsvarende kan de argumentere for $EH$ og $FG$. 
+Studenten må gi en forståelig forklaring. Siden påstanden de skal bruke peker på trekanter er det naturlig at studenten trekker diagonalen i firkanten. Dermed kan de nå bruke at $E$, $F$, $G$, og $H$ alle er midtpunkter til å peke på at for eksempel $EF$ og $HG$ er parallell med samme diagonal, noe som betyr at de også må være parallelle. Tilsvarende kan de argumentere for $EH$ og $FG$.
 
 ### Bruke begrepene kvadrat, rektangel, parallellogram, trapes, likebeint trekant, likesidet trekant, rettvinklet trekant, mangekant, sirkel
 
@@ -883,7 +881,7 @@ z^2 + 10^2
 & =
 10^2 + 20y + y^2
 \\
-z^2 
+z^2
 & =
 y^2 + 20y
 \end{aligned}
@@ -897,7 +895,6 @@ y^2 & = z^2 - 10 z.
 \end{aligned}
 $$
 Ved å bruke innsetning kan vi nå se at $z^2 = z^2 - 10 z + 20y$ eller at $10z = 20 y$ eller at $z = 2y$. Det gir videre at $y^2 = (2y)^2 - 20y$. Som nå gir at $3y^2 = 20y$ eller at $y = \frac{20}{3}$, som betyr at $z = \frac{40}{3}$.
-
 
 ## 17.02.23
 

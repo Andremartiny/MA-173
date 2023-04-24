@@ -521,7 +521,7 @@ b.  Hvilke uttrykk stemmer? Argumenter ved hjelp av figuren og ved å
 
 #### Middels: Argumentere for enkle sammenhenger knyttet til begrepene
 
-La \(a\) og \(b\) være to naturlige tall med største felles faktor \(10\) og minste felles multiplum \(1050\). Hvis \(a = 30\) hva er da \(b\)? Begrunn.
+La $a$ og $b$ være to naturlige tall med største felles faktor $10$ og minste felles multiplum $1050$. Hvis $a = 30$ hva er da $b$? Begrunn.
 
 ##### Vurderingskriterier
 
@@ -558,7 +558,7 @@ Besvarelsen må inneholde både algebraiske definisjoner, ordforklaringer og ill
 
 #### Avansert: Løse (også ukjente) problemer knyttet til begrepene
 
-Hvis vi skal gange et tosifret tall med \(11\), kan vi gjøre det på denne måten, dersom tverrsummen er mindre enn ti: Sett første siffer på hundrerplassen, tverrsummen på tierplassen og andre siffer på enerplassen. Eksempelvis er da \(35\cdot 11=385\). Vis at dette er sant for alle tosifra tall med tverrsum lavere enn ti.
+Hvis vi skal gange et tosifret tall med $11$, kan vi gjøre det på denne måten, dersom tverrsummen er mindre enn ti: Sett første siffer på hundrerplassen, tverrsummen på tierplassen og andre siffer på enerplassen. Eksempelvis er da $35\cdot 11=385$. Vis at dette er sant for alle tosifra tall med tverrsum lavere enn ti.
 
 ##### Vurderingskriterier
 
@@ -702,7 +702,7 @@ Under ser dere dere de tre figurtallene $F_1$, $F_2$ og $F_3$
 
 Ved å illustrere figurtallene og markere i illustrasjonen, gi en ordforklaring av
 
-1. en eksplisitt sammenheng mellom figurtall nummer \(n\) og antall prikker i figurtallet.
+1. en eksplisitt sammenheng mellom figurtall nummer $n$ og antall prikker i figurtallet.
 
 2. en rekursiv sammenheng mellom to påfølgende figurtall.
 

@@ -46,11 +46,11 @@ En omvendt proporsjonal funksjon kan skrives på formen $\frac{a}{x}$. Vis i et 
 
 Skisser grafen til $f$ og $g$ der $f(x)=x(x-5)$ og  $g(x)=x(x-5) + 2$
 
-
 #### Vurderingskriterier grunnleggende:  17.02.23
 
 1. Peke på hva parameterne gjør for andregradsfunksjoner
 2. Skissere de to omvendt proporsjonale grafene.  
+
 #### Grunnleggende: Forklare hvordan endringer i parameterne i funksjonsuttrykket påvirker grafene til andregrads- og omvendt proporsjonale funksjoner,  13.02.23
 
 En andregradsfunksjon kan skrives på formen $ax^2 + b x + c$. Gjengi med ord hvilken påvirkning endringer i $a$ (tallet foran $x^2$) og $c$ (konstantleddet) har på grafen til en andregradsfunksjon.
@@ -61,6 +61,7 @@ Skisser grafene $y = \frac{24}{x}$ og $y = \frac{-24}{x}$ i samme koordinatsyste
 
 1. Peke på hva parameterne gjør for andregradsfunksjoner
 2. Skissere
+
 #### Grunnleggende: Forklare hvordan endringer i parameterne i funksjonsuttrykket påvirker grafene til andregrads- og omvendt proporsjonale funksjoner,  10.02.23
 
 En andregradsfunksjon kan skrives på formen $ax^2 + b x + c$. Gjengi med ord hvilken påvirkning endringer i $a$ (tallet foran $x^2$) og $c$ (konstantleddet) har på grafen til en andregradsfunksjon.
@@ -88,6 +89,7 @@ ii. Skissere de to omvendt proporsjonale grafene
 En andregradsfunksjon kan skrives på formen $ax^2 + b x + c$. Gjengi med ord hvilken påvirkning endringer i $a$ (tallet foran $x^2$) og $c$ (konstantleddet) har på grafen til en andregradsfunksjon.
 
 Skisser grafene $y = \frac{15}{x}$ og $y = \frac{-15}{x}$ i samme koordinatsystem.
+
 #### Vurderingskriterier grunnleggende:  27.01.23
 
 i. Peke på hva parameterne gjør for andregradsfunksjoner

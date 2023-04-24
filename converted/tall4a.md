@@ -36,8 +36,8 @@ Eventuelt kan man vise mellomregning.
 
 3. Velg én av strategiene fra 2., og gi en illustrasjon og kort forklaring som viser at strategien alltid funker.
 
-a.  \(240 : 2,5\)
-b.  \(180 \cdot \frac{4}{3}\)
+a.  $240 : 2,5$
+b.  $180 \cdot \frac{4}{3}$
 
 ##### Vurderingskriterier
 

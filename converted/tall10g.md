@@ -9,8 +9,8 @@
 #### Grunnleggende: Utføre divisjon med brøk,  24.04
 
 Regn ut.
-a. \(2\frac{1}{3} : \frac{14}{6}\)
-b. \(\frac{3}{4} : \frac{6}{5}\)
+a. $2\frac{1}{3} : \frac{14}{6}$
+b. $\frac{3}{4} : \frac{6}{5}$
 
 ##### Vurderingskriterier
 

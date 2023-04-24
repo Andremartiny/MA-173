@@ -128,7 +128,6 @@ En kvadratisk funksjon ser generelt slik ut: $f(x)=ax^2+bx+c$. Forklar kort (sli
 parameteren $a$ endres.
 parameteren $c$ endres.
 
-
 #### Vurderingskriterier middels:  27.01.23
 
 Gjøre begge oppdragene som står i kulepunktene på en tilfredsstillende måte.

@@ -12,5 +12,5 @@ Forklar og gi eksempler på hva som menes med endelig desimaltall, periodisk des
 
 ##### Vurderingskriterier
 
-Må gi passende eksempler og kort, riktig forklaring. *Endelige* desimaltall har en endelig desimalutvikling; de er et endelig antall ti-, hundre-, tusendeler og så videre. (Eventuelt, er brøkene der nevner kan utvides til tierpotens). *Periodiske* er uendelige, med siffersekvenser som gjentas i det uendelige (brøkene som maksimalt forkorta har nevner med andre primfaktorer enn to og fem). *Ikke*-*periodiske*, uendelige desimaltall er de irrasjonale tallene (kan ha uendelig med desimaler uten mønster, eller med mønster, bare ikke periodisk, for eksempel 0,01001000100001 ...).
+Må gi passende eksempler og kort, riktig forklaring. _Endelige_ desimaltall har en endelig desimalutvikling; de er et endelig antall ti-, hundre-, tusendeler og så videre. (Eventuelt, er brøkene der nevner kan utvides til tierpotens). _Periodiske_ er uendelige, med siffersekvenser som gjentas i det uendelige (brøkene som maksimalt forkorta har nevner med andre primfaktorer enn to og fem). _Ikke_-_periodiske_, uendelige desimaltall er de irrasjonale tallene (kan ha uendelig med desimaler uten mønster, eller med mønster, bare ikke periodisk, for eksempel 0,01001000100001 ...).
 

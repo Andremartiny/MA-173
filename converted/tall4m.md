@@ -65,9 +65,9 @@
 1. Bruk minst én av egenskapene (kommutativ, assosiativ, distributiv) til å regne $23 \cdot 11$. Vis tydelig hvordan du tenker.
 
 2. Gjør beregningene under ved hjelp av regnestrategier som ikke innebærer oppstilt regning. Vis tydelig hvordan du tenker.
-a.  \(352 + 61\)
-b.  \(240 : 2,5\)
-c.  \(180 \cdot \frac{4}{3}\)
+a.  $352 + 61$
+b.  $240 : 2,5$
+c.  $180 \cdot \frac{4}{3}$
 
 ##### Vurderingskriterier
 

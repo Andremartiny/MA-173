@@ -1,4 +1,18 @@
 
+#### Avansert: Bruke de tre kvadratsetningene,  24.04
+
+Faktoriser uttrykkene ved hjelp kvadratsetningene.
+
+a. $10x^2 + 3(2x^2-y(8x-3y))$.
+b. $x^4-9y^2$
+
+#### Vurderingskriterier avansert:  24.04
+
+a. $(4x-3y)^2$
+b. $(x^2+3y)(x^2-3y)$
+
+
+
 #### Avansert: Bruke de tre kvadratsetningene,  17.04.23
 
 1. Uttrykket under mangler et ledd for å bli et fullstendig kvadrat. Finn leddet som mangler, og faktoriser det fullstendige uttrykket ved hjelp av en kvadratsetning.

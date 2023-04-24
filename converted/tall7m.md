@@ -24,12 +24,12 @@ height="2.2843307086614173in"}
 #### Middels: Utvide og forkorte brøker,  24.04
 
 1. Hvilke brøker er likeverdige med $\frac{2}{5}$?
-a. \(\frac{7,5}{9}\)
-b. \(\frac{25}{36}\)
-c. \(\frac{\frac{5}{3}}{2}\)
-d. \(\frac{20}{24}\)
+a. $\frac{7,5}{9}$
+b. $\frac{25}{36}$
+c. $\frac{\frac{5}{3}}{2}$
+d. $\frac{20}{24}$
 
-2. Lag en illustrasjon som viser tydelig at \(\frac{3}{4}\) og \(\frac{9}{12}\) er likeverdige.  
+2. Lag en illustrasjon som viser tydelig at $\frac{3}{4}$ og $\frac{9}{12}$ er likeverdige.  
 
 ##### Vurderingskriterier
 
