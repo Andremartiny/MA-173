@@ -49,7 +49,7 @@
 
 Vis i en illustrasjon hvordan hver figur inneholder den forrige, og finn rekursivt uttrykk for sekskanttallene  $H_n$, der $H_1 =1$, $H_2 = 6$ og $H_3 = 15$:
 ved hjelp av strategien form på tillegg.
-ved hjelp av strategien differanse mellom eksplisitte uttrykk. Merk: Det eksplisitte uttrykket for bikubetallene er $H_n = {n(2n-1)}$.
+ved hjelp av strategien differanse mellom eksplisitte uttrykk. Merk: Det eksplisitte uttrykket for sekskanttallene er $H_n = {n(2n-1)}$.
 
 I begge oppgavene bes det om to teknikker. Se heftet for *differanse
 mellom eksplisitte uttrykk* og *form på tillegg*.

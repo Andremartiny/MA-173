@@ -305,6 +305,7 @@ så skal ikke dette rundes av til $2,236$
 
 1. La oss kalle sidene i den rettvinkla trekanten for $x$, $y$ og $z$, slik at $x^2 + y^2 = z^2$. Da vet vi at de tre halvsirklene har areal $\pi(\frac{x}{2})^2 = \pi \frac{x^2}{4}$, $\pi \frac{y^2}{4}$ and $\pi \frac{z^2}{4}$. I tillegg har trekanten areal $\frac{2x\cdot2y}{2} = 2xy$. Tar vi de to små halvsirklene i tillegg til trekanten får vi hele området. Dette har areal $\frac{\pi}{2}(x^2+y^2)+ 2ab$. Vi kan nå bruke Pytagoras setning til å si at dette arealet kan skrives som $\frac{\pi c^2}{4} + 2ab$.Nå gjenstår det bare å trekke fra den store halvsirkelen for å få arealet av det hvite området. Dette gir $\frac{\pi c^2}{4}+ 2ab - \frac{\pi c^2}{4} = 2ab$. Vi ser dermed at det hvite området har samme areal som trekanten. Dermed blir forholdet mellom det hvite området og arealet av trekanten $1$.
 
+
 ## 24.04.23
 
 ### Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer
@@ -582,6 +583,8 @@ Under ser du to formlike trekanter. Avgjør lengden på de resterende sidene hvi
 1. $c = 2$, $b = 5$, $f = 6$ og $d = 4$.
 2. $a = \frac{1} {3}$, $b = 4$, $d= \frac{3}{2}$ og $f = 9$.
 
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-30-14-43-14.png)
+
 ##### Vurderingskriterier
 
 1. Studenten må bruke at $c$ og $f$ samsvarer. Dermed ser vi at forholdet mellom trekantene er $3$. Dermed må $b = 5$ bety at $e = 3\cdot 5 = 15$. I tillegg må $d = 4$ bety at $a = \frac{4}{3}$.
@@ -610,8 +613,8 @@ Studenten må gi et grunnskoletilpasset argument for at Pytagoras setning gjelde
 #### Grunnleggende: Bruke Pytagoras setning til å løse enkle problemer
 
 Finn lengden på den ukjente kateten i en rettvinklet trekant når du vet at:
-    a.  hypotenusen er 10 og en katet har lengde 8
-    b.  den ene kateten har lengde 5 og hypotenusen har lengde 10.
+a.  hypotenusen er 10 og en katet har lengde 8
+b.  den ene kateten har lengde 5 og hypotenusen har lengde 10.
 
 Utregningene skal ikke være avrundet og skal gis i eksakte verdier. Det vil si at hvis svaret er $\sqrt{1^{2} + 2^{2}} = \sqrt{5}$, så skal ikke dette rundes av til $2,236$.
 
@@ -823,7 +826,7 @@ Under ser du to formlike trekanter. Avgjør lengden på de resterende sidene hvi
 Studentene må aktivt bruke formlikhet til å avgjøre de resterende sidene.
 
 1. Studenten kan peke på at siden $a$ og $d$ er de samsvarende sidene, så er skaleringsfaktoren mellom trekantene lik $3$. Dermed må $e$ være $3$ ganger så liten som $b = 12$, altså $e = 4$. Siden $f = 4$ må $c = 12$.
-2. Studenten kan her peke på at $c$ og $f$ er de samsvarende sidene og at $f$ er tre ganger så stor som $c$. Dermed er skaleringsfaktoren den samme. Det gir på samme måte som i 1. at $a = 3$ og $e = \frac{4}{3}$.
+2. Studenten kan her peke på at $c$ og $f$ er de samsvarende sidene og at $f$ er tre ganger så stor som $c$. Dermed er skaleringsfaktoren den samme. Det gir på samme måte som i 1. at $a = 3$ og $e = 12$.
 
 ### Argumentere visuelt for Pytagoras setning
 

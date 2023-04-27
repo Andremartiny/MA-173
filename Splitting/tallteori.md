@@ -412,9 +412,7 @@ Se heftet for alle.
 
 #### Middels: Finne flere algebraiske uttrykk til samme figur
 
-1. Dekomponer figuren på minst tre måter. Illustrer dekomponeringene i
-    figurene, og beskriv dem algebraisk slik at det er en tydelig
-    sammenheng mellom illustrasjon og uttrykk.
+1. Dekomponer figuren på minst tre måter. Illustrer dekomponeringene i figurene, og beskriv dem algebraisk slik at det er en tydelig sammenheng mellom illustrasjon og uttrykk.
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/image2.png)
 
@@ -472,6 +470,31 @@ b.  Hvilke uttrykk stemmer? Argumenter ved hjelp av figuren og ved å
 4. Lag figurtall og finn rekursivt uttrykk til følgende eksplisitte sammenheng: $n^{2} + 3n + 1$. Tips: Forsøk å omforme uttrykket slik at du finner uttrykk du kjenner fra før, sånn som trekanttall, kvadrattall eller kvadratsetninga. Hvor mange figurtall klarer du å lage?
 
 ##### Løsningsforslag
+
+1. \
+a. Vi ser at vi må trekke fra et kvadrattall, så vi må dermed bruke de to trekanttallene våre til å kunne trekke fra kvadratet. Dette kan vi for eksempel illustrere på følgende måte
+
+![](/https://raw.githubusercontent.com/Andremartiny/MA-173/mainimg/2023-04-25-12-58-11.png)
+
+Der gul og grønn illustrerer trekanttallene og røde sirkler er det som skal trekkes vekk. Eller følgende måte
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-25-12-58-27.png)
+
+Der gul og grønn illustrerer trekanttallene, men at vi har tatt vekk at kvadrattall fra det ene trekanttallet. 
+
+b. Ved å stirre hard kan vi se i første figur at hvis vi ikke trekker vell kvadratet, så får vi et rektangel med størrelse $n+2$ og $n+1$. Kvadratet vi trekker fra ser vi at har størrelse $(n-1)^2$, som gir uttrykket $(n+2)(n+1)-(n-1)^2$.
+
+c. Her må vi bare regne
+$$
+\begin{aligned}
+2T_{n+1} - K_{n-1} 
+& =
+2\frac{(n+1)(n+2)}{2} - (n-1)^2
+\\
+& =
+(n+2)(n+1)-(n-1)^2
+\end{aligned}
+$$
 
 4. Vi utnytter at vi vet at $n^2 + 2n + 1 = (n+1)^2$. Vi kan derfor skrive om uttrykket som $n^2 + 3n + 1 = n^2 + 2n + 1 +n = (n+1)^2+n$. Nå kan vi enkelt se at tillegget fra figur til figur er $(2n+1) + 1$, der $2n+1$ er økninga av kvadratet $+1$ er økningen fra ledded $n$. Dette gir oss også en enkel oversettelse til en figur, dette overlates til leseren!
 
@@ -1133,7 +1156,7 @@ ved hjelp av strategien differanse mellom eksplisitte uttrykk. Merk eksplisitt u
 
 Vis i en illustrasjon hvordan hver figur inneholder den forrige, og finn rekursivt uttrykk for sekskanttallene  $H_n$, der $H_1 =1$, $H_2 = 6$ og $H_3 = 15$:
 ved hjelp av strategien form på tillegg.
-ved hjelp av strategien differanse mellom eksplisitte uttrykk. Merk: Det eksplisitte uttrykket for bikubetallene er $H_n = {n(2n-1)}$.
+ved hjelp av strategien differanse mellom eksplisitte uttrykk. Merk: Det eksplisitte uttrykket for sekskanttallene er $H_n = {n(2n-1)}$.
 
 I begge oppgavene bes det om to teknikker. Se heftet for *differanse
 mellom eksplisitte uttrykk* og *form på tillegg*.

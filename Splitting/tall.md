@@ -724,12 +724,18 @@ Heftet.
 1. Regn ut.
 
    a. $\frac{3}{2}\left( 7 + \frac{3\  + \ \frac{1}{5}}{\frac{2}{3}} \right) - 1$
-
+   \
    b. $\frac{\left( \frac{4}{7}\  \cdot \ 2\ \frac{3}{5} \right)\  - \ 3}{\frac{2}{3}} + 8$
-
+   \
    c. $\frac{\frac{4}{3}\  + \ 5}{\frac{3}{4}\  + \ \frac{3}{5}} + \frac{7}{2}\left( 1 - \frac{8}{3} \right)$
-
+   \
    d. $\left( \frac{\left( 2\ \ :\ \frac{2}{3} \right)\  \cdot \ \frac{3}{2}}{1\  + \ \frac{3}{2}} - \frac{4}{5} \right) \cdot (\frac{4}{5} - 2)$
+   \
+   e. $\frac{\frac{-3}{4}+\frac{1}{3}}{\frac{1}{6}}+ 2(\frac{5}{3}-\frac{2}{6})$
+   \
+   f. $\left(\frac{\left(\frac{1}{7}-\frac{1}{2}\right)}{\left(\frac{1}{2}+\frac{3}{7}\right)}\right)+ 2(\frac{1}{2}-\frac{8}{26})$
+   \
+   g. $\left(\frac{(2:\frac{1}{6})\cdot 5}{2-\frac{4}{3}}- 10\right)\cdot (\frac{5}{8}-\frac{1}{2})$
 
 ##### Løsningsforslag
 
@@ -782,6 +788,47 @@ $$
 & = {- \frac{6}{5}}
 \end{aligned}
 $$
+e.
+$$
+\begin{aligned}
+\frac{\frac{-3}{4}+\frac{1}{3}}{\frac{1}{6}}+ 2(\frac{5}{3}-\frac{2}{6}) 
+& = \frac{\frac{-9+4}{12}}{\frac{1}{6}}+2(\frac{10-2}{6})
+\\
+& =
+\frac{\frac{-5}{12}\cdot \frac{6}{1}}{\frac{1}{6}\frac{6}{1}}+2\cdot \frac{8}{6}
+\\
+& = 
+\frac{-5}{2}+\frac{16}{6} = \frac{-15+16}{6} = \frac{1}{6}
+\end{aligned}
+$$
+f.
+$$
+\begin{aligned}
+\left(\frac{\left(\frac{1}{7}-\frac{1}{2}\right)}{\left(\frac{1}{2}+\frac{3}{7}\right)}\right)+ 2(\frac{1}{2}-\frac{8}{26}) 
+& =
+\frac{\frac{2-7}{14}}{\frac{7+6}{14}} +2(\frac{13-8}{26})
+\\
+& =
+\frac{\frac{-5}{14}\cdot 14}{\frac{13}{14}\cdot 14} + \frac{5}{13}
+\\
+& = 
+\frac{-5}{13}+\frac{5}{13} = 0
+\end{aligned}
+$$
+g.
+$$
+\begin{aligned}
+\left(\frac{(2:\frac{1}{6})\cdot 5}{2-\frac{4}{3}}- 10\right)\cdot (\frac{5}{8}-\frac{1}{2})
+& =
+\left(\frac{12\cdot 5}{\frac{6-4}{3}} - 10 \right)\cdot(\frac{5-4}{8})
+\\
+& = 
+\left(\frac{12\cdot 5\cdot 3}{\frac{2}{3}\cdot 3} - 10\right)\cdot \frac{1}{8}
+\\
+& =
+\left(\frac{180}{2}- 10 \right)\cdot \frac{1}{8} = 80\cdot \frac{1}{8} = 10
+\end{aligned}
+$$
 
 ### Forklare begrepet og regne med desimaltall
 
@@ -808,7 +855,7 @@ a. 165: Tideler er (ti ganger) større enn hundredeler. 0,1 er én tidel. 0,17 e
 b.  1.66: \
 1,20 \| 2,05 \| 1,008 \| 0,65 \| 3,204
 c.  1.67
-   1. $1\frac{7}{10} = 1,7$
+   1. \(1\frac{7}{10} = 1,7\)
    2. $\frac{4}{10} = 0,4$
    3. $\frac{2}{10} + \frac{3}{100} = 0,23$
    4. $5\frac{6}{100} = 5,06$
@@ -1437,7 +1484,7 @@ Må få frem ideen om at sifrenes posisjon avgjør verdien de står for, og at d
 
 Som grunnleggende + omgjøringene. Det må gå frem hvordan omgjøringene er gjort.
 
-### Avansert
+#### Avansert
 
 1. Gjør om  $212{tre}$ til base seks uten å først regne ut i base ti.
 2. Regn ut i den aktuelle basen:
@@ -1461,7 +1508,7 @@ Som middels + beregninger. Disse må være ført i den aktuelle basen.
 
 Additive strukturer s. 52 i Alfa.
 
-### Middels
+#### Middels
 
 Avgjør og begrunn hvilken additiv struktur situasjonene har. Angi både addisjons- og subtraksjonsstykket som passer i hvert tilfelle.
 
@@ -1562,7 +1609,7 @@ Få tydelig frem hva man har tenkt.
 a. Som 2b. og 2c. fra middels
 3. Må få frem at strategien er generell (heller ikke her trengs nødvendigvis noe algebra)
 
-### Forklare og gi eksempler på de ulike betydningen av brøk: del av hel/enhet, del av antall, tall og forhold
+### Forklare og gi eksempler på de ulike betydningene av brøk: del av hel/enhet, del av antall, tall og forhold
 
 #### Grunnleggende
 
@@ -1691,11 +1738,11 @@ b. $3 \frac{2}{3} \cdot \frac{3}{2}$
 eks under (feil tall, bare). Kvadratene er 1, grønn del 2/5. Figuren
 kan leses som _2/5 gjentatt tre ganger,_ altså 3 ⋅ 2/5. Den kan også
 leses som _2/5 av tre,_ altså 2/5 ⋅ 3.
-![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img//tal/24.04media/media/image1.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img//tall/24.04media/media/image1.png)
 
 1. Må vise til en figur som for eksempel den under (2/3 ⋅ 4/5):
 
-![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img//tal/24.04media/media/image2.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img//tall/24.04media/media/image2.png)
 
 ### Utføre divisjon med brøk
 
@@ -1737,7 +1784,7 @@ b. Målingsdivisjon: Hvor mange to-tredels-litere går det på ni liter? Det gå
 
 Regn ut.
 
-a. $((\frac{4}{5} + \frac{1}{\frac{7}{3}}) \frac{1}{43})) \cdot 7 + \frac{4}{5}$
+a. $((\frac{4}{5} + \frac{1}{\frac{7}{3}}) \frac{1}{43}) \cdot 7 + \frac{4}{5}$
 b. $\frac{1}{2} - \frac{\frac{4}{11}((\frac{8}{6} : \frac{1}{3}) + \frac{2}{5})}{\frac{4}{2,5}}$
 
 ##### Vurderingskriterier

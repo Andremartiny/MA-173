@@ -1,9 +1,7 @@
 
 #### Middels: Beskrive oppbygningen av figurtall (alle typer),  Øveoppgaver
 
-1. Dekomponer figuren på minst tre måter. Illustrer dekomponeringene i
-    figurene, og beskriv dem algebraisk slik at det er en tydelig
-    sammenheng mellom illustrasjon og uttrykk.
+1. Dekomponer figuren på minst tre måter. Illustrer dekomponeringene i figurene, og beskriv dem algebraisk slik at det er en tydelig sammenheng mellom illustrasjon og uttrykk.
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/image2.png)
 

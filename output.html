@@ -1879,7 +1879,7 @@ Finne rekursivt uttrykk for figurtall, 17.02.23</h4><p>Vis i en illustrasjon hvo
 finn rekursivt uttrykk for sekskanttallene <span class="math inline">\(H_n\)</span>, der <span class="math inline">\(H_1
 =1\)</span>, <span class="math inline">\(H_2 = 6\)</span> og <span class="math inline">\(H_3 = 15\)</span>: ved hjelp av strategien form på
 tillegg. ved hjelp av strategien differanse mellom eksplisitte uttrykk.
-Merk: Det eksplisitte uttrykket for bikubetallene er <span class="math inline">\(H_n = {n(2n-1)}\)</span>.</p><p>I begge oppgavene bes det om to teknikker. Se heftet for
+Merk: Det eksplisitte uttrykket for sekskanttallene er <span class="math inline">\(H_n = {n(2n-1)}\)</span>.</p><p>I begge oppgavene bes det om to teknikker. Se heftet for
 <em>differanse mellom eksplisitte uttrykk</em> og <em>form på
 tillegg</em>.</p><h4 id="vurderingskriterier-middels-17.02.23">Vurderingskriterier
 middels: 17.02.23</h4><p>Studenten må besvare alle spørsmålene med riktig teknikk. Her
@@ -2249,7 +2249,31 @@ sammenheng: <span class="math inline">\(n^{2} + 3n + 1\)</span>. Tips:
 Forsøk å omforme uttrykket slik at du finner uttrykk du kjenner fra før,
 sånn som trekanttall, kvadrattall eller kvadratsetninga. Hvor mange
 figurtall klarer du å lage?</p></li>
-</ol><h5 id="løsningsforslag">Løsningsforslag</h5><ol start="4" type="1">
+</ol><h5 id="løsningsforslag">Løsningsforslag</h5><ol type="1">
+<li><br/>
+</li>
+</ol><ol type="a">
+<li>Vi ser at vi må trekke fra et kvadrattall, så vi må dermed bruke de
+to trekanttallene våre til å kunne trekke fra kvadratet. Dette kan vi
+for eksempel illustrere på følgende måte</li>
+</ol><p><img src="/https://raw.githubusercontent.com/Andremartiny/MA-173/mainimg/2023-04-25-12-58-11.png"/></p><p>Der gul og grønn illustrerer trekanttallene og røde sirkler er det
+som skal trekkes vekk. Eller følgende måte</p><p><img src="https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-25-12-58-27.png"/></p><p>Der gul og grønn illustrerer trekanttallene, men at vi har tatt vekk
+at kvadrattall fra det ene trekanttallet.</p><ol start="2" type="a">
+<li><p>Ved å stirre hard kan vi se i første figur at hvis vi ikke
+trekker vell kvadratet, så får vi et rektangel med størrelse <span class="math inline">\(n+2\)</span> og <span class="math inline">\(n+1\)</span>. Kvadratet vi trekker fra ser vi at
+har størrelse <span class="math inline">\((n-1)^2\)</span>, som gir
+uttrykket <span class="math inline">\((n+2)(n+1)-(n-1)^2\)</span>.</p></li>
+<li><p>Her må vi bare regne <span class="math display">\[
+\begin{aligned}
+2T_{n+1} - K_{n-1}
+&amp; =
+2\frac{(n+1)(n+2)}{2} - (n-1)^2
+\\
+&amp; =
+(n+2)(n+1)-(n-1)^2
+\end{aligned}
+\]</span></p></li>
+</ol><ol start="4" type="1">
 <li>Vi utnytter at vi vet at <span class="math inline">\(n^2 + 2n + 1 =
 (n+1)^2\)</span>. Vi kan derfor skrive om uttrykket som <span class="math inline">\(n^2 + 3n + 1 = n^2 + 2n + 1 +n =
 (n+1)^2+n\)</span>. Nå kan vi enkelt se at tillegget fra figur til figur
@@ -6082,7 +6106,7 @@ sidene hvis du får vite at:</p><ol type="1">
 6\)</span> og <span class="math inline">\(d = 4\)</span>.</li>
 <li><span class="math inline">\(a = \frac{1} {3}\)</span>, <span class="math inline">\(b = 4\)</span>, <span class="math inline">\(d=
 \frac{3}{2}\)</span> og <span class="math inline">\(f = 9\)</span>.</li>
-</ol><h5 id="vurderingskriterier-1">Vurderingskriterier</h5><ol type="1">
+</ol><p><img src="https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-30-14-43-14.png"/></p><h5 id="vurderingskriterier-1">Vurderingskriterier</h5><ol type="1">
 <li>Studenten må bruke at <span class="math inline">\(c\)</span> og
 <span class="math inline">\(f\)</span> samsvarer. Dermed ser vi at
 forholdet mellom trekantene er <span class="math inline">\(3\)</span>.
@@ -6108,7 +6132,7 @@ skaleringsfaktoren mellom trekantene lik <span class="math inline">\(3\)</span>.
 og <span class="math inline">\(f\)</span> er de samsvarende sidene og at
 <span class="math inline">\(f\)</span> er tre ganger så stor som <span class="math inline">\(c\)</span>. Dermed er skaleringsfaktoren den
 samme. Det gir på samme måte som i 1. at <span class="math inline">\(a =
-3\)</span> og <span class="math inline">\(e = \frac{4}{3}\)</span>.</li>
+3\)</span> og <span class="math inline">\(e = 12\)</span>.</li>
 </ol></div>
 <div id="geo7g">
 <button onclick="moveDivsback('geo',  'geo7g')"> Tilbake til Måling og areal </button> <h4 id="grunnleggende-argumentere-visuelt-for-pytagoras-setning-øveoppgaver">Grunnleggende:
@@ -6349,15 +6373,17 @@ eksempel på hva <span class="math inline">\(P(\{u_4, u_5\})\)</span> og
 <span class="math inline">\(P(u_6)\)</span> kan være. Besvarelsen må
 være begrunnet.</p></li>
 <li><p>La et forsøk ha et utfallsrom <span class="math inline">\(U = {
-u_1, u_2, u_3, u_4, u_5}\)</span>. Forklar at <span class="math inline">\(P(\{u_3\})\)</span> ikke kan være større enn <span class="math inline">\(0.4\)</span> hvis <span class="math inline">\(P(\{u_1,u_3\}) = 0.7\)</span> og <span class="math inline">\(P(\{u_2, u,3\}) = 0.7\)</span>.</p></li>
-</ol><h5 id="vurderingskriterier">Vurderingskriterier</h5><ol type="1">
+u_1, u_2, u_3, u_4, u_5}\)</span>. Forklar at <span class="math inline">\(P(\{u_3\})\)</span> må være større enn <span class="math inline">\(0.4\)</span> hvis <span class="math inline">\(P(\{u_1,u_3\}) = 0.7\)</span> og <span class="math inline">\(P(\{u_2, u,3\}) = 0.7\)</span>.</p></li>
+</ol><p><strong>Merk</strong> Det var en feil i teksten over der det stod
+‘’Forklar at <span class="math inline">\(P(\{u_3\})\)</span> <em>ikke
+kan være</em> større enn…’’. Dette er rettet i teksten over.</p><h5 id="vurderingskriterier">Vurderingskriterier</h5><ol type="1">
 <li>Studenten må begrunne påstanden. Her kan de for eksempel bare peke
 på at <span class="math inline">\(P(U) = 1\)</span> og dermed kan en
 enkelt bare si at <span class="math inline">\(P(\{u_4, u_5\})\)</span>
 kan være lik <span class="math inline">\(0.2\)</span>, hvis <span class="math inline">\(P(u_6)\)</span> også er lik <span class="math inline">\(0.2\)</span>. Dette er fordi en ikke bryter med
 noen av aksiomene til sannsynlighetsmodeller.</li>
 <li>Siden <span class="math inline">\(1.4 = 0.7+0.7 = P(\{u_1,u_3\}) +
-P(\{u_2,u_3\}) = P(u_1)+P(u_2)+2P(u_3)\)</span>, ser vi at hvis <span class="math inline">\(P(u_3)\)</span> er større enn <span class="math inline">\(0.4\)</span> så vil <span class="math inline">\(1.4-P(u_3)\)</span> være større enn <span class="math inline">\(1\)</span> samtidig som det vil være lik
+P(\{u_2,u_3\}) = P(u_1)+P(u_2)+2P(u_3)\)</span>, ser vi at hvis <span class="math inline">\(P(u_3)\)</span> ikke er større enn <span class="math inline">\(0.4\)</span> så vil <span class="math inline">\(1.4-P(u_3)\)</span> være større enn <span class="math inline">\(1\)</span> samtidig som det vil være lik
 sannsynligheten for tre enkelutufall i utfallsrommet. Noe som gir en
 motsigelse.</li>
 </ol><h4 id="middels-forklare-og-bruke-begrepene-utfallsrom-utfall-og-hendelse-og-sannsynlighetsmodell-17.04.23">Middels:
@@ -6366,7 +6392,7 @@ sannsynlighetsmodell, 17.04.23</h4><ol type="1">
 <li><p>La et forsøk ha utfallsrommet <span class="math inline">\(U = {
 u_1, u_2, u_3, u_4, u_5}\)</span>. Hvis <span class="math inline">\(P(\{u_1, u_2, u_3\}) = 0.6\)</span>, begrunn at
 <span class="math inline">\(P(\{u_3, u_4, u_5\}) = 0.7\)</span> må bety
-at <span class="math inline">\(P(u_3) = 0.15\)</span>.</p></li>
+at <span class="math inline">\(P(u_3) = 0.3\)</span>.</p></li>
 <li><p>Henrik var ute på parkeringsplassen på UiA på mandag, tirsdag og
 onsdag. På mandag registrerte han <span class="math inline">\(50\%\)</span> av bilene som en Tesla. På tirsdag
 var <span class="math inline">\(40\%\)</span> av de parkerte bilene en
@@ -6430,8 +6456,71 @@ Forklare og bruke begrepet uniform sannsynlighetsmodell, 17.04.23</h4><p>Forklar
 en uniform sannsynlighetsmodell.</p><h5 id="vurderingskriterier-1">Vurderingskriterier</h5><p>Studenten må gi en riktig forklaring, samt gi et eksempel.</p><h4 id="grunnleggende-forklare-og-bruke-begrepet-uniform-sannsynlighetsmodell-31.03.23">Grunnleggende:
 Forklare og bruke begrepet uniform sannsynlighetsmodell, 31.03.23</h4><p>Forklar hva en uniform sannsynlighetsmodell er og gi et eksempel på
 en uniform sannsynlighetsmodell.</p><h5 id="vurderingskriterier-2">Vurderingskriterier</h5><p>Studenten må forklare begrepene og gi et eksempel.</p></div>
-<div id="sannsyn2n">
-<button onclick="moveDivsback('sannsyn',  'sannsyn2n')"> Tilbake til Sannsynlighet og kombinatorikk </button> </div>
+<div id="sannsyn2m">
+<button onclick="moveDivsback('sannsyn',  'sannsyn2m')"> Tilbake til Sannsynlighet og kombinatorikk </button> <h4 id="middels-forklare-og-bruke-begrepet-uniform-sannsynlighetsmodell-øveppgaver">Middels:
+Forklare og bruke begrepet uniform sannsynlighetsmodell, Øveppgaver</h4><ol type="1">
+<li>Alfa 7.14</li>
+<li>7.15. Besvarelsen skal begrunnes ved å peke på definisjonen av en
+uniform sannsynlighetsmodell.</li>
+<li>Et forsøk skal utføres ved å kaste en mynt tre ganger og registrere
+om det blir kron eller mynt. Henrik setter opp utfallsrommet {tre
+kron,to kron og en mynt,en kron og to mynt,tre mynt}. Avgjør om dette
+gir opphav til en uniform sannsynlighetsmodell.</li>
+</ol><h5 id="løsningsforslag">Løsningsforslag</h5><ol start="3" type="1">
+<li><br/>
+Ved tre kast kan vi registrere hvert kast i rekkefølge. Det gir
+mulighetene</li>
+</ol><ul>
+<li><p>Kron, kron, kron</p></li>
+<li><p>Kron, kron, mynt</p></li>
+<li><p>Kron, mynt, kron</p></li>
+<li><p>Kron, mynt, mynt</p></li>
+<li><p>Mynt, kron, kron</p></li>
+<li><p>Mynt, kron, mynt</p></li>
+<li><p>Mynt, mynt, kron</p></li>
+<li><p>Mynt, mynt, mynt,</p></li>
+</ul><p>Totalt 8 mulige utfall. Siden hvert kast gir lik sannsynlighet for
+kron og mynt er dette utfallsrommet uniformt. Vi ser her at det er kun
+ett av de åtte tilfellene som gir kun tre kron, mens det er flere som
+gir nøyaktig to kron. Dermed kan ikke det opprinnelige utfallsrommet
+gitt i teksten gi opphav til en uniform</p><h4 id="middels-forklare-og-bruke-begrepet-uniform-sannsynlighetsmodell-24.04.23">Middels:
+Forklare og bruke begrepet uniform sannsynlighetsmodell, 24.04.23</h4><p>Det er 21 studenter i klassen og de skal deles opp i 7 grupper som
+alle inneholder 3 studenter. Du trekker kort først og havner på gruppe
+1. Neste som trekker er bestevennen din. Det er 20 mulige kort igjen å
+trekke og to mulige plasser på din gruppe. Bestevennen din sier. Det er
+to mulige utfall, enten så trekker jeg gruppen din, eller så gjør jeg
+ikke det. I 10% av tilfellene kommer vi på gruppe, og i 90% av
+tilfellene gjør vi ikke det. Avgjør og begrunn om modellen som er satt
+opp er en uniform sannsynlighetsmodell.</p><h5 id="vurderingskriterier">Vurderingskriterier</h5><p>Studenten må konkludere med at modellen ikke er en uniform
+sannsynlighetsmodell. Dette kan de enkelt gjøre ved å peke på at hvis
+det kun er to utfall i utfallsrommet, må det være <span class="math inline">\(50\%\)</span> sjans for hver av utfallene. Dette
+er det ikke i modellen som er satt opp.</p><h4 id="middels-forklare-og-bruke-begrepet-uniform-sannsynlighetsmodell-17.04.23">Middels:
+Forklare og bruke begrepet uniform sannsynlighetsmodell, 17.04.23</h4><ol type="1">
+<li><p>André skal kaste en sekssidet terning. Han skal kaste terningen
+en gang og setter opp utfallsrommet <span class="math inline">\(\{1, 2,
+3, 4, 5, 6\}\)</span>. Avgjør om dette gir en uniform
+sannsynlighetsmodell.</p></li>
+<li><p>Avgjør og begrunn om det finnes noen sannsynlighetsmodell der
+<span class="math inline">\(P(u_3) = 0.15\)</span>.</p></li>
+</ol><h5 id="vurderingskriterier-1">Vurderingskriterier</h5><ol type="1">
+<li>Studenten må forklare at dette gir opphav til en uniform
+sannsynlighetsmodell ved å peke på at alle utfallene i utfallsrommet er
+like sannsynlige.</li>
+<li>Studenten må konkludere med at dette ikke går an. Dette kan man
+innse ved å se at siden <span class="math inline">\(0.15 =
+\frac{3}{20}\)</span>, og <span class="math inline">\(3\)</span> ikke
+går opp i <span class="math inline">\(20\)</span>, så vil det ikke
+finnes et heltall antall utfall som gjør at summen av sannsynlighetene
+blir <span class="math inline">\(1\)</span>.</li>
+</ol><h4 id="middels-forklare-og-bruke-begrepet-uniform-sannsynlighetsmodell-31.03.23">Middels:
+Forklare og bruke begrepet uniform sannsynlighetsmodell, 31.03.23</h4><p>André skal kaste en firesidet terning, nummerert 1 til 4. Han skal
+kaste terningen tre ganger og ønsker å få flest enere. og setter opp
+utfallsrommet {tre enere, to enere , en ener, ingen enere}. Avgjør om
+dette gir opphav til en uniform sannsynlighetsmodell.</p><h5 id="vurderingskriterier-2">Vurderingskriterier</h5><p>Studenten må begrunne at dette ikke gir opphav til en uniform
+sannsynlighetsmodell. For eksempel kan studenten peke på at for hvert
+kast er det mer sannsynlig å noe annet enn en ener. Sluttresultatet må
+derfor være at det er mindre sannsynlig å få tre enere enn å få ingen
+enere. Dette betyr at det ikke er en uniform sannsynlighetsmodell.</p></div>
 <div id="sannsyn2a">
 <button onclick="moveDivsback('sannsyn',  'sannsyn2a')"> Tilbake til Sannsynlighet og kombinatorikk </button> <h4 id="avansert-forklare-og-bruke-begrepet-uniform-sannsynlighetsmodell-øveppgaver">Avansert:
 Forklare og bruke begrepet uniform sannsynlighetsmodell, Øveppgaver</h4><ol type="1">
@@ -6730,8 +6819,16 @@ man ned siffrene man trekker hver gang for å lage et tall. Dermed er det
 natulig å tenke at utvalget er ordnet. Siden vi derfor har 8 valg på
 første trekk og så 8 valg på neste, må det være <span class="math inline">\(8\cdot 8 = 64\)</span> mulige utfall.</li>
 <li>Studenten må få frem at at en har 17 lys, men ikke kan trekke samme
-pæren to ganger. I tillegg har ikke rekkefølgen noe å si, som betyr at
-det er et ordnet</li>
+pæren to ganger. For å forklare at det kan tenkes på som ordnet må en
+peke på at vi bryr oss om rekkefølgen på utvalget, for eksempel fordi
+Henrik tester pærene han har valgt ut i rekkefølgen han trakk de med
+seg. <em>Merk at det er noe kunstig å tolke denne situasjonen som
+ordnet, da det er mer naturlig å tenke seg at den er uordnet (at man
+ikke bryr seg om rekkefølgen)</em>. Siden vi nå tolker dette som et
+ordnet utvalg uten tilbakelegg så har vi 17 muligheter på første trekk,
+så 16, så 15. Multiplikasjonsprinsippet forteller oss derfor at det er
+<span class="math inline">\(17\cdot 16\cdot 15\)</span> mulige
+utvalg.</li>
 </ol><h4 id="middels-forklare-og-bruke-begrepene-ordnet-utvalg-med-og-uten-tilbakelegg-17.04.23">Middels:
 Forklare og bruke begrepene ordnet utvalg med og uten tilbakelegg,
 17.04.23</h4><ol type="1">
@@ -6853,24 +6950,26 @@ antall muligheter i utvalget
 <li>Du og dine venner har dratt til dyreparken og dere rekker tre turer
 med attraksjoner før dere må dra hjem. Dere kan velge mellom
 tømmerrenna, jungelboben og fyrtårnet. Hvor mange forskjellige
-turer</li>
+turer.</li>
 </ul></li>
 </ol><h5 id="vurderingskriterier">Vurderingskriterier</h5><ol type="1">
 <li>Studenten må forklare at det er uordnet utvalg uten tilbakelegg ved
-å peke på at en trekker lag og at det ikke er noe rolle innad i laget.
-Dermed er det uordnet. Vi må også ha forskjellige elever på laget, som
-gir et utvalg uten tilbakelegg. For å finne antallet kan en først tenke
-at det er 3 valg, først 12 muligheter, så 11 og så 10. Altså <span class="math inline">\(12\cdot 11\cdot 10\)</span>. Deretter må de ta
-hensyn til overtellingen. Ved å tenke på for eksempel en gruppe på Arne,
-Bjarne og Dan, så ser vi at denne kan stokkes om på <span class="math inline">\(3\cdot 2\cdot 1\)</span> mulige måter. Vi
-overteller altså alle grupper med <span class="math inline">\(6\)</span>. Det gir at det er <span class="math inline">\(\frac{12\cdot11\cdot10}{6}=2\cdot 11\cdot 10 =
-220\)</span> mulige utvalg.</li>
-<li>Studenten kan peke på at det går å tenke på dette som fem valg, der
-en skal velge mellom en av de to guttene hver gang, altså med
-tilbakelegg. Når vi velger en gutt får han kjeks, men det er ikke noen
-forskjell på kjeksene, så det er derfor uordnet. Vi kan systematisere
-ved å kalle guttene for <span class="math inline">\(0\)</span> og <span class="math inline">\(1\)</span>. Da har vi mulighetene:<br/>
-00000, 00001, 00011, 00111, 01111, 11111, altså <span class="math inline">\(6\)</span> muligheter.</li>
+å peke på at vi har seks glass og kun tre av dem skal fylles.
+Rekkefølgen på når vi fyller glassene er ikke betydelig da det er
+personene som ikke får Cola som blir opprørt. I tillegg kan man ikke
+fylle ett glass flere ganger som gir uordna uten tilbakelegg. Hvis det
+var ordnet ville vi hatt <span class="math inline">\(6\cdot
+5\cdot4\)</span> muligheter (siden vi har 6 valg, så 5 valg, så 4 valg).
+Siden dette er uordnet må vi ta hensyn til overtelling. Siden hvert
+utvalg kan stokkes om på <span class="math inline">\(3\cdot 2\cdot
+1\)</span> måter kan vi dele på <span class="math inline">\(6\)</span>
+og få <span class="math inline">\(20\)</span> muligheter.</li>
+<li>Studenten kan peke på at det går å tenke på dette som tre valg, der
+en skal velge mellom en av de tre attraksjonene hver gang, altså med
+tilbakelegg. Når vi velger en attraksjon, men det er ikke noen forskjell
+på rekkefølgen vi gjør de i. Vi kan systematisere ved å kalle
+attraksjonene for <span class="math inline">\(0\)</span>, <span class="math inline">\(1\)</span> og <span class="math inline">\(2\)</span>. Da har vi mulighetene:<br/>
+000, 001, 002, 011, 012, 022, 111, 112, 122, 222, altså <span class="math inline">\(10\)</span> muligheter.</li>
 </ol><h4 id="middels-forklare-og-bruke-begrepene-uordnet-utvalg-med-og-uten-tilbakelegg-17.04.23">Middels:
 Forklare og bruke begrepene uordnet utvalg med og uten tilbakelegg,
 17.04.23</h4><ol type="1">
@@ -6961,35 +7060,37 @@ tilbakelegg.</li>
 Avgjøre om utvalg er ordnet eller uordnet og om det er med eller uten
 tilbakelegg, 24.04.23</h4><p>Avgjør om situasjonene under kan tenkes som ordnede eller uordnede
 utvalg og om utvalgene er med eller uten tilbakelegg:</p><ol type="1">
-<li>Til årsmøtet i et lag møter det ti personer. På hvor mange måter kan
-det velges formann, nestformann og kasserer?</li>
-<li>I en klasse på 20 elever skal det velges ut en gruppe på 6. På hvor
-mange måter kan det gjøres på?</li>
-<li>På hvor mange måter kan forskjellige tresifrede tall lages med
-sifrene 1, 2, 3, 4 og 6, der en kan gjenta gjenta sifre?</li>
-<li>På en flervalgsprøve med åtte spørsmål er det tre alternativer på
-hvert spørsmål, der kun ett alternativ er rett. Hvor mange mulige
-forskjellige besvarelser kan man gi på prøven?</li>
+<li>I bedriftsidrettslaget er det 20 medlemmer som spiller basket. På
+hvor mange måter kan det velges to personer som skal sitte i styret av
+basketballavdelingen?</li>
+<li>I en klasse på 18 elever skal det velges ut en elevrådsleder og en
+vara. På hvor mange måter kan det gjøres på?</li>
+<li>I en klasse er det 12 gutter og 10 jenter. På hvor mange måter kan
+man velge ut 4 gutter?</li>
+<li>En student ved lærerutdanninga har møtt opp på alle obligatoriske
+undervisninger. Nå gjenstår det fire obligatoriske seminarer, og
+studenten vil komme over fraværsgrensa på 70% selv om de ikke møter på
+noen av seminarene. Studenten har derfor konkludert med at de står fritt
+til å velge om de vil møte opp eller ikke for hver av de fire
+seminarene. På hvor mange utvalg av seminarer kan de velge å gå på?</li>
 </ol><h5 id="vurderingskriterier">Vurderingskriterier</h5><p>Studenten må argumentere og begrunne sitt valg. Det <em>må</em> ikke
 nødvendigvis stemme med forslaget under, men er det annerledes må
 begrunnelsen hvertfall være meningsfull!</p><ol type="1">
-<li>Studenten må peke på at siden det er forskjellige roller, så vil det
-være et ordnet utvalg, men siden det ikke er noen som kan være samme
-rolle så er det uten tilbakelegg.</li>
-<li>De skal velge en gruppe på <span class="math inline">\(6\)</span>
-elever. Én elev kan såklart ikke være med flere ganger i gruppen, så det
-blir uten tilbakelegg. Det er heller ikke påpekt at gruppen inneholder
-noen roller som gjør det naturlig å tenke på dette som et uordnet
-utvalg.</li>
-<li>Det blir påpekt at en kan gjenta sifrene, dermed må det tenkes på
-som et utvalg med tiblakelegg. Rekkefølgen har noe å si siden vi skal
-lage tresifrede tall, som gjør det til et ordnet utvalg med
+<li>Studenten kan peke på at det ikke sies noe om rollene i styret.
+Dermed er det naturlig å tenke at dette er et uordna utvalg. Det er
+heller ikke tilbakelegg siden vi trekker mellom personene og vi ikke kan
+velge samme person to ganger.</li>
+<li>Studenten kan peke på at det skal velges roller (ordna), men det
+skal være forskjellige personer (uten tilbakelegg).</li>
+<li>Studenten kan peke på at vi har 12 gutter å velge mellom, men kan
+ikke velge samme (uten tilbakelegg). Siden det kun er en gruppe er det
+naturlig å tolke at rekkefølgen ikke har noe å si (uordna)</li>
+<li>Studenten kan peke på at det skal gjøres fire valg, der de i hvert
+valg velger mellom å delta og å ikke delta (to muligheter). De trekker
+mellom disse mulighetene hver gang, så det er med tilbakelegg. I tillegg
+er rekkefølgen betydelig fordi det avgjør hva slags innhold studenten
+får (eller ikke får) i seminarene, altså ordna utvalg med
 tilbakelegg.</li>
-<li>Siden det er tre muligheter på hvert spørsmål kan en tenke at en på
-de åtte spørsmålene kan velge mellom 1, 2 og 3, noe som gir et utvalg
-med tilbakelegg. I tillegg bryr vi oss om rekkefølgen fordi vi ser et
-mulige besvarelser som kan gis på prøven. Dermed blir dette et ordnet
-utvalg med tilbakelegg.</li>
 </ol><h4 id="middels-avgjøre-om-utvalg-er-ordnet-eller-uordnet-og-om-det-er-med-eller-uten-tilbakelegg-17.04.23">Middels:
 Avgjøre om utvalg er ordnet eller uordnet og om det er med eller uten
 tilbakelegg, 17.04.23</h4><p>Avgjør om situasjonene under kan tenkes som ordnede eller uordnede
@@ -7797,7 +7898,18 @@ gjelder siste-siffer-regelen, og i hvilke gjelder tverrsum-regelen?</li>
 oddetall. Når basen <span class="math inline">\(b\)</span> er et
 oddetall, er også <span class="math inline">\(b^{n}\)</span> et
 oddetall. Da er <span class="math inline">\(b^{n} - 1\)</span> alltid
-par.</p><h4 id="avansert-forklare-hva-et-posisjonssystem-er-17.04.23">Avansert:
+par.</p><h4 id="avansert-forklare-hva-et-posisjonssystem-er-24.04">Avansert:
+Forklare hva et posisjonssystem er, 24.04</h4><ol type="1">
+<li>Gjør om <span class="math inline">\(212{tre}\)</span> til base seks
+uten å først regne ut i base ti.</li>
+<li>Regn ut i den aktuelle basen:</li>
+</ol><ol type="a">
+<li><p><span class="math inline">\(1001001{to} -
+100110_{to}\)</span></p></li>
+<li><p><span class="math inline">\(43_{syv} \cdot
+23_{syv}\)</span></p></li>
+</ol><h5 id="vurderingskriterier">Vurderingskriterier</h5><p>Som middels + beregninger. Disse må være ført i den aktuelle
+basen.</p><h4 id="avansert-forklare-hva-et-posisjonssystem-er-17.04.23">Avansert:
 Forklare hva et posisjonssystem er, 17.04.23</h4><ol type="1">
 <li>Gjør om <span class="math inline">\(112_{tre}\)</span> til base
 seks.</li>
@@ -7807,7 +7919,7 @@ seks.</li>
 110010_{to}\)</span></p></li>
 <li><p><span class="math inline">\(43_{seks} \cdot
 23_{seks}\)</span></p></li>
-</ol><h5 id="vurderingskriterier">Vurderingskriterier</h5><p>Som middels + beregninger. Disse må være ført i den aktuelle
+</ol><h5 id="vurderingskriterier-1">Vurderingskriterier</h5><p>Som middels + beregninger. Disse må være ført i den aktuelle
 basen.</p></div>
 <div id="tall2g">
 <button onclick="moveDivsback('tall',  'tall2g')"> Tilbake til Tall </button> <h4 id="grunnleggende-beskrive-situasjoner-med-hensyn-til-additive-strukturer-øveoppgaver">Grunnleggende:
@@ -7897,6 +8009,38 @@ gjennomføre uten hjelp. Han slår seg sammen med Anne. De har til sammen
 omsider en pantemaskin. De sitter da igjen med 421 kroner. Hvor mye
 penger hadde før de kjøpte maskinen? Oppheving av minskning.</p></li>
 </ol></li>
+</ol><h4 id="middels-beskrive-situasjoner-med-hensyn-til-additive-strukturer-24.04">Middels:
+Beskrive situasjoner med hensyn til additive strukturer, 24.04</h4><p>Avgjør og begrunn hvilken additiv struktur situasjonene har. Angi
+både addisjons- og subtraksjonsstykket som passer i hvert tilfelle.</p><ol type="1">
+<li>I hver situasjon under, argumenter for to additive strukturer det er
+rimelig å si at situasjonen er et eksempel på. Oppgi i hvert tilfelle
+både addisjons- og subtraksjonsstykket som passer.</li>
+</ol><ol type="a">
+<li>Henrik hiver to dartpiler. Første pil treffer <span class="math inline">\(18\)</span>, andre pil <span class="math inline">\(17\)</span>. Hvor mange poeng fikk han?<br/>
+</li>
+<li>André samler enhjørning-klistremerker. En pakke klistremerker koster
+<span class="math inline">\(349\)</span>, men stakkars André har bare
+<span class="math inline">\(200\)</span> kroner. Hvor mye mer trenger
+han for å få råd?</li>
+<li>På en uke har en solsikke inntil husveggen vokst til 212 cm. Hvor
+mange centimeter må den vokse før den når husveggen på 240 cm?</li>
+<li>André fant 12 kroner i bukselomma. I jakkelomma fant han 50. Hvor
+mye mer fant han i jakka?<br/>
+</li>
+</ol><ol start="2" type="1">
+<li>Lag en oppgave til <span class="math inline">\(150 + {\_\_}
+=225\)</span> med additiv sammenlikning som struktur.</li>
+</ol><h5 id="vurderingskriterier">Vurderingskriterier</h5><ol type="1">
+<li>To struktur må angis med rimelig begrunnelse. Begge mulige
+regnestykker må med.</li>
+</ol><ol type="a">
+<li>kan være forening, økning eller komplettering: 18 + 17 = __ eller __
+– 17 = 18.</li>
+<li>kan være komplettering, økning eller sammenlikning: 200 + __ = 349
+eller 349 – 200 = __.</li>
+</ol><ol start="2" type="1">
+<li>Oppgaven må rimelig kunne sies å være et eksempel på
+sammenlikning.</li>
 </ol><h4 id="middels-beskrive-situasjoner-med-hensyn-til-additive-strukturer-17.04.23">Middels:
 Beskrive situasjoner med hensyn til additive strukturer, 17.04.23</h4><p>Avgjør og begrunn hvilken additiv struktur situasjonene har. Angi
 både addisjons- og subtraksjonsstykket som passer i hvert tilfelle.</p><ol type="a">
@@ -7907,7 +8051,7 @@ mye mer fant han i jakka?<br/>
 </li>
 <li>Studentene må lese to pensumbøker med til sammen 643 sider. Den ene
 boka er på 425 sider. Hvor mange sider har den andre?</li>
-</ol><h5 id="vurderingskriterier">Vurderingskriterier</h5><p>En struktur må angis med rimelig begrunnelse. Begge mulige
+</ol><h5 id="vurderingskriterier-1">Vurderingskriterier</h5><p>En struktur må angis med rimelig begrunnelse. Begge mulige
 regnestykker må med. a. er komplettering: 212 + __ = 240 eller 240 – 212
 = __. b. er sammenlikning: 12 + __ = 50 eller 50 – 12 = __. c. er
 forening/sammenslåing: 425 + __ = 643 eller 643 – 425 = __.</p><h4 id="middels-beskrive-situasjoner-med-hensyn-til-additive-strukturer-31.03.23">Middels:
@@ -7920,7 +8064,7 @@ han 19 kroner. Hvor mye fant han?</li>
 <li>Henrik har to samlinger med Pokémon-kort, én med sjeldne og én med
 vanlige kort. Han har totalt 497 kort, hvorav de vanlige utgjør 354.
 Hvor mange sjeldne kort har Henrik?</li>
-</ol><h5 id="vurderingskriterier-1">Vurderingskriterier</h5><p>Det er nok om bare navnet på strukturen for addisjon som modell er
+</ol><h5 id="vurderingskriterier-2">Vurderingskriterier</h5><p>Det er nok om bare navnet på strukturen for addisjon som modell er
 oppgitt, men begge mulige regnestykker må med. Avgjørelsene må begrunnes
 kort.</p><ol type="1">
 <li>er sammenlikning, kjent differanse: <span class="math inline">\(\_+21=93 eller 93-21=\_\)</span>.</li>
@@ -8300,10 +8444,13 @@ hel/enhet, del av antall, tall og forhold, Øveoppgaver</h4><ol type="1">
 <li><p>tall</p></li>
 <li><p>forhold</p></li>
 </ol></li>
-</ol><h4 id="grunnleggende-forklare-og-gi-eksempler-på-de-ulike-betydningene-av-brøk-del-av-helenhet-del-av-antall-tall-og-forhold-17.04.23">Grunnleggende:
+</ol><h4 id="grunnleggende-forklare-og-gi-eksempler-på-de-ulike-betydningene-av-brøk-del-av-helenhet-del-av-antall-tall-og-forhold-24.04">Grunnleggende:
+Forklare og gi eksempler på de ulike betydningene av brøk: del av
+hel/enhet, del av antall, tall og forhold, 24.04</h4><p>Forklar og gi eksempler på hva som menes med brøk som a. del av en
+hel eller del av en enhet b. del av et antall c. tall d. forhold</p><h5 id="vurderingskriterier">Vurderingskriterier</h5><p>Må gi en kort forklaring. Alfa s. 96-101 og s. 109.</p><h4 id="grunnleggende-forklare-og-gi-eksempler-på-de-ulike-betydningene-av-brøk-del-av-helenhet-del-av-antall-tall-og-forhold-17.04.23">Grunnleggende:
 Forklare og gi eksempler på de ulike betydningene av brøk: del av
 hel/enhet, del av antall, tall og forhold, 17.04.23</h4><p>Forklar og gi eksempler på hva som menes med brøk som a. del av en
-hel eller del av en enhet b. del av et antall c. tall d. forhold</p><h5 id="vurderingskriterier">Vurderingskriterier</h5><p>Må gi en kort forklaring. Alfa s. 96-101 og s. 109.</p></div>
+hel eller del av en enhet b. del av et antall c. tall d. forhold</p><h5 id="vurderingskriterier-1">Vurderingskriterier</h5><p>Må gi en kort forklaring. Alfa s. 96-101 og s. 109.</p></div>
 <div id="tall5m">
 <button onclick="moveDivsback('tall',  'tall5m')"> Tilbake til Tall </button> <h4 id="middels-forklare-og-gi-eksempler-på-de-ulike-betydningene-av-brøk-del-av-helenhet-del-av-antall-tall-og-forhold-øveoppgaver">Middels:
 Forklare og gi eksempler på de ulike betydningene av brøk: del av
@@ -8346,6 +8493,32 @@ forhold; og forhold er brøk.)</li>
 <li>Tall (7∶5) eller del av hel (syv boller som hel, eller hver bolle
 som helhet – har syv slike).</li>
 <li>Tall. (2 1/2 ∶1/3.)</li>
+</ol><h4 id="middels-forklare-og-gi-eksempler-på-de-ulike-betydningene-av-brøk-del-av-helenhet-del-av-antall-tall-og-forhold-24.04">Middels:
+Forklare og gi eksempler på de ulike betydningene av brøk: del av
+hel/enhet, del av antall, tall og forhold, 24.04</h4><ol type="1">
+<li>Avgjør og begrunn kort hvilken ene betydning av brøk det er naturlig
+å knytte til situasjonen under.</li>
+</ol><ul>
+<li>André og Henrik skal dele en pose Twist som inneholder <span class="math inline">\(45\)</span> biter. Henrik er en grådig j***l, så i
+et øyeblikk der André snur seg, rasker han med seg <span class="math inline">\(\frac{2}{3}\)</span> av innholdet og løper.</li>
+</ul><ol start="2" type="1">
+<li>Avgjør og begrunn hvilke to betydninger av brøk det er naturlig å
+knytte til situasjonen under.</li>
+</ol><ul>
+<li>En rektangulær terrasse måler tre meter den ene veien og to og en
+halv meter den andre. Arealet av terrassen er da <span class="math inline">\(3 \cdot 2\frac{1}{2}\)</span> kvadratmeter.</li>
+</ul><ol start="3" type="1">
+<li>Lag to oppgaver, og begrunn kort hvorfor de involverer den aktuelle
+betydningen av brøk.</li>
+</ol><ol type="a">
+<li>Én oppgave med brøk som del av hel/enhet.</li>
+<li>Én oppgave med brøk som forhold.</li>
+</ol><h5 id="vurderingskriterier">Vurderingskriterier</h5><ol type="1">
+<li>Må avgjøre med en kort, fornuftig begrunnelse. <em>Del av
+antall</em> er rimelig.</li>
+<li>Må avgjøre med en kort, fornuftig begrunnelse. <em>Tall</em> og
+<em>del av enhet (kvadratmeter)</em> er rimelig.</li>
+<li>Må fornuftig kunne sies å involvere de angitte betydningene.</li>
 </ol><h4 id="middels-forklare-og-gi-eksempler-på-de-ulike-betydningene-av-brøk-del-av-helenhet-del-av-antall-tall-og-forhold-17.04.23">Middels:
 Forklare og gi eksempler på de ulike betydningene av brøk: del av
 hel/enhet, del av antall, tall og forhold, 17.04.23</h4><ol type="1">
@@ -8362,7 +8535,7 @@ betydningen av brøk.</li>
 </ol><ol type="a">
 <li>Én oppgave med brøk som del av antall.</li>
 <li>Én oppgave med brøk som forhold.</li>
-</ol><h5 id="vurderingskriterier">Vurderingskriterier</h5><ol type="1">
+</ol><h5 id="vurderingskriterier-1">Vurderingskriterier</h5><ol type="1">
 <li>Må avgjøre med en kort, fornuftig begrunnelse.</li>
 </ol><ol type="a">
 <li>er rimelig å tolke som <em>tall</em> (en måling).</li>
@@ -8559,10 +8732,10 @@ produktet av to brøker.</p></li>
 <li><p>Må vise til struktur, ikke bare at «svarene» er like, slik som i
 eks under (feil tall, bare). Kvadratene er 1, grønn del 2/5. Figuren kan
 leses som <em>2/5 gjentatt tre ganger,</em> altså 3 ⋅ 2/5. Den kan også
-leses som <em>2/5 av tre,</em> altså 2/5 ⋅ 3. <img src="https://raw.githubusercontent.com/Andremartiny/MA-173/main/img//tal/24.04media/media/image1.png"/></p></li>
+leses som <em>2/5 av tre,</em> altså 2/5 ⋅ 3. <img src="https://raw.githubusercontent.com/Andremartiny/MA-173/main/img//tall/24.04media/media/image1.png"/></p></li>
 <li><p>Må vise til en figur som for eksempel den under (2/3 ⋅
 4/5):</p></li>
-</ol><p><img src="https://raw.githubusercontent.com/Andremartiny/MA-173/main/img//tal/24.04media/media/image2.png"/></p><h4 id="middels-utføre-multiplikasjon-med-brøk-17.04.23">Middels: Utføre
+</ol><p><img src="https://raw.githubusercontent.com/Andremartiny/MA-173/main/img//tall/24.04media/media/image2.png"/></p><h4 id="middels-utføre-multiplikasjon-med-brøk-17.04.23">Middels: Utføre
 multiplikasjon med brøk, 17.04.23</h4><ol type="1">
 <li><p>Forklar ved hjelp av en passende illustrasjon at <span class="math inline">\(3 \cdot \frac{2}{5} = \frac{2}{5} \cdot
 3\)</span>.</p></li>
@@ -8669,16 +8842,29 @@ liter er tre ganger så mye, så det går en tredel så mange, altså <span clas
 Utføre formell omforming av brøk, Øveoppgaver</h4><ol type="1">
 <li><p>Regn ut.</p>
 <ol type="a">
-<li><p><span class="math inline">\(\frac{3}{2}\left( 7 + \frac{3\  + \
-\frac{1}{5}}{\frac{2}{3}} \right) - 1\)</span></p></li>
-<li><p><span class="math inline">\(\frac{\left( \frac{4}{7}\  \cdot \ 2\
-\frac{3}{5} \right)\  - \ 3}{\frac{2}{3}} + 8\)</span></p></li>
-<li><p><span class="math inline">\(\frac{\frac{4}{3}\  + \
+<li><span class="math inline">\(\frac{3}{2}\left( 7 + \frac{3\  + \
+\frac{1}{5}}{\frac{2}{3}} \right) - 1\)</span><br/>
+</li>
+<li><span class="math inline">\(\frac{\left( \frac{4}{7}\  \cdot \ 2\
+\frac{3}{5} \right)\  - \ 3}{\frac{2}{3}} + 8\)</span><br/>
+</li>
+<li><span class="math inline">\(\frac{\frac{4}{3}\  + \
 5}{\frac{3}{4}\  + \ \frac{3}{5}} + \frac{7}{2}\left( 1 - \frac{8}{3}
-\right)\)</span></p></li>
-<li><p><span class="math inline">\(\left( \frac{\left( 2\ \ :\
-\frac{2}{3} \right)\  \cdot \ \frac{3}{2}}{1\  + \ \frac{3}{2}} -
-\frac{4}{5} \right) \cdot (\frac{4}{5} - 2)\)</span></p></li>
+\right)\)</span><br/>
+</li>
+<li><span class="math inline">\(\left( \frac{\left( 2\ \ :\ \frac{2}{3}
+\right)\  \cdot \ \frac{3}{2}}{1\  + \ \frac{3}{2}} - \frac{4}{5}
+\right) \cdot (\frac{4}{5} - 2)\)</span><br/>
+</li>
+<li><span class="math inline">\(\frac{\frac{-3}{4}+\frac{1}{3}}{\frac{1}{6}}+
+2(\frac{5}{3}-\frac{2}{6})\)</span><br/>
+</li>
+<li><span class="math inline">\(\left(\frac{\left(\frac{1}{7}-\frac{1}{2}\right)}{\left(\frac{1}{2}+\frac{3}{7}\right)}\right)+
+2(\frac{1}{2}-\frac{8}{26})\)</span><br/>
+</li>
+<li><span class="math inline">\(\left(\frac{(2:\frac{1}{6})\cdot
+5}{2-\frac{4}{3}}- 10\right)\cdot
+(\frac{5}{8}-\frac{1}{2})\)</span></li>
 </ol></li>
 </ol><h5 id="løsningsforslag">Løsningsforslag</h5><ol type="1">
 <li><br/>
@@ -8731,10 +8917,53 @@ Utføre formell omforming av brøk, Øveoppgaver</h4><ol type="1">
 &amp; = {- \frac{6}{5}}
 \end{aligned}
 \]</span></li>
+<li><span class="math display">\[
+\begin{aligned}
+\frac{\frac{-3}{4}+\frac{1}{3}}{\frac{1}{6}}+ 2(\frac{5}{3}-\frac{2}{6})
+&amp; = \frac{\frac{-9+4}{12}}{\frac{1}{6}}+2(\frac{10-2}{6})
+\\
+&amp; =
+\frac{\frac{-5}{12}\cdot \frac{6}{1}}{\frac{1}{6}\frac{6}{1}}+2\cdot
+\frac{8}{6}
+\\
+&amp; =
+\frac{-5}{2}+\frac{16}{6} = \frac{-15+16}{6} = \frac{1}{6}
+\end{aligned}
+\]</span></li>
+<li><span class="math display">\[
+\begin{aligned}
+\left(\frac{\left(\frac{1}{7}-\frac{1}{2}\right)}{\left(\frac{1}{2}+\frac{3}{7}\right)}\right)+
+2(\frac{1}{2}-\frac{8}{26})
+&amp; =
+\frac{\frac{2-7}{14}}{\frac{7+6}{14}} +2(\frac{13-8}{26})
+\\
+&amp; =
+\frac{\frac{-5}{14}\cdot 14}{\frac{13}{14}\cdot 14} + \frac{5}{13}
+\\
+&amp; =
+\frac{-5}{13}+\frac{5}{13} = 0
+\end{aligned}
+\]</span></li>
+<li><span class="math display">\[
+\begin{aligned}
+\left(\frac{(2:\frac{1}{6})\cdot 5}{2-\frac{4}{3}}- 10\right)\cdot
+(\frac{5}{8}-\frac{1}{2})
+&amp; =
+\left(\frac{12\cdot 5}{\frac{6-4}{3}} - 10 \right)\cdot(\frac{5-4}{8})
+\\
+&amp; =
+\left(\frac{12\cdot 5\cdot 3}{\frac{2}{3}\cdot 3} - 10\right)\cdot
+\frac{1}{8}
+\\
+&amp; =
+\left(\frac{180}{2}- 10 \right)\cdot \frac{1}{8} = 80\cdot \frac{1}{8} =
+10
+\end{aligned}
+\]</span></li>
 </ol><h4 id="avansert-utføre-formell-omforming-av-brøk-24.04">Avansert:
 Utføre formell omforming av brøk, 24.04</h4><p>Regn ut.</p><ol type="a">
 <li><span class="math inline">\(((\frac{4}{5} + \frac{1}{\frac{7}{3}})
-\frac{1}{43})) \cdot 7 + \frac{4}{5}\)</span></li>
+\frac{1}{43}) \cdot 7 + \frac{4}{5}\)</span></li>
 <li><span class="math inline">\(\frac{1}{2} -
 \frac{\frac{4}{11}((\frac{8}{6} : \frac{1}{3}) +
 \frac{2}{5})}{\frac{4}{2,5}}\)</span></li>
@@ -8771,7 +9000,7 @@ tideler (altså mer enn det igjen).</li>
 1,20 | 2,05 | 1,008 | 0,65 | 3,204</li>
 <li>1.67</li>
 </ol><ol type="1">
-<li><span class="math inline">\(1\frac{7}{10} = 1,7\)</span></li>
+<li>(1 = 1,7)</li>
 <li><span class="math inline">\(\frac{4}{10} = 0,4\)</span></li>
 <li><span class="math inline">\(\frac{2}{10} + \frac{3}{100} =
 0,23\)</span></li>

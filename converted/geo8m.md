@@ -20,6 +20,7 @@
 
 
 
+
 #### Middels: Bruke Pytagoras setning,  24.04.23
 
 På figuren under ser du et rektangel med sidelengder $\sqrt 2$ og $x$. Rektangelet er rotert $45^\circ$ og plassert i et kvadrat med sidelengde $DC = \sqrt 8 +1$. Avgjør hva $x$ er.

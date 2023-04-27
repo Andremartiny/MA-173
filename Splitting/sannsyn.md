@@ -412,12 +412,14 @@ Studenten må gi en forklaring som bruker begrepene, samt gi et eksempel.
 
 1. La et forsøk ha utfallsrommet $U = { u_1, u_2, u_3, u_4, u_5}$. Hvis $P(\{u_1, u_2, u_3\}) = 0.6$, gi et eksempel på hva $P(\{u_4, u_5\})$ og $P(u_6)$ kan være. Besvarelsen må være begrunnet.
 
-2. La et forsøk ha et utfallsrom $U = { u_1, u_2, u_3, u_4, u_5}$. Forklar at $P(\{u_3\})$ ikke kan være større enn $0.4$ hvis $P(\{u_1,u_3\}) = 0.7$ og $P(\{u_2, u,3\}) = 0.7$.  
+2. La et forsøk ha et utfallsrom $U = { u_1, u_2, u_3, u_4, u_5}$. Forklar at $P(\{u_3\})$ må være større enn $0.4$ hvis $P(\{u_1,u_3\}) = 0.7$ og $P(\{u_2, u,3\}) = 0.7$.  
+
+**Merk** Det var en feil i teksten over der det stod ''Forklar at $P(\{u_3\})$ _ikke kan være_ større enn...''. Dette er rettet i teksten over.
 
 ##### Vurderingskriterier
 
 1. Studenten må begrunne påstanden. Her kan de for eksempel bare peke på at $P(U) = 1$ og dermed kan en enkelt bare si at $P(\{u_4, u_5\})$ kan være lik $0.2$, hvis $P(u_6)$ også er lik $0.2$. Dette er fordi en ikke bryter med noen av aksiomene til sannsynlighetsmodeller.
-2. Siden $1.4 = 0.7+0.7 = P(\{u_1,u_3\}) + P(\{u_2,u_3\}) = P(u_1)+P(u_2)+2P(u_3)$, ser vi at hvis $P(u_3)$ er større enn $0.4$ så vil $1.4-P(u_3)$ være større enn $1$ samtidig som det vil være lik sannsynligheten for tre enkelutufall i utfallsrommet. Noe som gir en motsigelse.
+2. Siden $1.4 = 0.7+0.7 = P(\{u_1,u_3\}) + P(\{u_2,u_3\}) = P(u_1)+P(u_2)+2P(u_3)$, ser vi at hvis $P(u_3)$ ikke er større enn $0.4$ så vil $1.4-P(u_3)$ være større enn $1$ samtidig som det vil være lik sannsynligheten for tre enkelutufall i utfallsrommet. Noe som gir en motsigelse.
 
 ### Forklare og bruke begrepet uniform sannsynlighetsmodell
 
@@ -492,7 +494,7 @@ Henrik har en kasse med 16 defekte lys og 1 fungerende lys. Han skal skifte lys 
 ##### Vurderingskriterier
 
 1. Studenten må få fram at siden vi for hvert trekk kan trekke mellom de 8 kulene, så vil en ha et utvalg med tilbakelegg. I tillegg skriver man ned siffrene man trekker hver gang for å lage et tall. Dermed er det natulig å tenke at utvalget er ordnet. Siden vi derfor har 8 valg på første trekk og så 8 valg på neste, må det være $8\cdot 8 = 64$ mulige utfall.
-2. Studenten må få frem at at en har 17 lys, men ikke kan trekke samme pæren to ganger. I tillegg har ikke rekkefølgen noe å si, som betyr at det er et ordnet
+2. Studenten må få frem at at en har 17 lys, men ikke kan trekke samme pæren to ganger. For å forklare at det kan tenkes på som ordnet må en peke på at vi bryr oss om rekkefølgen på utvalget, for eksempel fordi Henrik tester pærene han har valgt ut i rekkefølgen han trakk de med seg. *Merk at det er noe kunstig å tolke denne situasjonen som ordnet, da det er mer naturlig å tenke seg at den er uordnet (at man ikke bryr seg om rekkefølgen)*. Siden vi nå tolker dette som et ordnet utvalg uten tilbakelegg så har vi 17 muligheter på første trekk, så 16, så 15. Multiplikasjonsprinsippet forteller oss derfor at det er $17\cdot 16\cdot 15$ mulige utvalg. 
 
 ### Forklare og bruke begrepene uordnet utvalg med og uten tilbakelegg
 
@@ -512,13 +514,13 @@ Studenten må gi eksempler som de blir bedt om, og de må forklare hva et ordnet
 1. Begrunn at følgende situasjoner kan tenkes på som uordnet utvalg uten tilbakelegg og finn antall muligheter i utvalget
    - Du har gjester på besøk og har dekket på til seks. Når du skal skjenke Cola innser du at du kun har nok til tre glass. På hvor mange måter kan du velge ut tre av de seks glassene du har dekket på?
 2. Begrunn at følgende utvalg er uordnet utvalg med tilbakelegg og finn antall muligheter i utvalget
-   - Du og dine venner har dratt til dyreparken og dere rekker tre turer med attraksjoner før dere må dra hjem. Dere kan velge mellom tømmerrenna, jungelboben og fyrtårnet. Hvor mange forskjellige turer
+   - Du og dine venner har dratt til dyreparken og dere rekker tre turer med attraksjoner før dere må dra hjem. Dere kan velge mellom tømmerrenna, jungelboben og fyrtårnet. Hvor mange forskjellige turer.
 
 ##### Vurderingskriterier
 
-1. Studenten må forklare at det er uordnet utvalg uten tilbakelegg ved å peke på at en trekker lag og at det ikke er noe rolle innad i laget. Dermed er det uordnet. Vi må også ha forskjellige elever på laget, som gir et utvalg uten tilbakelegg. For å finne antallet kan en først tenke at det er 3 valg, først 12 muligheter, så 11 og så 10. Altså $12\cdot 11\cdot 10$. Deretter må de ta hensyn til overtellingen. Ved å tenke på for eksempel en gruppe på Arne, Bjarne og Dan, så ser vi at denne kan stokkes om på $3\cdot 2\cdot 1$ mulige måter. Vi overteller altså alle grupper med $6$. Det gir at det er $\frac{12\cdot11\cdot10}{6}=2\cdot 11\cdot 10 = 220$ mulige utvalg.
-2. Studenten kan peke på at det går å tenke på dette som fem valg, der en skal velge mellom en av de to guttene hver gang, altså med tilbakelegg. Når vi velger en gutt får han kjeks, men det er ikke noen forskjell på kjeksene, så det er derfor uordnet. Vi kan systematisere ved å kalle guttene for $0$ og $1$. Da har vi mulighetene:\
-00000, 00001, 00011, 00111, 01111, 11111, altså $6$ muligheter.
+1. Studenten må forklare at det er uordnet utvalg uten tilbakelegg ved å peke på at vi har seks glass og kun tre av dem skal fylles. Rekkefølgen på når vi fyller glassene er ikke betydelig da det er personene som ikke får Cola som blir opprørt. I tillegg kan man ikke fylle ett glass flere ganger som gir uordna uten tilbakelegg. Hvis det var ordnet ville vi hatt $6\cdot 5\cdot4$ muligheter (siden vi har 6 valg, så 5 valg, så 4 valg). Siden dette er uordnet må vi ta hensyn til overtelling. Siden hvert utvalg kan stokkes om på $3\cdot 2\cdot 1$ måter kan vi dele på $6$ og få $20$ muligheter. 
+2. Studenten kan peke på at det går å tenke på dette som tre valg, der en skal velge mellom en av de tre attraksjonene hver gang, altså med tilbakelegg. Når vi velger en attraksjon, men det er ikke noen forskjell på rekkefølgen vi gjør de i. Vi kan systematisere ved å kalle attraksjonene for $0$, $1$ og $2$. Da har vi mulighetene:\
+000, 001, 002, 011, 012, 022, 111, 112, 122, 222, altså $10$ muligheter.
 
 ### Avgjøre om utvalg er ordnet eller uordnet og om det er med eller uten tilbakelegg
 
@@ -526,19 +528,19 @@ Studenten må gi eksempler som de blir bedt om, og de må forklare hva et ordnet
 
 Avgjør om situasjonene under kan tenkes som ordnede eller uordnede utvalg og om utvalgene er med eller uten tilbakelegg:
 
-1. Til årsmøtet i et lag møter det ti personer. På hvor mange måter kan det velges formann, nestformann og kasserer?
-2. I en klasse på 20 elever skal det velges ut en gruppe på 6. På hvor mange måter kan det gjøres på?
-3. På hvor mange måter kan forskjellige tresifrede tall lages med sifrene 1, 2, 3, 4 og 6, der en kan gjenta gjenta sifre?
-4. På en flervalgsprøve med åtte spørsmål er det tre alternativer på hvert spørsmål, der kun ett alternativ er rett. Hvor mange mulige forskjellige besvarelser kan man gi på prøven?
+1. I bedriftsidrettslaget er det 20 medlemmer som spiller basket. På hvor mange måter kan det velges to personer som skal sitte i styret av basketballavdelingen?
+2. I en klasse på 18 elever skal det velges ut en elevrådsleder og en vara. På hvor mange måter kan det gjøres på?
+3. I en klasse er det 12 gutter og 10 jenter. På hvor mange måter kan man velge ut 4 gutter?
+4. En student ved lærerutdanninga har møtt opp på alle obligatoriske undervisninger. Nå gjenstår det fire obligatoriske seminarer, og studenten vil komme over fraværsgrensa på 70% selv om de ikke møter på noen av seminarene. Studenten har derfor konkludert med at de står fritt til å velge om de vil møte opp eller ikke for hver av de fire seminarene. På hvor mange utvalg av seminarer kan de velge å gå på? 
 
 ##### Vurderingskriterier
 
 Studenten må argumentere og begrunne sitt valg. Det *må* ikke nødvendigvis stemme med forslaget under, men er det annerledes må begrunnelsen hvertfall være meningsfull!
 
-1. Studenten må peke på at siden det er forskjellige roller, så vil det være et ordnet utvalg, men siden det ikke er noen som kan være samme rolle så er det uten tilbakelegg.
-2. De skal velge en gruppe på $6$ elever. Én elev kan såklart ikke være med flere ganger i gruppen, så det blir uten tilbakelegg. Det er heller ikke påpekt at gruppen inneholder noen roller som gjør det naturlig å tenke på dette som et uordnet utvalg.
-3. Det blir påpekt at en kan gjenta sifrene, dermed må det tenkes på som et utvalg med tiblakelegg. Rekkefølgen har noe å si siden vi skal lage tresifrede tall, som gjør det til et ordnet utvalg med tilbakelegg.
-4. Siden det er tre muligheter på hvert spørsmål kan en tenke at en på de åtte spørsmålene kan velge mellom 1, 2 og 3, noe som gir et utvalg med tilbakelegg. I tillegg bryr vi oss om rekkefølgen fordi vi ser et mulige besvarelser som kan gis på prøven. Dermed blir dette et ordnet utvalg med tilbakelegg.
+1. Studenten kan peke på at det ikke sies noe om rollene i styret. Dermed er det naturlig å tenke at dette er et uordna utvalg. Det er heller ikke tilbakelegg siden vi trekker mellom personene og vi ikke kan velge samme person to ganger.
+2. Studenten kan peke på at det skal velges roller (ordna), men det skal være forskjellige personer (uten tilbakelegg). 
+3. Studenten kan peke på at vi har 12 gutter å velge mellom, men kan ikke velge samme (uten tilbakelegg). Siden det kun er en gruppe er det naturlig å tolke at rekkefølgen ikke har noe å si (uordna)
+4. Studenten kan peke på at det skal gjøres fire valg, der de i hvert valg velger mellom å delta og å ikke delta (to muligheter). De trekker mellom disse mulighetene hver gang, så det er med tilbakelegg. I tillegg er rekkefølgen betydelig fordi det avgjør hva slags innhold studenten får (eller ikke får) i seminarene, altså ordna utvalg med tilbakelegg.
 
 ### Forklare, illustrere og bruke komplementsetningen
 
@@ -621,7 +623,7 @@ Studenten må gi en forklaring som bruker begrepene, samt gi et eksempel.
 
 #### Middels: Avgjøre og begrunne om situasjoner er en sannsynlighetsmodell
 
-1. La et forsøk ha utfallsrommet $U = { u_1, u_2, u_3, u_4, u_5}$. Hvis $P(\{u_1, u_2, u_3\}) = 0.6$, begrunn at $P(\{u_3, u_4, u_5\}) = 0.7$ må bety at $P(u_3) = 0.15$.
+1. La et forsøk ha utfallsrommet $U = { u_1, u_2, u_3, u_4, u_5}$. Hvis $P(\{u_1, u_2, u_3\}) = 0.6$, begrunn at $P(\{u_3, u_4, u_5\}) = 0.7$ må bety at $P(u_3) = 0.3$.
 
 2. Henrik var ute på parkeringsplassen på UiA på mandag, tirsdag og onsdag. På mandag registrerte han $50\%$ av bilene som en Tesla. På tirsdag var $40\%$ av de parkerte bilene en Skoda. På onsdagen var $40\%$ Volvo. Henrik konkluderer med at det er $50\%$ sannsynlig at en bil som parkerer på er Tesla, $40\%$ at det er en Skoda og $40\%$ at det er en Volvo. Avgjør om dette kan være en sannsynlighetsmodell.
 

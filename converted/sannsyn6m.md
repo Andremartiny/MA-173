@@ -43,13 +43,13 @@
 1. Begrunn at følgende situasjoner kan tenkes på som uordnet utvalg uten tilbakelegg og finn antall muligheter i utvalget
    - Du har gjester på besøk og har dekket på til seks. Når du skal skjenke Cola innser du at du kun har nok til tre glass. På hvor mange måter kan du velge ut tre av de seks glassene du har dekket på?
 2. Begrunn at følgende utvalg er uordnet utvalg med tilbakelegg og finn antall muligheter i utvalget
-   - Du og dine venner har dratt til dyreparken og dere rekker tre turer med attraksjoner før dere må dra hjem. Dere kan velge mellom tømmerrenna, jungelboben og fyrtårnet. Hvor mange forskjellige turer
+   - Du og dine venner har dratt til dyreparken og dere rekker tre turer med attraksjoner før dere må dra hjem. Dere kan velge mellom tømmerrenna, jungelboben og fyrtårnet. Hvor mange forskjellige turer.
 
 ##### Vurderingskriterier
 
-1. Studenten må forklare at det er uordnet utvalg uten tilbakelegg ved å peke på at en trekker lag og at det ikke er noe rolle innad i laget. Dermed er det uordnet. Vi må også ha forskjellige elever på laget, som gir et utvalg uten tilbakelegg. For å finne antallet kan en først tenke at det er 3 valg, først 12 muligheter, så 11 og så 10. Altså $12\cdot 11\cdot 10$. Deretter må de ta hensyn til overtellingen. Ved å tenke på for eksempel en gruppe på Arne, Bjarne og Dan, så ser vi at denne kan stokkes om på $3\cdot 2\cdot 1$ mulige måter. Vi overteller altså alle grupper med $6$. Det gir at det er $\frac{12\cdot11\cdot10}{6}=2\cdot 11\cdot 10 = 220$ mulige utvalg.
-2. Studenten kan peke på at det går å tenke på dette som fem valg, der en skal velge mellom en av de to guttene hver gang, altså med tilbakelegg. Når vi velger en gutt får han kjeks, men det er ikke noen forskjell på kjeksene, så det er derfor uordnet. Vi kan systematisere ved å kalle guttene for $0$ og $1$. Da har vi mulighetene:\
-00000, 00001, 00011, 00111, 01111, 11111, altså $6$ muligheter.
+1. Studenten må forklare at det er uordnet utvalg uten tilbakelegg ved å peke på at vi har seks glass og kun tre av dem skal fylles. Rekkefølgen på når vi fyller glassene er ikke betydelig da det er personene som ikke får Cola som blir opprørt. I tillegg kan man ikke fylle ett glass flere ganger som gir uordna uten tilbakelegg. Hvis det var ordnet ville vi hatt $6\cdot 5\cdot4$ muligheter (siden vi har 6 valg, så 5 valg, så 4 valg). Siden dette er uordnet må vi ta hensyn til overtelling. Siden hvert utvalg kan stokkes om på $3\cdot 2\cdot 1$ måter kan vi dele på $6$ og få $20$ muligheter. 
+2. Studenten kan peke på at det går å tenke på dette som tre valg, der en skal velge mellom en av de tre attraksjonene hver gang, altså med tilbakelegg. Når vi velger en attraksjon, men det er ikke noen forskjell på rekkefølgen vi gjør de i. Vi kan systematisere ved å kalle attraksjonene for $0$, $1$ og $2$. Da har vi mulighetene:\
+000, 001, 002, 011, 012, 022, 111, 112, 122, 222, altså $10$ muligheter.
 
 
 #### Middels: Forklare og bruke begrepene uordnet utvalg med og uten tilbakelegg,  17.04.23

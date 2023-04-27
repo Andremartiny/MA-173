@@ -64,8 +64,8 @@ b. Vi ser tilsvarende at $3^2+11^2 = 9+121 = 130 = h^2$, som betyr at $h = \sqrt
 #### Grunnleggende: Bruke Pytagoras setning,  17.04.23
 
 Finn lengden på den ukjente kateten i en rettvinklet trekant når du vet at:
-    a.  hypotenusen er 10 og en katet har lengde 8
-    b.  den ene kateten har lengde 5 og hypotenusen har lengde 10.
+a.  hypotenusen er 10 og en katet har lengde 8
+b.  den ene kateten har lengde 5 og hypotenusen har lengde 10.
 
 Utregningene skal ikke være avrundet og skal gis i eksakte verdier. Det vil si at hvis svaret er $\sqrt{1^{2} + 2^{2}} = \sqrt{5}$, så skal ikke dette rundes av til $2,236$.
 

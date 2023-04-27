@@ -33,6 +33,8 @@ Under ser du to formlike trekanter. Avgjør lengden på de resterende sidene hvi
 1. $c = 2$, $b = 5$, $f = 6$ og $d = 4$.
 2. $a = \frac{1} {3}$, $b = 4$, $d= \frac{3}{2}$ og $f = 9$.
 
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-30-14-43-14.png)
+
 ##### Vurderingskriterier
 
 1. Studenten må bruke at $c$ og $f$ samsvarer. Dermed ser vi at forholdet mellom trekantene er $3$. Dermed må $b = 5$ bety at $e = 3\cdot 5 = 15$. I tillegg må $d = 4$ bety at $a = \frac{4}{3}$.
@@ -53,5 +55,5 @@ Under ser du to formlike trekanter. Avgjør lengden på de resterende sidene hvi
 Studentene må aktivt bruke formlikhet til å avgjøre de resterende sidene.
 
 1. Studenten kan peke på at siden $a$ og $d$ er de samsvarende sidene, så er skaleringsfaktoren mellom trekantene lik $3$. Dermed må $e$ være $3$ ganger så liten som $b = 12$, altså $e = 4$. Siden $f = 4$ må $c = 12$.
-2. Studenten kan her peke på at $c$ og $f$ er de samsvarende sidene og at $f$ er tre ganger så stor som $c$. Dermed er skaleringsfaktoren den samme. Det gir på samme måte som i 1. at $a = 3$ og $e = \frac{4}{3}$.
+2. Studenten kan her peke på at $c$ og $f$ er de samsvarende sidene og at $f$ er tre ganger så stor som $c$. Dermed er skaleringsfaktoren den samme. Det gir på samme måte som i 1. at $a = 3$ og $e = 12$.
 
