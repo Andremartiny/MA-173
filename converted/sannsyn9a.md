@@ -11,6 +11,15 @@
    b. Siden det å ikke bare få kron dekker alle andre utfall enn å bare få kron, så må det være $32-1$ mulige utfall som ikke bare gir ikke bare kron. Sannsynligheten blir derfor $\frac{31}{32}$.
    c. Det er på samme måte kun ett utfall som gir bare mynt. Dermed av de totalt $32$ mulighetene så er det $32-2$ som hverken inneholder bare kron eller bare mynt. Sannsynligheten blir derfor $\frac{30}{32}$.
 
+
+#### Avansert: Forklare, illustrere og bruke komplementsetningen,  28.04.23
+
+Poker er et kortspill der man har 52 kort. Det er tretten kort i hver sort (kløver, ruter, spar og hjerter), inkludert ett ess i hver sort. Hva er sannsynligheten for å *ikke* få et par i ess (to ess) på blant de to kortene du trekker?
+
+##### Vurderingskriterier
+
+Studeten må løse på en måte slik at leseren kan forstå hva som er gjort. For eksempel kan de peke på at det er $\frac{52\cdot 51}{2}$ mulige hender man kan starte med og alle hendene er like sannsylige. Dermed kan vi finne antall muligheter for å få et par i ess og bruke komplementsetningen. Det kan vi gjøre ved å finne antall hender som inneholder et par i ess. Det kan vi for eksempel løse bare ved å telle. Vi kan ha hjerter-kløver, hjerter-ruter, hjerter-spar, kløver-ruter, kløver-spar, ruter-spar. Dermed er det $26\cdot 51 - 6$ mulige hender som ikke er et par i ess av totalt $26\cdot 51$ mulige hender. Siden alle hendene er like sannsynlige kan vi konkludere med at det er $\frac{26\cdot 51-6}{26\cdot 51} = 1 - \frac{6}{26\cdot 51}$ i sannsynlighet for å ikke få par i ess. 
+
 #### Avansert: Forklare, illustrere og bruke komplementsetningen,  24.04.23
 
 Da Henrik var student gikk han i en klasse med 21 studenter. Hver undervisningsøkt deltes de inn i grupper på tre. Henrik hadde fire venner han gjerne ønsket å komme på gruppe med. Hva var synligheten for at Henrik kom på gruppe med minst en av dine venner, når gruppene ble valgt tilfeldig?

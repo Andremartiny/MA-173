@@ -27,6 +27,13 @@
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-27-11-46-49.png)
 
 
+
+#### Middels: Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon,  28.04.23
+
+Se 13.02
+
+  
+
 #### Middels: Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon,  17.04.23
 
 Avgjør og begrunn hva slags funksjon det er snakk om i hvert tilfelle. Begrunnelsen må vise til både en graf og et funksjonsuttrykk:

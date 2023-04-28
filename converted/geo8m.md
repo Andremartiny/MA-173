@@ -20,6 +20,15 @@
 
 
 
+#### Middels: Bruke Pytagoras setning,  28.04.23
+
+Øveoppgave oppgave 1.
+
+##### Vurderingskriterier
+
+Se øveoppgaver oppgave 1.
+
+
 
 #### Middels: Bruke Pytagoras setning,  24.04.23
 

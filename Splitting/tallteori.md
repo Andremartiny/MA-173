@@ -474,20 +474,20 @@ b.  Hvilke uttrykk stemmer? Argumenter ved hjelp av figuren og ved å
 1. \
 a. Vi ser at vi må trekke fra et kvadrattall, så vi må dermed bruke de to trekanttallene våre til å kunne trekke fra kvadratet. Dette kan vi for eksempel illustrere på følgende måte
 
-![](/https://raw.githubusercontent.com/Andremartiny/MA-173/mainimg/2023-04-25-12-58-11.png)
+![](/<https://raw.githubusercontent.com/Andremartiny/MA-173/mainimg/2023-04-25-12-58-11.png)>
 
 Der gul og grønn illustrerer trekanttallene og røde sirkler er det som skal trekkes vekk. Eller følgende måte
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-25-12-58-27.png)
 
-Der gul og grønn illustrerer trekanttallene, men at vi har tatt vekk at kvadrattall fra det ene trekanttallet. 
+Der gul og grønn illustrerer trekanttallene, men at vi har tatt vekk at kvadrattall fra det ene trekanttallet.
 
 b. Ved å stirre hard kan vi se i første figur at hvis vi ikke trekker vell kvadratet, så får vi et rektangel med størrelse $n+2$ og $n+1$. Kvadratet vi trekker fra ser vi at har størrelse $(n-1)^2$, som gir uttrykket $(n+2)(n+1)-(n-1)^2$.
 
 c. Her må vi bare regne
 $$
 \begin{aligned}
-2T_{n+1} - K_{n-1} 
+2T_{n+1} - K_{n-1}
 & =
 2\frac{(n+1)(n+2)}{2} - (n-1)^2
 \\
@@ -532,6 +532,222 @@ $$
     b.  Begrunn hvordan oppgaven innebærer arbeid med algebraisk
         tenkning og kompetansemålene og kjerneelementene du valgte.
 
+## 28.04
+
+### Bruke begrepene faktor (divisor), felles faktor og største felles faktor, multiplum, felles multiplum og minste felles multiplum
+
+#### Grunnleggende: Gjengi og forklare, gi eksempler og illustrasjoner til begrepene
+
+1. Gi en grunnskoletilpasset forklaring med eksempel på begrepene faktor og divisor.
+2. Forklar og gi eksempler på hva som menes med felles multiplum og minste felles multiplum for to tall. Besvarelsen må inneholde både formelle definisjoner og grunnskoletilpassete forklaringer.
+
+#### Middels: Argumentere for enkle sammenhenger knyttet til begrepene
+
+Se 10.02.23
+
+#### Avansert: Løse (også ukjente) problemer knyttet til begrepene
+
+Se 17.02.23
+
+### Bruke begrepene naturlig tall, partall og oddetall, primtall og sammensatt tall
+
+#### Grunnleggende: Gjengi og forklare, gi eksempler og illustrasjoner til begrepene
+
+Forklar og gi eksempler på hva partall og oddetall er.
+Forklar og gi eksempler på hva primtall og sammensatt tall er.
+Besvarelsen må inneholde både algebraiske definisjoner, ordforklaringer og illustrasjoner.
+
+#### Middels: Argumentere for enkle sammenhenger knyttet til begrepene
+
+1. Gi et grunnskoletilpasset argument for at sum av oddetall og oddetall er partall.
+
+2. Gi et formelt argument for at oddetall multiplisert med oddetall gir oddetall.
+
+##### Vurderingskriterier
+
+Se tidligere oppgaver
+
+#### Avansert: Løse (også ukjente) problemer knyttet til begrepene
+
+Alle naturlige tall kan beskrives relativ til et tall i tre-gangen. Noen tall er i tre-gangen ($3, 6, 9, \ldots, 3n, \ldots$), noen er én mer enn et tall i tre-gangen ($1, 4, 7, \ldots, 3n +1, \ldots$), resten er to mer enn tall i tre-gangen ($2, 5, 8, \ldots, 3n+2, \ldots $). Forklar hvorfor alle kvadrattall enten er i tre-gangen eller én mer enn et tall i tre-gangen. (Merk: Kvadrattallene er alle tallene på formen $n^2$)
+
+##### Vurderingskriterier
+
+Studenten må i besvarelsen få fram tydelig hvorfor dette alltid
+gjelder.  
+
+En naturlig løsning kan være å splitte i tre
+tilfeller:
+
+i. Alle tall som er i tre er på formen $3n$.
+Kvadratttallene som har opphav fra disse tallene er derfor
+$(3n)^{2} = 9n^{2} = 3\cdot (3n^{2})$, noe i tregangen
+
+ii. Alle tall som er én over tregangen er på formen $3n + 1$.
+Kvadrattallene som har opphav fra disse tallene er derfor
+$(3n + 1)^{2} = 9n^{2} + 6n + 1 = 3\left( 3n^{2} + 2n \right) + 1$,
+altså noe én over noe i tregangen.
+
+iii. Alle tall som er to over noe i tregangen er på formen
+$3n + 2$. Kvadrattallene som har oppgav fra disse tallene
+er derfor
+$(3n + 2)^{2} = 9n^{2} + 12n + 4 = 3\left( 3n^{2} + 4n + 1  \right) + 1$,
+altså noe én over noe i tregangen.
+
+Da dette dekker alle mulige kvadrattall har vi nå vist at de
+enten er i tregangen eller er én over noe i tregangen.
+
+### Begrunne delelighetsreglene for tall som er delelig med 2, 3, 4, 5, 6 og 9
+
+#### Middels: Argumentere for enkle sammenhenger knyttet til begrepene
+
+Gi en formell begrunnelse for delelighetsregelen for tall som er delelig med 5.
+Gi en grunnskoletilpasset begrunnelse for delelighetsregelen for tall som er delelig med 9.
+
+##### Vurderingskriterier
+
+Studenten må besvare begge oppgavene.
+
+Formelt: For eksempel kan de ta utgangspunkt i tre eller firesifra tall
+($1000a + 100b + 10c + d$) og gjøre argumentene. Deretter *må* de
+peke på hvorfor dette også fungerer for tall med flere siffer. Alternativt kan de skrive et tall som $10n + b$, der $b$ er et siffer og $n$ er et vilkårlig positivt tall. For tallet $2343403$ vil $n = 234340$ og $b = 3$. Dermed kan de nå peke direkte på at siden $10n$ inneholder faktoren $5$, så vil det være $b$, altås siste siffer, som avgjør om tallet er delelig på $5$ eller ikke.
+
+Grunnskoletilpasset: Ta utgangspunkt i et konkret eksempel og
+forklare strukturen. Igjen må det komme tydelig fram hvordan
+resultatet gjelder for et hvilket som helst antall sifre.
+
+### Finne eksplisitt uttrykk for figurtall
+
+#### Grunnleggende: Ved hjelp av Gauss-trikset/doble summen for trekanttall, og ved hjelp av sum av tillegg for kvadrat- og rektangeltall
+
+Utled det eksplisitte uttrykket for summen av de $n$ første naturlige tallene, det vil si trekanttall nummer  $n$, ved hjelp av Gauss-trikset (doble summen) geometrisk.
+Utled det eksplisitte uttrykket for kvadrattallene ved hjelp av sum av tillegg.
+
+#### Middels: Ved hjelp av sum av tillegg for andre polygontall
+
+Se 17.04
+
+#### Avansert: Ved hjelp av geometrisk betraktning/stirre hardt og sum av tillegg for sammensatte figurtall
+
+På figuren under ser du de fire første figurene i en sammensatt figur, der $F_1 = 4$, $F_2 = 10$ og $F_3 = 19$.
+
+1. Finn en eksplsitt formel for $F_n$ ved å betrakte figuren geometrisk.
+
+2. Finn en eksplisitt formel ved hjelp av sum av tillegg.
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-14-31-42.png)
+
+##### Vurderingskriterier
+
+1. Studenten må betrakte figuren og finne en eksplisitt formel ved å referere til figuren. For eksempel kan man ved å betrakte figuren figuren geometrisk kan en se at det er en trekant og et kvadrat. Kvadratet har størrelse som figurtallsnummeret (figurtall 3 har bredde 3, figurtall 4 har bredde 4, figurtall $n$ må da ha bredde $n$). Trekanten har alltid lengde én mer enn figurtallsnummeret, for figur $n$ er trekanten trekanttall $n+1$. Dermed får vi $n^2 + T_{n+1} = n^2 + \frac{(n+1)(n+2)}{2}$.
+2. Studenten kan bruke tolkningen fra 1. til å peke på at trekanten øker med $n+1$ og at kvadratet øker med det n'te oddetallet $2n-1$. Dermed er formen på tillegget $n+1 + 2n-1 = 3n$. Dermed kan vi nå bruke teknikken sum av tilleg ved å skrive ut figurtallene som en sum av tillegg:
+$$
+\begin{aligned}
+F_n
+& = 4 + (3\cdot 2) + (3\cdot 3) + (3\cdot 4 ) + \ldots + 3n
+\\
+&
+= (1 + 3\cdot 1) + (3\cdot 3 ) + (3\cdot 4 ) + \ldots + 3n
+\\
+&
+= 1 + 3(1+2+3+\ldots + n)
+\\
+&
+1+3\frac{n(n+1)}{2}
+\end{aligned}
+$$
+Her har vi et eksplisitt uttrykk for figurtall nummer $n$ og studenten trenger ikke omforme dette til å passe med 1.
+La oss bare gjøre det slik at vi kan se at det gjør det ved å gange ut begge uttrykkene (studenten trenger ikke gjøre dette):
+$$
+\begin{aligned}
+1+3\frac{n(n+1)}{2}
+& =
+\frac{2 + 3n(n+1)}{2}
+\\
+&
+= \frac{2 + 3n^2 +3n}{2},
+\end{aligned}
+$$
+Videre ser vi at svaret fra forrige oppgave kan skrives som
+$$
+\begin{aligned}
+n^2 + \frac{(n+1)(n+2)}{2}
+& =
+\frac{2n^2 + n^2+3n+2}{2}
+\\
+&
+= \frac{3n^2 +2n+2}{2}.
+\end{aligned}
+$$
+
+### Finne rekursiv uttrykk for figurtall
+
+#### Grunnleggende: Ved hjelp av form på tillegg, og differanse mellom eksplisitte uttrykk for trekant-, kvadrat- og rektangeltall
+
+Vis i en illustrasjon hvordan hver figur inneholder den forrige, og finn rekursivt uttrykk for trekanttall $n$:
+ved hjelp av strategien form på tillegg.
+ved hjelp av strategien differanse mellom eksplisitte uttrykk. Merk eksplisitt uttrykk for trekanttall er $\frac{n\cdot(n+1)}{2}$.
+
+##### Vurderingskriterier
+
+Studenten må besvare alle spørsmålene med riktig
+teknikk.
+
+i.  Her må de peke på formen på tillegget. Enten ved å peke på
+figuren og vise hvordan den utvikler seg generelt. Eller ved
+å peke på tilleggene i tallfølgen og forklare hvordan den
+utvikler seg.
+
+ii. Her *må* de ta differanse mellom $T_{n}$ og $T_{n - 1}$ og
+gjøre regne seg fram til formen på tillegget
+
+#### Middels: Ved hjelp av form på tillegg, og differanse mellom eksplisitte uttrykk for andre polygontall og sammensatte figurtall
+
+Vis i en illustrasjon hvordan hver figur inneholder den forrige, og finn rekursivt uttrykk for sekskanttallene $H_n$, der $H_1 =1$, $H_2 = 6$ og $H_3 = 15$:
+ved hjelp av strategien form på tillegg.
+ved hjelp av strategien differanse mellom eksplisitte uttrykk. Merk: Det eksplisitte uttrykket for sekskanttallene er $H_n = {n(2n-1)}$.
+
+##### Vurderingskriterier
+
+Studenten må besvare alle spørsmålene med riktig teknikk, samt illustrere sekskanttallene, se for eksempel ![](https://upload.wikimedia.org/wikipedia/commons/f/f0/Hexagonal_numbers.svg)
+
+i.  Ved å se på utviklingen ser vi at tillegget øker med fire hver gang, fra $5$ til $9$ til $13$ osv.  Dermed øker tillegget lineært med stigning fire. Fra $1$ til $6$ ser vi at økningen er $4\cdot 2 - 3$, noe som også stemmer med figuren. Vi lekker til fire sider, og har tre hjørner vi teller to ganger, altså $4\cdot 2 - 3$, eller generelt $4\cdot n - 3$.
+
+ii. Her *må* de ta differanse mellom $H_n$ og $H_{n-1}$ eller $H_{n+1}$ og $H_n$. Førstnevnte gir
+$$
+\begin{aligned}
+n(2n-1) - (n-1)(2(n-1)-1)
+& =
+2n^2 - n - (n-1)(2(n-1)-1)
+\\
+& =
+2n^2 - n - (n-1)(2n-3)
+\\
+& =
+2n^2 - n - (n(2n-3) - (2n-3))
+\\
+& =
+2n^2 - n - n(2n-3) + (2n-3)
+\\
+& =
+2n^2 - n - 2n^2+3n + 2n-3
+= 4n -3
+\end{aligned}
+$$
+
+### Beskrive oppbygningen av figurtall (alle typer)
+
+#### Grunnleggende: Beskrive eksplisitt og rekursiv sammenheng verbalt og ved hjelp av illustrasjon
+
+Øveoppgave oppgave 1 a. og b.
+
+#### Middels: Finne flere algebraiske uttrykk til samme figur
+
+Øveoppgave oppgave 1
+
+#### Avansert: Lage figurer basert på algebraiske uttrykk og tallfølger
+
+Se øveoppgave 1 a-c.
 
 ## 24.04
 
@@ -781,7 +997,6 @@ være: Bryte ned figur geometrisk, sum av tillegg,
 gauss-triks algebraisk, gauss-triks ved figur. Merk at å
 bryte ned figuren på flere måter teller som forskjellige
 måter. Siden figuren fra 1. er laget litt taktisk kan en nå se at en enkelt kan bryte den ned til å være $T_n + 4$ som gir formelen $\frac{n(n+1)}{2}+ +4$.
-
 
 ## 31.03.23
 

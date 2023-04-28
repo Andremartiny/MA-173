@@ -32,6 +32,15 @@ Totalt 8 mulige utfall. Siden hvert kast gir lik sannsynlighet for kron
 og mynt er dette utfallsrommet uniformt. Vi ser her at det er kun ett av de åtte tilfellene som gir kun tre kron, mens det er flere som gir nøyaktig to kron. Dermed kan ikke det opprinnelige utfallsrommet gitt i teksten gi opphav til en uniform
 
 
+#### Middels: Forklare og bruke begrepet uniform sannsynlighetsmodell,  28.04.23
+
+Et forsøk skal utføres ved å kaste en mynt tre ganger og registrere om det blir kron eller mynt. Henrik setter opp utfallsrommet {tre kron,to kron og en mynt,en kron og to mynt,tre mynt}. Avgjør om dette gir opphav til en uniform sannsynlighetsmodell.
+
+##### Vurderingskriterier
+
+Se øveoppgave 3.
+
+
 #### Middels: Forklare og bruke begrepet uniform sannsynlighetsmodell,  24.04.23
 
 Det er 21 studenter i klassen og de skal deles opp i 7 grupper som alle inneholder 3 studenter. Du trekker kort først og havner på gruppe 1. Neste som trekker er bestevennen din. Det er 20 mulige kort igjen å trekke og to mulige plasser på din gruppe. Bestevennen din sier. Det er to mulige utfall, enten så trekker jeg gruppen din, eller så gjør jeg ikke det. I 10% av tilfellene kommer vi på gruppe, og i 90% av tilfellene gjør vi ikke det. Avgjør og begrunn om modellen som er satt opp er en uniform sannsynlighetsmodell.

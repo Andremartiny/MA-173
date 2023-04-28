@@ -16,6 +16,20 @@ Under ser du en figur av tre formlike trekanter. Avgjør lengden på de resteren
 
 1. Vi ser at $a$ samsvarer med $d$ og $g$, at $b$ samsvarer med $e$ og $h$ og at $c$ samsvarer med $f$ og $h$. For å skalere $a = 3$ til $g = 4$, må vi skalere med $\frac{4}{3}$. Dermed må $b = 6$ skaleres til $6\cdot \frac{4}{3} = 8 = h$. For å gå fra $i$ til $c$ må vi skalere ned med $\frac{3}{4}$. Det gir at $c = 1 \cdot \frac{3}{4} = \frac{3}{4}$.
 
+#### Middels: Bruke begrepet formlikhet av trekanter,  28.04.23
+
+*Merk* I oppgaven stod det opprinnelig feil med at $AF = \frac{12}{9}$. Dette er rettet opp i, men har studenten brukt dette i beregningene får de fortsatt godkjent så lenge de har regnet på en meningsfull måte.
+
+På figuren under ser du en trekant $ABC$ med sidelengder $3$, $4$ og $5$. Inne i trekanten er det satt et kvadrat med sidelengde $\frac{12}{7}$, som gir $DC = \frac{16}{7}$ og $AF = \frac{9}{7}$. Kvadratet skaper også to nye trekanter $AFE$ og $EDC$. Alle trekantene er formlike. 
+
+Bruk informasjonen til å avgjøre lengdene $AE$ og $EC$ (vink: Det kan være lurt å tegne trekantene hver for seg)
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-26-13-00-01.png)
+
+##### Vurderingskriterier
+
+1. Studenten må bruke formlikhet for å avgjøre lengdene. Ved å for eksempel tegne trekantene opp hver for seg kan vi se at for å skalere $ABC$ ned til $EDC$ så forminskes $4$ til $\frac{16}{7}$. Det vil si at forholdstallet må være $\frac{4}{7}$ fordi $4\cdot \frac{4}{7} = \frac{16}{7}$. Dermed må hypotenusen $5$ forminskes til $5\cdot \frac{4}{7} = \frac{20}{7}$. Tilsvarende kan studenten finne forholdstallet til $AFE$ ved å se at forholdstallet er $\frac{\frac{9}{7}}{3} = \frac{9}{7\cdot 3} = \frac{3}{7}$. Dermed blir hypotenusen i $AFE$ lik $5\cdot \frac{3}{7} = \frac{15}{7}$.
+
 #### Middels: Bruke begrepet formlikhet av trekanter,  24.04.23
 
 Da det var jul hadde André kjøpt et høyt juletre som han fint hadde pyntet med en julestjerne på toppen. André mente det ville være morsomt for sin samboer å beregne høyden på treet ved å bruke formlikhet (men det syns ikke hun). Derfor ba han henne legge seg legge seg ned på gulvet slik at hun akkurat kunne se toppen av stjernen bak toppen av hodet til André . Da lå hun 3 meter unna André og 5 meter unna treet (se figur). André er $\frac{7}{4}$ meter høy. Bruk formlikhet til å avgjøre hvor høyt treet var, når en inkluderer stjernen på toppen.

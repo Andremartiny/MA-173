@@ -33,6 +33,11 @@ b.  Hvilke uttrykk stemmer? Argumenter ved hjelp av figuren og ved å
    *Merk*: Det er viktig å tegne selv og forsikre seg om at man forstår sammenhengen mellom uttrykket og figuren. Tegn derfor selv!
 
 
+#### Middels: Beskrive oppbygningen av figurtall (alle typer),  28.04
+
+Øveoppgave oppgave 1
+
+
 Under ser dere dere de tre figurtallene $F_1$, $F_2$ og $F_3$
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-21-12-22-21.png)

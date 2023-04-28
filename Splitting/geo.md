@@ -305,6 +305,197 @@ så skal ikke dette rundes av til $2,236$
 
 1. La oss kalle sidene i den rettvinkla trekanten for $x$, $y$ og $z$, slik at $x^2 + y^2 = z^2$. Da vet vi at de tre halvsirklene har areal $\pi(\frac{x}{2})^2 = \pi \frac{x^2}{4}$, $\pi \frac{y^2}{4}$ and $\pi \frac{z^2}{4}$. I tillegg har trekanten areal $\frac{2x\cdot2y}{2} = 2xy$. Tar vi de to små halvsirklene i tillegg til trekanten får vi hele området. Dette har areal $\frac{\pi}{2}(x^2+y^2)+ 2ab$. Vi kan nå bruke Pytagoras setning til å si at dette arealet kan skrives som $\frac{\pi c^2}{4} + 2ab$.Nå gjenstår det bare å trekke fra den store halvsirkelen for å få arealet av det hvite området. Dette gir $\frac{\pi c^2}{4}+ 2ab - \frac{\pi c^2}{4} = 2ab$. Vi ser dermed at det hvite området har samme areal som trekanten. Dermed blir forholdet mellom det hvite området og arealet av trekanten $1$.
 
+## 28.04.23
+
+### Bruke begrepene måltall, størrelse og måleenhet til å avgjøre størrelsen av grunnleggende figurer i 1 og 2 dimensjoner
+
+#### Grunnleggende: Gjengi, forklare og gi eksempler på begrepene størrelse, måltall og måleenheter i 1- og 2-dimensjonale figurer
+
+Forklar og gi eksempler på hva som menes med begrepene størrelse, måltall og måleenhet. Besvarelsen må inneholde 1- og 2-dimensjonale eksempler.
+
+##### Vurderingskriterier: Grunnleggende {#f17g1}
+
+Besvarelsen må gi eksempler i både en og to dimensjoner der måltall, måleenhet og størrelsen blir forklart forståelig.
+
+#### Middels: Bruke begrepene til å forklare hvordan man kan avgjøre omkrets og areal av firkanter, trekanter og sirkler
+
+Velg passende måleenheter. Vis med ordforklaringer og illustrasjoner, uten å begrunne ved hjelp av de kjente formlene, hvordan man kan avgjøre
+
+a. arealet av et trekant, når man kjenner til høyde og bredde
+
+b. arealet av en sirkel, når man vet radius.
+
+Bruk forklaringene og illustrasjonene til å vise hva de generelle formlene må være.
+
+##### Vurderingskriterier: Middels {#f17m1}
+
+Besvarelsen må gi en forståelig forklaring (og illustrasjon) for hvordan man avgjør størrelsene. For omkrets må en få fram måleenheten en bruker (typisk et linjestykke. Ofte cm, meter og lignende). For areal må det komme tydelig fram hvordan arealet henger sammen med måleenheten kvadrat (noe som i de aller fleste tilfeller betyr at en må vise en omforming til et rektangel, et halvt rektangel eller liknende). Begrunnelsene trekke ut ideen fra forklaringen og gi en generell formel for de tre størrelsene.  
+
+### Bruke begrepene måltall, størrelse og måleenhet til å avgjøre størrelsen av grunnleggende figurer i 3 dimensjoner
+
+#### Grunnleggende: Gjengi og forklare og gi eksempler på begrepene størrelse, måltall og måleenheter  i 3-dimensjonale figurer
+
+Forklar og gi eksempler på hva som menes med begrepene størrelse, måltall og måleenhet. Besvarelsen må inneholde 3-dimensjonale eksempler.
+
+##### Vurderingskriterier: Grunnleggende {#f17g2}
+
+Besvarelsen må gi eksempler i både tre dimensjoner der måltall, måleenhet og størrelsen blir forklart forståelig.
+
+### Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer
+
+#### Grunnleggende: Gjengi og forklare, gi eksempler og illustrasjoner til begrepene
+
+Forklar og gi eksempler (med illustrasjoner) på hva som menes med begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer.
+
+##### Vurderingskriterier: Grunnleggende {#f13g3}
+
+Studenten må gi en forklaring med en illustrasjon på de gitte begrepene.
+
+#### Middels: Argumentere for enkle sammenhenger knyttet til begrepene
+
+Hvis linje *f* og *g* er parallelle. Hva er vinkel *v*?\
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/geo/image1.png)
+
+##### Vurderingskriterier: Middels {#f13m3}
+
+Se øveoppgaver oppgave 2. 
+
+#### Avansert: Utforske og løse ukjente problemet knyttet til begrepene
+
+En korde-tangent-vinkel har størrelse *v*. Hvor stor er sirkelbuen
+    den skjærer av? (Merk: En tangent står vinkelrett på linjen fra
+    sentrum av sirkelen til tangeringspunktet).\
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/geo/image2.png)
+
+##### Vurderingskriterier: Avansert {#f13a3}
+
+Se øveoppgavene
+
+### Bruke begrepene kvadrat, rektangel, parallellogram, trapes, likebeint trekant, likesidet trekant, rettvinklet trekant, mangekant, sirkel
+
+#### Grunnleggende: Gjengi og forklare, gi eksempler og illustrasjoner til begrepene
+
+Forklar og gi eksempler (med illustrasjoner) på hva som menes med begrepene sirkel, kvadrat og trapes.
+
+##### Vurderingskriterier
+
+Studenten må gi forklaringer og illustrasjoner til begrepene.
+
+#### Middels: Argumentere for enkle sammenhenger knyttet til begrepene
+
+1. Forklar hvorfor, eller hvorfor ikke, et parallellogram er et trapes.
+2. Se på følgende påstand "Hvis jeg vet alle vinklene i en trekant, og én av sidelengdene, så kan jeg konstruere trekanten". Avgjør om påstanden er sann eller ikke
+
+##### Vurderingskriterier
+
+1. Studenten må peke på at et parallellogram alltid er et trapes. Dette er fordi *begge* motstående sider i et parallellogram er parallelle. En firkant er et trapes dersom *minst* én par av motstående sider er parallelle. Dermed må alle parallellogram være trapes. (Hvis studenten følger Alfa sin utdaterte definisjon om at trapes har nøyaktig ett par parallelle sider, så vil påstanden være falsk og studenten kan også argumentere for dette med denne definisjonen)
+2. Studenten kan argumentere for at dette stemmer ved å tegne en linje som er like lang som siden vi kjenner og deretter tegne på de to vinklene vi kjenner til. Drar vi ut strålene fra disse vinklene kan vi nå se at de krysser i ett punkt. Dette punktet er det manglende hjørnet, og vi har konstruert trekanten.
+
+### Bruke formler for størrelser av figurer til å utforske geometriske sammenhenger
+
+#### Grunnleggende: Gjengi og forklar formlene for trekanter, rektangler, parallellogram, trapes, sirkler, prismer, sylindre og pyramider
+
+1. Gjengi formelen for å avgjøre arealet av
+
+a. Trekanter
+
+b. Trapes
+
+c. Prismer
+
+Besvarelsene må inneholde en illustrasjon der en peker på relevante lengder.
+
+##### Vurderingskriterier: Grunnleggende {#f10g5}
+
+Studentene må gjengi formlene korrekt med en illustrasjon der det kommer fram hvilke lengder som brukes.
+
+#### Middels: Argumentere for enkle sammenhenger knyttet til begrepene
+
+Du har en sirkel med radius $r$. Hvis radius økes med $x$. Vis algebraisk hvor mye lengre omkretsen til den nye sirkelen har blitt.
+
+##### Vurderingskriterier: Middels {#f10m5}
+
+Dette må gjøres algebraisk.
+
+#### Avansert: Utforske og løse ukjente problemet knyttet til begrepene
+
+Under ser du en figur som er laget av sirkelsektorer og trekanter. Figuren er lagd ved å dele sirkelen med sentrum i \(A\) inn i seks like deler \(B\), \(C\), \(D\), \(E\), \(F\) og \(G\).  Sirkelen har radius \(r\).
+
+a. Avgjør og begrunn hva omkretsen av figuren er
+
+I en likesidet trekant er høyden i trekanten alltid \(\frac{\sqrt 3}{2}\) ganger så liten som sidelengdene i trekanten.
+b. Avgjør arealet av figuren er.
+
+
+Utregningene skal ikke være avrundet og skal gis i eksakte verdier. Det vil si at hvis svaret er \(\sqrt{1^{2} + 2^{2}} = \sqrt{5}\), så skal ikke dette rundes av til \(2,236\). Inneholder svaret \(\pi\) skal dette heller ikke avrundes til \(3.14\)!
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-25-13-59-55.png)
+
+##### Vurderingskriterier: Avansert 
+
+Studenten må løse begge oppgavene.
+a. Her ser vi at vi har tre sirkelbuer som hver utgjør en seksdel av en sirkel. vi har altså en lengde på en halv sirkel med radius $r$. Det gir en $\frac{2\pi r}{2}= r\pi$. I tillegg har vi tre sidelengder som er like radiusen (siden det er likesidede trekanter). Dermed har vi en total omkrets på $3r + r\pi$. 
+b. Vi får vite at høyden er $\frac{\sqrt 3}{2}r$. Fra a. har vi tre trekantener med høyde $\frac{\sqrt 3}{2}r$ og grunnlinje $r$. Det gir et areal på $\frac{1}{2}\frac{\sqrt 3}{2}r^2$. I tillegg har vi en halvsirkel (argumentert for på samme måte som i a), som har et areal på $\frac{\pi r^2}{2}$. Setter vi sammen disse arealene ser vi at det totale arealet avgrenset av figuren er $\frac{(2\pi + \sqrt 3)r^2}{4}$. 
+
+### Bruke begrepet formlikhet av trekanter
+
+#### Middels: Argumentere for enkle sammenhenger knyttet til begrepet
+
+*Merk* I oppgaven stod det opprinnelig feil med at $AF = \frac{12}{9}$. Dette er rettet opp i, men har studenten brukt dette i beregningene får de fortsatt godkjent så lenge de har regnet på en meningsfull måte.
+
+På figuren under ser du en trekant $ABC$ med sidelengder $3$, $4$ og $5$. Inne i trekanten er det satt et kvadrat med sidelengde $\frac{12}{7}$, som gir $DC = \frac{16}{7}$ og $AF = \frac{9}{7}$. Kvadratet skaper også to nye trekanter $AFE$ og $EDC$. Alle trekantene er formlike. 
+
+Bruk informasjonen til å avgjøre lengdene $AE$ og $EC$ (vink: Det kan være lurt å tegne trekantene hver for seg)
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-26-13-00-01.png)
+
+##### Vurderingskriterier
+
+1. Studenten må bruke formlikhet for å avgjøre lengdene. Ved å for eksempel tegne trekantene opp hver for seg kan vi se at for å skalere $ABC$ ned til $EDC$ så forminskes $4$ til $\frac{16}{7}$. Det vil si at forholdstallet må være $\frac{4}{7}$ fordi $4\cdot \frac{4}{7} = \frac{16}{7}$. Dermed må hypotenusen $5$ forminskes til $5\cdot \frac{4}{7} = \frac{20}{7}$. Tilsvarende kan studenten finne forholdstallet til $AFE$ ved å se at forholdstallet er $\frac{\frac{9}{7}}{3} = \frac{9}{7\cdot 3} = \frac{3}{7}$. Dermed blir hypotenusen i $AFE$ lik $5\cdot \frac{3}{7} = \frac{15}{7}$.
+
+### Argumentere visuelt for Pytagoras setning
+
+#### Grunnleggende: Gjengi og forklare, gi eksempler og illustrasjoner til begrepet
+
+Gjengi og forklar Pytagoras setning. Forklaringen må referere til en figur.
+
+##### Vurderingskriterier
+
+Studenten må gi en forklaring av Pytagoras setning ved å referere til en figur.
+
+#### Middels: Gi et visuelt argument for at Pytagoras setning gjelder
+
+Gi et grunnskoletilpasset argument for Pytagoras setning.
+
+##### Vurderingskriterier
+
+Studenten må gi et grunnskoletilpasset argument for at Pytagoras setning gjelder. Dette innebærer å tegne en eller flere figurer og bruke de til å argumentere for Pytagoras setning.
+
+### Bruke Pytagoras setning
+
+#### Grunnleggende: Bruke Pytagoras setning til å løse enkle problemer
+
+Finn lengden på hypotenusen i en rettvinklet trekant når du vet at katetene har lengde:
+
+a.  1 og 1
+b.  3 og 4
+
+Utregningene skal ikke være avrundet og skal gis i eksakte verdier. Det vil si at hvis svaret er \(\sqrt{1^{2} + 2^{2}} = \sqrt{5}\), så skal ikke dette rundes av til \(2,236\).
+
+##### Vurderingskriterier
+
+a. Studenten må bruke Pytagoras setninging. For eksempel kan de peke på at vi vet at $1^2 + 1^2 = h^2$, som betyr at $h = \sqrt{2}$.
+b. Vi ser tilsvarende at $3^2+4^2 = 9+16 = 25 = h^2$, som betyr at $h = 5$. 
+
+#### Middels: Bruke Pytagoras setning til å løse problemer
+
+Øveoppgave oppgave 1.
+
+##### Vurderingskriterier
+
+Se øveoppgaver oppgave 1.
 
 ## 24.04.23
 

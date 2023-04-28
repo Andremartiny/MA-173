@@ -44,6 +44,10 @@
    $$
    Likningen som går gjennom punktene er derfor $y = \frac{4}{3}x + \frac{8}{3}$.
 
+#### Middels: Forklare sammenhenger mellom parameterne i funksjonsuttrykket og grafen til lineære funksjoner,  28.04.23
+
+Se 17.04
+
 #### Middels: Forklare sammenhenger mellom parameterne i funksjonsuttrykket og grafen til lineære funksjoner,  17.04.23
 
 Grafen til en lineær funksjon går gjennom punktene $(\frac{1}{2}, 0)$ og $(\frac{3}{2}, 5)$. Forklar hvordan vi kan finne likninga til den lineære funksjonen.

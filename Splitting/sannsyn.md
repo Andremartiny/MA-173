@@ -26,7 +26,7 @@ utfallsrom og hendelse. Gi et eksempel på en sannsynlighetsmodell.
 Siden $P\left( u_{1} \right) = 0.2$, og $P\left( u_{2} \right) = 0.3$ og
 i tillegg
 $P(\left\{ u_{1},u_{2},u_{3}\} \right) = 1 = P\left( u_{1} \right) + P\left( u_{2} \right) + P\left( u_{3} \right) = P(u_{3})+0.5$
-får vi at $P\left( u_{3} \right) = 0.5$.\
+får vi at $P\left( u_{3} \right) = 0.5$.
 
 ### Forklare og bruke begrepet uniform sannsynlighetsmodell
 
@@ -79,9 +79,7 @@ og mynt er dette utfallsrommet uniformt. Vi ser her at det er kun ett av de ått
 ##### Løsningsforslag
 
 1. Anta at pærene er nummerert 1 til 6 og la 1, 2 og 3 være defekte. Da er
-mulig utfall parene, (1,2), (1,3), (1,4), (1,5), (1,6), (2,3), (2,4),
-(2,5), (2,6), (3,4), (3,5), (3,6), (4,5), (4,6) og (5,6). Det er
-rimelig å anta at alle parene er like sannsynlige siden vi trekker tilfeldig. Alle parene som inneholder enten $1$, $2$ eller $3$ eller to defekte betyr at André tar med seg en defekt pære. Teller vi opp får vi at sannsynligheten er $\frac{12}{15}$.
+mulig utfall parene, (1,2), (1,3), (1,4), (1,5), (1,6), (2,3), (2,4), (2,5), (2,6), (3,4), (3,5), (3,6), (4,5), (4,6) og (5,6). Det er rimelig å anta at alle parene er like sannsynlige siden vi trekker tilfeldig. Alle parene som inneholder enten $1$, $2$ eller $3$ eller to defekte betyr at André tar med seg en defekt pære. Teller vi opp får vi at sannsynligheten er $\frac{12}{15}$.
 
 2. Vi kan tenke oss at vi uansett kaster to kast, selv om vi får en femmer på første kast. Dette betyr bare at vi har fått yatzy og at det siste kastet ikke har noe å si. Vi kan skrive opp de ulike mulighetene slik:
 $$\left\{ \begin{array}{r}
@@ -99,8 +97,7 @@ Vi ser her at det er $11$ av de $36$ mulighetene som inneholder en femmer. Derme
 
 #### Grunnleggende: Forklare store talls lov
 
-Dette læringsmålet gjøres og godkjennes som en gruppeoppgave (på maks
-tre personer).
+Dette læringsmålet gjøres og godkjennes som en gruppeoppgave (på maks tre personer).
 
 Læringsmålet tar utgangspunkt i aktiviteten fra timen tirsdag 28.03.
 
@@ -395,6 +392,260 @@ Vi merker oss først at det er $\frac{52\cdot 51\cdot 50\cdots 42\cdot 41\cdot 4
    3. Hva om vi velger rutene som ikke skal fargelegges, så de fire
         som skal være røde?
    - Her får dere regne selv, men egg merke til at dette gir samme svar som de to oppgavene over.
+
+## 28.04.23
+
+### Forklare og bruke begrepene utfallsrom, utfall og hendelse og sannsynlighetsmodell
+
+#### Grunnleggende: Gjengi og gi eksempler til begrepene
+
+1. Forklar hva en sannsynlighetsmodell er ved hjelp av begrepene utfall, utfallsrom og hendelse. Gi et eksempel på en sannsynlighetsmodell.
+
+##### Vurderingskriterier
+
+Studenten må gi en forklaring som bruker begrepene, samt gi et eksempel.
+
+#### Middels: Avgjøre og begrunne om situasjoner er en sannsynlighetsmodell
+
+1. Hva er galt med denne sannsynlighetsmodellen? \(U = \{u_1, u_2, u_3\} \), \(P(u_1) = 0,5\), \(P(u_2) = 0,4\) og \(P(u_3) = 0.2\)?
+2. La et forsøk ha et utfallsrom \(U = { u_1, u_2, u_3, u_4, u_5} \). Forklar at \(P(\{u_3\})\) må være større enn \(0.2\) hvis \(P(\{u_1,u_3\}) = 0.8\) og \(P(\{u_2, u_3\}) = 0.4\).  
+
+##### Vurderingskriterier
+
+1. Studenten må begrunne påstanden. Ved å peke på at summen av sannsynlighetene for enkeltutfallene er større enn $1$, ser vi at vi at det ikke kan være en sannsynlighetsmodell.
+2. Siden $1.2 = 0.4+0.8 = P(\{u_1,u_3\}) + P(\{u_2,u_3\}) = P(u_1)+P(u_2)+2P(u_3)$, ser vi at hvis $P(u_3)$ er mindre enn $0.2$ så vil $1.2-P(u_3)$ være større enn $1$ samtidig som det vil være lik sannsynligheten for tre enkelutufall i utfallsrommet. Noe som gir en motsigelse.
+
+### Forklare og bruke begrepet uniform sannsynlighetsmodell
+
+#### Grunnleggende: Gjengi og gi eksempler til begrepet
+
+Forklar hva en uniform sannsynlighetsmodell er og gi et eksempel på en uniform sannsynlighetsmodell.
+
+##### Vurderingskriterier
+
+Studenten må gi en riktig forklaring, samt gi et eksempel.
+
+#### Middels: Avgjøre og begrunne om situasjoner er en uniform sannsynlighetsmodell
+
+Et forsøk skal utføres ved å kaste en mynt tre ganger og registrere om det blir kron eller mynt. Henrik setter opp utfallsrommet {tre kron,to kron og en mynt,en kron og to mynt,tre mynt}. Avgjør om dette gir opphav til en uniform sannsynlighetsmodell.
+
+##### Vurderingskriterier
+
+Se øveoppgave 3.
+
+#### Avansert: Sette opp uniforme sannsynlighetsmodeller fra en gitt situasjon
+
+André har en firesidet terning på kontoret sitt, der det er like sannsynlig å slå 1, 2, 3 og 4. André kaster to ganger og multipliserer verdiene han fikk.
+
+1. Sett opp en modell som gir opphav til en uniform sannsynlighetsmodell.
+2. Avgjør ved hjelp av modellen hva sannsynligheten er for at André får mer enn 7 når han har slått begge terningene.
+
+##### Vurderingskriterier
+
+1. Studenten *må* sette opp en uniform sannsynlighetsmodell. For eksempel kan de tegne et trediagram som dette
+
+![](../../img/sannsyn/utfallstre.png)
+
+Dette kan de bruke til å peke på at grenene helt nederst viser utfallene. Studenten kan også lage en tabell
+$$
+\begin{array} {|r|r|r|r|r|r|}\hline  & \text{Første kast} & 1 & 2 & 3 & 4
+\\
+\hline
+\text{Andre kast}
+\\ \hline  
+1 & & 1,1 & 2,1 & 3,1 & 4,1
+\\ \hline  
+2 & & 1,2& 2,2 & 3,2 & 4,2
+\\ \hline
+3 & & 1,3 & 2,3 & 3,3 & 4,3
+\\ \hline
+4 & & 1,4 & 2,4 & 3,4 & 4,4
+\\ \hline
+\end{array}
+$$
+
+Uansett, så ser vi at siden alle utfallene fra hver terning er like sannsynlig er det også naturlig at alle 16 utfallene i treet/tabellen er like sannsynlig. Dermed er dette en uniform annsynlighetsmodell.
+b. De kan nå telle over utfallene som gir mer enn $7$ og se for eksempel se at i tabellen så er det alle som ligger nedenfor den ene diagonalen. Det er altså $6$ utfall som gir mer enn $7$, så dermed er det $\frac{6}{16}$  sannsynlighet for å få mer enn $7$ når en tar produktet av begge terningkastene.
+
+### Forklare, illustrere og bruke produktregelen
+
+#### Grunnleggende: Forklare og illustrere et sammensatt valg/et forsøk sammensatt av flere trinn
+
+Forklar med bakgrunn i et eksempel på hva som menes med et sammensatt valg.
+
+##### Vurderingskriterier
+
+Studenten må bruke et eksempel til å forklare hva som menes med et sammensatt valg.
+
+#### Middels: Forklare og illustrere produktregelen
+
+Forklare og illustrere produktregelen. Pek tydelig på hvorfor det kommer frem at produktregelen må gjelde.
+
+##### Vurderingskriterier
+
+Studenten må forklare og illustrere produktregelen (Alfa 7.24). Det viktige er å få fram hvorfor vi får multiplikasjon ved flere valg. Typisk innebærer det å peke på noe sånn som *for hver av de n... får vi m... derfor får vi n m ganger* eller noe liknende. 
+
+### Forklare og bruke begrepene ordnet utvalg med og uten tilbakelegg
+
+#### Grunnleggende: Forklare og gi eksempler til begrepene
+
+Forklar og gi et eksempel til:
+
+- et ordnet utvalg med tilbakelegg
+- et ordnet utvalg uten tilbakelegg
+
+##### Vurderingskriterier
+
+Studenten må gi eksempler som de blir bedt om, og de må forklare hva et ordnet utvalg med og uten tilbakelegg er.
+
+#### Middels: Begrunne at et utvalg er ordnet og om det er med eller uten tilbakelegg, samt finne antall muligheter i utvalget
+
+1. Begrunn at følgende situasjoner kan tenkes på som ordnet utvalg med tilbakelegg og finn antall muligheter i utvalget.\ Du skal gjøre en flervalgsprøve med fem spørsmål. Hvert spørsmål har fire alternativer. Hvor mange forskjellige besvarelser kan man gjøre på prøven?
+2. Begrunn at følgende utvalg er ordnet utvalg uten tilbakelegg og finn antall muligheter i utvalget. \
+Til årsmøtet i et lag møter det ti personer. På hvor mange måter kan det velges formann, nestformann og kasserer?
+
+##### Vurderingskriterier
+
+1. Studenten må få fram at siden vi for hvert spørsmål kan velge to alternativer, vi kan tenke på dette som å velge mellom 1 og 2. Dette gjør vi fem ganger og rekkefølgen på besvarelsene er åpenbart viktig. Dermed har vi et ordnet utvalg med tilbakelegg. Vi får derfor $2^5 = 32$ mulige besvarelser.
+2. Studenten må peke på at det er forskjellige roller, dermed er det naturlig å tenke på dette som et ordnet utvalg (førstemann er forman, neste er nestformann og tredje er kasserer). Siden vi skal ha tre forskjellige personer er det uten tilbakelegg. Vi får dermed $10\cdot 9 \cdot 8 = 720$ muligheter.
+
+### Forklare og bruke begrepene uordnet utvalg med og uten tilbakelegg
+
+#### Grunnleggende: Forklare og gi eksempler til begrepene
+
+Forklar og gi et eksempel til
+
+- et uordnet utvalg med tilbakelegg
+- et uordnet utvalg uten tilbakelegg
+
+##### Vurderingskriterier
+
+Studenten må gi eksempler som de blir bedt om, og de må forklare hva et ordnet utvalg med og uten tilbakelegg er.
+
+#### Middels: Begrunne at et utvalg er uordnet og om det er med eller uten tilbakelegg, samt finne antall muligheter i utvalget
+
+1. Begrunn at følgende situasjoner kan tenkes på som uordnet utvalg uten tilbakelegg og finn antall muligheter i utvalget
+   - I en klasse på 20 elever skal det velges ut en gruppe på 6. På hvor mange måter kan det gjøres på?
+2. Begrunn at følgende utvalg er uordnet utvalg med tilbakelegg og finn antall muligheter i utvalget
+   - Du og tre venner spiller yatzee på hytta. Dere spiller to runder og holder oversikt over hvor mange runder hver person vinner. Hvor mange forskjellige kombinasjoner av vinnere kan vi ha?
+
+##### Vurderingskriterier
+
+1. Studenten må forklare at det er uordnet utvalg uten tilbakelegg ved å peke på at en trekker lag og at det ikke er noe rolle innad i laget. Dermed er det uordnet. Vi må også ha forskjellige elever på laget, som gir et utvalg uten tilbakelegg. For å finne antallet kan en først tenke at det er 3 valg, først 20 muligheter, så 19 og så 18. Altså $20 \cdot 19 \cdot 18$. Deretter må de ta hensyn til overtellingen. Ved å tenke på for eksempel en gruppe på Arne, Bjarne og Dan, så ser vi at denne kan stokkes om på $3\cdot 2\cdot 1$ mulige måter. Vi overteller altså alle grupper med $6$. Det gir at det er $\frac{20\cdot 19\cdot 18}{6}=3\cdot 20\cdot 19 = 3\cdot 380 = 1140$ mulige utvalg.
+2. Studenten kan peke på at vi trekker mellom de fire vennene. Siden de kan vinne mer enn en gang, har vi like mange valg hver gang, altså utvalg med tilbakelegg. Vi bryr oss derimot ikke når vi vinner, bare hvor mange ganger vi vinner (uordna). Vi kan telle oss fram til mulighetene. La oss nummerere vennene fra 1 til 4. Det gir mulighetene $11$, $12$, $13$, $14$, $22$, $23$, $24$, $33$, $34$, $44$, altså 10 muligheter.
+
+
+### Avgjøre om utvalg er ordnet eller uordnet og om det er med eller uten tilbakelegg
+
+#### Middels: Avgjør om situasjonene under kan tenkes som (u)ordnede utvalg med eller uten tilbakelegg
+
+Avgjør og begrunn om situasjonene under kan tenkes som ordnede eller uordnede utvalg og om utvalgene er med eller uten tilbakelegg:
+
+1. Du blir bedt om å lage et passord med lengde på $8$ symboler. Du kan velge mellom bokstavene i alfabetet og sifrene fra $0$ til $9$.
+2. Du har 8 bøker som skal sette i hylla. På hvor mange måter kan du gjøre det?
+3. I et hesteløp skal er det 8 hester som deltar. Du vedder på å treffe på både første-, andre- og tredjeplass. Hvor mange forskjellige kombinasjoner av pallplasser kan man få?
+4. I et spill med poker har man en hånd med 2 kort som du kan se og stokke på. Hvor mange forskjellige hender kan du ha?
+
+##### Vurderingskriterier
+
+Studenten må argumentere og begrunne sitt valg. Det *må* ikke nødvendigvis stemme med forslaget under, men er det annerledes må begrunnelsen hvertfall være meningsfull!
+
+1. Siden man alltid kan velge mellom de samme bokstavene og sifrene er det med tilbakelegg. Rekkefølgen man skriver inn et passord har noe å si, så det er ordnet. Vi har altså et ordnet utvalg med tilbakelegg.
+2. Du kan plassere bøkene i en bestemt rekkefølge for hver gang, altså ordnet. Siden vi heller ikke kan plassere samme bok flere ganger får vi et ordnet utvalg uten tilbakelegg.
+3. Rekkefølgen har noe å si (ordnet) og hestene kan ikke komme på mer enn én plass. Dermed er det ordnet uten tilbakelegg.
+4. Siden vi kan stokke om på kortene blir det uordnet. Vi kan heller ikke ha samme kort to ganger. Dermed blir det uordnet utvalg uten tilbakelegg.
+
+
+### Forklare, illustrere og bruke addisjonssetningen (for sannsynlighet og kombinatorikk)
+
+#### Grunnleggende: Forklare hva union og snitt er
+
+Forklar begrepene union og snitt ved hjelp av et eksempel.
+
+#### Middels: Forklare og illustrere addisjonssetningen for to mengder (Setning 7.53)
+
+Forklar og illustrere addisjonssetningen for to mengder (Setning 7.53) ved hjelp av et eksempel.
+
+#### Avansert: Bruke addisjonssetningen for å undersøke problemer
+
+Det er \(30\) tall under \(121\) som er delelig på 4 fordi \({121 \over 4} = 30+ \text{én i rest}\).
+
+1. Hvor mange tall under 121 er delelig på enten 4, 11 eller 59? Besvarelsen må inneholde en illustrasjon som får fram hvordan du har løst problemet.
+
+2. Du velger et tilfeldig tall under \(121\). Hva er sannsynligheten for at tallet er delelig på 4, 11 eller 59?
+
+##### Vurderingskriterier
+
+1. Ved å illustrere kan vi se se på mengdene som er delelig på 4, 11 og 59. Siden $59$ er et primtall er minste felles multiplum etter $121$. Tallene $11$ og $4$ har derimot minste felles multiplum lik $44$. Derfor vil alt i 44 gangen overtelles når vi tar antall tall i 4 gangen og tall i 11 gangen. Vi ser at $44$, $88$ og $132$ er de tre første verdiene i 44-gangen. Dermed overteller vi bare 2 tall. Snittet mellom de andre mengdene er tomme. Vi får altså at det er $30$ tall delelig på 4, og 10 tall delelig på 11 (eventuelt 11 hvis en leser feil og ikke ser at der er *under* 121) og 2 tall delelig på 59 under 121. Totalt får vi dermed $30+10-2+2 = 40$ tall delelig på enten 4, 11 eller 59.
+2. Vi kan nå se at vi har 40 av 120 mulige som gir $\frac{40}{120}=\frac{4}{12}= \frac{1}{3}$ sjans for å velge et tall under 121 som er delelig på enten 4, 11 eller 59.
+
+![](/img/sannsyn/sannsyn28.04.svg)
+
+### Forklare, illustrere og bruke komplementsetningen
+
+#### Grunnleggende: Forklare begrepet komplement
+
+Forklar begrepet komplement ved hjelp av et eksempel.
+
+#### Middels: Forklare og illustrere komplementsetningen i sannsynlighet
+
+Sannsynligheten for hendelsen \(A\) er \(0.4\). Forklar, ved hjelp av en illustrasjon, hva \(P(A^C)\) er.
+
+##### Vurderingskriterier
+
+Studetnen trenger bare å bruke at $P(A) + P(A^C) = 1$ for å konkludere at $P(A^C) = 0.6$.
+
+#### Avansert: Forklare, illustrere og bruke komplementsetningen i sannsynlighet
+
+Poker er et kortspill der man har 52 kort. Det er tretten kort i hver sort (kløver, ruter, spar og hjerter), inkludert ett ess i hver sort. Hva er sannsynligheten for å *ikke* få et par i ess (to ess) på blant de to kortene du trekker?
+
+##### Vurderingskriterier
+
+Studeten må løse på en måte slik at leseren kan forstå hva som er gjort. For eksempel kan de peke på at det er $\frac{52\cdot 51}{2}$ mulige hender man kan starte med og alle hendene er like sannsylige. Dermed kan vi finne antall muligheter for å få et par i ess og bruke komplementsetningen. Det kan vi gjøre ved å finne antall hender som inneholder et par i ess. Det kan vi for eksempel løse bare ved å telle. Vi kan ha hjerter-kløver, hjerter-ruter, hjerter-spar, kløver-ruter, kløver-spar, ruter-spar. Dermed er det $26\cdot 51 - 6$ mulige hender som ikke er et par i ess av totalt $26\cdot 51$ mulige hender. Siden alle hendene er like sannsynlige kan vi konkludere med at det er $\frac{26\cdot 51-6}{26\cdot 51} = 1 - \frac{6}{26\cdot 51}$ i sannsynlighet for å ikke få par i ess. 
+
+### Bruke begrepene i temaet til å løse sammensatte problemer
+
+#### Avansert: Bruke addisjonssetningen for å undersøke problemer
+
+Ved kast med to terninger noteres differensen mellom antall øyne på terningene (det største tallet minus det minste tallet). Hvis terningene viser samme antall øyne, er differensen lik 0.
+
+1. List opp eller lag tabell som viser alle mulighetene der differensen blir 0, 1, 2, 3, 4 eller 5.
+2. Hva er sannsynligheten for at differensen blir 0? Hva er sannsynligheten
+for at differensen blir 1? Forklar.
+3. To terninger kastes to ganger. Hva er sannsynligheten for den
+sammensatte hendelsen at differensen blir 0 i første kast og at
+differansen blir 1 i andre kast? Forklar.
+4. To terninger kastes to ganger. Hva er sannsynligheten for at differensen
+ikke blir 0 i noen av kastene?
+
+*Vink:* $36\cdot 36 = 1296$.
+
+##### Vurderingskriterier
+
+1. 
+$$
+\begin{array} {|r|r|r|r|r|r|}\hline  & \text{Første terning} & 1 & 2 & 3 & 4 & 5 & 6
+\\
+\hline
+\text{Andre terning}
+\\ \hline  
+1 & & 1-1 = 0 & 2-1 = 1 & 3-1 = 2 & 4-1 = 3 & 5-1 =4 & 6-1 = 5
+\\ \hline  
+2 & & 2-1 = 1& 2-2 = 0 & 3-2 = 1 & 4-2 = 2 & 5-2 = 3 & 6-2 = 4
+\\ \hline
+3 & & 3-1 =2& 3-2 =1 & 3-3 = 0 & 4-3 = 1 & 5-3 = 2 & 6-3 = 3
+\\ \hline
+4 & & 4-1 =3 & 4-2 =2 &  4-3 = 1 & 4-4 = 0& 5-4 = 1 & 6-4 = 2
+\\ \hline
+5 & & 5-1 =4& 5-2 = 3 &  5-3 = 2 & 5-4 =1 & 5-5 = 0 & 6-5 = 1
+\\ \hline
+6 & & 6-1 =5& 6-2 = 4 &  6-3 =3 & 6-4 =2 & 6-5 =1 & 6-6 = 0
+\\ \hline
+\end{array}
+$$
+2. Vi ser at 6 av de 36 mulige utfallene gir 0, så sannsynligheten er $\frac{6}{36} = \frac{1}{6}$. Vi ser videre at det er 10 mulige utfall som gir $1$, eller $\frac{10}{36}$ i sannsynlighet for å få 1. 
+3. Vi kan bruke multiplikasjonsprinsippet til å innse at vi har 36 utfall i første kast av to terninger og så 36 i neste. Derfor får vi totalt $1296$ mulige utfall. Vi vet at det i seks av de første kastene så kan vi få 0 i differanse. For hver av de seks mulighetene har vi 10 muligheter for å få 1 i differanse på andre kast. Igjen gir multiplikasjonsprinsippet oss at det må være $6\cdot 10 = 60$ mulige utfall av de $1296$ utfallene som gir 0 på første kast av to terninger og 1 på andre kast av to terninger. Sannsynligheten blir derfor $\frac{60}{1296}$.
+4. Det vil være 30 muligheter for å ikke få 0 i første og tilsvarende 30 for å ikke få noen i neste. Dermed får vi en sannsynlighet på $\frac{900}{1296}$.
 
 ## 24.04.23
 
@@ -791,7 +1042,7 @@ Studenten må forklare hva en sannsynlighetsmodell er ved hjelp av begrepene. Be
 
 ##### Vurderingskriterier
 
-1. Studenten må bruke at $P(U) = 1$ og at $P(\{u_1,u_2,u_3\}= P(u_1)+P(u_2)+P(u3)$ noe som ikke stemmer.
+1. Studenten må bruke at $P(U) = 1$ og at $P(\{u_1,u_2,u_3\})= P(u_1)+P(u_2)+P(u3)$ noe som ikke stemmer.
 2. Studenten kan angripe oppgaven på flere måter. For eksempel kan de først vise at $P(u_3) = 0.5$ og deretter bruke at $P(\{u_1,u_3\}) = P(u_1)+P(u_3) = 0.7$.
 
 ### Forklare og bruke begrepet uniform sannsynlighetsmodell

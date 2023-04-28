@@ -56,6 +56,14 @@
 
 
 
+#### Middels: Gjøre om mellom ulike representasjonsformer for funksjonssammenhenger,  28.04.23
+
+Se 13.02
+
+
+
+
+
 #### Middels: Gjøre om mellom ulike representasjonsformer for funksjonssammenhenger,  17.04.23
 
 Under ser du en skisse av Henrik i klatreveggen på Klatreverket på grim.

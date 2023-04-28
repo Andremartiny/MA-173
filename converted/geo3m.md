@@ -20,6 +20,16 @@
 
 2. Trekk en linje parallell med $f$ og $g$ gjennom vinkel $v$. Vi får da, ved å bruke parallellitetsegenskaper, at $v$ kan deles inn i to vinkler, en del som er $13^\circ$ og en del som er $35^\circ$. Vinkel $v$ er dermed $48^\circ$. *Merk*: Besvarelsen mangler en tegning. Gjør dette selv og forsøk å gjøre din egen besvarelse.
 
+#### Middels: Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer,  28.04.23
+
+Hvis linje *f* og *g* er parallelle. Hva er vinkel *v*?\
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/geo/image1.png)
+
+#### Vurderingskriterier middels:  28.04.23
+
+Se øveoppgaver oppgave 2. 
+
 
 #### Middels: Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer,  24.04.23
 

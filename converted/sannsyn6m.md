@@ -38,6 +38,20 @@
    muligheter.
 
 
+#### Middels: Forklare og bruke begrepene uordnet utvalg med og uten tilbakelegg,  28.04.23
+
+1. Begrunn at følgende situasjoner kan tenkes på som uordnet utvalg uten tilbakelegg og finn antall muligheter i utvalget
+   - I en klasse på 20 elever skal det velges ut en gruppe på 6. På hvor mange måter kan det gjøres på?
+2. Begrunn at følgende utvalg er uordnet utvalg med tilbakelegg og finn antall muligheter i utvalget
+   - Du og tre venner spiller yatzee på hytta. Dere spiller to runder og holder oversikt over hvor mange runder hver person vinner. Hvor mange forskjellige kombinasjoner av vinnere kan vi ha?
+
+##### Vurderingskriterier
+
+1. Studenten må forklare at det er uordnet utvalg uten tilbakelegg ved å peke på at en trekker lag og at det ikke er noe rolle innad i laget. Dermed er det uordnet. Vi må også ha forskjellige elever på laget, som gir et utvalg uten tilbakelegg. For å finne antallet kan en først tenke at det er 3 valg, først 20 muligheter, så 19 og så 18. Altså $20 \cdot 19 \cdot 18$. Deretter må de ta hensyn til overtellingen. Ved å tenke på for eksempel en gruppe på Arne, Bjarne og Dan, så ser vi at denne kan stokkes om på $3\cdot 2\cdot 1$ mulige måter. Vi overteller altså alle grupper med $6$. Det gir at det er $\frac{20\cdot 19\cdot 18}{6}=3\cdot 20\cdot 19 = 3\cdot 380 = 1140$ mulige utvalg.
+2. Studenten kan peke på at vi trekker mellom de fire vennene. Siden de kan vinne mer enn en gang, har vi like mange valg hver gang, altså utvalg med tilbakelegg. Vi bryr oss derimot ikke når vi vinner, bare hvor mange ganger vi vinner (uordna). Vi kan telle oss fram til mulighetene. La oss nummerere vennene fra 1 til 4. Det gir mulighetene $11$, $12$, $13$, $14$, $22$, $23$, $24$, $33$, $34$, $44$, altså 10 muligheter.
+
+
+
 #### Middels: Forklare og bruke begrepene uordnet utvalg med og uten tilbakelegg,  24.04.23
 
 1. Begrunn at følgende situasjoner kan tenkes på som uordnet utvalg uten tilbakelegg og finn antall muligheter i utvalget

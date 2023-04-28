@@ -10,6 +10,13 @@
     Celsius er en funksjonssammenheng. Bruk eksemplet til å forklare
     begrepene.
 
+#### Grunnleggende: Bruke begrepene funksjon, variabel, uavhengig variabel (innverdi), avhengig variabel (utverdi), funksjonsverdi, definisjonsmengde og verdimengde,  28.04.23
+
+Se 10.02
+
+##### Vurderingskriterier
+
+
 #### Grunnleggende: Bruke begrepene funksjon, variabel, uavhengig variabel (innverdi), avhengig variabel (utverdi), funksjonsverdi, definisjonsmengde og verdimengde,  17.04.23
 
 Sammenhengen mellom vann og saft i ferdigblandet Kjelsruds hjemmelagde husholdningssaft er at det skal være ni ganger så mye vann som det er saft. Bruk eksemplet til å forklare begrepene funksjon, innverdi og funksjonsverdi.

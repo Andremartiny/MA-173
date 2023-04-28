@@ -18,6 +18,18 @@
    b. Det er syv mulige personer som kan få førsteplassen. Når førsteplassen er valgt vil det være 6 mulige personer som kan komme på andre plass, og da 5 personer som kan komme på tredje. Dermed har vi for hver av de syv førsteplassene 6 mulige valg for andreplassen, altså $6$ syv ganger $7\cdot 6$. For hver av de $7\cdot 6$ mulighetene for første *og* andreplasser er det $5$ mulige valg for tredje, altså totalt $7\cdot 6 \cdot 5$ mulige 1.-, 2. og 3. plasser.
 
 
+#### Middels: Forklare og bruke begrepene ordnet utvalg med og uten tilbakelegg,  28.04.23
+
+1. Begrunn at følgende situasjoner kan tenkes på som ordnet utvalg med tilbakelegg og finn antall muligheter i utvalget.\ Du skal gjøre en flervalgsprøve med fem spørsmål. Hvert spørsmål har fire alternativer. Hvor mange forskjellige besvarelser kan man gjøre på prøven?
+2. Begrunn at følgende utvalg er ordnet utvalg uten tilbakelegg og finn antall muligheter i utvalget. \
+Til årsmøtet i et lag møter det ti personer. På hvor mange måter kan det velges formann, nestformann og kasserer?
+
+##### Vurderingskriterier
+
+1. Studenten må få fram at siden vi for hvert spørsmål kan velge to alternativer, vi kan tenke på dette som å velge mellom 1 og 2. Dette gjør vi fem ganger og rekkefølgen på besvarelsene er åpenbart viktig. Dermed har vi et ordnet utvalg med tilbakelegg. Vi får derfor $2^5 = 32$ mulige besvarelser.
+2. Studenten må peke på at det er forskjellige roller, dermed er det naturlig å tenke på dette som et ordnet utvalg (førstemann er forman, neste er nestformann og tredje er kasserer). Siden vi skal ha tre forskjellige personer er det uten tilbakelegg. Vi får dermed $10\cdot 9 \cdot 8 = 720$ muligheter.
+
+
 #### Middels: Forklare og bruke begrepene ordnet utvalg med og uten tilbakelegg,  24.04.23
 
 1. Begrunn at følgende situasjoner kan tenkes på som ordnet utvalg med tilbakelegg og finn antall muligheter i utvalget. Du har en krukke med 8 kuler nummerert 1 til 8 og du trekker en kule to ganger for å lage et tall.\

@@ -56,6 +56,11 @@
 
    d. Vi ser at grafene krysser i punktet $\frac{10}{9}$. At de krysser betyr at for den samme $x$-verdi så er funksjonenverdien også lik. Siden vi tolket HS og VS som funksjoner, så betyr krysningspunktet at for $x$-verdien $\frac{10}{9}$ så vil funksjonsverdiene være like. Dette er nøyaktig det som vi sa i b.
 
+#### Grunnleggende: Løse likninger fra funksjonsperspektiv,  28.04.23
+
+Se 03.02
+
+
 #### Grunnleggende: Løse likninger fra funksjonsperspektiv,  17.04.23
 
 Gitt likningen $6 = 2(3-x)$.

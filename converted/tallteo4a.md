@@ -67,6 +67,59 @@
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/stirrehardt.svg)
 
+#### Avansert: Finne eksplisitt uttrykk for figurtall,  28.04
+
+På figuren under ser du de fire første figurene i en sammensatt figur, der $F_1 = 4$, $F_2 = 10$ og $F_3 = 19$.
+
+1. Finn en eksplsitt formel for $F_n$ ved å betrakte figuren geometrisk.
+
+2. Finn en eksplisitt formel ved hjelp av sum av tillegg.
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-14-31-42.png)
+
+##### Vurderingskriterier
+
+1. Studenten må betrakte figuren og finne en eksplisitt formel ved å referere til figuren. For eksempel kan man ved å betrakte figuren figuren geometrisk kan en se at det er en trekant og et kvadrat. Kvadratet har størrelse som figurtallsnummeret (figurtall 3 har bredde 3, figurtall 4 har bredde 4, figurtall $n$ må da ha bredde $n$). Trekanten har alltid lengde én mer enn figurtallsnummeret, for figur $n$ er trekanten trekanttall $n+1$. Dermed får vi $n^2 + T_{n+1} = n^2 + \frac{(n+1)(n+2)}{2}$.
+2. Studenten kan bruke tolkningen fra 1. til å peke på at trekanten øker med $n+1$ og at kvadratet øker med det n'te oddetallet $2n-1$. Dermed er formen på tillegget $n+1 + 2n-1 = 3n$. Dermed kan vi nå bruke teknikken sum av tilleg ved å skrive ut figurtallene som en sum av tillegg:
+$$
+\begin{aligned}
+F_n
+& = 4 + (3\codt 2) + (3\cdot 3) + (3\cdot 4 ) + \ldots + 3n
+\\
+&
+= (1 + 3\cdot 1) + (3\cdot 3 ) + (3\cdot 4 ) + \ldots + 3n
+\\
+&
+= 1 + 3(1+2+3+\ldots + n)
+\\
+&
+1+3\frac{n(n+1)}{2}
+\end{aligned}
+$$
+Her har vi et eksplisitt uttrykk for figurtall nummer $n$ og studenten trenger ikke omforme dette til å passe med 1.
+La oss bare gjøre det slik at vi kan se at det gjør det ved å gange ut begge uttrykkene (studenten trenger ikke gjøre dette):
+$$
+\begin{aligned}
+1+3\frac{n(n+1)}{2}
+& =
+\frac{2 + 3n(n+1)}{2}
+\\
+&
+= \frac{2 + 3n^2 +3n}{2},
+\end{aligned}
+$$
+Videre ser vi at svaret fra forrige oppgave kan skrives som
+$$
+\begin{aligned}
+n^2 + \frac{(n+1)(n+2)}{2}
+& =
+\frac{2n^2 + n^2+3n+2}{2}
+\\
+&
+= \frac{3n^2 +2n+2}{2}.
+\end{aligned}
+$$
+
 #### Avansert: Finne eksplisitt uttrykk for figurtall,  24.04
 
 På figuren under ser du de tre første figurene i en sammensatt figur, der $F_1 = 8$, $F_2 = 18$ og $F_3 = 32$.

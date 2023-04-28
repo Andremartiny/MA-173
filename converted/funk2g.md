@@ -20,6 +20,10 @@
 
     b.  konstantleddet $b$ endres
 
+#### Grunnleggende: Forklare sammenhenger mellom parameterne i funksjonsuttrykket og grafen til lineære funksjoner,  28.04.23
+
+17.04
+
 #### Grunnleggende: Forklare sammenhenger mellom parameterne i funksjonsuttrykket og grafen til lineære funksjoner,  17.04.23
 
 Gitt en lineær funksjon $ax+b$, der $a = 1$ og $b=0$. Illustrer i et koordinatsystem hvordan endringer av $a$ påvirker grafen og hvordan endringer av $b$ påvirker grafen.

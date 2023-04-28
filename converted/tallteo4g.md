@@ -36,6 +36,11 @@
 9. Alle gjestene i et selskap skal håndhilse med hverandre. Hvordan
     avhenger antall håndtrykk av antall gjester?
 
+#### Grunnleggende: Finne eksplisitt uttrykk for figurtall,  28.04
+
+Utled det eksplisitte uttrykket for summen av de $n$ første naturlige tallene, det vil si trekanttall nummer  $n$, ved hjelp av Gauss-trikset (doble summen) geometrisk.
+Utled det eksplisitte uttrykket for kvadrattallene ved hjelp av sum av tillegg.
+
 #### Grunnleggende: Finne eksplisitt uttrykk for figurtall,  24.04
 
 Utled det eksplisitte uttrykket for summen av de $n$ første naturlige tallene, det vil si trekanttall nummer  $n$, ved hjelp av Gauss-trikset (doble summen) geometrisk.

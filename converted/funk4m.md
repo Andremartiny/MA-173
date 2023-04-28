@@ -33,6 +33,11 @@
     b.  $3 - \frac{1}{2}t = 1$
 
 
+#### Middels: Løse likninger fra funksjonsperspektiv,  28.04.23
+
+Se 03.02
+
+
 #### Middels: Løse likninger fra funksjonsperspektiv,  17.04.23
 
 1. Gi en situasjon som passer til funksjonen $f(x)=50-5x$. Hva svarer likninga $50 - 5x= 10$ til i situasjonsbeskrivelsen din? Tolk og løs likningen grafisk i et koordinatsystem.

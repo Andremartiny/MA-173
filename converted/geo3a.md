@@ -25,6 +25,18 @@ v & = \frac{\angle BAC}{2}.
 $$
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-03-21-15-36.png)
 
+#### Avansert: Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer,  28.04.23
+
+En korde-tangent-vinkel har størrelse *v*. Hvor stor er sirkelbuen
+    den skjærer av? (Merk: En tangent står vinkelrett på linjen fra
+    sentrum av sirkelen til tangeringspunktet).\
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/geo/image2.png)
+
+#### Vurderingskriterier avansert:  28.04.23
+
+Se øveoppgavene
+
 #### Avansert: Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer,  24.04.23
 
 Under ser du en trekant $ABC$, der $\angle ACB$ er halvert og går gjennom punktet $E$ (det vil si at $a = c$). Linjen som går gjennom $BD$ er parallell med linjen gjennom $AC$.

@@ -30,6 +30,26 @@ x & = \frac{2a}{2\frac{b}{2}}
 $$
 Vi ser altså at $x^2 = 2$ eller at $x = \sqrt 2$.
 
+#### Avansert: Bruke formler for størrelser av figurer til å utforske geometriske sammenhenger,  28.04.23
+
+Under ser du en figur som er laget av sirkelsektorer og trekanter. Figuren er lagd ved å dele sirkelen med sentrum i \(A\) inn i seks like deler \(B\), \(C\), \(D\), \(E\), \(F\) og \(G\).  Sirkelen har radius \(r\).
+
+a. Avgjør og begrunn hva omkretsen av figuren er
+
+I en likesidet trekant er høyden i trekanten alltid \(\frac{\sqrt 3}{2}\) ganger så liten som sidelengdene i trekanten.
+b. Avgjør arealet av figuren er.
+
+
+Utregningene skal ikke være avrundet og skal gis i eksakte verdier. Det vil si at hvis svaret er \(\sqrt{1^{2} + 2^{2}} = \sqrt{5}\), så skal ikke dette rundes av til \(2,236\). Inneholder svaret \(\pi\) skal dette heller ikke avrundes til \(3.14\)!
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-25-13-59-55.png)
+
+#### Vurderingskriterier avansert:  28.04.23
+
+Studenten må løse begge oppgavene.
+a. Her ser vi at vi har tre sirkelbuer som hver utgjør en seksdel av en sirkel. vi har altså en lengde på en halv sirkel med radius $r$. Det gir en $\frac{2\pi r}{2}= r\pi$. I tillegg har vi tre sidelengder som er like radiusen (siden det er likesidede trekanter). Dermed har vi en total omkrets på $3r + r\pi$. 
+b. Vi får vite at høyden er $\frac{\sqrt 3}{2}r$. Fra a. har vi tre trekantener med høyde $\frac{\sqrt 3}{2}r$ og grunnlinje $r$. Det gir et areal på $\frac{1}{2}\frac{\sqrt 3}{2}r^2$. I tillegg har vi en halvsirkel (argumentert for på samme måte som i a), som har et areal på $\frac{\pi r^2}{2}$. Setter vi sammen disse arealene ser vi at det totale arealet avgrenset av figuren er $\frac{(2\pi + \sqrt 3)r^2}{4}$. 
+
 #### Avansert: Bruke formler for størrelser av figurer til å utforske geometriske sammenhenger,  24.04.23
 
 Under er et rektangel med høyde $h$ som består av en blå rettvinklet trekant, en grønn rettvinklet trekant der lengden på grunnlinjen er $x$, og et trapes der de parallelle sidene har lengde $a$ og $b$ som markert på figuren.

@@ -16,6 +16,16 @@
    a. Et kvadrat kan defineres ved at alle indre vinkler er $90^\circ$ og *alle* sider er like lange. Et rektangel kan defineres ved at alle indre vinkler er $90^\circ$. Siden definisjonen av et kvadrat krever at alle vinklene er $90^\circ$, må altså et kvadrat være et rektangel.
    b. Et parallellogram kan defineres ved å si at motstående sider må være parallelle. Siden kravet om at alle indre vinkler i rektangler er $90^\circ$ impliserer at motstående sider må være parallelle, betyr det altså at et rektangel må også være et parallellogram.
 
+#### Middels: Bruke begrepene kvadrat, rektangel, parallellogram, trapes, likebeint trekant, likesidet trekant, rettvinklet trekant, mangekant, sirkel,  28.04.23
+
+1. Forklar hvorfor, eller hvorfor ikke, et parallellogram er et trapes.
+2. Se på følgende påstand "Hvis jeg vet alle vinklene i en trekant, og én av sidelengdene, så kan jeg konstruere trekanten". Avgjør om påstanden er sann eller ikke
+
+##### Vurderingskriterier
+
+1. Studenten må peke på at et parallellogram alltid er et trapes. Dette er fordi *begge* motstående sider i et parallellogram er parallelle. En firkant er et trapes dersom *minst* én par av motstående sider er parallelle. Dermed må alle parallellogram være trapes. (Hvis studenten følger Alfa sin utdaterte definisjon om at trapes har nøyaktig ett par parallelle sider, så vil påstanden være falsk og studenten kan også argumentere for dette med denne definisjonen)
+2. Studenten kan argumentere for at dette stemmer ved å tegne en linje som er like lang som siden vi kjenner og deretter tegne på de to vinklene vi kjenner til. Drar vi ut strålene fra disse vinklene kan vi nå se at de krysser i ett punkt. Dette punktet er det manglende hjørnet, og vi har konstruert trekanten.
+
 #### Middels: Bruke begrepene kvadrat, rektangel, parallellogram, trapes, likebeint trekant, likesidet trekant, rettvinklet trekant, mangekant, sirkel,  24.04.23
 
 1. Forklar hvorfor, eller hvorfor ikke, et parallellogram er et kvadrat.

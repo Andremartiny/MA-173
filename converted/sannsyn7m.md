@@ -23,6 +23,26 @@ tilbakelegg
 6. $\vdots$
 
 
+#### Middels: Avgjøre om utvalg er ordnet eller uordnet og om det er med eller uten tilbakelegg,  28.04.23
+
+Avgjør og begrunn om situasjonene under kan tenkes som ordnede eller uordnede utvalg og om utvalgene er med eller uten tilbakelegg:
+
+1. Du blir bedt om å lage et passord med lengde på $8$ symboler. Du kan velge mellom bokstavene i alfabetet og sifrene fra $0$ til $9$.
+2. Du har 8 bøker som skal sette i hylla. På hvor mange måter kan du gjøre det?
+3. I et hesteløp skal er det 8 hester som deltar. Du vedder på å treffe på både første-, andre- og tredjeplass. Hvor mange forskjellige kombinasjoner av pallplasser kan man få?
+4. I et spill med poker har man en hånd med 2 kort som du kan se og stokke på. Hvor mange forskjellige hender kan du ha?
+
+##### Vurderingskriterier
+
+Studenten må argumentere og begrunne sitt valg. Det *må* ikke nødvendigvis stemme med forslaget under, men er det annerledes må begrunnelsen hvertfall være meningsfull!
+
+1. Siden man alltid kan velge mellom de samme bokstavene og sifrene er det med tilbakelegg. Rekkefølgen man skriver inn et passord har noe å si, så det er ordnet. Vi har altså et ordnet utvalg med tilbakelegg.
+2. Du kan plassere bøkene i en bestemt rekkefølge for hver gang, altså ordnet. Siden vi heller ikke kan plassere samme bok flere ganger får vi et ordnet utvalg uten tilbakelegg.
+3. Rekkefølgen har noe å si (ordnet) og hestene kan ikke komme på mer enn én plass. Dermed er det ordnet uten tilbakelegg.
+4. Siden vi kan stokke om på kortene blir det uordnet. Vi kan heller ikke ha samme kort to ganger. Dermed blir det uordnet utvalg uten tilbakelegg.
+
+
+
 #### Middels: Avgjøre om utvalg er ordnet eller uordnet og om det er med eller uten tilbakelegg,  24.04.23
 
 Avgjør om situasjonene under kan tenkes som ordnede eller uordnede utvalg og om utvalgene er med eller uten tilbakelegg:

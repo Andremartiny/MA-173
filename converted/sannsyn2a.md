@@ -26,6 +26,40 @@ $$\left\{ \begin{array}{r}
 
 Vi ser her at det er $11$ av de $36$ mulighetene som inneholder en femmer. Dermed er sannsynligheten $\frac{11}{36}$.
 
+#### Avansert: Forklare og bruke begrepet uniform sannsynlighetsmodell,  28.04.23
+
+André har en firesidet terning på kontoret sitt, der det er like sannsynlig å slå 1, 2, 3 og 4. André kaster to ganger og multipliserer verdiene han fikk.
+
+1. Sett opp en modell som gir opphav til en uniform sannsynlighetsmodell.
+2. Avgjør ved hjelp av modellen hva sannsynligheten er for at André får mer enn 7 når han har slått begge terningene.
+
+##### Vurderingskriterier
+
+1. Studenten *må* sette opp en uniform sannsynlighetsmodell. For eksempel kan de tegne et trediagram som dette
+
+![](../../img/sannsyn/utfallstre.png)
+
+Dette kan de bruke til å peke på at grenene helt nederst viser utfallene. Studenten kan også lage en tabell
+$$
+\begin{array} {|r|r|r|r|r|r|}\hline  & \text{Første kast} & 1 & 2 & 3 & 4
+\\
+\hline
+\text{Andre kast}
+\\ \hline  
+1 & & 1,1 & 2,1 & 3,1 & 4,1
+\\ \hline  
+2 & & 1,2& 2,2 & 3,2 & 4,2
+\\ \hline
+3 & & 1,3 & 2,3 & 3,3 & 4,3
+\\ \hline
+4 & & 1,4 & 2,4 & 3,4 & 4,4
+\\ \hline
+\end{array}
+$$
+
+Uansett, så ser vi at siden alle utfallene fra hver terning er like sannsynlig er det også naturlig at alle 16 utfallene i treet/tabellen er like sannsynlig. Dermed er dette en uniform annsynlighetsmodell.
+b. De kan nå telle over utfallene som gir mer enn $7$ og se for eksempel se at i tabellen så er det alle som ligger nedenfor den ene diagonalen. Det er altså $6$ utfall som gir mer enn $7$, så dermed er det $\frac{6}{16}$  sannsynlighet for å få mer enn $7$ når en tar produktet av begge terningkastene.
+
 #### Avansert: Forklare og bruke begrepet uniform sannsynlighetsmodell,  24.04.23
 
 Henrik og André spiller et spill der de først kaster en vanlig seksidet terning og deretter en mynt. Vi anter at det er like sannsynlig å få kron og mynt, og at alle seks sidene på terningen er like sannsynlig. Spillet fungerer slik: Når man har kastet en verdi, $n$, på terningen så kaster man mynten. Hvis den lander på mynt, får man dobbler man verdien man fikk på terningen. Kaster man kron får man kun verdien man hadde på terningen.

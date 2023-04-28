@@ -45,6 +45,10 @@
 
    ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-27-12-15-21.png)
 
+#### Avansert: Løse likninger fra funksjonsperspektiv,  28.04.23
+
+Se 03.02
+
 #### Avansert: Løse likninger fra funksjonsperspektiv,  17.04.23
 
 La $f(x)=3x^2-8x+12$  og  $g(x)= 4x + 3$.

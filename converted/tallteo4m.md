@@ -47,6 +47,11 @@ Siden vi vet at $T_n = 1+2+\ldots+n = \frac{n(n+1)}{2}$, kan vi erstatte dette i
 $P_n = 3T_n -2n = \frac{3n(n+1)}{2}-2n$.
 
 
+#### Middels: Finne eksplisitt uttrykk for figurtall,  28.04
+
+Se 17.04
+
+
 #### Middels: Finne eksplisitt uttrykk for figurtall,  24.04
 
 Illustrer femkanttallene opp til $P_3$, og utled eksplisitt uttrykk for $P_n$ ved hjelp av strategien sum av tillegg. Merk at tallrekken som tilhører sekskanttallene er $1, 5, 12, 22,  \ldots$.

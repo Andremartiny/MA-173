@@ -25,6 +25,10 @@
    b. Under er sammenhengen markert. De grønne er forrige figur, det røde er det som legges til i trekanten, det blå er bunnen som legges til i rektangelet, og det gule er siden som legges til i rektangelet. ![Rekursiv sammenheng](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/rekursiv.svg)
    c. Vi kan nå bruke dekomponeringen vi har brukt til å beskrive den rekursive sammenhengen. For figur $P_n$ har vi trekanttall $n+1$ minus toppen. Det gir $T_{n+1}-1 = \frac{(n+1)(n+2)}{2}-1$. Rektangelet er alltid $n(n-1)$, så vi får at den eksplisitte formelen er $\frac{(n+1)(n+2)}{2}-1+n(n-1)$.
 
+#### Grunnleggende: Beskrive oppbygningen av figurtall (alle typer),  28.04
+
+Øveoppgave oppgave 1 a. og b.
+
 #### Grunnleggende: Beskrive oppbygningen av figurtall (alle typer),  24.04
 
 Ved å illustrere figurtallene og markere i illustrasjonen, gi en ordforklaring av
