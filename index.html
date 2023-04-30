@@ -1,24 +1,19 @@
 <!DOCTYPE html>
+
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, minimum-scale=1"
-    />
-    <title>MA-173 Oppgaver</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css">
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"
-      loading="lazy"
-    ></script>
-    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.1.0/dist/lazyload.min.js"></script>
-    <script>
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, minimum-scale=1" name="viewport"/>
+<title>MA-173 Oppgaver</title>
+<link href="https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css" rel="stylesheet"/>
+<script loading="lazy" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.1.0/dist/lazyload.min.js"></script>
+<script>
       var lazyLoadInstance = new LazyLoad({
         elements_selector: ".lazy",
       });
     </script>
-     <style>
+<style>
       @import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
 html * {
   font-family: 'Fira Code', monospace;
@@ -41,7 +36,7 @@ img{
 }
 #mainpage, div {
   position: absolute;
-  width: 97vw - 120px;
+  width: 94vw;
   height: 100vh; 
   overflow: hidden;
   background-color: #fafafa;
@@ -53,6 +48,15 @@ img{
 div:not(#mainpage){
   transform: translateX(200vw);
 }
+.loadingbar{
+  background: #c6e0b4;
+  width: 10%;
+}
+/* 
+section {
+  border: 5px solid #c6e0b4;
+  border-image-slice: 1;
+} */
 
 h2:hover,
 td:hover,
@@ -63,6 +67,13 @@ h2, button {
   font-size: clamp(2em, 2vw, 4em);
   font-weight: 400;
 }
+
+article{
+  padding-right: 2vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 button{
   background-color: #edf2f4;
   border: 1px solid #dde7ea;
@@ -107,19 +118,17 @@ tr:nth-child(even){
   margin-right: 300px;
 }
     </style>
-  </head>
-  <body>
-    <div id="mainpage">
-      <h1 style="font-weight: 1000; font-size: 3em">MA-173</h1>
-      <h2 onclick="moveDivs('mainpage', 'tallteori')">Tallteori</h2>
-      <h2 onclick="moveDivs('mainpage', 'funk')">Funksjoner</h2>
-      <h2 onclick="moveDivs('mainpage', 'likn')">Likninger og ulikheter</h2>
-      <h2 onclick="moveDivs('mainpage', 'geo')">Måling og areal</h2>
-      <h2 onclick="moveDivs('mainpage', 'tall')">Tall</h2>
-      <h2 onclick="moveDivs('mainpage', 'sannsyn')">
-        Sannsynlighet og kombinatorikk
-      </h2>
-    </div>
+</head>
+<body>
+<div id="mainpage">
+<h1 style="font-weight: 1000; font-size: 3em">MA-173</h1>
+<article onclick="moveDivs('mainpage', 'tallteori')"><h2>Tallteori</h2> <section><h2 class="loadingbar" id="tallteoloading" style="width: 0.1%;"></h2></section></article>
+<article onclick="moveDivs('mainpage', 'funk')"><h2>Funksjoner</h2> <section><h2 class="loadingbar" id="funkloading" style="width:  0.1%;"></h2></section></article>
+<article onclick="moveDivs('mainpage', 'likn')"><h2>Likninger og ulikheter</h2> <section><h2 class="loadingbar" id="liknloading" style="width:  0.15%;"></h2></section></article>
+<article onclick="moveDivs('mainpage', 'geo')"><h2>Måling og areal</h2> <section><h2 class="loadingbar" id="geoloading" style="width:  0.1%;"></h2></section></article>
+<article onclick="moveDivs('mainpage', 'tall')"><h2>Tall</h2> <section><h2 class="loadingbar" id="tallloading" style="width:  0.19%;"></h2></section></article>
+<article onclick="moveDivs('mainpage', 'sannsyn')"><h2>Sannsynlighet og kombinatorikk</h2> <section><h2 class="loadingbar" id="sannsynloading" style="width:  0.1%;"></h2></section></article>
+</div>
     <div id="tallteori">
       <button onclick="moveDivsback('mainpage', 'tallteori')">Tilbake til tema</button> 
       <table>

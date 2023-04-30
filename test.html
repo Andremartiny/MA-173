@@ -49,9 +49,14 @@ div:not(#mainpage){
   transform: translateX(200vw);
 }
 .loadingbar{
-  background: linear-gradient(90deg, rgba(0,75,7,1) 0%, rgba(9,121,67,1) 35%, rgba(100,191,0,1) 100%);
+  background: #c6e0b4;
   width: 10%;
 }
+/* 
+section {
+  border: 5px solid #c6e0b4;
+  border-image-slice: 1;
+} */
 
 h2:hover,
 td:hover,
@@ -117,12 +122,12 @@ tr:nth-child(even){
 <body>
 <div id="mainpage">
 <h1 style="font-weight: 1000; font-size: 3em">MA-173</h1>
-<article><h2 onclick="moveDivs('mainpage', 'tallteori')">Tallteori</h2> <section><h2 class="loadingbar" id="tallteoloading" style="width: 54.83870967741935%;">54.839%</h2></section></article>
-<article><h2 onclick="moveDivs('mainpage', 'funk')">Funksjoner</h2> <section><h2 class="loadingbar" id="funkloading" style="width: 50.0%;">50.0%</h2></section></article>
-<article><h2 onclick="moveDivs('mainpage', 'likn')">Likninger og ulikheter</h2> <section><h2 class="loadingbar" id="liknloading" style="width: 39.130434782608695%;">39.13%</h2></section></article>
-<article><h2 onclick="moveDivs('mainpage', 'geo')">Måling og areal</h2> <section><h2 class="loadingbar" id="geoloading" style="width: 61.53846153846154%;">61.538%</h2></section></article>
-<article><h2 onclick="moveDivs('mainpage', 'tall')">Tall</h2> <section><h2 class="loadingbar" id="tallloading" style="width: 29.48717948717949%;">29.487%</h2></section></article>
-<article><h2 onclick="moveDivs('mainpage', 'sannsyn')">Sannsynlighet og kombinatorikk</h2> <section><h2 class="loadingbar" id="sannsynloading" style="width: 20.0%;">20.0%</h2></section></article>
+<article onclick="moveDivs('mainpage', 'tallteori')"><h2>Tallteori</h2> <section><h2 class="loadingbar" id="tallteoloading" style="width: 54.83870967741935%;">54.839%</h2></section></article>
+<article onclick="moveDivs('mainpage', 'funk')"><h2>Funksjoner</h2> <section><h2 class="loadingbar" id="funkloading" style="width: 50.0%;">50.0%</h2></section></article>
+<article onclick="moveDivs('mainpage', 'likn')"><h2>Likninger og ulikheter</h2> <section><h2 class="loadingbar" id="liknloading" style="width: 39.130434782608695%;">39.13%</h2></section></article>
+<article onclick="moveDivs('mainpage', 'geo')"><h2>Måling og areal</h2> <section><h2 class="loadingbar" id="geoloading" style="width: 61.53846153846154%;">61.538%</h2></section></article>
+<article onclick="moveDivs('mainpage', 'tall')"><h2>Tall</h2> <section><h2 class="loadingbar" id="tallloading" style="width: 29.48717948717949%;">29.487%</h2></section></article>
+<article onclick="moveDivs('mainpage', 'sannsyn')"><h2>Sannsynlighet og kombinatorikk</h2> <section><h2 class="loadingbar" id="sannsynloading" style="width: 20.0%;">20.0%</h2></section></article>
 </div>
 <div id="tallteori">
 <button onclick="moveDivsback('mainpage', 'tallteori')">Tilbake til tema</button>
