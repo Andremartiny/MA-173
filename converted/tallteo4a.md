@@ -84,7 +84,7 @@ På figuren under ser du de fire første figurene i en sammensatt figur, der $F_
 $$
 \begin{aligned}
 F_n
-& = 4 + (3\codt 2) + (3\cdot 3) + (3\cdot 4 ) + \ldots + 3n
+& = 4 + (3\cdot 2) + (3\cdot 3) + (3\cdot 4 ) + \ldots + 3n
 \\
 &
 = (1 + 3\cdot 1) + (3\cdot 3 ) + (3\cdot 4 ) + \ldots + 3n

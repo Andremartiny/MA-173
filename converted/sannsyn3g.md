@@ -1,7 +1,6 @@
 #### Grunnleggende: Forklare og bruke store talls lov (Alfa 7.3),  Øveppgaver
 
-Dette læringsmålet gjøres og godkjennes som en gruppeoppgave (på maks
-tre personer).
+Dette læringsmålet gjøres og godkjennes som en gruppeoppgave (på maks tre personer).
 
 Læringsmålet tar utgangspunkt i aktiviteten fra timen tirsdag 28.03.
 
