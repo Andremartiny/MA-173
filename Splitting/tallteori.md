@@ -106,11 +106,11 @@ pandoc .\quizzer\tallteori\tallteori.md -f markdown -t html --mathjax --template
    a. \
    Formelt: At et tall er et partall betyr at det kan deles på $2$ eller sagt med andre ord at det inneholder faktoren $2$. Det betyr derfor at vi kan skrive to vilkårlige partall som $2m$ og $2n$. Produktet av disse vil derfor være $2n\cdot 2m = 2(2nm)$. Dette er et tall som kan deles på to og er derfor også et partall. Dermed har vi vist at produktet av to partall alltid er et partall. \
    Grunnskoletilpasset: La oss begynne med å avklare en måte å tenke på partall. Siden partall betyr at noe kan deles på to, kan vi også si at partall kan stables eller visualiseres som tårn som kommer i par. For eksempel kan vi ta utgangspunkt i to partall $4$ og $6$. Stabler vi disse slik som forklart vil de se ut som på bildet under:
-   ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main//img/tallteo/pargpardel1.svg)
+   ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/pargpardel1.svg)
    Ved å tenke på multiplikasjon som gjentatt addisjon kan vi derfor gjenta partårnet som representerer $6$ fire ganger. Multiplikasjonen kan vi altså se for oss slik som figuren under:
-   ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main//img/tallteo/pargpardel2.svg)
+   ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/pargpardel2.svg)
    Siden vi nå har flere tårn (helt konkret fire tårn), som alle er to i bredden. Kan vi stable de fint oppå hverandre, noe som gir et nytt partårn.
-   ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main//img/tallteo/pargpardel3.svg)
+   ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/pargpardel3.svg)
    Siden sluttresultatet endte med et partårn var sluttresultatet også et partall, i dette tilfellet var $6\cdot 4 = 24$. Vi kan deretter peke på at det ikke var noe spesielt med hverken $4$ eller $6$. Det eneste spesielle var vi la sammen flere partårn (vi la sammen fire), det kunne vært hva som helst. Vi kunne for eksempel byttet ut $6$ med et hvilket som helst partall. Vi kunne også byttet ut $4$ med et hvilket som helst partall også. Hadde vi for eksempel tatt $6$ og $24$ ville strukturen i beviset fortsatt fungert, noe som må bety at partall multiplisert med partall må resultere i et partall.
 
 #### Avansert: Løse (også ukjente) problemer knyttet til begrepene
@@ -480,9 +480,9 @@ Der gul og grønn illustrerer trekanttallene og røde sirkler er det som skal tr
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-25-12-58-27.png)
 
-Der gul og grønn illustrerer trekanttallene, men at vi har tatt vekk at kvadrattall fra det ene trekanttallet.
+Der gul og grønn illustrerer trekanttallene, men at vi har tatt vekk et kvadrattall fra det ene trekanttallet.
 
-b. Ved å stirre hard kan vi se i første figur at hvis vi ikke trekker vell kvadratet, så får vi et rektangel med størrelse $n+2$ og $n+1$. Kvadratet vi trekker fra ser vi at har størrelse $(n-1)^2$, som gir uttrykket $(n+2)(n+1)-(n-1)^2$.
+b. Ved å stirre hard kan vi se i første figur at hvis vi ikke trekker vekk kvadratet, så får vi et rektangel med størrelse $n+2$ og $n+1$. Kvadratet vi trekker fra ser vi at har størrelse $(n-1)^2$, som gir uttrykket $(n+2)(n+1)-(n-1)^2$.
 
 c. Her må vi bare regne
 $$
@@ -2173,11 +2173,10 @@ ved hjelp av strategien differanse mellom eksplisitte uttrykk. Merk: Det eksplis
 
 ### Beskrive oppbygningen av figurtall (alle typer)
 
-Under ser dere dere de tre første piltallene.
-
-![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-14-32-20.png)
 
 #### Grunnleggende: Beskrive eksplisitt og rekursiv sammenheng verbalt og ved hjelp av illustrasjon
+
+Under ser dere dere de tre første piltallene.
 
 Ved å illustrere piltallene og markere i illustrasjonen, gi en ordforklaring av
 
@@ -2185,9 +2184,14 @@ Ved å illustrere piltallene og markere i illustrasjonen, gi en ordforklaring av
 
 2. en rekursiv sammenheng mellom to påfølgende piltall.
 
-#### Middels: Finne flere algebraiske uttrykk til samme figur
 
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-14-32-20.png)
+
+#### Middels: Finne flere algebraiske uttrykk til samme figur
+Under ser dere dere de tre første piltallene.
 Ved å bryte piltallene ned på flere måter, utled to ulike, men likeverdige uttrykk for piltallene.
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-14-32-20.png)
 
 #### Avansert: Lage figurer basert på algebraiske uttrykk og tallfølger
 

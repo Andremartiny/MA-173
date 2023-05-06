@@ -752,9 +752,16 @@ b. Lag en passende situasjon som kan høre til funksjonssammenhengen.
 
 c. Finn funksjonsuttrykk, og skisser grafen.
 
-| x   | -2  | -1  | 1  |  2  |
-|-----|-----|-----|----|-----|
-| y   | -4  | -8  | 8  | 4   |
+$$
+\begin{array}
+{|r|r|r|r|r|}
+\hline 
+x &  -2 & -1 & 1 & 2
+\\ \hline 
+y & -4 & -8 & 8 & 4
+\\ \hline  
+\end{array}
+$$
 
 1. Under ser du grafen til en funksjon.
 
