@@ -247,7 +247,7 @@ tilbakelegg
 5. Vi kan nummerere setene fra $1$ til $6$, og vi ønsker å velge ut fire av de seks sifrene. Vi kan ikke velge samme siffer to ganger, da dette betyr at vi skal dekke på samme plass to ganger. Dermed er det et utvalg uten tilbakelegg. Siden det å dekke på ikke har noen betydning i forhold til rekkefølgen vi gjør det i, så vil dette være et uordnet utvalg uten tilbakelegg.
 6. $\vdots$
 
-### Forklare, illustrere og bruke addisjonssetningen (for sannsynlighet *og* kombinatorikk)
+### Forklare, illustrere og bruke addisjonssetningen (for sannsynlighet og kombinatorikk)
 
 #### Grunnleggende: Forklare hva union og snitt er
 
@@ -444,7 +444,7 @@ André har en firesidet terning på kontoret sitt, der det er like sannsynlig å
 
 1. Studenten *må* sette opp en uniform sannsynlighetsmodell. For eksempel kan de tegne et trediagram som dette
 
-![](../../img/sannsyn/utfallstre.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/sannsyn/utfallstre.png)
 
 Dette kan de bruke til å peke på at grenene helt nederst viser utfallene. Studenten kan også lage en tabell
 $$
@@ -817,7 +817,7 @@ Studeten må løse på en måte slik at leseren kan forstå hva som er gjort. Fo
 
 ### Bruke begrepene i temaet til å løse sammensatte problemer
 
-#### Avansert: Bruke addisjonssetningen for å undersøke problemer
+#### Avansert:
 
 I en vanlig kortstokk med 52 kort finnes det fire sorter, hjerter, ruter, kløver og spar. I hver sort er det 13 kort, kortene 1 (ess) til 10 i tillegg til en knekt, en dame og en konge. Når man spiller bridge får man en hånd bestående av 13 tilfeldige kort.
 
