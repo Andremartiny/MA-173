@@ -53,7 +53,7 @@
 Studenten må gi en forståelig og riktig begrunnelse i begge oppgavene. I tillegg må de finne antall muligheter i utvalget.
 
 1. Studenten bør peke på at en ikke kan velge samme bok flere ganger (uten tilbakelegg), og at rekkefølgen han velger ut i ikke er av betydning (uordna). Dermed får vi \(6\cdot 5\cdot 4\) muligheter, men siden vi ikke bryr oss om rekkefølge så teller vi hvert utvalg \(3\cdot 2\cdot 1\) ganger. Vi kan derfor dele på \(6\) og se at det er \(20\) muligheter.
-2. Studenten må begrunne at vi kan velge samme is flere ganger (med tilbakelegg), men at det ikke er viktig hvilken rekkefølge vi velger isen i (uordna). Deretter må de finne utvalget. En naturlig måte vil være å telle på en strukturert måte, for eksempel ved hjepl av en tabell, slik som under. Teller vi over ser vi at det er \(15\) mulige utvalg. 
+2. Studenten må begrunne at vi kan velge samme is flere ganger (med tilbakelegg), men at det ikke er viktig hvilken rekkefølge vi velger isen i (uordna). Deretter må de finne utvalget. En naturlig måte vil være å telle på en strukturert måte, for eksempel ved hjelp av en tabell, slik som under. Teller vi over ser vi at det er \(15\) mulige utvalg.
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/sannsyn/iskrem.svg)
 
 
@@ -70,7 +70,6 @@ Studenten må gi en forståelig og riktig begrunnelse i begge oppgavene. I tille
 2. Studenten kan peke på at vi trekker mellom de fire vennene. Siden de kan vinne mer enn en gang, har vi like mange valg hver gang, altså utvalg med tilbakelegg. Vi bryr oss derimot ikke når vi vinner, bare hvor mange ganger vi vinner (uordna). Vi kan telle oss fram til mulighetene. La oss nummerere vennene fra 1 til 4. Det gir mulighetene $11$, $12$, $13$, $14$, $22$, $23$, $24$, $33$, $34$, $44$, altså 10 muligheter.
 
 
-
 #### Middels: Forklare og bruke begrepene uordnet utvalg med og uten tilbakelegg,  24.04.23
 
 1. Begrunn at følgende situasjoner kan tenkes på som uordnet utvalg uten tilbakelegg og finn antall muligheter i utvalget
@@ -80,7 +79,7 @@ Studenten må gi en forståelig og riktig begrunnelse i begge oppgavene. I tille
 
 ##### Vurderingskriterier
 
-1. Studenten må forklare at det er uordnet utvalg uten tilbakelegg ved å peke på at vi har seks glass og kun tre av dem skal fylles. Rekkefølgen på når vi fyller glassene er ikke betydelig da det er personene som ikke får Cola som blir opprørt. I tillegg kan man ikke fylle ett glass flere ganger som gir uordna uten tilbakelegg. Hvis det var ordnet ville vi hatt $6\cdot 5\cdot4$ muligheter (siden vi har 6 valg, så 5 valg, så 4 valg). Siden dette er uordnet må vi ta hensyn til overtelling. Siden hvert utvalg kan stokkes om på $3\cdot 2\cdot 1$ måter kan vi dele på $6$ og få $20$ muligheter. 
+1. Studenten må forklare at det er uordnet utvalg uten tilbakelegg ved å peke på at vi har seks glass og kun tre av dem skal fylles. Rekkefølgen på når vi fyller glassene er ikke betydelig da det er personene som ikke får Cola som blir opprørt. I tillegg kan man ikke fylle ett glass flere ganger som gir uordna uten tilbakelegg. Hvis det var ordnet ville vi hatt $6\cdot 5\cdot4$ muligheter (siden vi har 6 valg, så 5 valg, så 4 valg). Siden dette er uordnet må vi ta hensyn til overtelling. Siden hvert utvalg kan stokkes om på $3\cdot 2\cdot 1$ måter kan vi dele på $6$ og få $20$ muligheter.
 2. Studenten kan peke på at det går å tenke på dette som tre valg, der en skal velge mellom en av de tre attraksjonene hver gang, altså med tilbakelegg. Når vi velger en attraksjon, men det er ikke noen forskjell på rekkefølgen vi gjør de i. Vi kan systematisere ved å kalle attraksjonene for $0$, $1$ og $2$. Da har vi mulighetene:\
 000, 001, 002, 011, 012, 022, 111, 112, 122, 222, altså $10$ muligheter.
 

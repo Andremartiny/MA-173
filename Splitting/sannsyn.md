@@ -295,7 +295,7 @@ Forklare begrepet komplement gjennom et eksempel
    b. Siden det å ikke bare få kron dekker alle andre utfall enn å bare få kron, så må det være $32-1$ mulige utfall som ikke bare gir ikke bare kron. Sannsynligheten blir derfor $\frac{31}{32}$.
    c. Det er på samme måte kun ett utfall som gir bare mynt. Dermed av de totalt $32$ mulighetene så er det $32-2$ som hverken inneholder bare kron eller bare mynt. Sannsynligheten blir derfor $\frac{30}{32}$.
 
-### Bruke begrepene i temaet til å løse sammensatte problemet
+### Bruke begrepene i temaet til å løse sammensatte problemer
 
 #### Avansert
 
@@ -516,7 +516,7 @@ Studenten må gi eksempler som de blir bedt om, og de må forklare hva et ordnet
 Studenten må gi en forståelig og riktig begrunnelse i begge oppgavene. I tillegg må de finne antall muligheter i utvalget.
 
 1. Studenten bør peke på at en ikke kan velge samme bok flere ganger (uten tilbakelegg), og at rekkefølgen han velger ut i ikke er av betydning (uordna). Dermed får vi \(6\cdot 5\cdot 4\) muligheter, men siden vi ikke bryr oss om rekkefølge så teller vi hvert utvalg \(3\cdot 2\cdot 1\) ganger. Vi kan derfor dele på \(6\) og se at det er \(20\) muligheter.
-2. Studenten må begrunne at vi kan velge samme is flere ganger (med tilbakelegg), men at det ikke er viktig hvilken rekkefølge vi velger isen i (uordna). Deretter må de finne utvalget. En naturlig måte vil være å telle på en strukturert måte, for eksempel ved hjepl av en tabell, slik som under. Teller vi over ser vi at det er \(15\) mulige utvalg. 
+2. Studenten må begrunne at vi kan velge samme is flere ganger (med tilbakelegg), men at det ikke er viktig hvilken rekkefølge vi velger isen i (uordna). Deretter må de finne utvalget. En naturlig måte vil være å telle på en strukturert måte, for eksempel ved hjelp av en tabell, slik som under. Teller vi over ser vi at det er \(15\) mulige utvalg.
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/sannsyn/iskrem.svg)
 
 ### Avgjøre om utvalg er ordnet eller uordnet og om det er med eller uten tilbakelegg
@@ -567,11 +567,11 @@ Forklar begrepet komplement ved hjelp av et eksempel.
 
 #### Middels: Forklare og illustrere komplementsetningen i sannsynlighet
 
-Du skal spiller et kortspill og er interessert i sannsynligheten for hendelse \(A\). Du får vite at \(P(A^C) = 0.4\). Hva er \(P(A)\)?
+Du skal spille et kortspill og er interessert i sannsynligheten for hendelse \(A\). Du får vite at \(P(A^C) = 0.4\). Hva er \(P(A)\)?
 
 ##### Vurderingskriterier
 
-Studenten må bare bruke komplementsetningen til å peke på at \(P(A) + P(A^C) = 1\), noe som gir at \(P(A) = 0.6\). 
+Studenten må bare bruke komplementsetningen til å peke på at \(P(A) + P(A^C) = 1\), noe som gir at \(P(A) = 0.6\).
 
 #### Avansert: Forklare, illustrere og bruke komplementsetningen i sannsynlighet
 
@@ -579,7 +579,7 @@ Det er 13 gutter og 12 jenter i en klasse. Det skal trekkes en tilfeldig gruppe 
 
 ##### Vurderingskriterier
 
-Studenten må regne ut sannsynligheten på en forståelig måte. Det kan for eksempel gjøres ved å tenke at alle mulige utvalg er like sannsynlige og at det er et uordnet utvalg uten tilbakelegg. Det gir en uniform sannsynlighetsmodell med \(\frac{25\cdot 24\cdot 23}{3\cdot 2\cdot 1} = 25\cdot 4\cdot 23 = 2300\) mulige utfall. Vi er nå interessert i hendelsen *minst én jente*. Finner vi sannsynligheten for å velge ut *kun* gutter kan vi bruke at dette er komplementærhendelsen til hendelsen vi er ute etter. Siden det er \(\frac{12\cdot 11\cdot 10}{3\cdot 2\cdot 1} ={2\cdot 11\cdot 10} = 220\) mulge utvalg som inneholder kun gutter må sannsynligheten for å trekke minst én jente være \(1 - \frac{220}{2300}\). 
+Studenten må regne ut sannsynligheten på en forståelig måte. Det kan for eksempel gjøres ved å tenke at alle mulige utvalg er like sannsynlige og at det er et uordnet utvalg uten tilbakelegg. Det gir en uniform sannsynlighetsmodell med \(\frac{25\cdot 24\cdot 23}{3\cdot 2\cdot 1} = 25\cdot 4\cdot 23 = 2300\) mulige utfall. Vi er nå interessert i hendelsen *minst én jente*. Finner vi sannsynligheten for å velge ut *kun* gutter kan vi bruke at dette er komplementærhendelsen til hendelsen vi er ute etter. Siden det er \(\frac{12\cdot 11\cdot 10}{3\cdot 2\cdot 1} ={2\cdot 11\cdot 10} = 220\) mulge utvalg som inneholder kun gutter må sannsynligheten for å trekke minst én jente være \(1 - \frac{220}{2300}\).
 
 ### Bruke begrepene i temaet til å løse sammensatte problemer
 
@@ -594,12 +594,11 @@ Studentene i MA-173 holder på med aktiviteter for å undersøke sannsynlighetsm
 
 ##### Vurderingskriterier
 
+Studenten må besvare *alle* spørsmålene på en rimelig måte.
 
-Studenten må besvare *alle* spørsmålene på en rimelig måte. 
-
-1. Her finnes ingen eksakt fasit, men en besvarelse bør inneholder noe som peker på og *begrunner* hvorfor dette er tilfellet. Det kan for eksempel være ved å lage en tabell som viser de ulike mulige utfallene, som under. 
+1. Her finnes ingen eksakt fasit, men en besvarelse bør inneholder noe som peker på og *begrunner* hvorfor dette er tilfellet. Det kan for eksempel være ved å lage en tabell som viser de ulike mulige utfallene, som under.
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/sannsyn/terningkast0805.svg)
-I tabellen kan man se at det er 27 av de 36 mulige utfallene som gir et partall. Dette kan også forklares ved at en kun får oddetall ved at begge terningene slår oddetall. Det er kun 3 mulige utfall i begge terningkastene, altså totalt \(9\) forskjellige utfall som gir oddetall. 
+I tabellen kan man se at det er 27 av de 36 mulige utfallene som gir et partall. Dette kan også forklares ved at en kun får oddetall ved at begge terningene slår oddetall. Det er kun 3 mulige utfall i begge terningkastene, altså totalt \(9\) forskjellige utfall som gir oddetall.
 2. Svaret bør allerede være argumenter for i oppgave 1. Sannsynligheten er \(\frac{27}{36}= \frac{3}{4}\).
 3. Her kan studenten ty til multiplikasjonsprinsippet. Det er \(27\) mulige gunstige utfall i hvert av de fire kastene, dermed \(27^4\) mulige gunstige utfall. Totalt er det \(36^4\) mulige utfall (36 utfall i hvert enkeltkast). Siden alle mulige utfall er like sannsynlige får vi en sannsynlighet på \(\frac{27^4}{36^4}\).
 4. Studenten kan for eksempel bruke at dette kan skje på følgende måter \(OOPP\), \(OPOP\), \(OPPO\), \(POOP\), \(POPO\) og \(PPOO\), der \(P\) er partall og \(O\) er oddetall. Hver av disse seks mulige rekkefølgene er like sannsynlige, så vi må bare finne sannsynligheten for hver av de. Vi kan for eksempel ta for oss \(OOPP\) og se at vi er på utkikk etter antall muligheter som gir oddetall, så oddetall, så partall så partall. Vi vet nå at dette betyr at det er \(9\) muligheter, så \(9\), så \(27\) så \(27\). Totalt gir multiplikasjonsprinsippet at det er \(9\cdot 9 \cdot 27\cdot 27\) mulige måter for å først få oddetall, så oddetall så partall så partall. Sannsynligheten for \(OOPP\) blir da \(\frac{9^2\cdot 27^2}{36^4}\). Siden dette også er sannsynligheten for alle mulige utfallene får vi en sannsynlighet for å få nøyaktig to oddetall og to partall ved fire kast lik \(6\cdot \frac{9^2\cdot 27^2}{36^4}\).
@@ -694,7 +693,7 @@ Forklare og illustrere produktregelen. Pek tydelig på hvorfor det kommer frem a
 
 ##### Vurderingskriterier
 
-Studenten må forklare og illustrere produktregelen (Alfa 7.24). Det viktige er å få fram hvorfor vi får multiplikasjon ved flere valg. Typisk innebærer det å peke på noe sånn som *for hver av de n... får vi m... derfor får vi n m ganger* eller noe liknende. 
+Studenten må forklare og illustrere produktregelen (Alfa 7.24). Det viktige er å få fram hvorfor vi får multiplikasjon ved flere valg. Typisk innebærer det å peke på noe sånn som *for hver av de n... får vi m... derfor får vi n m ganger* eller noe liknende.
 
 ### Forklare og bruke begrepene ordnet utvalg med og uten tilbakelegg
 
@@ -745,7 +744,6 @@ Studenten må gi eksempler som de blir bedt om, og de må forklare hva et ordnet
 1. Studenten må forklare at det er uordnet utvalg uten tilbakelegg ved å peke på at en trekker lag og at det ikke er noe rolle innad i laget. Dermed er det uordnet. Vi må også ha forskjellige elever på laget, som gir et utvalg uten tilbakelegg. For å finne antallet kan en først tenke at det er 3 valg, først 20 muligheter, så 19 og så 18. Altså $20 \cdot 19 \cdot 18$. Deretter må de ta hensyn til overtellingen. Ved å tenke på for eksempel en gruppe på Arne, Bjarne og Dan, så ser vi at denne kan stokkes om på $3\cdot 2\cdot 1$ mulige måter. Vi overteller altså alle grupper med $6$. Det gir at det er $\frac{20\cdot 19\cdot 18}{6}=3\cdot 20\cdot 19 = 3\cdot 380 = 1140$ mulige utvalg.
 2. Studenten kan peke på at vi trekker mellom de fire vennene. Siden de kan vinne mer enn en gang, har vi like mange valg hver gang, altså utvalg med tilbakelegg. Vi bryr oss derimot ikke når vi vinner, bare hvor mange ganger vi vinner (uordna). Vi kan telle oss fram til mulighetene. La oss nummerere vennene fra 1 til 4. Det gir mulighetene $11$, $12$, $13$, $14$, $22$, $23$, $24$, $33$, $34$, $44$, altså 10 muligheter.
 
-
 ### Avgjøre om utvalg er ordnet eller uordnet og om det er med eller uten tilbakelegg
 
 #### Middels: Avgjør om situasjonene under kan tenkes som (u)ordnede utvalg med eller uten tilbakelegg
@@ -765,7 +763,6 @@ Studenten må argumentere og begrunne sitt valg. Det *må* ikke nødvendigvis st
 2. Du kan plassere bøkene i en bestemt rekkefølge for hver gang, altså ordnet. Siden vi heller ikke kan plassere samme bok flere ganger får vi et ordnet utvalg uten tilbakelegg.
 3. Rekkefølgen har noe å si (ordnet) og hestene kan ikke komme på mer enn én plass. Dermed er det ordnet uten tilbakelegg.
 4. Siden vi kan stokke om på kortene blir det uordnet. Vi kan heller ikke ha samme kort to ganger. Dermed blir det uordnet utvalg uten tilbakelegg.
-
 
 ### Forklare, illustrere og bruke addisjonssetningen (for sannsynlighet og kombinatorikk)
 
@@ -790,7 +787,7 @@ Det er \(30\) tall under \(121\) som er delelig på 4 fordi \({121 \over 4} = 30
 1. Ved å illustrere kan vi se se på mengdene som er delelig på 4, 11 og 59. Siden $59$ er et primtall er minste felles multiplum etter $121$. Tallene $11$ og $4$ har derimot minste felles multiplum lik $44$. Derfor vil alt i 44 gangen overtelles når vi tar antall tall i 4 gangen og tall i 11 gangen. Vi ser at $44$, $88$ og $132$ er de tre første verdiene i 44-gangen. Dermed overteller vi bare 2 tall. Snittet mellom de andre mengdene er tomme. Vi får altså at det er $30$ tall delelig på 4, og 10 tall delelig på 11 (eventuelt 11 hvis en leser feil og ikke ser at der er *under* 121) og 2 tall delelig på 59 under 121. Totalt får vi dermed $30+10-2+2 = 40$ tall delelig på enten 4, 11 eller 59.
 2. Vi kan nå se at vi har 40 av 120 mulige som gir $\frac{40}{120}=\frac{4}{12}= \frac{1}{3}$ sjans for å velge et tall under 121 som er delelig på enten 4, 11 eller 59.
 
-![](/img/sannsyn/sannsyn28.04.svg)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/sannsyn/sannsyn28.04.svg)
 
 ### Forklare, illustrere og bruke komplementsetningen
 
@@ -804,7 +801,7 @@ Sannsynligheten for hendelsen \(A\) er \(0.4\). Forklar, ved hjelp av en illustr
 
 ##### Vurderingskriterier
 
-Studetnen trenger bare å bruke at $P(A) + P(A^C) = 1$ for å konkludere at $P(A^C) = 0.6$.
+Studenten trenger bare å bruke at $P(A) + P(A^C) = 1$ for å konkludere at $P(A^C) = 0.6$.
 
 #### Avansert: Forklare, illustrere og bruke komplementsetningen i sannsynlighet
 
@@ -812,7 +809,7 @@ Poker er et kortspill der man har 52 kort. Det er tretten kort i hver sort (klø
 
 ##### Vurderingskriterier
 
-Studeten må løse på en måte slik at leseren kan forstå hva som er gjort. For eksempel kan de peke på at det er $\frac{52\cdot 51}{2}$ mulige hender man kan starte med og alle hendene er like sannsylige. Dermed kan vi finne antall muligheter for å få et par i ess og bruke komplementsetningen. Det kan vi gjøre ved å finne antall hender som inneholder et par i ess. Det kan vi for eksempel løse bare ved å telle. Vi kan ha hjerter-kløver, hjerter-ruter, hjerter-spar, kløver-ruter, kløver-spar, ruter-spar. Dermed er det $26\cdot 51 - 6$ mulige hender som ikke er et par i ess av totalt $26\cdot 51$ mulige hender. Siden alle hendene er like sannsynlige kan vi konkludere med at det er $\frac{26\cdot 51-6}{26\cdot 51} = 1 - \frac{6}{26\cdot 51}$ i sannsynlighet for å ikke få par i ess. 
+Studenten må løse på en måte slik at leseren kan forstå hva som er gjort. For eksempel kan de peke på at det er $\frac{52\cdot 51}{2}$ mulige hender man kan starte med og alle hendene er like sannsylige. Dermed kan vi finne antall muligheter for å få et par i ess og bruke komplementsetningen. Det kan vi gjøre ved å finne antall hender som inneholder et par i ess. Det kan vi for eksempel løse bare ved å telle. Vi kan ha hjerter-kløver, hjerter-ruter, hjerter-spar, kløver-ruter, kløver-spar, ruter-spar. Dermed er det $26\cdot 51 - 6$ mulige hender som ikke er et par i ess av totalt $26\cdot 51$ mulige hender. Siden alle hendene er like sannsynlige kan vi konkludere med at det er $\frac{26\cdot 51-6}{26\cdot 51} = 1 - \frac{6}{26\cdot 51}$ i sannsynlighet for å ikke få par i ess.
 
 ### Bruke begrepene i temaet til å løse sammensatte problemer
 
@@ -833,7 +830,8 @@ ikke blir 0 i noen av kastene?
 
 ##### Vurderingskriterier
 
-1. 
+1.
+
 $$
 \begin{array} {|r|r|r|r|r|r|}\hline  & \text{Første terning} & 1 & 2 & 3 & 4 & 5 & 6
 \\
@@ -854,7 +852,8 @@ $$
 \\ \hline
 \end{array}
 $$
-2. Vi ser at 6 av de 36 mulige utfallene gir 0, så sannsynligheten er $\frac{6}{36} = \frac{1}{6}$. Vi ser videre at det er 10 mulige utfall som gir $1$, eller $\frac{10}{36}$ i sannsynlighet for å få 1. 
+
+2. Vi ser at 6 av de 36 mulige utfallene gir 0, så sannsynligheten er $\frac{6}{36} = \frac{1}{6}$. Vi ser videre at det er 10 mulige utfall som gir $1$, eller $\frac{10}{36}$ i sannsynlighet for å få 1.
 3. Vi kan bruke multiplikasjonsprinsippet til å innse at vi har 36 utfall i første kast av to terninger og så 36 i neste. Derfor får vi totalt $1296$ mulige utfall. Vi vet at det i seks av de første kastene så kan vi få 0 i differanse. For hver av de seks mulighetene har vi 10 muligheter for å få 1 i differanse på andre kast. Igjen gir multiplikasjonsprinsippet oss at det må være $6\cdot 10 = 60$ mulige utfall av de $1296$ utfallene som gir 0 på første kast av to terninger og 1 på andre kast av to terninger. Sannsynligheten blir derfor $\frac{60}{1296}$.
 4. Det vil være 30 muligheter for å ikke få 0 i første og tilsvarende 30 for å ikke få noen i neste. Dermed får vi en sannsynlighet på $\frac{900}{1296}$.
 
@@ -876,7 +875,7 @@ Studenten må gi en forklaring som bruker begrepene, samt gi et eksempel.
 
 2. La et forsøk ha et utfallsrom $U = { u_1, u_2, u_3, u_4, u_5}$. Forklar at $P(\{u_3\})$ må være større enn $0.4$ hvis $P(\{u_1,u_3\}) = 0.7$ og $P(\{u_2, u,3\}) = 0.7$.  
 
-**Merk** Det var en feil i teksten over der det stod ''Forklar at $P(\{u_3\})$ _ikke kan være_ større enn...''. Dette er rettet i teksten over.
+**Merk** Det var en feil i teksten over der det stod ''Forklar at $P(\{u_3\})$ *ikke kan være* større enn...''. Dette er rettet i teksten over.
 
 ##### Vurderingskriterier
 
@@ -956,7 +955,7 @@ Henrik har en kasse med 16 defekte lys og 1 fungerende lys. Han skal skifte lys 
 ##### Vurderingskriterier
 
 1. Studenten må få fram at siden vi for hvert trekk kan trekke mellom de 8 kulene, så vil en ha et utvalg med tilbakelegg. I tillegg skriver man ned siffrene man trekker hver gang for å lage et tall. Dermed er det natulig å tenke at utvalget er ordnet. Siden vi derfor har 8 valg på første trekk og så 8 valg på neste, må det være $8\cdot 8 = 64$ mulige utfall.
-2. Studenten må få frem at at en har 17 lys, men ikke kan trekke samme pæren to ganger. For å forklare at det kan tenkes på som ordnet må en peke på at vi bryr oss om rekkefølgen på utvalget, for eksempel fordi Henrik tester pærene han har valgt ut i rekkefølgen han trakk de med seg. *Merk at det er noe kunstig å tolke denne situasjonen som ordnet, da det er mer naturlig å tenke seg at den er uordnet (at man ikke bryr seg om rekkefølgen)*. Siden vi nå tolker dette som et ordnet utvalg uten tilbakelegg så har vi 17 muligheter på første trekk, så 16, så 15. Multiplikasjonsprinsippet forteller oss derfor at det er $17\cdot 16\cdot 15$ mulige utvalg. 
+2. Studenten må få frem at at en har 17 lys, men ikke kan trekke samme pæren to ganger. For å forklare at det kan tenkes på som ordnet må en peke på at vi bryr oss om rekkefølgen på utvalget, for eksempel fordi Henrik tester pærene han har valgt ut i rekkefølgen han trakk de med seg. *Merk at det er noe kunstig å tolke denne situasjonen som ordnet, da det er mer naturlig å tenke seg at den er uordnet (at man ikke bryr seg om rekkefølgen)*. Siden vi nå tolker dette som et ordnet utvalg uten tilbakelegg så har vi 17 muligheter på første trekk, så 16, så 15. Multiplikasjonsprinsippet forteller oss derfor at det er $17\cdot 16\cdot 15$ mulige utvalg.
 
 ### Forklare og bruke begrepene uordnet utvalg med og uten tilbakelegg
 
@@ -980,7 +979,7 @@ Studenten må gi eksempler som de blir bedt om, og de må forklare hva et ordnet
 
 ##### Vurderingskriterier
 
-1. Studenten må forklare at det er uordnet utvalg uten tilbakelegg ved å peke på at vi har seks glass og kun tre av dem skal fylles. Rekkefølgen på når vi fyller glassene er ikke betydelig da det er personene som ikke får Cola som blir opprørt. I tillegg kan man ikke fylle ett glass flere ganger som gir uordna uten tilbakelegg. Hvis det var ordnet ville vi hatt $6\cdot 5\cdot4$ muligheter (siden vi har 6 valg, så 5 valg, så 4 valg). Siden dette er uordnet må vi ta hensyn til overtelling. Siden hvert utvalg kan stokkes om på $3\cdot 2\cdot 1$ måter kan vi dele på $6$ og få $20$ muligheter. 
+1. Studenten må forklare at det er uordnet utvalg uten tilbakelegg ved å peke på at vi har seks glass og kun tre av dem skal fylles. Rekkefølgen på når vi fyller glassene er ikke betydelig da det er personene som ikke får Cola som blir opprørt. I tillegg kan man ikke fylle ett glass flere ganger som gir uordna uten tilbakelegg. Hvis det var ordnet ville vi hatt $6\cdot 5\cdot4$ muligheter (siden vi har 6 valg, så 5 valg, så 4 valg). Siden dette er uordnet må vi ta hensyn til overtelling. Siden hvert utvalg kan stokkes om på $3\cdot 2\cdot 1$ måter kan vi dele på $6$ og få $20$ muligheter.
 2. Studenten kan peke på at det går å tenke på dette som tre valg, der en skal velge mellom en av de tre attraksjonene hver gang, altså med tilbakelegg. Når vi velger en attraksjon, men det er ikke noen forskjell på rekkefølgen vi gjør de i. Vi kan systematisere ved å kalle attraksjonene for $0$, $1$ og $2$. Da har vi mulighetene:\
 000, 001, 002, 011, 012, 022, 111, 112, 122, 222, altså $10$ muligheter.
 
@@ -993,14 +992,14 @@ Avgjør om situasjonene under kan tenkes som ordnede eller uordnede utvalg og om
 1. I bedriftsidrettslaget er det 20 medlemmer som spiller basket. På hvor mange måter kan det velges to personer som skal sitte i styret av basketballavdelingen?
 2. I en klasse på 18 elever skal det velges ut en elevrådsleder og en vara. På hvor mange måter kan det gjøres på?
 3. I en klasse er det 12 gutter og 10 jenter. På hvor mange måter kan man velge ut 4 gutter?
-4. En student ved lærerutdanninga har møtt opp på alle obligatoriske undervisninger. Nå gjenstår det fire obligatoriske seminarer, og studenten vil komme over fraværsgrensa på 70% selv om de ikke møter på noen av seminarene. Studenten har derfor konkludert med at de står fritt til å velge om de vil møte opp eller ikke for hver av de fire seminarene. På hvor mange utvalg av seminarer kan de velge å gå på? 
+4. En student ved lærerutdanninga har møtt opp på alle obligatoriske undervisninger. Nå gjenstår det fire obligatoriske seminarer, og studenten vil komme over fraværsgrensa på 70% selv om de ikke møter på noen av seminarene. Studenten har derfor konkludert med at de står fritt til å velge om de vil møte opp eller ikke for hver av de fire seminarene. På hvor mange utvalg av seminarer kan de velge å gå på?
 
 ##### Vurderingskriterier
 
 Studenten må argumentere og begrunne sitt valg. Det *må* ikke nødvendigvis stemme med forslaget under, men er det annerledes må begrunnelsen hvertfall være meningsfull!
 
 1. Studenten kan peke på at det ikke sies noe om rollene i styret. Dermed er det naturlig å tenke at dette er et uordna utvalg. Det er heller ikke tilbakelegg siden vi trekker mellom personene og vi ikke kan velge samme person to ganger.
-2. Studenten kan peke på at det skal velges roller (ordna), men det skal være forskjellige personer (uten tilbakelegg). 
+2. Studenten kan peke på at det skal velges roller (ordna), men det skal være forskjellige personer (uten tilbakelegg).
 3. Studenten kan peke på at vi har 12 gutter å velge mellom, men kan ikke velge samme (uten tilbakelegg). Siden det kun er en gruppe er det naturlig å tolke at rekkefølgen ikke har noe å si (uordna)
 4. Studenten kan peke på at det skal gjøres fire valg, der de i hvert valg velger mellom å delta og å ikke delta (to muligheter). De trekker mellom disse mulighetene hver gang, så det er med tilbakelegg. I tillegg er rekkefølgen betydelig fordi det avgjør hva slags innhold studenten får (eller ikke får) i seminarene, altså ordna utvalg med tilbakelegg.
 
@@ -1016,7 +1015,7 @@ Sannsynligheten for hendelsen $A$ er $0.4$. Forklar, ved hjelp av en illustrasjo
 
 ##### Vurderingskriterier
 
-Studetnen trenger bare å bruke at $P(A) + P(A^C) = 1$ for å konkludere at $P(A^C) = 0.6$.
+Studenten trenger bare å bruke at $P(A) + P(A^C) = 1$ for å konkludere at $P(A^C) = 0.6$.
 
 #### Avansert: Forklare, illustrere og bruke komplementsetningen i sannsynlighet
 
@@ -1024,11 +1023,11 @@ Da Henrik var student gikk han i en klasse med 21 studenter. Hver undervisnings�
 
 ##### Vurderingskriterier
 
-Studeten må løse på en måte slik at leseren kan forstå hva som er gjort. For eksempel kan en peke på hvilke to som havner på gruppe med Henrik er like sannsynlig. Det er $\frac{20\cdot 19}{2} = 190$ forskjellige mulige klassekammerater som han kan havne på. For å avgjøre hvor mange av de som inneholder minst én, er det naturlig å se på hvor mange som ikke inneholder noen. Av de 20 resterende klassekammeratene er det 16 som ikke er av de fire vennene Henrik ønsker å komme på gruppe med. Derfor er det $\frac{16\cdot 15}{2} = 8\cdot 15 = 120$ grupper som ikke inneholder noen av Henriks venner. Derfor må det være $180 - 120 = 60$ mulige grupper der Henrik er på gruppe med minst én av sine venner. Sannsynligheten er derfor $\frac{60}{190}=\frac{6}{19}$.
+Studenten må løse på en måte slik at leseren kan forstå hva som er gjort. For eksempel kan en peke på hvilke to som havner på gruppe med Henrik er like sannsynlig. Det er $\frac{20\cdot 19}{2} = 190$ forskjellige mulige klassekammerater som han kan havne på. For å avgjøre hvor mange av de som inneholder minst én, er det naturlig å se på hvor mange som ikke inneholder noen. Av de 20 resterende klassekammeratene er det 16 som ikke er av de fire vennene Henrik ønsker å komme på gruppe med. Derfor er det $\frac{16\cdot 15}{2} = 8\cdot 15 = 120$ grupper som ikke inneholder noen av Henriks venner. Derfor må det være $180 - 120 = 60$ mulige grupper der Henrik er på gruppe med minst én av sine venner. Sannsynligheten er derfor $\frac{60}{190}=\frac{6}{19}$.
 
 ### Bruke begrepene i temaet til å løse sammensatte problemer
 
-#### Avansert:
+#### Avansert
 
 I en vanlig kortstokk med 52 kort finnes det fire sorter, hjerter, ruter, kløver og spar. I hver sort er det 13 kort, kortene 1 (ess) til 10 i tillegg til en knekt, en dame og en konge. Når man spiller bridge får man en hånd bestående av 13 tilfeldige kort.
 

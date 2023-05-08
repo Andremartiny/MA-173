@@ -29,7 +29,7 @@
 1. \
 a. Vi ser at vi må trekke fra et kvadrattall, så vi må dermed bruke de to trekanttallene våre til å kunne trekke fra kvadratet. Dette kan vi for eksempel illustrere på følgende måte
 
-![](/<https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-25-12-58-11.png)>
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-25-12-58-11.png)>
 
 Der gul og grønn illustrerer trekanttallene og røde sirkler er det som skal trekkes vekk. Eller følgende måte
 

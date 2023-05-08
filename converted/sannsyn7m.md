@@ -61,7 +61,6 @@ Studenten må argumentere og begrunne sitt valg. Det *må* ikke nødvendigvis st
 4. Siden vi kan stokke om på kortene blir det uordnet. Vi kan heller ikke ha samme kort to ganger. Dermed blir det uordnet utvalg uten tilbakelegg.
 
 
-
 #### Middels: Avgjøre om utvalg er ordnet eller uordnet og om det er med eller uten tilbakelegg,  24.04.23
 
 Avgjør om situasjonene under kan tenkes som ordnede eller uordnede utvalg og om utvalgene er med eller uten tilbakelegg:
@@ -69,14 +68,14 @@ Avgjør om situasjonene under kan tenkes som ordnede eller uordnede utvalg og om
 1. I bedriftsidrettslaget er det 20 medlemmer som spiller basket. På hvor mange måter kan det velges to personer som skal sitte i styret av basketballavdelingen?
 2. I en klasse på 18 elever skal det velges ut en elevrådsleder og en vara. På hvor mange måter kan det gjøres på?
 3. I en klasse er det 12 gutter og 10 jenter. På hvor mange måter kan man velge ut 4 gutter?
-4. En student ved lærerutdanninga har møtt opp på alle obligatoriske undervisninger. Nå gjenstår det fire obligatoriske seminarer, og studenten vil komme over fraværsgrensa på 70% selv om de ikke møter på noen av seminarene. Studenten har derfor konkludert med at de står fritt til å velge om de vil møte opp eller ikke for hver av de fire seminarene. På hvor mange utvalg av seminarer kan de velge å gå på? 
+4. En student ved lærerutdanninga har møtt opp på alle obligatoriske undervisninger. Nå gjenstår det fire obligatoriske seminarer, og studenten vil komme over fraværsgrensa på 70% selv om de ikke møter på noen av seminarene. Studenten har derfor konkludert med at de står fritt til å velge om de vil møte opp eller ikke for hver av de fire seminarene. På hvor mange utvalg av seminarer kan de velge å gå på?
 
 ##### Vurderingskriterier
 
 Studenten må argumentere og begrunne sitt valg. Det *må* ikke nødvendigvis stemme med forslaget under, men er det annerledes må begrunnelsen hvertfall være meningsfull!
 
 1. Studenten kan peke på at det ikke sies noe om rollene i styret. Dermed er det naturlig å tenke at dette er et uordna utvalg. Det er heller ikke tilbakelegg siden vi trekker mellom personene og vi ikke kan velge samme person to ganger.
-2. Studenten kan peke på at det skal velges roller (ordna), men det skal være forskjellige personer (uten tilbakelegg). 
+2. Studenten kan peke på at det skal velges roller (ordna), men det skal være forskjellige personer (uten tilbakelegg).
 3. Studenten kan peke på at vi har 12 gutter å velge mellom, men kan ikke velge samme (uten tilbakelegg). Siden det kun er en gruppe er det naturlig å tolke at rekkefølgen ikke har noe å si (uordna)
 4. Studenten kan peke på at det skal gjøres fire valg, der de i hvert valg velger mellom å delta og å ikke delta (to muligheter). De trekker mellom disse mulighetene hver gang, så det er med tilbakelegg. I tillegg er rekkefølgen betydelig fordi det avgjør hva slags innhold studenten får (eller ikke får) i seminarene, altså ordna utvalg med tilbakelegg.
 

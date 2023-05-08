@@ -37,7 +37,7 @@ får vi at $P\left( u_{3} \right) = 0.5$.
 
 2. La et forsøk ha et utfallsrom $U = { u_1, u_2, u_3, u_4, u_5}$. Forklar at $P(\{u_3\})$ må være større enn $0.4$ hvis $P(\{u_1,u_3\}) = 0.7$ og $P(\{u_2, u,3\}) = 0.7$.  
 
-**Merk** Det var en feil i teksten over der det stod ''Forklar at $P(\{u_3\})$ _ikke kan være_ større enn...''. Dette er rettet i teksten over.
+**Merk** Det var en feil i teksten over der det stod ''Forklar at $P(\{u_3\})$ *ikke kan være* større enn...''. Dette er rettet i teksten over.
 
 ##### Vurderingskriterier
 
