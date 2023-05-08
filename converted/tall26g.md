@@ -1,8 +1,22 @@
-#### Grunnleggende: Forklare hva et posisjonssystem er, og regne med tall uttrykt i posisjonssystem med ulike baser,  31.03.23
+#### Grunnleggende: Gjengi betydningen av potensuttrykk, og regne med potenser.,  08.05
 
-Forklar kort hva et posisjonssystem er. Gi eksempler fra base ti, fem, to og tolv.
+Forklar kort hva potensuttrykkene betyr. 
+
+a. $a^n$ for $n>1$
+
+b. $a^1$
+
+c. $a^0$
+
+d. $a^{-n}$
+
+e. $a^{\frac{n}{m}}$
 
 ##### Vurderingskriterier
 
-Må få frem ideen om at sifrenes posisjon avgjør verdien de står for, og at denne verdien avhenger av hvilken gruppering vi velger – hvilken base eller grunntall vi har. Må også ha med eksempler.
+a. produktet av $n$ $a$-er. 
+b. $a$
+c. $1$ 
+d. $\frac{1}{a^n}$ 
+e. $\sqrt[m]{a}^n$ 
 

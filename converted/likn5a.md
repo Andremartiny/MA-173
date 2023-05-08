@@ -1,4 +1,21 @@
 
+#### Avansert: Bruke de tre kvadratsetningene,  08.05
+
+Under ser du to uttrykk.
+
+$16x^2 - 4b^2$,
+$9x^2 4y^2 +1 - 6xy$.
+
+1. Faktoriser uttrykkene over. Besvarelsene må inneholde en referanse til hvilken kvadratsetning som brukes.
+
+2. Velg ett av uttrykkene du har faktorisert. Illustrer kvadratsetningen du brukte med tallene og variablene fra uttrykket.
+
+#### Vurderingskriterier avansert:  08.05
+
+Her *må* begge uttrykkene faktoriseres, med en referanse til kvadratsetningen som brukes.Deretter *m* ett av uttrykkene du har faktorisert illustreres geometrisk der.
+
+
+
 #### Avansert: Bruke de tre kvadratsetningene,  24.04
 
 Faktoriser uttrykkene ved hjelp kvadratsetningene.

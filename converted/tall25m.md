@@ -1,10 +1,9 @@
-#### Middels: Forklare hva et posisjonssystem er, og regne med tall uttrykt i posisjonssystem med ulike baser,  31.03.23
 
-1. Forklar kort hva et posisjonssystem er.
+#### Middels: Utføre multiplikasjon og divisjon med negative tall.,  08.05
 
-2. Gjør om $112_{ti}$ til base tre, $1001010_{to}$ til base ti, og $112_{tre}$ til base fem.
+Forklar og illustrer på ei tallinje hvorfor det gir mening at produktet av et positivt og et negativt tall er negativt, og at produktet av to negative er positivt. 
 
 ##### Vurderingskriterier
+Piler på tallinja. $a\cdot b$ kan tolkes som $a$ kopier av $b$. Dersom $a$ er negativ, får vi negative kopier; det vil si $b$ kopiert i motsatt av sin opprinnelige retning. 
 
-Som over + omgjøringene. Det må gå frem hvordan omgjøringene er gjort.
 

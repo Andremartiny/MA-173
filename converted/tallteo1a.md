@@ -20,6 +20,19 @@
 3. La oss skrive tre vilkårlig påfølgende tall slik $n-1$, $n$ og $n+1$. Er for eksempel $n = 3$ er de tre påfølgende tallene her $2$, $3$ og $4$. Det viktige vi må legge merke til her er at vi vil alltid ha minst ett partall i rekken. Starter vi på et partall så har vi to. I tillegg vil vi alltid ha et tall i $3$-gangen. Det betyr at produktet vårt må inneholde faktoren $2$ og $3$. Dermed må prodkutet også faktoren $6$. Alle produkter av tre påfølgende tall har derfor felles faktorer $2$, $3$ og $6$, i tillegg til $1$.
 
 
+#### Avansert: Bruke begrepene faktor (divisor), felles faktor og største felles faktor, multiplum, felles multiplum og minste felles multiplum,  08.05
+
+Undersøk og begrunn følgende påstand.
+
+*Når vi deler et tall på et annet, får vi en rest som er mellom 0 og tallet vi deler på. Enhver felles faktor for de to tallene i divisjonen er også en faktor i resten.*
+
+##### Vurderingskriterier
+
+Ved å underøske noen eksempler, for eksempel \(10\) og \(15\) som har felles faktor \(5\) vil ha rest \(10\) når man tar \(15\) delt på \(10\). Vi ser også at \(6\) og \(9\) har rest \(3\) som også er største felles faktor mellom tallene. Dermed ser vi at det *ser ut som* at påstanden stemmer. Studenten må begrunne påstanden på en forståelig og riktig måte. For eksempel kan dette gjøres generisk eller mer formelt.
+ 
+Gjør vi det formelt kan vi si at for to tall med største felles faktor \(x\), så kan tallene skrives som \(ax\) og \(bx\). At \(ax\) delt på \(bx\) gir rest \(r\) betyr at det finnes et tall \(c\) slik at \(c\cdot bx + r = ax\). Høyre side inneholder åpenbart faktoren \(x\), og dermed må venstre side også gjøre det. Siden \(c\cdot bx\) er delelig på \(x\) så er eneste mulighet for at VS skal være delelig på \(x\) at \(r\) også er delelig på \(x\) og vi har vist at påstanden stemmer. 
+
+
 #### Avansert: Bruke begrepene faktor (divisor), felles faktor og største felles faktor, multiplum, felles multiplum og minste felles multiplum,  28.04
 
 Se 17.02.23

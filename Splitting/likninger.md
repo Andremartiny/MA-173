@@ -188,6 +188,208 @@ pandoc .\quizzer\likninger\likninger.md -f markdown -t html --mathjax --template
     formelen som gir løsningene på enhver andregradslikning,
     $x = \frac{- b \pm \sqrt{b^{2} - 4ac}}{2a}$.
 
+## 08.05
+
+### Løse lineære likninger ved hjelp av ulike strategier
+
+#### Grunnleggende: Løse likninger, formelt og grunnskoletilpasset
+
+Blant $163$ spurte mennesker, svarte alle at de spiser enten taco, nudler eller foie gras på fredager. Det er $35$ flere som spiser taco enn fiskepinner, og antallet som spiser foie gras er det tredobbelte av én mer enn antallet som spiser fiskepinner.
+
+1. Fullfør og bruk illustrasjonen under til å finne ut hvor mange som spiser hva.
+
+2. Sett opp og løs likningen situasjonen svarer til.
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-15-14-26.png)
+
+
+##### Vurderingskriterier: Grunnleggende {#211}
+
+Her *må* de fullføre illustrasjonen for å løse likningen. Deretter *må* de sette opp og løse likingen selv.
+
+
+#### Middels: Forklare og begrunne løsningsstrategier, formelt og grunnskoletilpasset
+
+1. Løs likningen $\displaystyle\frac{20}{\frac{4x-2}{3}-2}= 5$ på en måte som ikke innebærer "flytt og bytt" eller å utføre samme operasjon på hver side av likhetstegnet. på to uformelle måter. Løs likningen deretter formelt.
+
+2. På et klassetrinn er det $70$ elever. Alle deltar i en idrett. Antallet elever på håndball er tre mer enn det dobbelte av antallet på fotball. De som spiller basket er tre færre enn halvparten av de som spiller fotball. Ingen elever deltar på mer enn én idrett.
+
+a. Finn ut hvor mange som spiller hva ved hjelp av en illustrasjon.
+
+b. Sett opp og løs en likning som passer situasjonen. Vis tydelig hvordan likningen samsvarer med situasjonen.
+
+##### Vurderingskriterier: Middels {#212}
+
+1. Her må det komme fram to uformelle metoder. Eksempler er, hold over, bruk av tallinje, gjett og sjekk, bruk av konkreter. Formelt må gjøres med algebra. Et eksempel kan være: Ved å holde over nevner på venstre side av
+$$
+\frac{20}{\frac{4x-2}{3} -2} = 5,
+$$
+ser vi at $\frac{4x-2}{3} -2$ må være $4$. Igjen ser ser nå at $\frac{4x-2}{3}  = 6$. Videre må vi derfor ha at $4x-2 = 18$ for å få $6$. Til slutt må $4x = 20$ som gir at $x = 5$.
+2. Studenten må de løse situasjonen ved å sette opp en illustrasjon *og* sette opp en likning. For eksempel kan de både i en illustrasjon og algebraisk ta utgangspunkt i antall personer på fotball og kalle antallet for $x$. Da får de at det er $3+2x$ som spiller håndball og $\frac{1}{2}x-3$ som spiller *kun* basket. Totalt gir dette at $x+3+2x+\frac{1}{2} x - 3 = 70$. Det er da denne likningen som må løses.
+
+#### Avansert: Analysere elevers løsningsstrategier
+
+Noen mellomtrinnselever fikk denne utfordringen: En bil, sjåfør og tilhenger veier totalt $2900 kg$. Bilen veier to ganger vekten av tilhengeren pluss vekten av sjåføren. Tilhengeren veier $900 kg$. Hvor mye veier sjåføren?
+
+Under ser du tre elevers løsninger. Forklar hvordan de har tolket og løst oppgaven.
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-15-14-41.png)
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-15-14-45.png)  
+  
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-15-14-49.png)
+
+##### Vurderingskriterier: Avansert {#213}
+
+Her må studentene peke på elevenes tolkning.
+Det viktigste som må fram er at:
+I besvarelse A så har eleven tolket det som at bil er to ganger vekten til tilhengeren og så må sjåføren legges til.
+I B har de tolket setningen som at vekten til sjåfør *og* tilhenger må dobles for å få vekt til bil.
+I C har de tolket setningen som at vekt av sjåfør addert med to ganger vekt av tilhenger gir vekt til bil.
+
+### Løse lineære ulikheter ved hjelp av ulike strategier
+
+#### Grunnleggende: Løse ulikheter
+
+Løs ulikheten $3(3-x) \geq 6$.
+
+##### Vurderingskriterier: Grunnleggende {#221}
+
+Her må de bare løse ulikheten.
+
+#### Middels: Forklare og begrunne løsningsstrategier
+
+Gi en forklaring av hvorfor $-\frac{3}{2}x>3$, betyr at $x<-2$.
+
+
+##### Vurderingskriterier: Middels {#222}
+
+Her må de presisere alt som gjøres i utregningen med en begrunnelse
+
+#### Avansert: Analysere elevers løsningsstrategier
+
+En elev løste ulikheten $\frac{-x+ 1}{2} \leq 5$ slik:
+$$\begin{aligned} \frac{-x+ 1}{2}& \leq 5  \\ {-x+ 1}  & \geq 10 \\  -x & \geq 9 \\ x & \leq - 9 \end{aligned}$$
+
+Begrunn kort med ordforklaring og/eller illustrasjon hvorfor hvert hvert steg i løsningen er rett eller galt.
+
+
+##### Vurderingskriterier: Avansert {#223}
+
+Her må de peke på alle feilene eleven gjør. I tillegg må de gi en meningsfull forklaring av hvordan en skal løse oppgaven.
+
+### Løse lineære likningssett med to ukjente på ulike måter
+
+#### Grunnleggende: Løse likningssett ved hjelp av innsetting, addisjonsmetoden og grafisk
+
+Under ser du to likninger med to ukjente.
+
+$6x + 5 y = 45 - 2y$,
+
+$3x + y = - y +15$.
+
+Løs likningssettet ved hjelp av
+
+1. innsettingsmetoden og
+
+2. addisjonsmetoden.
+
+##### Vurderingskriterier: Grunnleggende {#231}
+
+Begge oppgavene skal gjøres med metodene som er oppgitt.
+
+#### Middels: Tolke problemstillinger som svarer til likningssett, og løse disse ved hjelp av innsetting, addisjonsmetoden og grafisk og uten bruk av likninger
+
+Denne oppgaven ble gitt på ungdomstrinnet. 
+
+På en sjø er det 31 båter. I noen båter sitter det to personer og i noen båter sitter det tre personer. Det sitter til sammen 69 personer i de 31 båtene. Bestem hvor mange båter det sitter to personer i og hvor mange det sitter tre personer i.
+
+a. Vis hvordan elever kan, uten bruk av likninger kan løse oppgaven.
+
+b. Bruk informasjonen til å lage et likningssett pg
+   1. Løs oppgaven ved hjelp av innsettingsmetoden.
+   2. Løs oppgaven ved hjelp av addisjonsmetoden.
+
+##### Vurderingskriterier: Middels {#232}
+
+Begge oppgavene må gjøres
+
+1. Her må de gjøre noe annet enn bruk av likninger. For eksempel gjett og sjekk eller logisk resonnement. 
+2. Her må likningssettet  
+$$
+\begin{aligned}
+x+y & = 31
+\\
+2x + 3y & = 69,
+\end{aligned}
+$$
+der $x$ er antall båter med to personer og $y$ er antall båter med tre personer settes opp og løses med de to utvalgte teknikkene.
+
+### Løse kvadratiske likninger ved hjelp av fullstendige kvadraters metode
+
+#### Grunnleggende: Løse likninger med heltallige koeffisienter og løsninger
+
+1. Løs likningen $x^2 - 20x = -75$ med fullstendige kvadraters metode.
+
+2. Løs likningen $2x^2 + 8x = 120$ med fullstendige kvadraters metode.
+
+##### Vurderingskriterier: Grunnleggende
+
+Begge likningene må løses med korrekt teknikk.
+
+#### Middels: Løse likninger med rasjonale koeffisienter og løsninger
+
+1. Løs likningen $4x^2 + 4x = {15}$ med fullstendige kvadraters metode.
+
+2. Løs likningen $\frac{2}{3}x^2 - \frac{1}{3}x  = \frac{1}{8}$ med fullstendige kvadraters metode.
+
+##### Vurderingskriterier: Middels
+
+Begge likningene må løses med korrekt teknikk.
+
+#### Avansert: Løse likninger med rasjonale koeffisienter og irrasjonale løsninger
+
+1. Løs likningen $x^2 - x = 1$ med fullstendige kvadraters metode.
+
+2. Løs likningen $x^2  -\frac{11}{4}= x$ med fullstendige kvadraters metode.
+
+##### Vurderingskriterier: Avansert
+
+Begge likningene må løses med korrekt teknikk.
+
+### Bruke de tre kvadratsetningene
+
+#### Grunnleggende: Gjengi og vise kvadratsetningene algebraisk
+
+Gjengi og vis første og tredje kvadratsetningene algebraisk
+
+#### Middels: Illustrere kvadratsetningene geometrisk
+
+Illustrer andre og tredje kvadratsetningene geometrisk. Bruk illustrasjonene til å gi en forklaring av identitetene.
+
+#### Avansert: Bruke kvadratsetningene til å faktorisere uttrykk
+
+Under ser du to uttrykk.
+
+$16x^2 - 4b^2$,
+$9x^2 4y^2 +1 - 6xy$.
+
+1. Faktoriser uttrykkene over. Besvarelsene må inneholde en referanse til hvilken kvadratsetning som brukes.
+
+2. Velg ett av uttrykkene du har faktorisert. Illustrer kvadratsetningen du brukte med tallene og variablene fra uttrykket.
+
+##### Vurderingskriterier: Grunnleggende {#251}
+
+Her *må* første og tredje kvadratsetning gjengis.
+
+##### Vurderingskriterier: Middels {#252}
+
+Her *må* andre og tredje kvadratsetning illustrerer geometrisk og brukes til å forklare identitetene.
+
+##### Vurderingskriterier: Avansert {#253}
+
+Her *må* begge uttrykkene faktoriseres, med en referanse til kvadratsetningen som brukes.Deretter *m* ett av uttrykkene du har faktorisert illustreres geometrisk der.
+
 ## 24.04
 
 ### Løse lineære likninger ved hjelp av ulike strategier

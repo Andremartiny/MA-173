@@ -305,6 +305,183 @@ så skal ikke dette rundes av til $2,236$
 
 1. La oss kalle sidene i den rettvinkla trekanten for $x$, $y$ og $z$, slik at $x^2 + y^2 = z^2$. Da vet vi at de tre halvsirklene har areal $\pi(\frac{x}{2})^2 = \pi \frac{x^2}{4}$, $\pi \frac{y^2}{4}$ and $\pi \frac{z^2}{4}$. I tillegg har trekanten areal $\frac{2x\cdot2y}{2} = 2xy$. Tar vi de to små halvsirklene i tillegg til trekanten får vi hele området. Dette har areal $\frac{\pi}{2}(x^2+y^2)+ 2ab$. Vi kan nå bruke Pytagoras setning til å si at dette arealet kan skrives som $\frac{\pi c^2}{4} + 2ab$.Nå gjenstår det bare å trekke fra den store halvsirkelen for å få arealet av det hvite området. Dette gir $\frac{\pi c^2}{4}+ 2ab - \frac{\pi c^2}{4} = 2ab$. Vi ser dermed at det hvite området har samme areal som trekanten. Dermed blir forholdet mellom det hvite området og arealet av trekanten $1$.
 
+
+## 08.05
+
+### Bruke begrepene måltall, størrelse og måleenhet til å avgjøre størrelsen av grunnleggende figurer i 1 og 2 dimensjoner
+
+#### Grunnleggende: Gjengi, forklare og gi eksempler på begrepene størrelse, måltall og måleenheter i 1- og 2-dimensjonale figurer
+
+Se 17.02
+
+#### Middels: Bruke begrepene til å forklare hvordan man kan avgjøre omkrets og areal av firkanter, trekanter og sirkler
+
+Se 17.02 
+
+### Bruke begrepene måltall, størrelse og måleenhet til å avgjøre størrelsen av grunnleggende figurer i 3 dimensjoner
+
+#### Grunnleggende: Gjengi og forklare og gi eksempler på begrepene størrelse, måltall og måleenheter  i 3-dimensjonale figurer
+
+Se 17.02
+
+### Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer
+
+#### Grunnleggende: Gjengi og forklare, gi eksempler og illustrasjoner til begrepene
+
+Se 17.02
+
+#### Middels: Argumentere for enkle sammenhenger knyttet til begrepene
+
+Se 17.02
+
+#### Avansert: Utforske og løse ukjente problemet knyttet til begrepene
+
+Se 17.02
+
+### Bruke begrepene kvadrat, rektangel, parallellogram, trapes, likebeint trekant, likesidet trekant, rettvinklet trekant, mangekant, sirkel
+
+#### Grunnleggende: Gjengi og forklare, gi eksempler og illustrasjoner til begrepene
+
+Se 17.02
+
+#### Middels: Argumentere for enkle sammenhenger knyttet til begrepene
+
+Se 17.02
+
+### Bruke formler for størrelser av figurer til å utforske geometriske sammenhenger
+
+#### Grunnleggende: Gjengi og forklar formlene for trekanter, rektangler, parallellogram, trapes, sirkler, prismer, sylindre og pyramider
+
+Se 17.02
+
+#### Middels: Argumentere for enkle sammenhenger knyttet til begrepene
+
+Se 17.02
+
+#### Avansert: Utforske og løse ukjente problemet knyttet til begrepene
+
+Se 17.02
+
+### Bruke begrepet formlikhet av trekanter
+
+#### Middels: Argumentere for enkle sammenhenger knyttet til begrepet
+
+Under ser du to formlike trekanter der \(a\) og \(a'\) samsvarer, \(b\) og \(b'\) samsvarer og \(c\) og \(c'\) samsvarer. 
+
+Avgjør \(b'\) og \(c\) når du vet: 
+
+\(a = \frac{1}{2}\) og \(a' = \frac{2}{3}\)
+\(b = 1\) og \(c' = 4\)
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-05-06-08-43-02.png)
+
+##### Vurderingskriterier
+
+1. Studenten må bruke formlikhet for å avgjøre lengdene. Dette kan gjøres ved å innse at skaleringen fra \(a\) til \(a'\) er \(\frac{4}{3}\). Dermed skaleres \(b = 1\) opp til \(b = 1 \cdot \frac{4}{3} = \frac{4}{3}\). Skal vi gå fra \(a'\) til \(a\) er skaleringen den omvendtproporsjonale, altså \(\frac{3}{4}\). Det betyr at \(c' = 4\) blir skalert til \(c = 4\cdot \frac{3}{4} = 3\).
+
+### Argumentere visuelt for Pytagoras setning
+
+#### Grunnleggende: Gjengi og forklare, gi eksempler og illustrasjoner til begrepet
+
+Gjengi og forklar Pytagoras setning. Forklaringen må referere til en figur.
+
+##### Vurderingskriterier
+
+Studenten må gi en forklaring av Pytagoras setning ved å referere til en figur.
+
+#### Middels: Gi et visuelt argument for at Pytagoras setning gjelder
+
+Gi et grunnskoletilpasset argument for Pytagoras setning.
+
+##### Vurderingskriterier
+
+Studenten må gi et grunnskoletilpasset argument for at Pytagoras setning gjelder. Dette innebærer å tegne en eller flere figurer og bruke de til å argumentere for Pytagoras setning.
+
+### Bruke Pytagoras setning
+
+#### Grunnleggende: Bruke Pytagoras setning til å løse enkle problemer
+
+Finn lengden på hypotenusen i en rettvinklet trekant når du vet at katetene har lengde:
+
+a.  1 og 1
+b.  3 og 6
+
+Utregningene skal ikke være avrundet og skal gis i eksakte verdier. Det vil si at hvis svaret er \(\sqrt{1^{2} + 2^{2}} = \sqrt{5}\), så skal ikke dette rundes av til \(2,236\).
+
+##### Vurderingskriterier
+
+a. Studenten må bruke Pytagoras setninging. For eksempel kan de peke på at vi vet at $1^2 + 1^2 = h^2$, som betyr at $h = \sqrt{2}$.
+b. Vi ser tilsvarende at $3^2+6^2 = 9+36 = 45 = h^2$, som betyr at $h = \sqrt {45}$. 
+
+#### Middels: Bruke Pytagoras setning til å løse problemer
+
+Under ser du et rektangel \(EFGH\), der det er lagt inn en rettvinklet trekant, \(GIH\), der hypotenusen deles med grunnlinjen til rektangelet. Denne rettvinklede trekanten deler rektangelet inn i tre rettvinklede trekanter, \(EIG\), \(GIH\) og \(FIH\). Hvis sidelengdene \(GE\) og \(EI\), i trekanten \(EGI\) har lengder 9 og 12.
+
+Hva er de resterende sidelengdene i figuren (hva er \(x\), \(j\), \(k\) og \(h\))?   
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-05-06-08-55-51.png)
+
+##### Vurderingskriterier
+
+Studenten må avgjøre de resterende sidelengdene. Det legges ingen føringer i hvordan dette skal gjøres (selv om læringsmålet peker på bruken av Pytagoras). Det er såklart naturlig å bruke Pytagoras til å løse deler, hvis ikke alt, av problemet. For eksempel kan en enkelt se at \(j = 15\), siden \(\sqrt{9^2+12^2} = 15\). Hvis oppgaven løses rent med pytagoras kan vi nå sette opp to likninger ved hjelp av Pytagoras setning, nemlig
+$$
+\begin{aligned}
+k^2 
+& = x^2 + 12^2
+\\
+15^2 + k^2 
+& = (9+x)^2.
+\end{aligned}
+$$
+En kan for eksempel bruke innsetting å sette inn \(k^2\) i andre likning og få
+$$
+\begin{aligned}
+15^2 + k^2 
+& = (9+x)^2
+\\
+15^2 + x^2 + 12^2 
+& =
+9^2+2\cdot 9x +x^2.
+\end{aligned}
+$$
+Trekker vi fra \(x^2\) på begge sider ser vi at 
+$$
+\begin{aligned}
+15\cdot 15  + 12\cdot 12 
+& =
+9^2+2\cdot 9x \quad \quad \quad \quad | \div 9
+\\
+5\cdot 5  + 4\cdot 4 
+& =
+9+2x 
+\\
+25 + 16 - 9 
+& = 2x
+\\
+32 
+& = 2x
+\\
+x 
+& = 16.
+\end{aligned}
+$$
+
+Nå faller de resterende sidelengdene ut ganske fort og studenten bør konkludere med at
+$$
+\begin{aligned}
+j & = 15
+\\
+x & = 16
+\\
+k & = 20
+\\
+h & = 25,
+\end{aligned}
+$$
+slik som på figuren under.
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/geo/pytting0805.svg)
+
 ## 28.04.23
 
 ### Bruke begrepene måltall, størrelse og måleenhet til å avgjøre størrelsen av grunnleggende figurer i 1 og 2 dimensjoner

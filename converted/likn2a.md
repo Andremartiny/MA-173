@@ -4,6 +4,19 @@
 1. *Se oppgaver fra tidligere nasjonal deleksamen fra seminar.*
 
 
+#### Avansert: Løse lineære ulikheter ved hjelp av ulike strategier,  08.05
+
+En elev løste ulikheten $\frac{-x+ 1}{2} \leq 5$ slik:
+$$\begin{aligned} \frac{-x+ 1}{2}& \leq 5  \\ {-x+ 1}  & \geq 10 \\  -x & \geq 9 \\ x & \leq - 9 \end{aligned}$$
+
+Begrunn kort med ordforklaring og/eller illustrasjon hvorfor hvert hvert steg i løsningen er rett eller galt.
+
+
+#### Vurderingskriterier avansert:  08.05
+
+Her må de peke på alle feilene eleven gjør. I tillegg må de gi en meningsfull forklaring av hvordan en skal løse oppgaven.
+
+
 #### Avansert: Løse lineære ulikheter ved hjelp av ulike strategier,  24.04
 
 Avansert: Se 27.01.23

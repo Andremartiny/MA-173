@@ -14,6 +14,19 @@
 
 Heftet.
 
+#### Avansert: Utføre divisjon med brøk,  08.05
+
+Ta utgangspunkt i divisjonen $12 : \frac{3}{4}$. Lag to passende kontekster, og bruk dem til å vise at $12 : \frac{3}{4} = 12 \cdot \frac{4}{3}$.
+
+a. Den ene konteksten skal gi delingsdivisjon.
+
+b. Den andre konteksten skal gi målingsdivisjon.
+
+##### Vurderingskriterier
+
+a. Delingsdivisjon: 12 liter maling rekker til 3/4 vegg (like vegger), hvor mye maling trengs per vegg? Fordeler de 12 literne likt på de tre firedelene, som gir 12/3 liter per firedel. Ganger dette opp med fire for å få en hel vegg, altså $12\ :\frac{3}{4} = \frac{12}{3} \cdot 4 = 12 \cdot \frac{4}{3}$.
+b. Målingsdivisjon: Hvor mange tre-firedels-litere går det på tolv liter? Det går fire firedelslitere på én liter, så $12 \cdot 4$ firedeler på tolv liter. 3/4 liter er tre ganger så mye, så det går tredelen så mange, altså $12\ :\frac{3}{4} = \frac{12\  \cdot \ 4}{3} = 12 \cdot \frac{4}{3}$.
+
 #### Avansert: Utføre divisjon med brøk,  24.04
 
 Ta utgangspunkt i divisjonen $9 : \frac{2}{3}$. Lag to passende kontekster, og bruk dem til å vise at $9 : \frac{2}{3} = 9 \cdot \frac{3}{2}$.

@@ -56,6 +56,22 @@
 
    d. Vi ser at grafene krysser i punktet $\frac{10}{9}$. At de krysser betyr at for den samme $x$-verdi så er funksjonenverdien også lik. Siden vi tolket HS og VS som funksjoner, så betyr krysningspunktet at for $x$-verdien $\frac{10}{9}$ så vil funksjonsverdiene være like. Dette er nøyaktig det som vi sa i b.
 
+#### Grunnleggende: Løse likninger fra funksjonsperspektiv,  08.05 
+
+Gitt likningen $2(2x-2) = 2$.
+
+Løs likningen
+Tolk venstre side og høyre side som funksjonsuttrykk, og skisser grafene i samme koordinatsystem.
+Forklar algebraisk og grafisk hva det vil si at tallet du fant i 1. er en løsning på likningen.
+
+#### Vurderingskriterier grunnleggende:  08.05 
+
+Alle oppgaver må besvares.  
+
+1. Likningen må løses.
+2. Her må de tolke og skissere begge grafene i samme koordinatsystem.
+3. Gi en forklaring som viser sammenhengen mellom at løsning gir likhet av venstre og høyre side i likningen og at det tilsvarer skjæringspunktet mellom grafene.  
+
 #### Grunnleggende: Løse likninger fra funksjonsperspektiv,  28.04.23
 
 Se 03.02

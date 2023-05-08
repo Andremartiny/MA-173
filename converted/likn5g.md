@@ -1,3 +1,11 @@
+#### Grunnleggende: Bruke de tre kvadratsetningene,  08.05
+
+Gjengi og vis første og tredje kvadratsetningene algebraisk
+
+#### Vurderingskriterier grunnleggende:  08.05
+
+Her *må* første og tredje kvadratsetning gjengis.
+
 #### Grunnleggende: Bruke de tre kvadratsetningene,  24.04
 
 Gjengi og vis de tre kvadratsetningene algebraisk

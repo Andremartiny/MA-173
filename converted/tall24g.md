@@ -1,8 +1,15 @@
-#### Grunnleggende: Forklare hva et posisjonssystem er, og regne med tall uttrykt i posisjonssystem med ulike baser,  31.03.23
+#### Grunnleggende: Utføre addisjon og subtraksjon med negative tall.,  08.05
 
-Forklar kort hva et posisjonssystem er. Gi eksempler fra base ti, fem, to og tolv.
+Regn ut
+a. $-25+(-12)$ 
+
+b. $21-(-2+4)$
+
+c. $170-(-2-(-3))$
+
+d. $(-3)-(-14)-(9-(-2))$
+
 
 ##### Vurderingskriterier
-
-Må få frem ideen om at sifrenes posisjon avgjør verdien de står for, og at denne verdien avhenger av hvilken gruppering vi velger – hvilken base eller grunntall vi har. Må også ha med eksempler.
+Regne riktig, og vise utregning. Ingen krav om begrunnelser. 
 

@@ -3,6 +3,27 @@
 1. *Se oppgaver fra tidligere nasjonal deleksamen fra seminar og i modulen nasjonal deleksamen.*
 
 
+#### Avansert: Løse lineære likninger ved hjelp av ulike strategier,  08.05
+
+Noen mellomtrinnselever fikk denne utfordringen: En bil, sjåfør og tilhenger veier totalt $2900 kg$. Bilen veier to ganger vekten av tilhengeren pluss vekten av sjåføren. Tilhengeren veier $900 kg$. Hvor mye veier sjåføren?
+
+Under ser du tre elevers løsninger. Forklar hvordan de har tolket og løst oppgaven.
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-15-14-41.png)
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-15-14-45.png)  
+  
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-15-14-49.png)
+
+#### Vurderingskriterier avansert:  08.05
+
+Her må studentene peke på elevenes tolkning.
+Det viktigste som må fram er at:
+I besvarelse A så har eleven tolket det som at bil er to ganger vekten til tilhengeren og så må sjåføren legges til.
+I B har de tolket setningen som at vekten til sjåfør *og* tilhenger må dobles for å få vekt til bil.
+I C har de tolket setningen som at vekt av sjåfør addert med to ganger vekt av tilhenger gir vekt til bil.
+
+
 #### Avansert: Løse lineære likninger ved hjelp av ulike strategier,  24.04
 
 Se 27.01.23

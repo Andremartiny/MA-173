@@ -1,10 +1,24 @@
-#### Middels: Forklare hva et posisjonssystem er, og regne med tall uttrykt i posisjonssystem med ulike baser,  31.03.23
 
-1. Forklar kort hva et posisjonssystem er.
+#### Middels: Gjengi betydningen av potensuttrykk, og regne med potenser.,  08.05
 
-2. Gjør om $112_{ti}$ til base tre, $1001010_{to}$ til base ti, og $112_{tre}$ til base fem.
+1. Skriv som potens der eksponenten er 2.
+
+a. $0.0625$
+
+b. $0.444...$
+
+2. Forkort uttrykkene så langt mulig. Vis tydelig hvilke potensregler du bruker. 
+
+a. \(2^3 \cdot 3^{-6} \cdot \big(\frac{3}{2}\big)^3 \cdot 6^3 \)
+
+b. \(9^3 \cdot 2^{-12} \cdot \frac{\big((12)^2\big)^3 \ \cdot \ 3^{-6}}{3^5}\)
+
 
 ##### Vurderingskriterier
 
-Som over + omgjøringene. Det må gå frem hvordan omgjøringene er gjort.
+1a \((\frac{1}{4})^{2}\)
+1b \((\frac{2}{3})^{2}\)
+2a $8$
+2b $3$
+
 

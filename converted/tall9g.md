@@ -8,6 +8,16 @@
 
    c. 1.45
 
+#### Grunnleggende: Utføre multiplikasjon med brøk,  08.05
+
+Regn ut.
+a. $\frac{1}{16} \cdot \frac{2}{7}$
+b. $ \frac{6}{13} \cdot 4\frac{1}{3}$
+
+##### Vurderingskriterier
+
+1/56, 2
+
 #### Grunnleggende: Utføre multiplikasjon med brøk,  24.04
 
 Regn ut.

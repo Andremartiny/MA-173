@@ -3,6 +3,14 @@
 Forklar hva en sannsynlighetsmodell er ved hjelp av begrepene utfall,
 utfallsrom og hendelse. Gi et eksempel på en sannsynlighetsmodell.
 
+#### Grunnleggende: Forklare og bruke begrepene utfallsrom, utfall og hendelse og sannsynlighetsmodell,  08.05
+
+1. Forklar hva en sannsynlighetsmodell er ved hjelp av begrepene utfall, utfallsrom og hendelse. Gi et eksempel på en sannsynlighetsmodell.
+
+##### Vurderingskriterier
+
+Studenten må gi en forklaring som bruker begrepene, samt gi et eksempel.
+
 #### Grunnleggende: Forklare og bruke begrepene utfallsrom, utfall og hendelse og sannsynlighetsmodell,  28.04.23
 
 1. Forklar hva en sannsynlighetsmodell er ved hjelp av begrepene utfall, utfallsrom og hendelse. Gi et eksempel på en sannsynlighetsmodell.

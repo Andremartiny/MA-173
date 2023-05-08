@@ -17,6 +17,22 @@
    c. det hele når del og prosentdel er kjent (hvis $x$ utgjør $y$
    prosent, hva er da $100$ %?)
 
+#### Middels: Utføre og begrunne prosentregning,  08.05
+
+1. Forklar kort to strategier for å finne $35 \ \%$ av $180$. Forklaringene må vise tydelig at strategiene er riktige.
+
+2. Problemstillingen under har løsningen \(36:0.04\). Forklar og begrunn. 
+   
+*En gruppe mennesker ble spurt om hva de vanligvis spiser til middag på fredager. 36 av dem svarte taco. Utvalget var *åpenbart* ikke representativt, da andelen tacospisere var pinlige \(4 \ \% \) av de spurte. Hvor mange mennesker bestod hele utvalget av?* 
+
+
+
+##### Vurderingskriterier
+ 
+ 
+1. Som grunnleggende, bare med god forklaring.
+2. En mulighet: 36/4 gir 1 %. 36/4 * 100 gir 100 %. Dette er det samme som 36 * 100/4, som er det samme som 36 : 4/100. En annen: 0.04x = 36 -> x = 36/0.04
+
 #### Middels: Utføre og begrunne prosentregning,  24.04
 
 1. Forklar kort to strategier for å finne $20 \ \%$ av $250$. Forklaringene må vise tydelig at strategiene er riktige.

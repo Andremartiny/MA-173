@@ -47,6 +47,15 @@ Siden vi vet at $T_n = 1+2+\ldots+n = \frac{n(n+1)}{2}$, kan vi erstatte dette i
 $P_n = 3T_n -2n = \frac{3n(n+1)}{2}-2n$.
 
 
+#### Middels: Finne eksplisitt uttrykk for figurtall,  08.05
+
+Illustrer syvkanttallene opp til $H_3$, og utled eksplisitt uttrykk for $H_n$ ved hjelp av strategien sum av tillegg. Merk at tallrekken som tilhører femkanttallene er $1, 7, 18, 34, \ldots$.
+
+##### Vurderingskriterier
+
+Se tidligere oppgaver.
+
+
 #### Middels: Finne eksplisitt uttrykk for figurtall,  28.04
 
 Se 17.04

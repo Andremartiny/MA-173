@@ -23,6 +23,25 @@ tilbakelegg
 6. $\vdots$
 
 
+#### Middels: Avgjøre om utvalg er ordnet eller uordnet og om det er med eller uten tilbakelegg,  08.05
+
+Avgjør og begrunn om situasjonene under kan tenkes som ordnede eller uordnede utvalg og om utvalgene er med eller uten tilbakelegg:
+
+1. Du skal kjøpe tre kuler is på iskiosken på fiskebrygga. Der har de 12 forskjellige smaker man kan velge mellom.
+2. Du skal låne nye bøker på biblioteket. Du ønsker å låne tre nye bøker i temaet "matematikkens historie". På biblioteket har de femten bøker i denne kategorien.
+3. André, Henrik og Anders spiller kortspillet *President* på jobben, og har laget en tabell der de holder oversikt over antall seiere per person. Etter å ha spilt seks runder, hvor mange forskjellige stillinger kan oppstå?
+4. I underveisvurderingen i MA-173 kan du velge mellom 58 læringsmål. Hvis du svarer på én oppgave på seks forskjellige læringsmål. Hvor mange forskjellige kombinasjoner av seks læringsmål kan du velge?
+
+##### Vurderingskriterier
+
+Studenten må argumentere og begrunne sitt valg. Det *må* ikke nødvendigvis stemme med forslaget under, men er det annerledes må begrunnelsen hvertfall være meningsfull!
+
+1. Studenten kan peke på nesten hvilken tolkning som helst. For eksempel kan de peke på at en selvfølgelig kan velge samme smak flere ganger og at rekkefølgen ikke betyr noe. Dermed blir det uordna utvalg uten tilbakelegg.S
+2. En naturlig tolkning kan være å tolke dette som at man har 15 bøker å velge mellom, men man kan ikke velge samme bok flere ganger (uten tilbakelegg). I tillegg er det ikke viktig hvilken rekkefølge man velger i, dermed uordna.
+3. En naturlig tolkning kan være å tenke på dette som seks runder der vi kan trekke en vinner mellom de samme tre personene hver gang (med tilbakelegg). Når vi er ferdig er vi ikke interessert i rekkefølgen på resultatet, kun antall ganger noen har vunnet, noe som gjør at vi ikke bryr oss om rekkefølgen (uordna).
+4. En naturlig tolkning kan være å argumentere for at vi ikke kan velge samme læringsmål flere ganger (noe som blir pekt på i teksten). I tillegg er det ikke viktig hvolken rekkefølge vi besvarer spørsmålene, altså uordna.
+
+
 #### Middels: Avgjøre om utvalg er ordnet eller uordnet og om det er med eller uten tilbakelegg,  28.04.23
 
 Avgjør og begrunn om situasjonene under kan tenkes som ordnede eller uordnede utvalg og om utvalgene er med eller uten tilbakelegg:

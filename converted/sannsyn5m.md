@@ -18,6 +18,24 @@
    b. Det er syv mulige personer som kan få førsteplassen. Når førsteplassen er valgt vil det være 6 mulige personer som kan komme på andre plass, og da 5 personer som kan komme på tredje. Dermed har vi for hver av de syv førsteplassene 6 mulige valg for andreplassen, altså $6$ syv ganger $7\cdot 6$. For hver av de $7\cdot 6$ mulighetene for første *og* andreplasser er det $5$ mulige valg for tredje, altså totalt $7\cdot 6 \cdot 5$ mulige 1.-, 2. og 3. plasser.
 
 
+#### Middels: Forklare og bruke begrepene ordnet utvalg med og uten tilbakelegg,  08.05
+
+1. Begrunn at følgende situasjoner kan tenkes på som ordnet utvalg med tilbakelegg og finn antall muligheter i utvalget.
+
+- Du er i en vennegjeng på 5 venner. Dere snakker om å gå på kino å se den nye storfilmen "Henrik og André på nye eventyr". Det er ikke sikkert at alle velger å gå på kino, noen velger kanskje at de ikke vil være med. Hvor mange forskjellige grupper fra vennegjengen kan man lage?
+
+2. Begrunn at følgende utvalg er ordnet utvalg uten tilbakelegg og finn antall muligheter i utvalget.
+
+- I et hesteløp skal er det 8 hester som deltar.  Hvor mange forskjellige kombinasjoner av seierspaller kan man få (seierspallen er de tre første plassene i en konkurranse)?
+
+##### Vurderingskriterier
+
+Studenten må gi en forståelig og riktig begrunnelse i begge oppgavene. I tillegg må de finne antall muligheter i utvalget.
+
+1. Studenten kan peke på at vi kan rangere vennene fra 1-5. Deretter kan vi da avgjøre hvem som skal gå ved å sette opp en 5-tuppel \(a_1, a_2, a_3, a_4, a_5\), der de forskjellige a'ene kan være 0 eller 1, hvor 0 betyr at de ikke blir med og 1 betyr at de blir med. For eksempel betyr \(0,1,1,0,0\) at venn 1, 4 og 5 ikke blir med, mens venn 2 og 3 blir med. Nå kan en tydelig se at en har fem posisjoner der en kan trekke 0 eller 1 i hvert utvalg (med tilbakelegg) og at rekkefølgen betyr noe siden de ulike posisjonene forteller hvilken venn det er snakk om. Vi ser derfor at vi har \(2\) valg fem ganger. Multiplikasjonsprinsippet gir dermed at det er \(2^5\) mulige utvalg.
+2. Studenten må peke på at én hest ikke kan komme på flere plasser, dermed er det uten tilbakelegg. Det er også forskjell på om hest nummer 8 kommer på 4 eller 1 eller 2 plass, dermed er det ordnet. Vi har dermed \(8\) muligheter for første, så \(7\), så \(6\). Det gir totalt \(8\cdot 7\cdot 6\) muligheter.
+
+
 #### Middels: Forklare og bruke begrepene ordnet utvalg med og uten tilbakelegg,  28.04.23
 
 1. Begrunn at følgende situasjoner kan tenkes på som ordnet utvalg med tilbakelegg og finn antall muligheter i utvalget.\ Du skal gjøre en flervalgsprøve med fem spørsmål. Hvert spørsmål har fire alternativer. Hvor mange forskjellige besvarelser kan man gjøre på prøven?

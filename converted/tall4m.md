@@ -60,6 +60,22 @@
    f. $\frac{5}{4} \cdot 120$ $= 5 \cdot (\frac{1}{4} \cdot 120)$
 
 
+#### Middels: Bruke regnestrategier og egenskaper ved regneoperasjonene,  08.05
+
+1. Bruk minst én av egenskapene (kommutativ, assosiativ, distributiv) til å regne $15 \cdot 2\frac{2}{5}$. Vis tydelig hvordan du tenker.
+
+2. Gjør beregningene under ved hjelp av regnestrategier som ikke innebærer oppstilt regning. Vis tydelig hvordan du tenker.
+a.  $52 - 61$
+b.  $96 : 6$
+c.  $180 \cdot \frac{4}{3}$
+
+##### Vurderingskriterier
+
+
+1. Må vise tydelig bruk av minst én av egenskapene.
+2. Må vise tydelig strategi. a. feks fast differanse: 51-60 eller 60-69. b. feks dele på tre (32), dele på to (16). c. feks dele 18 på tre (6); gange med fire (24), gange med ti (240).  
+
+
 #### Middels: Bruke regnestrategier og egenskaper ved regneoperasjonene,  24.04
 
 1. Bruk minst én av egenskapene (kommutativ, assosiativ, distributiv) til å regne $23 \cdot 11$. Vis tydelig hvordan du tenker.

@@ -22,6 +22,37 @@
    d. $0,8$
 
 
+#### Middels: Gjøre om mellom brøk og desimaltall,  08.05
+
+1. Gjør om til brøk.
+
+a. $1,30$
+
+b. $0,002$
+
+c. $0,2001$
+
+2. Gjør om til desimaltall.
+
+a. $\frac{9}{15}$
+
+b. $\frac{35}{14}$
+
+c. $\frac{9}{20}$
+
+##### Vurderingskriterier
+
+1. \
+a. 13/10,
+b. 2/1000,
+c. 2001/10 000
+
+2. \
+a. 0,6
+b. 2,5
+c. 0,45
+
+
 #### Middels: Gjøre om mellom brøk og desimaltall,  24.04
 
 1. Gjør om til brøk.

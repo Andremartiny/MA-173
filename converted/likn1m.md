@@ -56,6 +56,25 @@
    d) Noe + 5 = 37; noe = 32. Det dobbelte av noe er 32; noe er 16. Tallet i andre er 16; tallet er 4.
    e) To ganger noe er 20; noe er 10. $\pi$ ganger tallet er 10; tallet $\frac{10}{\pi}$. .
 
+#### Middels: Løse lineære likninger ved hjelp av ulike strategier,  08.05
+
+1. Løs likningen $\displaystyle\frac{20}{\frac{4x-2}{3}-2}= 5$ på en måte som ikke innebærer "flytt og bytt" eller å utføre samme operasjon på hver side av likhetstegnet. på to uformelle måter. Løs likningen deretter formelt.
+
+2. På et klassetrinn er det $70$ elever. Alle deltar i en idrett. Antallet elever på håndball er tre mer enn det dobbelte av antallet på fotball. De som spiller basket er tre færre enn halvparten av de som spiller fotball. Ingen elever deltar på mer enn én idrett.
+
+a. Finn ut hvor mange som spiller hva ved hjelp av en illustrasjon.
+
+b. Sett opp og løs en likning som passer situasjonen. Vis tydelig hvordan likningen samsvarer med situasjonen.
+
+#### Vurderingskriterier middels:  08.05
+
+1. Her må det komme fram to uformelle metoder. Eksempler er, hold over, bruk av tallinje, gjett og sjekk, bruk av konkreter. Formelt må gjøres med algebra. Et eksempel kan være: Ved å holde over nevner på venstre side av
+$$
+\frac{20}{\frac{4x-2}{3} -2} = 5,
+$$
+ser vi at $\frac{4x-2}{3} -2$ må være $4$. Igjen ser ser nå at $\frac{4x-2}{3}  = 6$. Videre må vi derfor ha at $4x-2 = 18$ for å få $6$. Til slutt må $4x = 20$ som gir at $x = 5$.
+2. Studenten må de løse situasjonen ved å sette opp en illustrasjon *og* sette opp en likning. For eksempel kan de både i en illustrasjon og algebraisk ta utgangspunkt i antall personer på fotball og kalle antallet for $x$. Da får de at det er $3+2x$ som spiller håndball og $\frac{1}{2}x-3$ som spiller *kun* basket. Totalt gir dette at $x+3+2x+\frac{1}{2} x - 3 = 70$. Det er da denne likningen som må løses.
+
 #### Middels: Løse lineære likninger ved hjelp av ulike strategier,  24.04
 
 Løs likningen på to måter, formelt og uformelt. La det gå klart frem at hvert steg i løsningen din må være riktig.

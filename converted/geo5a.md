@@ -30,6 +30,10 @@ x & = \frac{2a}{2\frac{b}{2}}
 $$
 Vi ser altså at $x^2 = 2$ eller at $x = \sqrt 2$.
 
+#### Avansert: Bruke formler for størrelser av figurer til å utforske geometriske sammenhenger,  08.05
+
+Se 17.02
+
 #### Avansert: Bruke formler for størrelser av figurer til å utforske geometriske sammenhenger,  28.04.23
 
 Under ser du en figur som er laget av sirkelsektorer og trekanter. Figuren er lagd ved å dele sirkelen med sentrum i \(A\) inn i seks like deler \(B\), \(C\), \(D\), \(E\), \(F\) og \(G\).  Sirkelen har radius \(r\).

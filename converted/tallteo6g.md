@@ -25,6 +25,24 @@
    b. Under er sammenhengen markert. De grønne er forrige figur, det røde er det som legges til i trekanten, det blå er bunnen som legges til i rektangelet, og det gule er siden som legges til i rektangelet. ![Rekursiv sammenheng](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/rekursiv.svg)
    c. Vi kan nå bruke dekomponeringen vi har brukt til å beskrive den rekursive sammenhengen. For figur $P_n$ har vi trekanttall $n+1$ minus toppen. Det gir $T_{n+1}-1 = \frac{(n+1)(n+2)}{2}-1$. Rektangelet er alltid $n(n-1)$, så vi får at den eksplisitte formelen er $\frac{(n+1)(n+2)}{2}-1+n(n-1)$.
 
+#### Grunnleggende: Beskrive oppbygningen av figurtall (alle typer),  08.05
+
+Under ser dere dere de tre første piltallene.
+
+Ved å illustrere piltallene og markere i illustrasjonen, gi en ordforklaring av
+
+1. en eksplisitt sammenheng mellom piltall nummer $n$ og antall prikker i piltallet.
+
+2. en rekursiv sammenheng mellom to påfølgende piltall.
+
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-14-32-20.png)
+
+##### Vurderingskriterier
+
+1. Studenten kan for eksempel markere trekanten i figuren og peke på at det er et rektangel med størrelse \(n\) og \(2n\) og at trekanten har størrelse \(3\) mer enn \(n\) men at den kun er rammen. Rammen er tre linjer som er to lenger enn figurtallnummeret. Dermed kan vi regne ved å ta størrelsen av et rektangel med størrelse \(n\) og \(2n\) og tre linjer på størrelse \(n+2\). 
+2. Fra 1. kan vi peke på at hvis vi skal gå fra figurtallnumer \(n\) til \(n+1\), så vil rektangelet øke med én linje på toppen med lengde \(n+1\) og en kolonne med høyde \(2n\). Trekanten øker med en prikk på hver av de tre linjene, så den øker alltid med \(3\). 
+
 #### Grunnleggende: Beskrive oppbygningen av figurtall (alle typer),  28.04
 
 Øveoppgave oppgave 1 a. og b.
@@ -146,11 +164,16 @@ peke på hvordan utviklingen skjer.
 
 #### Grunnleggende: Beskrive oppbygningen av figurtall (alle typer),  03.02.23
 
+Under ser dere dere de tre første piltallene.
+
 Ved å illustrere piltallene og markere i illustrasjonen, gi en ordforklaring av
 
 1. en eksplisitt sammenheng mellom piltall nummer $n$ og antall prikker i piltallet.
 
 2. en rekursiv sammenheng mellom to påfølgende piltall.
+
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-14-32-20.png)
 
 #### Grunnleggende: Beskrive oppbygningen av figurtall (alle typer),  27.01.23
 

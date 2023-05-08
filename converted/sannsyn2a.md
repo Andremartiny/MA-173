@@ -24,6 +24,16 @@ $$\left\{ \begin{array}{r}
 
 Vi ser her at det er $11$ av de $36$ mulighetene som inneholder en femmer. Dermed er sannsynligheten $\frac{11}{36}$.
 
+#### Avansert: Forklare og bruke begrepet uniform sannsynlighetsmodell,  08.05
+
+Det er 18 personer i en klasse. Det skal velges ut tre elever som skal være i elevrådet og alle tre skal trekkes tilfeldig. Henrik vil veldig gjerne være med i elevrådet. Sett opp en uniform sannsynlighetsmodell som får fram at det er \(\frac{3}{18}\) sannsynlighet for at Henrik får være med i elevrådet.
+
+##### Vurderingskriterier
+
+Studenten må sette opp et utfallsrom som gir opphav til en uniform sannsynlighetsmodell som viser at sannsynligheten er $\frac{3}{18}$. En naturlig måte å gjøre dette på er for eksempel ved å si at klassen settes opp i en tilfeldig rekkefølge (for eksempel ved loddtrekning), se figur under. Det gjør at alle elvene har like stor sannsynlighet for å havne på hver av de atten plassene. Hvis det er de tre første i rekken som får være med i elevrådet tilsvarer denne måten å trekke ut elevrådsmedlemmene den samme situasjonen som beskrevet i oppgaven. Dermed er det lik sannsynlighet for å havne på en av $18$ plasser, en uniform sannsynlighetsmodell der utfallsrommet er {Henrik havner på første plass, Henrik havner på andre plass, Henrik havner på tredje plass,..., Henrik havner på attende plass}. Det er kun to av plassene som får han med i elevrådet, dermed $\frac{3}{15}$ sannsynlighet for dette.
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/sannsyn/08.05.sannsynuniform.svg)
+
 #### Avansert: Forklare og bruke begrepet uniform sannsynlighetsmodell,  28.04.23
 
 André har en firesidet terning på kontoret sitt, der det er like sannsynlig å slå 1, 2, 3 og 4. André kaster to ganger og multipliserer verdiene han fikk.
@@ -35,7 +45,7 @@ André har en firesidet terning på kontoret sitt, der det er like sannsynlig å
 
 1. Studenten *må* sette opp en uniform sannsynlighetsmodell. For eksempel kan de tegne et trediagram som dette
 
-![](../../img/sannsyn/utfallstre.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/sannsyn/utfallstre.png)
 
 Dette kan de bruke til å peke på at grenene helt nederst viser utfallene. Studenten kan også lage en tabell
 $$

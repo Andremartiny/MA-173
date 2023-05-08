@@ -16,6 +16,10 @@
    a. Et kvadrat kan defineres ved at alle indre vinkler er $90^\circ$ og *alle* sider er like lange. Et rektangel kan defineres ved at alle indre vinkler er $90^\circ$. Siden definisjonen av et kvadrat krever at alle vinklene er $90^\circ$, må altså et kvadrat være et rektangel.
    b. Et parallellogram kan defineres ved å si at motstående sider må være parallelle. Siden kravet om at alle indre vinkler i rektangler er $90^\circ$ impliserer at motstående sider må være parallelle, betyr det altså at et rektangel må også være et parallellogram.
 
+#### Middels: Bruke begrepene kvadrat, rektangel, parallellogram, trapes, likebeint trekant, likesidet trekant, rettvinklet trekant, mangekant, sirkel,  08.05
+
+Se 17.02
+
 #### Middels: Bruke begrepene kvadrat, rektangel, parallellogram, trapes, likebeint trekant, likesidet trekant, rettvinklet trekant, mangekant, sirkel,  28.04.23
 
 1. Forklar hvorfor, eller hvorfor ikke, et parallellogram er et trapes.

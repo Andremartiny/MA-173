@@ -14,6 +14,10 @@
 
 Besvarelsene må inneholde en illustrasjon der en peker på relevante lengder.
 
+#### Grunnleggende: Bruke formler for størrelser av figurer til å utforske geometriske sammenhenger,  08.05
+
+Se 17.02
+
 #### Grunnleggende: Bruke formler for størrelser av figurer til å utforske geometriske sammenhenger,  28.04.23
 
 1. Gjengi formelen for å avgjøre arealet av

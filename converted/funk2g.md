@@ -20,6 +20,10 @@
 
     b.  konstantleddet $b$ endres
 
+#### Grunnleggende: Forklare sammenhenger mellom parameterne i funksjonsuttrykket og grafen til lineære funksjoner,  08.05 
+
+Se tidligere oppgaver
+
 #### Grunnleggende: Forklare sammenhenger mellom parameterne i funksjonsuttrykket og grafen til lineære funksjoner,  28.04.23
 
 17.04

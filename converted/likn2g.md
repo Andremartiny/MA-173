@@ -8,6 +8,14 @@
 
     c.  3.70
 
+#### Grunnleggende: Løse lineære ulikheter ved hjelp av ulike strategier,  08.05
+
+Løs ulikheten $3(3-x) \geq 6$.
+
+#### Vurderingskriterier grunnleggende:  08.05
+
+Her må de bare løse ulikheten.
+
 #### Grunnleggende: Løse lineære ulikheter ved hjelp av ulike strategier,  24.04
 
 Grunnleggende: Se 20.01.23

@@ -28,6 +28,40 @@
     c.  Begrunn kort hvordan grafen og funksjonsuttrykket svarer til
         situasjonseksemplet.
 
+#### Avansert: Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon,  08.05 
+
+1. Tabellen under viser en funksjonssammenheng.
+
+a. Avgjør om den er lineær, kvadratisk eller omvendt proporsjonal.
+
+b. Lag en passende situasjon som kan høre til funksjonssammenhengen.
+
+c. Finn funksjonsuttrykk, og skisser grafen.
+
+$$
+\begin{array}
+{|r|r|r|r|r|}
+\hline 
+x &  -4 & -1 & 2 & 8
+\\ \hline 
+y & -2 & -8 & 4 & 1
+\\ \hline  
+\end{array}
+$$
+
+1. Under ser du grafen til en funksjon.
+
+a. Avgjør hva slags funksjon det er snakk om.
+
+b. Finn funksjonsuttrykket.
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-31-09-26-46.png)
+
+
+#### Vurderingskriterier avansert:  08.05 
+
+Se 31.03
+
 #### Avansert: Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon,  28.04.23
 
 Se 13.02
@@ -62,9 +96,16 @@ b. Lag en passende situasjon som kan høre til funksjonssammenhengen.
 
 c. Finn funksjonsuttrykk, og skisser grafen.
 
-| x   | -2  | -1  | 1  |  2  |
-|-----|-----|-----|----|-----|
-| y   | -4  | -8  | 8  | 4   |
+$$
+\begin{array}
+{|r|r|r|r|r|}
+\hline 
+x &  -2 & -1 & 1 & 2
+\\ \hline 
+y & -4 & -8 & 8 & 4
+\\ \hline  
+\end{array}
+$$
 
 1. Under ser du grafen til en funksjon.
 

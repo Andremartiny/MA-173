@@ -4,6 +4,10 @@
     måltall* og *måleenhet.* Besvarelsen må inneholde 3 dimensjonale
     eksempler.
 
+#### Grunnleggende: Bruke begrepene måltall, størrelse og måleenhet til å avgjøre størrelsen av grunnleggende figurer i 3 dimensjoner,  08.05
+
+Se 17.02
+
 #### Grunnleggende: Bruke begrepene måltall, størrelse og måleenhet til å avgjøre størrelsen av grunnleggende figurer i 3 dimensjoner,  28.04.23
 
 Forklar og gi eksempler på hva som menes med begrepene størrelse, måltall og måleenhet. Besvarelsen må inneholde 3-dimensjonale eksempler.

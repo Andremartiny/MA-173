@@ -60,6 +60,26 @@
    b. $10010_{to}$ til base fire: $10010_{to} = 1 \cdot 16 + 1 \cdot 4 = 110_{fire}$
    c. ${20B}_{tolv}$ til base fem: ${20B}_{tolv} = 2 \cdot 144 + 11 = 2 \cdot 125 + 38 + 10 + 1 = 2 \cdot 125 + 49 = 2 \cdot 125 + 1 \cdot 25 + 4 \cdot 5 + 4 \cdot 1 = 2144_{fem}$
 
+#### Middels: Forklare hva et posisjonssystem er,  08.05
+
+1. Forklar kort hva et posisjonssystem er.
+2. Gjør om \(139_{ti}\) til base syv.
+3. $333_{fire}$ til base seks uten å regne ut i base ti først.
+
+##### Vurderingskriterier
+
+1. Som grunnleggende. 
+2. \(256_{syv}\) Det må gå frem hvordan omgjøringen er gjort.
+3. \(143_{seks}\) Det må gå frem hvordan omgjøringen er gjort. Feks slik: 
+
+$$
+\begin{aligned} 333_{fire}  &= 3 \cdot 4^2 + 3 \cdot 4+3 
+\\  &= 6\cdot 8 + 2 \cdot 6 + 3 
+\\ &= (6+4)\cdot 6+3 
+\\ &= 6^2 + 4 \cdot 6 + 3 
+\\ &= 143_{seks} \end{aligned}
+$$
+
 #### Middels: Forklare hva et posisjonssystem er,  24.04
 
 1. Forklar kort hva et posisjonssystem er.

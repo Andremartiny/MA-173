@@ -1,3 +1,54 @@
+<h4 id="middels-finne-rekursiv-uttrykk-for-figurtall-08.05">Middels:
+Finne rekursiv uttrykk for figurtall, 08.05</h4>
+<p>Vis i en illustrasjon hvordan hver figur inneholder den forrige, og
+finn rekursivt uttrykk for sekskanttallene <span
+class="math inline">\(H_n\)</span>, der <span class="math inline">\(H_1
+=1\)</span>, <span class="math inline">\(H_2 = 6\)</span> og <span
+class="math inline">\(H_3 = 15\)</span>: ved hjelp av strategien form på
+tillegg. ved hjelp av strategien differanse mellom eksplisitte uttrykk.
+Merk: Det eksplisitte uttrykket for sekskanttallene er <span
+class="math inline">\(H_n = {n(2n-1)}\)</span>.</p>
+<h5 id="vurderingskriterier">Vurderingskriterier</h5>
+<p>Studenten må besvare alle spørsmålene med riktig teknikk, samt
+illustrere sekskanttallene, se for eksempel <img
+src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Hexagonal_numbers.svg" /></p>
+<ol type="i">
+<li><p>Ved å se på utviklingen ser vi at tillegget øker med fire hver
+gang, fra <span class="math inline">\(5\)</span> til <span
+class="math inline">\(9\)</span> til <span
+class="math inline">\(13\)</span> osv. Dermed øker tillegget lineært med
+stigning fire. Fra <span class="math inline">\(1\)</span> til <span
+class="math inline">\(6\)</span> ser vi at økningen er <span
+class="math inline">\(4\cdot 2 - 3\)</span>, noe som også stemmer med
+figuren. Vi lekker til fire sider, og har tre hjørner vi teller to
+ganger, altså <span class="math inline">\(4\cdot 2 - 3\)</span>, eller
+generelt <span class="math inline">\(4\cdot n - 3\)</span>.</p></li>
+<li><p>Her <em>må</em> de ta differanse mellom <span
+class="math inline">\(H_n\)</span> og <span
+class="math inline">\(H_{n-1}\)</span> eller <span
+class="math inline">\(H_{n+1}\)</span> og <span
+class="math inline">\(H_n\)</span>. Førstnevnte gir <span
+class="math display">\[
+\begin{aligned}
+n(2n-1) - (n-1)(2(n-1)-1)
+&amp; =
+2n^2 - n - (n-1)(2(n-1)-1)
+\\
+&amp; =
+2n^2 - n - (n-1)(2n-3)
+\\
+&amp; =
+2n^2 - n - (n(2n-3) - (2n-3))
+\\
+&amp; =
+2n^2 - n - n(2n-3) + (2n-3)
+\\
+&amp; =
+2n^2 - n - 2n^2+3n + 2n-3
+= 4n -3
+\end{aligned}
+\]</span></p></li>
+</ol>
 <h4 id="middels-finne-rekursiv-uttrykk-for-figurtall-28.04">Middels:
 Finne rekursiv uttrykk for figurtall, 28.04</h4>
 <p>Vis i en illustrasjon hvordan hver figur inneholder den forrige, og
@@ -8,7 +59,7 @@ class="math inline">\(H_3 = 15\)</span>: ved hjelp av strategien form på
 tillegg. ved hjelp av strategien differanse mellom eksplisitte uttrykk.
 Merk: Det eksplisitte uttrykket for sekskanttallene er <span
 class="math inline">\(H_n = {n(2n-1)}\)</span>.</p>
-<h5 id="vurderingskriterier">Vurderingskriterier</h5>
+<h5 id="vurderingskriterier-1">Vurderingskriterier</h5>
 <p>Studenten må besvare alle spørsmålene med riktig teknikk, samt
 illustrere sekskanttallene, se for eksempel <img
 src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Hexagonal_numbers.svg" /></p>
@@ -59,7 +110,7 @@ class="math inline">\(P_3 = 12\)</span>: ved hjelp av strategien form på
 tillegg. ved hjelp av strategien differanse mellom eksplisitte uttrykk.
 Merk: Det eksplisitte uttrykket for bikubetallene er <span
 class="math inline">\(P_n = {\frac{n}{2}(3n-1)}\)</span>.</p>
-<h5 id="vurderingskriterier-1">Vurderingskriterier</h5>
+<h5 id="vurderingskriterier-2">Vurderingskriterier</h5>
 <p>Studenten må besvare alle spørsmålene med riktig teknikk. Her
 <em>må</em> det være med en illustrasjon.</p>
 <ol type="i">
@@ -84,7 +135,7 @@ class="math inline">\(H_3 = 15\)</span>: ved hjelp av strategien form på
 tillegg. ved hjelp av strategien differanse mellom eksplisitte uttrykk.
 Merk: Det eksplisitte uttrykket for bikubetallene er <span
 class="math inline">\(H_n = {n(2n-1)}\)</span>.</p>
-<h5 id="vurderingskriterier-2">Vurderingskriterier</h5>
+<h5 id="vurderingskriterier-3">Vurderingskriterier</h5>
 <p>Studenten må besvare alle spørsmålene med riktig teknikk. Her
 <em>må</em> det være med en illustrasjon.</p>
 <ol type="i">

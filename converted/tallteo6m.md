@@ -33,6 +33,20 @@ b.  Hvilke uttrykk stemmer? Argumenter ved hjelp av figuren og ved å
    *Merk*: Det er viktig å tegne selv og forsikre seg om at man forstår sammenhengen mellom uttrykket og figuren. Tegn derfor selv!
 
 
+
+
+#### Middels: Beskrive oppbygningen av figurtall (alle typer),  08.05
+
+Under ser dere dere de tre første piltallene.
+Ved å bryte piltallene ned på flere måter, utled to ulike, men likeverdige uttrykk for piltallene.
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-14-32-20.png)
+
+##### Vurderingskriterier
+
+Fra vurderingskriteriene på grunnleggende kan vi utdype forklaringene. Første forklaring gir eksplisitt formel \(n\cdot 2n + 3(n+2)\). Vi kan også bryte ned piltallene geometrisk ved å tenke på trekantbiten som trekanttall nummer \(n+3\) med midten fjernet. Siden midten er trekanttall nummer \(n\) får vi \(T_{n+3}-T_{n} = \frac{(n+3)(n+4)-n(n+1)}{2}\). Det gir en eksplisitt formel lik \(2n\cdot n + \frac{(n+3)(n+4)-n(n+1)}{2}\). Studentene kan selvfølgelig bryte ned figuren på andre måter. 
+
+
 #### Middels: Beskrive oppbygningen av figurtall (alle typer),  28.04
 
 Øveoppgave oppgave 1
@@ -132,13 +146,12 @@ tallfølgen og finne eksplisitt uttrykk ved hjelp av sum av
 tillegg.
 
 
-Under ser dere dere de tre første piltallene.
-
-![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-14-32-20.png)
 
 #### Middels: Beskrive oppbygningen av figurtall (alle typer),  03.02.23
-
+Under ser dere dere de tre første piltallene.
 Ved å bryte piltallene ned på flere måter, utled to ulike, men likeverdige uttrykk for piltallene.
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-14-32-20.png)
 
 
 Under ser dere dere de tre første medaljetallene

@@ -532,6 +532,275 @@ $$
     b.  Begrunn hvordan oppgaven innebærer arbeid med algebraisk
         tenkning og kompetansemålene og kjerneelementene du valgte.
 
+## 08.05
+
+### Bruke begrepene faktor (divisor), felles faktor og største felles faktor, multiplum, felles multiplum og minste felles multiplum
+
+#### Grunnleggende: Gjengi og forklare, gi eksempler og illustrasjoner til begrepene
+
+1. Forklar og gi eksempler på hva som menes med felles faktor og største felles faktor for to tall. Besvarelsen må inneholde både formelle definisjoner og grunnskoletilpassete forklaringer.
+2. Forklar og gi eksempler på hva som menes med begrepet multiplum. Besvarelsen må inneholde både formell definisjon og grunnskoletilpasset forklaring.
+
+
+#### Middels: Argumentere for enkle sammenhenger knyttet til begrepene
+
+Forklar hvorfor alle summer av tre påfølgende naturlige tall har felles faktor 3.
+
+##### Vurderingskriterier
+
+Studenten må gi en forklaring som begrunner påstanden. Dette kan gjøres på flere måter (generisk eksemplel med/uten figur, formelt etc). Et formelt argument er for eksempel at en vilkårlig sum av tre påfølgende tall kan skrives som \((n-1) +n + (n+1) = 3n\), der \(n\) er et naturlig tall større enn 1. Vi ser nå at påstanden faller ut automatisk. 
+
+#### Avansert: Løse (også ukjente) problemer knyttet til begrepene
+
+Undersøk og begrunn følgende påstand.
+
+*Når vi deler et tall på et annet, får vi en rest som er mellom 0 og tallet vi deler på. Enhver felles faktor for de to tallene i divisjonen er også en faktor i resten.*
+
+##### Vurderingskriterier
+
+Ved å underøske noen eksempler, for eksempel \(10\) og \(15\) som har felles faktor \(5\) vil ha rest \(10\) når man tar \(15\) delt på \(10\). Vi ser også at \(6\) og \(9\) har rest \(3\) som også er største felles faktor mellom tallene. Dermed ser vi at det *ser ut som* at påstanden stemmer. Studenten må begrunne påstanden på en forståelig og riktig måte. For eksempel kan dette gjøres generisk eller mer formelt.
+ 
+Gjør vi det formelt kan vi si at for to tall med største felles faktor \(x\), så kan tallene skrives som \(ax\) og \(bx\). At \(ax\) delt på \(bx\) gir rest \(r\) betyr at det finnes et tall \(c\) slik at \(c\cdot bx + r = ax\). Høyre side inneholder åpenbart faktoren \(x\), og dermed må venstre side også gjøre det. Siden \(c\cdot bx\) er delelig på \(x\) så er eneste mulighet for at VS skal være delelig på \(x\) at \(r\) også er delelig på \(x\) og vi har vist at påstanden stemmer. 
+
+### Bruke begrepene naturlig tall, partall og oddetall, primtall og sammensatt tall
+
+#### Grunnleggende: Gjengi og forklare, gi eksempler og illustrasjoner til begrepene
+
+1. Forklar og gi eksempler på hva partall og oddetall er.
+2. Forklar og gi eksempler på hva primtall og sammensatt tall er.
+3. Besvarelsen må inneholde både algebraiske definisjoner, ordforklaringer og illustrasjoner.
+
+#### Middels: Argumentere for enkle sammenhenger knyttet til begrepene
+
+1. Gi et grunnskoletilpasset argument for at sum av oddetall og oddetall er partall.
+
+2. Gi et formelt argument for at oddetall multiplisert med oddetall gir oddetall.
+
+##### Vurderingskriterier
+
+Se tidligere oppgaver
+
+#### Avansert: Løse (også ukjente) problemer knyttet til begrepene
+
+Alle naturlige tall kan beskrives relativ til et tall i fire-gangen. Noen tall er i fire-gangen (\(4, 8,\ldots, 4n,\ldots\)), noen er én mer enn et tall i fire-gangen (\(1, 5, 9, \ldots, 4n +1, \ldots\)), noen er to mer enn tall i fire-gangen (\(2, 6, 10, \ldots, 4n+2, \ldots\)) og resten er tre mer enn tall i firegangen. Forklar hvorfor alle primtall bortsett fra \(2\) er enten én mer eller én mindre enn noe i firegangen
+
+
+##### Vurderingskriterier
+
+Se 03.02
+
+### Begrunne delelighetsreglene for tall som er delelig med 2, 3, 4, 5, 6 og 9
+
+#### Middels: Argumentere for enkle sammenhenger knyttet til begrepene
+
+Gi en formell begrunnelse for delelighetsregelen for tall som er delelig med 5.
+Gi en grunnskoletilpasset begrunnelse for delelighetsregelen for tall som er delelig med 3.
+
+##### Vurderingskriterier
+
+Se tidligere kriterier.
+
+### Finne eksplisitt uttrykk for figurtall
+
+#### Grunnleggende: Ved hjelp av Gauss-trikset/doble summen for trekanttall, og ved hjelp av sum av tillegg for kvadrat- og rektangeltall
+
+Utled det eksplisitte uttrykket for summen av de $n$ første naturlige tallene, det vil si trekanttall nummer $n$, ved hjelp av Gauss-trikset (doble summen):
+geometrisk
+algebraisk
+
+#### Middels: Ved hjelp av sum av tillegg for andre polygontall
+
+Illustrer syvkanttallene opp til $H_3$, og utled eksplisitt uttrykk for $H_n$ ved hjelp av strategien sum av tillegg. Merk at tallrekken som tilhører femkanttallene er $1, 7, 18, 34, \ldots$.
+
+##### Vurderingskriterier
+
+Se tidligere oppgaver.
+
+#### Avansert: Ved hjelp av geometrisk betraktning/stirre hardt og sum av tillegg for sammensatte figurtall
+
+På figuren under ser du de fire første figurene i en sammensatt figur, der $F_1 = 4$, $F_2 = 10$ og $F_3 = 19$.
+
+1. Finn en eksplsitt formel for $F_n$ ved å betrakte figuren geometrisk.
+
+2. Finn en eksplisitt formel ved hjelp av sum av tillegg.
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-14-31-42.png)
+
+##### Vurderingskriterier
+
+1. Studenten må betrakte figuren geometrisk. Dette gjøre mest naturlig (men ikke nødvendigvis) ved å se at det er kvadrattall nummer \(n\) og trekanttall nummer \(n+1\). Dermed får vi \(n^2 + T_{n+1} = n^2 + \frac{(n+1)(n+2)}{2}\).
+2. Studenten må bruke sum av tillegg for å finne eksplisitt formel. For eksempel kan vi se at kvadrattallene øker med \(2n-1\) og trekanttallet øker med \(n+1\) som gir et totalt tillegg \(3n\).
+Dermed ser vi at vi kan skrive \(F_n\) som en sum av tilleg slik
+$$
+\begin{aligned}
+F_1 
+& = 1+ 3
+\\
+F_2 
+& = 1+3+3\cdot 2
+\\
+\vdots
+\\
+F_n 
+& = 1 + 3 + 3\cdot 2 + 3\cdot 3 + \ldots + 3n
+\\
+& = 1 + 3(1+2+3+\ldots + n)
+\\
+& = 1 + 3 T_n
+\\
+& = 1 + 3\cdot\frac{n(n+1)}{2}
+\\
+& = \frac{2 + 3n(n+1)}{2}
+\\
+& = \frac{2 +3n^2 + 3n}{2}.
+\end{aligned}
+$$
+Studenten kan gi seg med dette eksplisitte uttrykket. Vi viser videre at svaret i 1. passer med dette svaret, kun for å vise og ikke fordi studenten må gjøre det.
+Svaret fra 1. kan vi skrive om slik
+$$
+\begin{aligned}
+n^2 + \frac{(n+1)(n+2)}{2}
+& = \frac{2n^2 + (n+1)(n+2)}{2}
+\\
+& = \frac{2n^2 + n^2+3n+2}{2}
+\\
+& = 
+\frac{3n^2 + 3n +2}{2}.
+\end{aligned}
+$$
+
+### Finne rekursiv uttrykk for figurtall
+
+#### Grunnleggende: Ved hjelp av form på tillegg, og differanse mellom eksplisitte uttrykk for trekant-, kvadrat- og rektangeltall
+
+Vis i en illustrasjon hvordan hver figur inneholder den forrige, og finn rekursivt uttrykk for trekanttall $n$:
+ved hjelp av strategien form på tillegg.
+ved hjelp av strategien differanse mellom eksplisitte uttrykk. Merk eksplisitt uttrykk for trekanttall er $\frac{n\cdot(n+1)}{2}$.
+
+##### Vurderingskriterier
+
+Studenten må besvare alle spørsmålene med riktig
+teknikk.
+
+i.  Her må de peke på formen på tillegget. Enten ved å peke på
+figuren og vise hvordan den utvikler seg generelt. Eller ved
+å peke på tilleggene i tallfølgen og forklare hvordan den
+utvikler seg.
+
+ii. Her *må* de ta differanse mellom $T_{n}$ og $T_{n - 1}$ og
+gjøre regne seg fram til formen på tillegget
+
+#### Middels: Ved hjelp av form på tillegg, og differanse mellom eksplisitte uttrykk for andre polygontall og sammensatte figurtall
+
+Vis i en illustrasjon hvordan hver figur inneholder den forrige, og finn rekursivt uttrykk for sekskanttallene $H_n$, der $H_1 =1$, $H_2 = 6$ og $H_3 = 15$:
+ved hjelp av strategien form på tillegg.
+ved hjelp av strategien differanse mellom eksplisitte uttrykk. Merk: Det eksplisitte uttrykket for sekskanttallene er $H_n = {n(2n-1)}$.
+
+##### Vurderingskriterier
+
+Studenten må besvare alle spørsmålene med riktig teknikk, samt illustrere sekskanttallene, se for eksempel ![](https://upload.wikimedia.org/wikipedia/commons/f/f0/Hexagonal_numbers.svg)
+
+i.  Ved å se på utviklingen ser vi at tillegget øker med fire hver gang, fra $5$ til $9$ til $13$ osv.  Dermed øker tillegget lineært med stigning fire. Fra $1$ til $6$ ser vi at økningen er $4\cdot 2 - 3$, noe som også stemmer med figuren. Vi lekker til fire sider, og har tre hjørner vi teller to ganger, altså $4\cdot 2 - 3$, eller generelt $4\cdot n - 3$. 
+
+ii. Her *må* de ta differanse mellom $H_n$ og $H_{n-1}$ eller $H_{n+1}$ og $H_n$. Førstnevnte gir 
+$$
+\begin{aligned}
+n(2n-1) - (n-1)(2(n-1)-1) 
+& = 
+2n^2 - n - (n-1)(2(n-1)-1) 
+\\
+& = 
+2n^2 - n - (n-1)(2n-3) 
+\\
+& = 
+2n^2 - n - (n(2n-3) - (2n-3))
+\\ 
+& = 
+2n^2 - n - n(2n-3) + (2n-3)
+\\
+& = 
+2n^2 - n - 2n^2+3n + 2n-3
+= 4n -3
+\end{aligned}
+$$
+
+### Beskrive oppbygningen av figurtall (alle typer)
+
+
+
+#### Grunnleggende: Beskrive eksplisitt og rekursiv sammenheng verbalt og ved hjelp av illustrasjon
+
+Under ser dere dere de tre første piltallene.
+
+Ved å illustrere piltallene og markere i illustrasjonen, gi en ordforklaring av
+
+1. en eksplisitt sammenheng mellom piltall nummer $n$ og antall prikker i piltallet.
+
+2. en rekursiv sammenheng mellom to påfølgende piltall.
+
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-14-32-20.png)
+
+##### Vurderingskriterier
+
+1. Studenten kan for eksempel markere trekanten i figuren og peke på at det er et rektangel med størrelse \(n\) og \(2n\) og at trekanten har størrelse \(3\) mer enn \(n\) men at den kun er rammen. Rammen er tre linjer som er to lenger enn figurtallnummeret. Dermed kan vi regne ved å ta størrelsen av et rektangel med størrelse \(n\) og \(2n\) og tre linjer på størrelse \(n+2\). 
+2. Fra 1. kan vi peke på at hvis vi skal gå fra figurtallnumer \(n\) til \(n+1\), så vil rektangelet øke med én linje på toppen med lengde \(n+1\) og en kolonne med høyde \(2n\). Trekanten øker med en prikk på hver av de tre linjene, så den øker alltid med \(3\). 
+
+#### Middels: Finne flere algebraiske uttrykk til samme figur
+
+Under ser dere dere de tre første piltallene.
+Ved å bryte piltallene ned på flere måter, utled to ulike, men likeverdige uttrykk for piltallene.
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-14-32-20.png)
+
+##### Vurderingskriterier
+
+Fra vurderingskriteriene på grunnleggende kan vi utdype forklaringene. Første forklaring gir eksplisitt formel \(n\cdot 2n + 3(n+2)\). Vi kan også bryte ned piltallene geometrisk ved å tenke på trekantbiten som trekanttall nummer \(n+3\) med midten fjernet. Siden midten er trekanttall nummer \(n\) får vi \(T_{n+3}-T_{n} = \frac{(n+3)(n+4)-n(n+1)}{2}\). Det gir en eksplisitt formel lik \(2n\cdot n + \frac{(n+3)(n+4)-n(n+1)}{2}\). Studentene kan selvfølgelig bryte ned figuren på andre måter. 
+
+#### Avansert: Lage figurer basert på algebraiske uttrykk og tallfølger
+
+Du får vite at et figurtall $F_n$ øker på følgende måte. $F_1 = 2$, $F_2 = 8$, $F_3 = 16$, $F_4 = 26$ og $F_5 = 38$.
+
+Lag en figur som følger mønsteret til $F_n$. Det er nok å illustrere $F_1$, $F_2$ og $F_3$, så lengde det får fram mønsteret.
+Vis og forklar sammenhengen mellom tallrekken og figurene rekursivt.
+Finn en eksplisitt formel på to forskjellige måter.
+
+##### Vuderingskriterier
+
+Vi begynner med å analysere utviklingen av tallrekka. Vi ser at økningen er \(6\) så \(8\), så \(10\) og så \(12\). Tilleggene øker altså med \(2\). Dermed kan vi skrive 
+$$
+\begin{aligned}
+F_1 & = 2
+\\
+F_2 & = 2 + 2\cdot 2 + 2
+\\
+F_3 & = 2 + 2\cdot 2 + 2 + 2\cdot 3 + 2
+\\
+\vdots
+\\
+F_n & = 2 + (2\cdot 2 + 2) + (2\cdot 3 + 2) + \ldots + (2\cdot n + 2).
+\end{aligned}
+$$
+
+Ved å justere første leddet i summen får vi
+$$
+F_n = -2 + (2\cdot 1 + 2) + (2\cdot 2 + 2) + (2\cdot 3 + 2) + \ldots + (2\cdot n + 2).
+$$
+
+Denne kan vi nå enkelt skrive om til
+$$
+\begin{aligned}
+F_n  
+& =  -2 + 2(1+2+\ldots + n) + 2n
+\\
+& = -2 + 2T_n + 2n
+\\
+& = -2 + n(n+1) + 2n.
+\end{aligned}
+$$
+
+Vi kan nå bruke formelen til å trekke ut en måte å lage figuren. Vi ser at det er to trekanttall og to linjer med lengde \(n\), der det i tillegg er trukket vekk 2. (Figuren får man lage selv 😉).
+
 ## 28.04
 
 ### Bruke begrepene faktor (divisor), felles faktor og største felles faktor, multiplum, felles multiplum og minste felles multiplum

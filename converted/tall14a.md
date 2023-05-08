@@ -20,6 +20,18 @@
     Når vi deler på for eksempel syv, er det bare syv mulige rester vi kan få, nemlig 0, 1, 2, ... og 6. Det betyr at vi før eller siden (innen seks steg, for divisjonen vil jo ikke gå opp på noe tidspunkt) vil få en rest vi har hatt tidligere når vi utfører divisjonsalgoritmen. Og da vil vi nødvendigvis få en gjentakelse av stegene fra første gang vi fikk den resten; vi havner i en «periode-loop».
 
 
+#### Avansert: Begrunne hvilke brøker som svarer til endelige og hvilke som svarer til periodiske desimaltall,  08.05
+
+1. Begrunn påstanden: En brøk svarer til et endelig desimaltall bare dersom den maksimalt forkorta kun har primfaktorene 2 og 5 i nevner.
+
+2. Begrunn hvorfor resten av brøkene gir periodiske desimaltall.
+
+##### Vurderingskriterier
+
+a.  Må vise til at desimaltall er brøker med tierpotenser til nevner. Siden eneste primfaktorer i 10 er 2 og 5, må den maksimalt forkorta brøken ha nevner uten andre primfaktorer enn disse.
+b. Begrunnes ved hjelp av eksempel: Tolke for eksempel 3/7 som divisjonen 3 : 7, og utføre den vanlige algoritmen. Divisjon med 7 kan bare gi restene 0, 1, ..., 6 (i vårt tilfelle ikke 0, for divisjonen går ikke opp). Det gir at høyeste antall mulige steg i divisjonsalgoritmen før vi får en rest vi har hatt tidligere, er seks. Dermed havner vi i en  «periode-loop».
+
+
 #### Avansert: Begrunne hvilke brøker som svarer til endelige og hvilke som svarer til periodiske desimaltall,  24.04
 
 1. Begrunn påstanden: En brøk svarer til et endelig desimaltall bare dersom den maksimalt forkorta kun har primfaktorene 2 og 5 i nevner.

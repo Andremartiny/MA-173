@@ -62,6 +62,24 @@
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-27-12-33-04.png)
 
+#### Middels: Bruke begrepene funksjon, variabel, uavhengig variabel (innverdi), avhengig variabel (utverdi), funksjonsverdi, definisjonsmengde og verdimengde,  08.05 
+
+Til hvert av punktene A) og B), er to variabler beskrevet.
+
+Avgjør i hvert tilfelle om én av variablene er funksjon av den andre, begge variabler er funksjon av hverandre, eller ingen av dem er funksjon av den andre. Besvarelsen må inneholde ordene innverdi og funksjonsverdi, definisjons- og verdimengde.
+
+
+
+A) Sammenhengen mellom arealet av og radius av en sirkel.
+
+B) Sammenhengen mellom areal og omkrets i et rektangel.
+
+#### Vurderingskriterier middels:  08.05 
+
+Besvarelsene *må* inneholde ordene innverdi, funksjonsverdi, definisjons- og verdimengde.
+A. Studenten må få fram at det kun er én sirkel som har ett bestemt areal. Dermed er radius entydig bestemt av arealet. Dermed blir radius (utverdi) entydig bestemt av areal (innverdi). Det er klart at det kun er positive areal vi kan ha, dermed er definisjonsmendgen, de eneste innverdiene vi kan gi, alle de positive tallene. Vi kan også se at radius entydig bestemmer arealet til en sirkel, og dermed er arealet også en funksjon av radius. Siden arealet kunne være alle positive verdier ser vi at i dette tilfellet vil verdimengden også være alle positive verdier.
+B. Siden det finnes flere rektangler med samme omkrets er omkretsen ikke nok til å avgjøre hva arealet er. Arealet er altså *ikke* en funksjon av omkretsen. Tilsvarende kan vi heller ikke avgjøre omkretsen av et rektangel basert på arealet. Dette kan vi for eksempel se ved å merke oss at et 2 cm bredt og 4 cm langt rektangel har likt areal som et rektangel som har lengder 1 cm og 8 cm, men disse har ulike omkretser. 
+
 #### Middels: Bruke begrepene funksjon, variabel, uavhengig variabel (innverdi), avhengig variabel (utverdi), funksjonsverdi, definisjonsmengde og verdimengde,  28.04.23
 
 Se 10.02

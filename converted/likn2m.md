@@ -10,6 +10,15 @@
         gjerne på flere måter -- hva som foregår de gangene du må «snu
         ulikhetstegnet».
 
+#### Middels: Løse lineære ulikheter ved hjelp av ulike strategier,  08.05
+
+Gi en forklaring av hvorfor $-\frac{3}{2}x>3$, betyr at $x<-2$.
+
+
+#### Vurderingskriterier middels:  08.05
+
+Her må de presisere alt som gjøres i utregningen med en begrunnelse
+
 #### Middels: Løse lineære ulikheter ved hjelp av ulike strategier,  24.04
 
 Middels: Se 20.01.23

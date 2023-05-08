@@ -8,6 +8,22 @@
 
     c.  3.47 Løs likningene på flere måter der det virker naturlig, ikke bare slik boka spør etter.
 
+#### Grunnleggende: Løse lineære likninger ved hjelp av ulike strategier,  08.05
+
+Blant $163$ spurte mennesker, svarte alle at de spiser enten taco, nudler eller foie gras på fredager. Det er $35$ flere som spiser taco enn fiskepinner, og antallet som spiser foie gras er det tredobbelte av én mer enn antallet som spiser fiskepinner.
+
+1. Fullfør og bruk illustrasjonen under til å finne ut hvor mange som spiser hva.
+
+2. Sett opp og løs likningen situasjonen svarer til.
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-15-14-26.png)
+
+
+#### Vurderingskriterier grunnleggende:  08.05
+
+Her *må* de fullføre illustrasjonen for å løse likningen. Deretter *må* de sette opp og løse likingen selv.
+
+
 #### Grunnleggende: Løse lineære likninger ved hjelp av ulike strategier,  24.04
 
 Løs likningen $3(x-1)=2(x+1)$ på to måter, formelt og grunnskoletilpasset.

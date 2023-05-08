@@ -12,6 +12,15 @@
    c. Det er på samme måte kun ett utfall som gir bare mynt. Dermed av de totalt $32$ mulighetene så er det $32-2$ som hverken inneholder bare kron eller bare mynt. Sannsynligheten blir derfor $\frac{30}{32}$.
 
 
+#### Avansert: Forklare, illustrere og bruke komplementsetningen,  08.05
+
+Det er 13 gutter og 12 jenter i en klasse. Det skal trekkes en tilfeldig gruppe på tre fra klassen. Hva er sannsynligheten for at man trekker minst én jente?
+
+##### Vurderingskriterier
+
+Studenten må regne ut sannsynligheten på en forståelig måte. Det kan for eksempel gjøres ved å tenke at alle mulige utvalg er like sannsynlige og at det er et uordnet utvalg uten tilbakelegg. Det gir en uniform sannsynlighetsmodell med \(\frac{25\cdot 24\cdot 23}{3\cdot 2\cdot 1} = 25\cdot 4\cdot 23 = 2300\) mulige utfall. Vi er nå interessert i hendelsen *minst én jente*. Finner vi sannsynligheten for å velge ut *kun* gutter kan vi bruke at dette er komplementærhendelsen til hendelsen vi er ute etter. Siden det er \(\frac{12\cdot 11\cdot 10}{3\cdot 2\cdot 1} ={2\cdot 11\cdot 10} = 220\) mulge utvalg som inneholder kun gutter må sannsynligheten for å trekke minst én jente være \(1 - \frac{220}{2300}\). 
+
+
 #### Avansert: Forklare, illustrere og bruke komplementsetningen,  28.04.23
 
 Poker er et kortspill der man har 52 kort. Det er tretten kort i hver sort (kløver, ruter, spar og hjerter), inkludert ett ess i hver sort. Hva er sannsynligheten for å *ikke* få et par i ess (to ess) på blant de to kortene du trekker?

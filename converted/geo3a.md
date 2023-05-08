@@ -25,6 +25,10 @@ v & = \frac{\angle BAC}{2}.
 $$
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-03-21-15-36.png)
 
+#### Avansert: Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer,  08.05
+
+Se 17.02
+
 #### Avansert: Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer,  28.04.23
 
 En korde-tangent-vinkel har størrelse *v*. Hvor stor er sirkelbuen

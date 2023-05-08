@@ -6,6 +6,11 @@
     linjer.*
 
 
+#### Grunnleggende: Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer,  08.05
+
+Se 17.02
+
+
 #### Grunnleggende: Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer,  28.04.23
 
 Forklar og gi eksempler (med illustrasjoner) på hva som menes med begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer.

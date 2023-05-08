@@ -45,6 +45,21 @@
 
    ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-27-12-15-21.png)
 
+#### Avansert: Løse likninger fra funksjonsperspektiv,  08.05 
+
+La $f(x)=x^2 + 4x -1$  og  $g(x)= x^2 + 2x -3  $.
+
+Bestem eventuelle skjæringspunkt (begge koordinater) mellom grafene til $f$ og $g$ ved regning.
+
+Skisser grafene i et koordinatsystem.
+
+#### Vurderingskriterier avansert:  08.05 
+
+Alle oppgavene må besvares
+
+1. Studenten må regne ut skjæringspunktene.
+2. Studenten må skissere grafene i et koordinatsystem.
+
 #### Avansert: Løse likninger fra funksjonsperspektiv,  28.04.23
 
 Se 03.02

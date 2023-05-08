@@ -28,6 +28,11 @@
 Se vurderingskriteriene fra ett av vurderingssettene.
 
 
+#### Middels: Forklare hvordan endringer i parameterne i funksjonsuttrykket påvirker grafene til andregrads- og omvendt proporsjonale funksjoner,  08.05 
+
+Se 31.03    
+
+
 #### Middels: Forklare hvordan endringer i parameterne i funksjonsuttrykket påvirker grafene til andregrads- og omvendt proporsjonale funksjoner,  28.04.23
 
 Se 10.02

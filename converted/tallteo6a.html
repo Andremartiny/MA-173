@@ -57,10 +57,10 @@ som skal trekkes vekk. Eller følgende måte</p>
 <p><img
 src="https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-25-12-58-27.png" /></p>
 <p>Der gul og grønn illustrerer trekanttallene, men at vi har tatt vekk
-at kvadrattall fra det ene trekanttallet.</p>
+et kvadrattall fra det ene trekanttallet.</p>
 <ol start="2" type="a">
 <li><p>Ved å stirre hard kan vi se i første figur at hvis vi ikke
-trekker vell kvadratet, så får vi et rektangel med størrelse <span
+trekker vekk kvadratet, så får vi et rektangel med størrelse <span
 class="math inline">\(n+2\)</span> og <span
 class="math inline">\(n+1\)</span>. Kvadratet vi trekker fra ser vi at
 har størrelse <span class="math inline">\((n-1)^2\)</span>, som gir
@@ -88,6 +88,56 @@ class="math inline">\(+1\)</span> er økningen fra ledded <span
 class="math inline">\(n\)</span>. Dette gir oss også en enkel
 oversettelse til en figur, dette overlates til leseren!</li>
 </ol>
+<h4
+id="avansert-beskrive-oppbygningen-av-figurtall-alle-typer-08.05">Avansert:
+Beskrive oppbygningen av figurtall (alle typer), 08.05</h4>
+<p>Du får vite at et figurtall <span class="math inline">\(F_n\)</span>
+øker på følgende måte. <span class="math inline">\(F_1 = 2\)</span>,
+<span class="math inline">\(F_2 = 8\)</span>, <span
+class="math inline">\(F_3 = 16\)</span>, <span class="math inline">\(F_4
+= 26\)</span> og <span class="math inline">\(F_5 = 38\)</span>.</p>
+<p>Lag en figur som følger mønsteret til <span
+class="math inline">\(F_n\)</span>. Det er nok å illustrere <span
+class="math inline">\(F_1\)</span>, <span
+class="math inline">\(F_2\)</span> og <span
+class="math inline">\(F_3\)</span>, så lengde det får fram mønsteret.
+Vis og forklar sammenhengen mellom tallrekken og figurene rekursivt.
+Finn en eksplisitt formel på to forskjellige måter.</p>
+<h5 id="vuderingskriterier">Vuderingskriterier</h5>
+<p>Vi begynner med å analysere utviklingen av tallrekka. Vi ser at
+økningen er (6) så (8), så (10) og så (12). Tilleggene øker altså med
+(2). Dermed kan vi skrive <span class="math display">\[
+\begin{aligned}
+F_1 &amp; = 2
+\\
+F_2 &amp; = 2 + 2\cdot 2 + 2
+\\
+F_3 &amp; = 2 + 2\cdot 2 + 2 + 2\cdot 3 + 2
+\\
+\vdots
+\\
+F_n &amp; = 2 + (2\cdot 2 + 2) + (2\cdot 3 + 2) + \ldots + (2\cdot n +
+2).
+\end{aligned}
+\]</span></p>
+<p>Ved å justere første leddet i summen får vi <span
+class="math display">\[
+F_n = -2 + (2\cdot 1 + 2) + (2\cdot 2 + 2) + (2\cdot 3 + 2) + \ldots +
+(2\cdot n + 2).
+\]</span></p>
+<p>Denne kan vi nå enkelt skrive om til <span class="math display">\[
+\begin{aligned}
+F_n  
+&amp; =  -2 + 2(1+2+\ldots + n) + 2n
+\\
+&amp; = -2 + 2T_n + 2n
+\\
+&amp; = -2 + n(n+1) + 2n.
+\end{aligned}
+\]</span></p>
+<p>Vi kan nå bruke formelen til å trekke ut en måte å lage figuren. Vi
+ser at det er to trekanttall og to linjer med lengde (n), der det i
+tillegg er trukket vekk 2. (Figuren får man lage selv 😉).</p>
 <h4
 id="avansert-beskrive-oppbygningen-av-figurtall-alle-typer-28.04">Avansert:
 Beskrive oppbygningen av figurtall (alle typer), 28.04</h4>

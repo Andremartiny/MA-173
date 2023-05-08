@@ -1461,6 +1461,697 @@ $\frac{a^{3 + n} \cdot b^{\frac{2}{3}}}{(ab)^{\frac{n}{3}}}$
 | I | $\sqrt[m]{a^{n}} = {\sqrt[m]{a}}^{\ n}$   |
 +---+-------------------------------------------+
 
+
+## 08.05
+
+### Forklare hva et posisjonssystem er
+
+#### Grunnleggende
+
+Forklar kort hva et posisjonssystem er. Gi eksempler fra base ti, tre, to og elleve.
+
+##### Vurderingskriterier
+
+Må få frem ideen om at sifrenes posisjon avgjør verdien de står for, og at denne verdien avhenger av hvilken gruppering vi velger -- hvilken base eller grunntall vi har. Må også ha med eksempler.
+
+#### Middels
+
+1. Forklar kort hva et posisjonssystem er.
+2. Gjør om \(139_{ti}\) til base syv.
+3. $333_{fire}$ til base seks uten å regne ut i base ti først.
+
+##### Vurderingskriterier
+
+1. Som grunnleggende. 
+2. \(256_{syv}\) Det må gå frem hvordan omgjøringen er gjort.
+3. \(143_{seks}\) Det må gå frem hvordan omgjøringen er gjort. Feks slik: 
+
+$$
+\begin{aligned} 333_{fire}  &= 3 \cdot 4^2 + 3 \cdot 4+3 
+\\  &= 6\cdot 8 + 2 \cdot 6 + 3 
+\\ &= (6+4)\cdot 6+3 
+\\ &= 6^2 + 4 \cdot 6 + 3 
+\\ &= 143_{seks} \end{aligned}
+$$
+
+#### Avansert
+
+1. Gjør om  $543_{seks}$ til base tolv uten først å regne ut i base ti.
+2. Regn ut i den aktuelle basen:
+
+a. $\text{A}3_{tolv} \cdot 24_{tolv}$  
+
+b. $888_{ni} : \ 7_{ni}$
+
+##### Vurderingskriterier
+
+1. \(153_{tolv}\) Må vise omgjøring som i oppgave 3 middels. 
+2. a. \(1\text{BB}0_{tolv}\). b. \(125_{ni}\)
+
+### Beskrive situasjoner med hensyn til additive strukturer
+
+#### Grunnleggende
+
+1. Beskriv tre situasjoner som har addisjon som modell med henholdsvis økning, forening og additiv sammenlikning som struktur.
+
+2. Velg én av situasjonene over. Omformuler den slik at det er rimelig å si at den har samme struktur, men med subtraksjon som modell.
+
+##### Vurderingskriterier
+
+Additive strukturer s. 52 i Alfa.
+
+### Middels
+
+1. For hver situasjon under, lag to oppgaver med ulik additiv struktur, og begrunn hvilke strukturer de har. Blant de fire oppgavene må det være minst tre ulike strukturer. 
+
+a. Klinkekulesamlinga til André inneholder \(16\) klinkekuler mer enn Henriks samling, som inneholder \(324\) kuler. 
+
+b. Klinkekuler er kostbare. Henrik velger derfor, med tungt hjerte, å selge noen av enhjørning-klistremerkeene sine. Før salget av \(1400\) klistremerker, inneholdt den beskjedne samlinga \(3599\) klistremerker. 
+
+
+##### Vurderingskriterier
+
+Oppgavene må rimelig kunne sies å være eksempler på strukturene, og dette må begrunnes. Minst tre ulike strukturer totalt. 
+
+### Beskrive situasjoner med hensyn til multiplikative strukturer
+
+#### Grunnleggende
+
+1. Gjengi kort med et eksempel til hver, hva som menes med de to multiplikative strukturene like grupper og kombinatorisk situasjon.
+
+2. Gjengi kort med et eksempel til hver, hva som menes med de to typene divisjon delingsdivisjon og målingsdivisjon.
+
+##### Vurderingskriterier
+
+Multiplikative strukturer s. 58 i Alfa.
+
+#### Middels
+
+1. Avgjør og begrunn hvilken multiplikativ struktur situasjonene svarer til.
+
+a.  Prisen du betaler for parkering når satsen er \(22\) kr per time. 
+b.  Skolens ballbane er tre ganger lengre enn den er bred.
+c.  Antall liter yoghurt på et brett med \(12\) beger, når hvert beger inneholder $0.25$ liter.   
+
+2. Ta utgangspunkt i situasjon c. Legg til nødvendig informasjon, og omformuler på to måter: slik at du lager én divisjonsoppgave med målingsdivisjon og én med delingsdivisjon. Begrunn hvilken som er hva.  
+
+##### Vurderingskriterier
+
+Avgjørelsene må begrunnes kort. Andre avgjørelser enn forslagene under kan godtas dersom de er godt begrunnet.
+
+1. \
+a. rimelig å tolke som rate.
+b. rimelig å tolke som sammenlikning.
+c. er rimelig å tolke som like grupper.
+2. 
+
+- Målingsdivisjon: hvor mange ,25-litersflasker på 3 liter? 
+- Delingsdivisjon: hvor mye i hver flaske når 3 liter rekker til 12 flasker? 
+
+### Bruke regnestrategier og egenskaper ved regneoperasjonene
+
+#### Grunnleggende
+
+Gjengi kommutativ, assosiativ og distributiv egenskap for addisjon og multiplikasjon.
+
+##### Vurderingskriterier
+
+Gjengi egenskapene.
+
+#### Middels
+
+1. Bruk minst én av egenskapene (kommutativ, assosiativ, distributiv) til å regne $15 \cdot 2\frac{2}{5}$. Vis tydelig hvordan du tenker.
+
+2. Gjør beregningene under ved hjelp av regnestrategier som ikke innebærer oppstilt regning. Vis tydelig hvordan du tenker.
+a.  $52 - 61$
+b.  $96 : 6$
+c.  $180 \cdot \frac{4}{3}$
+
+##### Vurderingskriterier
+
+
+1. Må vise tydelig bruk av minst én av egenskapene.
+2. Må vise tydelig strategi. a. feks fast differanse: 51-60 eller 60-69. b. feks dele på tre (32), dele på to (16). c. feks dele 18 på tre (6); gange med fire (24), gange med ti (240).  
+
+#### Avansert
+
+1. Velg to passende multiplikasjoner. Illustrer og gi en kort forklaring av distributiv egenskap og kommutativ egenskap.
+
+2. Gjør beregningene under ved hjelp av regnestrategier som ikke innebærer oppstilt regning. Vis tydelig hvordan du tenker.
+
+a.  $73 - 54$
+b.  $96 : 6$
+
+3. Velg én av strategiene fra 2., og gi en illustrasjon og kort forklaring som viser at strategien alltid funker.
+
+
+
+##### Vurderingskriterier
+
+Få tydelig frem hva man har tenkt.
+
+1. Må velge eksempler som fungerer generisk, det vil si at de får frem at egenskapene gjelder generelt (for positive i alle fall).
+2. a. og b. Som oppgave 2 middels. 
+3. Må få frem at strategien er generell (heller ikke her trengs nødvendigvis noe algebra)
+
+### Forklare og gi eksempler på de ulike betydningen av brøk: del av hel/enhet, del av antall, tall og forhold
+
+#### Grunnleggende
+
+Forklar og gi eksempler på hva som menes med brøk som
+a. del av en hel eller del av en enhet
+b. del av et antall
+c. tall
+d. forhold
+
+##### Vurderingskriterier
+
+Må gi en kort forklaring. Alfa s. 96-101 og s. 109.
+
+#### Middels
+
+Forklar hvordan situasjonen under kan knyttes til hver av de fire betydningene av brøk. 
+
+- *Når man fyller bensin til totaktsmotorer, må man også tilsette en dæsj motorolje. Til 10 liter bensin trengs 2 desiliter olje. Du har nettopp fylt 17 liter bensin, og lurer på hvor mye olje du trenger.* 
+
+
+
+##### Vurderingskriterier
+
+Del av helhet: Vi kan tenke på bensinblandinga som en helhet, der motoroljen utgjør en del.  
+Del av antall: Kan tenke tilsvarende, bare tallfestet: Til et gitt *antall liter* utgjør oljen ...  
+Tall: Trenger å regne 2/100 av 17. 
+Forhold: Oljen blandes i etter et bestemt forhold: 2 % olje. 
+
+### Forklare hvordan de reelle tallene er bygd opp
+
+#### Grunnleggende: Forklare hva hele, rasjonale og irrasjonale tall er
+
+Gjengi kort hva som menes hele, rasjonale og irrasjonale tall.
+
+##### Vurderingskriterier
+
+Gjengi korrekt. Hele tall: ... -2, -1, 0, 1, 2,.... Rasjonale: brøk med heltallig teller og nevner. Irrasjonale: de som ikke er heltallige brøker.
+
+#### Middels: Forklare hvordan de reelle tallene er bygd opp av naturlige, hele, rasjonale og irrasjonale tall
+
+Forklar kort hva naturlige, hele, rasjonale og irrasjonale tall er, og vis med en illustrasjon hvordan disse til sammen utgjør de reelle tallene.
+
+##### Vurderingskriterier
+
+Som grunnleggende, men med presisering av naturlige også, samt et diagram eller liknende som får frem hvilke mengder som er delmengder av hvilke.
+
+### Utvide og forkorte brøker
+
+#### Grunnleggende: Utvide og forkorte brøker
+
+1. Finn den likeverdige brøken til \(\frac{2,1}{7}\) som har lavest mulig heltallig teller og nevner.
+
+2. Uten å gjøre om til desimaltall, finn en brøk som ligger mellom \(\frac{5}{6}\) og \(\frac{7}{8}\). 
+
+
+3. Forkort/utvid brøkene til firedeler.
+
+a. \(\frac{15}{6}\)
+
+b. \(\frac{2}{\frac{2}{3}}\)
+
+##### Vurderingskriterier
+
+1. 3/10
+2. Finner en brøk mellom de to, uten å gjøre om til desimaltall. 6/7 er nok enkleste valget: de to ligger hhv 1/6 og 1/8 fra 1. Siden 1/7 er mellom 1/6 og 1/8, er også 6/7 mellom 5/6 og 7/8.    
+3. a. 6/4 b. 12/4.
+
+#### Middels: Utvide og forkorte brøker, og forklare og illustrere hvorfor dette gir brøker av lik verdi  
+
+1. Hvilke brøker er likeverdige med $\frac{9}{36}$?
+
+a. $\frac{3}{6}$
+
+b. $\frac{1}{4}$
+
+c. $\frac{2 \frac{1}{4}}{9}$
+
+d. $\frac{9+2}{36+2}$
+
+2. Lag en illustrasjon som viser tydelig at $\frac{4}{5}$ og $\frac{12}{15}$ er likeverdige.  
+
+##### Vurderingskriterier
+
+1. b og c (må ha begrunnelse, det vil si passende utvidelse/forkorting av brøk).
+2. Eks. dele kvadrat i femdeler den ene veien, tredeler den andre. 
+
+### Utføre addisjon og subtraksjon med brøk
+
+#### Grunnleggende: Utføre addisjon og subtraksjon med brøk
+
+Regn ut.
+a. \(1\frac{2}{3} + \frac{7}{5}\)
+b. \(\frac{3}{5} - \frac{3}{4}\)
+
+##### Vurderingskriterier
+
+46/15, -3/20
+
+#### Middels: Utføre addisjon og subtraksjon med brøk, og forklare og illustrere hvorfor regnereglene gir mening
+
+Regn ut, og gi en forklaring med illustrasjon som viser at beregningen må være riktig.
+
+a. $\frac{1}{5} + \frac{3}{4}$
+b. $\frac{4}{5} - \frac{3}{10}$
+
+##### Vurderingskriterier
+
+19/20, 1/2. Illustrasjonen må vise utviding til felles nevner på en forståelig måte.
+
+### Utføre multiplikasjon med brøk
+
+#### Grunnleggende: Utføre multiplikasjon med brøk
+
+Regn ut.
+a. $\frac{1}{16} \cdot \frac{2}{7}$
+b. $ \frac{6}{13} \cdot 4\frac{1}{3}$
+
+##### Vurderingskriterier
+
+1/56, 2
+
+#### Middels: Utføre multiplikasjon med brøk, og forklare og illustrere hvorfor regnereglene gir mening
+
+1. Forklar ved hjelp av en passende illustrasjon at $3 \cdot \frac{2}{5} = \frac{2}{5} \cdot 3$.
+
+2. Forklar kort ved hjelp av en passende illustrasjon hvorfor vi multipliserer teller med teller og nevner med nevner for å finne produktet av to brøker.  
+
+##### Vurderingskriterier
+
+1. Må vise til struktur, ikke bare at «svarene» er like, slik som i
+eks under (feil tall, bare). Kvadratene er 1, grønn del 2/5. Figuren
+kan leses som *2/5 gjentatt tre ganger,* altså 3 ⋅ 2/5. Den kan også
+leses som *2/5 av tre,* altså 2/5 ⋅ 3.
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img//tal/24.04media/media/image1.png)
+
+1. Må vise til en figur som for eksempel den under (2/3 ⋅ 4/5):
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img//tal/24.04media/media/image2.png)
+
+### Utføre divisjon med brøk
+
+#### Grunnleggende: Utføre divisjon med brøk
+
+Regn ut.
+a. $2\frac{1}{5} : \frac{22}{3}$
+b. $\frac{3}{4} : \frac{3}{5}$
+
+##### Vurderingskriterier
+
+3/10, 5/4
+
+#### Middels: Vise ved hjelp av generisk eksempel hvorfor regneregelen for divisjon med brøk er som den er
+
+Vis ved hjelp av et generisk eksempel hvorfor divisjon med en brøk svarer til multiplikasjon med den omvendte brøken.
+
+##### Vurderingskriterier
+
+Må tolke en brøkdivisjon som brøk over brøk, og utvide. Oppgaven ber om *generisk eksempel.* Poenget er at strukturen må komme frem (som i algebraen under). Å dele på en stambrøk er ikke godt nok. Velger noen algebra, er det ok.
+$$\frac{a}{b}\ :\frac{c}{d} = \frac{\frac{a}{b}}{\frac{c}{d}} = \frac{\frac{a}{b} \cdot d/c}{\frac{c}{d} \cdot d/c} = \frac{a}{b} \cdot \frac{d}{c}$$
+
+#### Avansert: Forklare ved hjelp av kontekst (både målings- og delingsdivisjon) hvorfor regneregelen for divisjon med brøk gir mening
+
+Ta utgangspunkt i divisjonen $12 : \frac{3}{4}$. Lag to passende kontekster, og bruk dem til å vise at $12 : \frac{3}{4} = 12 \cdot \frac{4}{3}$.
+
+a. Den ene konteksten skal gi delingsdivisjon.
+
+b. Den andre konteksten skal gi målingsdivisjon.
+
+##### Vurderingskriterier
+
+a. Delingsdivisjon: 12 liter maling rekker til 3/4 vegg (like vegger), hvor mye maling trengs per vegg? Fordeler de 12 literne likt på de tre firedelene, som gir 12/3 liter per firedel. Ganger dette opp med fire for å få en hel vegg, altså $12\ :\frac{3}{4} = \frac{12}{3} \cdot 4 = 12 \cdot \frac{4}{3}$.
+b. Målingsdivisjon: Hvor mange tre-firedels-litere går det på tolv liter? Det går fire firedelslitere på én liter, så $12 \cdot 4$ firedeler på tolv liter. 3/4 liter er tre ganger så mye, så det går tredelen så mange, altså $12\ :\frac{3}{4} = \frac{12\  \cdot \ 4}{3} = 12 \cdot \frac{4}{3}$.
+
+### Utføre formell omforming av brøk
+
+#### Avansert: Utføre formell omforming av brøk
+
+Vis at uttrykket i a. har verdien 2/3, og uttrykket i b. verdien 0. 
+
+a. \((\frac{11}{3+\frac{2}{3}}\cdot \frac{1}{6}) : \frac{3}{4}\)
+
+b. $\frac{(4 \ : \frac{6}{5})\cdot (-\frac{21}{20})}{1+\frac{2}{\frac{3}{2}}}+\frac{3}{2}$
+
+##### Vurderingskriterier
+
+Vise ved omforming. 
+
+### Forklare begrepet og regne med desimaltall
+
+#### Grunnleggende: Beskrive desimaltall med hensyn til posisjonssystemet og brøkbegrepet
+
+Forklar hva $1\ 304,302$ betyr. Forklaringa må støtte seg på brøkbegrepet og hvordan posisjonssystemet er bygd opp.
+
+##### Vurderingskriterier
+
+Må peke på posisjonssystemet: \*10 til venstre,
+        :10 til høyre. Gir tideler, hundredeler og så videre. Dette
+        siste gir at desimaltall er brøker der nevner er tierpotenser.
+
+#### Middels: Forklare hvordan man kan regne med desimaltall med hensyn til posisjonssystemet og brøkbegrepet
+
+1. Regn ut, og vis tydelig at beregningen er riktig: \(0.07 + 0.444 \)
+
+2. Divisjonen $2.8 : 0.07$ kan gjøres ved å regne $28 : 7$, for deretter å flytte desimalkommaet til riktig plass. Forklar hvordan og hvorfor.
+
+##### Vurderingskriterier
+
+1. Må vise med henvisning til posisjonssyetemet (ti av en enhet er en av enheten til venstre) og/eller omgjøring til brøk. 0.07 betyr 7/100, og 0.444 er 444/1000, ev. 4/10 + 4/100 + 4/1000. 
+
+2. Justeringen fra 2,8 : 0,07 til 36 : 12 er $\frac{2,8}{0,07} \rightarrow \frac{2,8 \cdot 10}{0,07 \cdot 100} = \frac{2,8}{0,07} \cdot \frac{1}{10}$. Svaret vi får er altså en tidel av det vi skal ha, så vi må gange opp med ti (flytte desimaltegnet én plass til høyre).
+
+### Gjøre om mellom brøk og desimaltall
+
+#### Grunnleggende: Forklare og gi eksempler på de tre typene desimaltall, og gjengi hvilke brøker som svarer til endelige og hvilke som svarer til periodiske desimaltall
+
+Forklar og gi eksempler på hva som menes med endelig desimaltall, periodisk desimaltall og uendelig ikke-periodisk desimaltall.
+
+##### Vurderingskriterier
+
+Må gi passende eksempler og kort, riktig forklaring. *Endelige* desimaltall har en endelig desimalutvikling; de er et endelig antall ti-, hundre-, tusendeler og så videre. (Eventuelt, er brøkene der nevner kan utvides til tierpotens). *Periodiske* er uendelige, med siffersekvenser som gjentas i det uendelige (brøkene som maksimalt forkorta har nevner med andre primfaktorer enn to og fem). *Ikke*-*periodiske*, uendelige desimaltall er de irrasjonale tallene (kan ha uendelig med desimaler uten mønster, eller med mønster, bare ikke periodisk, for eksempel 0,01001000100001 ...).
+
+#### Middels: Gjøre om mellom brøk og desimaltall med endelig desimalutvikling
+
+1. Gjør om til brøk.
+
+a. $1,30$
+
+b. $0,002$
+
+c. $0,2001$
+
+2. Gjør om til desimaltall.
+
+a. $\frac{9}{15}$
+
+b. $\frac{35}{14}$
+
+c. $\frac{9}{20}$
+
+##### Vurderingskriterier
+
+1. \
+a. 13/10,
+b. 2/1000,
+c. 2001/10 000
+
+2. \
+a. 0,6
+b. 2,5
+c. 0,45
+
+#### Avansert: Gjøre om mellom brøk og desimaltall med periodisk desimalutvikling
+
+1. Gjør om til brøk.
+a. $0,\overline{34}$
+b. $0,021\overline{103}$
+2. Gjør om til desimaltall.
+a. $\frac{5}{7}$
+b. $\frac{11}{6}$
+
+##### Vurderingskriterier
+
+1. \
+a.
+$$
+\begin{aligned}
+100x &
+= 34,343434\ldots
+\\
+-x
+& = 0,343434\ldots
+\\
+\Rightarrow 99x
+& = 34
+\\
+x
+&= 34/99
+\end{aligned}$$
+
+b.
+$$
+\begin{aligned}
+1\ 000\ 000x &
+= 21\ 103,103103\ldots
+\\
+-1000x &
+= 21,103103\ldots
+\\
+999\ 000x
+& = 21\ 082
+\\
+x
+& = \frac{21\ 082}{999\ 000}
+\end{aligned}
+$$
+2. Må vise utregning.
+
+a.  $0,\overline{714285}$
+
+b. $1,8\overline{3}$
+
+### Begrunne hvilke brøker som svarer til endelige og hvilke som svarer til periodiske desimaltall
+
+#### Middels: Avgjøre og begrunne (uten å utføre divisjon) om en gitt brøk er endelig eller periodisk
+
+Avgjør og begrunn om brøkene er endelige eller periodiske, uten å utføre divisjon.
+a. $\frac{99}{66}$
+
+b. $\frac{17}{25}$
+
+c. $\frac{10}{35}$
+
+d. $\frac{18}{30}$
+
+##### Vurderingskriterier
+
+a. Felles faktor 33 i teller og nevner gir 3/2 = 1,5.
+b. 25 er faktor i hundre; brøken er endelig.
+c. 35 har faktoren 7; siden teller ikke har det, er brøken periodisk.
+d. $\frac{18}{30} = \frac{6}{10}$ som er endelig.
+
+#### Avansert: Begrunne hvilke brøker som svarer til endelige og hvilke som svarer til periodiske desimaltall
+
+1. Begrunn påstanden: En brøk svarer til et endelig desimaltall bare dersom den maksimalt forkorta kun har primfaktorene 2 og 5 i nevner.
+
+2. Begrunn hvorfor resten av brøkene gir periodiske desimaltall.
+
+##### Vurderingskriterier
+
+a.  Må vise til at desimaltall er brøker med tierpotenser til nevner. Siden eneste primfaktorer i 10 er 2 og 5, må den maksimalt forkorta brøken ha nevner uten andre primfaktorer enn disse.
+b. Begrunnes ved hjelp av eksempel: Tolke for eksempel 3/7 som divisjonen 3 : 7, og utføre den vanlige algoritmen. Divisjon med 7 kan bare gi restene 0, 1, ..., 6 (i vårt tilfelle ikke 0, for divisjonen går ikke opp). Det gir at høyeste antall mulige steg i divisjonsalgoritmen før vi får en rest vi har hatt tidligere, er seks. Dermed havner vi i en  «periode-loop».
+
+### Utføre og begrunne prosentregning
+
+#### Grunnleggende: Finne prosentdel av et tall, uttrykke tall som prosentdel av et hele, og finne det hele når del og prosentdel er gitt
+
+1. Finn $35 \ \%$ av $180$ på to måter.
+
+2. En gruppe mennesker ble spurt om hva de vanligvis spiser til middag på fredager. 36 av dem svarte taco. Utvalget var *åpenbart* ikke representativt, da andelen tacospisere var pinlige \(4 \ \% \) av de spurte. Hvor mange mennesker bestod hele utvalget av? (Du kan ikke stjele løsningen fra oppgave 2 under avansert.)
+
+3. På en test svarte André rett på $17$ av $20$ spørsmål. Hvor mange prosent rett hadde han? 
+
+##### Vurderingskriterier
+
+1. 3*18 + 1/2 * 18. 35 + 4/5 av 35. Veien om 1 ...
+2. 36 * 25 (ev 36/4 * 100)
+3. 17 * 5 eller 17/20 = 8,5/10 = 85 %. 
+
+#### Middels: Utføre og begrunne beregningene over
+
+1. Forklar kort to strategier for å finne $35 \ \%$ av $180$. Forklaringene må vise tydelig at strategiene er riktige.
+
+2. Problemstillingen under har løsningen \(36:0.04\). Forklar og begrunn. 
+   
+*En gruppe mennesker ble spurt om hva de vanligvis spiser til middag på fredager. 36 av dem svarte taco. Utvalget var *åpenbart* ikke representativt, da andelen tacospisere var pinlige \(4 \ \% \) av de spurte. Hvor mange mennesker bestod hele utvalget av?* 
+
+
+
+##### Vurderingskriterier
+ 
+ 
+1. Som grunnleggende, bare med god forklaring.
+2. En mulighet: 36/4 gir 1 %. 36/4 * 100 gir 100 %. Dette er det samme som 36 * 100/4, som er det samme som 36 : 4/100. En annen: 0.04x = 36 -> x = 36/0.04
+
+### Løse (ukjente) problemer knyttet til brøk, prosent (og desimaltall).
+
+#### Avansert: Løse (ukjente) problemer knyttet til brøk, prosent (og desimaltall).
+
+To vannkraner står over en tank. Den ene krana bruker alene tre timer på å fylle tanken. Den andre bruker to. Hvor lang tid tar det å fylle tanken om du fyller den med begge kranene samtidig?   
+
+##### Vurderingskriterier
+ 
+
+På én time er 1/2 + 1/3 = 5/6 av tanken fylt. FEM seksdeler tar altså én time. Den siste seksdelen tar da en femdel av en time, dvs 12 min. Tanken er fylt etter 1 time og 12 minutter. 
+
+
+### Utføre addisjon og subtraksjon med negative tall.
+
+#### Grunnleggende: Utføre addisjon og subtraksjon med negative tall. 
+
+Regn ut
+a. $-25+(-12)$ 
+
+b. $21-(-2+4)$
+
+c. $170-(-2-(-3))$
+
+d. $(-3)-(-14)-(9-(-2))$
+
+
+##### Vurderingskriterier
+Regne riktig, og vise utregning. Ingen krav om begrunnelser. 
+
+#### Middels: Vise hvorfor regnereglene for negative tall gir mening. 
+Forklar og illustrer på ei tallinje hvorfor det gir mening at å subtrahere et negativt tall er det samme som å addere et positivt. 
+
+
+##### Vurderingskriterier
+Tolke subtraksjon som å stable piler etterhverandre: $a-b$ kan forstås som å plassere $b$ der $a$ slutter i motsatt av det $b$'s opprinnelige retning.  
+
+
+### Utføre multiplikasjon og divisjon med negative tall.
+
+#### Grunnleggende: Utføre multiplikasjon og divisjon med negative tall. 
+
+Regn ut
+
+a. $-3\cdot(7-10)$
+
+b. $4\cdot(-6)$
+
+c. $-9\cdot(-6+\frac{2}{3})$
+
+d. $(-3\ :(-\frac{12}{5}))\cdot(1-3)$
+
+##### Vurderingskriterier
+Regne riktig, og vise utregning. Ingen krav til begrunnelser. 
+
+#### Middels: Vise hvorfor regnereglene for multiplikasjon og divisjon med negative tall gir mening. 
+
+Forklar og illustrer på ei tallinje hvorfor det gir mening at produktet av et positivt og et negativt tall er negativt, og at produktet av to negative er positivt. 
+
+##### Vurderingskriterier
+Piler på tallinja. $a\cdot b$ kan tolkes som $a$ kopier av $b$. Dersom $a$ er negativ, får vi negative kopier; det vil si $b$ kopiert i motsatt av sin opprinnelige retning. 
+
+
+### Gjengi betydningen av potensuttrykk, og regne med potenser.
+
+#### Grunnleggende: Gjengi hva potensuttrykk betyr når eksponenten er et naturlig tall (tre tilfeller: eksponent >1, eksponent =1 og eksponent =0), når den er et negativt tall og når den er en brøk. 
+
+Forklar kort hva potensuttrykkene betyr. 
+
+a. $a^n$ for $n>1$
+
+b. $a^1$
+
+c. $a^0$
+
+d. $a^{-n}$
+
+e. $a^{\frac{n}{m}}$
+
+##### Vurderingskriterier
+
+a. produktet av $n$ $a$-er. 
+b. $a$
+c. $1$ 
+d. $\frac{1}{a^n}$ 
+e. $\sqrt[m]{a}^n$ 
+
+#### Middels: Regne med potenser med heltallige (som inkluderer naturlige) eksponenter, og begrunne beregningene ved hjelp av potensreglene.
+
+1. Skriv som potens der eksponenten er 2.
+
+a. $0.0625$
+
+b. $0.444...$
+
+2. Forkort uttrykkene så langt mulig. Vis tydelig hvilke potensregler du bruker. 
+
+a. \(2^3 \cdot 3^{-6} \cdot \big(\frac{3}{2}\big)^3 \cdot 6^3 \)
+
+b. \(9^3 \cdot 2^{-12} \cdot \frac{\big((12)^2\big)^3 \ \cdot \ 3^{-6}}{3^5}\)
+
+
+##### Vurderingskriterier
+
+1a \((\frac{1}{4})^{2}\)
+1b \((\frac{2}{3})^{2}\)
+2a $8$
+2b $3$
+
+
+#### Avansert: Regne med potenser med rasjonale (som inkluderer heltallige) eksponenter, og begrunne beregningene ved hjelp av potensreglene.
+
+1. Regn ut
+
+a. \(32^{\frac{2}{5}}\)
+
+b. $18\cdot 81^{-\frac{3}{4}}$
+
+2. Forkort så langt mulig
+
+$$
+\big(2^{-8}\big)^{\frac{3}{4}} \cdot \Big(\frac{3}{2}\Big)^{-3} \cdot \sqrt[3]{27} \cdot \dfrac{1}{(\sqrt{3\cdot 2^2})^{-3}}
+$$ 
+
+3. Finn tallet uttrykket under må ganges med for å få \(2\).
+
+$$
+\Big(\frac{1}{2^3}\Big)^{-\frac{3}{2}}
+$$
+
+
+##### Vurderingskriterier
+
+1. 
+a. \(4\)
+b. \(\frac{2}{3}\)
+2. \(3^{-\frac{1}{2}} = \frac{1}{\sqrt{3}}\)
+3. \(2^{-\frac{7}{2}} = \frac{1}{{\sqrt{2}}^7}\) 
+
+### Utlede potensreglene.
+
+#### Middels: Utlede potensreglene for heltallige eksponenter.
+
+Ta utgangspunkt i definisjonen $a^n \stackrel{\text{def}}{=} a\cdot a\cdot ...\cdot a$ for $n>1$ faktorer, alle lik $a$, og utled potenssammenhengene. (Du kan bruke talleksempler så lenge de fungerer som generiske eksempler.)  
+
+a. $a^n\cdot a^m=a^{n+m}$
+
+b. $(a^n)^m=a^{nm}$ 
+
+c. $\frac{a^n}{a^m}=a^{n-m}$ for alle heltallige $n$ og $m$. 
+
+
+
+##### Vurderingskriterier
+
+Studenten må argumentere for sammenhengene ved å bruke definisjonen. Se Alfa 3.3 
+
+#### Avansert: Utlede potensreglene rasjonale (som inkluderer heltallige) eksponenter.
+
+Ta utgangspunkt i definisjonen $a^n \stackrel{\text{def}}{=} a\cdot a\cdot ...\cdot a$ for $n>1$ faktorer, alle lik $a$, og utled potenssammenhengene. (Du kan bruke talleksempler så lenge de fungerer som generiske eksempler.)  
+
+a. $\frac{a^n}{a^m}=a^{n-m}$ for alle heltallige $n$ og $m$. 
+
+b. $a^{\frac{1}{m}}=\sqrt[m]{a}$
+
+c. $a^{\frac{n}{m}}=\sqrt[m]{a}^n$
+
+
+##### Vurderingskriterier
+
+
+Studenten må argumentere for sammenhengene ved å bruke definisjonen. Se Alfa 3.3 
+
+
 ## 24.04
 
 ### Forklare hva et posisjonssystem er

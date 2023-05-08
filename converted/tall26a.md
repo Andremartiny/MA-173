@@ -1,15 +1,29 @@
+#### Avansert: Gjengi betydningen av potensuttrykk, og regne med potenser.,  08.05
 
-#### Avansert: Forklare hva et posisjonssystem er, og regne med tall uttrykt i posisjonssystem med ulike baser,  31.03.23
+1. Regn ut
 
-1. Gjør om $112_{fire}$ til base fem.
+a. \(32^{\frac{2}{5}}\)
 
-2. Regn ut i den aktuelle basen:
+b. $18\cdot 81^{-\frac{3}{4}}$
 
-   a. $2212_{tre} : 21_{tre}$
+2. Forkort så langt mulig
 
-   b. $43_{fem} \cdot 23_{fem}$
+$$
+\big(2^{-8}\big)^{\frac{3}{4}} \cdot \Big(\frac{3}{2}\Big)^{-3} \cdot \sqrt[3]{27} \cdot \dfrac{1}{(\sqrt{3\cdot 2^2})^{-3}}
+$$ 
+
+3. Finn tallet uttrykket under må ganges med for å få \(2\).
+
+$$
+\Big(\frac{1}{2^3}\Big)^{-\frac{3}{2}}
+$$
+
 
 ##### Vurderingskriterier
 
-Som over + beregninger. Disse må være ført i den aktuelle basen.
+1. 
+a. \(4\)
+b. \(\frac{2}{3}\)
+2. \(3^{-\frac{1}{2}} = \frac{1}{\sqrt{3}}\)
+3. \(2^{-\frac{7}{2}} = \frac{1}{{\sqrt{2}}^7}\) 
 

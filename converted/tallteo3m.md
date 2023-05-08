@@ -18,6 +18,15 @@
 6. Begrunn delelighetsregelen for tall som er delelig med 9. Du må gi
     både en formell og en grunnskoletilpasset begrunnelse.
 
+#### Middels: Begrunne delelighetsreglene for tall som er delelig med 2, 3, 4, 5, 6 og 9,  08.05
+
+Gi en formell begrunnelse for delelighetsregelen for tall som er delelig med 5.
+Gi en grunnskoletilpasset begrunnelse for delelighetsregelen for tall som er delelig med 3.
+
+##### Vurderingskriterier
+
+Se tidligere kriterier.
+
 #### Middels: Begrunne delelighetsreglene for tall som er delelig med 2, 3, 4, 5, 6 og 9,  28.04
 
 Gi en formell begrunnelse for delelighetsregelen for tall som er delelig med 5.

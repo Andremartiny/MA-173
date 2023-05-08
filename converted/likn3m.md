@@ -6,6 +6,33 @@
 
     b.  3.64 Løs på så mange måter du greier.
 
+#### Middels: Løse lineære likningssett med to ukjente på ulike måter,  08.05
+
+Denne oppgaven ble gitt på ungdomstrinnet. 
+
+På en sjø er det 31 båter. I noen båter sitter det to personer og i noen båter sitter det tre personer. Det sitter til sammen 69 personer i de 31 båtene. Bestem hvor mange båter det sitter to personer i og hvor mange det sitter tre personer i.
+
+a. Vis hvordan elever kan, uten bruk av likninger kan løse oppgaven.
+
+b. Bruk informasjonen til å lage et likningssett pg
+   1. Løs oppgaven ved hjelp av innsettingsmetoden.
+   2. Løs oppgaven ved hjelp av addisjonsmetoden.
+
+#### Vurderingskriterier middels:  08.05
+
+Begge oppgavene må gjøres
+
+1. Her må de gjøre noe annet enn bruk av likninger. For eksempel gjett og sjekk eller logisk resonnement. 
+2. Her må likningssettet  
+$$
+\begin{aligned}
+x+y & = 31
+\\
+2x + 3y & = 69,
+\end{aligned}
+$$
+der $x$ er antall båter med to personer og $y$ er antall båter med tre personer settes opp og løses med de to utvalgte teknikkene.
+
 #### Middels: Løse lineære likningssett med to ukjente på ulike måter,  24.04
 
 Henrik befinner seg i Retnym, der myntenheten heter Renork (ren), og myntene bare finnes i valørene 3 og 5 ren. Her har han handlet et verdifullt eksemplar av Euklids Elementer. Han betalte med 17 mynter til en verdi av 69 ren. Hvor mange mynter av hver valør betalte Henrik for boka?

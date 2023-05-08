@@ -6,6 +6,12 @@
     ordforklaringer og illustrasjoner.
 3. Forklar og gi eksempler på hva *primtall* og *sammensatt tall* er.
 
+#### Grunnleggende: Bruke begrepene naturlig tall, partall og oddetall, primtall og sammensatt tall,  08.05
+
+1. Forklar og gi eksempler på hva partall og oddetall er.
+2. Forklar og gi eksempler på hva primtall og sammensatt tall er.
+3. Besvarelsen må inneholde både algebraiske definisjoner, ordforklaringer og illustrasjoner.
+
 #### Grunnleggende: Bruke begrepene naturlig tall, partall og oddetall, primtall og sammensatt tall,  28.04
 
 Forklar og gi eksempler på hva partall og oddetall er.

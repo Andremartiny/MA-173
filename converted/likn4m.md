@@ -15,6 +15,17 @@
     lages slik at du selv hvordan de kan løses og hva løsningene er.
 
 
+#### Middels: Løse kvadratiske likninger ved hjelp av fullstendige kvadraters metode,  08.05
+
+1. Løs likningen $4x^2 + 4x = {15}$ med fullstendige kvadraters metode.
+
+2. Løs likningen $\frac{2}{3}x^2 - \frac{1}{3}x  = \frac{1}{8}$ med fullstendige kvadraters metode.
+
+#### Vurderingskriterier middels:  08.05
+
+Begge likningene må løses med korrekt teknikk.
+
+
 #### Middels: Løse kvadratiske likninger ved hjelp av fullstendige kvadraters metode,  24.04
 
 Se 03.02.23

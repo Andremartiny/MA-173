@@ -33,6 +33,18 @@ $$
 0,000943\ :0,0023 = \frac{943 \cdot 10^{6}}{23 \cdot 10^{4}} = \frac{943}{23} \cdot \frac{1}{100} = \frac{41}{100} = 0,41
 $$
 
+#### Middels: Forklare begrepet og regne med desimaltall,  08.05
+
+1. Regn ut, og vis tydelig at beregningen er riktig: \(0.07 + 0.444 \)
+
+2. Divisjonen $2.8 : 0.07$ kan gjøres ved å regne $28 : 7$, for deretter å flytte desimalkommaet til riktig plass. Forklar hvordan og hvorfor.
+
+##### Vurderingskriterier
+
+1. Må vise med henvisning til posisjonssyetemet (ti av en enhet er en av enheten til venstre) og/eller omgjøring til brøk. 0.07 betyr 7/100, og 0.444 er 444/1000, ev. 4/10 + 4/100 + 4/1000. 
+
+2. Justeringen fra 2,8 : 0,07 til 36 : 12 er $\frac{2,8}{0,07} \rightarrow \frac{2,8 \cdot 10}{0,07 \cdot 100} = \frac{2,8}{0,07} \cdot \frac{1}{10}$. Svaret vi får er altså en tidel av det vi skal ha, så vi må gange opp med ti (flytte desimaltegnet én plass til høyre).
+
 #### Middels: Forklare begrepet og regne med desimaltall,  24.04
 
 1. Det er fort gjort å gjøre denne feilen når man regner med desimaltall: $0,3 \cdot 0,2 = 0,6$. Forklar ved hjelp av posisjonssystemet og/eller brøkbegrepet hvorfor dette er feil.

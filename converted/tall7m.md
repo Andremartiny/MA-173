@@ -21,6 +21,26 @@ kaka.
 height="2.2843307086614173in"}
 
 
+#### Middels: Utvide og forkorte brøker,  08.05
+
+1. Hvilke brøker er likeverdige med $\frac{9}{36}$?
+
+a. $\frac{3}{6}$
+
+b. $\frac{1}{4}$
+
+c. $\frac{2 \frac{1}{4}}{9}$
+
+d. $\frac{9+2}{36+2}$
+
+2. Lag en illustrasjon som viser tydelig at $\frac{4}{5}$ og $\frac{12}{15}$ er likeverdige.  
+
+##### Vurderingskriterier
+
+1. b og c (må ha begrunnelse, det vil si passende utvidelse/forkorting av brøk).
+2. Eks. dele kvadrat i femdeler den ene veien, tredeler den andre. 
+
+
 #### Middels: Utvide og forkorte brøker,  24.04
 
 1. Hvilke brøker er likeverdige med $\frac{2}{5}$?

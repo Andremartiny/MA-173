@@ -1,10 +1,8 @@
-#### Middels: Forklare hva et posisjonssystem er, og regne med tall uttrykt i posisjonssystem med ulike baser,  31.03.23
+#### Middels: Utføre addisjon og subtraksjon med negative tall.,  08.05
+Forklar og illustrer på ei tallinje hvorfor det gir mening at å subtrahere et negativt tall er det samme som å addere et positivt. 
 
-1. Forklar kort hva et posisjonssystem er.
-
-2. Gjør om $112_{ti}$ til base tre, $1001010_{to}$ til base ti, og $112_{tre}$ til base fem.
 
 ##### Vurderingskriterier
+Tolke subtraksjon som å stable piler etterhverandre: $a-b$ kan forstås som å plassere $b$ der $a$ slutter i motsatt av det $b$'s opprinnelige retning.  
 
-Som over + omgjøringene. Det må gå frem hvordan omgjøringene er gjort.
 

@@ -14,6 +14,16 @@
 1. Hvis vi fokuserer på antall oddetall i summen, ser vi at det er $1, 3, 5, 7$ og $9$. Vi kan enten legge de til eller trekke de fra i summen vår. Siden vi har et oddetall antall oddetall. Det betyr også at vi enten vil legge til et oddetall antall oddetall, eller trekke fra et oddetall antall oddetall. Vi kan anta at vi legger de til (for hvis summen ble 0 etter vi la til + og -, så ville vi fortsatt fått 0 i sum dersom vi byttet om alle +'ene med -'er og motsatt). Siden vi legger til et oddetall antall oddetall i tillegg til noen partall vil vi til slutt ende opp med å ha lagt til et oddetall. Ser vi på hva vi trekker fra, ser vi at vi trekker fra et partall antall oddetall i tillegg til noen partall. Det betyr at vi trekker fra et partall. Vi må altså ha at vi legger til et oddetall og trekker fra et partall. Dette kan åpenbart ikke bli 0. Uten å undersøke noen mønstre veldig nøye, kan vi allerede nå konkludere med at hvis vi har et oddetall antall oddetall og en tilsvarende situasjon, så vil vi aldri kunne lage en sum som blir 0. (Videre undersøking for flere mønstre får dere gjøre selv 😉)
 
 
+#### Avansert: Bruke begrepene naturlig tall, partall og oddetall, primtall og sammensatt tall,  08.05
+
+Alle naturlige tall kan beskrives relativ til et tall i fire-gangen. Noen tall er i fire-gangen (\(4, 8,\ldots, 4n,\ldots\)), noen er én mer enn et tall i fire-gangen (\(1, 5, 9, \ldots, 4n +1, \ldots\)), noen er to mer enn tall i fire-gangen (\(2, 6, 10, \ldots, 4n+2, \ldots\)) og resten er tre mer enn tall i firegangen. Forklar hvorfor alle primtall bortsett fra \(2\) er enten én mer eller én mindre enn noe i firegangen
+
+
+##### Vurderingskriterier
+
+Se 03.02
+
+
 #### Avansert: Bruke begrepene naturlig tall, partall og oddetall, primtall og sammensatt tall,  28.04
 
 Alle naturlige tall kan beskrives relativ til et tall i tre-gangen. Noen tall er i tre-gangen ($3, 6, 9, \ldots, 3n, \ldots$), noen er én mer enn et tall i tre-gangen ($1, 4, 7, \ldots, 3n +1, \ldots$), resten er to mer enn tall i tre-gangen ($2, 5, 8, \ldots, 3n+2, \ldots $). Forklar hvorfor alle kvadrattall enten er i tre-gangen eller én mer enn et tall i tre-gangen. (Merk: Kvadrattallene er alle tallene på formen $n^2$)

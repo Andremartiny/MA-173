@@ -10,6 +10,17 @@ i tillegg
 $P(\left\{ u_{1},u_{2},u_{3}\} \right) = 1 = P\left( u_{1} \right) + P\left( u_{2} \right) + P\left( u_{3} \right) = P(u_{3})+0.5$
 får vi at $P\left( u_{3} \right) = 0.5$.
 
+#### Middels: Forklare og bruke begrepene utfallsrom, utfall og hendelse og sannsynlighetsmodell,  08.05
+
+1. Hva er galt med denne sannsynlighetsmodellen? \(U = \{u_1, u_2, u_3\} \), \(P(u_1) = 0,5\), \(P(u_2) = 0,4\) og \(P(\{u_1, u_2\}) = 0.2\)?
+
+2. La et forsøk ha et utfallsrom \(U = { u_1, u_2, u_3, u_4} \), slik at \(P(\{u_1,u_3\}) = 0.6\) og \(P(\{u_2, u_3\}) = 0.7\). Kan \(P(u_3) =  0.1\)?
+
+##### Vurderingskriterier
+
+1. Studenten må peke på at det kun er en sannsynlighetsmodell hvis \(0. 2 = P(\{u_1, u_2\}) = P(u_1) + P(u_2) = 0.5+0.4\), men \(0.2\) er jo ikke lik \(0.9\).
+2. Siden \(1.3 = 0.6+0.7 = P(\{u_1,u_3\}) + P(\{u_2,u_3\}) = P(u_1)+P(u_2)+2P(u_3)\), ser vi at hvis \(P(u_3) = 0.1\) så vil \(1.1 = 1.2-P(u_3) = P(u_1)+P(u_2)+2P(u_3)\). Dette gir ingen mening siden \(P(u_1)+P(u_2)+2P(u_3)\) ikke kan være større enn \(1\) samtidig som det vil være lik sannsynligheten for tre enkelutufall i utfallsrommet. Noe som gir en motsigelse.
+
 #### Middels: Forklare og bruke begrepene utfallsrom, utfall og hendelse og sannsynlighetsmodell,  28.04.23
 
 1. Hva er galt med denne sannsynlighetsmodellen? \(U = \{u_1, u_2, u_3\} \), \(P(u_1) = 0,5\), \(P(u_2) = 0,4\) og \(P(u_3) = 0.2\)?

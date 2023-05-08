@@ -53,6 +53,29 @@
 
    g. Like grupper: målingsdivisjon.
 
+#### Middels: Beskrive situasjoner med hensyn til multiplikative strukturer,  08.05
+
+1. Avgjør og begrunn hvilken multiplikativ struktur situasjonene svarer til.
+
+a.  Prisen du betaler for parkering når satsen er \(22\) kr per time. 
+b.  Skolens ballbane er tre ganger lengre enn den er bred.
+c.  Antall liter yoghurt på et brett med \(12\) beger, når hvert beger inneholder $0.25$ liter.   
+
+2. Ta utgangspunkt i situasjon c. Legg til nødvendig informasjon, og omformuler på to måter: slik at du lager én divisjonsoppgave med målingsdivisjon og én med delingsdivisjon. Begrunn hvilken som er hva.  
+
+##### Vurderingskriterier
+
+Avgjørelsene må begrunnes kort. Andre avgjørelser enn forslagene under kan godtas dersom de er godt begrunnet.
+
+1. \
+a. rimelig å tolke som rate.
+b. rimelig å tolke som sammenlikning.
+c. er rimelig å tolke som like grupper.
+2. 
+
+- Målingsdivisjon: hvor mange ,25-litersflasker på 3 liter? 
+- Delingsdivisjon: hvor mye i hver flaske når 3 liter rekker til 12 flasker? 
+
 
 #### Middels: Beskrive situasjoner med hensyn til multiplikative strukturer,  24.04
 

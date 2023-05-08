@@ -32,6 +32,24 @@ maksimalt forkorta nevneren, at brøken svarer til et endelig
 desimaltall. _Alle andre faktorer_ i den maksimalt forkorta nevneren,
 gir _ikke_ endelig desimaltall.
 
+#### Middels: Begrunne hvilke brøker som svarer til endelige og hvilke som svarer til periodiske desimaltall,  08.05
+
+Avgjør og begrunn om brøkene er endelige eller periodiske, uten å utføre divisjon.
+a. $\frac{99}{66}$
+
+b. $\frac{17}{25}$
+
+c. $\frac{10}{35}$
+
+d. $\frac{18}{30}$
+
+##### Vurderingskriterier
+
+a. Felles faktor 33 i teller og nevner gir 3/2 = 1,5.
+b. 25 er faktor i hundre; brøken er endelig.
+c. 35 har faktoren 7; siden teller ikke har det, er brøken periodisk.
+d. $\frac{18}{30} = \frac{6}{10}$ som er endelig.
+
 #### Middels: Begrunne hvilke brøker som svarer til endelige og hvilke som svarer til periodiske desimaltall,  24.04
 
 Avgjør og begrunn om brøkene er endelige eller periodiske, uten å utføre divisjon.

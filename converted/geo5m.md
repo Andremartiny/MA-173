@@ -8,6 +8,11 @@
 Vi vet at $A = \frac{(a+b)h}{2}$. Skalerer vi opp trapeset og bevarer formen får vi at trapeset har areal $\frac{(\frac{5}{2}a + \frac{5}{2}b)\frac{5}{2}h}{2} = \frac{25}{4}\frac{(a+b)h}{2}=\frac{25}{2}A$.
 
 
+#### Middels: Bruke formler for størrelser av figurer til å utforske geometriske sammenhenger,  08.05
+
+Se 17.02
+
+
 #### Middels: Bruke formler for størrelser av figurer til å utforske geometriske sammenhenger,  28.04.23
 
 Du har en sirkel med radius $r$. Hvis radius økes med $x$. Vis algebraisk hvor mye lengre omkretsen til den nye sirkelen har blitt.

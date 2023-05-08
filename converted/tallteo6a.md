@@ -35,9 +35,9 @@ Der gul og grønn illustrerer trekanttallene og røde sirkler er det som skal tr
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-25-12-58-27.png)
 
-Der gul og grønn illustrerer trekanttallene, men at vi har tatt vekk at kvadrattall fra det ene trekanttallet.
+Der gul og grønn illustrerer trekanttallene, men at vi har tatt vekk et kvadrattall fra det ene trekanttallet.
 
-b. Ved å stirre hard kan vi se i første figur at hvis vi ikke trekker vell kvadratet, så får vi et rektangel med størrelse $n+2$ og $n+1$. Kvadratet vi trekker fra ser vi at har størrelse $(n-1)^2$, som gir uttrykket $(n+2)(n+1)-(n-1)^2$.
+b. Ved å stirre hard kan vi se i første figur at hvis vi ikke trekker vekk kvadratet, så får vi et rektangel med størrelse $n+2$ og $n+1$. Kvadratet vi trekker fra ser vi at har størrelse $(n-1)^2$, som gir uttrykket $(n+2)(n+1)-(n-1)^2$.
 
 c. Her må vi bare regne
 $$
@@ -52,6 +52,51 @@ $$
 $$
 
 4. Vi utnytter at vi vet at $n^2 + 2n + 1 = (n+1)^2$. Vi kan derfor skrive om uttrykket som $n^2 + 3n + 1 = n^2 + 2n + 1 +n = (n+1)^2+n$. Nå kan vi enkelt se at tillegget fra figur til figur er $(2n+1) + 1$, der $2n+1$ er økninga av kvadratet $+1$ er økningen fra ledded $n$. Dette gir oss også en enkel oversettelse til en figur, dette overlates til leseren!
+
+#### Avansert: Beskrive oppbygningen av figurtall (alle typer),  08.05
+
+Du får vite at et figurtall $F_n$ øker på følgende måte. $F_1 = 2$, $F_2 = 8$, $F_3 = 16$, $F_4 = 26$ og $F_5 = 38$.
+
+Lag en figur som følger mønsteret til $F_n$. Det er nok å illustrere $F_1$, $F_2$ og $F_3$, så lengde det får fram mønsteret.
+Vis og forklar sammenhengen mellom tallrekken og figurene rekursivt.
+Finn en eksplisitt formel på to forskjellige måter.
+
+##### Vuderingskriterier
+
+Vi begynner med å analysere utviklingen av tallrekka. Vi ser at økningen er \(6\) så \(8\), så \(10\) og så \(12\). Tilleggene øker altså med \(2\). Dermed kan vi skrive 
+$$
+\begin{aligned}
+F_1 & = 2
+\\
+F_2 & = 2 + 2\cdot 2 + 2
+\\
+F_3 & = 2 + 2\cdot 2 + 2 + 2\cdot 3 + 2
+\\
+\vdots
+\\
+F_n & = 2 + (2\cdot 2 + 2) + (2\cdot 3 + 2) + \ldots + (2\cdot n + 2).
+\end{aligned}
+$$
+
+Ved å justere første leddet i summen får vi
+$$
+F_n = -2 + (2\cdot 1 + 2) + (2\cdot 2 + 2) + (2\cdot 3 + 2) + \ldots + (2\cdot n + 2).
+$$
+
+Denne kan vi nå enkelt skrive om til
+$$
+\begin{aligned}
+F_n  
+& =  -2 + 2(1+2+\ldots + n) + 2n
+\\
+& = -2 + 2T_n + 2n
+\\
+& = -2 + n(n+1) + 2n.
+\end{aligned}
+$$
+
+Vi kan nå bruke formelen til å trekke ut en måte å lage figuren. Vi ser at det er to trekanttall og to linjer med lengde \(n\), der det i tillegg er trukket vekk 2. (Figuren får man lage selv 😉).
+
 
 #### Avansert: Beskrive oppbygningen av figurtall (alle typer),  28.04
 

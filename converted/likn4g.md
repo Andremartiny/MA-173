@@ -21,6 +21,16 @@
 2. En svært nyttig øvelse: Lag likninger til hverandre. Likningene må
     lages slik at du selv hvordan de kan løses og hva løsningene er.
 
+#### Grunnleggende: Løse kvadratiske likninger ved hjelp av fullstendige kvadraters metode,  08.05
+
+1. Løs likningen $x^2 - 20x = -75$ med fullstendige kvadraters metode.
+
+2. Løs likningen $2x^2 + 8x = 120$ med fullstendige kvadraters metode.
+
+#### Vurderingskriterier grunnleggende:  08.05
+
+Begge likningene må løses med korrekt teknikk.
+
 #### Grunnleggende: Løse kvadratiske likninger ved hjelp av fullstendige kvadraters metode,  24.04
 
 Se 03.02.23

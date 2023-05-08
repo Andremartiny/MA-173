@@ -16,6 +16,21 @@ Under ser du en figur av tre formlike trekanter. Avgjør lengden på de resteren
 
 1. Vi ser at $a$ samsvarer med $d$ og $g$, at $b$ samsvarer med $e$ og $h$ og at $c$ samsvarer med $f$ og $h$. For å skalere $a = 3$ til $g = 4$, må vi skalere med $\frac{4}{3}$. Dermed må $b = 6$ skaleres til $6\cdot \frac{4}{3} = 8 = h$. For å gå fra $i$ til $c$ må vi skalere ned med $\frac{3}{4}$. Det gir at $c = 1 \cdot \frac{3}{4} = \frac{3}{4}$.
 
+#### Middels: Bruke begrepet formlikhet av trekanter,  08.05
+
+Under ser du to formlike trekanter der \(a\) og \(a'\) samsvarer, \(b\) og \(b'\) samsvarer og \(c\) og \(c'\) samsvarer. 
+
+Avgjør \(b'\) og \(c\) når du vet: 
+
+\(a = \frac{1}{2}\) og \(a' = \frac{2}{3}\)
+\(b = 1\) og \(c' = 4\)
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-05-06-08-43-02.png)
+
+##### Vurderingskriterier
+
+1. Studenten må bruke formlikhet for å avgjøre lengdene. Dette kan gjøres ved å innse at skaleringen fra \(a\) til \(a'\) er \(\frac{4}{3}\). Dermed skaleres \(b = 1\) opp til \(b = 1 \cdot \frac{4}{3} = \frac{4}{3}\). Skal vi gå fra \(a'\) til \(a\) er skaleringen den omvendtproporsjonale, altså \(\frac{3}{4}\). Det betyr at \(c' = 4\) blir skalert til \(c = 4\cdot \frac{3}{4} = 3\).
+
 #### Middels: Bruke begrepet formlikhet av trekanter,  28.04.23
 
 *Merk* I oppgaven stod det opprinnelig feil med at $AF = \frac{12}{9}$. Dette er rettet opp i, men har studenten brukt dette i beregningene får de fortsatt godkjent så lenge de har regnet på en meningsfull måte.

@@ -67,6 +67,59 @@
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/stirrehardt.svg)
 
+#### Avansert: Finne eksplisitt uttrykk for figurtall,  08.05
+
+På figuren under ser du de fire første figurene i en sammensatt figur, der $F_1 = 4$, $F_2 = 10$ og $F_3 = 19$.
+
+1. Finn en eksplsitt formel for $F_n$ ved å betrakte figuren geometrisk.
+
+2. Finn en eksplisitt formel ved hjelp av sum av tillegg.
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-24-14-31-42.png)
+
+##### Vurderingskriterier
+
+1. Studenten må betrakte figuren geometrisk. Dette gjøre mest naturlig (men ikke nødvendigvis) ved å se at det er kvadrattall nummer \(n\) og trekanttall nummer \(n+1\). Dermed får vi \(n^2 + T_{n+1} = n^2 + \frac{(n+1)(n+2)}{2}\).
+2. Studenten må bruke sum av tillegg for å finne eksplisitt formel. For eksempel kan vi se at kvadrattallene øker med \(2n-1\) og trekanttallet øker med \(n+1\) som gir et totalt tillegg \(3n\).
+Dermed ser vi at vi kan skrive \(F_n\) som en sum av tilleg slik
+$$
+\begin{aligned}
+F_1 
+& = 1+ 3
+\\
+F_2 
+& = 1+3+3\cdot 2
+\\
+\vdots
+\\
+F_n 
+& = 1 + 3 + 3\cdot 2 + 3\cdot 3 + \ldots + 3n
+\\
+& = 1 + 3(1+2+3+\ldots + n)
+\\
+& = 1 + 3 T_n
+\\
+& = 1 + 3\cdot\frac{n(n+1)}{2}
+\\
+& = \frac{2 + 3n(n+1)}{2}
+\\
+& = \frac{2 +3n^2 + 3n}{2}.
+\end{aligned}
+$$
+Studenten kan gi seg med dette eksplisitte uttrykket. Vi viser videre at svaret i 1. passer med dette svaret, kun for å vise og ikke fordi studenten må gjøre det.
+Svaret fra 1. kan vi skrive om slik
+$$
+\begin{aligned}
+n^2 + \frac{(n+1)(n+2)}{2}
+& = \frac{2n^2 + (n+1)(n+2)}{2}
+\\
+& = \frac{2n^2 + n^2+3n+2}{2}
+\\
+& = 
+\frac{3n^2 + 3n +2}{2}.
+\end{aligned}
+$$
+
 #### Avansert: Finne eksplisitt uttrykk for figurtall,  28.04
 
 På figuren under ser du de fire første figurene i en sammensatt figur, der $F_1 = 4$, $F_2 = 10$ og $F_3 = 19$.

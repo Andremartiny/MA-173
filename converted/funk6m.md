@@ -56,6 +56,23 @@
 
 
 
+#### Middels: Gjøre om mellom ulike representasjonsformer for funksjonssammenhenger,  08.05 
+
+Under ser du en skisse av Henriks reisevei til jobb dersom han kjører bil. Fartsgrensene gjelder hver av de rette strekkene.
+
+1. Lag en passende tabell som viser fart som funksjon av tid på Henriks kjøretur til jobb.
+2. Skisser en graf til samme situasjon.
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-31-09-44-03.png)
+
+#### Vurderingskriterier middels:  08.05 
+
+1. Studentene må lage en passende tabell som viser *fart* som funksjon av tid (dette er altså ikke samme oppgave som ble gitt 31.03). Funksjonen bør (men må ikke) bruke overgangene mellom fartsgrensene, slik at skisseringen i neste oppgave tydelig henger sammen med tabellen.
+2. Studentene må skissere en graf som får fram sammenhengen på en riktig måte, den må også samsvare med tabellen som er beskrevet i 1.. \
+Siden strekningen inneholder ulike soner med ulike hastigheter *må* dette være gjenspeilet i grafen.
+
+
+
 #### Middels: Gjøre om mellom ulike representasjonsformer for funksjonssammenhenger,  28.04.23
 
 Se 13.02

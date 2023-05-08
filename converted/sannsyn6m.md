@@ -38,6 +38,25 @@
    muligheter.
 
 
+#### Middels: Forklare og bruke begrepene uordnet utvalg med og uten tilbakelegg,  08.05
+
+1. Begrunn at følgende situasjoner kan tenkes på som uordnet utvalg uten tilbakelegg og finn antall muligheter i utvalget
+
+- André skal på ferie med familien. For å gjøre seg klar til turen pakker André ned tre av de seks barnebøkene de har lånt fra biblioteket. Hvor mange forskjellige kombinasjoner av tre barnebøker kan André ta med seg?
+
+2. Begrunn at følgende utvalg er uordnet utvalg med tilbakelegg og finn antall muligheter i utvalget
+
+- Du skal lage en enkel dessert til sommeravslutningen. Du har bestemt deg for å bare kjøpe sørlandsis boksis, og kan velge mellom sjokolade, vanilje og pistasj. Hvis du skal ha fire bokser is, hvor mange forskjellige kombinasjoner av bokser kan du kjøpe med deg til avslutningen?
+
+##### Vurderingskriterier
+
+Studenten må gi en forståelig og riktig begrunnelse i begge oppgavene. I tillegg må de finne antall muligheter i utvalget.
+
+1. Studenten bør peke på at en ikke kan velge samme bok flere ganger (uten tilbakelegg), og at rekkefølgen han velger ut i ikke er av betydning (uordna). Dermed får vi \(6\cdot 5\cdot 4\) muligheter, men siden vi ikke bryr oss om rekkefølge så teller vi hvert utvalg \(3\cdot 2\cdot 1\) ganger. Vi kan derfor dele på \(6\) og se at det er \(20\) muligheter.
+2. Studenten må begrunne at vi kan velge samme is flere ganger (med tilbakelegg), men at det ikke er viktig hvilken rekkefølge vi velger isen i (uordna). Deretter må de finne utvalget. En naturlig måte vil være å telle på en strukturert måte, for eksempel ved hjepl av en tabell, slik som under. Teller vi over ser vi at det er \(15\) mulige utvalg. 
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/sannsyn/iskrem.svg)
+
+
 #### Middels: Forklare og bruke begrepene uordnet utvalg med og uten tilbakelegg,  28.04.23
 
 1. Begrunn at følgende situasjoner kan tenkes på som uordnet utvalg uten tilbakelegg og finn antall muligheter i utvalget

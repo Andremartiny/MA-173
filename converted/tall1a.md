@@ -125,6 +125,21 @@ Når basen $b$ er et oddetall, er også $b^{n}$ et oddetall. Da er
 $b^{n} - 1$ alltid par.
 
 
+#### Avansert: Forklare hva et posisjonssystem er,  08.05
+
+1. Gjør om  $543_{seks}$ til base tolv uten først å regne ut i base ti.
+2. Regn ut i den aktuelle basen:
+
+a. $\text{A}3_{tolv} \cdot 24_{tolv}$  
+
+b. $888_{ni} : \ 7_{ni}$
+
+##### Vurderingskriterier
+
+1. \(153_{tolv}\) Må vise omgjøring som i oppgave 3 middels. 
+2. a. \(1\text{BB}0_{tolv}\). b. \(125_{ni}\)
+
+
 #### Avansert: Forklare hva et posisjonssystem er,  24.04
 
 1. Gjør om  $212{tre}$ til base seks uten å først regne ut i base ti.

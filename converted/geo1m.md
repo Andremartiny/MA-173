@@ -26,6 +26,11 @@ Forklaringene må få fram måleenheten som brukes og hvordan størrelsen
 man avgjør er relatert til måleenheten.
 
 
+#### Middels: Bruke begrepene måltall, størrelse og måleenhet til å avgjøre størrelsen av grunnleggende figurer i 1 og 2 dimensjoner,  08.05
+
+Se 17.02 
+
+
 #### Middels: Bruke begrepene måltall, størrelse og måleenhet til å avgjøre størrelsen av grunnleggende figurer i 1 og 2 dimensjoner,  28.04.23
 
 Velg passende måleenheter. Vis med ordforklaringer og illustrasjoner, uten å begrunne ved hjelp av de kjente formlene, hvordan man kan avgjøre

@@ -10,6 +10,14 @@
     Celsius er en funksjonssammenheng. Bruk eksemplet til å forklare
     begrepene.
 
+#### Grunnleggende: Bruke begrepene funksjon, variabel, uavhengig variabel (innverdi), avhengig variabel (utverdi), funksjonsverdi, definisjonsmengde og verdimengde,  08.05 
+
+Sammenhengen mellom sidelengden og arealet av et kvadrat er en funksjonssammenheng. Bruk eksemplet til å forklare begrepene funksjon, innverdi og funksjonsverdi.
+
+#### Vurderingskriterier grunnleggende:  08.05 
+
+Her må de peke på at arealet av en kvadrat med sidelengde $r$ er $r^2$ (altså at $A(r) = r^2$). Arealet er derfor en funksjon av $r$ (innverdi) fordi hver sidelengde $r$ gir et entydig areal (som her er funksjonsverdien).
+
 #### Grunnleggende: Bruke begrepene funksjon, variabel, uavhengig variabel (innverdi), avhengig variabel (utverdi), funksjonsverdi, definisjonsmengde og verdimengde,  28.04.23
 
 Se 10.02

@@ -121,6 +121,56 @@ $0,00\overline{100}$, og lagt til $1$ etterpå.
         $a \in \{ 0,\ 1,\ \ldots,\ 9\}$. Det betyr spesielt at
         $0,999\ldots = \frac{9}{9} = 1.$
 
+#### Avansert: Gjøre om mellom brøk og desimaltall,  08.05
+
+1. Gjør om til brøk.
+a. $0,\overline{34}$
+b. $0,021\overline{103}$
+2. Gjør om til desimaltall.
+a. $\frac{5}{7}$
+b. $\frac{11}{6}$
+
+##### Vurderingskriterier
+
+1. \
+a.
+$$
+\begin{aligned}
+100x &
+= 34,343434\ldots
+\\
+-x
+& = 0,343434\ldots
+\\
+\Rightarrow 99x
+& = 34
+\\
+x
+&= 34/99
+\end{aligned}$$
+
+b.
+$$
+\begin{aligned}
+1\ 000\ 000x &
+= 21\ 103,103103\ldots
+\\
+-1000x &
+= 21,103103\ldots
+\\
+999\ 000x
+& = 21\ 082
+\\
+x
+& = \frac{21\ 082}{999\ 000}
+\end{aligned}
+$$
+2. Må vise utregning.
+
+a.  $0,\overline{714285}$
+
+b. $1,8\overline{3}$
+
 #### Avansert: Gjøre om mellom brøk og desimaltall,  24.04
 
 1. Gjør om til brøk.

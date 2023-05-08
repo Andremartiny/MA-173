@@ -6,6 +6,16 @@
 
    b. 1.46
 
+#### Grunnleggende: Utføre divisjon med brøk,  08.05
+
+Regn ut.
+a. $2\frac{1}{5} : \frac{22}{3}$
+b. $\frac{3}{4} : \frac{3}{5}$
+
+##### Vurderingskriterier
+
+3/10, 5/4
+
 #### Grunnleggende: Utføre divisjon med brøk,  24.04
 
 Regn ut.

@@ -3,6 +3,16 @@
 1. Alfa s. 108. Bare beregningene, ikke lage regnefortellinger og
    konkretiseringer.
 
+#### Grunnleggende: Utføre addisjon og subtraksjon med brøk,  08.05
+
+Regn ut.
+a. \(1\frac{2}{3} + \frac{7}{5}\)
+b. \(\frac{3}{5} - \frac{3}{4}\)
+
+##### Vurderingskriterier
+
+46/15, -3/20
+
 #### Grunnleggende: Utføre addisjon og subtraksjon med brøk,  24.04
 
 Regn ut.

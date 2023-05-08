@@ -4,6 +4,24 @@
 
     a.  3.60 Løs på så mange måter du greier.
 
+#### Grunnleggende: Løse lineære likningssett med to ukjente på ulike måter,  08.05
+
+Under ser du to likninger med to ukjente.
+
+$6x + 5 y = 45 - 2y$,
+
+$3x + y = - y +15$.
+
+Løs likningssettet ved hjelp av
+
+1. innsettingsmetoden og
+
+2. addisjonsmetoden.
+
+#### Vurderingskriterier grunnleggende:  08.05
+
+Begge oppgavene skal gjøres med metodene som er oppgitt.
+
 #### Grunnleggende: Løse lineære likningssett med to ukjente på ulike måter,  24.04
 
 Se 17.04.23

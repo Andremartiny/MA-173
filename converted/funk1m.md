@@ -27,6 +27,11 @@
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-27-11-46-49.png)
 
 
+#### Middels: Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon,  08.05 
+
+Se 31.03
+
+
 
 #### Middels: Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon,  28.04.23
 
