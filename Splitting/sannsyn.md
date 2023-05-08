@@ -393,6 +393,217 @@ Vi merker oss først at det er $\frac{52\cdot 51\cdot 50\cdots 42\cdot 41\cdot 4
         som skal være røde?
    - Her får dere regne selv, men egg merke til at dette gir samme svar som de to oppgavene over.
 
+## 08.05
+
+### Forklare og bruke begrepene utfallsrom, utfall og hendelse og sannsynlighetsmodell
+
+#### Grunnleggende: Gjengi og gi eksempler til begrepene
+
+1. Forklar hva en sannsynlighetsmodell er ved hjelp av begrepene utfall, utfallsrom og hendelse. Gi et eksempel på en sannsynlighetsmodell.
+
+##### Vurderingskriterier
+
+Studenten må gi en forklaring som bruker begrepene, samt gi et eksempel.
+
+#### Middels: Avgjøre og begrunne om situasjoner er en sannsynlighetsmodell
+
+1. Hva er galt med denne sannsynlighetsmodellen? \(U = \{u_1, u_2, u_3\} \), \(P(u_1) = 0,5\), \(P(u_2) = 0,4\) og \(P(\{u_1, u_2\}) = 0.2\)?
+
+2. La et forsøk ha et utfallsrom \(U = { u_1, u_2, u_3, u_4} \), slik at \(P(\{u_1,u_3\}) = 0.6\) og \(P(\{u_2, u_3\}) = 0.7\). Kan \(P(u_3) =  0.1\)?
+
+##### Vurderingskriterier
+
+1. Studenten må peke på at det kun er en sannsynlighetsmodell hvis \(0. 2 = P(\{u_1, u_2\}) = P(u_1) + P(u_2) = 0.5+0.4\), men \(0.2\) er jo ikke lik \(0.9\).
+2. Siden \(1.3 = 0.6+0.7 = P(\{u_1,u_3\}) + P(\{u_2,u_3\}) = P(u_1)+P(u_2)+2P(u_3)\), ser vi at hvis \(P(u_3) = 0.1\) så vil \(1.1 = 1.2-P(u_3) = P(u_1)+P(u_2)+2P(u_3)\). Dette gir ingen mening siden \(P(u_1)+P(u_2)+2P(u_3)\) ikke kan være større enn \(1\) samtidig som det vil være lik sannsynligheten for tre enkelutufall i utfallsrommet. Noe som gir en motsigelse.
+
+### Forklare og bruke begrepet uniform sannsynlighetsmodell
+
+#### Grunnleggende: Gjengi og gi eksempler til begrepet
+
+Forklar hva en uniform sannsynlighetsmodell er og gi et eksempel på en uniform sannsynlighetsmodell.
+
+##### Vurderingskriterier
+
+Studenten må gi en riktig forklaring, samt gi et eksempel.
+
+#### Middels: Avgjøre og begrunne om situasjoner er en uniform sannsynlighetsmodell
+
+Se 31.03
+
+#### Avansert: Sette opp uniforme sannsynlighetsmodeller fra en gitt situasjon
+
+Det er 18 personer i en klasse. Det skal velges ut tre elever som skal være i elevrådet og alle tre skal trekkes tilfeldig. Henrik vil veldig gjerne være med i elevrådet. Sett opp en uniform sannsynlighetsmodell som får fram at det er \(\frac{3}{18}\) sannsynlighet for at Henrik får være med i elevrådet.
+
+##### Vurderingskriterier
+
+Studenten må sette opp et utfallsrom som gir opphav til en uniform sannsynlighetsmodell som viser at sannsynligheten er $\frac{3}{18}$. En naturlig måte å gjøre dette på er for eksempel ved å si at klassen settes opp i en tilfeldig rekkefølge (for eksempel ved loddtrekning), se figur under. Det gjør at alle elvene har like stor sannsynlighet for å havne på hver av de atten plassene. Hvis det er de tre første i rekken som får være med i elevrådet tilsvarer denne måten å trekke ut elevrådsmedlemmene den samme situasjonen som beskrevet i oppgaven. Dermed er det lik sannsynlighet for å havne på en av $18$ plasser, en uniform sannsynlighetsmodell der utfallsrommet er {Henrik havner på første plass, Henrik havner på andre plass, Henrik havner på tredje plass,..., Henrik havner på attende plass}. Det er kun to av plassene som får han med i elevrådet, dermed $\frac{3}{15}$ sannsynlighet for dette.
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/sannsyn/08.05.sannsynuniform.svg)
+
+### Forklare, illustrere og bruke produktregelen
+
+#### Grunnleggende: Forklare og illustrere et sammensatt valg/et forsøk sammensatt av flere trinn
+
+Forklar med bakgrunn i et eksempel på hva som menes med et sammensatt valg.
+
+##### Vurderingskriterier
+
+Studenten må bruke et eksempel til å forklare hva som menes med et sammensatt valg.
+
+#### Middels: Forklare og illustrere produktregelen
+
+Forklare og illustrere produktregelen. Pek tydelig på hvorfor det kommer frem at produktregelen må gjelde.
+
+##### Vurderingskriterier
+
+Studenten må forklare og illustrere produktregelen (Alfa 7.24). Det viktige er å få fram hvorfor vi får multiplikasjon ved flere valg. Typisk innebærer det å peke på noe sånn som *for hver av de n... får vi m... derfor får vi n m ganger* eller noe liknende.
+
+### Forklare og bruke begrepene ordnet utvalg med og uten tilbakelegg
+
+#### Grunnleggende: Forklare og gi eksempler til begrepene
+
+Forklar og gi et eksempel til:
+
+- et ordnet utvalg med tilbakelegg
+- et ordnet utvalg uten tilbakelegg
+
+##### Vurderingskriterier
+
+Studenten må gi eksempler som de blir bedt om, og de må forklare hva et ordnet utvalg med og uten tilbakelegg er.
+
+#### Middels: Begrunne at et utvalg er ordnet og om det er med eller uten tilbakelegg, samt finne antall muligheter i utvalget
+
+1. Begrunn at følgende situasjoner kan tenkes på som ordnet utvalg med tilbakelegg og finn antall muligheter i utvalget.
+
+- Du er i en vennegjeng på 5 venner. Dere snakker om å gå på kino å se den nye storfilmen "Henrik og André på nye eventyr". Det er ikke sikkert at alle velger å gå på kino, noen velger kanskje at de ikke vil være med. Hvor mange forskjellige grupper fra vennegjengen kan man lage?
+
+2. Begrunn at følgende utvalg er ordnet utvalg uten tilbakelegg og finn antall muligheter i utvalget.
+
+- I et hesteløp skal er det 8 hester som deltar.  Hvor mange forskjellige kombinasjoner av seierspaller kan man få (seierspallen er de tre første plassene i en konkurranse)?
+
+##### Vurderingskriterier
+
+Studenten må gi en forståelig og riktig begrunnelse i begge oppgavene. I tillegg må de finne antall muligheter i utvalget.
+
+1. Studenten kan peke på at vi kan rangere vennene fra 1-5. Deretter kan vi da avgjøre hvem som skal gå ved å sette opp en 5-tuppel \(a_1, a_2, a_3, a_4, a_5\), der de forskjellige a'ene kan være 0 eller 1, hvor 0 betyr at de ikke blir med og 1 betyr at de blir med. For eksempel betyr \(0,1,1,0,0\) at venn 1, 4 og 5 ikke blir med, mens venn 2 og 3 blir med. Nå kan en tydelig se at en har fem posisjoner der en kan trekke 0 eller 1 i hvert utvalg (med tilbakelegg) og at rekkefølgen betyr noe siden de ulike posisjonene forteller hvilken venn det er snakk om. Vi ser derfor at vi har \(2\) valg fem ganger. Multiplikasjonsprinsippet gir dermed at det er \(2^5\) mulige utvalg.
+2. Studenten må peke på at én hest ikke kan komme på flere plasser, dermed er det uten tilbakelegg. Det er også forskjell på om hest nummer 8 kommer på 4 eller 1 eller 2 plass, dermed er det ordnet. Vi har dermed \(8\) muligheter for første, så \(7\), så \(6\). Det gir totalt \(8\cdot 7\cdot 6\) muligheter.
+
+### Forklare og bruke begrepene uordnet utvalg med og uten tilbakelegg
+
+#### Grunnleggende: Forklare og gi eksempler til begrepene
+
+Forklar og gi et eksempel til
+
+- et uordnet utvalg med tilbakelegg
+- et uordnet utvalg uten tilbakelegg
+
+##### Vurderingskriterier
+
+Studenten må gi eksempler som de blir bedt om, og de må forklare hva et ordnet utvalg med og uten tilbakelegg er.
+
+#### Middels: Begrunne at et utvalg er uordnet og om det er med eller uten tilbakelegg, samt finne antall muligheter i utvalget
+
+1. Begrunn at følgende situasjoner kan tenkes på som uordnet utvalg uten tilbakelegg og finn antall muligheter i utvalget
+
+- André skal på ferie med familien. For å gjøre seg klar til turen pakker André ned tre av de seks barnebøkene de har lånt fra biblioteket. Hvor mange forskjellige kombinasjoner av tre barnebøker kan André ta med seg?
+
+2. Begrunn at følgende utvalg er uordnet utvalg med tilbakelegg og finn antall muligheter i utvalget
+
+- Du skal lage en enkel dessert til sommeravslutningen. Du har bestemt deg for å bare kjøpe sørlandsis boksis, og kan velge mellom sjokolade, vanilje og pistasj. Hvis du skal ha fire bokser is, hvor mange forskjellige kombinasjoner av bokser kan du kjøpe med deg til avslutningen?
+
+##### Vurderingskriterier
+
+Studenten må gi en forståelig og riktig begrunnelse i begge oppgavene. I tillegg må de finne antall muligheter i utvalget.
+
+1. Studenten bør peke på at en ikke kan velge samme bok flere ganger (uten tilbakelegg), og at rekkefølgen han velger ut i ikke er av betydning (uordna). Dermed får vi \(6\cdot 5\cdot 4\) muligheter, men siden vi ikke bryr oss om rekkefølge så teller vi hvert utvalg \(3\cdot 2\cdot 1\) ganger. Vi kan derfor dele på \(6\) og se at det er \(20\) muligheter.
+2. Studenten må begrunne at vi kan velge samme is flere ganger (med tilbakelegg), men at det ikke er viktig hvilken rekkefølge vi velger isen i (uordna). Deretter må de finne utvalget. En naturlig måte vil være å telle på en strukturert måte, for eksempel ved hjepl av en tabell, slik som under. Teller vi over ser vi at det er \(15\) mulige utvalg. 
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/sannsyn/iskrem.svg)
+
+### Avgjøre om utvalg er ordnet eller uordnet og om det er med eller uten tilbakelegg
+
+#### Middels: Avgjør om situasjonene under kan tenkes som (u)ordnede utvalg med eller uten tilbakelegg
+
+Avgjør og begrunn om situasjonene under kan tenkes som ordnede eller uordnede utvalg og om utvalgene er med eller uten tilbakelegg:
+
+1. Du skal kjøpe tre kuler is på iskiosken på fiskebrygga. Der har de 12 forskjellige smaker man kan velge mellom.
+2. Du skal låne nye bøker på biblioteket. Du ønsker å låne tre nye bøker i temaet "matematikkens historie". På biblioteket har de femten bøker i denne kategorien.
+3. André, Henrik og Anders spiller kortspillet *President* på jobben, og har laget en tabell der de holder oversikt over antall seiere per person. Etter å ha spilt seks runder, hvor mange forskjellige stillinger kan oppstå?
+4. I underveisvurderingen i MA-173 kan du velge mellom 58 læringsmål. Hvis du svarer på én oppgave på seks forskjellige læringsmål. Hvor mange forskjellige kombinasjoner av seks læringsmål kan du velge?
+
+##### Vurderingskriterier
+
+Studenten må argumentere og begrunne sitt valg. Det *må* ikke nødvendigvis stemme med forslaget under, men er det annerledes må begrunnelsen hvertfall være meningsfull!
+
+1. Studenten kan peke på nesten hvilken tolkning som helst. For eksempel kan de peke på at en selvfølgelig kan velge samme smak flere ganger og at rekkefølgen ikke betyr noe. Dermed blir det uordna utvalg uten tilbakelegg.S
+2. En naturlig tolkning kan være å tolke dette som at man har 15 bøker å velge mellom, men man kan ikke velge samme bok flere ganger (uten tilbakelegg). I tillegg er det ikke viktig hvilken rekkefølge man velger i, dermed uordna.
+3. En naturlig tolkning kan være å tenke på dette som seks runder der vi kan trekke en vinner mellom de samme tre personene hver gang (med tilbakelegg). Når vi er ferdig er vi ikke interessert i rekkefølgen på resultatet, kun antall ganger noen har vunnet, noe som gjør at vi ikke bryr oss om rekkefølgen (uordna).
+4. En naturlig tolkning kan være å argumentere for at vi ikke kan velge samme læringsmål flere ganger (noe som blir pekt på i teksten). I tillegg er det ikke viktig hvolken rekkefølge vi besvarer spørsmålene, altså uordna.
+
+### Forklare, illustrere og bruke addisjonssetningen (for sannsynlighet og kombinatorikk)
+
+#### Grunnleggende: Forklare hva union og snitt er
+
+Forklar begrepene union og snitt ved hjelp av et eksempel.
+
+#### Middels: Forklare og illustrere addisjonssetningen for to mengder (Setning 7.53)
+
+Forklar og illustrere addisjonssetningen for to mengder (Setning 7.53) ved hjelp av et eksempel.
+
+#### Avansert: Bruke addisjonssetningen for å undersøke problemer
+
+Henrik har en tresifret kombinasjon på sykkellåsen sin. Du får vite at koden inneholder en toer (minst), men er ikke et partall.
+
+- Avgjør hvor mange gjenværende muligheter det er. Besvarelsen må peke til en illustrasjon som viser hvordan du bruker addisjonssetningen.
+
+##### Vurderingskriterier
+
+Se oppgave 1 øveoppgaver. Merk at oppgaven *må* også inneholde en illustrasjon!
+
+### Forklare, illustrere og bruke komplementsetningen
+
+#### Grunnleggende: Forklare begrepet komplement
+
+Forklar begrepet komplement ved hjelp av et eksempel.
+
+#### Middels: Forklare og illustrere komplementsetningen i sannsynlighet
+
+Du skal spiller et kortspill og er interessert i sannsynligheten for hendelse \(A\). Du får vite at \(P(A^C) = 0.4\). Hva er \(P(A)\)?
+
+##### Vurderingskriterier
+
+Studenten må bare bruke komplementsetningen til å peke på at \(P(A) + P(A^C) = 1\), noe som gir at \(P(A) = 0.6\). 
+
+#### Avansert: Forklare, illustrere og bruke komplementsetningen i sannsynlighet
+
+Det er 13 gutter og 12 jenter i en klasse. Det skal trekkes en tilfeldig gruppe på tre fra klassen. Hva er sannsynligheten for at man trekker minst én jente?
+
+##### Vurderingskriterier
+
+Studenten må regne ut sannsynligheten på en forståelig måte. Det kan for eksempel gjøres ved å tenke at alle mulige utvalg er like sannsynlige og at det er et uordnet utvalg uten tilbakelegg. Det gir en uniform sannsynlighetsmodell med \(\frac{25\cdot 24\cdot 23}{3\cdot 2\cdot 1} = 25\cdot 4\cdot 23 = 2300\) mulige utfall. Vi er nå interessert i hendelsen *minst én jente*. Finner vi sannsynligheten for å velge ut *kun* gutter kan vi bruke at dette er komplementærhendelsen til hendelsen vi er ute etter. Siden det er \(\frac{12\cdot 11\cdot 10}{3\cdot 2\cdot 1} ={2\cdot 11\cdot 10} = 220\) mulge utvalg som inneholder kun gutter må sannsynligheten for å trekke minst én jente være \(1 - \frac{220}{2300}\). 
+
+### Bruke begrepene i temaet til å løse sammensatte problemer
+
+#### Avansert: Bruke addisjonssetningen for å undersøke problemer
+
+Studentene i MA-173 holder på med aktiviteter for å undersøke sannsynlighetsmodeller. I en oppgave kastet de to terninger og ganget tallene de fikk, med hverandre. De brukte vanlige spillterninger med tallene 1–6. Henrik kastet terningene flere ganger, og syntes han fikk mistenkelig mange svar som var partall. Han spurte læreren hva grunnen kunne være.
+
+1. Hva ville du som lærer ha svart Henrik?
+2. Hva er sannsynligheten for å få partall som svar når vi ganger tallene vi får på terningene, med hverandre?
+3. Hvis vi kaster terningene fire ganger, hva er sannsynligheten for å få partall som svar på gangestykket alle gangene?
+4. Hva er sannsynligheten for å få partall som svar to ganger og oddetall to ganger?
+
+##### Vurderingskriterier
+
+
+Studenten må besvare *alle* spørsmålene på en rimelig måte. 
+
+1. Her finnes ingen eksakt fasit, men en besvarelse bør inneholder noe som peker på og *begrunner* hvorfor dette er tilfellet. Det kan for eksempel være ved å lage en tabell som viser de ulike mulige utfallene, som under. 
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/sannsyn/terningkast0805.svg)
+I tabellen kan man se at det er 27 av de 36 mulige utfallene som gir et partall. Dette kan også forklares ved at en kun får oddetall ved at begge terningene slår oddetall. Det er kun 3 mulige utfall i begge terningkastene, altså totalt \(9\) forskjellige utfall som gir oddetall. 
+2. Svaret bør allerede være argumenter for i oppgave 1. Sannsynligheten er \(\frac{27}{36}= \frac{3}{4}\).
+3. Her kan studenten ty til multiplikasjonsprinsippet. Det er \(27\) mulige gunstige utfall i hvert av de fire kastene, dermed \(27^4\) mulige gunstige utfall. Totalt er det \(36^4\) mulige utfall (36 utfall i hvert enkeltkast). Siden alle mulige utfall er like sannsynlige får vi en sannsynlighet på \(\frac{27^4}{36^4}\).
+4. Studenten kan for eksempel bruke at dette kan skje på følgende måter \(OOPP\), \(OPOP\), \(OPPO\), \(POOP\), \(POPO\) og \(PPOO\), der \(P\) er partall og \(O\) er oddetall. Hver av disse seks mulige rekkefølgene er like sannsynlige, så vi må bare finne sannsynligheten for hver av de. Vi kan for eksempel ta for oss \(OOPP\) og se at vi er på utkikk etter antall muligheter som gir oddetall, så oddetall, så partall så partall. Vi vet nå at dette betyr at det er \(9\) muligheter, så \(9\), så \(27\) så \(27\). Totalt gir multiplikasjonsprinsippet at det er \(9\cdot 9 \cdot 27\cdot 27\) mulige måter for å først få oddetall, så oddetall så partall så partall. Sannsynligheten for \(OOPP\) blir da \(\frac{9^2\cdot 27^2}{36^4}\). Siden dette også er sannsynligheten for alle mulige utfallene får vi en sannsynlighet for å få nøyaktig to oddetall og to partall ved fire kast lik \(6\cdot \frac{9^2\cdot 27^2}{36^4}\).
+
 ## 28.04.23
 
 ### Forklare og bruke begrepene utfallsrom, utfall og hendelse og sannsynlighetsmodell

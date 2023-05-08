@@ -477,6 +477,175 @@ Se vurderingskriteriene fra ett av vurderingssettene.
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-27-12-47-38.png)
 
+## 08.05 
+
+### Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon
+
+#### Grunnleggende: Forklare kjennetegn ved og gi eksempler på funksjonstypene
+
+1. Gi et eksempel på en lineær funksjon, og forklart kort, med utgangspunkt i eksemplet ditt, hva som kjennetegner en lineær funksjon.
+2. Gi et eksempel på en kvadratisk funksjon, og forklart kort, med utgangspunkt i eksemplet ditt, hva som kjennetegner en kvadratisk funksjon.
+3. Gi et eksempel på en omvendt proporsjonal funksjon, og forklart kort, med utgangspunkt i eksemplet ditt, hva som kjennetegner en omvendt proporsjonal funksjon.
+
+##### Vurderingskriterier: Grunnleggende {#170211}
+
+Her må de gi et eksempel og forklare kjennetegnene, slik oppgaven ber om.  
+
+#### Middels: Bestemme og begrunne funksjonstype basert på beskrivelse av situasjon, uttrykk, graf og tabell
+
+Se 31.03
+
+#### Avansert: Gjøre om mellom ulike representasjonsformer for de tre funksjonstypene, og begrunne omgjøringen
+
+1. Tabellen under viser en funksjonssammenheng.
+
+a. Avgjør om den er lineær, kvadratisk eller omvendt proporsjonal.
+
+b. Lag en passende situasjon som kan høre til funksjonssammenhengen.
+
+c. Finn funksjonsuttrykk, og skisser grafen.
+
+$$
+\begin{array}
+{|r|r|r|r|r|}
+\hline 
+x &  -4 & -1 & 2 & 8
+\\ \hline 
+y & -2 & -8 & 4 & 1
+\\ \hline  
+\end{array}
+$$
+
+1. Under ser du grafen til en funksjon.
+
+a. Avgjør hva slags funksjon det er snakk om.
+
+b. Finn funksjonsuttrykket.
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-31-09-26-46.png)
+
+
+##### Vurderingskriterier: Avansert {#170213}
+
+Se 31.03
+
+### Forklare sammenhenger mellom parameterne i funksjonsuttrykket og grafen til lineære funksjoner
+
+#### Grunnleggende: Forklare hvordan endringer i stigningstall og konstantledd påvirker grafen til en lineær funksjon
+
+Se tidligere oppgaver
+
+#### Middels: Forklare hvordan man kan finne likninga til en lineær funksjon når to punkter på grafen er kjent uten bruk av topunktsformelen
+
+Grafen til en lineær funksjon går gjennom punktene $(-1, 5)$ og $(2, 2)$. Forklar hvordan vi kan finne likninga til den lineære funksjonen.
+
+##### Vurderingskriterier: Middels
+
+Finne likninga og forklare hvordan på en slik måte at man klart forstår det generelle i fremgangsmåten (kunne åpenbart blitt brukt for hvilke som helst punkt-par).
+
+### Forklare hvordan endringer i parameterne i funksjonsuttrykket påvirker grafene til andregrads- og omvendt proporsjonale funksjoner
+
+#### Grunnleggende: Gjengi hvilke roller parameterne i funksjonsuttrykkene til andregrads- og omvendt proporsjonale funksjoner spiller med hensyn til grafene
+
+En omvendt proporsjonal funksjon kan skrives på formen $\frac{a}{x}$. Vis i et koordinatsystem hvordan grafen ser ut dersom $a>0$ og dersom $a<0$.
+
+Skisser grafen til $f$ og $g$ der $f(x)=x(x-5)$ og  $g(x)=x(x-5) + 2$
+
+##### Vurderingskriterier: Grunnleggende {#170231}
+
+1. Peke på hva parameterne gjør for andregradsfunksjoner
+2. Skissere de to omvendt proporsjonale grafene.  
+
+#### Middels: Forklare hvordan endringer i parameterne i funksjonsuttrykket påvirker grafene til andregrads- og omvendt proporsjonale funksjoner
+
+Se 31.03    
+
+### Løse likninger fra funksjonsperspektiv
+
+#### Grunnleggende: Forklare algebraisk og grafisk hva som menes med løsningen av en lineær likning
+
+Gitt likningen $2(2x-2) = 2$.
+
+Løs likningen
+Tolk venstre side og høyre side som funksjonsuttrykk, og skisser grafene i samme koordinatsystem.
+Forklar algebraisk og grafisk hva det vil si at tallet du fant i 1. er en løsning på likningen.
+
+##### Vurderingskriterier: Grunnleggende {#170241}
+
+Alle oppgaver må besvares.  
+
+1. Likningen må løses.
+2. Her må de tolke og skissere begge grafene i samme koordinatsystem.
+3. Gi en forklaring som viser sammenhengen mellom at løsning gir likhet av venstre og høyre side i likningen og at det tilsvarer skjæringspunktet mellom grafene.  
+
+#### Middels: Tolke lineære likninger grafisk, og finne skjæringspunkt mellom lineære grafer og mellom lineære grafer og aksene
+
+1. Gi en situasjon som passer til funksjonen $f(x)= 150x$. Hva svarer likninga $150x = 3000$ til i situasjonsbeskrivelsen din? Tolk og løs likningen grafisk i et koordinatsystem.
+
+##### Vurderingskriterier: Middels {#170242}
+
+De må lage en situasjon som gir likningen. Deretter må de illustrere likningen grafisk og vise løsningen i koordinatsystemet.
+
+#### Avansert: Tolke likninger grafisk, og finne skjæringspunkt mellom grafer til ulike typer funksjoner og mellom grafer og aksene
+
+La $f(x)=x^2 + 4x -1$  og  $g(x)= x^2 + 2x -3  $.
+
+Bestem eventuelle skjæringspunkt (begge koordinater) mellom grafene til $f$ og $g$ ved regning.
+
+Skisser grafene i et koordinatsystem.
+
+##### Vurderingskriterier: Avansert {#170243}
+
+Alle oppgavene må besvares
+
+1. Studenten må regne ut skjæringspunktene.
+2. Studenten må skissere grafene i et koordinatsystem.
+
+### Bruke begrepene funksjon, variabel, uavhengig variabel (innverdi), avhengig variabel (utverdi), funksjonsverdi, definisjonsmengde og verdimengde
+
+#### Grunnleggende: Gjengi, forklare og gi eksempler på begrepene
+
+Sammenhengen mellom sidelengden og arealet av et kvadrat er en funksjonssammenheng. Bruk eksemplet til å forklare begrepene funksjon, innverdi og funksjonsverdi.
+
+##### Vurderingskriterier: Grunnleggende {#170251}
+
+Her må de peke på at arealet av en kvadrat med sidelengde $r$ er $r^2$ (altså at $A(r) = r^2$). Arealet er derfor en funksjon av $r$ (innverdi) fordi hver sidelengde $r$ gir et entydig areal (som her er funksjonsverdien).
+
+#### Middels: Avgjøre og begrunne (ved hjelp av begrepene) om en gitt sammenheng er en funksjonssammenheng
+
+Til hvert av punktene A) og B), er to variabler beskrevet.
+
+Avgjør i hvert tilfelle om én av variablene er funksjon av den andre, begge variabler er funksjon av hverandre, eller ingen av dem er funksjon av den andre. Besvarelsen må inneholde ordene innverdi og funksjonsverdi, definisjons- og verdimengde.
+
+
+
+A) Sammenhengen mellom arealet av og radius av en sirkel.
+
+B) Sammenhengen mellom areal og omkrets i et rektangel.
+
+##### Vurderingskriterier: Middels {#170252}
+
+Besvarelsene *må* inneholde ordene innverdi, funksjonsverdi, definisjons- og verdimengde.
+A. Studenten må få fram at det kun er én sirkel som har ett bestemt areal. Dermed er radius entydig bestemt av arealet. Dermed blir radius (utverdi) entydig bestemt av areal (innverdi). Det er klart at det kun er positive areal vi kan ha, dermed er definisjonsmendgen, de eneste innverdiene vi kan gi, alle de positive tallene. Vi kan også se at radius entydig bestemmer arealet til en sirkel, og dermed er arealet også en funksjon av radius. Siden arealet kunne være alle positive verdier ser vi at i dette tilfellet vil verdimengden også være alle positive verdier.
+B. Siden det finnes flere rektangler med samme omkrets er omkretsen ikke nok til å avgjøre hva arealet er. Arealet er altså *ikke* en funksjon av omkretsen. Tilsvarende kan vi heller ikke avgjøre omkretsen av et rektangel basert på arealet. Dette kan vi for eksempel se ved å merke oss at et 2 cm bredt og 4 cm langt rektangel har likt areal som et rektangel som har lengder 1 cm og 8 cm, men disse har ulike omkretser. 
+
+### Gjøre om mellom ulike representasjonsformer for funksjonssammenhenger
+
+#### Middels: Gjøre om mellom de fire representasjonene av funksjoner (Janviers tabell, Alfa 4.1), og vurdere elevers arbeid med overganger mellom representasjonene
+
+Under ser du en skisse av Henriks reisevei til jobb dersom han kjører bil. Fartsgrensene gjelder hver av de rette strekkene.
+
+1. Lag en passende tabell som viser fart som funksjon av tid på Henriks kjøretur til jobb.
+2. Skisser en graf til samme situasjon.
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-31-09-44-03.png)
+
+##### Vurderingskriterier: Middels {#170262}
+
+1. Studentene må lage en passende tabell som viser *fart* som funksjon av tid (dette er altså ikke samme oppgave som ble gitt 31.03). Funksjonen bør (men må ikke) bruke overgangene mellom fartsgrensene, slik at skisseringen i neste oppgave tydelig henger sammen med tabellen.
+2. Studentene må skissere en graf som får fram sammenhengen på en riktig måte, den må også samsvare med tabellen som er beskrevet i 1.. \
+Siden strekningen inneholder ulike soner med ulike hastigheter *må* dette være gjenspeilet i grafen.
+
 ## 28.04.23
 
 ### Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon
