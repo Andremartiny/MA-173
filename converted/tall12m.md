@@ -35,7 +35,7 @@ $$
 
 #### Middels: Forklare begrepet og regne med desimaltall,  08.05
 
-1. Regn ut, og vis tydelig at beregningen er riktig: \(0.07 + 0.444 \)
+1. Regn ut, og vis tydelig at beregningen er riktig: $0.07 + 0.444$
 
 2. Divisjonen $2.8 : 0.07$ kan gjøres ved å regne $28 : 7$, for deretter å flytte desimalkommaet til riktig plass. Forklar hvordan og hvorfor.
 

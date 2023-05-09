@@ -34,7 +34,7 @@
 
 1. Finn $35 \ \%$ av $180$ på to måter.
 
-2. En gruppe mennesker ble spurt om hva de vanligvis spiser til middag på fredager. 36 av dem svarte taco. Utvalget var *åpenbart* ikke representativt, da andelen tacospisere var pinlige \(4 \ \% \) av de spurte. Hvor mange mennesker bestod hele utvalget av? (Du kan ikke stjele løsningen fra oppgave 2 under avansert.)
+2. En gruppe mennesker ble spurt om hva de vanligvis spiser til middag på fredager. 36 av dem svarte taco. Utvalget var *åpenbart* ikke representativt, da andelen tacospisere var pinlige $4 \ \%$ av de spurte. Hvor mange mennesker bestod hele utvalget av? (Du kan ikke stjele løsningen fra oppgave 2 under avansert.)
 
 3. På en test svarte André rett på $17$ av $20$ spørsmål. Hvor mange prosent rett hadde han? 
 

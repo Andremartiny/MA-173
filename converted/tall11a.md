@@ -115,7 +115,7 @@ $$
 
 Vis at uttrykket i a. har verdien 2/3, og uttrykket i b. verdien 0. 
 
-a. \((\frac{11}{3+\frac{2}{3}}\cdot \frac{1}{6}) : \frac{3}{4}\)
+a. $(\frac{11}{3+\frac{2}{3}}\cdot \frac{1}{6}) : \frac{3}{4}$
 
 b. $\frac{(4 \ : \frac{6}{5})\cdot (-\frac{21}{20})}{1+\frac{2}{\frac{3}{2}}}+\frac{3}{2}$
 

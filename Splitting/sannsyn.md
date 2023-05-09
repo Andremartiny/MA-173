@@ -407,14 +407,14 @@ Studenten må gi en forklaring som bruker begrepene, samt gi et eksempel.
 
 #### Middels: Avgjøre og begrunne om situasjoner er en sannsynlighetsmodell
 
-1. Hva er galt med denne sannsynlighetsmodellen? \(U = \{u_1, u_2, u_3\} \), \(P(u_1) = 0,5\), \(P(u_2) = 0,4\) og \(P(\{u_1, u_2\}) = 0.2\)?
+1. Hva er galt med denne sannsynlighetsmodellen? $U = \{u_1, u_2, u_3\}$, $P(u_1) = 0,5$, $P(u_2) = 0,4$ og $P(\{u_1, u_2\}) = 0.2$?
 
-2. La et forsøk ha et utfallsrom \(U = { u_1, u_2, u_3, u_4} \), slik at \(P(\{u_1,u_3\}) = 0.6\) og \(P(\{u_2, u_3\}) = 0.7\). Kan \(P(u_3) =  0.1\)?
+2. La et forsøk ha et utfallsrom $U = { u_1, u_2, u_3, u_4}$, slik at $P(\{u_1,u_3\}) = 0.6$ og $P(\{u_2, u_3\}) = 0.7$. Kan $P(u_3) =  0.1$?
 
 ##### Vurderingskriterier
 
-1. Studenten må peke på at det kun er en sannsynlighetsmodell hvis \(0. 2 = P(\{u_1, u_2\}) = P(u_1) + P(u_2) = 0.5+0.4\), men \(0.2\) er jo ikke lik \(0.9\).
-2. Siden \(1.3 = 0.6+0.7 = P(\{u_1,u_3\}) + P(\{u_2,u_3\}) = P(u_1)+P(u_2)+2P(u_3)\), ser vi at hvis \(P(u_3) = 0.1\) så vil \(1.1 = 1.2-P(u_3) = P(u_1)+P(u_2)+2P(u_3)\). Dette gir ingen mening siden \(P(u_1)+P(u_2)+2P(u_3)\) ikke kan være større enn \(1\) samtidig som det vil være lik sannsynligheten for tre enkelutufall i utfallsrommet. Noe som gir en motsigelse.
+1. Studenten må peke på at det kun er en sannsynlighetsmodell hvis $0. 2 = P(\{u_1, u_2\}) = P(u_1) + P(u_2) = 0.5+0.4$, men $0.2$ er jo ikke lik $0.9$.
+2. Siden $1.3 = 0.6+0.7 = P(\{u_1,u_3\}) + P(\{u_2,u_3\}) = P(u_1)+P(u_2)+2P(u_3)$, ser vi at hvis $P(u_3) = 0.1$ så vil $1.1 = 1.2-P(u_3) = P(u_1)+P(u_2)+2P(u_3)$. Dette gir ingen mening siden $P(u_1)+P(u_2)+2P(u_3)$ ikke kan være større enn $1$ samtidig som det vil være lik sannsynligheten for tre enkelutufall i utfallsrommet. Noe som gir en motsigelse.
 
 ### Forklare og bruke begrepet uniform sannsynlighetsmodell
 
@@ -432,7 +432,7 @@ Se 31.03
 
 #### Avansert: Sette opp uniforme sannsynlighetsmodeller fra en gitt situasjon
 
-Det er 18 personer i en klasse. Det skal velges ut tre elever som skal være i elevrådet og alle tre skal trekkes tilfeldig. Henrik vil veldig gjerne være med i elevrådet. Sett opp en uniform sannsynlighetsmodell som får fram at det er \(\frac{3}{18}\) sannsynlighet for at Henrik får være med i elevrådet.
+Det er 18 personer i en klasse. Det skal velges ut tre elever som skal være i elevrådet og alle tre skal trekkes tilfeldig. Henrik vil veldig gjerne være med i elevrådet. Sett opp en uniform sannsynlighetsmodell som får fram at det er $\frac{3}{18}$ sannsynlighet for at Henrik får være med i elevrådet.
 
 ##### Vurderingskriterier
 
@@ -485,8 +485,8 @@ Studenten må gi eksempler som de blir bedt om, og de må forklare hva et ordnet
 
 Studenten må gi en forståelig og riktig begrunnelse i begge oppgavene. I tillegg må de finne antall muligheter i utvalget.
 
-1. Studenten kan peke på at vi kan rangere vennene fra 1-5. Deretter kan vi da avgjøre hvem som skal gå ved å sette opp en 5-tuppel \(a_1, a_2, a_3, a_4, a_5\), der de forskjellige a'ene kan være 0 eller 1, hvor 0 betyr at de ikke blir med og 1 betyr at de blir med. For eksempel betyr \(0,1,1,0,0\) at venn 1, 4 og 5 ikke blir med, mens venn 2 og 3 blir med. Nå kan en tydelig se at en har fem posisjoner der en kan trekke 0 eller 1 i hvert utvalg (med tilbakelegg) og at rekkefølgen betyr noe siden de ulike posisjonene forteller hvilken venn det er snakk om. Vi ser derfor at vi har \(2\) valg fem ganger. Multiplikasjonsprinsippet gir dermed at det er \(2^5\) mulige utvalg.
-2. Studenten må peke på at én hest ikke kan komme på flere plasser, dermed er det uten tilbakelegg. Det er også forskjell på om hest nummer 8 kommer på 4 eller 1 eller 2 plass, dermed er det ordnet. Vi har dermed \(8\) muligheter for første, så \(7\), så \(6\). Det gir totalt \(8\cdot 7\cdot 6\) muligheter.
+1. Studenten kan peke på at vi kan rangere vennene fra 1-5. Deretter kan vi da avgjøre hvem som skal gå ved å sette opp en 5-tuppel $a_1, a_2, a_3, a_4, a_5$, der de forskjellige a'ene kan være 0 eller 1, hvor 0 betyr at de ikke blir med og 1 betyr at de blir med. For eksempel betyr $0,1,1,0,0$ at venn 1, 4 og 5 ikke blir med, mens venn 2 og 3 blir med. Nå kan en tydelig se at en har fem posisjoner der en kan trekke 0 eller 1 i hvert utvalg (med tilbakelegg) og at rekkefølgen betyr noe siden de ulike posisjonene forteller hvilken venn det er snakk om. Vi ser derfor at vi har $2$ valg fem ganger. Multiplikasjonsprinsippet gir dermed at det er $2^5$ mulige utvalg.
+2. Studenten må peke på at én hest ikke kan komme på flere plasser, dermed er det uten tilbakelegg. Det er også forskjell på om hest nummer 8 kommer på 4 eller 1 eller 2 plass, dermed er det ordnet. Vi har dermed $8$ muligheter for første, så $7$, så $6$. Det gir totalt $8\cdot 7\cdot 6$ muligheter.
 
 ### Forklare og bruke begrepene uordnet utvalg med og uten tilbakelegg
 
@@ -515,8 +515,8 @@ Studenten må gi eksempler som de blir bedt om, og de må forklare hva et ordnet
 
 Studenten må gi en forståelig og riktig begrunnelse i begge oppgavene. I tillegg må de finne antall muligheter i utvalget.
 
-1. Studenten bør peke på at en ikke kan velge samme bok flere ganger (uten tilbakelegg), og at rekkefølgen han velger ut i ikke er av betydning (uordna). Dermed får vi \(6\cdot 5\cdot 4\) muligheter, men siden vi ikke bryr oss om rekkefølge så teller vi hvert utvalg \(3\cdot 2\cdot 1\) ganger. Vi kan derfor dele på \(6\) og se at det er \(20\) muligheter.
-2. Studenten må begrunne at vi kan velge samme is flere ganger (med tilbakelegg), men at det ikke er viktig hvilken rekkefølge vi velger isen i (uordna). Deretter må de finne utvalget. En naturlig måte vil være å telle på en strukturert måte, for eksempel ved hjelp av en tabell, slik som under. Teller vi over ser vi at det er \(15\) mulige utvalg.
+1. Studenten bør peke på at en ikke kan velge samme bok flere ganger (uten tilbakelegg), og at rekkefølgen han velger ut i ikke er av betydning (uordna). Dermed får vi $6\cdot 5\cdot 4$ muligheter, men siden vi ikke bryr oss om rekkefølge så teller vi hvert utvalg $3\cdot 2\cdot 1$ ganger. Vi kan derfor dele på $6$ og se at det er $20$ muligheter.
+2. Studenten må begrunne at vi kan velge samme is flere ganger (med tilbakelegg), men at det ikke er viktig hvilken rekkefølge vi velger isen i (uordna). Deretter må de finne utvalget. En naturlig måte vil være å telle på en strukturert måte, for eksempel ved hjelp av en tabell, slik som under. Teller vi over ser vi at det er $15$ mulige utvalg.
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/sannsyn/iskrem.svg)
 
 ### Avgjøre om utvalg er ordnet eller uordnet og om det er med eller uten tilbakelegg
@@ -567,11 +567,11 @@ Forklar begrepet komplement ved hjelp av et eksempel.
 
 #### Middels: Forklare og illustrere komplementsetningen i sannsynlighet
 
-Du skal spille et kortspill og er interessert i sannsynligheten for hendelse \(A\). Du får vite at \(P(A^C) = 0.4\). Hva er \(P(A)\)?
+Du skal spille et kortspill og er interessert i sannsynligheten for hendelse $A$. Du får vite at $P(A^C) = 0.4$. Hva er $P(A)$?
 
 ##### Vurderingskriterier
 
-Studenten må bare bruke komplementsetningen til å peke på at \(P(A) + P(A^C) = 1\), noe som gir at \(P(A) = 0.6\).
+Studenten må bare bruke komplementsetningen til å peke på at $P(A) + P(A^C) = 1$, noe som gir at $P(A) = 0.6$.
 
 #### Avansert: Forklare, illustrere og bruke komplementsetningen i sannsynlighet
 
@@ -579,7 +579,7 @@ Det er 13 gutter og 12 jenter i en klasse. Det skal trekkes en tilfeldig gruppe 
 
 ##### Vurderingskriterier
 
-Studenten må regne ut sannsynligheten på en forståelig måte. Det kan for eksempel gjøres ved å tenke at alle mulige utvalg er like sannsynlige og at det er et uordnet utvalg uten tilbakelegg. Det gir en uniform sannsynlighetsmodell med \(\frac{25\cdot 24\cdot 23}{3\cdot 2\cdot 1} = 25\cdot 4\cdot 23 = 2300\) mulige utfall. Vi er nå interessert i hendelsen *minst én jente*. Finner vi sannsynligheten for å velge ut *kun* gutter kan vi bruke at dette er komplementærhendelsen til hendelsen vi er ute etter. Siden det er \(\frac{12\cdot 11\cdot 10}{3\cdot 2\cdot 1} ={2\cdot 11\cdot 10} = 220\) mulge utvalg som inneholder kun gutter må sannsynligheten for å trekke minst én jente være \(1 - \frac{220}{2300}\).
+Studenten må regne ut sannsynligheten på en forståelig måte. Det kan for eksempel gjøres ved å tenke at alle mulige utvalg er like sannsynlige og at det er et uordnet utvalg uten tilbakelegg. Det gir en uniform sannsynlighetsmodell med $\frac{25\cdot 24\cdot 23}{3\cdot 2\cdot 1} = 25\cdot 4\cdot 23 = 2300$ mulige utfall. Vi er nå interessert i hendelsen *minst én jente*. Finner vi sannsynligheten for å velge ut *kun* gutter kan vi bruke at dette er komplementærhendelsen til hendelsen vi er ute etter. Siden det er $\frac{12\cdot 11\cdot 10}{3\cdot 2\cdot 1} ={2\cdot 11\cdot 10} = 220$ mulge utvalg som inneholder kun gutter må sannsynligheten for å trekke minst én jente være $1 - \frac{220}{2300}$.
 
 ### Bruke begrepene i temaet til å løse sammensatte problemer
 
@@ -598,10 +598,10 @@ Studenten må besvare *alle* spørsmålene på en rimelig måte.
 
 1. Her finnes ingen eksakt fasit, men en besvarelse bør inneholder noe som peker på og *begrunner* hvorfor dette er tilfellet. Det kan for eksempel være ved å lage en tabell som viser de ulike mulige utfallene, som under.
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/sannsyn/terningkast0805.svg)
-I tabellen kan man se at det er 27 av de 36 mulige utfallene som gir et partall. Dette kan også forklares ved at en kun får oddetall ved at begge terningene slår oddetall. Det er kun 3 mulige utfall i begge terningkastene, altså totalt \(9\) forskjellige utfall som gir oddetall.
-2. Svaret bør allerede være argumenter for i oppgave 1. Sannsynligheten er \(\frac{27}{36}= \frac{3}{4}\).
-3. Her kan studenten ty til multiplikasjonsprinsippet. Det er \(27\) mulige gunstige utfall i hvert av de fire kastene, dermed \(27^4\) mulige gunstige utfall. Totalt er det \(36^4\) mulige utfall (36 utfall i hvert enkeltkast). Siden alle mulige utfall er like sannsynlige får vi en sannsynlighet på \(\frac{27^4}{36^4}\).
-4. Studenten kan for eksempel bruke at dette kan skje på følgende måter \(OOPP\), \(OPOP\), \(OPPO\), \(POOP\), \(POPO\) og \(PPOO\), der \(P\) er partall og \(O\) er oddetall. Hver av disse seks mulige rekkefølgene er like sannsynlige, så vi må bare finne sannsynligheten for hver av de. Vi kan for eksempel ta for oss \(OOPP\) og se at vi er på utkikk etter antall muligheter som gir oddetall, så oddetall, så partall så partall. Vi vet nå at dette betyr at det er \(9\) muligheter, så \(9\), så \(27\) så \(27\). Totalt gir multiplikasjonsprinsippet at det er \(9\cdot 9 \cdot 27\cdot 27\) mulige måter for å først få oddetall, så oddetall så partall så partall. Sannsynligheten for \(OOPP\) blir da \(\frac{9^2\cdot 27^2}{36^4}\). Siden dette også er sannsynligheten for alle mulige utfallene får vi en sannsynlighet for å få nøyaktig to oddetall og to partall ved fire kast lik \(6\cdot \frac{9^2\cdot 27^2}{36^4}\).
+I tabellen kan man se at det er 27 av de 36 mulige utfallene som gir et partall. Dette kan også forklares ved at en kun får oddetall ved at begge terningene slår oddetall. Det er kun 3 mulige utfall i begge terningkastene, altså totalt $9$ forskjellige utfall som gir oddetall.
+2. Svaret bør allerede være argumenter for i oppgave 1. Sannsynligheten er $\frac{27}{36}= \frac{3}{4}$.
+3. Her kan studenten ty til multiplikasjonsprinsippet. Det er $27$ mulige gunstige utfall i hvert av de fire kastene, dermed $27^4$ mulige gunstige utfall. Totalt er det $36^4$ mulige utfall (36 utfall i hvert enkeltkast). Siden alle mulige utfall er like sannsynlige får vi en sannsynlighet på $\frac{27^4}{36^4}$.
+4. Studenten kan for eksempel bruke at dette kan skje på følgende måter $OOPP$, $OPOP$, $OPPO$, $POOP$, $POPO$ og $PPOO$, der $P$ er partall og $O$ er oddetall. Hver av disse seks mulige rekkefølgene er like sannsynlige, så vi må bare finne sannsynligheten for hver av de. Vi kan for eksempel ta for oss $OOPP$ og se at vi er på utkikk etter antall muligheter som gir oddetall, så oddetall, så partall så partall. Vi vet nå at dette betyr at det er $9$ muligheter, så $9$, så $27$ så $27$. Totalt gir multiplikasjonsprinsippet at det er $9\cdot 9 \cdot 27\cdot 27$ mulige måter for å først få oddetall, så oddetall så partall så partall. Sannsynligheten for $OOPP$ blir da $\frac{9^2\cdot 27^2}{36^4}$. Siden dette også er sannsynligheten for alle mulige utfallene får vi en sannsynlighet for å få nøyaktig to oddetall og to partall ved fire kast lik $6\cdot \frac{9^2\cdot 27^2}{36^4}$.
 
 ## 28.04.23
 
@@ -617,8 +617,8 @@ Studenten må gi en forklaring som bruker begrepene, samt gi et eksempel.
 
 #### Middels: Avgjøre og begrunne om situasjoner er en sannsynlighetsmodell
 
-1. Hva er galt med denne sannsynlighetsmodellen? \(U = \{u_1, u_2, u_3\} \), \(P(u_1) = 0,5\), \(P(u_2) = 0,4\) og \(P(u_3) = 0.2\)?
-2. La et forsøk ha et utfallsrom \(U = { u_1, u_2, u_3, u_4, u_5} \). Forklar at \(P(\{u_3\})\) må være større enn \(0.2\) hvis \(P(\{u_1,u_3\}) = 0.8\) og \(P(\{u_2, u_3\}) = 0.4\).  
+1. Hva er galt med denne sannsynlighetsmodellen? $U = \{u_1, u_2, u_3\}$, $P(u_1) = 0,5$, $P(u_2) = 0,4$ og $P(u_3) = 0.2$?
+2. La et forsøk ha et utfallsrom $U = { u_1, u_2, u_3, u_4, u_5}$. Forklar at $P(\{u_3\})$ må være større enn $0.2$ hvis $P(\{u_1,u_3\}) = 0.8$ og $P(\{u_2, u_3\}) = 0.4$.  
 
 ##### Vurderingskriterier
 
@@ -776,11 +776,11 @@ Forklar og illustrere addisjonssetningen for to mengder (Setning 7.53) ved hjelp
 
 #### Avansert: Bruke addisjonssetningen for å undersøke problemer
 
-Det er \(30\) tall under \(121\) som er delelig på 4 fordi \({121 \over 4} = 30+ \text{én i rest}\).
+Det er $30$ tall under $121$ som er delelig på 4 fordi ${121 \over 4} = 30+ \text{én i rest}$.
 
 1. Hvor mange tall under 121 er delelig på enten 4, 11 eller 59? Besvarelsen må inneholde en illustrasjon som får fram hvordan du har løst problemet.
 
-2. Du velger et tilfeldig tall under \(121\). Hva er sannsynligheten for at tallet er delelig på 4, 11 eller 59?
+2. Du velger et tilfeldig tall under $121$. Hva er sannsynligheten for at tallet er delelig på 4, 11 eller 59?
 
 ##### Vurderingskriterier
 
@@ -797,7 +797,7 @@ Forklar begrepet komplement ved hjelp av et eksempel.
 
 #### Middels: Forklare og illustrere komplementsetningen i sannsynlighet
 
-Sannsynligheten for hendelsen \(A\) er \(0.4\). Forklar, ved hjelp av en illustrasjon, hva \(P(A^C)\) er.
+Sannsynligheten for hendelsen $A$ er $0.4$. Forklar, ved hjelp av en illustrasjon, hva $P(A^C)$ er.
 
 ##### Vurderingskriterier
 

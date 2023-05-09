@@ -33,7 +33,7 @@ Forklar hvorfor alle summer av tre påfølgende naturlige tall har felles faktor
 
 ##### Vurderingskriterier
 
-Studenten må gi en forklaring som begrunner påstanden. Dette kan gjøres på flere måter (generisk eksemplel med/uten figur, formelt etc). Et formelt argument er for eksempel at en vilkårlig sum av tre påfølgende tall kan skrives som \((n-1) +n + (n+1) = 3n\), der \(n\) er et naturlig tall større enn 1. Vi ser nå at påstanden faller ut automatisk. 
+Studenten må gi en forklaring som begrunner påstanden. Dette kan gjøres på flere måter (generisk eksemplel med/uten figur, formelt etc). Et formelt argument er for eksempel at en vilkårlig sum av tre påfølgende tall kan skrives som $(n-1) +n + (n+1) = 3n$, der $n$ er et naturlig tall større enn 1. Vi ser nå at påstanden faller ut automatisk. 
 
 #### Middels: Bruke begrepene faktor (divisor), felles faktor og største felles faktor, multiplum, felles multiplum og minste felles multiplum,  28.04
 

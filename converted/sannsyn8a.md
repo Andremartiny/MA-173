@@ -23,11 +23,11 @@ Se oppgave 1 øveoppgaver. Merk at oppgaven *må* også inneholde en illustrasjo
 
 #### Avansert: Forklare, illustrere og bruke addisjonssetningen (for sannsynlighet og kombinatorikk),  28.04.23
 
-Det er \(30\) tall under \(121\) som er delelig på 4 fordi \({121 \over 4} = 30+ \text{én i rest}\).
+Det er $30$ tall under $121$ som er delelig på 4 fordi ${121 \over 4} = 30+ \text{én i rest}$.
 
 1. Hvor mange tall under 121 er delelig på enten 4, 11 eller 59? Besvarelsen må inneholde en illustrasjon som får fram hvordan du har løst problemet.
 
-2. Du velger et tilfeldig tall under \(121\). Hva er sannsynligheten for at tallet er delelig på 4, 11 eller 59?
+2. Du velger et tilfeldig tall under $121$. Hva er sannsynligheten for at tallet er delelig på 4, 11 eller 59?
 
 ##### Vurderingskriterier
 

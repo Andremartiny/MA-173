@@ -63,7 +63,7 @@ Finn en eksplisitt formel på to forskjellige måter.
 
 ##### Vuderingskriterier
 
-Vi begynner med å analysere utviklingen av tallrekka. Vi ser at økningen er \(6\) så \(8\), så \(10\) og så \(12\). Tilleggene øker altså med \(2\). Dermed kan vi skrive 
+Vi begynner med å analysere utviklingen av tallrekka. Vi ser at økningen er $6$ så $8$, så $10$ og så $12$. Tilleggene øker altså med $2$. Dermed kan vi skrive 
 $$
 \begin{aligned}
 F_1 & = 2
@@ -95,7 +95,7 @@ F_n
 \end{aligned}
 $$
 
-Vi kan nå bruke formelen til å trekke ut en måte å lage figuren. Vi ser at det er to trekanttall og to linjer med lengde \(n\), der det i tillegg er trukket vekk 2. (Figuren får man lage selv 😉).
+Vi kan nå bruke formelen til å trekke ut en måte å lage figuren. Vi ser at det er to trekanttall og to linjer med lengde $n$, der det i tillegg er trukket vekk 2. (Figuren får man lage selv 😉).
 
 
 #### Avansert: Beskrive oppbygningen av figurtall (alle typer),  28.04

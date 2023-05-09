@@ -57,9 +57,9 @@
 
 1. Avgjør og begrunn hvilken multiplikativ struktur situasjonene svarer til.
 
-a.  Prisen du betaler for parkering når satsen er \(22\) kr per time. 
+a.  Prisen du betaler for parkering når satsen er $22$ kr per time. 
 b.  Skolens ballbane er tre ganger lengre enn den er bred.
-c.  Antall liter yoghurt på et brett med \(12\) beger, når hvert beger inneholder $0.25$ liter.   
+c.  Antall liter yoghurt på et brett med $12$ beger, når hvert beger inneholder $0.25$ liter.   
 
 2. Ta utgangspunkt i situasjon c. Legg til nødvendig informasjon, og omformuler på to måter: slik at du lager én divisjonsoppgave med målingsdivisjon og én med delingsdivisjon. Begrunn hvilken som er hva.  
 

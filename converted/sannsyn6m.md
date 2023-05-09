@@ -52,8 +52,8 @@
 
 Studenten må gi en forståelig og riktig begrunnelse i begge oppgavene. I tillegg må de finne antall muligheter i utvalget.
 
-1. Studenten bør peke på at en ikke kan velge samme bok flere ganger (uten tilbakelegg), og at rekkefølgen han velger ut i ikke er av betydning (uordna). Dermed får vi \(6\cdot 5\cdot 4\) muligheter, men siden vi ikke bryr oss om rekkefølge så teller vi hvert utvalg \(3\cdot 2\cdot 1\) ganger. Vi kan derfor dele på \(6\) og se at det er \(20\) muligheter.
-2. Studenten må begrunne at vi kan velge samme is flere ganger (med tilbakelegg), men at det ikke er viktig hvilken rekkefølge vi velger isen i (uordna). Deretter må de finne utvalget. En naturlig måte vil være å telle på en strukturert måte, for eksempel ved hjelp av en tabell, slik som under. Teller vi over ser vi at det er \(15\) mulige utvalg.
+1. Studenten bør peke på at en ikke kan velge samme bok flere ganger (uten tilbakelegg), og at rekkefølgen han velger ut i ikke er av betydning (uordna). Dermed får vi $6\cdot 5\cdot 4$ muligheter, men siden vi ikke bryr oss om rekkefølge så teller vi hvert utvalg $3\cdot 2\cdot 1$ ganger. Vi kan derfor dele på $6$ og se at det er $20$ muligheter.
+2. Studenten må begrunne at vi kan velge samme is flere ganger (med tilbakelegg), men at det ikke er viktig hvilken rekkefølge vi velger isen i (uordna). Deretter må de finne utvalget. En naturlig måte vil være å telle på en strukturert måte, for eksempel ved hjelp av en tabell, slik som under. Teller vi over ser vi at det er $15$ mulige utvalg.
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/sannsyn/iskrem.svg)
 
 

@@ -855,7 +855,7 @@ a. 165: Tideler er (ti ganger) større enn hundredeler. 0,1 er én tidel. 0,17 e
 b.  1.66: \
 1,20 \| 2,05 \| 1,008 \| 0,65 \| 3,204
 c.  1.67
-   1. \(1\frac{7}{10} = 1,7\)
+   1. $1\frac{7}{10} = 1,7$
    2. $\frac{4}{10} = 0,4$
    3. $\frac{2}{10} + \frac{3}{100} = 0,23$
    4. $5\frac{6}{100} = 5,06$
@@ -1477,14 +1477,14 @@ Må få frem ideen om at sifrenes posisjon avgjør verdien de står for, og at d
 #### Middels
 
 1. Forklar kort hva et posisjonssystem er.
-2. Gjør om \(139_{ti}\) til base syv.
+2. Gjør om $139_{ti}$ til base syv.
 3. $333_{fire}$ til base seks uten å regne ut i base ti først.
 
 ##### Vurderingskriterier
 
 1. Som grunnleggende. 
-2. \(256_{syv}\) Det må gå frem hvordan omgjøringen er gjort.
-3. \(143_{seks}\) Det må gå frem hvordan omgjøringen er gjort. Feks slik: 
+2. $256_{syv}$ Det må gå frem hvordan omgjøringen er gjort.
+3. $143_{seks}$ Det må gå frem hvordan omgjøringen er gjort. Feks slik: 
 
 $$
 \begin{aligned} 333_{fire}  &= 3 \cdot 4^2 + 3 \cdot 4+3 
@@ -1505,8 +1505,8 @@ b. $888_{ni} : \ 7_{ni}$
 
 ##### Vurderingskriterier
 
-1. \(153_{tolv}\) Må vise omgjøring som i oppgave 3 middels. 
-2. a. \(1\text{BB}0_{tolv}\). b. \(125_{ni}\)
+1. $153_{tolv}$ Må vise omgjøring som i oppgave 3 middels. 
+2. a. $1\text{BB}0_{tolv}$. b. $125_{ni}$
 
 ### Beskrive situasjoner med hensyn til additive strukturer
 
@@ -1524,9 +1524,9 @@ Additive strukturer s. 52 i Alfa.
 
 1. For hver situasjon under, lag to oppgaver med ulik additiv struktur, og begrunn hvilke strukturer de har. Blant de fire oppgavene må det være minst tre ulike strukturer. 
 
-a. Klinkekulesamlinga til André inneholder \(16\) klinkekuler mer enn Henriks samling, som inneholder \(324\) kuler. 
+a. Klinkekulesamlinga til André inneholder $16$ klinkekuler mer enn Henriks samling, som inneholder $324$ kuler. 
 
-b. Klinkekuler er kostbare. Henrik velger derfor, med tungt hjerte, å selge noen av enhjørning-klistremerkeene sine. Før salget av \(1400\) klistremerker, inneholdt den beskjedne samlinga \(3599\) klistremerker. 
+b. Klinkekuler er kostbare. Henrik velger derfor, med tungt hjerte, å selge noen av enhjørning-klistremerkeene sine. Før salget av $1400$ klistremerker, inneholdt den beskjedne samlinga $3599$ klistremerker. 
 
 
 ##### Vurderingskriterier
@@ -1549,9 +1549,9 @@ Multiplikative strukturer s. 58 i Alfa.
 
 1. Avgjør og begrunn hvilken multiplikativ struktur situasjonene svarer til.
 
-a.  Prisen du betaler for parkering når satsen er \(22\) kr per time. 
+a.  Prisen du betaler for parkering når satsen er $22$ kr per time. 
 b.  Skolens ballbane er tre ganger lengre enn den er bred.
-c.  Antall liter yoghurt på et brett med \(12\) beger, når hvert beger inneholder $0.25$ liter.   
+c.  Antall liter yoghurt på et brett med $12$ beger, når hvert beger inneholder $0.25$ liter.   
 
 2. Ta utgangspunkt i situasjon c. Legg til nødvendig informasjon, og omformuler på to måter: slik at du lager én divisjonsoppgave med målingsdivisjon og én med delingsdivisjon. Begrunn hvilken som er hva.  
 
@@ -1665,16 +1665,16 @@ Som grunnleggende, men med presisering av naturlige også, samt et diagram eller
 
 #### Grunnleggende: Utvide og forkorte brøker
 
-1. Finn den likeverdige brøken til \(\frac{2,1}{7}\) som har lavest mulig heltallig teller og nevner.
+1. Finn den likeverdige brøken til $\frac{2,1}{7}$ som har lavest mulig heltallig teller og nevner.
 
-2. Uten å gjøre om til desimaltall, finn en brøk som ligger mellom \(\frac{5}{6}\) og \(\frac{7}{8}\). 
+2. Uten å gjøre om til desimaltall, finn en brøk som ligger mellom $\frac{5}{6}$ og $\frac{7}{8}$. 
 
 
 3. Forkort/utvid brøkene til firedeler.
 
-a. \(\frac{15}{6}\)
+a. $\frac{15}{6}$
 
-b. \(\frac{2}{\frac{2}{3}}\)
+b. $\frac{2}{\frac{2}{3}}$
 
 ##### Vurderingskriterier
 
@@ -1706,8 +1706,8 @@ d. $\frac{9+2}{36+2}$
 #### Grunnleggende: Utføre addisjon og subtraksjon med brøk
 
 Regn ut.
-a. \(1\frac{2}{3} + \frac{7}{5}\)
-b. \(\frac{3}{5} - \frac{3}{4}\)
+a. $1\frac{2}{3} + \frac{7}{5}$
+b. $\frac{3}{5} - \frac{3}{4}$
 
 ##### Vurderingskriterier
 
@@ -1748,7 +1748,7 @@ b. $ \frac{6}{13} \cdot 4\frac{1}{3}$
 eks under (feil tall, bare). Kvadratene er 1, grønn del 2/5. Figuren
 kan leses som *2/5 gjentatt tre ganger,* altså 3 ⋅ 2/5. Den kan også
 leses som *2/5 av tre,* altså 2/5 ⋅ 3.
-![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img//ltall/24.04media/media/image1.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img//tall/24.04media/media/image1.png)
 
 1. Må vise til en figur som for eksempel den under (2/3 ⋅ 4/5):
 
@@ -1794,7 +1794,7 @@ b. Målingsdivisjon: Hvor mange tre-firedels-litere går det på tolv liter? Det
 
 Vis at uttrykket i a. har verdien 2/3, og uttrykket i b. verdien 0. 
 
-a. \((\frac{11}{3+\frac{2}{3}}\cdot \frac{1}{6}) : \frac{3}{4}\)
+a. $(\frac{11}{3+\frac{2}{3}}\cdot \frac{1}{6}) : \frac{3}{4}$
 
 b. $\frac{(4 \ : \frac{6}{5})\cdot (-\frac{21}{20})}{1+\frac{2}{\frac{3}{2}}}+\frac{3}{2}$
 
@@ -1816,7 +1816,7 @@ Må peke på posisjonssystemet: \*10 til venstre,
 
 #### Middels: Forklare hvordan man kan regne med desimaltall med hensyn til posisjonssystemet og brøkbegrepet
 
-1. Regn ut, og vis tydelig at beregningen er riktig: \(0.07 + 0.444 \)
+1. Regn ut, og vis tydelig at beregningen er riktig: $0.07 + 0.444$
 
 2. Divisjonen $2.8 : 0.07$ kan gjøres ved å regne $28 : 7$, for deretter å flytte desimalkommaet til riktig plass. Forklar hvordan og hvorfor.
 
@@ -1953,7 +1953,7 @@ b. Begrunnes ved hjelp av eksempel: Tolke for eksempel 3/7 som divisjonen 3 : 7,
 
 1. Finn $35 \ \%$ av $180$ på to måter.
 
-2. En gruppe mennesker ble spurt om hva de vanligvis spiser til middag på fredager. 36 av dem svarte taco. Utvalget var *åpenbart* ikke representativt, da andelen tacospisere var pinlige \(4 \ \% \) av de spurte. Hvor mange mennesker bestod hele utvalget av? (Du kan ikke stjele løsningen fra oppgave 2 under avansert.)
+2. En gruppe mennesker ble spurt om hva de vanligvis spiser til middag på fredager. 36 av dem svarte taco. Utvalget var *åpenbart* ikke representativt, da andelen tacospisere var pinlige $4 \ \%$ av de spurte. Hvor mange mennesker bestod hele utvalget av? (Du kan ikke stjele løsningen fra oppgave 2 under avansert.)
 
 3. På en test svarte André rett på $17$ av $20$ spørsmål. Hvor mange prosent rett hadde han? 
 
@@ -1967,9 +1967,9 @@ b. Begrunnes ved hjelp av eksempel: Tolke for eksempel 3/7 som divisjonen 3 : 7,
 
 1. Forklar kort to strategier for å finne $35 \ \%$ av $180$. Forklaringene må vise tydelig at strategiene er riktige.
 
-2. Problemstillingen under har løsningen \(36:0.04\). Forklar og begrunn. 
+2. Problemstillingen under har løsningen $36:0.04$. Forklar og begrunn. 
    
-*En gruppe mennesker ble spurt om hva de vanligvis spiser til middag på fredager. 36 av dem svarte taco. Utvalget var *åpenbart* ikke representativt, da andelen tacospisere var pinlige \(4 \ \% \) av de spurte. Hvor mange mennesker bestod hele utvalget av?* 
+*En gruppe mennesker ble spurt om hva de vanligvis spiser til middag på fredager. 36 av dem svarte taco. Utvalget var *åpenbart* ikke representativt, da andelen tacospisere var pinlige $4 \ \%$ av de spurte. Hvor mange mennesker bestod hele utvalget av?* 
 
 
 
@@ -2075,15 +2075,15 @@ b. $0.444...$
 
 2. Forkort uttrykkene så langt mulig. Vis tydelig hvilke potensregler du bruker. 
 
-a. \(2^3 \cdot 3^{-6} \cdot \big(\frac{3}{2}\big)^3 \cdot 6^3 \)
+a. $2^3 \cdot 3^{-6} \cdot \big(\frac{3}{2}\big)^3 \cdot 6^3$
 
-b. \(9^3 \cdot 2^{-12} \cdot \frac{\big((12)^2\big)^3 \ \cdot \ 3^{-6}}{3^5}\)
+b. $9^3 \cdot 2^{-12} \cdot \frac{\big((12)^2\big)^3 \ \cdot \ 3^{-6}}{3^5}$
 
 
 ##### Vurderingskriterier
 
-1a \((\frac{1}{4})^{2}\)
-1b \((\frac{2}{3})^{2}\)
+1a $(\frac{1}{4})^{2}$
+1b $(\frac{2}{3})^{2}$
 2a $8$
 2b $3$
 
@@ -2092,7 +2092,7 @@ b. \(9^3 \cdot 2^{-12} \cdot \frac{\big((12)^2\big)^3 \ \cdot \ 3^{-6}}{3^5}\)
 
 1. Regn ut
 
-a. \(32^{\frac{2}{5}}\)
+a. $32^{\frac{2}{5}}$
 
 b. $18\cdot 81^{-\frac{3}{4}}$
 
@@ -2102,7 +2102,7 @@ $$
 \big(2^{-8}\big)^{\frac{3}{4}} \cdot \Big(\frac{3}{2}\Big)^{-3} \cdot \sqrt[3]{27} \cdot \dfrac{1}{(\sqrt{3\cdot 2^2})^{-3}}
 $$ 
 
-3. Finn tallet uttrykket under må ganges med for å få \(2\).
+3. Finn tallet uttrykket under må ganges med for å få $2$.
 
 $$
 \Big(\frac{1}{2^3}\Big)^{-\frac{3}{2}}
@@ -2112,10 +2112,10 @@ $$
 ##### Vurderingskriterier
 
 1. 
-a. \(4\)
-b. \(\frac{2}{3}\)
-2. \(3^{-\frac{1}{2}} = \frac{1}{\sqrt{3}}\)
-3. \(2^{-\frac{7}{2}} = \frac{1}{{\sqrt{2}}^7}\) 
+a. $4$
+b. $\frac{2}{3}$
+2. $3^{-\frac{1}{2}} = \frac{1}{\sqrt{3}}$
+3. $2^{-\frac{7}{2}} = \frac{1}{{\sqrt{2}}^7}$ 
 
 ### Utlede potensreglene.
 

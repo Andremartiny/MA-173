@@ -4,16 +4,16 @@
 
 #### Grunnleggende: Utvide og forkorte brøker,  08.05
 
-1. Finn den likeverdige brøken til \(\frac{2,1}{7}\) som har lavest mulig heltallig teller og nevner.
+1. Finn den likeverdige brøken til $\frac{2,1}{7}$ som har lavest mulig heltallig teller og nevner.
 
-2. Uten å gjøre om til desimaltall, finn en brøk som ligger mellom \(\frac{5}{6}\) og \(\frac{7}{8}\). 
+2. Uten å gjøre om til desimaltall, finn en brøk som ligger mellom $\frac{5}{6}$ og $\frac{7}{8}$. 
 
 
 3. Forkort/utvid brøkene til firedeler.
 
-a. \(\frac{15}{6}\)
+a. $\frac{15}{6}$
 
-b. \(\frac{2}{\frac{2}{3}}\)
+b. $\frac{2}{\frac{2}{3}}$
 
 ##### Vurderingskriterier
 

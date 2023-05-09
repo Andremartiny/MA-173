@@ -54,7 +54,7 @@ Finn lengden på hypotenusen i en rettvinklet trekant når du vet at katetene ha
 a.  1 og 1
 b.  3 og 6
 
-Utregningene skal ikke være avrundet og skal gis i eksakte verdier. Det vil si at hvis svaret er \(\sqrt{1^{2} + 2^{2}} = \sqrt{5}\), så skal ikke dette rundes av til \(2,236\).
+Utregningene skal ikke være avrundet og skal gis i eksakte verdier. Det vil si at hvis svaret er $\sqrt{1^{2} + 2^{2}} = \sqrt{5}$, så skal ikke dette rundes av til $2,236$.
 
 ##### Vurderingskriterier
 
@@ -68,7 +68,7 @@ Finn lengden på hypotenusen i en rettvinklet trekant når du vet at katetene ha
 a.  1 og 1
 b.  3 og 4
 
-Utregningene skal ikke være avrundet og skal gis i eksakte verdier. Det vil si at hvis svaret er \(\sqrt{1^{2} + 2^{2}} = \sqrt{5}\), så skal ikke dette rundes av til \(2,236\).
+Utregningene skal ikke være avrundet og skal gis i eksakte verdier. Det vil si at hvis svaret er $\sqrt{1^{2} + 2^{2}} = \sqrt{5}$, så skal ikke dette rundes av til $2,236$.
 
 ##### Vurderingskriterier
 

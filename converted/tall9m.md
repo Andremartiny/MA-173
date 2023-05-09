@@ -42,7 +42,7 @@ c. Heftet.
 eks under (feil tall, bare). Kvadratene er 1, grønn del 2/5. Figuren
 kan leses som *2/5 gjentatt tre ganger,* altså 3 ⋅ 2/5. Den kan også
 leses som *2/5 av tre,* altså 2/5 ⋅ 3.
-![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img//ltall/24.04media/media/image1.png)
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img//tall/24.04media/media/image1.png)
 
 1. Må vise til en figur som for eksempel den under (2/3 ⋅ 4/5):
 

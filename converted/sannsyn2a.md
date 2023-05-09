@@ -26,7 +26,7 @@ Vi ser her at det er $11$ av de $36$ mulighetene som inneholder en femmer. Derme
 
 #### Avansert: Forklare og bruke begrepet uniform sannsynlighetsmodell,  08.05
 
-Det er 18 personer i en klasse. Det skal velges ut tre elever som skal være i elevrådet og alle tre skal trekkes tilfeldig. Henrik vil veldig gjerne være med i elevrådet. Sett opp en uniform sannsynlighetsmodell som får fram at det er \(\frac{3}{18}\) sannsynlighet for at Henrik får være med i elevrådet.
+Det er 18 personer i en klasse. Det skal velges ut tre elever som skal være i elevrådet og alle tre skal trekkes tilfeldig. Henrik vil veldig gjerne være med i elevrådet. Sett opp en uniform sannsynlighetsmodell som får fram at det er $\frac{3}{18}$ sannsynlighet for at Henrik får være med i elevrådet.
 
 ##### Vurderingskriterier
 

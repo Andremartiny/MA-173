@@ -63,14 +63,14 @@
 #### Middels: Forklare hva et posisjonssystem er,  08.05
 
 1. Forklar kort hva et posisjonssystem er.
-2. Gjør om \(139_{ti}\) til base syv.
+2. Gjør om $139_{ti}$ til base syv.
 3. $333_{fire}$ til base seks uten å regne ut i base ti først.
 
 ##### Vurderingskriterier
 
 1. Som grunnleggende. 
-2. \(256_{syv}\) Det må gå frem hvordan omgjøringen er gjort.
-3. \(143_{seks}\) Det må gå frem hvordan omgjøringen er gjort. Feks slik: 
+2. $256_{syv}$ Det må gå frem hvordan omgjøringen er gjort.
+3. $143_{seks}$ Det må gå frem hvordan omgjøringen er gjort. Feks slik: 
 
 $$
 \begin{aligned} 333_{fire}  &= 3 \cdot 4^2 + 3 \cdot 4+3 

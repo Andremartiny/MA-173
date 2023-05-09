@@ -44,7 +44,7 @@ Ved å bryte piltallene ned på flere måter, utled to ulike, men likeverdige ut
 
 ##### Vurderingskriterier
 
-Fra vurderingskriteriene på grunnleggende kan vi utdype forklaringene. Første forklaring gir eksplisitt formel \(n\cdot 2n + 3(n+2)\). Vi kan også bryte ned piltallene geometrisk ved å tenke på trekantbiten som trekanttall nummer \(n+3\) med midten fjernet. Siden midten er trekanttall nummer \(n\) får vi \(T_{n+3}-T_{n} = \frac{(n+3)(n+4)-n(n+1)}{2}\). Det gir en eksplisitt formel lik \(2n\cdot n + \frac{(n+3)(n+4)-n(n+1)}{2}\). Studentene kan selvfølgelig bryte ned figuren på andre måter. 
+Fra vurderingskriteriene på grunnleggende kan vi utdype forklaringene. Første forklaring gir eksplisitt formel $n\cdot 2n + 3(n+2)$. Vi kan også bryte ned piltallene geometrisk ved å tenke på trekantbiten som trekanttall nummer $n+3$ med midten fjernet. Siden midten er trekanttall nummer $n$ får vi $T_{n+3}-T_{n} = \frac{(n+3)(n+4)-n(n+1)}{2}$. Det gir en eksplisitt formel lik $2n\cdot n + \frac{(n+3)(n+4)-n(n+1)}{2}$. Studentene kan selvfølgelig bryte ned figuren på andre måter. 
 
 
 #### Middels: Beskrive oppbygningen av figurtall (alle typer),  28.04

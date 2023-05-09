@@ -40,8 +40,8 @@ Ved å illustrere piltallene og markere i illustrasjonen, gi en ordforklaring av
 
 ##### Vurderingskriterier
 
-1. Studenten kan for eksempel markere trekanten i figuren og peke på at det er et rektangel med størrelse \(n\) og \(2n\) og at trekanten har størrelse \(3\) mer enn \(n\) men at den kun er rammen. Rammen er tre linjer som er to lenger enn figurtallnummeret. Dermed kan vi regne ved å ta størrelsen av et rektangel med størrelse \(n\) og \(2n\) og tre linjer på størrelse \(n+2\). 
-2. Fra 1. kan vi peke på at hvis vi skal gå fra figurtallnumer \(n\) til \(n+1\), så vil rektangelet øke med én linje på toppen med lengde \(n+1\) og en kolonne med høyde \(2n\). Trekanten øker med en prikk på hver av de tre linjene, så den øker alltid med \(3\). 
+1. Studenten kan for eksempel markere trekanten i figuren og peke på at det er et rektangel med størrelse $n$ og $2n$ og at trekanten har størrelse $3$ mer enn $n$ men at den kun er rammen. Rammen er tre linjer som er to lenger enn figurtallnummeret. Dermed kan vi regne ved å ta størrelsen av et rektangel med størrelse $n$ og $2n$ og tre linjer på størrelse $n+2$. 
+2. Fra 1. kan vi peke på at hvis vi skal gå fra figurtallnumer $n$ til $n+1$, så vil rektangelet øke med én linje på toppen med lengde $n+1$ og en kolonne med høyde $2n$. Trekanten øker med en prikk på hver av de tre linjene, så den øker alltid med $3$. 
 
 #### Grunnleggende: Beskrive oppbygningen av figurtall (alle typer),  28.04
 

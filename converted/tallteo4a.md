@@ -79,9 +79,9 @@ På figuren under ser du de fire første figurene i en sammensatt figur, der $F_
 
 ##### Vurderingskriterier
 
-1. Studenten må betrakte figuren geometrisk. Dette gjøre mest naturlig (men ikke nødvendigvis) ved å se at det er kvadrattall nummer \(n\) og trekanttall nummer \(n+1\). Dermed får vi \(n^2 + T_{n+1} = n^2 + \frac{(n+1)(n+2)}{2}\).
-2. Studenten må bruke sum av tillegg for å finne eksplisitt formel. For eksempel kan vi se at kvadrattallene øker med \(2n-1\) og trekanttallet øker med \(n+1\) som gir et totalt tillegg \(3n\).
-Dermed ser vi at vi kan skrive \(F_n\) som en sum av tilleg slik
+1. Studenten må betrakte figuren geometrisk. Dette gjøre mest naturlig (men ikke nødvendigvis) ved å se at det er kvadrattall nummer $n$ og trekanttall nummer $n+1$. Dermed får vi $n^2 + T_{n+1} = n^2 + \frac{(n+1)(n+2)}{2}$.
+2. Studenten må bruke sum av tillegg for å finne eksplisitt formel. For eksempel kan vi se at kvadrattallene øker med $2n-1$ og trekanttallet øker med $n+1$ som gir et totalt tillegg $3n$.
+Dermed ser vi at vi kan skrive $F_n$ som en sum av tilleg slik
 $$
 \begin{aligned}
 F_1 

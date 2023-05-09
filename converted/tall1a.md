@@ -136,8 +136,8 @@ b. $888_{ni} : \ 7_{ni}$
 
 ##### Vurderingskriterier
 
-1. \(153_{tolv}\) Må vise omgjøring som i oppgave 3 middels. 
-2. a. \(1\text{BB}0_{tolv}\). b. \(125_{ni}\)
+1. $153_{tolv}$ Må vise omgjøring som i oppgave 3 middels. 
+2. a. $1\text{BB}0_{tolv}$. b. $125_{ni}$
 
 
 #### Avansert: Forklare hva et posisjonssystem er,  24.04

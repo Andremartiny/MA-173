@@ -474,7 +474,7 @@ b.  Hvilke uttrykk stemmer? Argumenter ved hjelp av figuren og ved å
 1. \
 a. Vi ser at vi må trekke fra et kvadrattall, så vi må dermed bruke de to trekanttallene våre til å kunne trekke fra kvadratet. Dette kan vi for eksempel illustrere på følgende måte
 
-![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-25-12-58-11.png)>
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-25-12-58-11.png)
 
 Der gul og grønn illustrerer trekanttallene og røde sirkler er det som skal trekkes vekk. Eller følgende måte
 
@@ -548,7 +548,7 @@ Forklar hvorfor alle summer av tre påfølgende naturlige tall har felles faktor
 
 ##### Vurderingskriterier
 
-Studenten må gi en forklaring som begrunner påstanden. Dette kan gjøres på flere måter (generisk eksemplel med/uten figur, formelt etc). Et formelt argument er for eksempel at en vilkårlig sum av tre påfølgende tall kan skrives som \((n-1) +n + (n+1) = 3n\), der \(n\) er et naturlig tall større enn 1. Vi ser nå at påstanden faller ut automatisk. 
+Studenten må gi en forklaring som begrunner påstanden. Dette kan gjøres på flere måter (generisk eksemplel med/uten figur, formelt etc). Et formelt argument er for eksempel at en vilkårlig sum av tre påfølgende tall kan skrives som $(n-1) +n + (n+1) = 3n$, der $n$ er et naturlig tall større enn 1. Vi ser nå at påstanden faller ut automatisk. 
 
 #### Avansert: Løse (også ukjente) problemer knyttet til begrepene
 
@@ -558,9 +558,9 @@ Undersøk og begrunn følgende påstand.
 
 ##### Vurderingskriterier
 
-Ved å underøske noen eksempler, for eksempel \(10\) og \(15\) som har felles faktor \(5\) vil ha rest \(10\) når man tar \(15\) delt på \(10\). Vi ser også at \(6\) og \(9\) har rest \(3\) som også er største felles faktor mellom tallene. Dermed ser vi at det *ser ut som* at påstanden stemmer. Studenten må begrunne påstanden på en forståelig og riktig måte. For eksempel kan dette gjøres generisk eller mer formelt.
+Ved å underøske noen eksempler, for eksempel $10$ og $15$ som har felles faktor $5$ vil ha rest $10$ når man tar $15$ delt på $10$. Vi ser også at $6$ og $9$ har rest $3$ som også er største felles faktor mellom tallene. Dermed ser vi at det *ser ut som* at påstanden stemmer. Studenten må begrunne påstanden på en forståelig og riktig måte. For eksempel kan dette gjøres generisk eller mer formelt.
  
-Gjør vi det formelt kan vi si at for to tall med største felles faktor \(x\), så kan tallene skrives som \(ax\) og \(bx\). At \(ax\) delt på \(bx\) gir rest \(r\) betyr at det finnes et tall \(c\) slik at \(c\cdot bx + r = ax\). Høyre side inneholder åpenbart faktoren \(x\), og dermed må venstre side også gjøre det. Siden \(c\cdot bx\) er delelig på \(x\) så er eneste mulighet for at VS skal være delelig på \(x\) at \(r\) også er delelig på \(x\) og vi har vist at påstanden stemmer. 
+Gjør vi det formelt kan vi si at for to tall med største felles faktor $x$, så kan tallene skrives som $ax$ og $bx$. At $ax$ delt på $bx$ gir rest $r$ betyr at det finnes et tall $c$ slik at $c\cdot bx + r = ax$. Høyre side inneholder åpenbart faktoren $x$, og dermed må venstre side også gjøre det. Siden $c\cdot bx$ er delelig på $x$ så er eneste mulighet for at VS skal være delelig på $x$ at $r$ også er delelig på $x$ og vi har vist at påstanden stemmer. 
 
 ### Bruke begrepene naturlig tall, partall og oddetall, primtall og sammensatt tall
 
@@ -582,7 +582,7 @@ Se tidligere oppgaver
 
 #### Avansert: Løse (også ukjente) problemer knyttet til begrepene
 
-Alle naturlige tall kan beskrives relativ til et tall i fire-gangen. Noen tall er i fire-gangen (\(4, 8,\ldots, 4n,\ldots\)), noen er én mer enn et tall i fire-gangen (\(1, 5, 9, \ldots, 4n +1, \ldots\)), noen er to mer enn tall i fire-gangen (\(2, 6, 10, \ldots, 4n+2, \ldots\)) og resten er tre mer enn tall i firegangen. Forklar hvorfor alle primtall bortsett fra \(2\) er enten én mer eller én mindre enn noe i firegangen
+Alle naturlige tall kan beskrives relativ til et tall i fire-gangen. Noen tall er i fire-gangen ($4, 8,\ldots, 4n,\ldots$), noen er én mer enn et tall i fire-gangen ($1, 5, 9, \ldots, 4n +1, \ldots$), noen er to mer enn tall i fire-gangen ($2, 6, 10, \ldots, 4n+2, \ldots$) og resten er tre mer enn tall i firegangen. Forklar hvorfor alle primtall bortsett fra $2$ er enten én mer eller én mindre enn noe i firegangen
 
 
 ##### Vurderingskriterier
@@ -628,9 +628,9 @@ På figuren under ser du de fire første figurene i en sammensatt figur, der $F_
 
 ##### Vurderingskriterier
 
-1. Studenten må betrakte figuren geometrisk. Dette gjøre mest naturlig (men ikke nødvendigvis) ved å se at det er kvadrattall nummer \(n\) og trekanttall nummer \(n+1\). Dermed får vi \(n^2 + T_{n+1} = n^2 + \frac{(n+1)(n+2)}{2}\).
-2. Studenten må bruke sum av tillegg for å finne eksplisitt formel. For eksempel kan vi se at kvadrattallene øker med \(2n-1\) og trekanttallet øker med \(n+1\) som gir et totalt tillegg \(3n\).
-Dermed ser vi at vi kan skrive \(F_n\) som en sum av tilleg slik
+1. Studenten må betrakte figuren geometrisk. Dette gjøre mest naturlig (men ikke nødvendigvis) ved å se at det er kvadrattall nummer $n$ og trekanttall nummer $n+1$. Dermed får vi $n^2 + T_{n+1} = n^2 + \frac{(n+1)(n+2)}{2}$.
+2. Studenten må bruke sum av tillegg for å finne eksplisitt formel. For eksempel kan vi se at kvadrattallene øker med $2n-1$ og trekanttallet øker med $n+1$ som gir et totalt tillegg $3n$.
+Dermed ser vi at vi kan skrive $F_n$ som en sum av tilleg slik
 $$
 \begin{aligned}
 F_1 
@@ -743,8 +743,8 @@ Ved å illustrere piltallene og markere i illustrasjonen, gi en ordforklaring av
 
 ##### Vurderingskriterier
 
-1. Studenten kan for eksempel markere trekanten i figuren og peke på at det er et rektangel med størrelse \(n\) og \(2n\) og at trekanten har størrelse \(3\) mer enn \(n\) men at den kun er rammen. Rammen er tre linjer som er to lenger enn figurtallnummeret. Dermed kan vi regne ved å ta størrelsen av et rektangel med størrelse \(n\) og \(2n\) og tre linjer på størrelse \(n+2\). 
-2. Fra 1. kan vi peke på at hvis vi skal gå fra figurtallnumer \(n\) til \(n+1\), så vil rektangelet øke med én linje på toppen med lengde \(n+1\) og en kolonne med høyde \(2n\). Trekanten øker med en prikk på hver av de tre linjene, så den øker alltid med \(3\). 
+1. Studenten kan for eksempel markere trekanten i figuren og peke på at det er et rektangel med størrelse $n$ og $2n$ og at trekanten har størrelse $3$ mer enn $n$ men at den kun er rammen. Rammen er tre linjer som er to lenger enn figurtallnummeret. Dermed kan vi regne ved å ta størrelsen av et rektangel med størrelse $n$ og $2n$ og tre linjer på størrelse $n+2$. 
+2. Fra 1. kan vi peke på at hvis vi skal gå fra figurtallnumer $n$ til $n+1$, så vil rektangelet øke med én linje på toppen med lengde $n+1$ og en kolonne med høyde $2n$. Trekanten øker med en prikk på hver av de tre linjene, så den øker alltid med $3$. 
 
 #### Middels: Finne flere algebraiske uttrykk til samme figur
 
@@ -755,7 +755,7 @@ Ved å bryte piltallene ned på flere måter, utled to ulike, men likeverdige ut
 
 ##### Vurderingskriterier
 
-Fra vurderingskriteriene på grunnleggende kan vi utdype forklaringene. Første forklaring gir eksplisitt formel \(n\cdot 2n + 3(n+2)\). Vi kan også bryte ned piltallene geometrisk ved å tenke på trekantbiten som trekanttall nummer \(n+3\) med midten fjernet. Siden midten er trekanttall nummer \(n\) får vi \(T_{n+3}-T_{n} = \frac{(n+3)(n+4)-n(n+1)}{2}\). Det gir en eksplisitt formel lik \(2n\cdot n + \frac{(n+3)(n+4)-n(n+1)}{2}\). Studentene kan selvfølgelig bryte ned figuren på andre måter. 
+Fra vurderingskriteriene på grunnleggende kan vi utdype forklaringene. Første forklaring gir eksplisitt formel $n\cdot 2n + 3(n+2)$. Vi kan også bryte ned piltallene geometrisk ved å tenke på trekantbiten som trekanttall nummer $n+3$ med midten fjernet. Siden midten er trekanttall nummer $n$ får vi $T_{n+3}-T_{n} = \frac{(n+3)(n+4)-n(n+1)}{2}$. Det gir en eksplisitt formel lik $2n\cdot n + \frac{(n+3)(n+4)-n(n+1)}{2}$. Studentene kan selvfølgelig bryte ned figuren på andre måter. 
 
 #### Avansert: Lage figurer basert på algebraiske uttrykk og tallfølger
 
@@ -767,7 +767,7 @@ Finn en eksplisitt formel på to forskjellige måter.
 
 ##### Vuderingskriterier
 
-Vi begynner med å analysere utviklingen av tallrekka. Vi ser at økningen er \(6\) så \(8\), så \(10\) og så \(12\). Tilleggene øker altså med \(2\). Dermed kan vi skrive 
+Vi begynner med å analysere utviklingen av tallrekka. Vi ser at økningen er $6$ så $8$, så $10$ og så $12$. Tilleggene øker altså med $2$. Dermed kan vi skrive 
 $$
 \begin{aligned}
 F_1 & = 2
@@ -799,7 +799,7 @@ F_n
 \end{aligned}
 $$
 
-Vi kan nå bruke formelen til å trekke ut en måte å lage figuren. Vi ser at det er to trekanttall og to linjer med lengde \(n\), der det i tillegg er trukket vekk 2. (Figuren får man lage selv 😉).
+Vi kan nå bruke formelen til å trekke ut en måte å lage figuren. Vi ser at det er to trekanttall og to linjer med lengde $n$, der det i tillegg er trukket vekk 2. (Figuren får man lage selv 😉).
 
 ## 28.04
 

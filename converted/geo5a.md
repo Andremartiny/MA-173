@@ -36,15 +36,15 @@ Se 17.02
 
 #### Avansert: Bruke formler for størrelser av figurer til å utforske geometriske sammenhenger,  28.04.23
 
-Under ser du en figur som er laget av sirkelsektorer og trekanter. Figuren er lagd ved å dele sirkelen med sentrum i \(A\) inn i seks like deler \(B\), \(C\), \(D\), \(E\), \(F\) og \(G\).  Sirkelen har radius \(r\).
+Under ser du en figur som er laget av sirkelsektorer og trekanter. Figuren er lagd ved å dele sirkelen med sentrum i $A$ inn i seks like deler $B$, $C$, $D$, $E$, $F$ og $G$.  Sirkelen har radius $r$.
 
 a. Avgjør og begrunn hva omkretsen av figuren er
 
-I en likesidet trekant er høyden i trekanten alltid \(\frac{\sqrt 3}{2}\) ganger så liten som sidelengdene i trekanten.
+I en likesidet trekant er høyden i trekanten alltid $\frac{\sqrt 3}{2}$ ganger så liten som sidelengdene i trekanten.
 b. Avgjør arealet av figuren er.
 
 
-Utregningene skal ikke være avrundet og skal gis i eksakte verdier. Det vil si at hvis svaret er \(\sqrt{1^{2} + 2^{2}} = \sqrt{5}\), så skal ikke dette rundes av til \(2,236\). Inneholder svaret \(\pi\) skal dette heller ikke avrundes til \(3.14\)!
+Utregningene skal ikke være avrundet og skal gis i eksakte verdier. Det vil si at hvis svaret er $\sqrt{1^{2} + 2^{2}} = \sqrt{5}$, så skal ikke dette rundes av til $2,236$. Inneholder svaret $\pi$ skal dette heller ikke avrundes til $3.14$!
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-25-13-59-55.png)
 

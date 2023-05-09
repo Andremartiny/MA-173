@@ -21,9 +21,9 @@
 
 1. Forklar kort to strategier for å finne $35 \ \%$ av $180$. Forklaringene må vise tydelig at strategiene er riktige.
 
-2. Problemstillingen under har løsningen \(36:0.04\). Forklar og begrunn. 
+2. Problemstillingen under har løsningen $36:0.04$. Forklar og begrunn. 
    
-*En gruppe mennesker ble spurt om hva de vanligvis spiser til middag på fredager. 36 av dem svarte taco. Utvalget var *åpenbart* ikke representativt, da andelen tacospisere var pinlige \(4 \ \% \) av de spurte. Hvor mange mennesker bestod hele utvalget av?* 
+*En gruppe mennesker ble spurt om hva de vanligvis spiser til middag på fredager. 36 av dem svarte taco. Utvalget var *åpenbart* ikke representativt, da andelen tacospisere var pinlige $4 \ \%$ av de spurte. Hvor mange mennesker bestod hele utvalget av?* 
 
 
 

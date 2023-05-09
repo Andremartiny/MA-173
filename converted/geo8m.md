@@ -23,15 +23,15 @@
 
 #### Middels: Bruke Pytagoras setning,  08.05
 
-Under ser du et rektangel \(EFGH\), der det er lagt inn en rettvinklet trekant, \(GIH\), der hypotenusen deles med grunnlinjen til rektangelet. Denne rettvinklede trekanten deler rektangelet inn i tre rettvinklede trekanter, \(EIG\), \(GIH\) og \(FIH\). Hvis sidelengdene \(GE\) og \(EI\), i trekanten \(EGI\) har lengder 9 og 12.
+Under ser du et rektangel $EFGH$, der det er lagt inn en rettvinklet trekant, $GIH$, der hypotenusen deles med grunnlinjen til rektangelet. Denne rettvinklede trekanten deler rektangelet inn i tre rettvinklede trekanter, $EIG$, $GIH$ og $FIH$. Hvis sidelengdene $GE$ og $EI$, i trekanten $EGI$ har lengder 9 og 12.
 
-Hva er de resterende sidelengdene i figuren (hva er \(x\), \(j\), \(k\) og \(h\))?   
+Hva er de resterende sidelengdene i figuren (hva er $x$, $j$, $k$ og $h$)?   
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-05-06-08-55-51.png)
 
 ##### Vurderingskriterier
 
-Studenten må avgjøre de resterende sidelengdene. Det legges ingen føringer i hvordan dette skal gjøres (selv om læringsmålet peker på bruken av Pytagoras). Det er såklart naturlig å bruke Pytagoras til å løse deler, hvis ikke alt, av problemet. For eksempel kan en enkelt se at \(j = 15\), siden \(\sqrt{9^2+12^2} = 15\). Hvis oppgaven løses rent med pytagoras kan vi nå sette opp to likninger ved hjelp av Pytagoras setning, nemlig
+Studenten må avgjøre de resterende sidelengdene. Det legges ingen føringer i hvordan dette skal gjøres (selv om læringsmålet peker på bruken av Pytagoras). Det er såklart naturlig å bruke Pytagoras til å løse deler, hvis ikke alt, av problemet. For eksempel kan en enkelt se at $j = 15$, siden $\sqrt{9^2+12^2} = 15$. Hvis oppgaven løses rent med pytagoras kan vi nå sette opp to likninger ved hjelp av Pytagoras setning, nemlig
 $$
 \begin{aligned}
 k^2 
@@ -41,7 +41,7 @@ k^2
 & = (9+x)^2.
 \end{aligned}
 $$
-En kan for eksempel bruke innsetting å sette inn \(k^2\) i andre likning og få
+En kan for eksempel bruke innsetting å sette inn $k^2$ i andre likning og få
 $$
 \begin{aligned}
 15^2 + k^2 
@@ -52,7 +52,7 @@ $$
 9^2+2\cdot 9x +x^2.
 \end{aligned}
 $$
-Trekker vi fra \(x^2\) på begge sider ser vi at 
+Trekker vi fra $x^2$ på begge sider ser vi at 
 $$
 \begin{aligned}
 15\cdot 15  + 12\cdot 12 
