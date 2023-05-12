@@ -319,7 +319,7 @@ Forklare begrepet komplement gjennom et eksempel
     - Hvor mange bridgehender med seks kort i en og samme farge finnes
         det?
     - Hva er sannsynligheten for å få ei slik hånd?
-3. Vi trekker ut seks kort av en kortstokk på 52 kort.
+3. Vi trekker ut fem kort av en kortstokk på 52 kort.
     - Hva er sannsynligheten for at det er nøyaktig to spar blant de
         fem?
     - Hva er sannsynligheten for at alle dem fem kortene er kløver?
