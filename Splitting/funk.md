@@ -477,6 +477,72 @@ Se vurderingskriteriene fra ett av vurderingssettene.
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-27-12-47-38.png)
 
+## 12.05 
+
+### Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon
+
+#### Grunnleggende: Forklare kjennetegn ved og gi eksempler på funksjonstypene
+
+Se 31.03
+
+#### Middels: Bestemme og begrunne funksjonstype basert på beskrivelse av situasjon, uttrykk, graf og tabell
+
+Se 31.03
+
+#### Avansert: Gjøre om mellom ulike representasjonsformer for de tre funksjonstypene, og begrunne omgjøringen
+
+Se 31.03
+
+### Forklare sammenhenger mellom parameterne i funksjonsuttrykket og grafen til lineære funksjoner
+
+#### Grunnleggende: Forklare hvordan endringer i stigningstall og konstantledd påvirker grafen til en lineær funksjon
+
+Se 31.03
+
+#### Middels: Forklare hvordan man kan finne likninga til en lineær funksjon når to punkter på grafen er kjent uten bruk av topunktsformelen
+
+Se 31.03
+
+### Forklare hvordan endringer i parameterne i funksjonsuttrykket påvirker grafene til andregrads- og omvendt proporsjonale funksjoner
+
+#### Grunnleggende: Gjengi hvilke roller parameterne i funksjonsuttrykkene til andregrads- og omvendt proporsjonale funksjoner spiller med hensyn til grafene
+
+Se 31.03
+
+#### Middels: Forklare hvordan endringer i parameterne i funksjonsuttrykket påvirker grafene til andregrads- og omvendt proporsjonale funksjoner
+
+Se 31.03    
+
+### Løse likninger fra funksjonsperspektiv
+
+#### Grunnleggende: Forklare algebraisk og grafisk hva som menes med løsningen av en lineær likning
+
+Se 31.03
+
+#### Middels: Tolke lineære likninger grafisk, og finne skjæringspunkt mellom lineære grafer og mellom lineære grafer og aksene
+
+Se 31.03
+
+#### Avansert: Tolke likninger grafisk, og finne skjæringspunkt mellom grafer til ulike typer funksjoner og mellom grafer og aksene
+
+Se 31.03
+
+### Bruke begrepene funksjon, variabel, uavhengig variabel (innverdi), avhengig variabel (utverdi), funksjonsverdi, definisjonsmengde og verdimengde
+
+#### Grunnleggende: Gjengi, forklare og gi eksempler på begrepene
+
+Se 31.03
+
+#### Middels: Avgjøre og begrunne (ved hjelp av begrepene) om en gitt sammenheng er en funksjonssammenheng
+
+Se 31.03
+
+### Gjøre om mellom ulike representasjonsformer for funksjonssammenhenger
+
+#### Middels: Gjøre om mellom de fire representasjonene av funksjoner (Janviers tabell, Alfa 4.1), og vurdere elevers arbeid med overganger mellom representasjonene
+
+Se 31.03
+
 ## 08.05 
 
 ### Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon

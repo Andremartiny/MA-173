@@ -305,6 +305,78 @@ så skal ikke dette rundes av til $2,236$
 
 1. La oss kalle sidene i den rettvinkla trekanten for $x$, $y$ og $z$, slik at $x^2 + y^2 = z^2$. Da vet vi at de tre halvsirklene har areal $\pi(\frac{x}{2})^2 = \pi \frac{x^2}{4}$, $\pi \frac{y^2}{4}$ and $\pi \frac{z^2}{4}$. I tillegg har trekanten areal $\frac{2x\cdot2y}{2} = 2xy$. Tar vi de to små halvsirklene i tillegg til trekanten får vi hele området. Dette har areal $\frac{\pi}{2}(x^2+y^2)+ 2ab$. Vi kan nå bruke Pytagoras setning til å si at dette arealet kan skrives som $\frac{\pi c^2}{4} + 2ab$.Nå gjenstår det bare å trekke fra den store halvsirkelen for å få arealet av det hvite området. Dette gir $\frac{\pi c^2}{4}+ 2ab - \frac{\pi c^2}{4} = 2ab$. Vi ser dermed at det hvite området har samme areal som trekanten. Dermed blir forholdet mellom det hvite området og arealet av trekanten $1$.
 
+## 08.05
+
+### Bruke begrepene måltall, størrelse og måleenhet til å avgjøre størrelsen av grunnleggende figurer i 1 og 2 dimensjoner
+
+#### Grunnleggende: Gjengi, forklare og gi eksempler på begrepene størrelse, måltall og måleenheter i 1- og 2-dimensjonale figurer
+
+Se 31.03
+
+#### Middels: Bruke begrepene til å forklare hvordan man kan avgjøre omkrets og areal av firkanter, trekanter og sirkler
+
+Se 31.03
+
+### Bruke begrepene måltall, størrelse og måleenhet til å avgjøre størrelsen av grunnleggende figurer i 3 dimensjoner
+
+#### Grunnleggende: Gjengi og forklare og gi eksempler på begrepene størrelse, måltall og måleenheter  i 3-dimensjonale figurer
+
+Se 31.03
+
+### Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer
+
+#### Grunnleggende: Gjengi og forklare, gi eksempler og illustrasjoner til begrepene
+
+Se 31.03
+
+#### Middels: Argumentere for enkle sammenhenger knyttet til begrepene
+
+Se 31.03
+
+#### Avansert: Utforske og løse ukjente problemet knyttet til begrepene
+
+Se 31.03
+
+### Bruke begrepene kvadrat, rektangel, parallellogram, trapes, likebeint trekant, likesidet trekant, rettvinklet trekant, mangekant, sirkel
+
+#### Grunnleggende: Gjengi og forklare, gi eksempler og illustrasjoner til begrepene
+
+Se 31.03
+
+#### Middels: Argumentere for enkle sammenhenger knyttet til begrepene
+
+Se 31.03
+
+### Bruke formler for størrelser av figurer til å utforske geometriske sammenhenger
+
+#### Grunnleggende: Gjengi og forklar formlene for trekanter, rektangler, parallellogram, trapes, sirkler, prismer, sylindre og pyramider
+
+Se 17.02
+
+#### Middels: Argumentere for enkle sammenhenger knyttet til begrepene
+
+Se 17.04
+
+#### Avansert: Utforske og løse ukjente problemet knyttet til begrepene
+
+Se 28.04
+
+### Bruke begrepet formlikhet av trekanter
+
+#### Middels: Argumentere for enkle sammenhenger knyttet til begrepet
+
+24.04
+
+### Bruke Pytagoras setning
+
+#### Grunnleggende: Bruke Pytagoras setning til å løse enkle problemer
+
+Se 31.03
+
+#### Middels: Bruke Pytagoras setning til å løse problemer
+
+Se 31.03
+
 
 ## 08.05
 

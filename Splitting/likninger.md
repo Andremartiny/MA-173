@@ -188,6 +188,75 @@ pandoc .\quizzer\likninger\likninger.md -f markdown -t html --mathjax --template
     formelen som gir løsningene på enhver andregradslikning,
     $x = \frac{- b \pm \sqrt{b^{2} - 4ac}}{2a}$.
 
+## 12.05
+
+### Løse lineære likninger ved hjelp av ulike strategier
+
+#### Grunnleggende: Løse likninger, formelt og grunnskoletilpasset
+
+Se 17.02
+
+
+#### Middels: Forklare og begrunne løsningsstrategier, formelt og grunnskoletilpasset
+
+Se 17.02
+
+#### Avansert: Analysere elevers løsningsstrategier
+
+Se 17.02
+
+### Løse lineære ulikheter ved hjelp av ulike strategier
+
+#### Grunnleggende: Løse ulikheter
+
+Se 17.02
+
+#### Middels: Forklare og begrunne løsningsstrategier
+
+Se 17.02
+
+#### Avansert: Analysere elevers løsningsstrategier
+
+Se 17.02
+
+### Løse lineære likningssett med to ukjente på ulike måter
+
+#### Grunnleggende: Løse likningssett ved hjelp av innsetting, addisjonsmetoden og grafisk
+
+Se 17.02
+
+#### Middels: Tolke problemstillinger som svarer til likningssett, og løse disse ved hjelp av innsetting, addisjonsmetoden og grafisk og uten bruk av likninger
+
+Se 17.02
+
+### Løse kvadratiske likninger ved hjelp av fullstendige kvadraters metode
+
+#### Grunnleggende: Løse likninger med heltallige koeffisienter og løsninger
+
+Se 17.02
+
+#### Middels: Løse likninger med rasjonale koeffisienter og løsninger
+
+Se 17.02
+
+#### Avansert: Løse likninger med rasjonale koeffisienter og irrasjonale løsninger
+
+Se 17.02
+
+### Bruke de tre kvadratsetningene
+
+#### Grunnleggende: Gjengi og vise kvadratsetningene algebraisk
+
+Se 17.02
+
+#### Middels: Illustrere kvadratsetningene geometrisk
+
+Se 17.02
+
+#### Avansert: Bruke kvadratsetningene til å faktorisere uttrykk
+
+Se 17.02
+
 ## 08.05
 
 ### Løse lineære likninger ved hjelp av ulike strategier

@@ -532,6 +532,196 @@ $$
     b.  Begrunn hvordan oppgaven innebærer arbeid med algebraisk
         tenkning og kompetansemålene og kjerneelementene du valgte.
 
+## 12.05
+
+### Bruke begrepene faktor (divisor), felles faktor og største felles faktor, multiplum, felles multiplum og minste felles multiplum
+
+
+
+#### Middels: Argumentere for enkle sammenhenger knyttet til begrepene
+
+Forklar hvorfor alle produkt av tre påfølgende naturlige tall har faktor 3. 
+
+##### Vurderingskriterier
+
+Studenten må gi en forklaring som begrunner påstanden. Dette kan gjøres på flere måter (generisk eksemplel med/uten figur, formelt etc). Et formelt argument er for eksempel at en vilkårlig prddukt av tre påfølgende tall kan skrives som \(n\cdot (n+1)\cdot (n+2)\), der \(n\) er et naturlig tall større enn 1. Det gjenstår nå bare å peke på at hvis \(n\) er i tregangen så er det klart at faktoren 3 inngår. Hvis \(n\) ikke er i tregangen, så er den enten én under eller to under. Er den én under, så vil \(n+1\) være i tregangen, er den to under vil \(n+2\) være i tregangen. Uansett, vil ett av de tre påfølgende tallene være i tregangen.
+
+#### Avansert: Løse (også ukjente) problemer knyttet til begrepene
+
+Undersøk og begrunn følgende påstander.
+
+1. *Hvis vi har ulike tall \(a\) og \(b\) med største felles faktor \(f\), så vil \(a-b\) også ha felles faktor \(f\)*
+2. *Hvis \(a\) er større enn \(b\) og \(b\) er større enn \(a-b\), så vil \(b- (a-b)\) også ha felles faktor \(f\).*
+3. *Hvis vi fortsetter slik som i 1. og 2., ved å ta de to minste tallene og se på differansen, vil vi alltid produsere nye tall med faktor \(f\) helt til de to minste tallene blir like store (og lik \(f\)).*
+
+##### Vurderingskriterier
+
+Studenten bør undersøke påstanden og deretter komme med en overbevisende forklaring. 
+Ved å underøske noen eksempler, \(a= 30\) og \(b=21\), som har største felles faktor 3, ser vi at \(a-b = 9\) og \(b-(a-b) = 21-9 = 12\). Dette var steg 1. og 2. Fortsetter vi med de to minste tallene \(9\) og \(12\) får vi \(12-9 = 3\), som gir \(9-3 = 6\) som gir \(6-3 = 3\) og vi har nå fått to like tall som er faktoren \(f\).
+At \(a-b\) har faktor \(f\) kan de argumentere for ved å for eksempel peke på et generisk eksempel som \(30\) og \(21\) og si at siden \(3\) er felles faktor så kan vi skrive \(30 = 3\cdot 10\) og \(21 = 3\cdot 7\), dermed blir differansen \(3(10-7)\) som åpenbart fortsatt inneholder faktoren \(3\). Det er ingenting unikt med \(30\) og \(21\). Det eneste viktige her er at vi kan faktorisere ut faktoren i differansen, noe vi alltid vil kunne gjøre. Vi ser nå at påstand 2. følger direkte fra begrunnelsen av påstand 1. Siden påstand 1. og 2. viser at vi bare kan fortsette og fortsette uten å miste faktoren \(f\), så er det tydelig at vi får mindre og mindre tall, alle med faktor \(f\). Til slutt må ett av tallene bli så små at de er mindre eller lik \(f\), men de kan ikke være mindre, siden alle tall mindre enn \(f\) ikke inneholder faktoren \(f\). Dermed står vi nå med to tall, ett som *er* \(f\) og ett som er et multiplum av \(f\). Dermed følger siste del av argumentet også direkte. 
+
+### Bruke begrepene naturlig tall, partall og oddetall, primtall og sammensatt tall
+
+
+#### Middels: Argumentere for enkle sammenhenger knyttet til begrepene
+
+1. Gi et grunnskoletilpasset argument for at sum av oddetall og partall er oddetall.
+
+2. Gi et formelt argument for at partall multiplisert med oddetall gir partall.
+
+##### Vurderingskriterier
+
+Se tidligere oppgaver
+
+#### Avansert: Løse (også ukjente) problemer knyttet til begrepene
+
+Undersøk og begrunn følgende påstander.
+
+1. *Hvis vi har en liste med forskjellige primtall \(L =\{p_1, p_2, p_3, \ldots, p_n\}\) og vi ser på produktet \(a=p_1\cdot p_2\cdot\ldots\cdot p_n+1\), så vil \(a\) ikke være delelig med noen av primtallene i listen \(L\).*
+2. *\(a\) må enten være et primtall som ikke er i \(L\), eller et sammensatt tall bestående av et primtall som ikke er i \(L\).*
+3. *Vi kan derfor enkelt generere nye primtall, noe som betyr at det finnes uendelig mange primtall.*
+
+##### Vurderingskriterier
+
+Studenten må begrunne påstandene
+1. Siden \(p_1\) deler \(a-1\) så kan ikke \(p_1\) dele \(a = (a-1)+1\), siden \(p_1\) ikke deler \(1\). Dette argumentet gjelder også for \(p_2\), \(p_3\) og resten av primtallene i lista \(L\). 
+2. Siden ingen av primtallene i listen deler \(a\), så må det finnes et primtall, som ikke er i listen, som deler \(a\). Enten så er det \(a\), ellers må det være et primtall mindre enn \(a\), som betyr at \(a\) er et sammensatt tall.
+3. Vi kan se fra 1. og 2. at vi kan fortsette å generere nye primtall ved å gjenta argumentene fra 1. og 2. igjen og igjen. Siden vi kan fortsette for evig må det også finnes uendelig mange primtall
+
+### Begrunne delelighetsreglene for tall som er delelig med 2, 3, 4, 5, 6 og 9
+
+#### Middels: Argumentere for enkle sammenhenger knyttet til begrepene
+
+Gi en formell begrunnelse for delelighetsregelen for tall som er delelig med 4.
+Gi en grunnskoletilpasset begrunnelse for delelighetsregelen for tall som er delelig med 3.
+
+##### Vurderingskriterier
+
+Se tidligere kriterier.
+
+### Finne eksplisitt uttrykk for figurtall
+
+#### Middels: Ved hjelp av sum av tillegg for andre polygontall
+
+Illustrer syvkanttallene opp til $H_3$, og utled eksplisitt uttrykk for $H_n$ ved hjelp av strategien sum av tillegg. Merk at tallrekken som tilhører femkanttallene er $1, 7, 18, 34, \ldots$.
+
+##### Vurderingskriterier
+
+Se tidligere oppgaver.
+
+#### Avansert: Ved hjelp av geometrisk betraktning/stirre hardt og sum av tillegg for sammensatte figurtall
+
+På figuren under ser du de tre første figurene i en sammensatt figur, der $F_1 = 5$, $F_2 = 13$ og $F_3 = 25$.
+
+1. Finn en eksplsitt formel for $F_n$ ved å betrakte figuren geometrisk.
+
+2. Finn en eksplisitt formel ved hjelp av sum av tillegg.
+
+![Alt text](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/figtall1205.svg)
+
+
+##### Vurderingskriterier
+
+1. Studenten må bruke figuren til å finne en eksplisitt formel. De to første illustrasjonene under gir noen mulige dekomposisjoner. For eksempel viser VS at det er to trekanter og et kvadrat. HS viser at en kan få to kvadrat av ulik størrelse ved å flytte på noen av rutene. Dette kan da brukes videre til å lage eksplisitte uttrykk ved hjelp av trekanttall og kvadratttall.
+2. Studenten må bruke sum av tillegg (se heftet eller tidligere oppgaver for å se ideen bak teknikken). Dette innebærer å finne formen på tillegget, noe som for eksempel kan gjøres ved å se på den rekursive sammenhengen, for eksempel som illustrert tredje bilde i figuren under. 
+
+![Alt text](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/figtall1205%20copy.svg)
+
+### Finne rekursiv uttrykk for figurtall
+
+#### Middels: Ved hjelp av form på tillegg, og differanse mellom eksplisitte uttrykk for andre polygontall og sammensatte figurtall
+
+Vis i en illustrasjon hvordan hver figur inneholder den forrige, og finn rekursivt uttrykk for kvadrattallene $K_n$, der $K_1 =1$, $K_2 = 4$ og $K_3 = 9$:
+ved hjelp av strategien form på tillegg.
+ved hjelp av strategien differanse mellom eksplisitte uttrykk. Merk: Det eksplisitte uttrykket for sekskanttallene er $K_n = n^2$.
+
+##### Vurderingskriterier
+
+Se heftet.
+
+### Beskrive oppbygningen av figurtall (alle typer)
+
+
+
+#### Grunnleggende: Beskrive eksplisitt og rekursiv sammenheng verbalt og ved hjelp av illustrasjon
+
+Under ser dere de første figurene i et figurtallsmønster.
+
+Ved å illustrere figurene og markere i illustrasjonen, gi en ordforklaring av
+
+1. en eksplisitt sammenheng mellom figur nummer $n$ og antall prikker i figuren.
+
+2. en rekursiv sammenheng mellom to påfølgende figurer. 
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/figurtall1205.svg)
+
+
+##### Vurderingskriterier
+
+1. Studenten kan for eksempel markere og bryte ned figuren i tre komponenter. To trekanter som er like store og er én større enn figurtallsnummeret (figur 1 har trekanter med størrelse 2, figur 2 har trekanter med størrelse 3 osv). Den siste komponenten er et kvadrat i midten som mangler sidene (men ikke hjørnene), også kvadratet er én større enn figurtallsnummeret (se figurer under). 
+2. Fra 1. kan vi peke på at hvis vi skal gå fra figurtallnumer \(n\) til å lage neste figur så må øke de tre komponentene på følgende måte: vi legge på sidelenger med størrelse \(n+2\) på de to trekantene. På kvadratet må vi fylle sidene og legge til "ytre hjørner" (eventuelt må vi bare flytte de fire hjørnene ut og legge til rammen). 
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/figurtall1205.drawio%20copy.svg)
+
+#### Middels: Finne flere algebraiske uttrykk til samme figur
+
+Under ser dere dere de tre første figurtallene i en rekke figurtall.
+Hvilke av uttrykkene stemmer med figuren. Bruk figuren for å argumentere:
+
+1. $$\frac{(n+1)(n+2)}{2} + (n+1)^2 -4(n-1) + \frac{(n+1)(n+2)}{2}$$
+2. $$2\cdot\frac{(n+1)(n+2)}{2} + 4 + (n-1)^2$$
+3. $$\frac{(n+1)(n+2)}{2}+ n^2- 4     + \frac{(n+1)(n+2)}{2}$$ 
+
+\
+\ 
+
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/figurtall1205.svg)
+
+##### Vurderingskriterier
+
+Studentene må peke på hvorfor uttrykkene i 1. og 2. stemmer med figuren. For eksempel kan det pekes på, slik som i figuren under, at vi har to trekanter i uttrykk 1. og et kvadrat i midten, der det mangler noe (markert i hvitt). For uttrykk 2. kan de peke på at figurene er høyre og venstre side er to trekanter og i midten har vi et lite kvadrat som først dukker opp ved andre figur (i lyseblått), i tillegg til fire konstante hjørner. 
+
+Til slutt må studenten peke på at uttrykk 3. ikke stemmer overens. For eksempel kan dette bare gjøres ved å peke på første figur og vise til hvordan figur og uttrykk ikke er like. 
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/figurtall1205.drawio%20copy.svg)
+
+#### Avansert: Lage figurer basert på algebraiske uttrykk og tallfølger
+
+Du får vite at et figurtall $F_n$ øker på følgende måte. $F_1 = 2$, $F_2 = 4$, $F_3 = 8$, $F_4 = 14$ og $F_5 = 22$.
+
+Lag en figur som følger mønsteret til $F_n$. Det er nok å illustrere $F_1$, $F_2$ og $F_3$, så lengde det får fram mønsteret.
+Vis og forklar sammenhengen mellom tallrekken og figurene rekursivt.
+Finn en eksplisitt formel på to forskjellige måter.
+
+##### Vuderingskriterier
+
+Vi begynner med å analysere utviklingen av tallrekka. Vi ser at økningen er  \(2\), så \(4\) og så \(6\). Tilleggene øker altså med \(2\). Dermed kan vi skrive 
+$$
+\begin{aligned}
+F_1 & = 2
+\\
+F_2 & = 2 + 2\cdot 1
+\\
+F_3 & = 2 + 2\cdot 1 + 2\cdot 2
+\\
+\vdots
+\\
+F_n & = 2 + 2\cdot 1 + 2\cdot 2 + \ldots + 2\cdot n
+\\
+F_n & = 2 + 2(1+2+\ldots + n)
+\\
+F_n & = 2 + 2T_n
+\\
+F_n & = 2 + n(n+1).
+\end{aligned}
+$$
+
+
+Vi kan nå bruke formelen til å trekke ut en måte å lage figuren. Vi ser at det er to trekanttall og noe som er konstant lik to (figuren får man lage selv 😉).
+
+Nå har vi løst problemet ved hjelp av sum av tillegg. En kan for eksempel lage figuren og peke geometrisk på hvordan man ville gått baklengs for å finne formelen derfra. 
+
 ## 08.05
 
 ### Bruke begrepene faktor (divisor), felles faktor og største felles faktor, multiplum, felles multiplum og minste felles multiplum
