@@ -386,14 +386,20 @@ Vi merker oss først at det er $\frac{52\cdot 51\cdot 50\cdots 42\cdot 41\cdot 4
    \frac{13\cdot 12\cdot 11\cdot 10 \cdot 9 \cdot 8}{6\cdot 5\cdot 4\cdot 3\cdot 2\cdot 1}\cdot \frac{39\cdot 38\cdots 35\cdot 34\cdot 33}{7\cdot 6\cdot 5\cdot 4\cdot 3 \cdot 2\cdot 1}
    -6\cdot\frac{13\cdot 12\cdot 11\cdot 10 \cdot 9 \cdot 8}{6\cdot 5\cdot 4\cdot 3\cdot 2\cdot 1}\cdot \frac{13\cdot 12\cdot 11\cdot 10 \cdot 9 \cdot 8}{6\cdot 5\cdot 4\cdot 3\cdot 2\cdot 1} \cdot 26}{\frac{52\cdot 51\cdot 50\cdots 42\cdot 41\cdot 40}{13\cdot 12\cdots 3\cdot 2\cdot 1}}
   $$
-
+3. Vi trekker ut fem kort av en kortstokk på 52 kort.
+ - Hva er sannsynligheten for at det er nøyaktig to spar blant de fem?
+   - Vi kan for eksempel tenke oss at det ikke er viktig hvilken rekkefølge vi trekker ut i (det går også å tenke at rekkefølgen betyr noe). Dermed får vi \(\frac{52 \cdot 51 \cdot 50\cdot 49\cdot 48}{5\cdot 4\cdot 3\cdot 2\cdot 1}\) mulige hender vi kan trekke. Videre er det \(\frac{13\cdot 12}{2} = 78\) måter å velge to kort som er spar. For hver av de to kortene som er spar, så er det \(\frac{39\cdot 38\cdot 37}{3\cdot 2\cdot 1}\) mulige måter å trekke tre kort som ikke inneholder noen spar. Dermed må det, ved multiplikasjonsprinsippet være \(78\cdot \frac{39\cdot 38\cdot 37}{3\cdot 2\cdot 1}\) mulige hender som inneholder nøyaktig to spar. 
+ - Hva er sannsynligheten for at alle dem fem kortene er kløver?
+ - Hva er sannsynligheten for at ruter knekt er med?
+ - Hvor stor sannsynlighet er det for at det er to kort med samme
+     verdi hånden som deles ut?
 4. Vi har et rutenett med $2 \times 5$ ruter. Vi skal først fargelegge
     fire ruter røde og så to gule.
    1. Hvor mange måter kan vi gjøre det på?
    - Vi har 10 ruter å velge mellom. Begynner vi med fire ruter i rødt får vi $\frac{10\cdot 9\cdot 8 \cdot 7}{4\cdot 3\cdot 2\cdot 1}$. Her deler vi på $4\cdot 3\cdot 2\cdot 1$ fordi dette er et uordnet utvalg uten tilbakelegg. Det gjenstår nå 6 ruter vi kan velge til gulfargene. Det gir $\frac{6\cdot 5}{2}$. Multiplikasjonsprinsippet forteller oss nå at det er $\frac{10\cdot 9\cdot 8 \cdot 7}{4\cdot 3\cdot 2\cdot 1}\cdot \frac{6\cdot 5}{2}$ forskjellige måter å fargelegge 4 av de ti rutene røde og så 2 av rutene gule.
-   2. Hvordan ville det blitt om vi først velger de to som skal være gule, og så de fire som skal være røde?
+   1. Hvordan ville det blitt om vi først velger de to som skal være gule, og så de fire som skal være røde?
    - Logikken blir lik som over, men fremgangen er noe ulik. Altså først $\frac{10\cdot 9}{2}$ og deretter $\frac{8\cdot 7\cdot 6\cdot 5}{4\cdot 3 \cdot 2 \cdot 1}$ og igjen får vi totalt $\frac{10\cdot 9}{2}\cdot \frac{8\cdot 7\cdot 6\cdot 5}{4\cdot 3 \cdot 2 \cdot 1}$ muligheter.
-   3. Hva om vi velger rutene som ikke skal fargelegges, så de fire
+   1. Hva om vi velger rutene som ikke skal fargelegges, så de fire
         som skal være røde?
    - Her får dere regne selv, men egg merke til at dette gir samme svar som de to oppgavene over.
 
