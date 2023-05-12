@@ -270,7 +270,9 @@ frem at addisjonsregelen må gjelde (Setning 7.53).
    2. Eller så er det ikke en toer på første posisjon, men på andre $x2$, der $x$ er et siffer som ikke er $2$ (altså 9 muligheter). Tilsvarende som over får vi $45$ muligheter.
    3. Eller $22$. Her er det kun siste siffer som kan endre på seg, og vi har derfor 5 muligheter.
    Siden vi nå har delt mulighetene våre i tre tilfeller som dekker alle mulighetene, og i tillegg ikke overteller noe (er disjunkt), så sier addisjonsprinsippet at antallet er $45+45+5 = 95$.
-2. ![Alt text](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/sannsyn/%C3%B8vingl%C3%A5ser.svg)
+2. Studenten kan tegne opp et Venn-diagram som under og argumentere ved hjelp av dette. Vi ser at å inneholde enten minst én ener eller minst én toer (eller begge) er \(1000-512 = 488\). Vi ser også at hvis vi tar \(271+271\), så vil vi overtelle snittet mellom de to mengdene tegnet på. Siden addisjonsprinsippet tilsier at \(271+271 - \text{ snittet }\) gir oss antall mengder i unionen og at dette skal bli \(488\), så må snittet være \(542-488 = 52\). Siden det er denne mengden vi er ute etter har vi nå svaret.
+
+![Alt text](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/sannsyn/%C3%B8vingl%C3%A5ser.svg)
 
 
 ### Forklare, illustrere og bruke komplementsetningen
