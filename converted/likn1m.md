@@ -56,6 +56,10 @@
    d) Noe + 5 = 37; noe = 32. Det dobbelte av noe er 32; noe er 16. Tallet i andre er 16; tallet er 4.
    e) To ganger noe er 20; noe er 10. $\pi$ ganger tallet er 10; tallet $\frac{10}{\pi}$. .
 
+#### Middels: Løse lineære likninger ved hjelp av ulike strategier,  12.05
+
+Se 17.02
+
 #### Middels: Løse lineære likninger ved hjelp av ulike strategier,  08.05
 
 1. Løs likningen $\displaystyle\frac{20}{\frac{4x-2}{3}-2}= 5$ på en måte som ikke innebærer "flytt og bytt" eller å utføre samme operasjon på hver side av likhetstegnet. på to uformelle måter. Løs likningen deretter formelt.

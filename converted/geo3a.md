@@ -27,6 +27,10 @@ $$
 
 #### Avansert: Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer,  08.05
 
+Se 31.03
+
+#### Avansert: Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer,  08.05
+
 Se 17.02
 
 #### Avansert: Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer,  28.04.23

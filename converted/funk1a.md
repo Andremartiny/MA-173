@@ -28,6 +28,10 @@
     c.  Begrunn kort hvordan grafen og funksjonsuttrykket svarer til
         situasjonseksemplet.
 
+#### Avansert: Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon,  12.05 
+
+Se 31.03
+
 #### Avansert: Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon,  08.05 
 
 1. Tabellen under viser en funksjonssammenheng.

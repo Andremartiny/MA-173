@@ -15,6 +15,11 @@
     lages slik at du selv hvordan de kan løses og hva løsningene er.
 
 
+#### Middels: Løse kvadratiske likninger ved hjelp av fullstendige kvadraters metode,  12.05
+
+Se 17.02
+
+
 #### Middels: Løse kvadratiske likninger ved hjelp av fullstendige kvadraters metode,  08.05
 
 1. Løs likningen $4x^2 + 4x = {15}$ med fullstendige kvadraters metode.

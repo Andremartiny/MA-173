@@ -32,6 +32,17 @@ Totalt 8 mulige utfall. Siden hvert kast gir lik sannsynlighet for kron
 og mynt er dette utfallsrommet uniformt. Vi ser her at det er kun ett av de åtte tilfellene som gir kun tre kron, mens det er flere som gir nøyaktig to kron. Dermed kan ikke det opprinnelige utfallsrommet gitt i teksten gi opphav til en uniform
 
 
+#### Middels: Forklare og bruke begrepet uniform sannsynlighetsmodell,  12.05
+
+Henrik kaster en sekssidet terning og trekker deretter et kort fra en vanlig kortstokk. En vanlig kortstokk inneholder 16 bildekort (knekt, dame, konge og ess) og 36 vanlige kort (kort fra 2 til 10). Henrik setter opp et utfallstre, slik du kan se på bildet under. På utfallstreet har han market at i første omgang kan han få 1 til 6. I neste omgang kan han få enten bildekort eller et kort fra 2 til 10. Det gir totalt \(6\cdot 2 = 12\) grener i treet. Forklar hvorfor disse 12 utfallene ikke vil gi opphav til en uniform sannsynlighetsmodell.
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/sannsyn/uniform1205sannsyn.svg)
+
+##### Vurderingskriterier
+
+Studenten må peke på problemet med modellen, nemlig at i andre del av utvelgingen, så er det flere kort som ikke er bildekort enn de som er bildekort. Hvis vi antar at alle kortene er like sannsynlige å trekke vil det dermed være mer sannsynlig å slå en ener på terningen og deretter trekke et kort som ikke er bildekort, sammenlignet med å slå en ener på terningen og deretter trekke et bildekort.
+
+
 #### Middels: Forklare og bruke begrepet uniform sannsynlighetsmodell,  08.05
 
 Se 31.03

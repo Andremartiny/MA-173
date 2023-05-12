@@ -20,6 +20,12 @@
 
 
 
+#### Middels: Bruke Pytagoras setning,  08.05
+
+Se 31.03
+
+
+
 
 #### Middels: Bruke Pytagoras setning,  08.05
 

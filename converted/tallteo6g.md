@@ -25,6 +25,26 @@
    b. Under er sammenhengen markert. De grønne er forrige figur, det røde er det som legges til i trekanten, det blå er bunnen som legges til i rektangelet, og det gule er siden som legges til i rektangelet. ![Rekursiv sammenheng](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/rekursiv.svg)
    c. Vi kan nå bruke dekomponeringen vi har brukt til å beskrive den rekursive sammenhengen. For figur $P_n$ har vi trekanttall $n+1$ minus toppen. Det gir $T_{n+1}-1 = \frac{(n+1)(n+2)}{2}-1$. Rektangelet er alltid $n(n-1)$, så vi får at den eksplisitte formelen er $\frac{(n+1)(n+2)}{2}-1+n(n-1)$.
 
+#### Grunnleggende: Beskrive oppbygningen av figurtall (alle typer),  12.05
+
+Under ser dere de første figurene i et figurtallsmønster.
+
+Ved å illustrere figurene og markere i illustrasjonen, gi en ordforklaring av
+
+1. en eksplisitt sammenheng mellom figur nummer $n$ og antall prikker i figuren.
+
+2. en rekursiv sammenheng mellom to påfølgende figurer. 
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/figurtall1205.svg)
+
+
+##### Vurderingskriterier
+
+1. Studenten kan for eksempel markere og bryte ned figuren i tre komponenter. To trekanter som er like store og er én større enn figurtallsnummeret (figur 1 har trekanter med størrelse 2, figur 2 har trekanter med størrelse 3 osv). Den siste komponenten er et kvadrat i midten som mangler sidene (men ikke hjørnene), også kvadratet er én større enn figurtallsnummeret (se figurer under). 
+2. Fra 1. kan vi peke på at hvis vi skal gå fra figurtallnumer \(n\) til å lage neste figur så må øke de tre komponentene på følgende måte: vi legge på sidelenger med størrelse \(n+2\) på de to trekantene. På kvadratet må vi fylle sidene og legge til "ytre hjørner" (eventuelt må vi bare flytte de fire hjørnene ut og legge til rammen). 
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/figurtall1205.drawio%20copy.svg)
+
 #### Grunnleggende: Beskrive oppbygningen av figurtall (alle typer),  08.05
 
 Under ser dere dere de tre første piltallene.

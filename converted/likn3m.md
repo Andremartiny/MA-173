@@ -6,6 +6,10 @@
 
     b.  3.64 Løs på så mange måter du greier.
 
+#### Middels: Løse lineære likningssett med to ukjente på ulike måter,  12.05
+
+Se 17.02
+
 #### Middels: Løse lineære likningssett med to ukjente på ulike måter,  08.05
 
 Denne oppgaven ble gitt på ungdomstrinnet. 

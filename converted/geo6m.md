@@ -18,6 +18,10 @@ Under ser du en figur av tre formlike trekanter. Avgjør lengden på de resteren
 
 #### Middels: Bruke begrepet formlikhet av trekanter,  08.05
 
+24.04
+
+#### Middels: Bruke begrepet formlikhet av trekanter,  08.05
+
 Under ser du to formlike trekanter der $a$ og $a'$ samsvarer, $b$ og $b'$ samsvarer og $c$ og $c'$ samsvarer. 
 
 Avgjør $b'$ og $c$ når du vet: 

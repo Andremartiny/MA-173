@@ -1,4 +1,10 @@
 
+#### Avansert: Bruke de tre kvadratsetningene,  12.05
+
+Se 17.02
+
+
+
 #### Avansert: Bruke de tre kvadratsetningene,  08.05
 
 Under ser du to uttrykk.

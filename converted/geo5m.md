@@ -10,6 +10,11 @@ Vi vet at $A = \frac{(a+b)h}{2}$. Skalerer vi opp trapeset og bevarer formen få
 
 #### Middels: Bruke formler for størrelser av figurer til å utforske geometriske sammenhenger,  08.05
 
+Se 17.04
+
+
+#### Middels: Bruke formler for størrelser av figurer til å utforske geometriske sammenhenger,  08.05
+
 Se 17.02
 
 

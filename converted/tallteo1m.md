@@ -27,6 +27,14 @@
 1. Den enkleste løsningen her er å bruke at $\text{sff}\cdot \text{mfm} = ab$. Vi vet altså at $12\cdot 5460 = 420 b$ Deler vi på $420$ får vi nå at $b = 156$.
 2. Hvis vi primtallsfaktoriserer kan vi skrive $210$ som $2\cdot 2\cdot 5 \cdot 11$ og $84$ kan skrives som $2\cdot 2 \cdot 3\cdot 7$. Vi kan nå se at én pose fungerer med $210$ av den ene og 84 går. Siden begge inneholder faktoren $2$ kan vi også dele de i 2 og få to poser med $110$ og $42$ i hver. Vi ser at begge kan deles i to igjen, som gir fire poser med $55$ og $21$ i hver. Vi har nå ingen felles faktorer, så det kan heller ikke fordeles på andre måter. Det gir at vi kan dele i enten én, to eller fire poser.
 
+#### Middels: Bruke begrepene faktor (divisor), felles faktor og største felles faktor, multiplum, felles multiplum og minste felles multiplum,  12.05
+
+Forklar hvorfor alle produkt av tre påfølgende naturlige tall har faktor 3. 
+
+##### Vurderingskriterier
+
+Studenten må gi en forklaring som begrunner påstanden. Dette kan gjøres på flere måter (generisk eksemplel med/uten figur, formelt etc). Et formelt argument er for eksempel at en vilkårlig prddukt av tre påfølgende tall kan skrives som \(n\cdot (n+1)\cdot (n+2)\), der \(n\) er et naturlig tall større enn 1. Det gjenstår nå bare å peke på at hvis \(n\) er i tregangen så er det klart at faktoren 3 inngår. Hvis \(n\) ikke er i tregangen, så er den enten én under eller to under. Er den én under, så vil \(n+1\) være i tregangen, er den to under vil \(n+2\) være i tregangen. Uansett, vil ett av de tre påfølgende tallene være i tregangen.
+
 #### Middels: Bruke begrepene faktor (divisor), felles faktor og største felles faktor, multiplum, felles multiplum og minste felles multiplum,  08.05
 
 Forklar hvorfor alle summer av tre påfølgende naturlige tall har felles faktor 3.

@@ -3,6 +3,11 @@
 1. *Se oppgaver fra tidligere nasjonal deleksamen fra seminar og i modulen nasjonal deleksamen.*
 
 
+#### Avansert: Løse lineære likninger ved hjelp av ulike strategier,  12.05
+
+Se 17.02
+
+
 #### Avansert: Løse lineære likninger ved hjelp av ulike strategier,  08.05
 
 Noen mellomtrinnselever fikk denne utfordringen: En bil, sjåfør og tilhenger veier totalt $2900 kg$. Bilen veier to ganger vekten av tilhengeren pluss vekten av sjåføren. Tilhengeren veier $900 kg$. Hvor mye veier sjåføren?

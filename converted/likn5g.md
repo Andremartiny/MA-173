@@ -1,3 +1,7 @@
+#### Grunnleggende: Bruke de tre kvadratsetningene,  12.05
+
+Se 17.02
+
 #### Grunnleggende: Bruke de tre kvadratsetningene,  08.05
 
 Gjengi og vis første og tredje kvadratsetningene algebraisk

@@ -29,7 +29,7 @@
 1. \
 a. Vi ser at vi må trekke fra et kvadrattall, så vi må dermed bruke de to trekanttallene våre til å kunne trekke fra kvadratet. Dette kan vi for eksempel illustrere på følgende måte
 
-![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-25-12-58-11.png)>
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-25-12-58-11.png)
 
 Der gul og grønn illustrerer trekanttallene og røde sirkler er det som skal trekkes vekk. Eller følgende måte
 
@@ -52,6 +52,43 @@ $$
 $$
 
 4. Vi utnytter at vi vet at $n^2 + 2n + 1 = (n+1)^2$. Vi kan derfor skrive om uttrykket som $n^2 + 3n + 1 = n^2 + 2n + 1 +n = (n+1)^2+n$. Nå kan vi enkelt se at tillegget fra figur til figur er $(2n+1) + 1$, der $2n+1$ er økninga av kvadratet $+1$ er økningen fra ledded $n$. Dette gir oss også en enkel oversettelse til en figur, dette overlates til leseren!
+
+#### Avansert: Beskrive oppbygningen av figurtall (alle typer),  12.05
+
+Du får vite at et figurtall $F_n$ øker på følgende måte. $F_1 = 2$, $F_2 = 4$, $F_3 = 8$, $F_4 = 14$ og $F_5 = 22$.
+
+Lag en figur som følger mønsteret til $F_n$. Det er nok å illustrere $F_1$, $F_2$ og $F_3$, så lengde det får fram mønsteret.
+Vis og forklar sammenhengen mellom tallrekken og figurene rekursivt.
+Finn en eksplisitt formel på to forskjellige måter.
+
+##### Vuderingskriterier
+
+Vi begynner med å analysere utviklingen av tallrekka. Vi ser at økningen er  \(2\), så \(4\) og så \(6\). Tilleggene øker altså med \(2\). Dermed kan vi skrive 
+$$
+\begin{aligned}
+F_1 & = 2
+\\
+F_2 & = 2 + 2\cdot 1
+\\
+F_3 & = 2 + 2\cdot 1 + 2\cdot 2
+\\
+\vdots
+\\
+F_n & = 2 + 2\cdot 1 + 2\cdot 2 + \ldots + 2\cdot n
+\\
+F_n & = 2 + 2(1+2+\ldots + n)
+\\
+F_n & = 2 + 2T_n
+\\
+F_n & = 2 + n(n+1).
+\end{aligned}
+$$
+
+
+Vi kan nå bruke formelen til å trekke ut en måte å lage figuren. Vi ser at det er to trekanttall og noe som er konstant lik to (figuren får man lage selv 😉).
+
+Nå har vi løst problemet ved hjelp av sum av tillegg. En kan for eksempel lage figuren og peke geometrisk på hvordan man ville gått baklengs for å finne formelen derfra. 
+
 
 #### Avansert: Beskrive oppbygningen av figurtall (alle typer),  08.05
 

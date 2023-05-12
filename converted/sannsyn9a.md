@@ -12,6 +12,15 @@
    c. Det er på samme måte kun ett utfall som gir bare mynt. Dermed av de totalt $32$ mulighetene så er det $32-2$ som hverken inneholder bare kron eller bare mynt. Sannsynligheten blir derfor $\frac{30}{32}$.
 
 
+#### Avansert: Forklare, illustrere og bruke komplementsetningen,  12.05
+
+Da Henrik var student gikk han i en klasse med 18 studenter. Hver undervisningsøkt deltes de inn i grupper på tre. Henrik hadde fire venner han gjerne ønsket å komme på gruppe med. Hva var synligheten for at Henrik kom på gruppe med minst en av dine venner, når gruppene ble valgt tilfeldig?
+
+##### Vurderingskriterier
+
+Studenten må løse på en måte slik at leseren kan forstå hva som er gjort. For eksempel kan en peke på hvilke to som havner på gruppe med Henrik er like sannsynlig. Det er $\frac{17\cdot 16}{2} = 136$ forskjellige mulige klassekammerater som han kan havne på. For å avgjøre hvor mange av de som inneholder minst én, er det naturlig å se på hvor mange som ikke inneholder noen. Av de 17 resterende klassekammeratene er det 12 som ikke er av de fire vennene Henrik ønsker å komme på gruppe med. Derfor er det $\frac{12\cdot 11}{2} = 66$ grupper som ikke inneholder noen av Henriks venner. Derfor må det være $136 - 66 = 70$ mulige grupper der Henrik er på gruppe med minst én av sine venner. Sannsynligheten er derfor $\frac{70}{136}$.
+
+
 #### Avansert: Forklare, illustrere og bruke komplementsetningen,  08.05
 
 Det er 13 gutter og 12 jenter i en klasse. Det skal trekkes en tilfeldig gruppe på tre fra klassen. Hva er sannsynligheten for at man trekker minst én jente?

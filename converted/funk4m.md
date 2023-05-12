@@ -33,6 +33,11 @@
     b.  $3 - \frac{1}{2}t = 1$
 
 
+#### Middels: Løse likninger fra funksjonsperspektiv,  12.05 
+
+Se 31.03
+
+
 #### Middels: Løse likninger fra funksjonsperspektiv,  08.05 
 
 1. Gi en situasjon som passer til funksjonen $f(x)= 150x$. Hva svarer likninga $150x = 3000$ til i situasjonsbeskrivelsen din? Tolk og løs likningen grafisk i et koordinatsystem.

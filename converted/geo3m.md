@@ -22,6 +22,10 @@
 
 #### Middels: Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer,  08.05
 
+Se 31.03
+
+#### Middels: Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer,  08.05
+
 Se 17.02
 
 #### Middels: Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer,  28.04.23

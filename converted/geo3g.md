@@ -8,6 +8,11 @@
 
 #### Grunnleggende: Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer,  08.05
 
+Se 31.03
+
+
+#### Grunnleggende: Bruke begrepene punkt, linje, plan, linjestykke, vinkel og parallelle linjer,  08.05
+
 Se 17.02
 
 

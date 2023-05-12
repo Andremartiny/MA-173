@@ -2,6 +2,10 @@
 
 Forklar og gi eksempler til begrepene
 
+#### Grunnleggende: Forklare og bruke begrepene ordnet utvalg med og uten tilbakelegg,  12.05
+
+Se øveoppgaver
+
 #### Grunnleggende: Forklare og bruke begrepene ordnet utvalg med og uten tilbakelegg,  08.05
 
 Forklar og gi et eksempel til:

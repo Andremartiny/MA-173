@@ -18,6 +18,10 @@
 
 #### Middels: Bruke begrepene kvadrat, rektangel, parallellogram, trapes, likebeint trekant, likesidet trekant, rettvinklet trekant, mangekant, sirkel,  08.05
 
+Se 31.03
+
+#### Middels: Bruke begrepene kvadrat, rektangel, parallellogram, trapes, likebeint trekant, likesidet trekant, rettvinklet trekant, mangekant, sirkel,  08.05
+
 Se 17.02
 
 #### Middels: Bruke begrepene kvadrat, rektangel, parallellogram, trapes, likebeint trekant, likesidet trekant, rettvinklet trekant, mangekant, sirkel,  28.04.23

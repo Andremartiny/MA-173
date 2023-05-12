@@ -1,3 +1,7 @@
+#### Middels: Bruke de tre kvadratsetningene,  12.05
+
+Se 17.02
+
 #### Middels: Bruke de tre kvadratsetningene,  08.05
 
 Illustrer andre og tredje kvadratsetningene geometrisk. Bruk illustrasjonene til å gi en forklaring av identitetene.

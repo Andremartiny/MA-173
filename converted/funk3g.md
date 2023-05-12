@@ -18,6 +18,10 @@
 
 4. I hvilke punkter skjærer $y = x$ og $y = \frac{a}{x}$?
 
+#### Grunnleggende: Forklare hvordan endringer i parameterne i funksjonsuttrykket påvirker grafene til andregrads- og omvendt proporsjonale funksjoner,  12.05 
+
+Se 31.03
+
 #### Grunnleggende: Forklare hvordan endringer i parameterne i funksjonsuttrykket påvirker grafene til andregrads- og omvendt proporsjonale funksjoner,  08.05 
 
 En omvendt proporsjonal funksjon kan skrives på formen $\frac{a}{x}$. Vis i et koordinatsystem hvordan grafen ser ut dersom $a>0$ og dersom $a<0$.

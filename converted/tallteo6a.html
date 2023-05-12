@@ -51,7 +51,7 @@ to trekanttallene våre til å kunne trekke fra kvadratet. Dette kan vi
 for eksempel illustrere på følgende måte</li>
 </ol>
 <p><img
-src="https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-25-12-58-11.png" />&gt;</p>
+src="https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-04-25-12-58-11.png" /></p>
 <p>Der gul og grønn illustrerer trekanttallene og røde sirkler er det
 som skal trekkes vekk. Eller følgende måte</p>
 <p><img
@@ -89,6 +89,49 @@ class="math inline">\(n\)</span>. Dette gir oss også en enkel
 oversettelse til en figur, dette overlates til leseren!</li>
 </ol>
 <h4
+id="avansert-beskrive-oppbygningen-av-figurtall-alle-typer-12.05">Avansert:
+Beskrive oppbygningen av figurtall (alle typer), 12.05</h4>
+<p>Du får vite at et figurtall <span class="math inline">\(F_n\)</span>
+øker på følgende måte. <span class="math inline">\(F_1 = 2\)</span>,
+<span class="math inline">\(F_2 = 4\)</span>, <span
+class="math inline">\(F_3 = 8\)</span>, <span class="math inline">\(F_4
+= 14\)</span> og <span class="math inline">\(F_5 = 22\)</span>.</p>
+<p>Lag en figur som følger mønsteret til <span
+class="math inline">\(F_n\)</span>. Det er nok å illustrere <span
+class="math inline">\(F_1\)</span>, <span
+class="math inline">\(F_2\)</span> og <span
+class="math inline">\(F_3\)</span>, så lengde det får fram mønsteret.
+Vis og forklar sammenhengen mellom tallrekken og figurene rekursivt.
+Finn en eksplisitt formel på to forskjellige måter.</p>
+<h5 id="vuderingskriterier">Vuderingskriterier</h5>
+<p>Vi begynner med å analysere utviklingen av tallrekka. Vi ser at
+økningen er (2), så (4) og så (6). Tilleggene øker altså med (2). Dermed
+kan vi skrive <span class="math display">\[
+\begin{aligned}
+F_1 &amp; = 2
+\\
+F_2 &amp; = 2 + 2\cdot 1
+\\
+F_3 &amp; = 2 + 2\cdot 1 + 2\cdot 2
+\\
+\vdots
+\\
+F_n &amp; = 2 + 2\cdot 1 + 2\cdot 2 + \ldots + 2\cdot n
+\\
+F_n &amp; = 2 + 2(1+2+\ldots + n)
+\\
+F_n &amp; = 2 + 2T_n
+\\
+F_n &amp; = 2 + n(n+1).
+\end{aligned}
+\]</span></p>
+<p>Vi kan nå bruke formelen til å trekke ut en måte å lage figuren. Vi
+ser at det er to trekanttall og noe som er konstant lik to (figuren får
+man lage selv 😉).</p>
+<p>Nå har vi løst problemet ved hjelp av sum av tillegg. En kan for
+eksempel lage figuren og peke geometrisk på hvordan man ville gått
+baklengs for å finne formelen derfra.</p>
+<h4
 id="avansert-beskrive-oppbygningen-av-figurtall-alle-typer-08.05">Avansert:
 Beskrive oppbygningen av figurtall (alle typer), 08.05</h4>
 <p>Du får vite at et figurtall <span class="math inline">\(F_n\)</span>
@@ -103,7 +146,7 @@ class="math inline">\(F_2\)</span> og <span
 class="math inline">\(F_3\)</span>, så lengde det får fram mønsteret.
 Vis og forklar sammenhengen mellom tallrekken og figurene rekursivt.
 Finn en eksplisitt formel på to forskjellige måter.</p>
-<h5 id="vuderingskriterier">Vuderingskriterier</h5>
+<h5 id="vuderingskriterier-1">Vuderingskriterier</h5>
 <p>Vi begynner med å analysere utviklingen av tallrekka. Vi ser at
 økningen er <span class="math inline">\(6\)</span> så <span
 class="math inline">\(8\)</span>, så <span

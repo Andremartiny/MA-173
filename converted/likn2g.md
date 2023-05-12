@@ -8,6 +8,10 @@
 
     c.  3.70
 
+#### Grunnleggende: Løse lineære ulikheter ved hjelp av ulike strategier,  12.05
+
+Se 17.02
+
 #### Grunnleggende: Løse lineære ulikheter ved hjelp av ulike strategier,  08.05
 
 Løs ulikheten $3(3-x) \geq 6$.

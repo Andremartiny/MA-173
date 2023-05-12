@@ -20,6 +20,23 @@
 3. La oss skrive tre vilkårlig påfølgende tall slik $n-1$, $n$ og $n+1$. Er for eksempel $n = 3$ er de tre påfølgende tallene her $2$, $3$ og $4$. Det viktige vi må legge merke til her er at vi vil alltid ha minst ett partall i rekken. Starter vi på et partall så har vi to. I tillegg vil vi alltid ha et tall i $3$-gangen. Det betyr at produktet vårt må inneholde faktoren $2$ og $3$. Dermed må prodkutet også faktoren $6$. Alle produkter av tre påfølgende tall har derfor felles faktorer $2$, $3$ og $6$, i tillegg til $1$.
 
 
+
+
+#### Avansert: Bruke begrepene faktor (divisor), felles faktor og største felles faktor, multiplum, felles multiplum og minste felles multiplum,  12.05
+
+Undersøk og begrunn følgende påstander.
+
+1. *Hvis vi har ulike tall \(a\) og \(b\) med største felles faktor \(f\), så vil \(a-b\) også ha felles faktor \(f\)*
+2. *Hvis \(a\) er større enn \(b\) og \(b\) er større enn \(a-b\), så vil \(b- (a-b)\) også ha felles faktor \(f\).*
+3. *Hvis vi fortsetter slik som i 1. og 2., ved å ta de to minste tallene og se på differansen, vil vi alltid produsere nye tall med faktor \(f\) helt til de to minste tallene blir like store (og lik \(f\)).*
+
+##### Vurderingskriterier
+
+Studenten bør undersøke påstanden og deretter komme med en overbevisende forklaring. 
+Ved å underøske noen eksempler, \(a= 30\) og \(b=21\), som har største felles faktor 3, ser vi at \(a-b = 9\) og \(b-(a-b) = 21-9 = 12\). Dette var steg 1. og 2. Fortsetter vi med de to minste tallene \(9\) og \(12\) får vi \(12-9 = 3\), som gir \(9-3 = 6\) som gir \(6-3 = 3\) og vi har nå fått to like tall som er faktoren \(f\).
+At \(a-b\) har faktor \(f\) kan de argumentere for ved å for eksempel peke på et generisk eksempel som \(30\) og \(21\) og si at siden \(3\) er felles faktor så kan vi skrive \(30 = 3\cdot 10\) og \(21 = 3\cdot 7\), dermed blir differansen \(3(10-7)\) som åpenbart fortsatt inneholder faktoren \(3\). Det er ingenting unikt med \(30\) og \(21\). Det eneste viktige her er at vi kan faktorisere ut faktoren i differansen, noe vi alltid vil kunne gjøre. Vi ser nå at påstand 2. følger direkte fra begrunnelsen av påstand 1. Siden påstand 1. og 2. viser at vi bare kan fortsette og fortsette uten å miste faktoren \(f\), så er det tydelig at vi får mindre og mindre tall, alle med faktor \(f\). Til slutt må ett av tallene bli så små at de er mindre eller lik \(f\), men de kan ikke være mindre, siden alle tall mindre enn \(f\) ikke inneholder faktoren \(f\). Dermed står vi nå med to tall, ett som *er* \(f\) og ett som er et multiplum av \(f\). Dermed følger siste del av argumentet også direkte. 
+
+
 #### Avansert: Bruke begrepene faktor (divisor), felles faktor og største felles faktor, multiplum, felles multiplum og minste felles multiplum,  08.05
 
 Undersøk og begrunn følgende påstand.

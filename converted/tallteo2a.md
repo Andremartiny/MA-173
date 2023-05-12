@@ -14,6 +14,23 @@
 1. Hvis vi fokuserer på antall oddetall i summen, ser vi at det er $1, 3, 5, 7$ og $9$. Vi kan enten legge de til eller trekke de fra i summen vår. Siden vi har et oddetall antall oddetall. Det betyr også at vi enten vil legge til et oddetall antall oddetall, eller trekke fra et oddetall antall oddetall. Vi kan anta at vi legger de til (for hvis summen ble 0 etter vi la til + og -, så ville vi fortsatt fått 0 i sum dersom vi byttet om alle +'ene med -'er og motsatt). Siden vi legger til et oddetall antall oddetall i tillegg til noen partall vil vi til slutt ende opp med å ha lagt til et oddetall. Ser vi på hva vi trekker fra, ser vi at vi trekker fra et partall antall oddetall i tillegg til noen partall. Det betyr at vi trekker fra et partall. Vi må altså ha at vi legger til et oddetall og trekker fra et partall. Dette kan åpenbart ikke bli 0. Uten å undersøke noen mønstre veldig nøye, kan vi allerede nå konkludere med at hvis vi har et oddetall antall oddetall og en tilsvarende situasjon, så vil vi aldri kunne lage en sum som blir 0. (Videre undersøking for flere mønstre får dere gjøre selv 😉)
 
 
+
+#### Avansert: Bruke begrepene naturlig tall, partall og oddetall, primtall og sammensatt tall,  12.05
+
+Undersøk og begrunn følgende påstander.
+
+1. *Hvis vi har en liste med forskjellige primtall \(L =\{p_1, p_2, p_3, \ldots, p_n\}\) og vi ser på produktet \(a=p_1\cdot p_2\cdot\ldots\cdot p_n+1\), så vil \(a\) ikke være delelig med noen av primtallene i listen \(L\).*
+2. *\(a\) må enten være et primtall som ikke er i \(L\), eller et sammensatt tall bestående av et primtall som ikke er i \(L\).*
+3. *Vi kan derfor enkelt generere nye primtall, noe som betyr at det finnes uendelig mange primtall.*
+
+##### Vurderingskriterier
+
+Studenten må begrunne påstandene
+1. Siden \(p_1\) deler \(a-1\) så kan ikke \(p_1\) dele \(a = (a-1)+1\), siden \(p_1\) ikke deler \(1\). Dette argumentet gjelder også for \(p_2\), \(p_3\) og resten av primtallene i lista \(L\). 
+2. Siden ingen av primtallene i listen deler \(a\), så må det finnes et primtall, som ikke er i listen, som deler \(a\). Enten så er det \(a\), ellers må det være et primtall mindre enn \(a\), som betyr at \(a\) er et sammensatt tall.
+3. Vi kan se fra 1. og 2. at vi kan fortsette å generere nye primtall ved å gjenta argumentene fra 1. og 2. igjen og igjen. Siden vi kan fortsette for evig må det også finnes uendelig mange primtall
+
+
 #### Avansert: Bruke begrepene naturlig tall, partall og oddetall, primtall og sammensatt tall,  08.05
 
 Alle naturlige tall kan beskrives relativ til et tall i fire-gangen. Noen tall er i fire-gangen ($4, 8,\ldots, 4n,\ldots$), noen er én mer enn et tall i fire-gangen ($1, 5, 9, \ldots, 4n +1, \ldots$), noen er to mer enn tall i fire-gangen ($2, 6, 10, \ldots, 4n+2, \ldots$) og resten er tre mer enn tall i firegangen. Forklar hvorfor alle primtall bortsett fra $2$ er enten én mer eller én mindre enn noe i firegangen

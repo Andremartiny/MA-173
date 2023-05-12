@@ -56,6 +56,12 @@
 
 
 
+#### Middels: Gjøre om mellom ulike representasjonsformer for funksjonssammenhenger,  12.05 
+
+Se 31.03
+
+
+
 #### Middels: Gjøre om mellom ulike representasjonsformer for funksjonssammenhenger,  08.05 
 
 Under ser du en skisse av Henriks reisevei til jobb dersom han kjører bil. Fartsgrensene gjelder hver av de rette strekkene.

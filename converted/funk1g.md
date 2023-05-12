@@ -12,6 +12,10 @@
     kort, med utgangspunkt i eksemplet ditt, hva som kjennetegner en
     omvendt proporsjonal funksjon.
 
+#### Grunnleggende: Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon,  12.05 
+
+Se 31.03
+
 #### Grunnleggende: Bruke begrepene lineær funksjon, andregradsfunksjon og omvendt proporsjonal funksjon,  08.05 
 
 1. Gi et eksempel på en lineær funksjon, og forklart kort, med utgangspunkt i eksemplet ditt, hva som kjennetegner en lineær funksjon.

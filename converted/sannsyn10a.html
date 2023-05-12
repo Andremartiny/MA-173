@@ -29,7 +29,7 @@ dele ut?</li>
 det?</li>
 <li>Hva er sannsynligheten for å få ei slik hånd?</li>
 </ul></li>
-<li>Vi trekker ut seks kort av en kortstokk på 52 kort.
+<li>Vi trekker ut fem kort av en kortstokk på 52 kort.
 <ul>
 <li>Hva er sannsynligheten for at det er nøyaktig to spar blant de
 fem?</li>
@@ -208,7 +208,51 @@ class="math display">\[
 \]</span></li>
 </ul></li>
 </ul>
-<ol start="4" type="1">
+<ol start="3" type="1">
+<li>Vi trekker ut fem kort av en kortstokk på 52 kort.</li>
+</ol>
+<ul>
+<li>Hva er sannsynligheten for at det er nøyaktig to spar blant de fem?
+<ul>
+<li>Vi kan for eksempel tenke oss at det ikke er viktig hvilken
+rekkefølge vi trekker ut i (det går også å tenke at rekkefølgen betyr
+noe). Dermed får vi () mulige hender vi kan trekke. Videre er det ( =
+78) måter å velge to kort som er spar. For hver av de to kortene som er
+spar, så er det () mulige måter å trekke tre kort som ikke inneholder
+noen spar. Dermed må det, ved multiplikasjonsprinsippet være (78) mulige
+hender som inneholder nøyaktig to spar.</li>
+</ul></li>
+<li>Hva er sannsynligheten for at alle dem fem kortene er kløver?
+<ul>
+<li>Vi vet allerede antall mulige hender vi kan trekke. Siden det er
+(13) kløver er det (). Dermed er sannsynligheten <span
+class="math display">\[
+\frac{\frac{13\cdot 12\cdot 11\cdot 10\cdot 9}{5\cdot 4\cdot 3\cdot
+2\cdot 1}}{\frac{52 \cdot 51 \cdot 50\cdot 49\cdot 48}{5\cdot 4\cdot
+3\cdot 2\cdot 1}} = \frac{13\cdot 12\cdot 11\cdot 10\cdot 9}{52 \cdot 51
+\cdot 50\cdot 49\cdot 48} .
+\]</span></li>
+</ul></li>
+<li>Hva er sannsynligheten for at ruter knekt er med?
+<ul>
+<li>En naturlig måte å beregne sannsynligheten er å finne antall hender
+som ikke inneholder ruter knekt og bruke komplementærsetningen. Det gir
+(1- = 1- ).</li>
+</ul></li>
+<li>Hvor stor sannsynlighet er det for at det er to kort med samme verdi
+hånden som deles ut?
+<ul>
+<li>På samme måte som i forrige oppgave kan det være naturlig å se på
+hender som <em>ikke</em> inneholder det vi er ute etter. Vi skal trekke
+ett kort først. Det kan være hva som helst, vi har altså (52)
+muligheter. Neste gang vi trekker ønsker vi ikke å trekke verdien vi har
+fått på første kort. Dermed er det (48) gunstige kort. Hvis vi sitter
+med to ulike kort, vil det nå være (44) gunstige kort vi kan trekke og
+så videre. Det gir derfor ( = 4 =4). Det gir en sannsynlighet på (1-
+)</li>
+</ul></li>
+</ul>
+<ol type="1">
 <li>Vi har et rutenett med <span class="math inline">\(2 \times
 5\)</span> ruter. Vi skal først fargelegge fire ruter røde og så to
 gule.
@@ -227,7 +271,7 @@ til gulfargene. Det gir <span class="math inline">\(\frac{6\cdot
 3\cdot 2\cdot 1}\cdot \frac{6\cdot 5}{2}\)</span> forskjellige måter å
 fargelegge 4 av de ti rutene røde og så 2 av rutene gule.</li>
 </ul>
-<ol start="2" type="1">
+<ol type="1">
 <li>Hvordan ville det blitt om vi først velger de to som skal være gule,
 og så de fire som skal være røde?</li>
 </ol>
@@ -239,7 +283,7 @@ og så de fire som skal være røde?</li>
 class="math inline">\(\frac{10\cdot 9}{2}\cdot \frac{8\cdot 7\cdot
 6\cdot 5}{4\cdot 3 \cdot 2 \cdot 1}\)</span> muligheter.</li>
 </ul>
-<ol start="3" type="1">
+<ol type="1">
 <li>Hva om vi velger rutene som ikke skal fargelegges, så de fire som
 skal være røde?</li>
 </ol>
@@ -248,6 +292,19 @@ skal være røde?</li>
 som de to oppgavene over.</li>
 </ul></li>
 </ol>
+<h4
+id="avansert-bruke-begrepene-i-temaet-til-å-løse-sammensatte-problemer-12.05">Avansert:
+Bruke begrepene i temaet til å løse sammensatte problemer, 12.05</h4>
+<p>Vi trekker ut fem kort av en kortstokk på 52 kort.</p>
+<ul>
+<li>Hva er sannsynligheten for at det er nøyaktig to spar blant de
+fem?</li>
+<li>Hva er sannsynligheten for at alle dem fem kortene er kløver?</li>
+<li>Hvor stor sannsynlighet er det for at det er to kort med samme verdi
+i hånden som deles ut?</li>
+</ul>
+<h5 id="vurderingskriterier">Vurderingskriterier</h5>
+<p>Se øveoppgaver.</p>
 <h4
 id="avansert-bruke-begrepene-i-temaet-til-å-løse-sammensatte-problemer-08.05">Avansert:
 Bruke begrepene i temaet til å løse sammensatte problemer, 08.05</h4>
@@ -266,7 +323,7 @@ få partall som svar på gangestykket alle gangene?</li>
 <li>Hva er sannsynligheten for å få partall som svar to ganger og
 oddetall to ganger?</li>
 </ol>
-<h5 id="vurderingskriterier">Vurderingskriterier</h5>
+<h5 id="vurderingskriterier-1">Vurderingskriterier</h5>
 <p>Studenten må besvare <em>alle</em> spørsmålene på en rimelig
 måte.</p>
 <ol type="1">
@@ -335,7 +392,7 @@ differensen ikke blir 0 i noen av kastene?</li>
 </ol>
 <p><em>Vink:</em> <span class="math inline">\(36\cdot 36 =
 1296\)</span>.</p>
-<h5 id="vurderingskriterier-1">Vurderingskriterier</h5>
+<h5 id="vurderingskriterier-2">Vurderingskriterier</h5>
 <ol type="1">
 <li></li>
 </ol>
@@ -408,7 +465,7 @@ det?
 <p>Du trenger ikke regne ut verdiene. For eksempel holder det å skrive
 at et antall er <span class="math inline">\(30\cdot 29\cdot
 28\)</span>.</p>
-<h5 id="vurderingskriterier-2">Vurderingskriterier</h5>
+<h5 id="vurderingskriterier-3">Vurderingskriterier</h5>
 <p><strong>Merk</strong> Det stod opprinnelig ikke <em>nøyaktig</em>
 åtte kløver i oppgaveteksten. Derfor godtas flere tolkninger av første
 deloppgave. I tillegg er det også presisert <em>nøyaktig</em> i tredje

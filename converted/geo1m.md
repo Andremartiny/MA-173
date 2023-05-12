@@ -28,6 +28,11 @@ man avgjør er relatert til måleenheten.
 
 #### Middels: Bruke begrepene måltall, størrelse og måleenhet til å avgjøre størrelsen av grunnleggende figurer i 1 og 2 dimensjoner,  08.05
 
+Se 31.03
+
+
+#### Middels: Bruke begrepene måltall, størrelse og måleenhet til å avgjøre størrelsen av grunnleggende figurer i 1 og 2 dimensjoner,  08.05
+
 Se 17.02 
 
 

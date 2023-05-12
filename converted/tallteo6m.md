@@ -35,6 +35,32 @@ b.  Hvilke uttrykk stemmer? Argumenter ved hjelp av figuren og ved å
 
 
 
+#### Middels: Beskrive oppbygningen av figurtall (alle typer),  12.05
+
+Under ser dere dere de tre første figurtallene i en rekke figurtall.
+Hvilke av uttrykkene stemmer med figuren. Bruk figuren for å argumentere:
+
+1. $$\frac{(n+1)(n+2)}{2} + (n+1)^2 -4(n-1) + \frac{(n+1)(n+2)}{2}$$
+2. $$2\cdot\frac{(n+1)(n+2)}{2} + 4 + (n-1)^2$$
+3. $$\frac{(n+1)(n+2)}{2}+ n^2- 4     + \frac{(n+1)(n+2)}{2}$$ 
+
+\
+\ 
+
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/figurtall1205.svg)
+
+##### Vurderingskriterier
+
+Studentene må peke på hvorfor uttrykkene i 1. og 2. stemmer med figuren. For eksempel kan det pekes på, slik som i figuren under, at vi har to trekanter i uttrykk 1. og et kvadrat i midten, der det mangler noe (markert i hvitt). For uttrykk 2. kan de peke på at figurene er høyre og venstre side er to trekanter og i midten har vi et lite kvadrat som først dukker opp ved andre figur (i lyseblått), i tillegg til fire konstante hjørner. 
+
+Til slutt må studenten peke på at uttrykk 3. ikke stemmer overens. For eksempel kan dette bare gjøres ved å peke på første figur og vise til hvordan figur og uttrykk ikke er like. 
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/figurtall1205.drawio%20copy.svg)
+
+
+
+
 #### Middels: Beskrive oppbygningen av figurtall (alle typer),  08.05
 
 Under ser dere dere de tre første piltallene.

@@ -45,6 +45,10 @@
 
    ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-27-12-15-21.png)
 
+#### Avansert: Løse likninger fra funksjonsperspektiv,  12.05 
+
+Se 31.03
+
 #### Avansert: Løse likninger fra funksjonsperspektiv,  08.05 
 
 La $f(x)=x^2 + 4x -1$  og  $g(x)= x^2 + 2x -3  $.

@@ -67,6 +67,24 @@
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/stirrehardt.svg)
 
+#### Avansert: Finne eksplisitt uttrykk for figurtall,  12.05
+
+På figuren under ser du de tre første figurene i en sammensatt figur, der $F_1 = 5$, $F_2 = 13$ og $F_3 = 25$.
+
+1. Finn en eksplsitt formel for $F_n$ ved å betrakte figuren geometrisk.
+
+2. Finn en eksplisitt formel ved hjelp av sum av tillegg.
+
+![Alt text](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/figtall1205.svg)
+
+
+##### Vurderingskriterier
+
+1. Studenten må bruke figuren til å finne en eksplisitt formel. De to første illustrasjonene under gir noen mulige dekomposisjoner. For eksempel viser VS at det er to trekanter og et kvadrat. HS viser at en kan få to kvadrat av ulik størrelse ved å flytte på noen av rutene. Dette kan da brukes videre til å lage eksplisitte uttrykk ved hjelp av trekanttall og kvadratttall.
+2. Studenten må bruke sum av tillegg (se heftet eller tidligere oppgaver for å se ideen bak teknikken). Dette innebærer å finne formen på tillegget, noe som for eksempel kan gjøres ved å se på den rekursive sammenhengen, for eksempel som illustrert tredje bilde i figuren under. 
+
+![Alt text](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/figtall1205%20copy.svg)
+
 #### Avansert: Finne eksplisitt uttrykk for figurtall,  08.05
 
 På figuren under ser du de fire første figurene i en sammensatt figur, der $F_1 = 4$, $F_2 = 10$ og $F_3 = 19$.

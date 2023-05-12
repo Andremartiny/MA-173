@@ -18,6 +18,7 @@
    b. Det er syv mulige personer som kan få førsteplassen. Når førsteplassen er valgt vil det være 6 mulige personer som kan komme på andre plass, og da 5 personer som kan komme på tredje. Dermed har vi for hver av de syv førsteplassene 6 mulige valg for andreplassen, altså $6$ syv ganger $7\cdot 6$. For hver av de $7\cdot 6$ mulighetene for første *og* andreplasser er det $5$ mulige valg for tredje, altså totalt $7\cdot 6 \cdot 5$ mulige 1.-, 2. og 3. plasser.
 
 
+
 #### Middels: Forklare og bruke begrepene ordnet utvalg med og uten tilbakelegg,  08.05
 
 1. Begrunn at følgende situasjoner kan tenkes på som ordnet utvalg med tilbakelegg og finn antall muligheter i utvalget.

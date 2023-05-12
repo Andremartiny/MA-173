@@ -10,6 +10,10 @@
     Celsius er en funksjonssammenheng. Bruk eksemplet til å forklare
     begrepene.
 
+#### Grunnleggende: Bruke begrepene funksjon, variabel, uavhengig variabel (innverdi), avhengig variabel (utverdi), funksjonsverdi, definisjonsmengde og verdimengde,  12.05 
+
+Se 31.03
+
 #### Grunnleggende: Bruke begrepene funksjon, variabel, uavhengig variabel (innverdi), avhengig variabel (utverdi), funksjonsverdi, definisjonsmengde og verdimengde,  08.05 
 
 Sammenhengen mellom sidelengden og arealet av et kvadrat er en funksjonssammenheng. Bruk eksemplet til å forklare begrepene funksjon, innverdi og funksjonsverdi.

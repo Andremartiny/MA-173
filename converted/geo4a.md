@@ -6,6 +6,7 @@
 
 
 
+
 #### Avansert: Bruke begrepene kvadrat, rektangel, parallellogram, trapes, likebeint trekant, likesidet trekant, rettvinklet trekant, mangekant, sirkel,  13.02.23
 
 Legger du inn en innsirkel i en rettvinklet trekant, vil tangeringspunktene dele trekantens sidelengder inn i lengdene $x+y$ og $y+z$ og $x+z$ (se figur). Argumenter ved å bruke egenskapene fra figuren at arealet av trekanten må være $(x+y+z)\cdot x$.

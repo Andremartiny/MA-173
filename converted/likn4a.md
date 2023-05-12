@@ -21,6 +21,10 @@
     $x = \frac{- b \pm \sqrt{b^{2} - 4ac}}{2a}$.
 
 
+#### Avansert: Løse kvadratiske likninger ved hjelp av fullstendige kvadraters metode,  12.05
+
+Se 17.02
+
 #### Avansert: Løse kvadratiske likninger ved hjelp av fullstendige kvadraters metode,  08.05
 
 1. Løs likningen $x^2 - x = 1$ med fullstendige kvadraters metode.

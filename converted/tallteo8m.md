@@ -1,3 +1,13 @@
+#### Middels: Finne rekursiv uttrykk for figurtall,  12.05
+
+Vis i en illustrasjon hvordan hver figur inneholder den forrige, og finn rekursivt uttrykk for kvadrattallene $K_n$, der $K_1 =1$, $K_2 = 4$ og $K_3 = 9$:
+ved hjelp av strategien form på tillegg.
+ved hjelp av strategien differanse mellom eksplisitte uttrykk. Merk: Det eksplisitte uttrykket for sekskanttallene er $K_n = n^2$.
+
+##### Vurderingskriterier
+
+Se heftet.
+
 #### Middels: Finne rekursiv uttrykk for figurtall,  08.05
 
 Vis i en illustrasjon hvordan hver figur inneholder den forrige, og finn rekursivt uttrykk for sekskanttallene $H_n$, der $H_1 =1$, $H_2 = 6$ og $H_3 = 15$:

@@ -22,6 +22,10 @@ tilbakelegg
 5. Vi kan nummerere setene fra $1$ til $6$, og vi ønsker å velge ut fire av de seks sifrene. Vi kan ikke velge samme siffer to ganger, da dette betyr at vi skal dekke på samme plass to ganger. Dermed er det et utvalg uten tilbakelegg. Siden det å dekke på ikke har noen betydning i forhold til rekkefølgen vi gjør det i, så vil dette være et uordnet utvalg uten tilbakelegg.
 6. $\vdots$
 
+#### Middels: Avgjøre om utvalg er ordnet eller uordnet og om det er med eller uten tilbakelegg,  12.05
+
+Se øveoppgaver
+
 
 #### Middels: Avgjøre om utvalg er ordnet eller uordnet og om det er med eller uten tilbakelegg,  08.05
 

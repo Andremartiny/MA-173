@@ -24,6 +24,19 @@ $$\left\{ \begin{array}{r}
 
 Vi ser her at det er $11$ av de $36$ mulighetene som inneholder en femmer. Dermed er sannsynligheten $\frac{11}{36}$.
 
+#### Avansert: Forklare og bruke begrepet uniform sannsynlighetsmodell,  12.05
+
+Følgende oppgave ble gitt på middels:
+*Henrik kaster en sekssidet terning og trekker deretter et kort fra en vanlig  kortstokk. En vanlig kortstokk inneholder 16 bildekort (knekt, dame, konge og ess) og 36 vanlige kort (kort fra 2 til 10). Henrik setter opp et utfallstre, slik du kan se på bildet under. På utfallstreet har han market at i første omgang kan han få 1 til 6. I neste omgang kan han få enten bildekort eller et kort fra 2 til 10. Det gir totalt \(6\cdot 2 = 12\) grener i treet. Forklar hvorfor disse 12 utfallene ikke vil gi opphav til en uniform sannsynlighetsmodell.*
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/sannsyn/uniform1205sannsyn.svg)
+
+I oppgaven over er det gitt et utfallstre som ikke gir opphav til en uniform sannsynlighetsmodell. Gjør nødvendige endringer for å lage en uniform sannsynlighetsmodell som viser hva sannsynligheten er for å slå en treer eller sekser og samtidig få et bildekort.
+
+##### Vurderingskriterier
+
+Studenten må gjøre endringer som gir opphav til en uniform sannsynlighetsmodell som hjelper de å beregne sannsynligheten. Dette kan for eksempel gjøres ved å peke på at i andre del av utvelgelsen så er det 13 mulige verdier man kan få (som alle er like sannsynlige), men at det kun er fire av de som er bildekort. Dermed er det \(6\) mulige utfall ved terningkastet og så \(13\) muligheter ved korttrekningen. Det gir totalt \(6\cdot 13\) muligheter som har lik sannsynlighet for å skje. Det er derimot kun 2 gunstige i første omgang og for hver av de to mulige utfallene (kaste 3'er eller 6'er), så er det 4 gunstige utfall (trekke bildekort). Det gir dermed \(2\cdot 4 = 8\) gunstige muligheter. Sannsynligheten blir dermed \(\frac{8}{78}\).
+
 #### Avansert: Forklare og bruke begrepet uniform sannsynlighetsmodell,  08.05
 
 Det er 18 personer i en klasse. Det skal velges ut tre elever som skal være i elevrådet og alle tre skal trekkes tilfeldig. Henrik vil veldig gjerne være med i elevrådet. Sett opp en uniform sannsynlighetsmodell som får fram at det er $\frac{3}{18}$ sannsynlighet for at Henrik får være med i elevrådet.

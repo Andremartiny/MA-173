@@ -4,6 +4,11 @@
 1. *Se oppgaver fra tidligere nasjonal deleksamen fra seminar.*
 
 
+#### Avansert: Løse lineære ulikheter ved hjelp av ulike strategier,  12.05
+
+Se 17.02
+
+
 #### Avansert: Løse lineære ulikheter ved hjelp av ulike strategier,  08.05
 
 En elev løste ulikheten $\frac{-x+ 1}{2} \leq 5$ slik:

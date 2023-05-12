@@ -10,6 +10,17 @@ i tillegg
 $P(\left\{ u_{1},u_{2},u_{3}\} \right) = 1 = P\left( u_{1} \right) + P\left( u_{2} \right) + P\left( u_{3} \right) = P(u_{3})+0.5$
 får vi at $P\left( u_{3} \right) = 0.5$.
 
+#### Middels: Forklare og bruke begrepene utfallsrom, utfall og hendelse og sannsynlighetsmodell,  12.05
+
+1. Hva er galt med denne sannsynlighetsmodellen? \(U = \{u_1, u_2, u_3\} \), \(P(u_1) = 0,2\), \(P(u_2) = 0,3\) og \(P(\{u_3\}) = 0.4\)?
+
+2. La et forsøk ha et utfallsrom \(U = { u_1, u_2, u_3, u_4} \), slik at \(P(\{u_1,u_3\}) = 0.6\) og \(P(\{u_2, u_3\}) = 0.7\). Kan \(P(u_3) =  0.5\)?
+
+##### Vurderingskriterier
+
+1. Studenten må peke på at det kun er en sannsynlighetsmodell hvis \(1 = P(\{u_1, u_2, u_3\}) = P(u_1) + P(u_2) + P(u_3) = 0.2+0.3+0.4 = 0.9\), men \(1\) er jo ikke lik \(0.9\).
+2. Studenten må undersøke og begrunne (for eksempel ved å gi et konkret tilfelle) at det er mulig at \(P(u_3) = 0.5\).
+
 #### Middels: Forklare og bruke begrepene utfallsrom, utfall og hendelse og sannsynlighetsmodell,  08.05
 
 1. Hva er galt med denne sannsynlighetsmodellen? $U = \{u_1, u_2, u_3\}$, $P(u_1) = 0,5$, $P(u_2) = 0,4$ og $P(\{u_1, u_2\}) = 0.2$?

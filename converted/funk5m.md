@@ -62,6 +62,10 @@
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/2023-03-27-12-33-04.png)
 
+#### Middels: Bruke begrepene funksjon, variabel, uavhengig variabel (innverdi), avhengig variabel (utverdi), funksjonsverdi, definisjonsmengde og verdimengde,  12.05 
+
+Se 31.03
+
 #### Middels: Bruke begrepene funksjon, variabel, uavhengig variabel (innverdi), avhengig variabel (utverdi), funksjonsverdi, definisjonsmengde og verdimengde,  08.05 
 
 Til hvert av punktene A) og B), er to variabler beskrevet.

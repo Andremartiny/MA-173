@@ -8,6 +8,11 @@
 
     c.  3.47 Løs likningene på flere måter der det virker naturlig, ikke bare slik boka spør etter.
 
+#### Grunnleggende: Løse lineære likninger ved hjelp av ulike strategier,  12.05
+
+Se 17.02
+
+
 #### Grunnleggende: Løse lineære likninger ved hjelp av ulike strategier,  08.05
 
 Blant $163$ spurte mennesker, svarte alle at de spiser enten taco, nudler eller foie gras på fredager. Det er $35$ flere som spiser taco enn fiskepinner, og antallet som spiser foie gras er det tredobbelte av én mer enn antallet som spiser fiskepinner.

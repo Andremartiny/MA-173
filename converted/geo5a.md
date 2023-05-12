@@ -32,6 +32,10 @@ Vi ser altså at $x^2 = 2$ eller at $x = \sqrt 2$.
 
 #### Avansert: Bruke formler for størrelser av figurer til å utforske geometriske sammenhenger,  08.05
 
+Se 28.04
+
+#### Avansert: Bruke formler for størrelser av figurer til å utforske geometriske sammenhenger,  08.05
+
 Se 17.02
 
 #### Avansert: Bruke formler for størrelser av figurer til å utforske geometriske sammenhenger,  28.04.23
