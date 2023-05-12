@@ -270,6 +270,8 @@ frem at addisjonsregelen må gjelde (Setning 7.53).
    2. Eller så er det ikke en toer på første posisjon, men på andre $x2$, der $x$ er et siffer som ikke er $2$ (altså 9 muligheter). Tilsvarende som over får vi $45$ muligheter.
    3. Eller $22$. Her er det kun siste siffer som kan endre på seg, og vi har derfor 5 muligheter.
    Siden vi nå har delt mulighetene våre i tre tilfeller som dekker alle mulighetene, og i tillegg ikke overteller noe (er disjunkt), så sier addisjonsprinsippet at antallet er $45+45+5 = 95$.
+2. ![Alt text](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/sannsyn/%C3%B8vingl%C3%A5ser.svg)
+
 
 ### Forklare, illustrere og bruke komplementsetningen
 
@@ -392,6 +394,156 @@ Vi merker oss først at det er $\frac{52\cdot 51\cdot 50\cdots 42\cdot 41\cdot 4
    3. Hva om vi velger rutene som ikke skal fargelegges, så de fire
         som skal være røde?
    - Her får dere regne selv, men egg merke til at dette gir samme svar som de to oppgavene over.
+
+## 12.05
+
+### Forklare og bruke begrepene utfallsrom, utfall og hendelse og sannsynlighetsmodell
+
+#### Grunnleggende: Gjengi og gi eksempler til begrepene
+
+1. Forklar hva en sannsynlighetsmodell er ved hjelp av begrepene utfall, utfallsrom og hendelse. Gi et eksempel på en sannsynlighetsmodell.
+
+##### Vurderingskriterier
+
+Studenten må gi en forklaring som bruker begrepene, samt gi et eksempel.
+
+#### Middels: Avgjøre og begrunne om situasjoner er en sannsynlighetsmodell
+
+1. Hva er galt med denne sannsynlighetsmodellen? \(U = \{u_1, u_2, u_3\} \), \(P(u_1) = 0,2\), \(P(u_2) = 0,3\) og \(P(\{u_3\}) = 0.4\)?
+
+2. La et forsøk ha et utfallsrom \(U = { u_1, u_2, u_3, u_4} \), slik at \(P(\{u_1,u_3\}) = 0.6\) og \(P(\{u_2, u_3\}) = 0.7\). Kan \(P(u_3) =  0.5\)?
+
+##### Vurderingskriterier
+
+1. Studenten må peke på at det kun er en sannsynlighetsmodell hvis \(1 = P(\{u_1, u_2, u_3\}) = P(u_1) + P(u_2) + P(u_3) = 0.2+0.3+0.4 = 0.9\), men \(1\) er jo ikke lik \(0.9\).
+2. Studenten må undersøke og begrunne (for eksempel ved å gi et konkret tilfelle) at det er mulig at \(P(u_3) = 0.5\).
+
+### Forklare og bruke begrepet uniform sannsynlighetsmodell
+
+#### Grunnleggende: Gjengi og gi eksempler til begrepet
+
+Forklar hva en uniform sannsynlighetsmodell er og gi et eksempel på en uniform sannsynlighetsmodell.
+
+##### Vurderingskriterier
+
+Studenten må gi en riktig forklaring, samt gi et eksempel.
+
+#### Middels: Avgjøre og begrunne om situasjoner er en uniform sannsynlighetsmodell
+
+Henrik kaster en sekssidet terning og trekker deretter et kort fra en vanlig kortstokk. En vanlig kortstokk inneholder 16 bildekort (knekt, dame, konge og ess) og 36 vanlige kort (kort fra 2 til 10). Henrik setter opp et utfallstre, slik du kan se på bildet under. På utfallstreet har han market at i første omgang kan han få 1 til 6. I neste omgang kan han få enten bildekort eller et kort fra 2 til 10. Det gir totalt \(6\cdot 2 = 12\) grener i treet. Forklar hvorfor disse 12 utfallene ikke vil gi opphav til en uniform sannsynlighetsmodell. 
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/sannsyn/uniform1205sannsyn.svg)
+
+##### Vurderingskriterier
+
+Studenten må peke på problemet med modellen, nemlig at i andre del av utvelgingen, så er det flere kort som ikke er bildekort enn de som er bildekort. Hvis vi antar at alle kortene er like sannsynlige å trekke vil det dermed være mer sannsynlig å slå en ener på terningen og deretter trekke et kort som ikke er bildekort, sammenlignet med å slå en ener på terningen og deretter trekke et bildekort. 
+
+#### Avansert: Sette opp uniforme sannsynlighetsmodeller fra en gitt situasjon
+
+Følgende oppgave ble gitt på middels:
+*Henrik kaster en sekssidet terning og trekker deretter et kort fra en vanlig  kortstokk. En vanlig kortstokk inneholder 16 bildekort (knekt, dame, konge og ess) og 36 vanlige kort (kort fra 2 til 10). Henrik setter opp et utfallstre, slik du kan se på bildet under. På utfallstreet har han market at i første omgang kan han få 1 til 6. I neste omgang kan han få enten bildekort eller et kort fra 2 til 10. Det gir totalt \(6\cdot 2 = 12\) grener i treet. Forklar hvorfor disse 12 utfallene ikke vil gi opphav til en uniform sannsynlighetsmodell.*
+
+![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/sannsyn/uniform1205sannsyn.svg)
+
+I oppgaven over er det gitt et utfallstre som ikke gir opphav til en uniform sannsynlighetsmodell. Gjør nødvendige endringer for å lage en uniform sannsynlighetsmodell som viser hva sannsynligheten er for å slå en treer eller sekser og samtidig få et bildekort.
+
+##### Vurderingskriterier
+
+Studenten må gjøre endringer som gir opphav til en uniform sannsynlighetsmodell som hjelper de å beregne sannsynligheten. Dette kan for eksempel gjøres ved å peke på at i andre del av utvelgelsen så er det 13 mulige verdier man kan få (som alle er like sannsynlige), men at det kun er fire av de som er bildekort. Dermed er det \(6\) mulige utfall ved terningkastet og så \(13\) muligheter ved korttrekningen. Det gir totalt \(6\cdot 13\) muligheter som har lik sannsynlighet for å skje. Det er derimot kun 2 gunstige i første omgang og for hver av de to mulige utfallene (kaste 3'er eller 6'er), så er det 4 gunstige utfall (trekke bildekort). Det gir dermed \(2\cdot 4 = 8\) gunstige muligheter. Sannsynligheten blir dermed \(\frac{8}{78}\).
+
+### Forklare, illustrere og bruke produktregelen
+
+#### Grunnleggende: Forklare og illustrere et sammensatt valg/et forsøk sammensatt av flere trinn
+
+Forklar med bakgrunn i et eksempel på hva som menes med et sammensatt valg.
+
+##### Vurderingskriterier
+
+Studenten må bruke et eksempel til å forklare hva som menes med et sammensatt valg.
+
+#### Middels: Forklare og illustrere produktregelen
+
+Forklare og illustrere produktregelen. Pek tydelig på hvorfor det kommer frem at produktregelen må gjelde.
+
+##### Vurderingskriterier
+
+Studenten må forklare og illustrere produktregelen (Alfa 7.24). Det viktige er å få fram hvorfor vi får multiplikasjon ved flere valg. Typisk innebærer det å peke på noe sånn som *for hver av de n... får vi m... derfor får vi n m ganger* eller noe liknende.
+
+### Forklare og bruke begrepene ordnet utvalg med og uten tilbakelegg
+
+#### Grunnleggende: Forklare og gi eksempler til begrepene
+
+Se øveoppgaver
+
+### Forklare og bruke begrepene uordnet utvalg med og uten tilbakelegg
+
+#### Grunnleggende: Forklare og gi eksempler til begrepene
+
+Se øveoppgaver 
+
+### Avgjøre om utvalg er ordnet eller uordnet og om det er med eller uten tilbakelegg
+
+#### Middels: Avgjør om situasjonene under kan tenkes som (u)ordnede utvalg med eller uten tilbakelegg
+
+Se øveoppgaver
+
+### Forklare, illustrere og bruke addisjonssetningen (for sannsynlighet og kombinatorikk)
+
+#### Grunnleggende: Forklare hva union og snitt er
+
+Forklar begrepene union og snitt ved hjelp av et eksempel.
+
+#### Middels: Forklare og illustrere addisjonssetningen for to mengder (Setning 7.53)
+
+Forklar og illustrere addisjonssetningen for to mengder (Setning 7.53) ved hjelp av et eksempel.
+
+#### Avansert: Bruke addisjonssetningen for å undersøke problemer
+
+André har en tresifret kombinasjon på sykkellåsen sin. Du får vite at koden inneholder minst én ener og minst én toer. Du regner deg fram til at det er 271 koder som inneholder minst én ener, og 271 koder som inneholder minst én toer. I tillegg er det 512 av de totalt 1000 mulighetene som hverken inneholder enere eller toere. Hvor mange forskjellige koder kan André ha på sin lås?
+
+##### Vurderingskriterier
+
+Se øveoppgaver.
+
+### Forklare, illustrere og bruke komplementsetningen
+
+#### Grunnleggende: Forklare begrepet komplement
+
+Forklar begrepet komplement ved hjelp av et eksempel.
+
+#### Middels: Forklare og illustrere komplementsetningen i sannsynlighet
+
+Du skal spiller et kortspill og er interessert i sannsynligheten for hendelse \(A\). Du får vite at \(P(A^C) = 0.9\). Hva er \(P(A)\)?
+
+##### Vurderingskriterier
+
+Studenten må bare bruke komplementsetningen til å peke på at \(P(A) + P(A^C) = 1\), noe som gir at \(P(A) = 0.1\). 
+
+#### Avansert: Forklare, illustrere og bruke komplementsetningen i sannsynlighet
+
+Da Henrik var student gikk han i en klasse med 18 studenter. Hver undervisningsøkt deltes de inn i grupper på tre. Henrik hadde fire venner han gjerne ønsket å komme på gruppe med. Hva var synligheten for at Henrik kom på gruppe med minst en av dine venner, når gruppene ble valgt tilfeldig?
+
+##### Vurderingskriterier
+
+Studenten må løse på en måte slik at leseren kan forstå hva som er gjort. For eksempel kan en peke på hvilke to som havner på gruppe med Henrik er like sannsynlig. Det er $\frac{17\cdot 16}{2} = 136$ forskjellige mulige klassekammerater som han kan havne på. For å avgjøre hvor mange av de som inneholder minst én, er det naturlig å se på hvor mange som ikke inneholder noen. Av de 17 resterende klassekammeratene er det 12 som ikke er av de fire vennene Henrik ønsker å komme på gruppe med. Derfor er det $\frac{12\cdot 11}{2} = 66$ grupper som ikke inneholder noen av Henriks venner. Derfor må det være $136 - 66 = 70$ mulige grupper der Henrik er på gruppe med minst én av sine venner. Sannsynligheten er derfor $\frac{70}{136}$.
+
+### Bruke begrepene i temaet til å løse sammensatte problemer
+
+#### Avansert: Bruke addisjonssetningen for å undersøke problemer
+
+Vi trekker ut fem kort av en kortstokk på 52 kort.
+
+- Hva er sannsynligheten for at det er nøyaktig to spar blant de
+  fem?
+- Hva er sannsynligheten for at alle dem fem kortene er kløver?
+- Hvor stor sannsynlighet er det for at det er to kort med samme
+  verdi i hånden som deles ut?
+
+
+
+##### Vurderingskriterier
+
+Se øveoppgaver.
 
 ## 08.05
 
