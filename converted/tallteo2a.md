@@ -19,15 +19,15 @@
 
 Undersøk og begrunn følgende påstander.
 
-1. *Hvis vi har en liste med forskjellige primtall \(L =\{p_1, p_2, p_3, \ldots, p_n\}\) og vi ser på produktet \(a=p_1\cdot p_2\cdot\ldots\cdot p_n+1\), så vil \(a\) ikke være delelig med noen av primtallene i listen \(L\).*
-2. *\(a\) må enten være et primtall som ikke er i \(L\), eller et sammensatt tall bestående av et primtall som ikke er i \(L\).*
+1. *Hvis vi har en liste med forskjellige primtall $L =\{p_1, p_2, p_3, \ldots, p_n\}$ og vi ser på produktet $a=p_1\cdot p_2\cdot\ldots\cdot p_n+1$, så vil $a$ ikke være delelig med noen av primtallene i listen $L$.*
+2. *$a$ må enten være et primtall som ikke er i $L$, eller et sammensatt tall bestående av et primtall som ikke er i $L$.*
 3. *Vi kan derfor enkelt generere nye primtall, noe som betyr at det finnes uendelig mange primtall.*
 
 ##### Vurderingskriterier
 
 Studenten må begrunne påstandene
-1. Siden \(p_1\) deler \(a-1\) så kan ikke \(p_1\) dele \(a = (a-1)+1\), siden \(p_1\) ikke deler \(1\). Dette argumentet gjelder også for \(p_2\), \(p_3\) og resten av primtallene i lista \(L\). 
-2. Siden ingen av primtallene i listen deler \(a\), så må det finnes et primtall, som ikke er i listen, som deler \(a\). Enten så er det \(a\), ellers må det være et primtall mindre enn \(a\), som betyr at \(a\) er et sammensatt tall.
+1. Siden $p_1$ deler $a-1$ så kan ikke $p_1$ dele $a = (a-1)+1$, siden $p_1$ ikke deler $1$. Dette argumentet gjelder også for $p_2$, $p_3$ og resten av primtallene i lista $L$. 
+2. Siden ingen av primtallene i listen deler $a$, så må det finnes et primtall, som ikke er i listen, som deler $a$. Enten så er det $a$, ellers må det være et primtall mindre enn $a$, som betyr at $a$ er et sammensatt tall.
 3. Vi kan se fra 1. og 2. at vi kan fortsette å generere nye primtall ved å gjenta argumentene fra 1. og 2. igjen og igjen. Siden vi kan fortsette for evig må det også finnes uendelig mange primtall
 
 

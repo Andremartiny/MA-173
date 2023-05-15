@@ -270,7 +270,7 @@ frem at addisjonsregelen må gjelde (Setning 7.53).
    2. Eller så er det ikke en toer på første posisjon, men på andre $x2$, der $x$ er et siffer som ikke er $2$ (altså 9 muligheter). Tilsvarende som over får vi $45$ muligheter.
    3. Eller $22$. Her er det kun siste siffer som kan endre på seg, og vi har derfor 5 muligheter.
    Siden vi nå har delt mulighetene våre i tre tilfeller som dekker alle mulighetene, og i tillegg ikke overteller noe (er disjunkt), så sier addisjonsprinsippet at antallet er $45+45+5 = 95$.
-2. Studenten kan tegne opp et Venn-diagram som under og argumentere ved hjelp av dette. Vi ser at å inneholde enten minst én ener eller minst én toer (eller begge) er \(1000-512 = 488\). Vi ser også at hvis vi tar \(271+271\), så vil vi overtelle snittet mellom de to mengdene tegnet på. Siden addisjonsprinsippet tilsier at \(271+271 - \text{ snittet }\) gir oss antall mengder i unionen og at dette skal bli \(488\), så må snittet være \(542-488 = 52\). Siden det er denne mengden vi er ute etter har vi nå svaret.
+2. Studenten kan tegne opp et Venn-diagram som under og argumentere ved hjelp av dette. Vi ser at å inneholde enten minst én ener eller minst én toer (eller begge) er $1000-512 = 488$. Vi ser også at hvis vi tar $271+271$, så vil vi overtelle snittet mellom de to mengdene tegnet på. Siden addisjonsprinsippet tilsier at $271+271 - \text{ snittet }$ gir oss antall mengder i unionen og at dette skal bli $488$, så må snittet være $542-488 = 52$. Siden det er denne mengden vi er ute etter har vi nå svaret.
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/sannsyn/%C3%B8vingl%C3%A5ser.svg)
 
@@ -389,16 +389,16 @@ Vi merker oss først at det er $\frac{52\cdot 51\cdot 50\cdots 42\cdot 41\cdot 4
 3. Vi trekker ut fem kort av en kortstokk på 52 kort.
 
 - Hva er sannsynligheten for at det er nøyaktig to spar blant de fem?
-  - Vi kan for eksempel tenke oss at det ikke er viktig hvilken rekkefølge vi trekker ut i (det går også å tenke at rekkefølgen betyr noe). Dermed får vi \(\frac{52 \cdot 51 \cdot 50\cdot 49\cdot 48}{5\cdot 4\cdot 3\cdot 2\cdot 1}\) mulige hender vi kan trekke. Videre er det \(\frac{13\cdot 12}{2} = 78\) måter å velge to kort som er spar. For hver av de to kortene som er spar, så er det \(\frac{39\cdot 38\cdot 37}{3\cdot 2\cdot 1}\) mulige måter å trekke tre kort som ikke inneholder noen spar. Dermed må det, ved multiplikasjonsprinsippet være \(78\cdot \frac{39\cdot 38\cdot 37}{3\cdot 2\cdot 1}\) mulige hender som inneholder nøyaktig to spar.
+  - Vi kan for eksempel tenke oss at det ikke er viktig hvilken rekkefølge vi trekker ut i (det går også å tenke at rekkefølgen betyr noe). Dermed får vi $\frac{52 \cdot 51 \cdot 50\cdot 49\cdot 48}{5\cdot 4\cdot 3\cdot 2\cdot 1}$ mulige hender vi kan trekke. Videre er det $\frac{13\cdot 12}{2} = 78$ måter å velge to kort som er spar. For hver av de to kortene som er spar, så er det $\frac{39\cdot 38\cdot 37}{3\cdot 2\cdot 1}$ mulige måter å trekke tre kort som ikke inneholder noen spar. Dermed må det, ved multiplikasjonsprinsippet være $78\cdot \frac{39\cdot 38\cdot 37}{3\cdot 2\cdot 1}$ mulige hender som inneholder nøyaktig to spar.
 - Hva er sannsynligheten for at alle dem fem kortene er kløver?
-  - Vi vet allerede antall mulige hender vi kan trekke. Siden det er \(13\) kløver er det \(\frac{13\cdot 12\cdot 11\cdot 10\cdot 9}{5\cdot 4\cdot 3\cdot 2\cdot 1}\). Dermed er sannsynligheten
+  - Vi vet allerede antall mulige hender vi kan trekke. Siden det er $13$ kløver er det $\frac{13\cdot 12\cdot 11\cdot 10\cdot 9}{5\cdot 4\cdot 3\cdot 2\cdot 1}$. Dermed er sannsynligheten
 $$
 \frac{\frac{13\cdot 12\cdot 11\cdot 10\cdot 9}{5\cdot 4\cdot 3\cdot 2\cdot 1}}{\frac{52 \cdot 51 \cdot 50\cdot 49\cdot 48}{5\cdot 4\cdot 3\cdot 2\cdot 1}} = \frac{13\cdot 12\cdot 11\cdot 10\cdot 9}{52 \cdot 51 \cdot 50\cdot 49\cdot 48} .
 $$
 - Hva er sannsynligheten for at ruter knekt er med?
-  - En naturlig måte å beregne sannsynligheten er å finne antall hender som ikke inneholder ruter knekt og bruke komplementærsetningen. Det gir \(1- \frac{51 \cdot 50\cdot 49\cdot 48\cdot 47}{52 \cdot 51 \cdot 50\cdot 49\cdot 48} = 1- \frac{47}{52}\).
+  - En naturlig måte å beregne sannsynligheten er å finne antall hender som ikke inneholder ruter knekt og bruke komplementærsetningen. Det gir $1- \frac{51 \cdot 50\cdot 49\cdot 48\cdot 47}{52 \cdot 51 \cdot 50\cdot 49\cdot 48} = 1- \frac{47}{52}$.
 - Hvor stor sannsynlighet er det for at det er to kort med samme verdi hånden som deles ut?
-  - På samme måte som i forrige oppgave kan det være naturlig å se på hender som *ikke* inneholder det vi er ute etter. Vi skal trekke ett kort først. Det kan være hva som helst, vi har altså \(52\) muligheter. Neste gang vi trekker ønsker vi ikke å trekke verdien vi har fått på første kort. Dermed er det \(48\) gunstige kort. Hvis vi sitter med to ulike kort, vil det nå være \(44\) gunstige kort vi kan trekke og så videre. Det gir derfor \(\frac{52\cdot 48\cdot 44\cdot 40\cdot 36}{5 \cdot 4\cdot 3\cdot 2} = 4\cdot \frac{13\cdot 12\cdot 11\cdot 10\cdot 9}{5\cdot 4\cdot 3\cdot 2} =4\cdot 13\cdot 11\cdot 9\). Det gir en sannsynlighet på \(1- \frac{4\cdot 13\cdot 11\cdot 9}{52 \cdot 51 \cdot 50\cdot 49\cdot 48}\)
+  - På samme måte som i forrige oppgave kan det være naturlig å se på hender som *ikke* inneholder det vi er ute etter. Vi skal trekke ett kort først. Det kan være hva som helst, vi har altså $52$ muligheter. Neste gang vi trekker ønsker vi ikke å trekke verdien vi har fått på første kort. Dermed er det $48$ gunstige kort. Hvis vi sitter med to ulike kort, vil det nå være $44$ gunstige kort vi kan trekke og så videre. Det gir derfor $\frac{52\cdot 48\cdot 44\cdot 40\cdot 36}{5 \cdot 4\cdot 3\cdot 2} = 4\cdot \frac{13\cdot 12\cdot 11\cdot 10\cdot 9}{5\cdot 4\cdot 3\cdot 2} =4\cdot 13\cdot 11\cdot 9$. Det gir en sannsynlighet på $1- \frac{4\cdot 13\cdot 11\cdot 9}{52 \cdot 51 \cdot 50\cdot 49\cdot 48}$
 
 1. Vi har et rutenett med $2 \times 5$ ruter. Vi skal først fargelegge
     fire ruter røde og så to gule.
@@ -424,14 +424,14 @@ Studenten må gi en forklaring som bruker begrepene, samt gi et eksempel.
 
 #### Middels: Avgjøre og begrunne om situasjoner er en sannsynlighetsmodell
 
-1. Hva er galt med denne sannsynlighetsmodellen? \(U = \{u_1, u_2, u_3\} \), \(P(u_1) = 0,2\), \(P(u_2) = 0,3\) og \(P(\{u_3\}) = 0.4\)?
+1. Hva er galt med denne sannsynlighetsmodellen? $U = \{u_1, u_2, u_3\}$, $P(u_1) = 0,2$, $P(u_2) = 0,3$ og $P(\{u_3\}) = 0.4$?
 
-2. La et forsøk ha et utfallsrom \(U = { u_1, u_2, u_3, u_4} \), slik at \(P(\{u_1,u_3\}) = 0.6\) og \(P(\{u_2, u_3\}) = 0.7\). Kan \(P(u_3) =  0.5\)?
+2. La et forsøk ha et utfallsrom $U = { u_1, u_2, u_3, u_4}$, slik at $P(\{u_1,u_3\}) = 0.6$ og $P(\{u_2, u_3\}) = 0.7$. Kan $P(u_3) =  0.5$?
 
 ##### Vurderingskriterier
 
-1. Studenten må peke på at det kun er en sannsynlighetsmodell hvis \(1 = P(\{u_1, u_2, u_3\}) = P(u_1) + P(u_2) + P(u_3) = 0.2+0.3+0.4 = 0.9\), men \(1\) er jo ikke lik \(0.9\).
-2. Studenten må undersøke og begrunne (for eksempel ved å gi et konkret tilfelle) at det er mulig at \(P(u_3) = 0.5\).
+1. Studenten må peke på at det kun er en sannsynlighetsmodell hvis $1 = P(\{u_1, u_2, u_3\}) = P(u_1) + P(u_2) + P(u_3) = 0.2+0.3+0.4 = 0.9$, men $1$ er jo ikke lik $0.9$.
+2. Studenten må undersøke og begrunne (for eksempel ved å gi et konkret tilfelle) at det er mulig at $P(u_3) = 0.5$.
 
 ### Forklare og bruke begrepet uniform sannsynlighetsmodell
 
@@ -445,7 +445,7 @@ Studenten må gi en riktig forklaring, samt gi et eksempel.
 
 #### Middels: Avgjøre og begrunne om situasjoner er en uniform sannsynlighetsmodell
 
-Henrik kaster en sekssidet terning og trekker deretter et kort fra en vanlig kortstokk. En vanlig kortstokk inneholder 16 bildekort (knekt, dame, konge og ess) og 36 vanlige kort (kort fra 2 til 10). Henrik setter opp et utfallstre, slik du kan se på bildet under. På utfallstreet har han market at i første omgang kan han få 1 til 6. I neste omgang kan han få enten bildekort eller et kort fra 2 til 10. Det gir totalt \(6\cdot 2 = 12\) grener i treet. Forklar hvorfor disse 12 utfallene ikke vil gi opphav til en uniform sannsynlighetsmodell.
+Henrik kaster en sekssidet terning og trekker deretter et kort fra en vanlig kortstokk. En vanlig kortstokk inneholder 16 bildekort (knekt, dame, konge og ess) og 36 vanlige kort (kort fra 2 til 10). Henrik setter opp et utfallstre, slik du kan se på bildet under. På utfallstreet har han market at i første omgang kan han få 1 til 6. I neste omgang kan han få enten bildekort eller et kort fra 2 til 10. Det gir totalt $6\cdot 2 = 12$ grener i treet. Forklar hvorfor disse 12 utfallene ikke vil gi opphav til en uniform sannsynlighetsmodell.
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/sannsyn/uniform1205sannsyn.svg)
 
@@ -456,7 +456,7 @@ Studenten må peke på problemet med modellen, nemlig at i andre del av utvelgin
 #### Avansert: Sette opp uniforme sannsynlighetsmodeller fra en gitt situasjon
 
 Følgende oppgave ble gitt på middels:
-*Henrik kaster en sekssidet terning og trekker deretter et kort fra en vanlig  kortstokk. En vanlig kortstokk inneholder 16 bildekort (knekt, dame, konge og ess) og 36 vanlige kort (kort fra 2 til 10). Henrik setter opp et utfallstre, slik du kan se på bildet under. På utfallstreet har han market at i første omgang kan han få 1 til 6. I neste omgang kan han få enten bildekort eller et kort fra 2 til 10. Det gir totalt \(6\cdot 2 = 12\) grener i treet. Forklar hvorfor disse 12 utfallene ikke vil gi opphav til en uniform sannsynlighetsmodell.*
+*Henrik kaster en sekssidet terning og trekker deretter et kort fra en vanlig  kortstokk. En vanlig kortstokk inneholder 16 bildekort (knekt, dame, konge og ess) og 36 vanlige kort (kort fra 2 til 10). Henrik setter opp et utfallstre, slik du kan se på bildet under. På utfallstreet har han market at i første omgang kan han få 1 til 6. I neste omgang kan han få enten bildekort eller et kort fra 2 til 10. Det gir totalt $6\cdot 2 = 12$ grener i treet. Forklar hvorfor disse 12 utfallene ikke vil gi opphav til en uniform sannsynlighetsmodell.*
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/sannsyn/uniform1205sannsyn.svg)
 
@@ -464,7 +464,7 @@ I oppgaven over er det gitt et utfallstre som ikke gir opphav til en uniform san
 
 ##### Vurderingskriterier
 
-Studenten må gjøre endringer som gir opphav til en uniform sannsynlighetsmodell som hjelper de å beregne sannsynligheten. Dette kan for eksempel gjøres ved å peke på at i andre del av utvelgelsen så er det 13 mulige verdier man kan få (som alle er like sannsynlige), men at det kun er fire av de som er bildekort. Dermed er det \(6\) mulige utfall ved terningkastet og så \(13\) muligheter ved korttrekningen. Det gir totalt \(6\cdot 13\) muligheter som har lik sannsynlighet for å skje. Det er derimot kun 2 gunstige i første omgang og for hver av de to mulige utfallene (kaste 3'er eller 6'er), så er det 4 gunstige utfall (trekke bildekort). Det gir dermed \(2\cdot 4 = 8\) gunstige muligheter. Sannsynligheten blir dermed \(\frac{8}{78}\).
+Studenten må gjøre endringer som gir opphav til en uniform sannsynlighetsmodell som hjelper de å beregne sannsynligheten. Dette kan for eksempel gjøres ved å peke på at i andre del av utvelgelsen så er det 13 mulige verdier man kan få (som alle er like sannsynlige), men at det kun er fire av de som er bildekort. Dermed er det $6$ mulige utfall ved terningkastet og så $13$ muligheter ved korttrekningen. Det gir totalt $6\cdot 13$ muligheter som har lik sannsynlighet for å skje. Det er derimot kun 2 gunstige i første omgang og for hver av de to mulige utfallene (kaste 3'er eller 6'er), så er det 4 gunstige utfall (trekke bildekort). Det gir dermed $2\cdot 4 = 8$ gunstige muligheter. Sannsynligheten blir dermed $\frac{8}{78}$.
 
 ### Forklare, illustrere og bruke produktregelen
 
@@ -528,11 +528,11 @@ Forklar begrepet komplement ved hjelp av et eksempel.
 
 #### Middels: Forklare og illustrere komplementsetningen i sannsynlighet
 
-Du skal spiller et kortspill og er interessert i sannsynligheten for hendelse \(A\). Du får vite at \(P(A^C) = 0.9\). Hva er \(P(A)\)?
+Du skal spiller et kortspill og er interessert i sannsynligheten for hendelse $A$. Du får vite at $P(A^C) = 0.9$. Hva er $P(A)$?
 
 ##### Vurderingskriterier
 
-Studenten må bare bruke komplementsetningen til å peke på at \(P(A) + P(A^C) = 1\), noe som gir at \(P(A) = 0.1\).
+Studenten må bare bruke komplementsetningen til å peke på at $P(A) + P(A^C) = 1$, noe som gir at $P(A) = 0.1$.
 
 #### Avansert: Forklare, illustrere og bruke komplementsetningen i sannsynlighet
 

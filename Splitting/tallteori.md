@@ -544,21 +544,21 @@ Forklar hvorfor alle produkt av tre påfølgende naturlige tall har faktor 3.
 
 ##### Vurderingskriterier
 
-Studenten må gi en forklaring som begrunner påstanden. Dette kan gjøres på flere måter (generisk eksemplel med/uten figur, formelt etc). Et formelt argument er for eksempel at en vilkårlig prddukt av tre påfølgende tall kan skrives som \(n\cdot (n+1)\cdot (n+2)\), der \(n\) er et naturlig tall større enn 1. Det gjenstår nå bare å peke på at hvis \(n\) er i tregangen så er det klart at faktoren 3 inngår. Hvis \(n\) ikke er i tregangen, så er den enten én under eller to under. Er den én under, så vil \(n+1\) være i tregangen, er den to under vil \(n+2\) være i tregangen. Uansett, vil ett av de tre påfølgende tallene være i tregangen.
+Studenten må gi en forklaring som begrunner påstanden. Dette kan gjøres på flere måter (generisk eksemplel med/uten figur, formelt etc). Et formelt argument er for eksempel at en vilkårlig prddukt av tre påfølgende tall kan skrives som $n\cdot (n+1)\cdot (n+2)$, der $n$ er et naturlig tall større enn 1. Det gjenstår nå bare å peke på at hvis $n$ er i tregangen så er det klart at faktoren 3 inngår. Hvis $n$ ikke er i tregangen, så er den enten én under eller to under. Er den én under, så vil $n+1$ være i tregangen, er den to under vil $n+2$ være i tregangen. Uansett, vil ett av de tre påfølgende tallene være i tregangen.
 
 #### Avansert: Løse (også ukjente) problemer knyttet til begrepene
 
 Undersøk og begrunn følgende påstander.
 
-1. *Hvis vi har ulike tall \(a\) og \(b\) med største felles faktor \(f\), så vil \(a-b\) også ha felles faktor \(f\)*
-2. *Hvis \(a\) er større enn \(b\) og \(b\) er større enn \(a-b\), så vil \(b- (a-b)\) også ha felles faktor \(f\).*
-3. *Hvis vi fortsetter slik som i 1. og 2., ved å ta de to minste tallene og se på differansen, vil vi alltid produsere nye tall med faktor \(f\) helt til de to minste tallene blir like store (og lik \(f\)).*
+1. *Hvis vi har ulike tall $a$ og $b$ med største felles faktor $f$, så vil $a-b$ også ha felles faktor $f$*
+2. *Hvis $a$ er større enn $b$ og $b$ er større enn $a-b$, så vil $b- (a-b)$ også ha felles faktor $f$.*
+3. *Hvis vi fortsetter slik som i 1. og 2., ved å ta de to minste tallene og se på differansen, vil vi alltid produsere nye tall med faktor $f$ helt til de to minste tallene blir like store (og lik $f$).*
 
 ##### Vurderingskriterier
 
 Studenten bør undersøke påstanden og deretter komme med en overbevisende forklaring. 
-Ved å underøske noen eksempler, \(a= 30\) og \(b=21\), som har største felles faktor 3, ser vi at \(a-b = 9\) og \(b-(a-b) = 21-9 = 12\). Dette var steg 1. og 2. Fortsetter vi med de to minste tallene \(9\) og \(12\) får vi \(12-9 = 3\), som gir \(9-3 = 6\) som gir \(6-3 = 3\) og vi har nå fått to like tall som er faktoren \(f\).
-At \(a-b\) har faktor \(f\) kan de argumentere for ved å for eksempel peke på et generisk eksempel som \(30\) og \(21\) og si at siden \(3\) er felles faktor så kan vi skrive \(30 = 3\cdot 10\) og \(21 = 3\cdot 7\), dermed blir differansen \(3(10-7)\) som åpenbart fortsatt inneholder faktoren \(3\). Det er ingenting unikt med \(30\) og \(21\). Det eneste viktige her er at vi kan faktorisere ut faktoren i differansen, noe vi alltid vil kunne gjøre. Vi ser nå at påstand 2. følger direkte fra begrunnelsen av påstand 1. Siden påstand 1. og 2. viser at vi bare kan fortsette og fortsette uten å miste faktoren \(f\), så er det tydelig at vi får mindre og mindre tall, alle med faktor \(f\). Til slutt må ett av tallene bli så små at de er mindre eller lik \(f\), men de kan ikke være mindre, siden alle tall mindre enn \(f\) ikke inneholder faktoren \(f\). Dermed står vi nå med to tall, ett som *er* \(f\) og ett som er et multiplum av \(f\). Dermed følger siste del av argumentet også direkte. 
+Ved å underøske noen eksempler, $a= 30$ og $b=21$, som har største felles faktor 3, ser vi at $a-b = 9$ og $b-(a-b) = 21-9 = 12$. Dette var steg 1. og 2. Fortsetter vi med de to minste tallene $9$ og $12$ får vi $12-9 = 3$, som gir $9-3 = 6$ som gir $6-3 = 3$ og vi har nå fått to like tall som er faktoren $f$.
+At $a-b$ har faktor $f$ kan de argumentere for ved å for eksempel peke på et generisk eksempel som $30$ og $21$ og si at siden $3$ er felles faktor så kan vi skrive $30 = 3\cdot 10$ og $21 = 3\cdot 7$, dermed blir differansen $3(10-7)$ som åpenbart fortsatt inneholder faktoren $3$. Det er ingenting unikt med $30$ og $21$. Det eneste viktige her er at vi kan faktorisere ut faktoren i differansen, noe vi alltid vil kunne gjøre. Vi ser nå at påstand 2. følger direkte fra begrunnelsen av påstand 1. Siden påstand 1. og 2. viser at vi bare kan fortsette og fortsette uten å miste faktoren $f$, så er det tydelig at vi får mindre og mindre tall, alle med faktor $f$. Til slutt må ett av tallene bli så små at de er mindre eller lik $f$, men de kan ikke være mindre, siden alle tall mindre enn $f$ ikke inneholder faktoren $f$. Dermed står vi nå med to tall, ett som *er* $f$ og ett som er et multiplum av $f$. Dermed følger siste del av argumentet også direkte. 
 
 ### Bruke begrepene naturlig tall, partall og oddetall, primtall og sammensatt tall
 
@@ -577,15 +577,15 @@ Se tidligere oppgaver
 
 Undersøk og begrunn følgende påstander.
 
-1. *Hvis vi har en liste med forskjellige primtall \(L =\{p_1, p_2, p_3, \ldots, p_n\}\) og vi ser på produktet \(a=p_1\cdot p_2\cdot\ldots\cdot p_n+1\), så vil \(a\) ikke være delelig med noen av primtallene i listen \(L\).*
-2. *\(a\) må enten være et primtall som ikke er i \(L\), eller et sammensatt tall bestående av et primtall som ikke er i \(L\).*
+1. *Hvis vi har en liste med forskjellige primtall $L =\{p_1, p_2, p_3, \ldots, p_n\}$ og vi ser på produktet $a=p_1\cdot p_2\cdot\ldots\cdot p_n+1$, så vil $a$ ikke være delelig med noen av primtallene i listen $L$.*
+2. *$a$ må enten være et primtall som ikke er i $L$, eller et sammensatt tall bestående av et primtall som ikke er i $L$.*
 3. *Vi kan derfor enkelt generere nye primtall, noe som betyr at det finnes uendelig mange primtall.*
 
 ##### Vurderingskriterier
 
 Studenten må begrunne påstandene
-1. Siden \(p_1\) deler \(a-1\) så kan ikke \(p_1\) dele \(a = (a-1)+1\), siden \(p_1\) ikke deler \(1\). Dette argumentet gjelder også for \(p_2\), \(p_3\) og resten av primtallene i lista \(L\). 
-2. Siden ingen av primtallene i listen deler \(a\), så må det finnes et primtall, som ikke er i listen, som deler \(a\). Enten så er det \(a\), ellers må det være et primtall mindre enn \(a\), som betyr at \(a\) er et sammensatt tall.
+1. Siden $p_1$ deler $a-1$ så kan ikke $p_1$ dele $a = (a-1)+1$, siden $p_1$ ikke deler $1$. Dette argumentet gjelder også for $p_2$, $p_3$ og resten av primtallene i lista $L$. 
+2. Siden ingen av primtallene i listen deler $a$, så må det finnes et primtall, som ikke er i listen, som deler $a$. Enten så er det $a$, ellers må det være et primtall mindre enn $a$, som betyr at $a$ er et sammensatt tall.
 3. Vi kan se fra 1. og 2. at vi kan fortsette å generere nye primtall ved å gjenta argumentene fra 1. og 2. igjen og igjen. Siden vi kan fortsette for evig må det også finnes uendelig mange primtall
 
 ### Begrunne delelighetsreglene for tall som er delelig med 2, 3, 4, 5, 6 og 9
@@ -659,7 +659,7 @@ Ved å illustrere figurene og markere i illustrasjonen, gi en ordforklaring av
 ##### Vurderingskriterier
 
 1. Studenten kan for eksempel markere og bryte ned figuren i tre komponenter. To trekanter som er like store og er én større enn figurtallsnummeret (figur 1 har trekanter med størrelse 2, figur 2 har trekanter med størrelse 3 osv). Den siste komponenten er et kvadrat i midten som mangler sidene (men ikke hjørnene), også kvadratet er én større enn figurtallsnummeret (se figurer under). 
-2. Fra 1. kan vi peke på at hvis vi skal gå fra figurtallnumer \(n\) til å lage neste figur så må øke de tre komponentene på følgende måte: vi legge på sidelenger med størrelse \(n+2\) på de to trekantene. På kvadratet må vi fylle sidene og legge til "ytre hjørner" (eventuelt må vi bare flytte de fire hjørnene ut og legge til rammen). 
+2. Fra 1. kan vi peke på at hvis vi skal gå fra figurtallnumer $n$ til å lage neste figur så må øke de tre komponentene på følgende måte: vi legge på sidelenger med størrelse $n+2$ på de to trekantene. På kvadratet må vi fylle sidene og legge til "ytre hjørner" (eventuelt må vi bare flytte de fire hjørnene ut og legge til rammen). 
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/figurtall1205.drawio%20copy.svg)
 
@@ -696,7 +696,7 @@ Finn en eksplisitt formel på to forskjellige måter.
 
 ##### Vuderingskriterier
 
-Vi begynner med å analysere utviklingen av tallrekka. Vi ser at økningen er  \(2\), så \(4\) og så \(6\). Tilleggene øker altså med \(2\). Dermed kan vi skrive 
+Vi begynner med å analysere utviklingen av tallrekka. Vi ser at økningen er  $2$, så $4$ og så $6$. Tilleggene øker altså med $2$. Dermed kan vi skrive 
 $$
 \begin{aligned}
 F_1 & = 2

@@ -33,7 +33,7 @@ Forklar hvorfor alle produkt av tre påfølgende naturlige tall har faktor 3.
 
 ##### Vurderingskriterier
 
-Studenten må gi en forklaring som begrunner påstanden. Dette kan gjøres på flere måter (generisk eksemplel med/uten figur, formelt etc). Et formelt argument er for eksempel at en vilkårlig prddukt av tre påfølgende tall kan skrives som \(n\cdot (n+1)\cdot (n+2)\), der \(n\) er et naturlig tall større enn 1. Det gjenstår nå bare å peke på at hvis \(n\) er i tregangen så er det klart at faktoren 3 inngår. Hvis \(n\) ikke er i tregangen, så er den enten én under eller to under. Er den én under, så vil \(n+1\) være i tregangen, er den to under vil \(n+2\) være i tregangen. Uansett, vil ett av de tre påfølgende tallene være i tregangen.
+Studenten må gi en forklaring som begrunner påstanden. Dette kan gjøres på flere måter (generisk eksemplel med/uten figur, formelt etc). Et formelt argument er for eksempel at en vilkårlig prddukt av tre påfølgende tall kan skrives som $n\cdot (n+1)\cdot (n+2)$, der $n$ er et naturlig tall større enn 1. Det gjenstår nå bare å peke på at hvis $n$ er i tregangen så er det klart at faktoren 3 inngår. Hvis $n$ ikke er i tregangen, så er den enten én under eller to under. Er den én under, så vil $n+1$ være i tregangen, er den to under vil $n+2$ være i tregangen. Uansett, vil ett av de tre påfølgende tallene være i tregangen.
 
 #### Middels: Bruke begrepene faktor (divisor), felles faktor og største felles faktor, multiplum, felles multiplum og minste felles multiplum,  08.05
 

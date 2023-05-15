@@ -41,7 +41,7 @@ Ved å illustrere figurene og markere i illustrasjonen, gi en ordforklaring av
 ##### Vurderingskriterier
 
 1. Studenten kan for eksempel markere og bryte ned figuren i tre komponenter. To trekanter som er like store og er én større enn figurtallsnummeret (figur 1 har trekanter med størrelse 2, figur 2 har trekanter med størrelse 3 osv). Den siste komponenten er et kvadrat i midten som mangler sidene (men ikke hjørnene), også kvadratet er én større enn figurtallsnummeret (se figurer under). 
-2. Fra 1. kan vi peke på at hvis vi skal gå fra figurtallnumer \(n\) til å lage neste figur så må øke de tre komponentene på følgende måte: vi legge på sidelenger med størrelse \(n+2\) på de to trekantene. På kvadratet må vi fylle sidene og legge til "ytre hjørner" (eventuelt må vi bare flytte de fire hjørnene ut og legge til rammen). 
+2. Fra 1. kan vi peke på at hvis vi skal gå fra figurtallnumer $n$ til å lage neste figur så må øke de tre komponentene på følgende måte: vi legge på sidelenger med størrelse $n+2$ på de to trekantene. På kvadratet må vi fylle sidene og legge til "ytre hjørner" (eventuelt må vi bare flytte de fire hjørnene ut og legge til rammen). 
 
 ![](https://raw.githubusercontent.com/Andremartiny/MA-173/main/img/tallteo/figurtall1205.drawio%20copy.svg)
 

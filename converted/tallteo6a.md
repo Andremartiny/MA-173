@@ -63,7 +63,7 @@ Finn en eksplisitt formel på to forskjellige måter.
 
 ##### Vuderingskriterier
 
-Vi begynner med å analysere utviklingen av tallrekka. Vi ser at økningen er  \(2\), så \(4\) og så \(6\). Tilleggene øker altså med \(2\). Dermed kan vi skrive 
+Vi begynner med å analysere utviklingen av tallrekka. Vi ser at økningen er  $2$, så $4$ og så $6$. Tilleggene øker altså med $2$. Dermed kan vi skrive 
 $$
 \begin{aligned}
 F_1 & = 2
