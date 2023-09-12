@@ -1,9 +1,0 @@
-{
-    "pasteImage.path": "${projectRoot}/img",
-    "pasteImage.basePath": "${projectRoot}/",
-    "pasteImage.forceUnixStyleSeparator": true,
-    "pasteImage.prefix": "/",
-    "cSpell.enableFiletypes": [
-        "markdown"
-    ]
-}
