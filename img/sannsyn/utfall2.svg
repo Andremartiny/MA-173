@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="197.95447mm"
-   height="100mm"
-   viewBox="0 0 197.95447 100"
+   width="240.41815mm"
+   height="121.45123mm"
+   viewBox="0 0 240.41815 121.45123"
    version="1.1"
    id="svg5"
    inkscape:export-filename="utfall1.svg"
@@ -31,15 +31,15 @@
      inkscape:label="Lag 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-6.8968794,-110.42694)">
+     transform="translate(-808.82137,-734.8234)">
     <g
-       transform="matrix(0.21785155,0,0,0.21785155,-49.716539,81.801237)"
-       id="g2591">
+       transform="matrix(0.26458333,0,0,0.26458333,740.06372,700.0572)"
+       id="g22300">
       <path
          d="m 262,136 c 25.474,-1.279 36.016,-1.569 55.409,0 19.392,1.569 43.798,2.056 68.938,0 25.141,-2.056 39.986,1.404 55.409,0 15.422,-1.404 32.298,-2.635 59.918,0 27.621,2.635 36.51,-0.756 68.939,0 32.429,0.756 34.333,1.356 55.408,0 21.076,-1.356 61.616,3.198 86.979,0 -1.789,18.685 0.42,38.753 0,49.72 -0.42,10.967 1.187,43.496 0,61.02 -1.187,17.524 1.07,37.347 0,49.72 -1.07,12.373 -2.587,46.173 0,65.54 -24.21,1.893 -32.803,0.079 -50.899,0 -18.096,-0.079 -42.321,1.128 -59.918,0 -17.598,-1.128 -47.663,-3.345 -73.449,0 -25.785,3.345 -51.346,-1.296 -64.428,0 -13.083,1.296 -44.156,2.959 -73.449,0 -29.293,-2.959 -42.271,-1.145 -73.448,0 -31.178,1.145 -28.325,-0.29 -55.409,0 -2.125,-23.501 0.346,-34.301 0,-49.72 -0.346,-15.419 -2.898,-39.308 0,-61.02 2.898,-21.712 -0.757,-35.831 0,-54.24 0.757,-18.408 2.359,-33.763 0,-61.02 z"
          fill="#f2f2f2"
          fill-rule="evenodd"
-         id="path2549" />
+         id="path22258" />
       <path
          d="m 262,136 c 21.342,1.318 47.314,1.467 59.919,0 12.604,-1.467 40.533,-2.259 50.898,0 10.365,2.259 37.159,1.667 50.899,0 13.739,-1.667 33.268,0.397 50.898,0 17.631,-0.397 29.812,-1.189 50.899,0 21.086,1.189 39.562,-0.92 55.408,0 15.846,0.92 44.106,-0.607 68.939,0 24.833,0.607 48.912,1.691 63.14,0 2.476,14.899 1.928,43.65 0,58.76 -1.928,15.11 -2.559,35.212 0,54.24 2.559,19.028 -0.111,34.474 0,49.72 0.111,15.247 1.139,48.521 0,63.28 -33.201,-3.248 -42.597,2.404 -68.939,0 -26.341,-2.404 -33.17,2.267 -59.918,0 -26.749,-2.267 -40.168,-3.659 -73.449,0 -33.281,3.659 -43.61,-2.223 -64.428,0 -20.819,2.223 -34.356,-1.681 -59.919,0 -25.563,1.681 -97.189,2.104 -124.347,0 -2.674,-16.902 0.29,-45.336 0,-58.76 -0.29,-13.424 -0.854,-34.789 0,-56.5 0.854,-21.711 0.688,-28.136 0,-54.24 -0.688,-26.104 2.021,-39.264 0,-56.5 z"
          stroke="#042433"
@@ -47,12 +47,12 @@
          stroke-miterlimit="8"
          fill="none"
          fill-rule="evenodd"
-         id="path2551" />
+         id="path22260" />
       <path
          d="m 715,134 c 25.474,-1.278 36.016,-1.569 55.409,0 19.392,1.569 43.798,2.056 68.938,0 25.141,-2.056 39.986,1.404 55.409,0 15.422,-1.404 32.298,-2.635 59.918,0 27.621,2.635 36.51,-0.756 68.936,0 32.43,0.756 34.34,1.356 55.41,0 21.08,-1.356 61.62,3.197 86.98,0 2.22,11.255 -0.39,40.851 0,51.237 0.39,10.386 -3.49,54.311 0,73.937 3.49,19.626 -2.49,34.277 0,51.237 2.49,16.961 -1.01,34.506 0,51.238 1.01,16.732 -2.18,32.151 0,51.237 2.18,19.085 -0.9,33.646 0,60.317 0.9,26.671 -2.02,42.336 0,55.777 2.02,13.441 -1.61,38.765 0,59.02 -29.71,-0.353 -49.28,-1.311 -68.94,0 -19.66,1.311 -42.69,-1.675 -73.45,0 -30.752,1.675 -28.321,-0.29 -55.406,0 -27.084,0.289 -30.594,0.18 -50.898,0 -20.304,-0.18 -34.844,-1.699 -64.429,0 -29.585,1.699 -28.573,-0.498 -55.408,0 -26.836,0.498 -51.822,1.861 -82.469,0 -2.875,-19.612 2.764,-45.387 0,-69.397 -2.764,-24.01 2.076,-50.34 0,-64.857 -2.076,-14.518 0.006,-44.234 0,-60.317 -0.006,-16.084 -3.011,-36.313 0,-64.858 3.011,-28.544 3.446,-39.75 0,-69.397 -3.446,-29.647 -0.786,-38.995 0,-60.317 0.786,-21.322 1.614,-45.484 0,-64.857 z"
          fill="#c5e0b4"
          fill-rule="evenodd"
-         id="path2553" />
+         id="path22262" />
       <path
          d="m 715,134 c 13.551,0.607 27.893,-0.032 50.899,0 23.005,0.032 51.924,3.171 68.938,0 17.014,-3.171 41.362,-0.751 55.409,0 14.046,0.751 32.863,1.355 64.428,0 31.566,-1.355 42.388,-2.527 64.426,0 22.04,2.527 38.43,-1.478 55.41,0 16.98,1.478 72.45,-0.433 91.49,0 0.36,17.48 2.18,39.845 0,60.317 -2.18,20.472 1.67,43.954 0,64.857 -1.67,20.904 1.58,52.714 0,69.397 -1.58,16.684 -0.07,41.312 0,64.858 0.07,23.545 -2.04,36.033 0,55.777 2.04,19.744 2.05,45.816 0,60.317 -2.05,14.501 -3.13,59.306 0,78.477 -23.16,-3.403 -54.19,-0.892 -68.94,0 -14.75,0.892 -32.25,-2.852 -59.92,0 -27.67,2.852 -41.439,0.475 -73.446,0 -32.006,-0.475 -45.539,2.265 -64.428,0 -18.889,-2.265 -56.668,3.281 -73.449,0 -16.781,-3.281 -86.602,-4.2 -110.817,0 0.123,-14.296 3.113,-35.702 0,-69.397 -3.113,-33.695 2.973,-46.246 0,-60.317 -2.973,-14.072 -1.742,-28.544 0,-55.777 1.742,-27.233 -3.323,-48.389 0,-69.398 3.323,-21.008 1.731,-37.17 0,-73.937 -1.731,-36.766 -0.968,-39.297 0,-60.317 0.968,-21.02 -3.018,-35.784 0,-64.857 z"
          stroke="#042433"
@@ -60,12 +60,12 @@
          stroke-miterlimit="8"
          fill="none"
          fill-rule="evenodd"
-         id="path2555" />
+         id="path22264" />
       <path
          d="m 264,362 c 25.417,-1.279 35.936,-1.569 55.286,0 19.349,1.569 43.701,2.056 68.785,0 25.085,-2.056 39.898,1.404 55.286,0 15.388,-1.404 32.227,-2.635 59.786,0 27.559,2.635 36.428,-0.756 68.786,0 32.357,0.756 34.257,1.356 55.285,0 21.029,-1.356 61.479,3.198 86.786,0 -1.785,18.685 0.419,38.753 0,49.72 -0.419,10.967 1.185,43.496 0,61.02 -1.185,17.524 1.067,37.347 0,49.72 -1.067,12.373 -2.582,46.173 0,65.54 -24.156,1.893 -32.73,0.079 -50.786,0 -18.056,-0.079 -42.227,1.128 -59.785,0 -17.559,-1.128 -47.558,-3.345 -73.286,0 -25.729,3.345 -51.232,-1.296 -64.286,0 -13.053,1.296 -44.058,2.959 -73.286,0 -29.227,-2.959 -42.177,-1.145 -73.285,0 -31.108,1.145 -28.262,-0.29 -55.286,0 -2.12,-23.501 0.345,-34.301 0,-49.72 -0.345,-15.419 -2.892,-39.308 0,-61.02 2.892,-21.712 -0.755,-35.831 0,-54.24 0.755,-18.408 2.354,-33.763 0,-61.02 z"
          fill="#c5e0b4"
          fill-rule="evenodd"
-         id="path2557" />
+         id="path22266" />
       <path
          d="m 264,362 c 21.295,1.318 47.209,1.467 59.786,0 12.576,-1.467 40.444,-2.259 50.785,0 10.342,2.259 37.077,1.667 50.786,0 13.709,-1.667 33.194,0.397 50.786,0 17.591,-0.397 29.746,-1.189 50.786,0 21.039,1.189 39.474,-0.92 55.285,0 15.811,0.92 44.009,-0.607 68.786,0 24.777,0.607 48.804,1.691 63,0 2.471,14.899 1.924,43.65 0,58.76 -1.924,15.11 -2.553,35.212 0,54.24 2.553,19.028 -0.111,34.474 0,49.72 0.111,15.247 1.137,48.521 0,63.28 -33.128,-3.248 -42.503,2.404 -68.786,0 -26.283,-2.404 -33.096,2.267 -59.785,0 -26.69,-2.267 -40.079,-3.659 -73.286,0 -33.207,3.659 -43.513,-2.223 -64.286,0 -20.772,2.223 -34.279,-1.681 -59.786,0 -25.506,1.681 -96.974,2.104 -124.071,0 -2.668,-16.902 0.29,-45.336 0,-58.76 -0.29,-13.424 -0.852,-34.789 0,-56.5 0.852,-21.711 0.686,-28.136 0,-54.24 -0.686,-26.104 2.016,-39.264 0,-56.5 z"
          stroke="#042433"
@@ -73,97 +73,97 @@
          stroke-miterlimit="8"
          fill="none"
          fill-rule="evenodd"
-         id="path2559" />
+         id="path22268" />
       <text
-         font-family="Handlee, Handlee_MSFontService, sans-serif"
+         font-family="Kalam, Kalam_MSFontService, sans-serif"
          font-weight="400"
          font-size="40px"
-         transform="translate(413.403,441)"
-         id="text2561">Stillingen</text>
+         transform="translate(410.903,439)"
+         id="text22270">Stillingen</text>
       <text
-         font-family="Handlee, Handlee_MSFontService, sans-serif"
+         font-family="Kalam, Kalam_MSFontService, sans-serif"
          font-weight="400"
          font-size="40px"
-         transform="translate(462.649,489)"
-         id="text2563">blir</text>
+         transform="translate(461.649,487)"
+         id="text22272">blir</text>
       <text
-         font-family="Handlee, Handlee_MSFontService, sans-serif"
+         font-family="Kalam, Kalam_MSFontService, sans-serif"
          font-weight="400"
          font-size="40px"
-         transform="translate(459.903,537)"
-         id="text2565">5</text>
+         transform="translate(465.069,535)"
+         id="text22274">5</text>
       <text
-         font-family="Handlee, Handlee_MSFontService, sans-serif"
+         font-family="Kalam, Kalam_MSFontService, sans-serif"
          font-weight="400"
          font-size="40px"
-         transform="translate(483.069,537)"
-         id="text2567">-</text>
+         transform="translate(486.569,535)"
+         id="text22276">-</text>
       <text
-         font-family="Handlee, Handlee_MSFontService, sans-serif"
+         font-family="Kalam, Kalam_MSFontService, sans-serif"
          font-weight="400"
          font-size="40px"
-         transform="translate(504.903,537)"
-         id="text2569">3</text>
+         transform="translate(504.903,535)"
+         id="text22278">3</text>
       <text
-         font-family="Handlee, Handlee_MSFontService, sans-serif"
+         font-family="Kalam, Kalam_MSFontService, sans-serif"
          font-weight="400"
          font-size="40px"
-         transform="translate(412.034,221)"
-         id="text2571">Stillingen</text>
+         transform="translate(409.534,219)"
+         id="text22280">Stillingen</text>
       <text
-         font-family="Handlee, Handlee_MSFontService, sans-serif"
+         font-family="Kalam, Kalam_MSFontService, sans-serif"
          font-weight="400"
          font-size="40px"
-         transform="translate(461.281,269)"
-         id="text2573">blir</text>
+         transform="translate(460.281,267)"
+         id="text22282">blir</text>
       <text
-         font-family="Handlee, Handlee_MSFontService, sans-serif"
+         font-family="Kalam, Kalam_MSFontService, sans-serif"
          font-weight="400"
          font-size="40px"
-         transform="translate(458.781,317)"
-         id="text2575">4</text>
+         transform="translate(463.867,315)"
+         id="text22284">4</text>
       <text
-         font-family="Handlee, Handlee_MSFontService, sans-serif"
+         font-family="Kalam, Kalam_MSFontService, sans-serif"
          font-weight="400"
          font-size="40px"
-         transform="translate(480.614,317)"
-         id="text2577">-</text>
+         transform="translate(485.867,315)"
+         id="text22286">-</text>
       <text
-         font-family="Handlee, Handlee_MSFontService, sans-serif"
+         font-family="Kalam, Kalam_MSFontService, sans-serif"
          font-weight="400"
          font-size="40px"
-         transform="translate(502.447,317)"
-         id="text2579">4</text>
+         transform="translate(504.201,315)"
+         id="text22288">4</text>
       <text
-         font-family="Handlee, Handlee_MSFontService, sans-serif"
+         font-family="Kalam, Kalam_MSFontService, sans-serif"
          font-weight="400"
          font-size="40px"
-         transform="translate(873.482,324)"
-         id="text2581">Stillingen</text>
+         transform="translate(870.982,322)"
+         id="text22290">Stillingen</text>
       <text
-         font-family="Handlee, Handlee_MSFontService, sans-serif"
+         font-family="Kalam, Kalam_MSFontService, sans-serif"
          font-weight="400"
          font-size="40px"
-         transform="translate(922.729,372)"
-         id="text2583">blir</text>
+         transform="translate(921.729,370)"
+         id="text22292">blir</text>
       <text
-         font-family="Handlee, Handlee_MSFontService, sans-serif"
+         font-family="Kalam, Kalam_MSFontService, sans-serif"
          font-weight="400"
          font-size="40px"
-         transform="translate(919.149,420)"
-         id="text2585">5</text>
+         transform="translate(924.982,418)"
+         id="text22294">5</text>
       <text
-         font-family="Handlee, Handlee_MSFontService, sans-serif"
+         font-family="Kalam, Kalam_MSFontService, sans-serif"
          font-weight="400"
          font-size="40px"
-         transform="translate(942.316,420)"
-         id="text2587">-</text>
+         transform="translate(946.482,418)"
+         id="text22296">-</text>
       <text
-         font-family="Handlee, Handlee_MSFontService, sans-serif"
+         font-family="Kalam, Kalam_MSFontService, sans-serif"
          font-weight="400"
          font-size="40px"
-         transform="translate(964.149,420)"
-         id="text2589">2</text>
+         transform="translate(964.816,418)"
+         id="text22298">2</text>
     </g>
   </g>
 </svg>
